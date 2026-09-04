@@ -1,0 +1,27 @@
+<!-- 此文件由 scripts/build_catalog_pages.py 从 content/issues/*.json 生成。 -->
+---
+title: "学术动态"
+---
+
+<p class="catalog-intro">会议、征文、专题征稿与合格公益性活动。 当前公开条目均为 <strong>DEMO</strong>，仅用于验证页面结构，不代表真实资讯。</p>
+
+## 公开期次
+
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>DEMO：征稿信息占位条目 B</h3>
+<p class="catalog-meta">日期：2099-01-02；状态：DEMO</p>
+<p>中性占位征稿信息，不对应真实会议或期刊。</p>
+<p class="catalog-tags">标签：征稿</p>
+<p><a href="../20990102/">查看日期详版</a></p>
+</article>
+<article class="catalog-card">
+<h3>DEMO：征稿信息占位条目 A</h3>
+<p class="catalog-meta">日期：2099-01-02；状态：DEMO</p>
+<p>中性占位征稿信息，不对应真实会议或期刊。</p>
+<p class="catalog-tags">标签：征稿</p>
+<p><a href="../20990102/">查看日期详版</a></p>
+</article>
+</div>
+
+[返回栏目索引](index.qmd)

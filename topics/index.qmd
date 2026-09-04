@@ -1,0 +1,48 @@
+<!-- 此文件由 scripts/build_catalog_pages.py 从 content/issues/*.json 生成。 -->
+---
+title: "栏目索引"
+---
+
+<p class="catalog-intro">按内容类型浏览公开期次。软件、方法与研究领域是可叠加标签，不构成一级栏目。 当前公开条目均为 <strong>DEMO</strong>，仅用于验证页面结构，不代表真实资讯。</p>
+
+## 一级栏目
+
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3><a href="lianxh-new.qmd">连享新文</a></h3>
+<p>连享会的新文章、讲义与资源说明。</p>
+<p class="catalog-meta">当前 1 条公开条目；均为 DEMO。</p>
+</article>
+<article class="catalog-card">
+<h3><a href="research-frontier.qmd">论文前沿</a></h3>
+<p>已筛选的论文与研究成果。</p>
+<p class="catalog-meta">当前 2 条公开条目；均为 DEMO。</p>
+</article>
+<article class="catalog-card">
+<h3><a href="methods-tools.qmd">方法工具</a></h3>
+<p>软件、方法、复现与数据处理工具。</p>
+<p class="catalog-meta">当前 3 条公开条目；均为 DEMO。</p>
+</article>
+<article class="catalog-card">
+<h3><a href="academic-updates.qmd">学术动态</a></h3>
+<p>会议、征文、专题征稿与合格公益性活动。</p>
+<p class="catalog-meta">当前 2 条公开条目；均为 DEMO。</p>
+</article>
+</div>
+
+## 标签概览
+
+<section class="catalog-tag-group">
+<h3>软件平台</h3>
+<p>Python、Stata</p>
+</section>
+
+<section class="catalog-tag-group">
+<h3>研究方法</h3>
+<p>因果推断、机器学习、面板数据</p>
+</section>
+
+<section class="catalog-tag-group">
+<h3>研究领域</h3>
+<p>金融</p>
+</section>

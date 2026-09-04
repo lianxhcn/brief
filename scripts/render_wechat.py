@@ -7,6 +7,8 @@ import argparse
 import json
 from pathlib import Path
 
+from site_config import detail_url
+
 VARIANTS = ("general", "stata-causal", "r-python-ml", "finance")
 SECTION_LABELS = {
     "lianxh_posts": "🌸 新推文",
@@ -14,10 +16,6 @@ SECTION_LABELS = {
     "tools": "🍀 方法与工具",
     "conference_calls": "🍅 会议与征稿",
 }
-
-
-def detail_url(issue: dict) -> str:
-    return f"https://lianxhcn.github.io/lianxh-group-briefs/issues/{issue['date']}.html"
 
 
 def add_url(lines: list[str], url: str) -> None:
@@ -28,7 +26,7 @@ def title_line(issue: dict) -> str:
     date_text = issue["date"].replace("-", ".")
     prefix = "会议信息" if issue["issue_type"] == "conference-bulletin" else "连享会快讯"
     demo = " · DEMO" if issue["status"] == "demo" else ""
-    return f"🔹 {prefix} · {date_text}{demo} 🔹"
+    return f"{prefix} | {date_text}{demo}"
 
 
 def add_daily_item(lines: list[str], item: dict, category: str) -> None:

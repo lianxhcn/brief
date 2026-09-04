@@ -8,6 +8,8 @@ import html
 import json
 from pathlib import Path
 
+from site_config import date_compact
+
 COURSE_CALLOUT = '''<aside class="course-hub-callout" role="note" aria-label="连享会课程入口">
   <p class="course-hub-callout__title">连享会课程</p>
   <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
@@ -99,12 +101,12 @@ def render_page(issue: dict) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="从期次 JSON 生成 Quarto 日期详版。")
     parser.add_argument("--input", required=True, type=Path, help="期次 JSON 文件")
-    parser.add_argument("--output-dir", required=True, type=Path, help="日期详版 QMD 输出目录")
+    parser.add_argument("--output-dir", required=True, type=Path, help="日期页 QMD 根目录")
     args = parser.parse_args()
     with args.input.open(encoding="utf-8") as handle:
         issue = json.load(handle)
-    args.output_dir.mkdir(parents=True, exist_ok=True)
-    output = args.output_dir / f"{issue['date']}.qmd"
+    output = args.output_dir / date_compact(issue["date"]) / "index.qmd"
+    output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(render_page(issue), encoding="utf-8")
     print(f"WROTE {output}")
     return 0

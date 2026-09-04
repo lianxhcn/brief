@@ -8,7 +8,45 @@
   "papers": [],
   "tools": [],
   "conference_calls": [
-    {"id": "demo-conference-call-one", "title": "DEMO：征稿信息占位条目 A", "priority": "core", "wechat_summary": "主题：格式验证；截止日期：2099-02-01。", "page_note": "中性占位征稿信息，不对应真实会议或期刊。", "organizer_or_journal": "DEMO organizer", "topic": "格式验证与公开信息排版", "deadline": "2099-02-01", "official_url": "https://example.com/demo/conference-a"},
-    {"id": "demo-conference-call-two", "title": "DEMO：征稿信息占位条目 B", "priority": "core", "wechat_summary": "主题：链接校验；截止日期：2099-02-15。", "page_note": "中性占位征稿信息，不对应真实会议或期刊。", "organizer_or_journal": "DEMO journal", "topic": "链接校验与页面归档", "deadline": "2099-02-15", "official_url": "https://example.com/demo/conference-b"}
+    {
+      "id": "demo-conference-call-one",
+      "title": "DEMO：征稿信息占位条目 A",
+      "priority": "core",
+      "wechat_summary": "主题：格式验证；截止日期：2099-02-01。",
+      "page_note": "中性占位征稿信息，不对应真实会议或期刊。",
+      "organizer_or_journal": "DEMO organizer",
+      "topic": "格式验证与公开信息排版",
+      "deadline": "2099-02-01",
+      "official_url": "https://example.com/demo/conference-a",
+      "catalog": {
+        "section": "academic-updates",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "征稿"
+        ]
+      }
+    },
+    {
+      "id": "demo-conference-call-two",
+      "title": "DEMO：征稿信息占位条目 B",
+      "priority": "core",
+      "wechat_summary": "主题：链接校验；截止日期：2099-02-15。",
+      "page_note": "中性占位征稿信息，不对应真实会议或期刊。",
+      "organizer_or_journal": "DEMO journal",
+      "topic": "链接校验与页面归档",
+      "deadline": "2099-02-15",
+      "official_url": "https://example.com/demo/conference-b",
+      "catalog": {
+        "section": "academic-updates",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "征稿"
+        ]
+      }
+    }
   ]
 }

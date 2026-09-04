@@ -1,4 +1,4 @@
-name: Deploy Quarto site to GitHub Pages
+name: Build 连享会 · 快讯 for GitHub Pages
 
 on:
   push:

@@ -5,22 +5,33 @@ project:
     - index.qmd
     - archive.qmd
     - topics/
-    - issues/
+    - 20990101/
+    - 20990102/
 
 website:
-  title: "连享会课程群快讯"
+  title: "连享会 · 快讯"
+  page-footer:
+    center: '<a href="https://www.lianxh.cn/" target="_blank" rel="noopener noreferrer">lianxh.cn</a>'
   navbar:
+    logo: assets/brand/brief/lianxh-brief-icon.png
+    logo-alt: ""
+    brand: "连享会 · 快讯"
     left:
       - href: index.qmd
-        text: 首页
+        text: 最新快讯
+      - href: topics/index.qmd
+        text: 栏目索引
       - href: archive.qmd
-        text: 按日期归档
-      - href: topics/stata-causal.qmd
-        text: Stata 与因果
-      - href: topics/r-python-ml.qmd
-        text: R、Python 与机器学习
-      - href: topics/finance.qmd
-        text: 金融
+        text: 历史归档
+    right:
+      - href: https://www.lianxh.cn/
+        text: 连享会
+        target: _blank
+        rel: noopener noreferrer
+      - href: https://www.lianxh.cn/KC.html
+        text: 课程中心
+        target: _blank
+        rel: noopener noreferrer
 
 format:
   html:

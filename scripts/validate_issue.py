@@ -10,6 +10,8 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
+from site_config import date_compact, detail_url
+
 VARIANTS = ("general", "stata-causal", "r-python-ml", "finance")
 DAILY_CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources")
 ALL_CATEGORIES = DAILY_CATEGORIES + ("conference_calls",)
@@ -25,6 +27,14 @@ WINDOWS_PATH_RE = re.compile(r"[A-Za-z]:[\\/](?:Users|Windows|Program Files|temp
 COURSE_URL = "https://www.lianxh.cn/KC.html"
 COURSE_CLASS = 'class="course-hub-callout"'
 COURSE_LINK_TEXT = "查看连享会课程与专题"
+CATALOG_SECTIONS = {"lianxh-new", "research-frontier", "methods-tools", "academic-updates"}
+CATEGORY_SECTIONS = {
+    "lianxh_posts": {"lianxh-new"},
+    "papers": {"research-frontier"},
+    "tools": {"methods-tools"},
+    "research_resources": {"research-frontier", "methods-tools"},
+    "conference_calls": {"academic-updates"},
+}
 
 
 def read_json(path: Path, errors: list[str]) -> dict | None:
@@ -68,8 +78,20 @@ def all_items(issue: dict) -> list[tuple[str, dict]]:
     return result
 
 
-def detail_url(issue: dict) -> str:
-    return f"https://lianxhcn.github.io/lianxh-group-briefs/issues/{issue['date']}.html"
+def validate_catalog(item: dict, category: str, source: Path, errors: list[str]) -> None:
+    label = f"{source}: {category}"
+    catalog = item.get("catalog")
+    if not isinstance(catalog, dict):
+        errors.append(f"{label}: 缺少 catalog 对象")
+        return
+    section = catalog.get("section")
+    if section not in CATALOG_SECTIONS:
+        errors.append(f"{label}: catalog.section 必须是四个稳定标识之一")
+    elif section not in CATEGORY_SECTIONS[category]:
+        errors.append(f"{label}: 条目类型与 catalog.section 不一致")
+    for key in ("software", "methods", "fields", "tags"):
+        if not isinstance(catalog.get(key), list):
+            errors.append(f"{label}: catalog.{key} 必须是列表")
 
 
 def validate_item(item: dict, category: str, source: Path, errors: list[str]) -> None:
@@ -107,6 +129,7 @@ def validate_item(item: dict, category: str, source: Path, errors: list[str]) ->
             date.fromisoformat(item.get("deadline", ""))
         except ValueError:
             errors.append(f"{label}: deadline 必须为 YYYY-MM-DD")
+    validate_catalog(item, category, source, errors)
 
 
 def validate_schema(issue: dict, source: Path, errors: list[str]) -> None:
@@ -265,7 +288,7 @@ def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Pa
     date_text = issue["date"].replace("-", ".")
     prefix = "会议信息" if issue["issue_type"] == "conference-bulletin" else "连享会快讯"
     demo = " · DEMO" if issue["status"] == "demo" else ""
-    title = f"🔹 {prefix} · {date_text}{demo} 🔹"
+    title = f"{prefix} | {date_text}{demo}"
     urls = core_urls(issue)
     for path in paths:
         validate_text_file(path, title, urls, issue, errors)
@@ -273,7 +296,7 @@ def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Pa
 
 
 def validate_page(issue: dict, issues_dir: Path, errors: list[str]) -> Path:
-    path = issues_dir / f"{issue['date']}.qmd"
+    path = issues_dir / date_compact(issue["date"]) / "index.qmd"
     if not path.exists():
         errors.append(f"{path}: 缺少日期详版页面")
         return path
@@ -316,7 +339,7 @@ def main() -> int:
     parser.add_argument("--input", required=True, type=Path, help="待校验的期次 JSON")
     parser.add_argument("--history-dir", required=True, type=Path, help="历史 JSON 所在目录")
     parser.add_argument("--wechat-dir", required=True, type=Path, help="微信群文本目录")
-    parser.add_argument("--issues-dir", required=True, type=Path, help="日期详版 QMD 目录")
+    parser.add_argument("--issues-dir", required=True, type=Path, help="日期页 QMD 根目录")
     args = parser.parse_args()
     errors: list[str] = []
     issue = read_json(args.input, errors)

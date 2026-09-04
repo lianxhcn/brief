@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "registry_note": "JSON syntax is valid YAML and allows standard-library parsing.",
+  "conference_sources": [
+    {"id":"cea-annual","kind":"conference","tier":"core","name":"中国经济学年会","official_entry":"https://cea.pku-nsd.com/events","scan_days":["mon","thu"]},
+    {"id":"cec-xiangzhang-annual","kind":"conference","tier":"core","name":"香樟经济学年会","official_entry":"https://www.sufe.edu.cn/fc/4e/c19548a261198/page.htm","scan_days":["mon","thu"]},
+    {"id":"yes-annual","kind":"conference","tier":"core","name":"中国青年经济学家联谊会年会","official_entry":"https://flcds.fudan.edu.cn/info/1007/1094.htm","scan_days":["mon","thu"]},
+    {"id":"yes-thematic","kind":"conference","tier":"core","name":"YES 专题研讨会 / 工作坊","official_entry":"https://flcds.fudan.edu.cn/info/1007/1094.htm","scan_days":["mon","thu"]},
+    {"id":"applied-econ-annual","kind":"conference","tier":"core","name":"中国应用经济学年会","official_entry":"https://news.jxufe.edu.cn/news-show-135547.html","scan_days":["mon","thu"]},
+    {"id":"labor-econ-forum","kind":"conference","tier":"core","name":"中国劳动经济学者论坛年会","official_entry":"https://econ.dufe.edu.cn/content_97563.html","scan_days":["mon","thu"]},
+    {"id":"public-finance-forum","kind":"conference","tier":"core","name":"中国财政学论坛","official_entry":"https://infr.dufe.edu.cn/content_97282.html","scan_days":["mon","thu"]},
+    {"id":"cfam","kind":"conference","tier":"core","name":"中国金融学年会","official_entry":"https://finance.nankai.edu.cn/2026/0609/c34541a598014/page.htm","scan_days":["mon","thu"]},
+    {"id":"cfrc","kind":"conference","tier":"core","name":"中国金融学术年会","official_entry":"https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026zh/hyzc.htm","scan_days":["mon","thu"]},
+    {"id":"quant-econ-annual","kind":"conference","tier":"core","name":"中国数量经济学会年会","official_entry":"https://iqte.cssn.cn/xsjl/xsyth/","scan_days":["mon","thu"]},
+    {"id":"world-econ-annual","kind":"conference","tier":"core","name":"中国世界经济学会年会","official_entry":"https://iwep.cssn.cn/xh/xh_zgsjjjxh_1637/zgsjjjxh_xhhd/202605/t20260526_5993357.shtml","scan_days":["mon","thu"]},
+    {"id":"management-annual","kind":"conference","tier":"core","name":"中国管理学年会","official_entry":"https://www.camchina.org.cn/messages/478","scan_days":["mon","thu"]},
+    {"id":"accounting-association","kind":"conference","tier":"core","name":"中国会计学会年会及专业委员会","official_entry":"https://www.asc.net.cn/News/Index.aspx?newsCode=MENU_BQ","scan_days":["mon","thu"]},
+    {"id":"industrial-econ-association","kind":"conference","tier":"conditional","name":"中国工业经济学会","official_entry":"https://www5.zzu.edu.cn/sxy/info/1269/9243.htm","scan_days":["mon","thu"]}
+  ],
+  "journal_sources": [
+    {"id":"economic-research","name":"经济研究","official_entry":"https://erj.ajcass.com/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"management-world","name":"管理世界","official_entry":"https://mwm.net.cn/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"china-industrial-economics","name":"中国工业经济","official_entry":"https://www.ciejournal.org/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"accounting-research","name":"会计研究","official_entry":"https://www.asc.net.cn/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"statistical-research","name":"统计研究","official_entry":"https://tjyj.cbpt.cnki.net/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"journal-of-finance-research","name":"金融研究","official_entry":"https://www.jryj.org.cn/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"journal-of-management-sciences","name":"管理科学学报","official_entry":"https://jmsc.tju.edu.cn/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"quantitative-economics","name":"数量经济技术经济研究","official_entry":"https://iqte.cssn.cn/yjjg/xsqk/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"china-economic-quarterly","name":"经济学(季刊)","official_entry":"https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"chinese-social-sciences","name":"中国社会科学","tier":"matching-after-review","official_entry":"https://sscp.cssn.cn/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"sociological-studies","name":"社会学研究","tier":"matching-after-review","official_entry":"https://sociology.cssn.cn/xskw/shxyj/","monitor_for":["cfp","topic-call","workshop","special-column"]},    {"id":"world-economy","name":"世界经济","official_entry":"https://www.iwep.org.cn/cbw/cbw_xsqk/","monitor_for":["cfp","topic-call","workshop","special-column"]},
+    {"id":"china-journal-of-econometrics","name":"计量经济学报","official_entry":"https://cjoe.cjoe.ac.cn/","monitor_for":["cfp","topic-call","workshop","special-column"]}
+  ],
+  "daily_sources": [{"id":"nber","official_entry":"https://www.nber.org/papers"},{"id":"arxiv","official_entry":"https://arxiv.org/"},{"id":"pypi","official_entry":"https://pypi.org/"},{"id":"ssc-new","official_entry":"https://www.stata.com/"}]
+}
