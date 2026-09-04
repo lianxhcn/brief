@@ -1,0 +1,27 @@
+---
+title: "2099-01-01：DEMO 期次"
+---
+
+## 状态
+
+**DEMO。** 本页只验证公开页面与微信群文本格式，不代表真实当天资讯、真实推文、真实论文或真实软件更新。
+
+## 连享会新推文
+
+DEMO：连享会推文占位标题
+
+https://example.com/demo-lianxh-post
+
+## 顶刊论文
+
+DEMO citation only; this is not a real paper.
+
+DOI：<https://doi.org/10.0000/demo.2099.001>
+
+复现资料（演示）：<https://example.com/demo-replication>
+
+## 方法与工具
+
+Stata — DEMO causal workflow。格式验证用的中性工具占位内容，不代表真实更新。
+
+https://example.com/demo-tool

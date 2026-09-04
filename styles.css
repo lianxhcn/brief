@@ -1,0 +1,36 @@
+.course-hub-callout {
+  margin: 1.25rem 0;
+  padding: 1rem 1.125rem;
+  border: 1px solid #cbd8d0;
+  border-left: 4px solid #4d7c5a;
+  border-radius: 0.4rem;
+  background: #f8fbf8;
+}
+.course-hub-callout__title {
+  margin: 0;
+  color: #284a32;
+  font-weight: 700;
+}
+.course-hub-callout__text,
+.course-hub-callout__action {
+  margin: 0.45rem 0 0;
+}
+.course-hub-callout a {
+  color: #1e5d36;
+  font-weight: 600;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+.course-hub-callout a:hover {
+  color: #143f25;
+}
+.course-hub-callout a:focus-visible {
+  outline: 3px solid #d49a32;
+  outline-offset: 3px;
+}
+@media (max-width: 40rem) {
+  .course-hub-callout {
+    padding: 0.9rem 1rem;
+    overflow-wrap: anywhere;
+  }
+}

@@ -1,0 +1,9 @@
+ops-local/
+_site/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+venv/
+/.quarto/

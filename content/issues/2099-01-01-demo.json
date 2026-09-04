@@ -1,0 +1,21 @@
+{
+  "issue_id": "2099-01-01-demo",
+  "date": "2099-01-01",
+  "status": "demo",
+  "issue_type": "daily",
+  "title": "DEMO：2099-01-01 日常快讯",
+  "lianxh_posts": [
+    {"id": "demo-post-core", "title": "DEMO：连享会推文占位条目", "priority": "core", "wechat_summary": "用于验证群消息与网页详版的同源渲染。", "page_note": "中性占位条目，不对应真实推文。", "url": "https://example.com/demo/post-core", "topics": ["stata-causal"]}
+  ],
+  "papers": [
+    {"id": "demo-paper-core", "title": "DEMO：论文占位条目", "citation": "DEMO citation only; this is not a real paper.", "priority": "core", "wechat_summary": "用于验证 DOI 与复现资料链接排版。", "page_note": "中性占位条目，不对应真实论文。", "doi_url": "https://doi.org/10.0000/demo.2099.101", "replication_url": "https://example.com/demo/paper-core-replication", "topics": ["finance"]},
+    {"id": "demo-paper-extended", "title": "DEMO：延伸论文占位条目", "citation": "DEMO extended citation only; this is not a real paper.", "priority": "extended", "page_note": "仅在网页详版出现，用于验证延伸信息分区。", "doi_url": "https://doi.org/10.0000/demo.2099.102", "topics": ["r-python-ml"]}
+  ],
+  "tools": [
+    {"id": "demo-tool-core", "title": "DEMO：Stata 工具占位条目", "ecosystem": "Stata", "name": "demo causal workflow", "priority": "core", "wechat_summary": "用于验证工具生态、名称、用途与链接。", "page_note": "中性占位工具，不代表真实软件更新。", "url": "https://example.com/demo/tool-core", "topics": ["stata-causal"]},
+    {"id": "demo-tool-extended", "title": "DEMO：Python 延伸工具占位条目", "ecosystem": "Python", "name": "demo research helper", "priority": "extended", "page_note": "仅在网页详版出现，用于验证延伸工具。", "url": "https://example.com/demo/tool-extended", "topics": ["r-python-ml"]}
+  ],
+  "research_resources": [
+    {"id": "demo-resource-extended", "title": "DEMO：延伸研究资源占位条目", "priority": "extended", "page_note": "仅在网页详版出现，不对应真实资源推荐。", "url": "https://example.com/demo/resource-extended", "topics": ["finance"]}
+  ]
+}

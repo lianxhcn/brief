@@ -1,0 +1,15 @@
+---
+title: "连享会课程群快讯"
+---
+
+这是课程群快讯的公开归档。微信群实际收到的是按受众整理的纯文本短版；网页保留同一数据源生成的详版内容。
+
+<aside class="course-hub-callout" role="note" aria-label="连享会课程入口">
+  <p class="course-hub-callout__title">连享会课程</p>
+  <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
+  <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
+</aside>
+
+目前页面包含两份格式验证用的 DEMO。DEMO 不代表真实内容、真实当天资讯或既有研究结论。
+
+可从[按日期归档](archive.qmd)查阅公开期次，也可按 Stata 与因果、R/Python 与机器学习、金融主题浏览。

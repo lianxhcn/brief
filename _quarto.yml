@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - archive.qmd
+    - topics/
+    - issues/
+
+website:
+  title: "连享会课程群快讯"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: archive.qmd
+        text: 按日期归档
+      - href: topics/stata-causal.qmd
+        text: Stata 与因果
+      - href: topics/r-python-ml.qmd
+        text: R、Python 与机器学习
+      - href: topics/finance.qmd
+        text: 金融
+
+format:
+  html:
+    lang: zh
+    toc: true
+    css: styles.css
