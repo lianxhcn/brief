@@ -1,0 +1,51 @@
+{
+  "issue_id": "2026-09-05-daily",
+  "date": "2026-09-05",
+  "retrieved_date": "2026-09-05",
+  "status": "published",
+  "issue_type": "daily",
+  "title": "连享会快讯 · 2026.09.05",
+  "lianxh_posts": [
+    {
+      "id": "lianxh-ai-agent-data-analysis",
+      "title": "连享会 · AI-Agent 数据分析实战",
+      "priority": "core",
+      "retrieved_date": "2026-09-05",
+      "wechat_summary": "官网页面列出 10 月 17、24、31 日的线上直播安排，由杨楷（深圳大学）主讲；课程内容与最终安排以官网为准。",
+      "page_note": "连享会官网的 AI-Agent 数据分析专题入口，适合关注 AI 工具如何进入实证研究流程的读者。",
+      "url": "https://www.lianxh.cn/details/1900.html",
+      "topics": ["r-python-ml"],
+      "catalog": {"section": "lianxh-new", "software": [], "methods": [], "fields": [], "tags": ["AI-Agent", "数据分析"]}
+    }
+  ],
+  "papers": [
+    {
+      "id": "chen-hoffman-xu-yuan-inclusive-work",
+      "title": "Empowering Inclusive Work",
+      "citation": "Chen, Y., Hoffman, M., Xu, H., & Yuan, Z. (2026). Empowering Inclusive Work. NBER Working Paper No. 35372.",
+      "priority": "core",
+      "retrieved_date": "2026-09-05",
+      "wechat_summary": "这篇 NBER 工作论文使用中国外卖平台微观数据，并围绕文字转语音工具上线构建双重差分设计，讨论辅助技术与包容性就业。",
+      "page_note": "作者报告，文字转语音工具上线后，听障或听力受损骑手的配送表现、劳动供给与留任均有改善。该文仍是工作论文，应结合原文理解其样本、识别与外推边界。",
+      "doi_url": "https://doi.org/10.3386/w35372",
+      "topics": ["r-python-ml"],
+      "catalog": {"section": "research-frontier", "software": [], "methods": ["双重差分"], "fields": ["劳动经济学", "平台经济"], "tags": ["辅助技术", "包容性就业"]}
+    }
+  ],
+  "tools": [
+    {
+      "id": "doubleml-python-0114",
+      "title": "DoubleML 0.11.4",
+      "ecosystem": "Python",
+      "name": "DoubleML",
+      "priority": "core",
+      "retrieved_date": "2026-09-05",
+      "wechat_summary": "DoubleML 为双重/去偏机器学习提供 Python 与 R 实现；PyPI 显示 Python 版 0.11.4 于 2026-08-10 发布。",
+      "page_note": "该工具将交叉拟合与正交得分封装为接口，可用于高维控制变量或复杂预测模型下的因果参数估计。机器学习拟合得好并不自动替代识别假设、样本构造和因果解释。",
+      "url": "https://docs.doubleml.org/",
+      "topics": ["r-python-ml"],
+      "catalog": {"section": "methods-tools", "software": ["Python"], "methods": ["双重机器学习"], "fields": [], "tags": ["因果机器学习", "交叉拟合"]}
+    }
+  ],
+  "research_resources": []
+}

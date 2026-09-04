@@ -1,0 +1,52 @@
+{
+  "issue_id": "2026-09-04-conference",
+  "date": "2026-09-04",
+  "retrieved_date": "2026-09-05",
+  "status": "published",
+  "issue_type": "conference-bulletin",
+  "title": "连享会快讯 · 2026.09.04",
+  "lianxh_posts": [],
+  "papers": [],
+  "tools": [],
+  "conference_calls": [
+    {
+      "id": "causal-data-science-meeting-2026",
+      "title": "Causal Data Science Meeting 2026",
+      "priority": "core",
+      "retrieved_date": "2026-09-05",
+      "wechat_summary": "面向因果机器学习、A/B 测试、因果发现与计量经济学因果推断的线上会议，投稿截止日为 2026-09-30。",
+      "page_note": "官网接受 presentation proposal、扩展摘要或完整论文；投稿主题包括因果 ML/AI、生成式 AI 与因果、开源因果软件及商业决策中的因果方法。",
+      "organizer_or_journal": "Causal Data Science Meeting（官网列出 Maastricht University 与 Copenhagen Business School 的支持信息）",
+      "topic": "因果机器学习、A/B 测试、因果发现、生成式 AI 与因果、统计学和计量经济学中的因果推断",
+      "deadline": "2026-09-30",
+      "official_url": "https://www.causalscience.org/",
+      "catalog": {"section": "academic-updates", "software": [], "methods": ["因果推断", "机器学习"], "fields": [], "tags": ["会议征稿", "因果机器学习"]}
+    },
+    {
+      "id": "fma-asset-management-2027",
+      "title": "2027 Consortium on Asset Management",
+      "priority": "core",
+      "retrieved_date": "2026-09-05",
+      "wechat_summary": "FMA International 的资产管理研究 workshop，投稿截止日为 2026-11-01，会议于 2027-04-15 在剑桥举行。",
+      "page_note": "征稿涉及公司治理与投票、金融市场史、传统与另类资产、共同基金、对冲基金和责任投资等主题；参会资格与费用以官方页面为准。",
+      "organizer_or_journal": "Financial Management Association International (FMA)",
+      "topic": "资产管理及相关研究，包括公司治理、金融市场史、传统与另类资产、基金、对冲基金和责任投资",
+      "deadline": "2026-11-01",
+      "official_url": "https://www.fma.org/2027-consortium-on-asset-management",
+      "catalog": {"section": "academic-updates", "software": [], "methods": [], "fields": ["金融学"], "tags": ["会议征稿", "资产管理"]}
+    },
+    {
+      "id": "iceb-2026",
+      "title": "10th International Conference on Economics and Business (ICEB 2026)",
+      "priority": "core",
+      "retrieved_date": "2026-09-05",
+      "wechat_summary": "围绕全球经济碎片化下的韧性、安全与可持续性征集理论、实证与政策研究；摘要截止日为 2026-09-12。",
+      "page_note": "议题覆盖宏观韧性、国际贸易与地缘政治、金融稳定，以及营销、战略管理、会计、审计和公司治理等；完整论文截止日为 2026-10-12。",
+      "organizer_or_journal": "Faculty of Economics and Business, Universitas Airlangga",
+      "topic": "Resilience, Security, and Sustainability in a Fragmented Global Economy",
+      "deadline": "2026-09-12",
+      "official_url": "https://e-conference.unair.ac.id/ICEB/scheduled/5thICEB",
+      "catalog": {"section": "academic-updates", "software": [], "methods": [], "fields": ["经济学", "管理学", "金融学"], "tags": ["会议征稿", "国际经济"]}
+    }
+  ]
+}

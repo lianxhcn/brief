@@ -1,0 +1,21 @@
+连享会快讯 · 2026.09.05
+
+📌 推文
+连享会 · AI-Agent 数据分析实战；官网页面列出 10 月 17、24、31 日的线上直播安排，由杨楷（深圳大学）主讲；课程内容与最终安排以官网为准。
+
+ https://www.lianxh.cn/details/1900.html 
+
+📘 论文
+Chen, Y., Hoffman, M., Xu, H., & Yuan, Z. (2026). Empowering Inclusive Work. NBER Working Paper No. 35372.；这篇 NBER 工作论文使用中国外卖平台微观数据，并围绕文字转语音工具上线构建双重差分设计，讨论辅助技术与包容性就业。
+
+ https://doi.org/10.3386/w35372 
+
+🍀 新方法
+Python：DoubleML；DoubleML 为双重/去偏机器学习提供 Python 与 R 实现；PyPI 显示 Python 版 0.11.4 于 2026-08-10 发布。
+
+ https://docs.doubleml.org/ 
+
+本期详版
+
+ https://lianxhcn.github.io/brief/20260905/ 
+

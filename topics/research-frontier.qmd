@@ -8,6 +8,14 @@ title: "论文"
 
 ## 公开期次
 
-<p class="catalog-empty">正式快讯将在首次发布后归档。</p>
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>Empowering Inclusive Work</h3>
+<p class="catalog-meta">日期：2026-09-05</p>
+<p>作者报告，文字转语音工具上线后，听障或听力受损骑手的配送表现、劳动供给与留任均有改善。该文仍是工作论文，应结合原文理解其样本、识别与外推边界。</p>
+<p class="catalog-tags">研究方法：双重差分；研究领域：劳动经济学、平台经济；标签：辅助技术、包容性就业</p>
+<p><a href="../20260905/">查看日期详版</a></p>
+</article>
+</div>
 
 [查看栏目索引](index.qmd)

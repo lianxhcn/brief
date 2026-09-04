@@ -8,6 +8,14 @@ title: "推文"
 
 ## 公开期次
 
-<p class="catalog-empty">正式快讯将在首次发布后归档。</p>
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>连享会 · AI-Agent 数据分析实战</h3>
+<p class="catalog-meta">日期：2026-09-05</p>
+<p>连享会官网的 AI-Agent 数据分析专题入口，适合关注 AI 工具如何进入实证研究流程的读者。</p>
+<p class="catalog-tags">标签：AI-Agent、数据分析</p>
+<p><a href="../20260905/">查看日期详版</a></p>
+</article>
+</div>
 
 [查看栏目索引](index.qmd)

@@ -8,6 +8,28 @@ title: "会议征稿"
 
 ## 公开期次
 
-<p class="catalog-empty">正式快讯将在首次发布后归档。</p>
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>Causal Data Science Meeting 2026</h3>
+<p class="catalog-meta">日期：2026-09-04</p>
+<p>官网接受 presentation proposal、扩展摘要或完整论文；投稿主题包括因果 ML/AI、生成式 AI 与因果、开源因果软件及商业决策中的因果方法。</p>
+<p class="catalog-tags">研究方法：因果推断、机器学习；标签：会议征稿、因果机器学习</p>
+<p><a href="../20260904/">查看日期详版</a></p>
+</article>
+<article class="catalog-card">
+<h3>2027 Consortium on Asset Management</h3>
+<p class="catalog-meta">日期：2026-09-04</p>
+<p>征稿涉及公司治理与投票、金融市场史、传统与另类资产、共同基金、对冲基金和责任投资等主题；参会资格与费用以官方页面为准。</p>
+<p class="catalog-tags">研究领域：金融学；标签：会议征稿、资产管理</p>
+<p><a href="../20260904/">查看日期详版</a></p>
+</article>
+<article class="catalog-card">
+<h3>10th International Conference on Economics and Business (ICEB 2026)</h3>
+<p class="catalog-meta">日期：2026-09-04</p>
+<p>议题覆盖宏观韧性、国际贸易与地缘政治、金融稳定，以及营销、战略管理、会计、审计和公司治理等；完整论文截止日为 2026-10-12。</p>
+<p class="catalog-tags">研究领域：经济学、管理学、金融学；标签：会议征稿、国际经济</p>
+<p><a href="../20260904/">查看日期详版</a></p>
+</article>
+</div>
 
 [查看栏目索引](index.qmd)
