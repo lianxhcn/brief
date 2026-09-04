@@ -1,7 +1,8 @@
-<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 ---
 title: "会议征稿"
 ---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 
 <p class="catalog-intro">会议、征文、专题征稿与合格公益性活动。</p>
 

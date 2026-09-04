@@ -1,7 +1,8 @@
-<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 ---
 title: "推文"
 ---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 
 <p class="catalog-intro">连享会的新文章、讲义与资源说明。</p>
 

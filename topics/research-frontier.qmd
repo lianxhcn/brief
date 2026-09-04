@@ -1,7 +1,8 @@
-<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 ---
 title: "论文"
 ---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 
 <p class="catalog-intro">已筛选的论文与研究成果。</p>
 

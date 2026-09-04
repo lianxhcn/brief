@@ -83,8 +83,8 @@ def card(entry: dict) -> str:
 
 def page_header(title: str, description: str) -> list[str]:
     return [
-        "<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->",
         "---", f'title: "{title}"', "---", "",
+        "<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->", "",
         f'<p class="catalog-intro">{description}</p>', "",
     ]
 

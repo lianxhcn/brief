@@ -1,7 +1,8 @@
-<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 ---
 title: "栏目索引"
 ---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 
 <p class="catalog-intro">按内容类型浏览公开期次。软件、方法与研究领域是可叠加标签，不构成一级栏目。</p>
 

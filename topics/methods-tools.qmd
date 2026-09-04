@@ -1,7 +1,8 @@
-<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 ---
 title: "新方法"
 ---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 
 <p class="catalog-intro">软件、方法、复现与数据处理工具。</p>
 
