@@ -10,6 +10,7 @@ project:
 
 website:
   title: "连享会 · 快讯"
+  search: true
   page-footer:
     center: '<a href="https://www.lianxh.cn/" target="_blank" rel="noopener noreferrer">lianxh.cn</a>'
   navbar:
@@ -17,19 +18,23 @@ website:
     logo-alt: ""
     brand: "连享会 · 快讯"
     left:
-      - href: index.qmd
-        text: 最新快讯
-      - href: topics/index.qmd
-        text: 栏目索引
+      - href: topics/lianxh-new.qmd
+        text: 推文
+      - href: topics/research-frontier.qmd
+        text: 论文
+      - href: topics/methods-tools.qmd
+        text: 新方法
+      - href: topics/academic-updates.qmd
+        text: 会议征稿
       - href: archive.qmd
-        text: 历史归档
+        text: 往期
     right:
       - href: https://www.lianxh.cn/
-        text: 连享会
+        text: 官网
         target: _blank
         rel: noopener noreferrer
       - href: https://www.lianxh.cn/KC.html
-        text: 课程中心
+        text: 课程
         target: _blank
         rel: noopener noreferrer
 

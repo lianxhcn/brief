@@ -10,9 +10,8 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
-from site_config import date_compact, detail_url
+from site_config import date_compact, detail_url, is_demo_issue
 
-VARIANTS = ("general", "stata-causal", "r-python-ml", "finance")
 DAILY_CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources")
 ALL_CATEGORIES = DAILY_CATEGORIES + ("conference_calls",)
 ID_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
@@ -160,8 +159,8 @@ def validate_schema(issue: dict, source: Path, errors: list[str]) -> None:
         entries = [(category, item) for category, item in all_items(issue) if category != "conference_calls"]
         core = sum(item.get("priority") == "core" for _, item in entries)
         extended = sum(item.get("priority") == "extended" for _, item in entries)
-        if not 3 <= core <= 5:
-            errors.append(f"{source}: 日常期次 core 条目必须为 3--5 条，当前 {core} 条")
+        if core > 5:
+            errors.append(f"{source}: 日常期次 core 条目最多 5 条，当前 {core} 条")
         if extended > 5:
             errors.append(f"{source}: 日常期次 extended 条目最多 5 条，当前 {extended} 条")
         if len(entries) > 10:
@@ -229,10 +228,7 @@ def core_urls(issue: dict) -> set[str]:
 
 
 def expected_wechat_paths(issue: dict, wechat_dir: Path) -> list[Path]:
-    stem = f"{issue['date']}-{issue['status']}"
-    if issue["issue_type"] == "conference-bulletin":
-        return [wechat_dir / f"{stem}-conference.txt"]
-    return [wechat_dir / f"{stem}-{variant}.txt" for variant in VARIANTS]
+    return [wechat_dir / f"{issue['date']}.txt"]
 
 
 def validate_text_file(path: Path, expected_title: str, expected_urls: set[str], issue: dict, errors: list[str]) -> None:
@@ -243,7 +239,7 @@ def validate_text_file(path: Path, expected_title: str, expected_urls: set[str],
     lines = text.splitlines()
     if not lines or lines[0] != expected_title:
         errors.append(f"{path}: 标题格式不符合要求")
-    if issue["status"] == "demo" and "DEMO" not in (lines[0] if lines else ""):
+    if is_demo_issue(issue) and "DEMO" not in (lines[0] if lines else ""):
         errors.append(f"{path}: DEMO 标题未显著标明")
     if len(lines) > 28:
         errors.append(f"{path}: 共 {len(lines)} 行，超过 28 行")
@@ -253,15 +249,15 @@ def validate_text_file(path: Path, expected_title: str, expected_urls: set[str],
         errors.append(f"{path}: 不得使用 Markdown 链接或 HTML")
     if FORBIDDEN_RE.search(text):
         errors.append(f"{path}: 不得出现小白菊或字符边框")
-    permitted = {"🌸 新推文", "📘 近期论文", "🍀 方法与工具", "🍅 会议与征稿", "本期详版"}
+    permitted = {"📌 推文", "📘 论文", "🍀 新方法", "🍅 会议征稿", "本期详版"}
     seen_urls: set[str] = set()
     for index, line in enumerate(lines):
-        if line.startswith(("🌸", "📘", "🍀", "🍅")) and line not in permitted:
+        if line.startswith(("📌", "📘", "🍀", "🍅")) and line not in permitted:
             errors.append(f"{path}:{index + 1}: 栏目标题不符合固定格式")
         matches = URL_RE.findall(line)
         if matches:
             seen_urls.update(matches)
-            if len(matches) != 1 or line != matches[0]:
+            if len(matches) != 1 or line != f" {matches[0]} ":
                 errors.append(f"{path}:{index + 1}: URL 必须独占一行")
             if index == 0 or index == len(lines) - 1 or lines[index - 1] != "" or lines[index + 1] != "":
                 errors.append(f"{path}:{index + 1}: URL 前后必须各有空行")
@@ -281,14 +277,12 @@ def validate_text_file(path: Path, expected_title: str, expected_urls: set[str],
 
 def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Path]:
     paths = expected_wechat_paths(issue, wechat_dir)
-    stem = f"{issue['date']}-{issue['status']}"
-    actual = sorted(wechat_dir.glob(f"{stem}-*.txt"))
+    actual = sorted(wechat_dir.glob(f"{issue['date']}*.txt"))
     if set(actual) != set(paths):
         errors.append(f"{wechat_dir}: 对应期次文本数量或文件名不正确")
     date_text = issue["date"].replace("-", ".")
-    prefix = "会议信息" if issue["issue_type"] == "conference-bulletin" else "连享会快讯"
-    demo = " · DEMO" if issue["status"] == "demo" else ""
-    title = f"{prefix} | {date_text}{demo}"
+    demo = " · DEMO" if is_demo_issue(issue) else ""
+    title = f"连享会快讯 · {date_text}{demo}"
     urls = core_urls(issue)
     for path in paths:
         validate_text_file(path, title, urls, issue, errors)

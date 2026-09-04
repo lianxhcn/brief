@@ -6,7 +6,7 @@ title: "连享会 · 快讯"
   <img src="assets/brand/brief/lianxh-brief-cover.jpg" alt="连享会 · 快讯栏目封面">
 </div>
 
-这是连享会 · 快讯的公开归档。微信群实际收到的是按受众整理的纯文本短版；网页保留同一数据源生成的详版内容。
+这是连享会 · 快讯的公开归档。网页详版和全课程群共用的短版均由同一数据源生成。
 
 <aside class="course-hub-callout" role="note" aria-label="连享会课程入口">
   <p class="course-hub-callout__title">连享会课程</p>
@@ -14,6 +14,8 @@ title: "连享会 · 快讯"
   <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
 </aside>
 
-目前页面包含两份格式验证用的 DEMO。DEMO 不代表真实内容、真实当天资讯或既有研究结论。
+## 快讯归档
 
-可从[栏目索引](topics/index.qmd)按内容类型浏览，也可在[历史归档](archive.qmd)中按日期查阅公开期次。软件、方法与研究领域以可叠加标签呈现，不构成固定栏目。
+<p class="catalog-empty">正式快讯将在首次发布后归档。</p>
+
+可按内容类型查看[栏目索引](topics/index.qmd)，或在[往期](archive.qmd)中按日期查阅公开期次。

@@ -70,8 +70,8 @@ def daily_issue(day: str, items: list[dict]) -> dict:
             },
         })
     core = [item for item in tools if item["priority"] == "core"]
-    if not 3 <= len(core) <= 5:
-        raise ValueError("日常草稿需要 3--5 条已核验 core 条目以保持既有渲染器兼容。")
+    if not 1 <= len(core) <= 5:
+        raise ValueError("日常草稿需要 1--5 条已核验 core 条目。")
     return {"issue_id": f"{day}-local-draft", "date": day, "status": "draft", "issue_type": "daily",
             "title": f"草稿：{day} 日常快讯", "lianxh_posts": [], "papers": [], "tools": tools,
             "research_resources": []}
@@ -95,9 +95,6 @@ def build_daily(day: str, ledger: list[dict], base: Path, state: Path):
     run([sys.executable, "scripts/render_issue_pages.py", "--input", str(base / "issue.json"), "--output-dir", str(page)])
     run([sys.executable, "scripts/render_wechat.py", "--input", str(base / "issue.json"), "--output-dir", str(wechat)])
     run([sys.executable, "scripts/validate_issue.py", "--input", str(base / "issue.json"), "--history-dir", "content/issues", "--wechat-dir", str(wechat), "--issues-dir", str(page)])
-    # Keep task-specific stable names after compatibility validation.
-    for source in wechat.glob(f"{day}-draft-*.txt"):
-        source.replace(wechat / source.name.replace("-draft", ""))
     preview = ROOT / "ops-local" / "preview" / day
     preview.mkdir(parents=True, exist_ok=True)
     page_file = page / date_compact(day) / "index.qmd"
@@ -106,7 +103,7 @@ def build_daily(day: str, ledger: list[dict], base: Path, state: Path):
     if not rendered.exists():
         raise RuntimeError("Quarto 未生成本地预览。")
     shutil.move(str(rendered), preview / rendered.name)
-    review = f"# 日常草稿审阅\n\n- 日期：{day}\n- core：{sum(x['core_or_extended'] == 'core' for x in ledger)}\n- extended：{sum(x['core_or_extended'] == 'extended' for x in ledger)}\n- 四份短版、详版与本地预览均已生成；尚未发布。\n"
+    review = f"# 日常草稿审阅\n\n- 日期：{day}\n- core：{sum(x['core_or_extended'] == 'core' for x in ledger)}\n- extended：{sum(x['core_or_extended'] == 'extended' for x in ledger)}\n- 一份统一短版、详版与本地预览均已生成；尚未发布。\n"
     (base / "review.md").write_text(review, encoding="utf-8")
     dump_json(state / f"dedup-{day}.json", {"records": [{"dedup_key": x["dedup_key"], "verification_date": day} for x in ledger]})
 

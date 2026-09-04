@@ -1,20 +1,12 @@
-<!-- 此文件由 scripts/build_catalog_pages.py 从 content/issues/*.json 生成。 -->
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 ---
-title: "连享新文"
+title: "推文"
 ---
 
-<p class="catalog-intro">连享会的新文章、讲义与资源说明。 当前公开条目均为 <strong>DEMO</strong>，仅用于验证页面结构，不代表真实资讯。</p>
+<p class="catalog-intro">连享会的新文章、讲义与资源说明。</p>
 
 ## 公开期次
 
-<div class="catalog-grid">
-<article class="catalog-card">
-<h3>DEMO：连享会推文占位条目</h3>
-<p class="catalog-meta">日期：2099-01-01；状态：DEMO</p>
-<p>中性占位条目，不对应真实推文。</p>
-<p class="catalog-tags">软件平台：Stata；研究方法：因果推断；标签：高维固定效应</p>
-<p><a href="../20990101/">查看日期详版</a></p>
-</article>
-</div>
+<p class="catalog-empty">正式快讯将在首次发布后归档。</p>
 
-[返回栏目索引](index.qmd)
+[查看栏目索引](index.qmd)

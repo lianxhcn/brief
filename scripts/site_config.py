@@ -27,3 +27,18 @@ def detail_url(value: str | dict) -> str:
     issue_date = value["date"] if isinstance(value, dict) else value
     route = SITE["detail_url_pattern"].format(date_compact=date_compact(issue_date))
     return SITE["public_base_url"].rstrip("/") + route
+
+
+def is_demo_issue(issue: dict) -> bool:
+    """Return whether an issue is local-only DEMO input.
+
+    The year guard prevents an accidentally relabeled fixture from entering a
+    public index. Keep this rule here so page builders and validators share
+    one definition instead of duplicating date checks.
+    """
+    return issue.get("status") == "demo" or str(issue.get("date", "")).startswith("2099-")
+
+
+def is_public_issue(issue: dict) -> bool:
+    """Return whether an issue belongs in visitor-facing lists."""
+    return issue.get("status") == "published" and not is_demo_issue(issue)

@@ -1,34 +1,12 @@
-<!-- 此文件由 scripts/build_catalog_pages.py 从 content/issues/*.json 生成。 -->
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 ---
-title: "方法工具"
+title: "新方法"
 ---
 
-<p class="catalog-intro">软件、方法、复现与数据处理工具。 当前公开条目均为 <strong>DEMO</strong>，仅用于验证页面结构，不代表真实资讯。</p>
+<p class="catalog-intro">软件、方法、复现与数据处理工具。</p>
 
 ## 公开期次
 
-<div class="catalog-grid">
-<article class="catalog-card">
-<h3>DEMO：延伸研究资源占位条目</h3>
-<p class="catalog-meta">日期：2099-01-01；状态：DEMO</p>
-<p>仅在网页详版出现，不对应真实资源推荐。</p>
-<p class="catalog-tags">研究领域：金融；标签：研究资源</p>
-<p><a href="../20990101/">查看日期详版</a></p>
-</article>
-<article class="catalog-card">
-<h3>DEMO：Stata 工具占位条目</h3>
-<p class="catalog-meta">日期：2099-01-01；状态：DEMO</p>
-<p>中性占位工具，不代表真实软件更新。</p>
-<p class="catalog-tags">软件平台：Stata；研究方法：因果推断；标签：工作流</p>
-<p><a href="../20990101/">查看日期详版</a></p>
-</article>
-<article class="catalog-card">
-<h3>DEMO：Python 延伸工具占位条目</h3>
-<p class="catalog-meta">日期：2099-01-01；状态：DEMO</p>
-<p>仅在网页详版出现，用于验证延伸工具。</p>
-<p class="catalog-tags">软件平台：Python；研究方法：机器学习；标签：研究辅助</p>
-<p><a href="../20990101/">查看日期详版</a></p>
-</article>
-</div>
+<p class="catalog-empty">正式快讯将在首次发布后归档。</p>
 
-[返回栏目索引](index.qmd)
+[查看栏目索引](index.qmd)
