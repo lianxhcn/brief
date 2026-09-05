@@ -11,6 +11,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from site_config import date_compact, detail_url, is_demo_issue
+from editorial_rules import uses_v2, check_editorial, MAX_LINES, MAX_CHARS
+from render_wechat import title_line
 
 DAILY_CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources")
 ALL_CATEGORIES = DAILY_CATEGORIES + ("conference_calls",)
@@ -132,6 +134,7 @@ def validate_item(item: dict, category: str, source: Path, errors: list[str]) ->
 
 
 def validate_schema(issue: dict, source: Path, errors: list[str]) -> None:
+    errors.extend(f"{source}: {error}" for error in check_editorial(issue))
     required = ("issue_id", "date", "status", "issue_type", "title", "lianxh_posts", "papers", "tools")
     for key in required:
         if key not in issue:
@@ -156,7 +159,7 @@ def validate_schema(issue: dict, source: Path, errors: list[str]) -> None:
     if len(ids) != len(set(ids)):
         errors.append(f"{source}: 条目 id 不能重复")
     if issue.get("issue_type") == "daily":
-        entries = [(category, item) for category, item in all_items(issue) if category != "conference_calls"]
+        entries = [(category, item) for category, item in all_items(issue) if uses_v2(issue) or category != "conference_calls"]
         core = sum(item.get("priority") == "core" for _, item in entries)
         extended = sum(item.get("priority") == "extended" for _, item in entries)
         if core > 5:
@@ -218,6 +221,9 @@ def core_urls(issue: dict) -> set[str]:
     for category, item in all_items(issue):
         if item.get("priority") != "core":
             continue
+        if uses_v2(issue) and category == "papers":
+            urls.update(filter(None, (item.get("homepage_url"), item.get("pdf_url"))))
+            continue
         url = item_url(item, category)
         if isinstance(url, str):
             urls.add(url)
@@ -241,10 +247,17 @@ def validate_text_file(path: Path, expected_title: str, expected_urls: set[str],
         errors.append(f"{path}: 标题格式不符合要求")
     if is_demo_issue(issue) and "DEMO" not in (lines[0] if lines else ""):
         errors.append(f"{path}: DEMO 标题未显著标明")
-    if len(lines) > 28:
-        errors.append(f"{path}: 共 {len(lines)} 行，超过 28 行")
-    if len(text) > 1200:
-        errors.append(f"{path}: 共 {len(text)} 字符，超过 1,200 字符")
+    line_limit = MAX_LINES if uses_v2(issue) else 28
+    char_limit = MAX_CHARS if uses_v2(issue) else 1200
+    if len(lines) > line_limit:
+        errors.append(f"{path}: 共 {len(lines)} 行，超过 {line_limit} 行")
+    if len(text) > char_limit:
+        errors.append(f"{path}: 共 {len(text)} 字符，超过 {char_limit} 字符")
+    if uses_v2(issue):
+        for item in issue.get("papers", []):
+            if item.get("priority") == "core":
+                if f"提要：{item['wechat_summary']}" not in lines or f"引文：{item['citation']}" not in lines:
+                    errors.append(f"{path}: 论文提要与引文必须分别独占一行")
     if MARKDOWN_LINK_RE.search(text) or re.search(r"<[A-Za-z][^>]*>", text):
         errors.append(f"{path}: 不得使用 Markdown 链接或 HTML")
     if FORBIDDEN_RE.search(text):
@@ -282,7 +295,7 @@ def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Pa
         errors.append(f"{wechat_dir}: 对应期次文本数量或文件名不正确")
     date_text = issue["date"].replace("-", ".")
     demo = " · DEMO" if is_demo_issue(issue) else ""
-    title = f"连享会快讯 · {date_text}{demo}"
+    title = title_line(issue)
     urls = core_urls(issue)
     for path in paths:
         validate_text_file(path, title, urls, issue, errors)
@@ -290,7 +303,7 @@ def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Pa
 
 
 def validate_page(issue: dict, issues_dir: Path, errors: list[str]) -> Path:
-    path = issues_dir / date_compact(issue["date"]) / "index.qmd"
+    path = issues_dir / "issues" / date_compact(issue["date"]) / "index.qmd"
     if not path.exists():
         errors.append(f"{path}: 缺少日期详版页面")
         return path
@@ -308,7 +321,7 @@ def validate_page(issue: dict, issues_dir: Path, errors: list[str]) -> Path:
     for category, item in all_items(issue):
         if f"{{#{item.get('id')}}}" not in text:
             errors.append(f"{path}: 缺少条目稳定锚点 {item.get('id')}")
-        for url in filter(None, (item_url(item, category), item.get("replication_url"))):
+        for url in filter(None, (item_url(item, category), item.get("replication_url"), item.get("homepage_url"), item.get("pdf_url"))):
             if url not in text:
                 errors.append(f"{path}: 未渲染数据源 URL {url}")
     return path

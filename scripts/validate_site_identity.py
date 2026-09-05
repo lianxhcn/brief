@@ -13,7 +13,7 @@ EXPECTED_CONFIG = {
     "github_owner": "lianxhcn",
     "github_repository": "brief",
     "public_base_url": "https://lianxhcn.github.io/brief",
-    "detail_url_pattern": "/{date_compact}/",
+    "detail_url_pattern": "/issues/{date_compact}/",
     "custom_domain": None,
     "alicloud_mirror": False,
 }
@@ -83,8 +83,8 @@ def check_pages_and_wechat(issues: list[dict], errors: list[str]) -> None:
         if not isinstance(day, str):
             continue
         compact = date_compact(day)
-        page_source = ROOT / compact / "index.qmd"
-        rendered = ROOT / "_site" / compact / "index.html"
+        page_source = ROOT / "issues" / compact / "index.qmd"
+        rendered = ROOT / "_site" / "issues" / compact / "index.html"
         if is_demo_issue(issue):
             if not page_source.exists() or not rendered.exists():
                 errors.append(f"{compact}: DEMO 日期页缺少本地构建产物")
@@ -106,7 +106,7 @@ def check_active_tree(errors: list[str]) -> None:
         ROOT / "README.md", ROOT / "AGENTS.md", ROOT / "_quarto.yml",
         ROOT / "index.qmd", ROOT / "archive.qmd", ROOT / "docs", ROOT / "config",
         ROOT / "content" / "issues", ROOT / "topics", ROOT / "publish" / "wechat",
-        ROOT / ".github", ROOT / "_site", ROOT / "ops-local" / "preview",
+        ROOT / "issues", ROOT / ".github", ROOT / "_site", ROOT / "ops-local" / "preview",
     ]
     for root in roots:
         paths = [root] if root.is_file() else root.rglob("*") if root.exists() else []

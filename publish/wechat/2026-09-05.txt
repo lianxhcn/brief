@@ -1,21 +1,34 @@
-连享会快讯 · 2026.09.05
+📰 连享会 · 快讯 | 2026.09.05
 
-📌 推文
-连享会 · AI-Agent 数据分析实战；官网页面列出 10 月 17、24、31 日的线上直播安排，由杨楷（深圳大学）主讲；课程内容与最终安排以官网为准。
+01｜论文 · QJE：从历史税册重建美国财富
+提要：利用历史财产税记录重建美国州、县与全国财富序列，呈现长期地区差距。可借鉴税收估值转换为市场财富的测量思路；9 月 4 日上线录用稿。
+引文：Dray, S., Landais, C., & Stantcheva, S. (2026). Wealth and Property Taxation in the United States. The Quarterly Journal of Economics, qjag038 (Forthcoming).
+论文主页
 
- https://www.lianxh.cn/details/1900.html 
+ https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjag038/8786007 
 
-📘 论文
-Chen, Y., Hoffman, M., Xu, H., & Yuan, Z. (2026). Empowering Inclusive Work. NBER Working Paper No. 35372.；这篇 NBER 工作论文使用中国外卖平台微观数据，并围绕文字转语音工具上线构建双重差分设计，讨论辅助技术与包容性就业。
+PDF (作者稿，2026-07-06)
 
- https://doi.org/10.3386/w35372 
+ https://stantcheva.scholars.harvard.edu/resource/draylandaisstantchevawealthpropertytaxuspdf 
 
-🍀 新方法
-Python：DoubleML；DoubleML 为双重/去偏机器学习提供 Python 与 R 实现；PyPI 显示 Python 版 0.11.4 于 2026-08-10 发布。
+02｜论文 · AER：企业如何感知不确定性？
+提要：德国制造业企业面板调查显示，销售增长异常偏低或偏高时，管理者都更感到不确定。主观不确定性与条件波动率有区别，适合关注企业预期测量的读者。
+引文：Bachmann, R., Carstensen, K., Lautenbacher, S., Menkhoff, M., & Schneider, M. (2026). Uncertainty and Change: Survey Evidence of Firms’ Subjective Beliefs. American Economic Review, 116(8), 2806–2849.
+论文主页
 
- https://docs.doubleml.org/ 
+ https://www.aeaweb.org/articles?id=10.1257/aer.20240056 
+
+PDF (作者稿，2025-10-31)
+
+ https://web.stanford.edu/~schneidr/unc_current.pdf 
+
+03｜软件 · R：binsreg 2.2 分箱散点图与统计推断
+提要：CRAN 8 月 21 日发布 2.2 版。该包支持分箱回归、分位数回归、置信区间与形状检验，可用于展示变量关系；分箱图本身不能确立因果关系。
+版本：R / binsreg 2.2；发布：2026-08-21
+
+ https://cran.r-project.org/package=binsreg 
 
 本期详版
 
- https://lianxhcn.github.io/brief/20260905/ 
+ https://lianxhcn.github.io/brief/issues/20260905/ 
 

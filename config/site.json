@@ -3,7 +3,7 @@
   "github_owner": "lianxhcn",
   "github_repository": "brief",
   "public_base_url": "https://lianxhcn.github.io/brief",
-  "detail_url_pattern": "/{date_compact}/",
+  "detail_url_pattern": "/issues/{date_compact}/",
   "custom_domain": null,
   "alicloud_mirror": false
 }

@@ -8,7 +8,7 @@ title: "栏目索引"
 
 ## 内容栏目
 
-<div class="catalog-grid">
+<div class="catalog-grid catalog-grid--overview">
 <article class="catalog-card">
 <h3><a href="lianxh-new.qmd">推文</a></h3>
 <p>连享会的新文章、讲义与资源说明。</p>
@@ -17,12 +17,12 @@ title: "栏目索引"
 <article class="catalog-card">
 <h3><a href="research-frontier.qmd">论文</a></h3>
 <p>已筛选的论文与研究成果。</p>
-<p class="catalog-meta">当前 1 条公开条目。</p>
+<p class="catalog-meta">当前 3 条公开条目。</p>
 </article>
 <article class="catalog-card">
 <h3><a href="methods-tools.qmd">新方法</a></h3>
 <p>软件、方法、复现与数据处理工具。</p>
-<p class="catalog-meta">当前 1 条公开条目。</p>
+<p class="catalog-meta">当前 2 条公开条目。</p>
 </article>
 <article class="catalog-card">
 <h3><a href="academic-updates.qmd">会议征稿</a></h3>
@@ -35,15 +35,15 @@ title: "栏目索引"
 
 <section class="catalog-tag-group">
 <h3>软件平台</h3>
-<p>Python</p>
+<p>Python、R</p>
 </section>
 
 <section class="catalog-tag-group">
 <h3>研究方法</h3>
-<p>双重差分、双重机器学习、因果推断、机器学习</p>
+<p>分箱回归、历史数据测量、双重差分、双重机器学习、因果推断、机器学习、非参数推断、面板调查、预期测量</p>
 </section>
 
 <section class="catalog-tag-group">
 <h3>研究领域</h3>
-<p>劳动经济学、平台经济、管理学、经济学、金融学</p>
+<p>企业经济学、公共经济学、劳动经济学、宏观经济学、平台经济、管理学、经济史、经济学、金融学</p>
 </section>

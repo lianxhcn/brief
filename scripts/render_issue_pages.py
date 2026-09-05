@@ -10,11 +10,11 @@ from pathlib import Path
 
 from site_config import date_compact
 
-COURSE_CALLOUT = '''<aside class="course-hub-callout" role="note" aria-label="连享会课程入口">
+COURSE_CALLOUT = '''<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
   <p class="course-hub-callout__title">连享会课程</p>
   <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
   <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</aside>'''
+</div>'''
 
 CATEGORY_LABELS = {
     "lianxh_posts": "连享会新推文",
@@ -33,6 +33,10 @@ def item_links(item: dict, category: str) -> list[str]:
     links: list[str] = []
     if category == "papers":
         links.append(f"DOI：[{escape(item['doi_url'])}]({item['doi_url']})")
+        if item.get("homepage_url"):
+            links.append(f"论文主页：[期刊或预印本页面]({item['homepage_url']})")
+        if item.get("pdf_url"):
+            links.append(f"PDF：[作者公开版本 ({escape(item.get('pdf_version', '版本未注明'))})]({item['pdf_url']})")
         if item.get("replication_url"):
             links.append(f"复现资料：[{escape(item['replication_url'])}]({item['replication_url']})")
     elif category == "conference_calls":
@@ -105,7 +109,7 @@ def main() -> int:
     args = parser.parse_args()
     with args.input.open(encoding="utf-8") as handle:
         issue = json.load(handle)
-    output = args.output_dir / date_compact(issue["date"]) / "index.qmd"
+    output = args.output_dir / "issues" / date_compact(issue["date"]) / "index.qmd"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(render_page(issue), encoding="utf-8")
     print(f"WROTE {output}")

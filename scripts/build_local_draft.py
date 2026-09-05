@@ -52,29 +52,24 @@ def check_ledger(items: list[dict]):
 
 
 def daily_issue(day: str, items: list[dict]) -> dict:
-    tools = []
-    for item in items:
-        if item["kind"] != "tool":
-            continue
-        tools.append({
-            "id": item["id"], "title": item["title"], "ecosystem": item["ecosystem"],
-            "name": item["name"], "priority": item["core_or_extended"],
-            "wechat_summary": item["wechat_summary"], "page_note": item["page_note"],
-            "url": item["official_url"], "topics": item.get("group_tags", []),
-            "catalog": {
-                "section": "methods-tools",
-                "software": [item["ecosystem"]],
-                "methods": [],
-                "fields": [],
-                "tags": item.get("group_tags", []),
-            },
-        })
-    core = [item for item in tools if item["priority"] == "core"]
-    if not 1 <= len(core) <= 5:
-        raise ValueError("日常草稿需要 1--5 条已核验 core 条目。")
-    return {"issue_id": f"{day}-local-draft", "date": day, "status": "draft", "issue_type": "daily",
-            "title": f"草稿：{day} 日常快讯", "lianxh_posts": [], "papers": [], "tools": tools,
-            "research_resources": []}
+    # 新台账使用 payload 保存完整条目，支持论文、软件与可选会议混排。
+    from editorial_rules import check_editorial
+    mapping = {"paper": "papers", "tool": "tools", "post": "lianxh_posts",
+               "resource": "research_resources", "conference": "conference_calls"}
+    issue = {"issue_id": f"{day}-local-draft", "date": day, "status": "draft",
+             "issue_type": "daily", "editorial_version": 2,
+             "title": f"连享会 · 快讯 | {day.replace('-', '.')}"}
+    issue.update({category: [] for category in mapping.values()})
+    for candidate in items:
+        if candidate["kind"] not in mapping or not isinstance(candidate.get("payload"), dict):
+            raise ValueError("新版候选台账需要受支持的 kind 和完整 payload；请勿沿用旧工具专用台账。")
+        payload = dict(candidate["payload"])
+        payload["priority"] = candidate["core_or_extended"]
+        issue[mapping[candidate["kind"]]].append(payload)
+    errors = check_editorial(issue)
+    if errors:
+        raise ValueError("\n".join(errors))
+    return issue
 
 
 def run(command: list[str]):
@@ -97,9 +92,9 @@ def build_daily(day: str, ledger: list[dict], base: Path, state: Path):
     run([sys.executable, "scripts/validate_issue.py", "--input", str(base / "issue.json"), "--history-dir", "content/issues", "--wechat-dir", str(wechat), "--issues-dir", str(page)])
     preview = ROOT / "ops-local" / "preview" / day
     preview.mkdir(parents=True, exist_ok=True)
-    page_file = page / date_compact(day) / "index.qmd"
+    page_file = page / "issues" / date_compact(day) / "index.qmd"
     run(["quarto", "render", str(page_file)])
-    rendered = page / date_compact(day) / "index.html"
+    rendered = page / "issues" / date_compact(day) / "index.html"
     if not rendered.exists():
         raise RuntimeError("Quarto 未生成本地预览。")
     shutil.move(str(rendered), preview / rendered.name)

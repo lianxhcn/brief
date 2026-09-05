@@ -20,12 +20,21 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      - name: Test editorial rules
+        run: python -m unittest discover -s scripts -p test_editorial_rules.py -v
       - name: Set up Pages
         uses: actions/configure-pages@v5
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Render site
         uses: quarto-dev/quarto-actions/render@v2
+      - name: Validate rendered release
+        run: |
+          for issue in content/issues/*.json; do
+            python scripts/validate_issue.py --input "$issue" --history-dir content/issues --wechat-dir publish/wechat --issues-dir .
+          done
+          python scripts/validate_site_identity.py
+          python scripts/validate_navigation.py
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

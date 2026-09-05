@@ -10,11 +10,18 @@ title: "新方法"
 
 <div class="catalog-grid">
 <article class="catalog-card">
+<h3>R：binsreg 2.2 分箱散点图与统计推断</h3>
+<p class="catalog-meta">日期：2026-09-05</p>
+<p>CRAN 8 月 21 日发布 2.2 版。该包支持分箱回归、分位数回归、置信区间与形状检验，可用于展示变量关系；分箱图本身不能确立因果关系。</p>
+<p class="catalog-tags">软件平台：R；研究方法：分箱回归、非参数推断；标签：软件更新、binsreg</p>
+<p><a href="../issues/20260905/">查看日期详版</a></p>
+</article>
+<article class="catalog-card">
 <h3>DoubleML 0.11.4</h3>
 <p class="catalog-meta">日期：2026-09-05</p>
-<p>该工具将交叉拟合与正交得分封装为接口，可用于高维控制变量或复杂预测模型下的因果参数估计。机器学习拟合得好并不自动替代识别假设、样本构造和因果解释。</p>
+<p>DoubleML 为双重/去偏机器学习提供 Python 与 R 实现；PyPI 显示 Python 版 0.11.4 于 2026-08-10 发布。</p>
 <p class="catalog-tags">软件平台：Python；研究方法：双重机器学习；标签：因果机器学习、交叉拟合</p>
-<p><a href="../20260905/">查看日期详版</a></p>
+<p><a href="../issues/20260905/">查看日期详版</a></p>
 </article>
 </div>
 

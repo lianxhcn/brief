@@ -6,17 +6,19 @@ title: "连享会 · 快讯"
   <img src="assets/brand/brief/lianxh-brief-cover.jpg" alt="连享会 · 快讯栏目封面">
 </div>
 
-这是连享会 · 快讯的公开归档。网页详版和全课程群共用的短版均由同一数据源生成。
+连享会 · 快讯由连享会推出，为经管研究与课程学习筛选近期论文、Stata/R/Python 软件更新，以及会议和征稿信息。
 
-<aside class="course-hub-callout" role="note" aria-label="连享会课程入口">
+连享会课程微信群会定期分享快讯短版；希望进一步阅读的读者，可以在这里查看论文原文、工具资料与来源说明，也可以按日期查阅往期内容。短版和网页详版由同一份核验后的数据生成。
+
+<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
   <p class="course-hub-callout__title">连享会课程</p>
   <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
   <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</aside>
+</div>
 
 ## 快讯归档
 
-- [连享会快讯 · 2026.09.05](20260905/)
-- [连享会快讯 · 2026.09.04](20260904/)
+- [连享会 · 快讯 | 2026.09.05](issues/20260905/)
+- [连享会快讯 · 2026.09.04](issues/20260904/)
 
 可按内容类型查看[栏目索引](topics/index.qmd)，或在[往期](archive.qmd)中按日期查阅公开期次。

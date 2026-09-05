@@ -1,17 +1,17 @@
 project:
   type: website
   output-dir: _site
+  post-render:
+    - scripts/build_legacy_redirects.py
   render:
     - index.qmd
     - archive.qmd
     - topics/
-    - 20260904/
-    - 20260905/
-    - 20990101/
-    - 20990102/
+    - issues/
 
 website:
   title: "连享会 · 快讯"
+  favicon: assets/brand/brief/lianxh-brief-icon.png
   search: true
   page-footer:
     center: '<a href="https://www.lianxh.cn/" target="_blank" rel="noopener noreferrer">lianxh.cn</a>'

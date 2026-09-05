@@ -22,11 +22,11 @@ SECTIONS = (
 SECTION_MAP = {identifier: (title, description) for identifier, title, description in SECTIONS}
 CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources", "conference_calls")
 TAG_FIELDS = (("software", "软件平台"), ("methods", "研究方法"), ("fields", "研究领域"))
-COURSE_CALLOUT = '''<aside class="course-hub-callout" role="note" aria-label="连享会课程入口">
+COURSE_CALLOUT = '''<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
   <p class="course-hub-callout__title">连享会课程</p>
   <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
   <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</aside>'''
+</div>'''
 
 
 def escape(value: object) -> str:
@@ -56,14 +56,14 @@ def entries(issues: list[dict]) -> list[dict]:
                 if not isinstance(catalog.get("tags"), list):
                     raise ValueError(f"{issue['issue_id']}: {item.get('id', '<unknown>')} 的 catalog.tags 必须是列表")
                 collected.append({
-                    "date": issue["date"], "title": item["title"], "note": item["page_note"],
+                    "date": issue["date"], "title": item["title"], "note": item.get("wechat_summary") or item["page_note"],
                     "section": catalog["section"], "catalog": catalog,
                 })
     return sorted(collected, key=lambda value: (value["date"], value["title"]), reverse=True)
 
 
 def card(entry: dict) -> str:
-    date_link = f"../{date_compact(entry['date'])}/"
+    date_link = f"../issues/{date_compact(entry['date'])}/"
     labels = []
     for field, label in TAG_FIELDS:
         values = entry["catalog"][field]
@@ -105,7 +105,7 @@ def index_page(values: list[dict]) -> str:
     for value in values:
         grouped[value["section"]].append(value)
     lines = page_header("栏目索引", "按内容类型浏览公开期次。软件、方法与研究领域是可叠加标签，不构成一级栏目。")
-    lines.extend(["## 内容栏目", "", '<div class="catalog-grid">'])
+    lines.extend(["## 内容栏目", "", '<div class="catalog-grid catalog-grid--overview">'])
     for identifier, title, description in SECTIONS:
         lines.append(f'''<article class="catalog-card">
 <h3><a href="{identifier}.qmd">{title}</a></h3>
@@ -129,12 +129,13 @@ def home_page(issues: list[dict]) -> str:
         '<div class="brief-cover">',
         '  <img src="assets/brand/brief/lianxh-brief-cover.jpg" alt="连享会 · 快讯栏目封面">',
         "</div>", "",
-        "这是连享会 · 快讯的公开归档。网页详版和全课程群共用的短版均由同一数据源生成。", "",
+        "连享会 · 快讯由连享会推出，为经管研究与课程学习筛选近期论文、Stata/R/Python 软件更新，以及会议和征稿信息。", "",
+        "连享会课程微信群会定期分享快讯短版；希望进一步阅读的读者，可以在这里查看论文原文、工具资料与来源说明，也可以按日期查阅往期内容。短版和网页详版由同一份核验后的数据生成。", "",
         COURSE_CALLOUT, "", "## 快讯归档", "",
     ]
     if issues:
         for issue in issues:
-            lines.append(f"- [{escape(issue['title'])}]({date_compact(issue['date'])}/)")
+            lines.append(f"- [{escape(issue['title'])}](issues/{date_compact(issue['date'])}/)")
     else:
         lines.append("<p class=\"catalog-empty\">正式快讯将在首次发布后归档。</p>")
     lines.extend(["", "可按内容类型查看[栏目索引](topics/index.qmd)，或在[往期](archive.qmd)中按日期查阅公开期次。", ""])
@@ -145,7 +146,7 @@ def archive_page(issues: list[dict]) -> str:
     lines = ["---", 'title: "往期"', "---", "", "下列链接直达按日期生成的公开详版。", ""]
     if issues:
         for issue in issues:
-            lines.append(f"- [{issue['date']}：{escape(issue['title'])}]({date_compact(issue['date'])}/)")
+            lines.append(f"- [{issue['date']}：{escape(issue['title'])}](issues/{date_compact(issue['date'])}/)")
     else:
         lines.append("正式快讯将在首次发布后归档。")
     lines.append("")

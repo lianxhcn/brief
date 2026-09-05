@@ -10,11 +10,25 @@ title: "论文"
 
 <div class="catalog-grid">
 <article class="catalog-card">
+<h3>QJE：从历史税册重建美国财富</h3>
+<p class="catalog-meta">日期：2026-09-05</p>
+<p>利用历史财产税记录重建美国州、县与全国财富序列，呈现长期地区差距。可借鉴税收估值转换为市场财富的测量思路；9 月 4 日上线录用稿。</p>
+<p class="catalog-tags">研究方法：历史数据测量；研究领域：经济史、公共经济学；标签：QJE、Forthcoming</p>
+<p><a href="../issues/20260905/">查看日期详版</a></p>
+</article>
+<article class="catalog-card">
 <h3>Empowering Inclusive Work</h3>
 <p class="catalog-meta">日期：2026-09-05</p>
-<p>作者报告，文字转语音工具上线后，听障或听力受损骑手的配送表现、劳动供给与留任均有改善。该文仍是工作论文，应结合原文理解其样本、识别与外推边界。</p>
+<p>这篇 NBER 工作论文使用中国外卖平台微观数据，并围绕文字转语音工具上线构建双重差分设计，讨论辅助技术与包容性就业。</p>
 <p class="catalog-tags">研究方法：双重差分；研究领域：劳动经济学、平台经济；标签：辅助技术、包容性就业</p>
-<p><a href="../20260905/">查看日期详版</a></p>
+<p><a href="../issues/20260905/">查看日期详版</a></p>
+</article>
+<article class="catalog-card">
+<h3>AER：企业如何感知不确定性？</h3>
+<p class="catalog-meta">日期：2026-09-05</p>
+<p>德国制造业企业面板调查显示，销售增长异常偏低或偏高时，管理者都更感到不确定。主观不确定性与条件波动率有区别，适合关注企业预期测量的读者。</p>
+<p class="catalog-tags">研究方法：面板调查、预期测量；研究领域：企业经济学、宏观经济学；标签：AER、正式发表</p>
+<p><a href="../issues/20260905/">查看日期详版</a></p>
 </article>
 </div>
 

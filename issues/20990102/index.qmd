@@ -6,11 +6,11 @@ title: "DEMO：2099-01-02 会议信息增刊"
 
 状态：**DEMO**；日期：2099-01-02。
 
-<aside class="course-hub-callout" role="note" aria-label="连享会课程入口">
+<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
   <p class="course-hub-callout__title">连享会课程</p>
   <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
   <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</aside>
+</div>
 
 ## 本期重点
 
