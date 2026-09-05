@@ -1,5 +1,7 @@
-# 本地草稿定时任务提示词
+# 自动化提示词迁移入口
 
-仅在用户另行明确授权后使用。工作日 `07:15`（`Asia/Shanghai`）运行本仓库草稿流水线。每次只写 `ops-local/` 中的候选台账、去重状态、草稿、预览与报告，绝不写 `content/issues/`、`issues/`、`publish/wechat/`、`index.qmd` 或 `archive.qmd`。优先真实、当前、可核验的官方内容；无合格条目时写 `no-release`。会议源周一、周四全量检查，其他工作日只复核更新。
+[DEPRECATED] 原提示词是未启用的阶段草案，不可直接创建或运行定时任务。原“四份短版”和固定工作日 07:15 不再作为当前执行要求。
 
-不得执行 Git 写操作、远程仓库操作、Pages 操作或群发操作。完成后返回四份短版路径、详版预览路径和简短审阅摘要。
+运行规则以 [automation-rules.md](automation-rules.md) 为准；第一周具体时刻仍 PENDING，当前新正式期次暂停见 A-02。Task 11 按 [实现债务](tasks/implementation-debt.md) 完成端到端验证后，在另获授权的范围内形成新提示词。本次不创建自动化。
+
+原文保留在 Git 基线 `b5c8a0dfe1e57adae3f01f9100a1e73847e57e6e:docs/automation-draft-prompt.md`。

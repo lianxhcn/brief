@@ -1,12 +1,5 @@
-# 草稿来源与筛选规则
+# 来源规则迁移入口
 
-`config/source-registry.yml` 只登记官方入口。搜索结果、聚合站、培训广告和转载页不能作为最终引用。
+[DEPRECATED] 本文件原有筛选说明已合并到 [content-rules.md](content-rules.md) 的 C-01 至 C-09，不再独立定义来源规则。
 
-- 每期先核验 1–2 篇顶刊近期正式发表或 forthcoming 论文；工作论文优先 arXiv，NBER 作为补充；`CEPR`、`SSRN` 只作有明确方法、代码或研究价值的补充。
-- 工具必须来自 `ssc new`、Stata Journal、官方 PyPI / CRAN、正式 release 或有安装说明的作者维护仓库。
-- 中文期刊只监测征文、专题、重点选题、专栏和论文工作坊；《中国社会科学》与《社会学研究》标记为“匹配后收录”，须经主题匹配复核。
-- 每条候选必须保存官方 URL、核验日期、入选理由和去重键。无法核验 DOI、作者、日期、费用或官方链接时不进入成品草稿。
-- 会议需有可识别主办方、未过期征稿与通常至少 7 天的投稿窗口；暑校、训练营和工作坊只有明确免费或公益时才可入选。
-- 日常快讯中的会议信息为可选项，单条合格信息也可收录；不为会议凑数。只有明确制作独立会议增刊时，才沿用 2–3 条增刊规则。
-
-`ops-local/state/` 保存 14 天去重键。论文优先使用 DOI / 正式论文 URL，工具使用包名或正式项目 URL，会议使用主办方、标题、年份和截止日组合。待审核动态内容留在 `ops-local/`，审核通过后才进入公开数据源。新版构成与排版以 `docs/content-policy.md` 为准。
+`config/source-registry.yml` 保留为当前实现的入口表；完整最终白名单与软件版本去重 key 仍为 PENDING。历史依据可从 Git 基线 `b5c8a0dfe1e57adae3f01f9100a1e73847e57e6e:docs/source-selection-policy.md` 追溯。开始任务先读 [AGENTS.md](../AGENTS.md)。

@@ -25,3 +25,5 @@
 - `publish/wechat/` 是相同数据源生成的课程群短版。
 
 维护者可阅读[维护说明](docs/maintainer-guide.md)，了解内容校验、本地构建和发布步骤。
+
+维护任务开始前先读 [AGENTS.md](AGENTS.md) 和其中列明的 canonical rules。当前新正式期次的生成与发布暂停，恢复条件见 [自动化规则 A-02](docs/automation-rules.md)。

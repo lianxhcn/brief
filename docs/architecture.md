@@ -1,0 +1,45 @@
+# 长期架构
+
+canonical owner：数据流、模块与目录职责。
+
+## 1. 数据流
+
+```text
+外部来源
+    ↓
+discovery / collection
+    ↓
+verification / normalization
+    ↓
+structured daily records
+       ↙             ↘
+website renderer    WeChat renderer
+       ↓             ↓
+GitHub Pages        YYYY-MM-DD.txt
+```
+
+- R-01 [HARD]：两端共享结构化事实，采用不同 renderer / formatter。禁止长期将网站截断成微信或将微信扩写成网站。事实、作者、日期、DOI、链接须一致；摘要和完整说明分别维护。
+- R-02 [HARD]：保留 core / extended。core 同时进入两端，extended 只进网站。微信承担浏览、发现与导流，网站保存完整资料。
+
+## 2. 目录职责
+
+| 目录 | 职责 |
+|---|---|
+| `content/issues/` | 经审核的公开结构化期次；现存历史 DEMO 属隔离债务 |
+| `issues/YYYYMMDD/` | 日期详版源码 |
+| `publish/wechat/YYYY-MM-DD.txt` | 各课程群共用的一份短版 |
+| `topics/` | 从结构化数据构建的栏目 |
+| `config/site.json` | 运行时身份配置，服从 P-02 |
+| `config/source-registry.yml` | 当前来源入口，不能当作最终白名单 |
+| `scripts/` | 生成、格式化与校验实现 |
+| `ops-local/` | 私有候选、核验、去重、草稿与预览；永不提交 |
+| `_site/`、`.quarto/` | 构建与缓存，不作为开发真源 |
+| `docs/tasks/` | 审计、债务及后续验收 |
+
+R-03 [HARD]：两端及索引由统一数据生成，不手工维护矛盾副本。测试 fixtures 可保留，但不能进入生产，隔离服从 P-13。
+
+R-04 [DEFAULT]：延续 Quarto + Python 标准库方案。`editorial_version: 2` 是当前实现标记，不表示新规范合规。后续 schema / formatter 迁移写明兼容与验证方案。
+
+## 3. 当前实现状态
+
+2026-09-05 本地源码显示已有两个 renderer、栏目生成器、台账草稿构建器及 Pages 工作流；台账构建器尚不是完整自动采集器。该状态不是线上运行保证。已知差异见 [实现债务](tasks/implementation-debt.md)。
