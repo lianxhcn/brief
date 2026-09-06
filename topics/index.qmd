@@ -34,12 +34,12 @@ title: "栏目索引"
 ## 标签概览
 
 <section class="catalog-tag-group">
-<h3>软件平台</h3>
+<h3>软件</h3>
 <p>Python、R</p>
 </section>
 
 <section class="catalog-tag-group">
-<h3>研究方法</h3>
+<h3>方法</h3>
 <p>分箱回归、历史数据测量、双重差分、双重机器学习、因果推断、机器学习、非参数推断、面板调查、预期测量</p>
 </section>
 
@@ -48,4 +48,4 @@ title: "栏目索引"
 <p>企业经济学、公共经济学、劳动经济学、宏观经济学、平台经济、管理学、经济史、经济学、金融学</p>
 </section>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="近期课程"><details><summary>近期课程</summary><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></details></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

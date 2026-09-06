@@ -47,7 +47,7 @@ def main():
                     if path.startswith('/topics/') and path != '/topics/index.html':
                         assert '查看栏目索引' not in body
                         assert page.locator('main.content h2:not(#toc-title)').count() == 0
-                        assert page.locator('.catalog-card p a').evaluate_all("els => els.every(a => a.textContent === '详情')")
+                        assert page.locator('.catalog-card p a').evaluate_all("els => els.every(a => a.textContent === '查看本期')")
                     if path == '/topics/lianxh-new.html':
                         assert page.get_by_role('link',name='lianxh.cn 最新推文',exact=True).get_attribute('href').rstrip('/') == 'https://www.lianxh.cn'
                     if page.locator('section#延伸信息').count():
@@ -55,10 +55,12 @@ def main():
                         assert 24 <= spacing[0] <= 32 and 24 <= spacing[1] <= 32 and spacing[2] == '1px', spacing
                     if page.locator('.course-hub-callout').count():
                         assert page.locator('.course-hub-callout').evaluate("el => !['fixed', 'absolute'].includes(getComputedStyle(el).position)")
-                        details = page.locator('.course-hub-callout details')
-                        assert (details.get_attribute('open') is not None) == (width >= 1280)
-                        page.locator('.course-hub-callout summary').click()
-                        assert (details.get_attribute('open') is not None) != (width >= 1280)
+                        assert page.locator('.course-hub-callout details, .course-hub-callout summary').count() == 0
+                        title = page.locator('.course-hub-callout__title')
+                        assert title.inner_text() == '最新课程'
+                        assert title.evaluate("el => getComputedStyle(el).color") == 'rgb(35, 78, 112)'
+                        assert page.locator('.course-hub-callout li').first.is_visible()
+                        assert page.locator('.course-dates').first.is_visible()
                     if width >= 1280 and page.locator('.course-hub-callout').count():
                         card = page.locator('.course-hub-callout')
                         assert card.evaluate("el => el.parentElement.id === 'quarto-margin-sidebar'")
@@ -93,7 +95,7 @@ def main():
             browser.close()
     finally:
         server.shutdown()
-    out = ROOT / 'logs/task09-r03/responsive.json'
+    out = ROOT / 'logs/task09-small-polish/responsive.json'
     out.write_text(json.dumps(evidence, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f'PASS: {len(evidence)} browser checks; {out}')
 

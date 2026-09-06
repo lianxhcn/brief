@@ -9,7 +9,7 @@
 }
 .course-hub-callout__title {
   margin: 0;
-  color: #284a32;
+  color: #234e70;
   font-weight: 700;
 }
 .course-hub-callout__text,
@@ -147,7 +147,7 @@
   overflow-wrap: anywhere;
   min-width: 0;
 }
-.course-hub-callout summary { cursor: pointer; font-weight: 600; }
+.catalog-tags strong { color: #234e70; font-weight: 700; }
 @media (max-width: 40rem) {
   .course-hub-callout { padding: 0.65rem 0.8rem; font-size: 0.95rem; }
 }

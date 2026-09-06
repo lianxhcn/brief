@@ -82,7 +82,6 @@ format:
           const adapt = function () {
             const inSidebar = wide.matches && sidebar;
             (inSidebar ? sidebar : slot).appendChild(card);
-            card.querySelector('details').open = Boolean(inSidebar);
           };
           adapt();
           wide.addEventListener('change', adapt);

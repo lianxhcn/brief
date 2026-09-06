@@ -11,16 +11,16 @@ title: "新方法"
 <h3>R：binsreg 2.2 分箱散点图与统计推断</h3>
 <p class="catalog-meta">日期：2026-09-05</p>
 <p>binsreg 2.2 于 2026-08-21 发布，包含 binsreg、binsqreg、binsglm、binstest 等函数，可用于分箱回归、置信区间、形状检验及相关可视化，并支持协变量调整和聚类推断。分箱图本身不能确立因果关系。</p>
-<p class="catalog-tags">软件平台：R；研究方法：分箱回归、非参数推断；标签：软件更新、binsreg</p>
-<p><a href="../issues/20260905/#binsreg-r-22">详情</a></p>
+<p class="catalog-tags"><strong>软件：</strong>R；<strong>方法：</strong>分箱回归、非参数推断；<strong>标签：</strong>软件更新、binsreg</p>
+<p><a href="../issues/20260905/#binsreg-r-22">查看本期</a></p>
 </article>
 <article class="catalog-card">
 <h3>DoubleML 0.11.4</h3>
 <p class="catalog-meta">日期：2026-09-05</p>
 <p>DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.11.4 于 2026-08-10 发布。它将交叉拟合与正交得分封装为接口，可用于复杂控制变量下的因果参数估计；使用时仍需明确识别假设。</p>
-<p class="catalog-tags">软件平台：Python；研究方法：双重机器学习；标签：因果机器学习、交叉拟合</p>
-<p><a href="../issues/20260905/#doubleml-python-0114">详情</a></p>
+<p class="catalog-tags"><strong>软件：</strong>Python；<strong>方法：</strong>双重机器学习；<strong>标签：</strong>因果机器学习、交叉拟合</p>
+<p><a href="../issues/20260905/#doubleml-python-0114">查看本期</a></p>
 </article>
 </div>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="近期课程"><details><summary>近期课程</summary><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></details></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

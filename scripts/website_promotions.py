@@ -97,8 +97,8 @@ def render_promotion(config=None, today=None):
         return ''
     rows = [f'<li {attributes(item)}>' + external_link(item['title'], item['url']) +
             f'<span class="course-dates">{html.escape(dates_text(item))}</span></li>' for item in courses]
-    return ('<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="近期课程">'
-            '<details><summary>近期课程</summary><ul>' + ''.join(rows) + '</ul></details></div></div>')
+    return ('<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程">'
+            '<p class="course-hub-callout__title">最新课程</p><ul>' + ''.join(rows) + '</ul></div></div>')
 
 
 def render_home_promotion(config=None, today=None):

@@ -11,23 +11,23 @@ title: "会议征稿"
 <h3>Causal Data Science Meeting 2026</h3>
 <p class="catalog-meta">日期：2026-09-04</p>
 <p>Causal Data Science Meeting 2026 是面向因果机器学习、A/B 测试与因果发现的线上会议。接受 presentation proposal、扩展摘要或完整论文，主题涵盖因果 ML/AI、开源因果软件及商业决策中的因果方法。</p>
-<p class="catalog-tags">研究方法：因果推断、机器学习；标签：会议征稿、因果机器学习</p>
-<p><a href="../issues/20260904/#causal-data-science-meeting-2026">详情</a></p>
+<p class="catalog-tags"><strong>方法：</strong>因果推断、机器学习；<strong>标签：</strong>会议征稿、因果机器学习</p>
+<p><a href="../issues/20260904/#causal-data-science-meeting-2026">查看本期</a></p>
 </article>
 <article class="catalog-card">
 <h3>2027 Consortium on Asset Management</h3>
 <p class="catalog-meta">日期：2026-09-04</p>
 <p>FMA International 的资产管理研究 workshop 将于 2027-04-15 在剑桥举行。征稿涵盖公司治理、金融市场史、传统与另类资产、共同基金、对冲基金和责任投资；参会资格与费用见官方通知。</p>
-<p class="catalog-tags">研究领域：金融学；标签：会议征稿、资产管理</p>
-<p><a href="../issues/20260904/#fma-asset-management-2027">详情</a></p>
+<p class="catalog-tags"><strong>研究领域：</strong>金融学；<strong>标签：</strong>会议征稿、资产管理</p>
+<p><a href="../issues/20260904/#fma-asset-management-2027">查看本期</a></p>
 </article>
 <article class="catalog-card">
 <h3>10th International Conference on Economics and Business (ICEB 2026)</h3>
 <p class="catalog-meta">日期：2026-09-04</p>
 <p>Universitas Airlangga 经济与商学院围绕全球经济碎片化下的韧性、安全与可持续性征稿，涵盖理论、实证与政策研究。摘要截止后，完整论文的提交截止日为 2026-10-12。</p>
-<p class="catalog-tags">研究领域：经济学、管理学、金融学；标签：会议征稿、国际经济</p>
-<p><a href="../issues/20260904/#iceb-2026">详情</a></p>
+<p class="catalog-tags"><strong>研究领域：</strong>经济学、管理学、金融学；<strong>标签：</strong>会议征稿、国际经济</p>
+<p><a href="../issues/20260904/#iceb-2026">查看本期</a></p>
 </article>
 </div>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="近期课程"><details><summary>近期课程</summary><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></details></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -98,7 +98,7 @@ class FinalReviewTests(unittest.TestCase):
             self.assertNotIn(old,page)
         self.assertIn('href="https://www.lianxh.cn"',page)
         self.assertEqual(page.count('lianxh.cn 最新推文'),1)
-        self.assertIn('>详情</a>',page)
+        self.assertIn('>查看本期</a>',page)
         for text in (home_page(public_issues()),archive_page(public_issues())):
             self.assertNotIn('公开详版',text)
             self.assertNotIn('微信短版',text)

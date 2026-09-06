@@ -16,7 +16,7 @@ TOPICS_DIR = ROOT / "topics"
 from website_content import SECTIONS, DISPLAY_LABELS, public_summary
 SECTION_MAP = {identifier: (title, description) for identifier, title, description in SECTIONS}
 CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources", "conference_calls")
-TAG_FIELDS = (("software", "软件平台"), ("methods", "研究方法"), ("fields", "研究领域"))
+TAG_FIELDS = (("software", "软件"), ("methods", "方法"), ("fields", "研究领域"))
 from website_promotions import render_promotion, render_home_promotion
 
 
@@ -60,16 +60,16 @@ def card(entry: dict) -> str:
     for field, label in TAG_FIELDS:
         values = entry["catalog"][field]
         if values:
-            labels.append(f"{label}：{escape('、'.join(values))}")
+            labels.append(f"<strong>{label}：</strong>{escape('、'.join(values))}")
     if entry["catalog"]["tags"]:
-        labels.append(f"标签：{escape('、'.join(entry['catalog']['tags']))}")
+        labels.append(f"<strong>标签：</strong>{escape('、'.join(entry['catalog']['tags']))}")
     metadata = "；".join(labels) or "未设置附加标签。"
     return f'''<article class="catalog-card">
 <h3>{escape(entry['title'])}</h3>
 <p class="catalog-meta">日期：{escape(entry['date'])}</p>
 <p>{escape(entry['note'])}</p>
 <p class="catalog-tags">{metadata}</p>
-<p><a href="{date_link}">详情</a></p>
+<p><a href="{date_link}">查看本期</a></p>
 </article>'''
 
 
