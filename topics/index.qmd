@@ -4,29 +4,29 @@ title: "栏目索引"
 
 <!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 
-<p class="catalog-intro">按内容类型浏览公开期次。软件、方法与研究领域是可叠加标签，不构成一级栏目。</p>
+<p class="catalog-intro">按栏目或标签查找感兴趣的内容。</p>
 
 ## 内容栏目
 
 <div class="catalog-grid catalog-grid--overview">
 <article class="catalog-card">
-<h3><a href="lianxh-new.qmd">推文</a></h3>
-<p>连享会的新文章、讲义与资源说明。</p>
+<h3><a href="lianxh-new.qmd">新推文</a></h3>
+<p>lianxh.cn 最新推文。</p>
 <p class="catalog-meta">当前 1 条公开条目。</p>
 </article>
 <article class="catalog-card">
-<h3><a href="research-frontier.qmd">论文</a></h3>
-<p>已筛选的论文与研究成果。</p>
+<h3><a href="research-frontier.qmd">新论文</a></h3>
+<p>最新顶刊论文和工作论文。</p>
 <p class="catalog-meta">当前 3 条公开条目。</p>
 </article>
 <article class="catalog-card">
 <h3><a href="methods-tools.qmd">新方法</a></h3>
-<p>软件、方法、复现与数据处理工具。</p>
+<p>新发布的 Stata、R、Python 命令和 package。</p>
 <p class="catalog-meta">当前 2 条公开条目。</p>
 </article>
 <article class="catalog-card">
 <h3><a href="academic-updates.qmd">会议征稿</a></h3>
-<p>会议、征文、专题征稿与合格公益性活动。</p>
+<p>最新会议和征文信息。</p>
 <p class="catalog-meta">当前 3 条公开条目。</p>
 </article>
 </div>
@@ -47,3 +47,5 @@ title: "栏目索引"
 <h3>研究领域</h3>
 <p>企业经济学、公共经济学、劳动经济学、宏观经济学、平台经济、管理学、经济史、经济学、金融学</p>
 </section>
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="近期课程"><details><summary>近期课程</summary><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></details></div></div>

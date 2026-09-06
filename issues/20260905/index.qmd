@@ -1,81 +1,87 @@
 ---
 title: "连享会 · 快讯 | 2026.09.05"
+body-classes: issue-page
+toc-depth: 3
 ---
-
-## 状态
-
-状态：**PUBLISHED**；日期：2026-09-05。
-
-<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
-  <p class="course-hub-callout__title">连享会课程</p>
-  <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
-  <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</div>
 
 ## 本期重点
 
-### 近期论文
+### 新论文
 
-### QJE：从历史税册重建美国财富 {#dray-landais-stantcheva-wealth-tax-qje}
+::: {.brief-entry}
 
-Dray, S., Landais, C., &amp; Stantcheva, S. (2026). Wealth and Property Taxation in the United States. The Quarterly Journal of Economics, qjag038 (Forthcoming).
+#### QJE：从历史税册重建美国财富 {#dray-landais-stantcheva-wealth-tax-qje}
 
-期刊于 2026-09-04 上线 Accepted Manuscript，作者主页列为 QJE forthcoming。论文将历史财产税评估值与普查估值资料结合，构建长期财富序列；重要环节是利用评估值与市场值的比例校正税册数据。短版依据期刊摘要与作者公开稿初筛，不把地区财富差异解释为财产税的因果效应。PDF 为作者主页公开的 2026-07-06 版本，并非期刊最终排版稿；本次未复现结果。核验日期：2026-09-05。
+<p class="myapa">Dray, S., Landais, C., &amp; Stantcheva, S. (2026). Wealth and property taxation in the United States. The Quarterly Journal of Economics (forthcoming). <a href="https://doi.org/10.1093/qje/qjag038" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://stantcheva.scholars.harvard.edu/resource/draylandaisstantchevawealthpropertytaxuspdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Wealth%20and%20property%20taxation%20in%20the%20United%20States" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-DOI：[https://doi.org/10.1093/qje/qjag038](https://doi.org/10.1093/qje/qjag038)
+论文结合历史财产税记录与普查估值资料，重建美国州、县和全国的长期财富序列。关键步骤是用评估值与市场值的比例校正税册数据，适合关注财富测量与地区差距的读者；这些差异本身不能解释为财产税的因果效应。
 
-论文主页：[期刊或预印本页面](https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjag038/8786007)
 
-PDF：[作者公开版本 (作者稿，2026-07-06)](https://stantcheva.scholars.harvard.edu/resource/draylandaisstantchevawealthpropertytaxuspdf)
 
-### AER：企业如何感知不确定性？ {#bachmann-firm-uncertainty-aer}
+:::
 
-Bachmann, R., Carstensen, K., Lautenbacher, S., Menkhoff, M., &amp; Schneider, M. (2026). Uncertainty and Change: Survey Evidence of Firms’ Subjective Beliefs. American Economic Review, 116(8), 2806–2849.
+::: {.brief-entry}
 
-论文已正式刊于 AER 2026 年 8 月号，第 116 卷第 8 期，2806–2849 页。作者在企业面板调查中同时观测销售增长预测与主观不确定性，讨论企业经历的变化如何影响预期。提要依据期刊摘要，未将这些调查关系扩展为对任意企业样本都成立的因果结论。期刊 PDF 入口需要机构或会员访问，因此提供作者 Stanford 主页的合法公开 PDF，首页标注 2025-10-31；它早于正式发表版，不能保证两版完全一致。本次未复现结果。核验日期：2026-09-05。
+#### AER：企业如何感知不确定性？ {#bachmann-firm-uncertainty-aer}
 
-DOI：[https://doi.org/10.1257/aer.20240056](https://doi.org/10.1257/aer.20240056)
+<p class="myapa">Bachmann, R., Carstensen, K., Lautenbacher, S., Menkhoff, M., &amp; Schneider, M. (2026). Uncertainty and change: Survey evidence of firms’ subjective beliefs. American Economic Review, 116(8), 2806–2849. <a href="https://doi.org/10.1257/aer.20240056" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://web.stanford.edu/~schneidr/unc_current.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Uncertainty%20and%20change%3A%20Survey%20evidence%20of%20firms%E2%80%99%20subjective%20beliefs" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-论文主页：[期刊或预印本页面](https://www.aeaweb.org/articles?id=10.1257/aer.20240056)
+作者利用德国制造业企业面板调查，发现销售增长异常偏低或偏高时，管理者都更感到不确定。论文区分主观不确定性与条件波动率，为企业预期的测量提供参考。PDF 为作者稿，与正式发表版可能存在差异。
 
-PDF：[作者公开版本 (作者稿，2025-10-31)](https://web.stanford.edu/~schneidr/unc_current.pdf)
 
-### 方法与工具
 
-### R：binsreg 2.2 分箱散点图与统计推断 {#binsreg-r-22}
+:::
 
-生态：R；名称：binsreg
+### 新方法
 
-CRAN 页面与 DESCRIPTION 均核实版本为 2.2，Date/Publication 为 2026-08-21；DESCRIPTION 的 Date 为 2026-08-20，两者分别是包内日期与 CRAN 发布日期。包提供 binsreg、binsqreg、binsglm、binstest 等函数，可进行协变量调整和聚类推断。这里列的是包的已文档化功能，并未声称它们全部在 2.2 版首次引入。R 安装入口为 install.packages("binsreg")；本次仅核验发行记录和官方说明，未安装或运行测试，不作计算性能或估计正确性保证。核验日期：2026-09-05。
+::: {.brief-entry}
 
-资料链接：[https://cran.r-project.org/package=binsreg](https://cran.r-project.org/package=binsreg)
+#### R：binsreg 2.2 分箱散点图与统计推断 {#binsreg-r-22}
+
+binsreg 2.2 于 2026-08-21 发布，包含 binsreg、binsqreg、binsglm、binstest 等函数，可用于分箱回归、置信区间、形状检验及相关可视化，并支持协变量调整和聚类推断。分箱图本身不能确立因果关系。
+
+<a href="https://cran.r-project.org/package=binsreg" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
 
 ## 延伸信息
 
-### 连享会新推文
+### 新推文
 
-### 连享会 · AI-Agent 数据分析实战 {#lianxh-ai-agent-data-analysis}
+::: {.brief-entry}
 
-连享会官网的 AI-Agent 数据分析专题入口，适合关注 AI 工具如何进入实证研究流程的读者。 本条保留自本日较早公开版本，不重复纳入本次群消息短版。
+#### 连享会 · AI-Agent 数据分析实战 {#lianxh-ai-agent-data-analysis}
 
-资料链接：[https://www.lianxh.cn/details/1900.html](https://www.lianxh.cn/details/1900.html)
+AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适合关注数据处理与研究实践的读者。课程由杨楷主讲，安排在 10 月 17、24、31 日线上直播。
 
-### 近期论文
+<a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
 
-### Empowering Inclusive Work {#chen-hoffman-xu-yuan-inclusive-work}
+:::
 
-Chen, Y., Hoffman, M., Xu, H., &amp; Yuan, Z. (2026). Empowering Inclusive Work. NBER Working Paper No. 35372.
+### 新论文
 
-作者报告，文字转语音工具上线后，听障或听力受损骑手的配送表现、劳动供给与留任均有改善。该文仍是工作论文，应结合原文理解其样本、识别与外推边界。 本条保留自本日较早公开版本，不重复纳入本次群消息短版。
+::: {.brief-entry}
 
-DOI：[https://doi.org/10.3386/w35372](https://doi.org/10.3386/w35372)
+#### Empowering Inclusive Work {#chen-hoffman-xu-yuan-inclusive-work}
 
-### 方法与工具
+<p class="myapa">Chen, Y., Hoffman, M., Xu, H., &amp; Yuan, Z. (2026). Empowering inclusive work. NBER Working Paper No. 35372. <a href="https://doi.org/10.3386/w35372" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Empowering%20inclusive%20work" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-### DoubleML 0.11.4 {#doubleml-python-0114}
+这篇 NBER 工作论文使用中国外卖平台数据，围绕文字转语音工具上线构建双重差分设计。作者报告，听障或听力受损骑手的配送表现、劳动供给与留任均有改善；阅读时可重点关注辅助技术的识别设计及结果的适用范围。
 
-生态：Python；名称：DoubleML
 
-该工具将交叉拟合与正交得分封装为接口，可用于高维控制变量或复杂预测模型下的因果参数估计。机器学习拟合得好并不自动替代识别假设、样本构造和因果解释。 本条保留自本日较早公开版本，不重复纳入本次群消息短版。
 
-资料链接：[https://docs.doubleml.org/](https://docs.doubleml.org/)
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### DoubleML 0.11.4 {#doubleml-python-0114}
+
+DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.11.4 于 2026-08-10 发布。它将交叉拟合与正交得分封装为接口，可用于复杂控制变量下的因果参数估计；使用时仍需明确识别假设。
+
+<a href="https://docs.doubleml.org/" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="近期课程"><details><summary>近期课程</summary><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></details></div></div>

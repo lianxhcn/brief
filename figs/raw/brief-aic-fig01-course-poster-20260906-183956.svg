@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+<rect width="1200" height="540" rx="18" fill="#eff5f8"/><path d="M0 0H14V540H0Z" fill="#507594"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#244257">
+<text x="68" y="98" font-size="30">连享会 · 近期课程</text>
+<text x="68" y="222" font-size="64" font-weight="700">AI-Agent 数据分析专题</text>
+<path d="M68 280H1132" stroke="#c6d4df"/>
+<text x="68" y="354" font-size="38">2026 年 10 月 17、24、31 日</text>
+<text x="68" y="446" font-size="28">点击海报查看课程详情 →</text>
+</g></svg>

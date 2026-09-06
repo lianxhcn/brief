@@ -1,0 +1,56 @@
+{
+  "causal-data-science-meeting-2026": {
+    "summary": "Causal Data Science Meeting 2026 是面向因果机器学习、A/B 测试与因果发现的线上会议。接受 presentation proposal、扩展摘要或完整论文，主题涵盖因果 ML/AI、开源因果软件及商业决策中的因果方法。",
+    "source_sha256": "784fbcde12ac092e289944696189711e8cce0f634ec18a777c8829cb2e8e32e7",
+    "source": "content/issues/2026-09-04-conference.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "fma-asset-management-2027": {
+    "summary": "FMA International 的资产管理研究 workshop 将于 2027-04-15 在剑桥举行。征稿涵盖公司治理、金融市场史、传统与另类资产、共同基金、对冲基金和责任投资；参会资格与费用见官方通知。",
+    "source_sha256": "9bc387780f39180457434951fdb25173dfe59794b3202d83b341809f311fe27c",
+    "source": "content/issues/2026-09-04-conference.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "iceb-2026": {
+    "summary": "Universitas Airlangga 经济与商学院围绕全球经济碎片化下的韧性、安全与可持续性征稿，涵盖理论、实证与政策研究。摘要截止后，完整论文的提交截止日为 2026-10-12。",
+    "source_sha256": "c867d54c3a1d110e99b14c9b4ee0b8c6987e313399f0f5a71ef5cb51b4c835ff",
+    "source": "content/issues/2026-09-04-conference.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "lianxh-ai-agent-data-analysis": {
+    "summary": "AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适合关注数据处理与研究实践的读者。课程由杨楷主讲，安排在 10 月 17、24、31 日线上直播。",
+    "source_sha256": "c6de5541f4d6edf64eeeab5f06669da1afcd725d5f9ea35f73fdd1d1bbcac6d4",
+    "source": "content/issues/2026-09-05.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "dray-landais-stantcheva-wealth-tax-qje": {
+    "summary": "论文结合历史财产税记录与普查估值资料，重建美国州、县和全国的长期财富序列。关键步骤是用评估值与市场值的比例校正税册数据，适合关注财富测量与地区差距的读者；这些差异本身不能解释为财产税的因果效应。",
+    "source_sha256": "b5e2d227499686520c24d89e8c030a8a2e5556b4c750c91acf78c86b00871530",
+    "source": "content/issues/2026-09-05.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "bachmann-firm-uncertainty-aer": {
+    "summary": "作者利用德国制造业企业面板调查，发现销售增长异常偏低或偏高时，管理者都更感到不确定。论文区分主观不确定性与条件波动率，为企业预期的测量提供参考。PDF 为作者稿，与正式发表版可能存在差异。",
+    "source_sha256": "f0a4ff763a0b0b052d79e1bbb5144407c5b39090c9d7daf9fba13dd0a0beb4e9",
+    "source": "content/issues/2026-09-05.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "chen-hoffman-xu-yuan-inclusive-work": {
+    "summary": "这篇 NBER 工作论文使用中国外卖平台数据，围绕文字转语音工具上线构建双重差分设计。作者报告，听障或听力受损骑手的配送表现、劳动供给与留任均有改善；阅读时可重点关注辅助技术的识别设计及结果的适用范围。",
+    "source_sha256": "acf8d3ca5a2dbbe387b99c93169cdaa9d9ef8d0a643a016a639a1e48d15ed8dd",
+    "source": "content/issues/2026-09-05.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "binsreg-r-22": {
+    "summary": "binsreg 2.2 于 2026-08-21 发布，包含 binsreg、binsqreg、binsglm、binstest 等函数，可用于分箱回归、置信区间、形状检验及相关可视化，并支持协变量调整和聚类推断。分箱图本身不能确立因果关系。",
+    "source_sha256": "4fbc1db6230c245eb0878f3559a98c97d6c390a6a03f1ddbf8863e2e2c41c518",
+    "source": "content/issues/2026-09-05.json",
+    "reviewed_date": "2026-09-06"
+  },
+  "doubleml-python-0114": {
+    "summary": "DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.11.4 于 2026-08-10 发布。它将交叉拟合与正交得分封装为接口，可用于复杂控制变量下的因果参数估计；使用时仍需明确识别假设。",
+    "source_sha256": "1b52b66a18988e366ee09dc009dc2f2ffc52a5b68d782fc0ac8f767d9a15668c",
+    "source": "content/issues/2026-09-05.json",
+    "reviewed_date": "2026-09-06"
+  }
+}

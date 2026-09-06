@@ -103,8 +103,9 @@ def check_pages_and_wechat(issues: list[dict], errors: list[str]) -> None:
 
 def check_active_tree(errors: list[str]) -> None:
     roots = [
-        ROOT / "README.md", ROOT / "AGENTS.md", ROOT / "_quarto.yml",
-        ROOT / "index.qmd", ROOT / "archive.qmd", ROOT / "docs", ROOT / "config",
+        ROOT / "README.md", ROOT / "_quarto.yml",
+        # 治理文档含合法的废弃身份记录，不属于读者页面。
+        ROOT / "index.qmd", ROOT / "archive.qmd", ROOT / "config",
         ROOT / "content" / "issues", ROOT / "topics", ROOT / "publish" / "wechat",
         ROOT / "issues", ROOT / ".github", ROOT / "_site", ROOT / "ops-local" / "preview",
     ]

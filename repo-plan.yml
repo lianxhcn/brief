@@ -1,0 +1,83 @@
+project_title: "连享会 · 快讯：Task 09 手机验收发布"
+repository_mode: single
+recommendation: single
+decision_reason: "沿用现有独立网站及版本历史；独立网址 +2，版本维护 +1，独立维护周期 +1，score=4；不创建新仓库。"
+confidence: high
+local_root: "G:/codex_project/github_lianxh"
+project_path: "G:/codex_project/github_lianxh/lianxh-group-briefs"
+work_scope: "Task 09 至 R03 网站实现与单次发布授权记录；仅下列文件"
+series_key: ""
+repository_name: brief
+remote_owner: lianxhcn
+remote_url: "https://github.com/lianxhcn/brief.git"
+visibility: public
+license: pending
+github_pages:
+  required: true
+  source: "既有 push main -> deploy-pages.yml -> GitHub Pages Actions"
+  expected_url: "https://lianxhcn.github.io/brief/"
+preflight:
+  readme_required: true
+  ignore_checked: true
+  sensitive_content_checked: true
+  large_files_checked: true
+  minimal_verification: "发布前重新运行 quarto render、37 项单元测试、现有导航/身份/期次验证；R03 目录及响应式结果留存。"
+approval:
+  create_remote: false
+  commit: true
+  push: true
+  deploy: true
+  source: "2026-09-06 用户请求推送并发布一次以便手机核查，D-20260906-05"
+  validity: "本次版本单次发布，不解除 A-02 一般暂停"
+notes: "公开网站配置和原创临时 SVG；无新增正式数据、私人资料或大文件；不添加许可证，不更改工作流，不创建定时任务。保留未知工作。同步本地已有 canonical 治理提交 0813a61。"
+files:
+  - "_quarto.yml"
+  - "archive.qmd"
+  - "docs/decision-log.md"
+  - "docs/maintainer-guide.md"
+  - "docs/tasks/README.md"
+  - "docs/tasks/implementation-debt.md"
+  - "index.qmd"
+  - "issues/20260904/index.qmd"
+  - "issues/20260905/index.qmd"
+  - "issues/20990101/index.qmd"
+  - "issues/20990102/index.qmd"
+  - "scripts/build_catalog_pages.py"
+  - "scripts/render_issue_pages.py"
+  - "scripts/validate_issue.py"
+  - "scripts/validate_navigation.py"
+  - "scripts/validate_site_identity.py"
+  - "styles.css"
+  - "topics/academic-updates.qmd"
+  - "topics/index.qmd"
+  - "topics/lianxh-new.qmd"
+  - "topics/methods-tools.qmd"
+  - "topics/research-frontier.qmd"
+  - "config/promotions.json"
+  - "config/website-citations.json"
+  - "config/website-content.json"
+  - "docs/tasks/task-09-acceptance.md"
+  - "docs/tasks/task-09-post-deploy-search-checklist.md"
+  - "docs/tasks/task-09-r01-acceptance.md"
+  - "docs/tasks/task-09-r01-result.md"
+  - "docs/tasks/task-09-r02-acceptance.md"
+  - "docs/tasks/task-09-r02-result.md"
+  - "docs/tasks/task-09-r03-acceptance.md"
+  - "docs/tasks/task-09-r03-result.md"
+  - "docs/tasks/task-09-result.md"
+  - "figs/raw/brief-aic-fig01-course-poster-20260906-183956.svg"
+  - "figs/uploaded-images.md"
+  - "scripts/check_responsive.py"
+  - "scripts/check_toc.py"
+  - "scripts/discover_courses.py"
+  - "scripts/test_search_index.py"
+  - "scripts/test_website.py"
+  - "scripts/test_website_boundaries.py"
+  - "scripts/test_website_final_review.py"
+  - "scripts/test_website_review.py"
+  - "scripts/validate_website.py"
+  - "scripts/website_citations.py"
+  - "scripts/website_content.py"
+  - "scripts/website_promotions.py"
+  - "docs/automation-rules.md"
+  - "repo-plan.yml"

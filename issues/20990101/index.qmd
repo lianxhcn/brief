@@ -1,4 +1,7 @@
 ---
+search: false
+sitemap: false
+header-includes: '<meta name="robots" content="noindex, nofollow">'
 title: "DEMO：2099-01-01 日常快讯"
 ---
 

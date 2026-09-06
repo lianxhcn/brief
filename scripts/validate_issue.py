@@ -303,27 +303,35 @@ def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Pa
 
 
 def validate_page(issue: dict, issues_dir: Path, errors: list[str]) -> Path:
+    from site_config import is_public_issue
+    from website_citations import website_citation
+    from website_content import INTERNAL_PHRASES
+    from website_promotions import render_promotion
     path = issues_dir / "issues" / date_compact(issue["date"]) / "index.qmd"
     if not path.exists():
         errors.append(f"{path}: 缺少日期详版页面")
         return path
     text = path.read_text(encoding="utf-8")
-    for value, description in (
-        (COURSE_URL, "精确 KC.html URL"),
-        (COURSE_CLASS, "课程入口 HTML class"),
-        (COURSE_LINK_TEXT, "可见课程链接文字"),
-        ("## 本期重点", "本期重点分区"),
-        ("## 延伸信息", "延伸信息分区"),
-        (issue["status"].upper(), "期次状态"),
-    ):
-        if value not in text:
-            errors.append(f"{path}: 缺少{description}")
+    public = is_public_issue(issue)
+    if public:
+        for phrase in INTERNAL_PHRASES:
+            if phrase in text:
+                errors.append(f"{path}: 公开正文含内部文案 {phrase}")
+        if render_promotion() not in text:
+            errors.append(f"{path}: 推广组件与配置不一致")
+    for priority, heading in (("core", "本期重点"), ("extended", "延伸信息")):
+        if any(i.get("priority") == priority for _, i in all_items(issue)) and f"## {heading}" not in text:
+            errors.append(f"{path}: 缺少 {heading}")
     for category, item in all_items(issue):
         if f"{{#{item.get('id')}}}" not in text:
             errors.append(f"{path}: 缺少条目稳定锚点 {item.get('id')}")
-        for url in filter(None, (item_url(item, category), item.get("replication_url"), item.get("homepage_url"), item.get("pdf_url"))):
-            if url not in text:
-                errors.append(f"{path}: 未渲染数据源 URL {url}")
+        if category == "papers" and public:
+            if website_citation(item) not in text:
+                errors.append(f"{path}: myAPA 与已核验元数据不一致")
+        else:
+            for url in filter(None, (item_url(item, category), item.get("replication_url"))):
+                if url not in text:
+                    errors.append(f"{path}: 未渲染数据源 URL {url}")
     return path
 
 

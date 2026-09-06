@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-NAV_TEXT = ("连享会 · 快讯", "推文", "论文", "新方法", "会议征稿", "往期", "官网", "课程")
+NAV_TEXT = ("连享会 · 快讯", "新推文", "新论文", "新方法", "会议征稿", "往期", "官网", "课程")
 TOPICS = ("index", "lianxh-new", "research-frontier", "methods-tools", "academic-updates")
 
 

@@ -3,6 +3,7 @@ project:
   output-dir: _site
   post-render:
     - scripts/build_legacy_redirects.py
+    - scripts/validate_website.py
   render:
     - index.qmd
     - archive.qmd
@@ -21,9 +22,9 @@ website:
     brand: "连享会 · 快讯"
     left:
       - href: topics/lianxh-new.qmd
-        text: 推文
+        text: 新推文
       - href: topics/research-frontier.qmd
-        text: 论文
+        text: 新论文
       - href: topics/methods-tools.qmd
         text: 新方法
       - href: topics/academic-updates.qmd
@@ -44,4 +45,98 @@ format:
   html:
     lang: zh
     toc: true
+    toc-title: 本页目录
     css: styles.css
+    grid:
+      margin-width: 380px
+      body-width: 800px
+      gutter-width: 1.5em
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          document.querySelectorAll('a[href]').forEach(function (link) {
+            if (/^https?:$/.test(link.protocol) && link.origin !== location.origin) {
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+            }
+          });
+        });
+        // 静态缓存也遵守到期隐藏；不更改稳定配置，不声称自动报名状态。
+        const hideExpired = function () {
+          const today = new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'}).format(new Date());
+          document.querySelectorAll('[data-course-end]').forEach(function (course) {
+            course.hidden = today > course.dataset.courseEnd;
+          });
+          document.querySelectorAll('.course-hub-callout, .home-promotions').forEach(function (box) {
+            box.hidden = !box.querySelector('[data-course-end]:not([hidden])');
+          });
+        };
+        hideExpired();
+        window.addEventListener('pageshow', hideExpired);
+        document.addEventListener('visibilitychange', hideExpired);
+        document.querySelectorAll('.promotion-slot').forEach(function (slot) {
+          const card = slot.querySelector('.course-hub-callout');
+          const sidebar = document.getElementById('quarto-margin-sidebar');
+          const wide = window.matchMedia('(min-width: 80rem)');
+          const adapt = function () {
+            const inSidebar = wide.matches && sidebar;
+            (inSidebar ? sidebar : slot).appendChild(card);
+            card.querySelector('details').open = Boolean(inSidebar);
+          };
+          adapt();
+          wide.addEventListener('change', adapt);
+        });
+        // R03：移动 Quarto 原始目录节点，保留唯一 id、锚点与桌面结构。
+        document.addEventListener('DOMContentLoaded', function () {
+          const toc = document.getElementById('TOC');
+          const main = document.querySelector('main.content');
+          if (!toc || !main || !toc.querySelector('a[data-scroll-target]')) return;
+          const origin = document.createComment('quarto-toc-original-position');
+          toc.before(origin);
+          const disclosure = document.createElement('details');
+          disclosure.className = 'inline-toc';
+          const summary = document.createElement('summary');
+          summary.textContent = '本页目录';
+          summary.setAttribute('aria-controls', toc.id);
+          summary.setAttribute('aria-expanded', 'false');
+          disclosure.append(summary);
+          const title = main.querySelector('.brief-cover') || main.querySelector('#title-block-header');
+          if (title) title.after(disclosure); else main.prepend(disclosure);
+          disclosure.addEventListener('toggle', function () {
+            summary.setAttribute('aria-expanded', String(disclosure.open));
+          });
+          const wide = window.matchMedia('(min-width: 1280px)');
+          const adapt = function () {
+            disclosure.open = false;
+            summary.setAttribute('aria-expanded', 'false');
+            disclosure.hidden = wide.matches;
+            if (wide.matches) origin.after(toc); else disclosure.append(toc);
+          };
+          adapt();
+          wide.addEventListener('change', adapt);
+          // 关闭目录后再定位，避免收起动作使目标位置漂移；焦点跟随目标标题。
+          disclosure.addEventListener('click', function (event) {
+            const link = event.target.closest('a[data-scroll-target]');
+            if (!link) return;
+            let target;
+            try { target = document.getElementById(decodeURIComponent(link.hash.slice(1))); }
+            catch (_) { return; }
+            if (!target) return;
+            event.preventDefault();
+            disclosure.open = false;
+            summary.setAttribute('aria-expanded', 'false');
+            history.pushState(null, '', link.hash);
+            requestAnimationFrame(function () {
+              const heading = target.matches('h1,h2,h3,h4') ? target : target.querySelector('h1,h2,h3,h4');
+              const focus = heading || target;
+              if (!focus.hasAttribute('tabindex')) {
+                focus.setAttribute('tabindex', '-1');
+                focus.addEventListener('blur', function () { focus.removeAttribute('tabindex'); }, {once: true});
+              }
+              target.scrollIntoView({block: 'start', behavior: 'instant'});
+              focus.focus({preventScroll: true});
+            });
+          });
+        });
+        </script>

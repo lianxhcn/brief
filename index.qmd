@@ -6,19 +6,26 @@ title: "连享会 · 快讯"
   <img src="assets/brand/brief/lianxh-brief-cover.jpg" alt="连享会 · 快讯栏目封面">
 </div>
 
-连享会 · 快讯由连享会推出，为经管研究与课程学习筛选近期论文、Stata/R/Python 软件更新，以及会议和征稿信息。
+连享会 · 快讯收录新推文、近期论文、Stata、R、Python 工具，以及会议征稿信息。
 
-连享会课程微信群会定期分享快讯短版；希望进一步阅读的读者，可以在这里查看论文原文、工具资料与来源说明，也可以按日期查阅往期内容。短版和网页详版由同一份核验后的数据生成。
+微信群版分享简要信息，网页版提供完整介绍与阅读资料。可按栏目、日期或关键词继续浏览。
 
-<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
-  <p class="course-hub-callout__title">连享会课程</p>
-  <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
-  <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</div>
-
-## 快讯归档
+## 最新期次
 
 - [连享会 · 快讯 | 2026.09.05](issues/20260905/)
-- [连享会快讯 · 2026.09.04](issues/20260904/)
+
+## 按内容浏览
+
+<div class="catalog-grid catalog-grid--overview">
+<article class="catalog-card"><h3><a href="topics/lianxh-new.qmd">新推文</a></h3><p>lianxh.cn 最新推文。</p></article>
+<article class="catalog-card"><h3><a href="topics/research-frontier.qmd">新论文</a></h3><p>最新顶刊论文和工作论文。</p></article>
+<article class="catalog-card"><h3><a href="topics/methods-tools.qmd">新方法</a></h3><p>新发布的 Stata、R、Python 命令和 package。</p></article>
+<article class="catalog-card"><h3><a href="topics/academic-updates.qmd">会议征稿</a></h3><p>最新会议和征文信息。</p></article>
+</div>
+
+使用顶部搜索查找标题、工具或关键词。
+
 
 可按内容类型查看[栏目索引](topics/index.qmd)，或在[往期](archive.qmd)中按日期查阅公开期次。
+
+<div class="home-promotions"><figure class="course-poster" data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer"><img src="https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/brief-aic-fig01-course-poster-20260906-183956.svg" alt="AI-Agent 数据分析专题：2026-10-17、2026-10-24、2026-10-31" width="1200" height="540" loading="lazy"></a></figure></div>

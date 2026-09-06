@@ -1,0 +1,64 @@
+{
+  "dray-landais-stantcheva-wealth-tax-qje": {
+    "authors": [
+      "Dray, S.",
+      "Landais, C.",
+      "Stantcheva, S."
+    ],
+    "year": 2026,
+    "title": "Wealth and property taxation in the United States",
+    "source": "The Quarterly Journal of Economics",
+    "doi_url": "https://doi.org/10.1093/qje/qjag038",
+    "publication_status": "forthcoming",
+    "retrieved_date": "2026-09-05",
+    "provenance": "content/issues/2026-09-05.json: citation and page_note",
+    "pdf": {
+      "url": "https://stantcheva.scholars.harvard.edu/resource/draylandaisstantchevawealthpropertytaxuspdf",
+      "source_url": "https://www.stefanie-stantcheva.com/research/",
+      "public_access": true,
+      "retrieved_date": "2026-09-05",
+      "version": "作者稿，2026-07-06"
+    }
+  },
+  "bachmann-firm-uncertainty-aer": {
+    "authors": [
+      "Bachmann, R.",
+      "Carstensen, K.",
+      "Lautenbacher, S.",
+      "Menkhoff, M.",
+      "Schneider, M."
+    ],
+    "year": 2026,
+    "title": "Uncertainty and change: Survey evidence of firms’ subjective beliefs",
+    "source": "American Economic Review",
+    "doi_url": "https://doi.org/10.1257/aer.20240056",
+    "publication_status": "published",
+    "retrieved_date": "2026-09-05",
+    "provenance": "content/issues/2026-09-05.json: citation and page_note",
+    "volume": "116",
+    "issue": "8",
+    "pages": "2806–2849",
+    "pdf": {
+      "url": "https://web.stanford.edu/~schneidr/unc_current.pdf",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20240056",
+      "public_access": true,
+      "retrieved_date": "2026-09-05",
+      "version": "作者稿，2025-10-31"
+    }
+  },
+  "chen-hoffman-xu-yuan-inclusive-work": {
+    "authors": [
+      "Chen, Y.",
+      "Hoffman, M.",
+      "Xu, H.",
+      "Yuan, Z."
+    ],
+    "year": 2026,
+    "title": "Empowering inclusive work",
+    "source": "NBER Working Paper No. 35372",
+    "doi_url": "https://doi.org/10.3386/w35372",
+    "publication_status": "working-paper",
+    "retrieved_date": "2026-09-05",
+    "provenance": "content/issues/2026-09-05.json: citation and page_note"
+  }
+}

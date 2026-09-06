@@ -1,0 +1,48 @@
+{
+  "course_source": "https://www.lianxh.cn/blogs/44.html",
+  "course_hub": "https://www.lianxh.cn/KC.html",
+  "approved_courses": [
+    {
+      "title": "AI-Agent 数据分析专题",
+      "url": "https://www.lianxh.cn/details/1900.html",
+      "dates": [
+        "2026-10-17",
+        "2026-10-24",
+        "2026-10-31"
+      ],
+      "review_status": "approved",
+      "reviewed_date": "2026-09-06",
+      "source_url": "https://www.lianxh.cn/aic.html",
+      "retrieved_date": "2026-09-06",
+      "evidence": "官网课程概览明确写明 2026 年 10 月 17, 24, 31 日；详情页与 aic.html 正文一致。R02 浏览器核验，公开原文存于本地日志。",
+      "id": "aic-2026",
+      "status": "confirmed",
+      "course_start_date": "2026-10-17",
+      "course_end_date": "2026-10-31",
+      "links": [
+        {
+          "url": "https://www.lianxh.cn/aic.html",
+          "availability": "confirmed"
+        },
+        {
+          "url": "https://www.lianxh.cn/details/1900.html",
+          "availability": "confirmed"
+        }
+      ],
+      "poster": "https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/brief-aic-fig01-course-poster-20260906-183956.svg",
+      "poster_note": "R02 根据同实体已确认名称与日期排版；非官网原版海报。"
+    }
+  ],
+  "subscription": {
+    "status": "pending",
+    "enabled": false
+  },
+  "public_lectures": {
+    "status": "pending",
+    "enabled": false
+  },
+  "recruitment": {
+    "status": "pending",
+    "enabled": false
+  }
+}

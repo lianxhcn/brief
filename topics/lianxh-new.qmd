@@ -1,21 +1,19 @@
 ---
-title: "推文"
+title: "新推文"
 ---
 
 <!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
 
-<p class="catalog-intro">连享会的新文章、讲义与资源说明。</p>
-
-## 公开期次
+<p class="catalog-intro"><a href="https://www.lianxh.cn" target="_blank" rel="noopener noreferrer">lianxh.cn 最新推文</a></p>
 
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>连享会 · AI-Agent 数据分析实战</h3>
 <p class="catalog-meta">日期：2026-09-05</p>
-<p>官网页面列出 10 月 17、24、31 日的线上直播安排，由杨楷（深圳大学）主讲；课程内容与最终安排以官网为准。</p>
+<p>AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适合关注数据处理与研究实践的读者。课程由杨楷主讲，安排在 10 月 17、24、31 日线上直播。</p>
 <p class="catalog-tags">标签：AI-Agent、数据分析</p>
-<p><a href="../issues/20260905/">查看日期详版</a></p>
+<p><a href="../issues/20260905/#lianxh-ai-agent-data-analysis">详情</a></p>
 </article>
 </div>
 
-[查看栏目索引](index.qmd)
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="近期课程"><details><summary>近期课程</summary><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></details></div></div>

@@ -1,28 +1,17 @@
 #!/usr/bin/env python3
-"""Generate a Quarto source page for one public issue JSON file."""
-
+"""从共享事实与已审核读者文案生成网站详版，不修改微信输出。"""
 from __future__ import annotations
 
 import argparse
 import html
 import json
 from pathlib import Path
+from urllib.parse import urlsplit
 
-from site_config import date_compact
-
-COURSE_CALLOUT = '''<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
-  <p class="course-hub-callout__title">连享会课程</p>
-  <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
-  <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</div>'''
-
-CATEGORY_LABELS = {
-    "lianxh_posts": "连享会新推文",
-    "papers": "近期论文",
-    "tools": "方法与工具",
-    "research_resources": "研究资源",
-    "conference_calls": "会议与征稿",
-}
+from site_config import date_compact, is_public_issue
+from website_citations import website_citation, external_link
+from website_content import CATEGORY_LABELS, public_summary
+from website_promotions import render_promotion
 
 
 def escape(value: object) -> str:
@@ -30,91 +19,71 @@ def escape(value: object) -> str:
 
 
 def item_links(item: dict, category: str) -> list[str]:
-    links: list[str] = []
-    if category == "papers":
-        links.append(f"DOI：[{escape(item['doi_url'])}]({item['doi_url']})")
-        if item.get("homepage_url"):
-            links.append(f"论文主页：[期刊或预印本页面]({item['homepage_url']})")
-        if item.get("pdf_url"):
-            links.append(f"PDF：[作者公开版本 ({escape(item.get('pdf_version', '版本未注明'))})]({item['pdf_url']})")
-        if item.get("replication_url"):
-            links.append(f"复现资料：[{escape(item['replication_url'])}]({item['replication_url']})")
-    elif category == "conference_calls":
-        links.append(f"官方链接：[{escape(item['official_url'])}]({item['official_url']})")
-    else:
-        links.append(f"资料链接：[{escape(item['url'])}]({item['url']})")
-    return links
+    if category == 'papers':
+        # Link/PDF/Google 已由 myAPA 输出，仅补充不重复的复现资源。
+        return [external_link('复现资料', item['replication_url'])] if item.get('replication_url') else []
+    if category == 'conference_calls':
+        return [external_link('官方通知', item['official_url'])]
+    url = item['url']
+    label = {'cran.r-project.org': 'CRAN', 'pypi.org': 'PyPI'}.get(urlsplit(url).netloc)
+    return [external_link(label or ('阅读全文' if category == 'lianxh_posts' else '官方文档'), url)]
 
 
-def render_item(item: dict, category: str) -> list[str]:
-    lines = [f"### {escape(item['title'])} {{#{item['id']}}}", ""]
-    if category == "papers":
-        lines.extend([escape(item["citation"]), ""])
-    elif category == "tools":
-        lines.extend([f"生态：{escape(item['ecosystem'])}；名称：{escape(item['name'])}", ""])
-    elif category == "conference_calls":
-        lines.extend([
-            f"主办方或期刊：{escape(item['organizer_or_journal'])}",
-            "",
-            f"主题或范围：{escape(item['topic'])}",
-            "",
-            f"截止日期：{escape(item['deadline'])}",
-            "",
-        ])
-    lines.extend([escape(item["page_note"]), ""])
-    for link in item_links(item, category):
-        lines.extend([link, ""])
+def render_item(item: dict, category: str, public: bool = True) -> list[str]:
+    lines = ['::: {.brief-entry}', '', f"#### {escape(item['title'])} {{#{item['id']}}}", '']
+    if category == 'papers':
+        lines.extend([website_citation(item) if public else escape(item['citation']), ''])
+    if category == 'conference_calls':
+        lines.extend([f"**投稿截止：{escape(item['deadline'])}**", ''])
+    lines.extend([escape(public_summary(item) if public else item['page_note']), ''])
+    lines.extend([' · '.join(item_links(item, category)), '', ':::', ''])
     return lines
 
 
 def render_section(issue: dict, priority: str, heading: str) -> list[str]:
-    lines: list[str] = [f"## {heading}", ""]
-    found = False
-    for category, label in CATEGORY_LABELS.items():
-        items = [item for item in issue.get(category, []) if item.get("priority") == priority]
-        if not items:
-            continue
-        found = True
-        lines.extend([f"### {label}", ""])
-        for item in items:
-            lines.extend(render_item(item, category))
-    if not found:
-        lines.extend(["本期没有此分区内容。", ""])
+    groups = [(category, label, [i for i in issue.get(category, []) if i.get('priority') == priority])
+              for category, label in CATEGORY_LABELS.items()]
+    if not any(items for _, _, items in groups):
+        return []
+    lines = [f'## {heading}', '']
+    for category, label, items in groups:
+        if items:
+            lines.extend([f'### {label}', ''])
+            for item in items:
+                lines.extend(render_item(item, category, is_public_issue(issue)))
     return lines
 
 
 def render_page(issue: dict) -> str:
-    status = issue["status"].upper()
-    lines = [
-        "---",
-        f'title: "{escape(issue["title"])}"',
-        "---",
-        "",
-        "## 状态",
-        "",
-        f"状态：**{status}**；日期：{issue['date']}。",
-        "",
-        COURSE_CALLOUT,
-        "",
-    ]
-    lines.extend(render_section(issue, "core", "本期重点"))
-    lines.extend(render_section(issue, "extended", "延伸信息"))
-    return "\n".join(lines).rstrip() + "\n"
+    public = is_public_issue(issue)
+    # status/date 继续由原始 JSON 提供给验证器，正式正文不重复展示。
+    title = '连享会 · 快讯 | ' + issue['date'].replace('-', '.') if public else issue['title']
+    lines = ['---', 'title: ' + json.dumps(title, ensure_ascii=False), 'body-classes: issue-page', 'toc-depth: 3']
+    if not public:
+        lines.extend(['search: false', 'sitemap: false',
+                      'header-includes: \'<meta name="robots" content="noindex, nofollow">\''])
+    lines.extend(['---', ''])
+    if not public:
+        lines.extend([f"测试状态：{issue['status'].upper()}", ''])
+    lines.extend(render_section(issue, 'core', '本期重点'))
+    lines.extend(render_section(issue, 'extended', '延伸信息'))
+    if public:
+        lines.extend([render_promotion(), ''])
+    return '\n'.join(lines).rstrip() + '\n'
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="从期次 JSON 生成 Quarto 日期详版。")
-    parser.add_argument("--input", required=True, type=Path, help="期次 JSON 文件")
-    parser.add_argument("--output-dir", required=True, type=Path, help="日期页 QMD 根目录")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--input', required=True, type=Path)
+    parser.add_argument('--output-dir', required=True, type=Path)
     args = parser.parse_args()
-    with args.input.open(encoding="utf-8") as handle:
-        issue = json.load(handle)
-    output = args.output_dir / "issues" / date_compact(issue["date"]) / "index.qmd"
+    issue = json.loads(args.input.read_text(encoding='utf-8'))
+    output = args.output_dir / 'issues' / date_compact(issue['date']) / 'index.qmd'
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(render_page(issue), encoding="utf-8")
-    print(f"WROTE {output}")
+    output.write_text(render_page(issue), encoding='utf-8')
+    print(f'WROTE {output}')
     return 0
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     raise SystemExit(main())

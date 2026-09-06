@@ -13,20 +13,12 @@ from site_config import date_compact, is_public_issue
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "content" / "issues"
 TOPICS_DIR = ROOT / "topics"
-SECTIONS = (
-    ("lianxh-new", "推文", "连享会的新文章、讲义与资源说明。"),
-    ("research-frontier", "论文", "已筛选的论文与研究成果。"),
-    ("methods-tools", "新方法", "软件、方法、复现与数据处理工具。"),
-    ("academic-updates", "会议征稿", "会议、征文、专题征稿与合格公益性活动。"),
-)
+from website_content import SECTIONS, DISPLAY_LABELS, public_summary
 SECTION_MAP = {identifier: (title, description) for identifier, title, description in SECTIONS}
 CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources", "conference_calls")
 TAG_FIELDS = (("software", "软件平台"), ("methods", "研究方法"), ("fields", "研究领域"))
-COURSE_CALLOUT = '''<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
-  <p class="course-hub-callout__title">连享会课程</p>
-  <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
-  <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</div>'''
+from website_promotions import render_promotion, render_home_promotion
+
 
 
 def escape(value: object) -> str:
@@ -56,14 +48,14 @@ def entries(issues: list[dict]) -> list[dict]:
                 if not isinstance(catalog.get("tags"), list):
                     raise ValueError(f"{issue['issue_id']}: {item.get('id', '<unknown>')} 的 catalog.tags 必须是列表")
                 collected.append({
-                    "date": issue["date"], "title": item["title"], "note": item.get("wechat_summary") or item["page_note"],
+                    "id": item["id"], "date": issue["date"], "title": item["title"], "note": public_summary(item),
                     "section": catalog["section"], "catalog": catalog,
                 })
     return sorted(collected, key=lambda value: (value["date"], value["title"]), reverse=True)
 
 
 def card(entry: dict) -> str:
-    date_link = f"../issues/{date_compact(entry['date'])}/"
+    date_link = f"../issues/{date_compact(entry['date'])}/#{entry['id']}"
     labels = []
     for field, label in TAG_FIELDS:
         values = entry["catalog"][field]
@@ -77,7 +69,7 @@ def card(entry: dict) -> str:
 <p class="catalog-meta">日期：{escape(entry['date'])}</p>
 <p>{escape(entry['note'])}</p>
 <p class="catalog-tags">{metadata}</p>
-<p><a href="{date_link}">查看日期详版</a></p>
+<p><a href="{date_link}">详情</a></p>
 </article>'''
 
 
@@ -90,13 +82,13 @@ def page_header(title: str, description: str) -> list[str]:
 
 
 def section_page(title: str, description: str, values: list[dict]) -> str:
-    lines = page_header(title, description)
-    lines.extend(["## 公开期次", ""])
+    intro = '<a href="https://www.lianxh.cn" target="_blank" rel="noopener noreferrer">lianxh.cn 最新推文</a>' if title == '新推文' else ''
+    lines = page_header(title, intro)
     if values:
         lines.extend(['<div class="catalog-grid">', *[card(value) for value in values], "</div>", ""])
     else:
         lines.extend(["<p class=\"catalog-empty\">正式快讯将在首次发布后归档。</p>", ""])
-    lines.extend(["[查看栏目索引](index.qmd)", ""])
+    lines.extend([render_promotion(), ""])
     return "\n".join(lines)
 
 
@@ -104,7 +96,7 @@ def index_page(values: list[dict]) -> str:
     grouped: dict[str, list[dict]] = defaultdict(list)
     for value in values:
         grouped[value["section"]].append(value)
-    lines = page_header("栏目索引", "按内容类型浏览公开期次。软件、方法与研究领域是可叠加标签，不构成一级栏目。")
+    lines = page_header("栏目索引", "按栏目或标签查找感兴趣的内容。")
     lines.extend(["## 内容栏目", "", '<div class="catalog-grid catalog-grid--overview">'])
     for identifier, title, description in SECTIONS:
         lines.append(f'''<article class="catalog-card">
@@ -120,6 +112,7 @@ def index_page(values: list[dict]) -> str:
 <h3>{label}</h3>
 <p>{escape(text)}</p>
 </section>''', ""])
+    lines.extend([render_promotion(), ""])
     return "\n".join(lines)
 
 
@@ -129,27 +122,36 @@ def home_page(issues: list[dict]) -> str:
         '<div class="brief-cover">',
         '  <img src="assets/brand/brief/lianxh-brief-cover.jpg" alt="连享会 · 快讯栏目封面">',
         "</div>", "",
-        "连享会 · 快讯由连享会推出，为经管研究与课程学习筛选近期论文、Stata/R/Python 软件更新，以及会议和征稿信息。", "",
-        "连享会课程微信群会定期分享快讯短版；希望进一步阅读的读者，可以在这里查看论文原文、工具资料与来源说明，也可以按日期查阅往期内容。短版和网页详版由同一份核验后的数据生成。", "",
-        COURSE_CALLOUT, "", "## 快讯归档", "",
+        "连享会 · 快讯收录新推文、近期论文、Stata、R、Python 工具，以及会议征稿信息。", "",
+        "微信群版分享简要信息，网页版提供完整介绍与阅读资料。可按栏目、日期或关键词继续浏览。", "",
+        "## 最新期次", "",
     ]
     if issues:
-        for issue in issues:
+        for issue in issues[:1]:
             lines.append(f"- [{escape(issue['title'])}](issues/{date_compact(issue['date'])}/)")
     else:
         lines.append("<p class=\"catalog-empty\">正式快讯将在首次发布后归档。</p>")
+    lines.extend(["", "## 按内容浏览", "", '<div class="catalog-grid catalog-grid--overview">'])
+    for key, _, description in SECTIONS:
+        lines.append(f'<article class="catalog-card"><h3><a href="topics/{key}.qmd">{DISPLAY_LABELS[key]}</a></h3><p>{description}</p></article>')
+    lines.extend(['</div>', '', '使用顶部搜索查找标题、工具或关键词。', ''])
     lines.extend(["", "可按内容类型查看[栏目索引](topics/index.qmd)，或在[往期](archive.qmd)中按日期查阅公开期次。", ""])
+    lines.extend([render_home_promotion(), ""])
     return "\n".join(lines)
 
 
 def archive_page(issues: list[dict]) -> str:
-    lines = ["---", 'title: "往期"', "---", "", "下列链接直达按日期生成的公开详版。", ""]
+    lines = ["---", 'title: "往期"', "---", "", "下列链接直达按日期生成的网页版。", ""]
     if issues:
+        month = None
         for issue in issues:
-            lines.append(f"- [{issue['date']}：{escape(issue['title'])}](issues/{date_compact(issue['date'])}/)")
+            if issue["date"][:7] != month:
+                month = issue["date"][:7]
+                lines.extend([f"## {month}", ""])
+            lines.append(f"- [{issue['date']}｜连享会 · 快讯](issues/{date_compact(issue['date'])}/)")
     else:
         lines.append("正式快讯将在首次发布后归档。")
-    lines.append("")
+    lines.extend(["", render_promotion(), ""])
     return "\n".join(lines)
 
 
@@ -170,7 +172,7 @@ def main() -> int:
     write_if_changed(TOPICS_DIR / "index.qmd", index_page(values))
     for identifier, title, description in SECTIONS:
         section_values = [value for value in values if value["section"] == identifier]
-        write_if_changed(TOPICS_DIR / f"{identifier}.qmd", section_page(title, description, section_values))
+        write_if_changed(TOPICS_DIR / f"{identifier}.qmd", section_page(DISPLAY_LABELS[identifier], description, section_values))
     return 0
 
 

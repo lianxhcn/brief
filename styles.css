@@ -141,3 +141,73 @@
     font-size: 1rem;
   }
 }
+
+/* Task 09：长引文可换行，推广使用文档流，不遮挡正文。 */
+.myapa, .catalog-card, .aa-ItemContent, .aa-ItemContentDescription {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.course-hub-callout summary { cursor: pointer; font-weight: 600; }
+@media (max-width: 40rem) {
+  .course-hub-callout { padding: 0.65rem 0.8rem; font-size: 0.95rem; }
+}
+
+/* 会议通知等长 URL 在窄屏自然换行。 */
+#quarto-document-content a { overflow-wrap: anywhere; }
+
+/* R01：独立右栏承载推广，正文从标题连续排至文末。 */
+.promotion-slot:empty { display: none; }
+.course-hub-callout { padding: 0.8rem; border-left-width: 2px; }
+.course-hub-callout ul { list-style: none; margin: 0.7rem 0 0; padding: 0; }
+.course-hub-callout li + li { margin-top: 0.8rem; }
+.course-dates { display: block; margin-top: 0.2rem; font-size: 0.9rem; color: #526258; }
+@media (min-width: 75rem) {
+  #quarto-margin-sidebar .course-hub-callout { margin: 1.2rem 0 0; }
+  #quarto-margin-sidebar { max-height: calc(100vh - 7rem); overflow-y: auto; }
+}
+.issue-page #title-block-header { margin-bottom: 1.4rem; }
+.issue-page h1.title { font-size: clamp(1.8rem, 2.8vw, 2.4rem); font-weight: 750; }
+.issue-page h2 { font-size: 1.65rem; margin-top: 1.7rem; padding-bottom: 0.35rem; }
+.issue-page h3 { font-size: 1.3rem; font-weight: 650; color: #38566b; margin-top: 1.2rem; }
+.issue-page h4 { font-size: 1.15rem; line-height: 1.5; font-weight: 650; margin: 0 0 0.7rem; }
+.brief-entry { margin: 0.9rem 0 1.8rem; padding-left: 0.65rem; border-left: 1px solid #dce3e8; }
+.brief-entry p { margin-bottom: 0.7rem; }
+.brief-entry .myapa { color: #344450; font-size: 0.95rem; }
+@media (max-width: 40rem) {
+  .brief-entry { padding-left: 0.25rem; }
+  .issue-page h2 { font-size: 1.4rem; }
+  .issue-page h3 { font-size: 1.2rem; }
+  .issue-page h4 { font-size: 1.08rem; }
+}
+
+/* R02：延伸分区与课程海报；不将分隔线写为正文。 */
+.issue-page section#延伸信息 { margin-top: 28px; padding-top: 28px; border-top: 1px solid #dce3e8; }
+.issue-page section#延伸信息 > h2 { margin-top: 0; }
+.home-promotions { margin-top: 28px; }
+.course-poster { margin: 0 0 1rem; }
+.course-poster img { display: block; width: 100%; height: auto; }
+[hidden] { display: none !important; }
+@media (min-width: 80rem) {
+  #quarto-margin-sidebar .course-hub-callout { width: 320px; max-width: 100%; box-sizing: border-box; }
+}
+
+/* 无 TOC 栏目仍需使课程入口处于可点击层，低于导航和搜索遮罩。 */
+#quarto-margin-sidebar:has(.course-hub-callout) { z-index: 1 !important; }
+.issue-page section#延伸信息 { scroll-margin-top: 100px; }
+
+/* 1280px 以下使用单栏，课程由同一组件回到文末，避免中屏右栏溢出。 */
+@media (max-width: 79.999rem) {
+  #quarto-content { display: block; padding-inline: 1.5rem; }
+  #quarto-content > #quarto-margin-sidebar { display: none; }
+  #quarto-content > main.content { width: 100%; max-width: 800px; margin-inline: auto; }
+}
+
+/* R03：正文内语义化折叠目录，无悬浮按钮，目录内容仍来自 Quarto。 */
+.inline-toc { margin: 0.7rem 0 1.2rem; }
+.inline-toc > summary { cursor: pointer; font-weight: 600; }
+.inline-toc > summary:focus-visible { outline: 2px solid #507594; outline-offset: 4px; }
+.inline-toc #toc-title { display: none; }
+.inline-toc #TOC { display: block !important; position: static; width: auto; padding-top: 0.6rem; }
+.inline-toc #TOC ul { display: block !important; padding-left: 1rem; }
+.inline-toc #TOC a { display: block; padding-block: 0.2rem; overflow-wrap: anywhere; }
+main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 100px; }

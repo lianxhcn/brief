@@ -5,7 +5,7 @@
 | 顺序 | 任务 | 状态与范围 |
 |---|---|---|
 | 1 | ALL-01 | 长期规则治理，见 [审计](all-01-audit.md) |
-| 2 | Task 09 | 未验收；网站结构、归档、搜索、订阅、推广，DEMO 隔离与 myAPA |
+| 2 | Task 09 | [R03 本地 PASS](task-09-r03-result.md)，待用户验收；网站结构、归档、搜索、订阅、推广，DEMO 隔离与 myAPA |
 | 3 | Task 10 | 未验收；微信 renderer、validator、tests |
 | 4 | Task 11 | 未验收；端到端与发布前检查 |
 
