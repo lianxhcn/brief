@@ -39,3 +39,20 @@ ZIP SHA-256：2f1ade94478d561beb149966b8c388f95913a64de1c8e7d37fd56087a3b99e8c�
 拟提交文件精确清单见 repo-plan.yml，共 28 个文件。部署与线上核验待执行。
 
 微信 URL 行末空格由 C-15 强制规定。暂存 diff 检查首次报告 5 行 trailing whitespace，未删除这些合法空格；新增 .gitattributes，仅对 publish/wechat/*.txt 禁用 Git 的 blank-at-eol 提示，微信校验器继续逐行检查空格数量。提交清单因此为 29 个文件。
+## 04 发布与线上核验完成
+
+发布提交：`1f4b26f1488aa67cb3b07389329840734d6571c2`，已推送 origin/main。
+
+[Pages 运行 34150416562](https://github.com/lianxhcn/brief/actions/runs/34150416562) 的真实 GitHub 网页显示 Success，build 和 deploy 均 completed successfully；显示触发时间为 2026-09-08 02:08 GMT+8，build 25s、deploy 9s。API 状态查询曾 EOF / 等待，最终采用运行网页的权威结果，不据接口失败误判部署失败。
+
+真实浏览器逐页核验：
+
+- [首页](https://lianxhcn.github.io/brief/) 显示 2026.09.08，并链接本期期次。
+- [2026-09-08 期次](https://lianxhcn.github.io/brief/issues/20260908/) 显示四条既定标题、正文与原始来源链接，与本地生成结果一致。
+- [历史精选](https://lianxhcn.github.io/brief/history/20260815-20260907/) 可访问，包含 29 篇推文、3 篇论文与 1 个已有软件入口；日期为来源日期，正文明确不代表历史短版或微信群发送。
+
+C-08 previous_coverage_point=unknown、previous_coverage_evidence=null，30 条 follow-ups 原样保留；未来自动发布仍冻结。无 ACL 修改，无定时任务，无微信群消息。旧的外部停止报告仅为此前沙箱阻断的历史记录，当前交接工作已完成。
+
+此审计回填将单独提交同步；不改变已核验网页内容。无待用户手工处理项目。
+
+核验记录时间：2026-09-08 02:11:23 +08:00
