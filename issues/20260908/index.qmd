@@ -1,0 +1,57 @@
+---
+title: "连享会 · 快讯 | 2026.09.08"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？ {#post-1916}
+
+文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。
+
+<a href="https://www.lianxh.cn/details/1916.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 文本转成 Embedding 后，还能直接拿来做因果推断吗？ {#post-1921}
+
+文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。
+
+<a href="https://www.lianxh.cn/details/1921.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### DID 中如何回答州层面的政策问题 {#arxiv-2609-01467}
+
+<p class="myapa">Austin, N., Karim, S. R., Strumpf, E., &amp; Webb, M. D. (2026). Which policy works, and where? Estimation and inference for state-level treatment effects in difference-in-differences. arXiv (working paper). <a href="https://arxiv.org/abs/2609.01467" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Which%20policy%20works%2C%20and%20where%3F%20Estimation%20and%20inference%20for%20state-level%20treatment%20effects%20in%20difference-in-differences" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### p-hacking 与选择性发表如何共同影响估计 {#arxiv-2609-05372}
+
+<p class="myapa">Cai, Y., Pernoud, A., &amp; Xu, B. (2026). Does p-hacking mitigate or exacerbate the effects of publication bias? arXiv (working paper). <a href="https://arxiv.org/abs/2609.05372" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Does%20p-hacking%20mitigate%20or%20exacerbate%20the%20effects%20of%20publication%20bias%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文研究 p-hacking 与选择性发表之间的关系。适合关注研究选择、发表机制和经验结果解释的读者。
+
+
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

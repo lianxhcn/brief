@@ -234,3 +234,7 @@ Author(s). (Year). Title. Journal or source, volume(issue), pages. [Link](...), 
 C-20 [HARD]：DOI 可用时 Link 优先 `https://doi.org/...`。PDF 仅列官方、作者主页或其他可靠公开可访问版本，受限 / 不可访问不强列。Google 使用正确编码的 Scholar 检索 URL，无未编码空格或特殊字符。缺少可靠链接直接省略，不填占位，不以 DOI 冒充 PDF。
 
 本项目明确规则与全局 myAPA 默认的 DOI 兜底、空链接占位或强制保留 Google 字段不同，网站详版遵守上述项目规则。旧规范的废弃登记见 [project-rules](project-rules.md)；实现差异见 [债务](tasks/implementation-debt.md)。
+
+## R02 前置排除与本期 C-08 有限接续
+
+连享会 post-17 固定排除；有据的课程招生、公开课通知、助教招聘和无实质新内容常驻页先于新闻日期筛选，不入日常两端和历史研究正文。关键词仅作预筛，研究文章与课程讲义不因置顶排除。排除项保留观察和依据，不计入 C-08 required、unresolved 或短版待选，不伪记 already-short。本期四条候选按 D-20260908-01 有限接续；C-08 基点仍 unknown，证据仍 null，30 条 follow-ups 保留。本次例外不证明历史覆盖完整，也不解除未来自动发布冻结。

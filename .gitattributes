@@ -1,0 +1,2 @@
+# C-15 requires one space after each plain-text URL.
+publish/wechat/*.txt whitespace=-blank-at-eol

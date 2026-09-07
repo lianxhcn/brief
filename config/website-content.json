@@ -52,5 +52,29 @@
     "source_sha256": "1b52b66a18988e366ee09dc009dc2f2ffc52a5b68d782fc0ac8f767d9a15668c",
     "source": "content/issues/2026-09-05.json",
     "reviewed_date": "2026-09-06"
+  },
+  "post-1916": {
+    "summary": "文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。",
+    "source_sha256": "035ce9d491dcbd4f2cdb5fdca10547fd680f1c7528c3dd6b6a9f7ad2ff0d6ffb",
+    "source": "content/issues/2026-09-08.json",
+    "reviewed_date": "2026-09-08"
+  },
+  "post-1921": {
+    "summary": "文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。",
+    "source_sha256": "72c0f8580ea333361b61e71469de5a410e218e7dbb884309209df673bb19a764",
+    "source": "content/issues/2026-09-08.json",
+    "reviewed_date": "2026-09-08"
+  },
+  "arxiv-2609-01467": {
+    "summary": "这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。",
+    "source_sha256": "aa5e1cc6418f34b78c931466cbfb28f80087051aa8846595d72be149ef12d3f3",
+    "source": "content/issues/2026-09-08.json",
+    "reviewed_date": "2026-09-08"
+  },
+  "arxiv-2609-05372": {
+    "summary": "这篇工作论文研究 p-hacking 与选择性发表之间的关系。适合关注研究选择、发表机制和经验结果解释的读者。",
+    "source_sha256": "e0c3cb0403a5e681eea6036885e26fc7942d8ad59d1e77e868128290d3682480",
+    "source": "content/issues/2026-09-08.json",
+    "reviewed_date": "2026-09-08"
   }
 }

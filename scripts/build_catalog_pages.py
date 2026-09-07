@@ -142,6 +142,8 @@ def home_page(issues: list[dict]) -> str:
 
 def archive_page(issues: list[dict]) -> str:
     lines = ["---", 'title: "往期"', "---", "", "下列链接直达按日期生成的网页版。", ""]
+    if (ROOT / "history/20260815-20260907/index.qmd").exists():
+        lines.extend(["[历史精选：2026-08-15 至 2026-09-07](history/20260815-20260907/)", ""])
     if issues:
         month = None
         for issue in issues:

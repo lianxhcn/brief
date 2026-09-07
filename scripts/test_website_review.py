@@ -51,7 +51,9 @@ class UserReviewTests(unittest.TestCase):
         self.assertEqual(render_promotion(config, date(2026, 9, 6)), '')
 
     def test_archive_single_date(self):
-        labels = re.findall(r'^- \[([^]]+)\]', archive_page(public_issues()), re.M)
+        # 固定两期输入，归档标签测试不依赖生产期次数量。
+        fixtures = [dict(date='2026-09-05'), dict(date='2026-09-04')]
+        labels = re.findall(r'^- \[([^]]+)\]', archive_page(fixtures), re.M)
         self.assertEqual(labels, ['2026-09-05｜连享会 · 快讯', '2026-09-04｜连享会 · 快讯'])
 
     def test_nav_and_cards(self):

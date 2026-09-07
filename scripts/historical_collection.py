@@ -1,4 +1,5 @@
 """历史精选独立入口；只读冻结输入，不生成 daily issue 或渠道发布事件。"""
+from lianxh_exclusions import screen_post, normalized_url
 import argparse
 import copy
 import hashlib
@@ -38,15 +39,32 @@ def validate_collection(data, observed, history):
     for row in register:
         if not row.get('reason') or row.get('decision') not in {'proposed','deferred','excluded','reuse'}:
             errors.append(row['id']+': 缺少有效处置及原因')
+        gate = screen_post(row)
+        if gate['action'] == 'excluded' and row.get('decision') != 'excluded':
+            errors.append(row['id']+': 前置排除处置不符')
         o = observed_by_id.get(row['id'], {})
         if any(row.get(k) != o.get(k) for k in ('title','url','display_date','author')):
             errors.append(row['id']+': 登记与独立目录不一致')
+    register_by_id = {r['id']: r for r in register}
+    entry_ids = set()
     selected_posts = set()
     seen = set()
     paper_keys, post_work_keys = set(), set()
     for entry in data.get('entries', []):
         item, category = entry.get('payload', {}), entry.get('category')
         key = item.get('id', '?')
+        if key in entry_ids: errors.append(key+': entry ID 重复')
+        entry_ids.add(key)
+        if category == 'lianxh_posts':
+            row, obs = register_by_id.get(key, {}), observed_by_id.get(key, {})
+            gate = screen_post(dict(item, content_classification=row.get('content_classification', {})))
+            if gate['action'] != 'retain': errors.append(key+': '+gate['reason']); continue
+            if not row or not obs: errors.append(key+': entry 缺观察或登记绑定')
+            if any(item.get('title') != x.get('title') or normalized_url(item.get('url')) != normalized_url(x.get('url')) for x in (row, obs)):
+                errors.append(key+': entry 题名或 URL 与可信输入不符')
+            if entry.get('decision') != row.get('decision'): errors.append(key+': entry 处置不符')
+            if entry.get('date_kind') == 'page-display' and any(entry.get('source_date') != x.get('display_date') for x in (row, obs)):
+                errors.append(key+': entry 页面日期与可信输入不符')
         if category not in CATEGORIES: errors.append(key+': 不支持的分类'); continue
         if not re.fullmatch(r'[a-z0-9-]+', key): errors.append(key+': ID 不安全')
         try:
@@ -87,6 +105,8 @@ def carry_followups(rows, history, checked_at):
     result = copy.deepcopy(rows)
     if len({x['id'] for x in result}) != len(result): raise ValueError('后续 ID 重复')
     for row in result:
+        if screen_post(row)['action'] == 'excluded':
+            raise ValueError(row['id']+': 排除项须先登记，不得进入后续队列')
         events = []
         for old in history:
             if identities(row) & identities(old):
@@ -140,9 +160,11 @@ def run(args):
     guard.write('index.qmd',render_collection(data))
     guard.write('styles.css',(ROOT/'styles.css').read_text(encoding='utf-8'))
     guard.write('_quarto.yml','project:\n  type: default\nformat:\n  html:\n    css: styles.css\n    toc: true\n')
+    # 长 Windows 交接路径可显式提供全新仓库外缓存根，仍受隔离检查。
+    runtime = Isolation(args.runtime_root, forbidden_paths()) if getattr(args, 'runtime_root', None) else guard
     env = os.environ.copy()
     for name in ('LOCALAPPDATA','APPDATA','XDG_CACHE_HOME','DENO_DIR','TEMP','TMP'):
-        p=guard.check(guard.root/'runtime'/name); p.mkdir(parents=True,exist_ok=True); env[name]=str(p)
+        p=runtime.check(runtime.root/'runtime'/name); p.mkdir(parents=True,exist_ok=True); env[name]=str(p)
     env['PYTHONDONTWRITEBYTECODE']='1'
     proc=subprocess.run([shutil.which('quarto') or r'C:\Program Files\Quarto\bin\quarto.exe',
                          'render','index.qmd','--to','html'],cwd=guard.root,env=env,
@@ -155,4 +177,5 @@ def run(args):
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     for name in ('collection','observed','history','output-root'): parser.add_argument('--'+name,required=True)
+    parser.add_argument('--runtime-root', help='可选的全新仓库外短缓存路径')
     raise SystemExit(run(parser.parse_args()))

@@ -1,4 +1,5 @@
 """首轮隔离候选的证据门槛；只读输入，不代替用户审核。"""
+from lianxh_exclusions import screen_post, normalized_url
 from datetime import date, datetime, timedelta, timezone
 import re
 from urllib.parse import urlsplit
@@ -51,6 +52,9 @@ def publication_events(record, category):
 
 def assess(item, category, history, as_of):
     """日期差 0..14 日优先；15..30 日需遗漏理由。沿用旧 <=14 去重边界。"""
+    if category == 'lianxh_posts':
+        gate = screen_post(item)
+        if gate['action'] != 'retain': return [gate['reason']]
     errors = []
     review = item.get('review', {})
     today = evaluation(as_of).date()

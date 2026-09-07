@@ -1,0 +1,454 @@
+---
+title: "历史精选：2026.08.15–2026.09.07"
+lang: zh-CN
+body-classes: issue-page
+toc: true
+toc-depth: 2
+---
+
+这是按来源日期整理的阅读集合。实际补录时间：2026-09-07T19:23:06+08:00。各条日期为来源日期，不代表当天已发布快讯或已发送微信群。
+
+## 连享会推文
+
+### 2026-09-06
+
+::: {.brief-entry}
+
+#### 文生图很烧 Tokens 吗？科研配图的选择逻辑 {#post-1922}
+
+作者：连小白 · 来源显示日期：2026-09-06
+
+按用途区分文生图、代码绘图、矢量排版和界面截图，讨论科研配图如何先确定事实与布局。适合为公式、统计图和概念插图选择合适的制作路径。
+
+<a href="https://www.lianxh.cn/details/1922.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 文本转成 Embedding 后，还能直接拿来做因果推断吗？ {#post-1921}
+
+作者：舒清扬 · 来源显示日期：2026-09-06
+
+文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。
+
+<a href="https://www.lianxh.cn/details/1921.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+[阅读关联原论文](https://arxiv.org/abs/2608.31059)
+
+### 2026-09-05
+
+::: {.brief-entry}
+
+#### Logit + XGBoost：一种可解释的混合信用评分模型 {#post-1918}
+
+作者：舒清扬 · 来源显示日期：2026-09-05
+
+介绍以 Logit 为主体、以 XGBoost 学习残差的混合评分思路，并讨论逐笔预测的透明分支占比。文章也提醒读者区分银行账户持有标签与贷款违约标签。
+
+<a href="https://www.lianxh.cn/details/1918.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+[阅读关联原论文](https://arxiv.org/abs/2608.26837)
+
+::: {.brief-entry}
+
+#### AI 参与金融决策，为什么不能只看准确率？ {#post-1917}
+
+作者：连小白 · 来源显示日期：2026-09-05
+
+围绕信用解释、欺诈识别和文本字段抽取，讨论平均准确率之外的稳定性与可审计性。文章提出保存模型、输入和规则版本，并区分结果可复现与判断正确。
+
+<a href="https://www.lianxh.cn/details/1917.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？ {#post-1916}
+
+作者：陈崇立 · 来源显示日期：2026-09-05
+
+文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。
+
+<a href="https://www.lianxh.cn/details/1916.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-09-04
+
+::: {.brief-entry}
+
+#### 加入年份固定效应以后，宏观共同冲击真的被控制了吗？(上)：从扰动项到异质暴露 {#post-1915}
+
+作者：艾米丽 · 来源显示日期：2026-09-04
+
+从企业对同一利率变化的不同暴露出发，解释年份固定效应能吸收的年度加性变化。文章讨论何时需要暴露度与冲击的交互项，并区分识别问题与标准误问题。
+
+<a href="https://www.lianxh.cn/details/1915.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 加入年份固定效应以后，宏观共同冲击真的被控制了吗？(下)：行业×年份固定效应、IFE 与 CCE {#post-1914}
+
+作者：艾米丽 · 来源显示日期：2026-09-04
+
+在异质共同冲击框架下，比较组别与年份交互、IFE 和 CCE 的控制思路。文章强调因子数、面板条件与识别变异，应结合上篇理解不同方法的代价。
+
+<a href="https://www.lianxh.cn/details/1914.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-09-03
+
+::: {.brief-entry}
+
+#### ReproAI-下：Stata 复现包实测——ReproAI 能找到漏洞吗？ {#post-1913}
+
+作者：连小白 · 来源显示日期：2026-09-03
+
+文章用预先设置缺陷的 Stata 小型包考察静态检查，区分结构性问题与样本逻辑问题。适合与上篇连读，理解检出报告及未生成修复副本的边界。
+
+<a href="https://www.lianxh.cn/details/1913.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### ReproAI-上：向编辑部提交论文复现包前的自动预检 {#post-1912}
+
+作者：艾米丽 · 来源显示日期：2026-09-03
+
+介绍 ReproAI 的复现包预检流程：静态检查、问题排序、副本修订和按需运行。适合作为提交前材料检查入口，预检结果仍需结合数据逻辑与研究判断。
+
+<a href="https://www.lianxh.cn/details/1912.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 女性 CEO 为何这么少？顶刊论文构造识别策略的思路 {#post-1911}
+
+作者：连小白 · 来源显示日期：2026-09-03
+
+通过重建 CEO 候选集合，解释如何区分候选池、能力判断与董事会偏好。文章把机制识别与结构模型连接起来，也说明商业数据及候选池设定的限制。
+
+<a href="https://www.lianxh.cn/details/1911.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-09-02
+
+::: {.brief-entry}
+
+#### 公司给近 4000 名员工配上 AI，谁真正会用？ {#post-1910}
+
+作者：连小白 · 来源显示日期：2026-09-02
+
+文章解读企业内部 GenAI 日志研究，区分使用频率与使用方式，并讨论提示信息和任务组织的衡量。研究来自单一企业的观察资料，适合思考使用质量指标。
+
+<a href="https://www.lianxh.cn/details/1910.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+[阅读关联原论文](https://arxiv.org/abs/2608.27364)
+
+::: {.brief-entry}
+
+#### 招聘数据如何进入因果推断？度量误差、平台漂移与识别陷阱 {#post-1909}
+
+作者：丁闪闪 · 来源显示日期：2026-09-02
+
+将招聘文本进入因果分析的风险分为生成变量误差、平台覆盖漂移和设计识别三层。文章分别讨论 DID 与 shift-share 的检查环节，可与前两篇连读。
+
+<a href="https://www.lianxh.cn/details/1909.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-09-01
+
+::: {.brief-entry}
+
+#### 招聘数据能测什么？指标构造与 LLM 标注 {#post-1908}
+
+作者：丁闪闪 · 来源显示日期：2026-09-01
+
+讨论职位名称、任职要求、技能与任务的不同测量对象，并给出 LLM 标注及人工审计流程。适合在构造企业或地区指标前明确变量含义。
+
+<a href="https://www.lianxh.cn/details/1908.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 招聘数据如何获取？数据来源、去重与字段清洗 {#post-1907}
+
+作者：丁闪闪 · 来源显示日期：2026-09-01
+
+文章区分招聘广告、职位空缺和实际录用，整理数据获取、去重和字段标准化的工作口径。重点是保留来源和样本覆盖变化，避免把数据管道变化当作招聘需求变化。
+
+<a href="https://www.lianxh.cn/details/1907.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 用 AI-Agent 推送 GitHub：本地仓库同步与授权指南 {#post-1906}
+
+作者：艾米丽 · 来源显示日期：2026-09-01
+
+从本地文件夹与远程仓库的关系讲起，说明项目边界、授权和同步检查流程。适合作为整理公开附件前的阅读材料。
+
+<a href="https://www.lianxh.cn/details/1906.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-08-31
+
+::: {.brief-entry}
+
+#### 我会 AI，为什么还拿不到实习？ {#post-1905}
+
+作者：连小白 · 来源显示日期：2026-08-31
+
+文章从需求澄清、过程留痕、结果核查和汇报四个环节讨论项目能力展示。适合把零散课程作业整理成可检查的求职作品，而不是仅列工具名称。
+
+<a href="https://www.lianxh.cn/details/1905.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 去 AI 味的 10 个 Skills 怎么选？论文、报告和推文不能只靠一套规则 {#post-1904}
+
+作者：艾米丽 · 来源显示日期：2026-08-31
+
+按论文、报告和推文等文体比较润色规则，讨论样文、修改边界及验收方法。文章将事实和术语检查放在语言自然度之前，适合制定项目写作规范。
+
+<a href="https://www.lianxh.cn/details/1904.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-08-29
+
+::: {.brief-entry}
+
+#### AI 我知道-06：为什么 AI 越聊越乱？上下文腐烂与论文协作工作流 {#post-1903}
+
+作者：丁闪闪 · 来源显示日期：2026-08-29
+
+从变量定义、模型版本和代码修改的混乱出发，讨论任务拆分、项目文件夹与任务日志。适合建立长对话交接规则，避免把过时设定带入当前分析。
+
+<a href="https://www.lianxh.cn/details/1903.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 平行趋势不成立怎么办？用 DiDwb、MDiD 和 RD 重新识别政策效果 {#post-1902}
+
+作者：潘星宇 · 来源显示日期：2026-08-29
+
+围绕空气污染政策评估，解释基线污染与后续趋势相关时的 DID 风险，并比较 DiDwb、MDiD 和 RD 的识别思路。阅读时应同时核对样本与目标参数。
+
+<a href="https://www.lianxh.cn/details/1902.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### LLM 文本标注成本降 80%：一次放几条、一次问几个变量？ {#post-1901}
+
+作者：刘峒杉 · 来源显示日期：2026-08-29
+
+文章分别讨论一次提交多条文本与一次标注多个变量的成本和质量权衡。适合在大规模标注前设计小样本校准、保留失败记录并检查下游变量误差。
+
+<a href="https://www.lianxh.cn/details/1901.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-08-24
+
+::: {.brief-entry}
+
+#### AI 跑出的 DID 很显著，可信吗？用 causal-did 加一道识别防线 {#post-1899}
+
+作者：丁星星 · 来源显示日期：2026-08-24
+
+通过预设反例区分代码运行、结果复现与因果识别，并介绍 causal-did 的设计检查流程。文章提醒读者把识别条件和结果验收写进任务，而不能只要求显著结果。
+
+<a href="https://www.lianxh.cn/details/1899.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### WorkBuddy 接入 Stata MCP：从文献整理到直接跑回归 {#post-1898}
+
+作者：刘婉茹 · 来源显示日期：2026-08-24
+
+以文献卡片、数据诊断和 Stata 自带数据测试说明 Agent 与 MCP 的连接流程。适合梳理代码生成、实际执行和日志反馈之间的分工。
+
+<a href="https://www.lianxh.cn/details/1898.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-08-22
+
+::: {.brief-entry}
+
+#### Skills、MCP、A2A、ARD：科研 Agent 到底该用哪些？ {#post-1897}
+
+作者：王硕 · 来源显示日期：2026-08-22
+
+用文献核验工作流区分 Skills 的操作规则、MCP 的工具连接以及 Agent 协作与发现机制。文章提供按任务选择组合的思路，并保留权限与人工核对环节。
+
+<a href="https://www.lianxh.cn/details/1897.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-08-18
+
+::: {.brief-entry}
+
+#### 万能提示词真的存在吗？五份 Prompting Science Report 的实证检验 {#post-1896}
+
+作者：潘星宇 · 来源显示日期：2026-08-18
+
+围绕五份提示词实验报告，讨论角色、语气、思维链和评价标准如何影响结论。阅读重点是按自己的任务验证提示方案，并将外部材料中的指令与任务要求分开。
+
+<a href="https://www.lianxh.cn/details/1896.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 从 reghdfe 到 PyFixest：Python 高维固定效应与 DID 快速上手 {#post-1895}
+
+作者：郭皑馨 · 来源显示日期：2026-08-18
+
+将固定效应公式、聚类标准误和 DID 估计对象与 PyFixest 接口逐项对照。适合熟悉 reghdfe 的读者理解迁移时应比较哪些模型设定。
+
+<a href="https://www.lianxh.cn/details/1895.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-08-16
+
+::: {.brief-entry}
+
+#### SNAP08-社会网络中的「圈子」是怎样识别出来的？ {#post-1894}
+
+作者：杨奈特 · 来源显示日期：2026-08-16
+
+从小网络的候选划分手算模块度，再转到 Louvain 的软件操作。文章强调分辨率、随机性和社群经济含义需要分别判断，可用于网络分析入门教学。
+
+<a href="https://www.lianxh.cn/details/1894.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### SNAP07-手动计算：社会网络分析中的密度、距离与聚集系数 {#post-1893}
+
+作者：杨奈特 · 来源显示日期：2026-08-16
+
+用六个节点的小网络手算密度、路径和聚集指标，说明相同边数可以对应不同结构。重点讨论网络断开时指标口径如何变化，并给出代码核对入口。
+
+<a href="https://www.lianxh.cn/details/1893.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 2026-08-15
+
+::: {.brief-entry}
+
+#### 如何发现因果关系？基于causal-learn的因果推理 {#post-1892}
+
+作者：张逸林 · 来源显示日期：2026-08-15
+
+文章梳理 PC、FCI、GES 等因果发现方法，以及条件独立检验和图评价工具。使用前需要判断潜在混杂、数据类型与算法假设，输出的图结构仍需领域知识核对。
+
+<a href="https://www.lianxh.cn/details/1892.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### Claude Code Hooks-钩子：怎么配，如何迁移到 Codex？ {#post-1891}
+
+作者：郑怿轩 · 来源显示日期：2026-08-15
+
+文章从通知、文件保护和结束前检查等场景解释 Hooks，并列出跨平台迁移时需要重新核对的输入字段、路径和行为。适合作为配置前的检查清单。
+
+<a href="https://www.lianxh.cn/details/1891.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+## 论文阅读
+
+### 2026-09-05
+
+::: {.brief-entry}
+
+#### p-hacking 与选择性发表如何共同影响估计 {#arxiv-2609-05372}
+
+<p class="myapa">Cai, Y., Pernoud, A., &amp; Xu, B. (2026). Does p-hacking mitigate or exacerbate the effects of publication bias? arXiv (working paper). <a href="https://arxiv.org/abs/2609.05372" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Does%20p-hacking%20mitigate%20or%20exacerbate%20the%20effects%20of%20publication%20bias%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文研究 p-hacking 与选择性发表之间的关系。适合关注研究选择、发表机制和经验结果解释的读者。
+
+
+
+:::
+
+### 2026-09-02
+
+::: {.brief-entry}
+
+#### DID 中如何回答州层面的政策问题 {#arxiv-2609-01467}
+
+<p class="myapa">Austin, N., Karim, S. R., Strumpf, E., &amp; Webb, M. D. (2026). Which policy works, and where? Estimation and inference for state-level treatment effects in difference-in-differences. arXiv (working paper). <a href="https://arxiv.org/abs/2609.01467" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Which%20policy%20works%2C%20and%20where%3F%20Estimation%20and%20inference%20for%20state-level%20treatment%20effects%20in%20difference-in-differences" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。
+
+
+
+:::
+
+### 2026-09-01
+
+::: {.brief-entry}
+
+#### 短面板中的随机系数矩 {#arxiv-2608-31085}
+
+<p class="myapa">Botosaru, I. &amp; Powell, J. L. (2026). Moments of random coefficients in short panels. arXiv (working paper). <a href="https://arxiv.org/abs/2608.31085" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Moments%20of%20random%20coefficients%20in%20short%20panels" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文研究短面板中随机系数矩的识别，讨论如何利用面板中的信息刻画个体反应差异。适合关注异质性参数与面板识别条件的读者。
+
+
+
+:::
+
+## 已有软件条目
+
+### 2026-08-21
+
+::: {.brief-entry}
+
+#### R：binsreg 2.2 分箱散点图与统计推断 {#binsreg-r-22}
+
+已有条目介绍 binsreg 的分箱散点图及相应推断工具，可作为回归图形方法的阅读入口。
+
+<a href="https://cran.r-project.org/package=binsreg" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+[查看已有正式网站条目](https://lianxhcn.github.io/brief/issues/20260905/#binsreg-r-22)
+
+
+[返回往期快讯](../../archive.qmd)

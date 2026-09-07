@@ -12,12 +12,12 @@ title: "栏目索引"
 <article class="catalog-card">
 <h3><a href="lianxh-new.qmd">新推文</a></h3>
 <p>lianxh.cn 最新推文。</p>
-<p class="catalog-meta">当前 1 条公开条目。</p>
+<p class="catalog-meta">当前 3 条公开条目。</p>
 </article>
 <article class="catalog-card">
 <h3><a href="research-frontier.qmd">新论文</a></h3>
 <p>最新顶刊论文和工作论文。</p>
-<p class="catalog-meta">当前 3 条公开条目。</p>
+<p class="catalog-meta">当前 5 条公开条目。</p>
 </article>
 <article class="catalog-card">
 <h3><a href="methods-tools.qmd">新方法</a></h3>

@@ -8,6 +8,20 @@ title: "新论文"
 
 <div class="catalog-grid">
 <article class="catalog-card">
+<h3>p-hacking 与选择性发表如何共同影响估计</h3>
+<p class="catalog-meta">日期：2026-09-08</p>
+<p>这篇工作论文研究 p-hacking 与选择性发表之间的关系。适合关注研究选择、发表机制和经验结果解释的读者。</p>
+<p class="catalog-tags">未设置附加标签。</p>
+<p><a href="../issues/20260908/#arxiv-2609-05372">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>DID 中如何回答州层面的政策问题</h3>
+<p class="catalog-meta">日期：2026-09-08</p>
+<p>这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。</p>
+<p class="catalog-tags">未设置附加标签。</p>
+<p><a href="../issues/20260908/#arxiv-2609-01467">查看本期</a></p>
+</article>
+<article class="catalog-card">
 <h3>QJE：从历史税册重建美国财富</h3>
 <p class="catalog-meta">日期：2026-09-05</p>
 <p>论文结合历史财产税记录与普查估值资料，重建美国州、县和全国的长期财富序列。关键步骤是用评估值与市场值的比例校正税册数据，适合关注财富测量与地区差距的读者；这些差异本身不能解释为财产税的因果效应。</p>

@@ -1,4 +1,5 @@
 """一次隔离草稿入口：显式快照、来源子集、as-of；始终 no-release。"""
+from lianxh_exclusions import screen_post, normalized_url
 import argparse
 import hashlib
 import json
@@ -81,6 +82,10 @@ def run(args):
     for candidate in snapshot['candidates']:
         payload = candidate.get('payload', {})
         category = {'paper':'papers','tool':'tools','post':'lianxh_posts','resource':'research_resources','conference':'conference_calls'}.get(candidate.get('kind'))
+        gate = screen_post(payload) if category == 'lianxh_posts' else {'action':'retain'}
+        if gate['action'] != 'retain':
+            decisions.append({'id':candidate.get('id'), 'selected':False, 'gate':gate, 'reasons':[gate['reason']]})
+            continue
         try:
             reasons = assess(payload, category, history, args.as_of) if category else ['未知类型']
             if not reasons:

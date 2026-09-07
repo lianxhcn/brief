@@ -17,6 +17,8 @@ class HistoricalTests(unittest.TestCase):
     def test_inclusive_range(self):
         for day in ('2026-08-15','2026-09-07'):
             self.d['entries'][0]['source_date']=day
+            self.o[0]['display_date']=day
+            self.d['post_register'][0]['display_date']=day
             self.assertEqual(validate_collection(self.d,self.o,[]),[])
         for day in ('2026-08-14','2026-09-08'):
             self.d['entries'][0]['source_date']=day
@@ -52,6 +54,7 @@ class HistoricalTests(unittest.TestCase):
         self.assertEqual(validate_collection(self.d,self.o,h),[])
         h[0]['events'][0]['kind']='website'
         self.assertTrue(validate_collection(self.d,self.o,h))
+        self.d['post_register'][0]['decision']='reuse'
         self.d['entries'][0].update(decision='reuse',existing_website_url='https://example.org/published')
         self.assertEqual(validate_collection(self.d,self.o,h),[])
     def test_followup_survives_endpoint(self):

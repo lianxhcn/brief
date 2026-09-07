@@ -8,6 +8,20 @@ title: "新推文"
 
 <div class="catalog-grid">
 <article class="catalog-card">
+<h3>遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？</h3>
+<p class="catalog-meta">日期：2026-09-08</p>
+<p>文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。</p>
+<p class="catalog-tags">未设置附加标签。</p>
+<p><a href="../issues/20260908/#post-1916">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>文本转成 Embedding 后，还能直接拿来做因果推断吗？</h3>
+<p class="catalog-meta">日期：2026-09-08</p>
+<p>文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。</p>
+<p class="catalog-tags">未设置附加标签。</p>
+<p><a href="../issues/20260908/#post-1921">查看本期</a></p>
+</article>
+<article class="catalog-card">
 <h3>连享会 · AI-Agent 数据分析实战</h3>
 <p class="catalog-meta">日期：2026-09-05</p>
 <p>AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适合关注数据处理与研究实践的读者。课程由杨楷主讲，安排在 10 月 17、24、31 日线上直播。</p>

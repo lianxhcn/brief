@@ -1,4 +1,5 @@
 """C-08 覆盖核对：独立观察目录、逐篇处置和有来源的区间必须相符。"""
+from lianxh_exclusions import screen_post, normalized_url
 from datetime import datetime, time, timedelta
 from trial_selection import evaluation, exact_date, identities, publication_events
 
@@ -45,6 +46,14 @@ def coverage_errors(coverage, core_posts, as_of, observed_posts, history=()):
         if row.get('url') != post.get('url') or row.get('date') != post.get('date'):
             errors.append(f'C-08 {post_id} 来源 URL / 日期与观察目录不符')
         decision = row.get('decision')
+        gate = screen_post(dict(post, content_classification=row.get('content_classification', {})))
+        if gate['action'] == 'excluded':
+            if decision != 'excluded' or not row.get('reason') or not row.get('evidence'):
+                errors.append(f'C-08 {post_id} 须有据登记 excluded，不得计入待选或 already-short')
+            if post_id in core: errors.append(f'C-08 {post_id} 排除项进入 core')
+            continue
+        if gate['action'] == 'review' and decision in {'proposed', 'already-short'}:
+            errors.append(f'C-08 {post_id} 内容性质尚待核查')
         if decision == 'proposed': required.add(post_id)
         elif decision == 'pending': unresolved.add(post_id)
         elif decision == 'pending-baseline': baseline_pending.add(post_id)

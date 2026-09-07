@@ -9,6 +9,7 @@ project:
     - archive.qmd
     - topics/
     - issues/
+    - history/
 
 website:
   title: "连享会 · 快讯"

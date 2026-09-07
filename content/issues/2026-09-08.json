@@ -1,0 +1,120 @@
+{
+  "title": "连享会 · 快讯 | 2026.09.08",
+  "date": "2026-09-08",
+  "status": "published",
+  "issue_type": "daily",
+  "editorial_version": 2,
+  "lianxh_posts": [
+    {
+      "id": "post-1916",
+      "title": "遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？",
+      "url": "https://www.lianxh.cn/details/1916.html",
+      "page_note": "文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。",
+      "priority": "core",
+      "wechat_summary": "文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。",
+      "retrieved_date": "2026-09-08",
+      "catalog": {
+        "section": "lianxh-new",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": []
+      },
+      "published_date": "2026-09-05"
+    },
+    {
+      "id": "post-1921",
+      "title": "文本转成 Embedding 后，还能直接拿来做因果推断吗？",
+      "url": "https://www.lianxh.cn/details/1921.html",
+      "page_note": "文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。",
+      "related_work": "arxiv:2608.31059",
+      "priority": "core",
+      "wechat_summary": "文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。",
+      "retrieved_date": "2026-09-08",
+      "catalog": {
+        "section": "lianxh-new",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": []
+      },
+      "published_date": "2026-09-06"
+    }
+  ],
+  "papers": [
+    {
+      "id": "arxiv-2609-01467",
+      "title": "DID 中如何回答州层面的政策问题",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-02",
+      "homepage_url": "https://arxiv.org/abs/2609.01467",
+      "source_url": "https://arxiv.org/abs/2609.01467",
+      "retrieved_date": "2026-09-08",
+      "citation": "Austin, N.; Karim, S. R.; Strumpf, E.; Webb, M. D. (2026). Which policy works, and where? Estimation and inference for state-level treatment effects in difference-in-differences. arXiv (working paper).",
+      "page_note": "这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。",
+      "wechat_summary": "这篇工作论文区分总体 ATT 与按地区、时期或政策类型定义的 ATT，讨论政策问题、目标参数和推断方法如何对应。适合准备解释地区异质性结果的读者。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": []
+      },
+      "bibliography": {
+        "authors": [
+          "Austin, N.",
+          "Karim, S. R.",
+          "Strumpf, E.",
+          "Webb, M. D."
+        ],
+        "year": 2026,
+        "title": "Which policy works, and where? Estimation and inference for state-level treatment effects in difference-in-differences",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.01467"
+      },
+      "arxiv_id": "2609.01467",
+      "priority": "core"
+    },
+    {
+      "id": "arxiv-2609-05372",
+      "title": "p-hacking 与选择性发表如何共同影响估计",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-05",
+      "homepage_url": "https://arxiv.org/abs/2609.05372",
+      "source_url": "https://arxiv.org/abs/2609.05372",
+      "retrieved_date": "2026-09-08",
+      "citation": "Cai, Y.; Pernoud, A.; Xu, B. (2026). Does p-hacking mitigate or exacerbate the effects of publication bias? arXiv (working paper).",
+      "page_note": "这篇工作论文研究 p-hacking 与选择性发表之间的关系。适合关注研究选择、发表机制和经验结果解释的读者。",
+      "wechat_summary": "这篇工作论文将 p-hacking 与选择性发表放在同一框架中，讨论已发表估计的偏差。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": []
+      },
+      "bibliography": {
+        "authors": [
+          "Cai, Y.",
+          "Pernoud, A.",
+          "Xu, B."
+        ],
+        "year": 2026,
+        "title": "Does p-hacking mitigate or exacerbate the effects of publication bias?",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.05372"
+      },
+      "arxiv_id": "2609.05372",
+      "priority": "core"
+    }
+  ],
+  "tools": [],
+  "research_resources": [],
+  "conference_calls": [],
+  "issue_id": "brief-20260908",
+  "retrieved_date": "2026-09-08"
+}

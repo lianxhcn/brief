@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build local-only reviewed drafts from an already verified candidate ledger."""
 from __future__ import annotations
+from lianxh_exclusions import screen_post, normalized_url
 
 import argparse
 import json
@@ -63,6 +64,8 @@ def assemble_daily_issue(day: str, items: list[dict]) -> dict:
     for candidate in items:
         if candidate["kind"] not in mapping or not isinstance(candidate.get("payload"), dict):
             raise ValueError("新版候选台账需要受支持的 kind 和完整 payload；请勿沿用旧工具专用台账。")
+        if candidate["kind"] == "post" and screen_post(candidate["payload"])["action"] != "retain":
+            continue
         payload = dict(candidate["payload"])
         payload["priority"] = candidate["core_or_extended"]
         issue[mapping[candidate["kind"]]].append(payload)
