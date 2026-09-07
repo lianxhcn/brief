@@ -1,4 +1,4 @@
-"""网站专用结构化 myAPA；不改变微信或历史事实。"""
+"""共享已核验 bibliography resolver 与网站专用 myAPA formatter。"""
 import html
 import json
 import re
@@ -43,7 +43,7 @@ def format_myapa(m):
     links.append(external_link('Google', 'https://scholar.google.com/scholar?q=' + quote(m['title'], safe='')))
     return '<p class="myapa">' + html.escape(text) + ' ' + ', '.join(links) + '</p>'
 
-def website_citation(item):
+def bibliography_metadata(item):
     path = Path(__file__).resolve().parents[1] / 'config/website-citations.json'
     metadata = item.get('bibliography') or json.loads(path.read_text(encoding='utf-8')).get(item['id'])
     if metadata is None:
@@ -60,4 +60,8 @@ def website_citation(item):
         positions = [citation.find(author) for author in metadata['authors']]
         if any(p < 0 for p in positions) or positions != sorted(positions):
             raise ValueError('网站作者顺序与共享事实不一致')
-    return format_myapa(metadata)
+    return metadata
+
+
+def website_citation(item):
+    return format_myapa(bibliography_metadata(item))

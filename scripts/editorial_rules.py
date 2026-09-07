@@ -7,8 +7,9 @@ TOP_JOURNALS = {
     "American Economic Review", "The Quarterly Journal of Economics",
     "Journal of Political Economy", "Econometrica", "The Review of Economic Studies",
 }
-MAX_LINES = 56
-MAX_CHARS = 2200
+# 仅历史兼容使用；不约束当前 v2 的行数和字符数。
+LEGACY_V2_MAX_LINES = 56
+LEGACY_V2_MAX_CHARS = 2200
 
 
 def uses_v2(issue):
@@ -44,8 +45,12 @@ def check_editorial(issue):
         fields = ["retrieved_date"]
         urls = []
         if category == "papers":
-            fields += ["publication_status", "published_date", "citation", "pdf_version"]
-            urls += ["homepage_url", "pdf_url"]
+            fields += ["publication_status", "published_date", "citation"]
+            urls += ["homepage_url"]
+            # 无可靠 PDF 时允许省略；有 PDF 才要求版本和合法 URL。
+            if item.get("pdf_url"):
+                fields += ["pdf_version"]
+                urls += ["pdf_url"]
             if item.get("publication_status") not in {"published", "forthcoming", "working-paper"}:
                 errors.append(f"{label}: 论文发表状态不合法。")
         elif category == "tools":

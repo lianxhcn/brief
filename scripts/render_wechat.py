@@ -9,6 +9,7 @@ from pathlib import Path
 
 from site_config import detail_url, is_demo_issue
 from editorial_rules import uses_v2, core_items, check_editorial
+from wechat_format import item_lines, format_url
 
 SECTION_LABELS = {
     "lianxh_posts": "📌 推文",
@@ -35,7 +36,7 @@ def title_line(issue: dict) -> str:
     date_text = issue["date"].replace("-", ".")
     demo = " · DEMO" if is_demo_issue(issue) else ""
     if uses_v2(issue):
-        return f"📰 连享会 · 快讯 | {date_text}"
+        return f"📙 连享会 · 快讯 | {date_text}{demo}"
     return f"连享会快讯 · {date_text}{demo}"
 
 
@@ -58,30 +59,12 @@ def render_daily_v2(issue: dict) -> str:
     errors = check_editorial(issue)
     if errors:
         raise ValueError("\n".join(errors))
-    lines = [title_line(issue), ""]
-    labels = {"papers": "论文", "tools": "软件", "lianxh_posts": "推文",
-              "research_resources": "资源", "conference_calls": "会议征稿"}
+    blocks = [title_line(issue)]
     for number, (category, item) in enumerate(core_items(issue), 1):
-        lines.append(f"{number:02d}｜{labels[category]} · {item['title']}")
-        lines.append(f"提要：{item['wechat_summary']}")
-        if category == "papers":
-            # 提要、完整引文分别独占一行；PDF 版本不可省略。
-            lines.append(f"引文：{item['citation']}")
-            lines.append("论文主页")
-            add_url(lines, item["homepage_url"])
-            lines.append(f"PDF ({item['pdf_version']})")
-            add_url(lines, item["pdf_url"])
-        elif category == "tools":
-            lines.append(f"版本：{item['ecosystem']} / {item['name']} {item['version']}；发布：{item['release_date']}")
-            add_url(lines, item["url"])
-        elif category == "conference_calls":
-            lines.append(f"截止：{item['deadline']}")
-            add_url(lines, item["official_url"])
-        else:
-            add_url(lines, item["url"])
-    lines.append("本期详版")
-    add_url(lines, detail_url(issue))
-    return "\n".join(lines) + "\n"
+        blocks.append("\n".join(item_lines(category, item, number)))
+    blocks.append("——\n" + format_url("🌐 更多内容", detail_url(issue)))
+    return "\n\n".join(blocks) + "\n"
+
 
 
 def render_daily(issue: dict) -> str:

@@ -59,3 +59,18 @@ R03 完成后，用户新增一次推送及 GitHub Pages 发布授权，按 A-02
 用户对线上版本 f99c579 确认“网页端已经核查，没有问题”。I-09-01、I-09-02、I-09-03 更新为 resolved / user accepted，Task 09 网站侧关闭。当前状态以本记录及 [D-20260906-06](../decision-log.md) 为准；此前 pending 状态为历史快照。
 
 保留已明确排除的未来事项：邮件订阅/RSS、公开课/招聘稳定识别等，不计为本次已实现。Task 10 的 I-10-01 至 I-10-03、Task 11 的 I-11-01 至 I-11-02 仍 open；A-02 不解除。用户未提供逐项搜索明细，证据颗粒度见 [发布后搜索清单](task-09-post-deploy-search-checklist.md)，不据此重新阻塞已确认的网站验收。
+
+
+## Task 10 本地验收记录 (2026-09-07)
+
+用户按 D-20260907-01 裁定 C-10 条件来源和防重复，解除本任务首次 BLOCKED；C-09 会议地域与动态配额规则同时落盘。未发现新的实质 HARD 冲突。
+
+| ID | 当前状态 | 证据及边界 |
+|---|---|---|
+| I-10-01 | resolved / user accepted | 分类标题、结构化短引文、URL 空格和数量、紧凑条目、唯一 CTA；真实输入隔离预览通过 |
+| I-10-02 | resolved / user accepted | 当前 v2 独立校验；24 种格式变异及额外边界反例；旧限制仅用于双指纹绑定的历史兼容 |
+| I-10-03 | resolved / user accepted | 已有 core 新推文优先；3–5 条动态构成；会议可为 0；短引文主标题保留 |
+
+证据见 [Task 10 报告](task-10-result.md)：52 项单元测试、网站构建、29 项本地浏览器检查和 4 份历史期次校验通过。网站 myAPA 字节级回归通过，validate_page 保持，正式事实与历史 TXT 未改。
+
+2026-09-07 用户已明确完成人工验收并确认 PASS，Task 10 为 accepted，以上三项更新为 user accepted，依据 [D-20260907-02](../decision-log.md)。新推文 discovery、是否已推送、地域 / 重要性选稿、最终白名单和端到端发布前编排仍归 Task 11；I-11-01/02 保持 open。用户明确要求 A-02 暂不解除。Task 09 的 user accepted 记录不变，本次仅授权 Task 10 本地 checkpoint，不 push / publish。

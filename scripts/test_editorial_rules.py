@@ -12,7 +12,12 @@ def fixture():
                  publication_status="published", published_date="2026-08",
                  citation="Author (2026). Paper. AER.", doi_url="https://doi.org/10.1/test",
                  homepage_url="https://example.org/paper", pdf_url="https://example.org/paper.pdf",
-                 pdf_version="作者稿")
+                 pdf_version="作者稿", bibliography=dict(
+                     authors=["Author, A."], year=2026, title="Paper",
+                     source="American Economic Review", publication_status="published",
+                     pdf=dict(url="https://example.org/paper.pdf", public_access=True,
+                              source_url="https://example.org/paper", retrieved_date="2026-09-05",
+                              version="作者稿")))
     tool = dict(common, id="tool-one", ecosystem="R", name="tool", version="1.0",
                 release_date="2026-08-21", source_url="https://example.org/tool",
                 url="https://example.org/tool")
@@ -24,12 +29,12 @@ class EditorialTests(unittest.TestCase):
         issue = fixture()
         self.assertEqual(check_editorial(issue), [])
         lines = render_daily(issue).splitlines()
-        self.assertEqual(lines[0], "📰 连享会 · 快讯 | 2026.09.05")
-        self.assertIn("提要：提要测试", lines)
+        self.assertEqual(lines[0], "📙 连享会 · 快讯 | 2026.09.05")
+        self.assertIn("提要测试", lines)
         self.assertIn("引文：Author (2026). Paper. AER.", lines)
 
     def test_missing_formal_software_pdf(self):
-        for category, field in [("papers", "publication_status"), ("tools", "version"), ("papers", "pdf_url")]:
+        for category, field in [("papers", "publication_status"), ("tools", "version"), ("papers", "homepage_url")]:
             issue = fixture()
             del issue[category][0][field]
             self.assertTrue(check_editorial(issue))

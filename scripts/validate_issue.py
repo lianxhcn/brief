@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 from datetime import date
@@ -11,7 +12,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from site_config import date_compact, detail_url, is_demo_issue
-from editorial_rules import uses_v2, check_editorial, MAX_LINES, MAX_CHARS
+from editorial_rules import uses_v2, check_editorial, LEGACY_V2_MAX_LINES, LEGACY_V2_MAX_CHARS
 from render_wechat import title_line
 
 DAILY_CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources")
@@ -104,7 +105,7 @@ def validate_item(item: dict, category: str, source: Path, errors: list[str]) ->
     for key in ("title", "page_note"):
         if not nonempty(item.get(key)):
             errors.append(f"{label}: 缺少非空 {key}")
-    if item.get("priority") == "core" and not nonempty(item.get("wechat_summary")):
+    if item.get("priority") == "core" and category != "conference_calls" and not nonempty(item.get("wechat_summary")):
         errors.append(f"{label}: core 条目缺少非空 wechat_summary")
     url = item_url(item, category)
     if not valid_url(url):
@@ -237,7 +238,7 @@ def expected_wechat_paths(issue: dict, wechat_dir: Path) -> list[Path]:
     return [wechat_dir / f"{issue['date']}.txt"]
 
 
-def validate_text_file(path: Path, expected_title: str, expected_urls: set[str], issue: dict, errors: list[str]) -> None:
+def validate_legacy_text_file(path: Path, expected_title: str, expected_urls: set[str], issue: dict, errors: list[str]) -> None:
     if not path.exists():
         errors.append(f"{path}: 缺少微信群文本")
         return
@@ -247,8 +248,8 @@ def validate_text_file(path: Path, expected_title: str, expected_urls: set[str],
         errors.append(f"{path}: 标题格式不符合要求")
     if is_demo_issue(issue) and "DEMO" not in (lines[0] if lines else ""):
         errors.append(f"{path}: DEMO 标题未显著标明")
-    line_limit = MAX_LINES if uses_v2(issue) else 28
-    char_limit = MAX_CHARS if uses_v2(issue) else 1200
+    line_limit = LEGACY_V2_MAX_LINES if uses_v2(issue) else 28
+    char_limit = LEGACY_V2_MAX_CHARS if uses_v2(issue) else 1200
     if len(lines) > line_limit:
         errors.append(f"{path}: 共 {len(lines)} 行，超过 {line_limit} 行")
     if len(text) > char_limit:
@@ -288,7 +289,98 @@ def validate_text_file(path: Path, expected_title: str, expected_urls: set[str],
         errors.append(f"{path}: 缺少唯一的本期详版收束链接")
 
 
-def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Path]:
+def validate_text_file(path: Path, expected_title: str, expected_urls: set[str], issue: dict, errors: list[str]) -> None:
+    """新 v2 的结构和逐字段校验；不调用 renderer，不继承历史长度限制。"""
+    from editorial_rules import core_items
+    from collections import Counter
+    from wechat_format import item_lines, reader_links, format_url, valid_url_line, URL_TOKEN
+    if not uses_v2(issue):
+        return validate_legacy_text_file(path, expected_title, expected_urls, issue, errors)
+    errors.extend(f"{path}: {error}" for error in check_editorial(issue))
+    if not path.exists():
+        errors.append(f"{path}: 缺少微信群文本")
+        return
+    text = path.read_text(encoding="utf-8")
+    def fail(message):
+        errors.append(f"{path}: {message}")
+    # CRLF 经 read_text 标准化；行尾 U+0020 不作裁剪。
+    if not text.endswith("\n") or "\n\n\n" in text:
+        fail("结尾换行或连续空行不合规")
+    blocks = text.removesuffix("\n").split("\n\n")
+    entries = core_items(issue)
+    if not blocks or blocks[0] != title_line(issue):
+        fail("整期标题不精确")
+    if len(blocks) != len(entries) + 2:
+        fail("条目数量或条内 / 条间空行不合规")
+    ids = [item.get("id") for _, item in entries]
+    if len(set(ids)) != len(ids):
+        fail("core id 重复")
+    for number, (category, item) in enumerate(entries, 1):
+        try:
+            expected = item_lines(category, item, number)
+        except (KeyError, TypeError, ValueError) as exc:
+            fail(f"条目 metadata 无法安全格式化：{exc}")
+            continue
+        actual = blocks[number].splitlines() if number < len(blocks) - 1 else []
+        # 精确字段核对同时保证连续序号、类型、来源、摘要与引文、URL 数量及顺序。
+        if actual != expected:
+            fail(f"core {number:02d} 的标题、摘要、短引文、字段或 reader-facing URL 不符合输入")
+        required_links = [url for _, url in reader_links(category, item)]
+        actual_links = URL_TOKEN.findall("\n".join(actual))
+        maximum = 2 if category == "papers" else 1
+        if len(actual_links) > maximum or Counter(actual_links) != Counter(required_links):
+            fail(f"core {number:02d} 的 URL 数量或允许集合不符合类型规则")
+    cta = "——\n" + format_url("🌐 更多内容", detail_url(issue))
+    if not blocks or blocks[-1] != cta or text.count("——") != 1 or text.count("🌐 更多内容") != 1:
+        fail("分隔线 / CTA 必须唯一且本期 URL 精确")
+    for phrase in ("提要：", "摘要：", "简介：", "本期详版", "今日详情", "完整内容", "查看详情", "网页版"):
+        if phrase in text:
+            fail(f"禁止旧格式或前缀：{phrase}")
+    if MARKDOWN_LINK_RE.search(text) or re.search(r"<[/!]?[A-Za-z][^>]*>", text):
+        fail("不得使用 Markdown link 或 HTML")
+    for line in text.splitlines():
+        if ("https://" in line or "http://" in line) and not valid_url_line(line):
+            fail("URL 必须在有标签的行内，左右各恰一个 U+0020，不能紧贴标点")
+    # 补充独立泄漏检查；包括扩展论文主页、PDF、复现链接及裸 DOI。
+    for _, item in all_items(issue):
+        if item.get("priority") != "extended":
+            continue
+        values = [item.get("title")]
+        values += [v for k, v in item.items() if k.endswith("url") or k == "doi"]
+        if item.get("doi_url"):
+            values.append(item["doi_url"].removeprefix("https://doi.org/"))
+        if any(isinstance(v, str) and v and v in text for v in values):
+            fail("extended 标题、URL 或 DOI 泄漏")
+    # 已核验课程 URL 来自同一公开配置，不根据标题猜测课程实体。
+    promotions = json.loads((Path(__file__).resolve().parents[1] / "config/promotions.json").read_text(encoding="utf-8"))
+    course_urls = {COURSE_URL, promotions.get("course_source"), promotions.get("course_hub")}
+    for course in promotions.get("approved_courses", []):
+        course_urls.update((course.get("url"), course.get("source_url"), course.get("poster")))
+        course_urls.update(link.get("url") for link in course.get("links", []))
+    if any(url and url in text for url in course_urls) or re.search(r"课程推广|课程报名|报名课程|最新课程", text):
+        fail("课程推广不得进入微信正文")
+    # 分类图标仅允许出现在格式化标题 / CTA；不允许摘要带任意 Emoji。
+    for line in text.splitlines():
+        body = line.split(' ', 1)[1] if line.startswith(('📙 ', '✍️ ', '📰 ', '📦 ', '📅 ', '🌐 ')) else line
+        if re.search(r"[\U0001F000-\U0001FAFF\u2600-\u27BF]", body):
+            fail("非法或额外 Emoji")
+
+
+# Task 09 checkpoint 51823d9 的已发布旧 v2 证据。只识别不可变历史，不能按日期猜兼容。
+# 同时绑定 issue 全部事实和 TXT 内容；改动任一字节内容就必须走当前 v2 校验。
+HISTORICAL_V2 = {'2026-09-05': ('ccb25691ea7d1d68e2eafe90203559066e30e1b571bd1d736ea94059ddcdc30e', '5778807f3ea86acf81dc3e8b85b71e265eddb3b38a585173f94a821b86663c11')}
+
+
+def is_frozen_legacy(issue, path):
+    expected = HISTORICAL_V2.get(issue.get('date'))
+    if not expected or not path.is_file():
+        return False
+    facts = json.dumps(issue, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
+    text = path.read_text(encoding='utf-8').encode('utf-8')
+    return (hashlib.sha256(facts).hexdigest(), hashlib.sha256(text).hexdigest()) == expected
+
+
+def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str], *, legacy: bool = False) -> list[Path]:
     paths = expected_wechat_paths(issue, wechat_dir)
     actual = sorted(wechat_dir.glob(f"{issue['date']}*.txt"))
     if set(actual) != set(paths):
@@ -298,7 +390,15 @@ def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str]) -> list[Pa
     title = title_line(issue)
     urls = core_urls(issue)
     for path in paths:
-        validate_text_file(path, title, urls, issue, errors)
+        if legacy and uses_v2(issue) and not is_frozen_legacy(issue, path):
+            errors.append(f"{path}: legacy 选项仅允许绑定的不可变历史，不可用于新 v2")
+            continue
+        if legacy or not uses_v2(issue):
+            # 历史兼容是显式选择，不是当前 v2 canonical rule，也不自动降级。
+            old_title = f"📰 连享会 · 快讯 | {date_text}" if uses_v2(issue) else title
+            validate_legacy_text_file(path, old_title, urls, issue, errors)
+        else:
+            validate_text_file(path, title, urls, issue, errors)
     return paths
 
 
@@ -355,6 +455,7 @@ def main() -> int:
     parser.add_argument("--history-dir", required=True, type=Path, help="历史 JSON 所在目录")
     parser.add_argument("--wechat-dir", required=True, type=Path, help="微信群文本目录")
     parser.add_argument("--issues-dir", required=True, type=Path, help="日期页 QMD 根目录")
+    parser.add_argument("--legacy-wechat", action="store_true", help="仅显式核查历史微信产物；不代表当前 v2 合规")
     args = parser.parse_args()
     errors: list[str] = []
     issue = read_json(args.input, errors)
@@ -365,7 +466,11 @@ def main() -> int:
         if isinstance(issue.get("date"), str) and isinstance(issue.get("issue_type"), str) and isinstance(issue.get("status"), str):
             validate_history(issue, args.input, args.history_dir, errors)
             page = validate_page(issue, args.issues_dir, errors)
-            paths = validate_wechat(issue, args.wechat_dir, errors)
+            # 维持既有网站构建命令：仅仓库历史目录中、双指纹完全匹配的旧产物走兼容。
+            historical_path = args.wechat_dir / f"{issue['date']}.txt"
+            archive_dir = Path(__file__).resolve().parents[1] / "publish/wechat"
+            frozen = args.wechat_dir.resolve() == archive_dir.resolve() and is_frozen_legacy(issue, historical_path)
+            paths = validate_wechat(issue, args.wechat_dir, errors, legacy=args.legacy_wechat or frozen)
             validate_public_text(issue, page, paths, errors)
     if errors:
         print("FAIL")

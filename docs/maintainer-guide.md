@@ -86,3 +86,26 @@ R03 本地通过后仍需用户最终验收与单独 Git 授权，不自动 comm
 ## 手机验收后的展示补充 (2026-09-06)
 
 课程列表统一直接显示“最新课程”，不再使用 details/summary；桌面仍移入右栏，窄屏仍回到文末。标题深蓝加粗。此变更只适用于课程组件，本页目录的默认折叠规则不变。栏目元数据名称缩短为“软件”“方法”，字段名深蓝加粗，详情入口统一为“查看本期”，保留原有日期 URL 与条目锚点。标签链接需后续独立设计聚合入口。
+
+
+## Task 10 微信维护 (2026-09-07)
+
+当前 v2 使用 wechat_format.py 字段 formatter，render_wechat.py 组装紧凑纯文本；validate_issue.py 对标题、条目、摘要、短引文、URL 数量和空格、extended 泄漏、课程推广及 CTA 独立检查。历史说明中的旧微信格式不再是当前规则；准确状态见 [Task 10 报告](tasks/task-10-result.md)。
+
+标题来源仅使用 journal / ecosystem / source_name 结构化字段。已知期刊显示名通过固定映射缩写；只移除已知来源的精确重复前缀，不从 URL 或自然语言标题推断来源。链接 label 可按已知 hostname 映射 CRAN / PyPI / GitHub，未知使用主页；这不用于标题来源。
+
+网站与微信共用 website_citations.py 的 bibliography_metadata()，网站 format_myapa() 保持。微信作者仅接受已有 `姓, 首字母.` 的有序作者数组，无法安全缩写时失败；禁止拆分 legacy citation。完整标题默认保留，只有独立 main_title 字段存在且与完整题名一致时才省略副标题。PDF 需要同一 metadata 中的公开访问、来源和核验日期证据，无可靠 PDF 时省略，不重新声称已联网核验。
+
+人工预览命令 (不写历史 publish 目录)：
+
+```powershell
+& $env:PYTHON_EXE scripts/render_wechat.py --input content/issues/2026-09-05.json --output-dir ops-local/task10/preview
+& $env:PYTHON_EXE scripts/validate_issue.py --input content/issues/2026-09-05.json --history-dir content/issues --wechat-dir ops-local/task10/preview --issues-dir .
+& $env:PYTHON_EXE -m unittest discover -s scripts -p 'test_*.py' -v
+```
+
+保留 URL 行尾真实半角空格，编辑器不得自动清除。不要把隔离预览复制覆盖已发布历史 TXT，也不要用新的正式日期测试。完整单测中的搜索测试需要已有本地 Quarto 构建产物。
+
+旧 2026-09-05 v2 TXT 使用冻结 issue 和 TXT 双 SHA-256 指纹兼容；仅当两份内容均匹配且位于仓库历史目录时，CLI 保持既有网站构建命令的行为。`--legacy-wechat` 也必须匹配冻结指纹，不能用于新 v2，不按旧标题自动回退。摘要、事实或 TXT 内容变化均不能继续使用该历史豁免。指纹以 UTF-8、标准化换行计算，issue 按排序 JSON 序列化；核验基线为 51823d9。更早 legacy / DEMO 保留独立规则。此为历史读取兼容，不是 Task 11 发布审批状态机。
+
+当前 Task 10 已于 2026-09-07 获用户人工验收，I-10-01/02/03 为 resolved / user accepted，见 D-20260907-02。Task 11 保持 open，用户明确要求 A-02 暂不解除；本次仅授权 Task 10 本地 checkpoint，不包含新正式期次、push 或 publish。
