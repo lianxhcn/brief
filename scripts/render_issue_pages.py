@@ -29,10 +29,10 @@ def item_links(item: dict, category: str) -> list[str]:
     return [external_link(label or ('阅读全文' if category == 'lianxh_posts' else '官方文档'), url)]
 
 
-def render_item(item: dict, category: str, public: bool = True) -> list[str]:
+def render_item(item: dict, category: str, public: bool = True, preview: bool = False) -> list[str]:
     lines = ['::: {.brief-entry}', '', f"#### {escape(item['title'])} {{#{item['id']}}}", '']
     if category == 'papers':
-        lines.extend([website_citation(item) if public else escape(item['citation']), ''])
+        lines.extend([website_citation(item) if (public or preview) else escape(item['citation']), ''])
     if category == 'conference_calls':
         lines.extend([f"**投稿截止：{escape(item['deadline'])}**", ''])
     lines.extend([escape(public_summary(item) if public else item['page_note']), ''])
@@ -50,7 +50,7 @@ def render_section(issue: dict, priority: str, heading: str) -> list[str]:
         if items:
             lines.extend([f'### {label}', ''])
             for item in items:
-                lines.extend(render_item(item, category, is_public_issue(issue)))
+                lines.extend(render_item(item, category, is_public_issue(issue), bool(issue.get("isolated_trial"))))
     return lines
 
 

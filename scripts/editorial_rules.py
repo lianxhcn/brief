@@ -32,14 +32,7 @@ def check_editorial(issue):
     entries = core_items(issue)
     if not 3 <= len(entries) <= 5:
         errors.append("日常短版需要 3–5 条 core 信息，会议计入总数。")
-    formal = [item for category, item in entries if category == "papers"
-              and item.get("publication_status") in {"published", "forthcoming"}
-              and item.get("journal") in TOP_JOURNALS]
-    if not 1 <= len(formal) <= 2:
-        errors.append("短版需要 1–2 篇白名单顶刊正式发表或 forthcoming 论文。")
-    software = [item for category, item in entries if category == "tools"]
-    if not 1 <= len(software) <= 2:
-        errors.append("短版需要 1–2 条 Stata、R 或 Python 软件新发布/更新信息。")
+    # C-09：论文与软件数量只作编辑参考，不设置分类配额。
     for category, item in entries:
         label = item.get("id", "<unknown>")
         fields = ["retrieved_date"]

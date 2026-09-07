@@ -29,7 +29,10 @@ def format_myapa(m):
         source += ', ' + str(m['pages'])
     if m.get('publication_status') == 'forthcoming':
         source += ' (forthcoming)'
-    text = f"{names.rstrip('.')}. ({m['year']}). {m['title'].rstrip('.')}. {source.rstrip('.')}."
+    title = m['title'].rstrip()
+    # 保留真实题名及其结尾标点；没有句末标点时才补句号。
+    title_end = title if title.endswith(('.', '?', '!', '。', '？', '！')) else title + '.'
+    text = f"{names.rstrip('.')}. ({m['year']}). {title_end} {source.rstrip('.')}."
     links = []
     url = safe_url(m.get('doi_url')) or safe_url(m.get('homepage_url'))
     if url:

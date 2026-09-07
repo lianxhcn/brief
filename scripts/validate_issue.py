@@ -65,7 +65,7 @@ def valid_url(value: object) -> bool:
 
 def item_url(item: dict, category: str) -> str | None:
     if category == "papers":
-        return item.get("doi_url")
+        return item.get("doi_url") or item.get("homepage_url")
     if category == "conference_calls":
         return item.get("official_url")
     return item.get("url")
@@ -113,7 +113,7 @@ def validate_item(item: dict, category: str, source: Path, errors: list[str]) ->
     if category == "papers":
         if not nonempty(item.get("citation")):
             errors.append(f"{label}: 论文缺少 citation")
-        if not isinstance(item.get("doi_url"), str) or not re.fullmatch(r"https://doi\.org/\S+", item["doi_url"]):
+        if item.get("doi_url") and not re.fullmatch(r"https://doi\.org/\S+", str(item["doi_url"])):
             errors.append(f"{label}: doi_url 必须是 https://doi.org/ URL")
         if item.get("replication_url") and not valid_url(item["replication_url"]):
             errors.append(f"{label}: replication_url 格式不合法")
@@ -134,8 +134,11 @@ def validate_item(item: dict, category: str, source: Path, errors: list[str]) ->
     validate_catalog(item, category, source, errors)
 
 
-def validate_schema(issue: dict, source: Path, errors: list[str]) -> None:
+def validate_schema(issue: dict, source: Path, errors: list[str], *, as_of=None, history=()) -> None:
     errors.extend(f"{source}: {error}" for error in check_editorial(issue))
+    if as_of is not None:
+        from trial_selection import selection_errors
+        errors.extend(selection_errors(issue, history, as_of))
     required = ("issue_id", "date", "status", "issue_type", "title", "lianxh_posts", "papers", "tools")
     for key in required:
         if key not in issue:
@@ -191,6 +194,18 @@ def dois(issue: dict) -> set[str]:
 
 
 def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[str]) -> None:
+    if issue.get("isolated_trial"):
+        from trial_selection import selection_errors
+        # 隔离校验消费外部已分事件的历史，不再把期次日期当所有渠道日期。
+        try:
+            history = json.loads((history_dir / "history.json").read_text(encoding="utf-8"))
+            if not isinstance(history, list) or any("events" not in row for row in history):
+                raise ValueError("历史缺事件语义")
+        except (OSError, ValueError) as exc:
+            errors.append(f"隔离历史需显式 history.json：{exc}")
+            return
+        errors.extend(selection_errors(issue, history, issue["as_of"]))
+        return
     try:
         current_date = date.fromisoformat(issue["date"])
     except (KeyError, ValueError):
@@ -425,7 +440,7 @@ def validate_page(issue: dict, issues_dir: Path, errors: list[str]) -> Path:
     for category, item in all_items(issue):
         if f"{{#{item.get('id')}}}" not in text:
             errors.append(f"{path}: 缺少条目稳定锚点 {item.get('id')}")
-        if category == "papers" and public:
+        if category == "papers" and (public or issue.get("isolated_trial")):
             if website_citation(item) not in text:
                 errors.append(f"{path}: myAPA 与已核验元数据不一致")
         else:

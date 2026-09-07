@@ -39,10 +39,10 @@ class EditorialTests(unittest.TestCase):
             del issue[category][0][field]
             self.assertTrue(check_editorial(issue))
 
-    def test_working_paper_does_not_count_as_formal(self):
+    def test_working_paper_is_legal_composition(self):
         issue = fixture()
         issue["papers"][0]["publication_status"] = "working-paper"
-        self.assertTrue(check_editorial(issue))
+        self.assertEqual(check_editorial(issue), [])
 
     def test_too_few_or_many(self):
         issue = fixture()

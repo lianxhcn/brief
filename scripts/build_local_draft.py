@@ -51,7 +51,7 @@ def check_ledger(items: list[dict]):
             raise ValueError(f"{item.get('id', '<unknown>')} 缺少字段：{', '.join(missing)}")
 
 
-def daily_issue(day: str, items: list[dict]) -> dict:
+def assemble_daily_issue(day: str, items: list[dict]) -> dict:
     # 新台账使用 payload 保存完整条目，支持论文、软件与可选会议混排。
     from editorial_rules import check_editorial
     mapping = {"paper": "papers", "tool": "tools", "post": "lianxh_posts",
@@ -66,7 +66,16 @@ def daily_issue(day: str, items: list[dict]) -> dict:
         payload = dict(candidate["payload"])
         payload["priority"] = candidate["core_or_extended"]
         issue[mapping[candidate["kind"]]].append(payload)
+    return issue
+
+
+def daily_issue(day: str, items: list[dict], *, as_of=None, history=()) -> dict:
+    from editorial_rules import check_editorial
+    issue = assemble_daily_issue(day, items)
     errors = check_editorial(issue)
+    if as_of is not None:
+        from trial_selection import selection_errors
+        errors += selection_errors(issue, history, as_of)
     if errors:
         raise ValueError("\n".join(errors))
     return issue
@@ -120,6 +129,7 @@ def main() -> int:
     parser.add_argument("--mode", choices=("daily", "conference"), required=True)
     parser.add_argument("--ledger", type=Path)
     args = parser.parse_args()
+    raise RuntimeError("A-02 frozen：旧入口有生产状态回写；本轮请使用 isolated_trial.py 的显式外部快照入口。")
     day = date.fromisoformat(args.date)
     registry = load_json(ROOT / "config/source-registry.yml")
     if not registry.get("conference_sources") or not registry.get("journal_sources"):
