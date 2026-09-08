@@ -139,6 +139,9 @@ def validate_schema(issue: dict, source: Path, errors: list[str], *, as_of=None,
     if as_of is not None:
         from trial_selection import selection_errors
         errors.extend(selection_errors(issue, history, as_of))
+    if issue.get('website_version') == 3:
+        from website_rules import check_website
+        errors.extend(check_website(issue, Path(__file__).resolve().parents[1]))
     required = ("issue_id", "date", "status", "issue_type", "title", "lianxh_posts", "papers", "tools")
     for key in required:
         if key not in issue:
@@ -168,10 +171,10 @@ def validate_schema(issue: dict, source: Path, errors: list[str], *, as_of=None,
         extended = sum(item.get("priority") == "extended" for _, item in entries)
         if core > 5:
             errors.append(f"{source}: 日常期次 core 条目最多 5 条，当前 {core} 条")
-        if extended > 5:
-            errors.append(f"{source}: 日常期次 extended 条目最多 5 条，当前 {extended} 条")
-        if len(entries) > 10:
-            errors.append(f"{source}: 日常期次总条目最多 10 条，当前 {len(entries)} 条")
+        if extended > 10:
+            errors.append(f"{source}: 日常期次 extended 条目最多 10 条，当前 {extended} 条")
+        if len(entries) > 15:
+            errors.append(f"{source}: 日常期次总条目最多 15 条，当前 {len(entries)} 条")
     elif issue.get("issue_type") == "conference-bulletin":
         calls = issue.get("conference_calls", [])
         if not 2 <= len(calls) <= 3:
@@ -222,14 +225,20 @@ def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[
             continue
         if abs((current_date - other_date).days) > 14:
             continue
-        for label, current, historical in (
-            ("DOI", dois(issue), dois(other)),
-            ("标题", titles(issue), titles(other)),
-            ("工具", tool_names(issue), tool_names(other)),
-        ):
-            overlap = current & historical
-            if overlap:
-                errors.append(f"{path}: 14 天内出现相同{label}：{', '.join(sorted(overlap))}")
+        from trial_selection import identities
+        for category, item in all_items(issue):
+            for _, previous in all_items(other):
+                if not identities(item) & identities(previous): continue
+                # 会议提醒或重要更正须额外验证官方变更及前次关联。
+                change = item.get('review', {}).get('change_type')
+                special = change in {'correction','retraction','results-fix','postponement','cancellation'} or item.get('reminder')
+                if special and other_date < current_date:
+                    from trial_selection import assess
+                    record = dict(previous, events=[dict(kind='website',date=other['date'],evidence=str(path))])
+                    failures = assess(item,category,[record],issue.get('as_of', issue['date']+'T23:59:59+08:00'))
+                    errors.extend(f'{path}: ' + e for e in failures)
+                elif not special:
+                    errors.append(f"{path}: 14 天内出现相同成果：{item['id']} / {previous['id']}")
 
 
 def core_urls(issue: dict) -> set[str]:
@@ -396,6 +405,25 @@ def is_frozen_legacy(issue, path):
 
 
 def validate_wechat(issue: dict, wechat_dir: Path, errors: list[str], *, legacy: bool = False) -> list[Path]:
+    if issue.get('release_snapshot'):
+        root = Path(__file__).resolve().parents[1]
+        snapshot = (root / issue['release_snapshot']).resolve()
+        if not snapshot.is_relative_to((root / 'content/releases').resolve()):
+            errors.append('发布快照越界'); return []
+        try:
+            manifest = json.loads((snapshot / 'manifest.json').read_text(encoding='utf-8'))
+            for name in ('issue.json', 'wechat.txt'):
+                if hashlib.sha256((snapshot / name).read_bytes()).hexdigest() != manifest[name]:
+                    raise ValueError('原发布证据指纹变化')
+            original = json.loads((snapshot / 'issue.json').read_text(encoding='utf-8'))
+            if original.get('release_snapshot') or original['date'] != issue['date']:
+                raise ValueError('原始期次关联错误')
+            actual = wechat_dir / (issue['date'] + '.txt')
+            if actual.read_text(encoding='utf-8') != (snapshot / 'wechat.txt').read_text(encoding='utf-8'):
+                raise ValueError('已发布短版发生改写')
+            return validate_wechat(original, wechat_dir, errors, legacy=is_frozen_legacy(original, actual))
+        except (OSError, ValueError, KeyError) as exc:
+            errors.append('发布快照不可验证：' + str(exc)); return []
     paths = expected_wechat_paths(issue, wechat_dir)
     actual = sorted(wechat_dir.glob(f"{issue['date']}*.txt"))
     if set(actual) != set(paths):
@@ -434,7 +462,7 @@ def validate_page(issue: dict, issues_dir: Path, errors: list[str]) -> Path:
                 errors.append(f"{path}: 公开正文含内部文案 {phrase}")
         if render_promotion() not in text:
             errors.append(f"{path}: 推广组件与配置不一致")
-    for priority, heading in (("core", "本期重点"), ("extended", "延伸信息")):
+    for priority, heading in (("core", "本期重点"), ("extended", "延伸阅读")):
         if any(i.get("priority") == priority for _, i in all_items(issue)) and f"## {heading}" not in text:
             errors.append(f"{path}: 缺少 {heading}")
     for category, item in all_items(issue):

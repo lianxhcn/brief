@@ -1,0 +1,29 @@
+{
+  "decision": "D-20260908-02",
+  "retrieved_date": "2026-09-08",
+  "release_status": "local-preview-awaiting-publication-decision",
+  "issues": {
+    "2026-09-05": {
+      "core": 3,
+      "extended": 9,
+      "original_snapshot": "content/releases/2026-09-05"
+    },
+    "2026-09-08": {
+      "core": 4,
+      "extended": 8,
+      "original_snapshot": "content/releases/2026-09-08"
+    }
+  },
+  "history_count": 48,
+  "source_policy": "官方摘要、SSC/RePEc 登记、Stata Journal 目录与主办方通知；arXiv PDF 由标识构造；不使用 SCI-HUB",
+  "removed_from_research": [
+    "https://www.lianxh.cn/details/1900.html"
+  ],
+  "coverage_limits": [
+    "本轮为针对性补录，未宣称穷尽全部来源。",
+    "9 月 5 日来源核验实际发生于 9 月 8 日，未倒填检索日。",
+    "Stata 命令未在本轮安装运行。",
+    "arXiv 仅阅读官方摘要，PDF 链接由规则生成。",
+    "原推文发送状态仍为 unknown，不因历史索引收录而改变。"
+  ]
+}

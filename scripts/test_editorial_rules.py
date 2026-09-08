@@ -10,10 +10,10 @@ def fixture():
                   page_note="说明", retrieved_date="2026-09-05")
     paper = dict(common, id="paper-one", journal="American Economic Review",
                  publication_status="published", published_date="2026-08",
-                 citation="Author (2026). Paper. AER.", doi_url="https://doi.org/10.1/test",
+                 citation="Author, A. (2026). Paper. AER.", doi_url="https://doi.org/10.1/test",
                  homepage_url="https://example.org/paper", pdf_url="https://example.org/paper.pdf",
                  pdf_version="作者稿", bibliography=dict(
-                     authors=["Author, A."], year=2026, title="Paper",
+                     authors=["Author, A."], year=2026, title="Paper", doi_url="https://doi.org/10.1/test",
                      source="American Economic Review", publication_status="published",
                      pdf=dict(url="https://example.org/paper.pdf", public_access=True,
                               source_url="https://example.org/paper", retrieved_date="2026-09-05",

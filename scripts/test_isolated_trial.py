@@ -68,7 +68,7 @@ class TrialTests(unittest.TestCase):
         for count in (0,1,2,6):
             issue=fixture(); issue.update(papers=[],tools=[],lianxh_posts=[dict(issue['lianxh_posts'][0],id=f'post-{i}') for i in range(count)])
             self.assertTrue(check_editorial(issue))
-        issue=fixture(); issue['research_resources']=[dict(issue['lianxh_posts'][0],priority='extended',id=f'e-{i}') for i in range(6)]
+        issue=fixture(); issue['research_resources']=[dict(issue['lianxh_posts'][0],priority='extended',id=f'e-{i}') for i in range(11)]
         errors=[]; validate_schema(issue,Path('fixture'),errors)
         self.assertTrue(any('extended' in e for e in errors))
 

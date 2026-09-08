@@ -14,7 +14,7 @@ from isolated_trial import Isolation, forbidden_paths, ROOT
 from render_issue_pages import render_item
 from trial_selection import evaluation, exact_date, identities, publication_events
 
-CATEGORIES = {'lianxh_posts': '连享会推文', 'papers': '论文阅读', 'tools': '已有软件条目'}
+CATEGORIES = {'lianxh_posts': '连享会推文', 'papers': '论文阅读', 'tools': '新命令与软件', 'conference_calls': '会议征稿'}
 
 def read(path):
     return json.loads(Path(path).read_text(encoding='utf-8'))

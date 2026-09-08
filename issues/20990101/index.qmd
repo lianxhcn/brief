@@ -1,78 +1,106 @@
 ---
+title: "DEMO：2099-01-01 日常快讯"
+body-classes: issue-page
+toc-depth: 3
 search: false
 sitemap: false
 header-includes: '<meta name="robots" content="noindex, nofollow">'
-title: "DEMO：2099-01-01 日常快讯"
 ---
 
-## 状态
-
-状态：**DEMO**；日期：2099-01-01。
-
-<div class="course-hub-callout" role="note" aria-label="连享会课程入口">
-  <p class="course-hub-callout__title">连享会课程</p>
-  <p class="course-hub-callout__text">浏览连享会的课程、专题与学习资料。</p>
-  <p class="course-hub-callout__action"><a href="https://www.lianxh.cn/KC.html" target="_blank" rel="noopener noreferrer">查看连享会课程与专题</a></p>
-</div>
+测试状态：DEMO
 
 ## 本期重点
 
-### 连享会新推文
+### 新推文
 
-### DEMO：连享会推文占位条目 {#demo-post-core}
+::: {.brief-entry}
+
+#### DEMO：连享会推文占位条目 {#demo-post-core}
 
 中性占位条目，不对应真实推文。
 
-资料链接：[https://example.com/demo/post-core](https://example.com/demo/post-core)
+标签：<a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：高维固定效应">高维固定效应</a>
 
-### 近期论文
+<a href="https://example.com/demo/post-core" target="_blank" rel="noopener noreferrer">阅读全文</a>
 
-### DEMO：论文占位条目 {#demo-paper-core}
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### DEMO：论文占位条目 {#demo-paper-core}
 
 DEMO citation only; this is not a real paper.
 
+<a href="https://doi.org/10.0000/demo.2099.101" target="_blank" rel="noopener noreferrer">Link</a>
+
 中性占位条目，不对应真实论文。
 
-DOI：[https://doi.org/10.0000/demo.2099.101](https://doi.org/10.0000/demo.2099.101)
+标签：<a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E8%B5%84%E6%96%99&amp;show-results=1" title="全站搜索：复现资料">复现资料</a>
 
-复现资料：[https://example.com/demo/paper-core-replication](https://example.com/demo/paper-core-replication)
+<a href="https://example.com/demo/paper-core-replication" target="_blank" rel="noopener noreferrer">复现资料</a>
 
-### 方法与工具
+:::
 
-### DEMO：Stata 工具占位条目 {#demo-tool-core}
+### 新方法
 
-生态：Stata；名称：demo causal workflow
+::: {.brief-entry}
+
+#### DEMO：Stata 工具占位条目 {#demo-tool-core}
 
 中性占位工具，不代表真实软件更新。
 
-资料链接：[https://example.com/demo/tool-core](https://example.com/demo/tool-core)
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：工作流">工作流</a>
 
-## 延伸信息
+<a href="https://example.com/demo/tool-core" target="_blank" rel="noopener noreferrer">官方文档</a>
 
-### 近期论文
+:::
 
-### DEMO：延伸论文占位条目 {#demo-paper-extended}
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### DEMO：延伸论文占位条目 {#demo-paper-extended}
 
 DEMO extended citation only; this is not a real paper.
 
+<a href="https://doi.org/10.0000/demo.2099.102" target="_blank" rel="noopener noreferrer">Link</a>
+
 仅在网页详版出现，用于验证延伸信息分区。
 
-DOI：[https://doi.org/10.0000/demo.2099.102](https://doi.org/10.0000/demo.2099.102)
+标签：<a class="tag-link" href="?q=%E5%BB%B6%E4%BC%B8%E9%98%85%E8%AF%BB&amp;show-results=1" title="全站搜索：延伸阅读">延伸阅读</a>
 
-### 方法与工具
 
-### DEMO：Python 延伸工具占位条目 {#demo-tool-extended}
 
-生态：Python；名称：demo research helper
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### DEMO：Python 延伸工具占位条目 {#demo-tool-extended}
 
 仅在网页详版出现，用于验证延伸工具。
 
-资料链接：[https://example.com/demo/tool-extended](https://example.com/demo/tool-extended)
+标签：<a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%BE%85%E5%8A%A9&amp;show-results=1" title="全站搜索：研究辅助">研究辅助</a>
 
-### 研究资源
+<a href="https://example.com/demo/tool-extended" target="_blank" rel="noopener noreferrer">官方文档</a>
 
-### DEMO：延伸研究资源占位条目 {#demo-resource-extended}
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### DEMO：延伸研究资源占位条目 {#demo-resource-extended}
 
 仅在网页详版出现，不对应真实资源推荐。
 
-资料链接：[https://example.com/demo/resource-extended](https://example.com/demo/resource-extended)
+标签：<a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%B5%84%E6%BA%90&amp;show-results=1" title="全站搜索：研究资源">研究资源</a>
+
+<a href="https://example.com/demo/resource-extended" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::

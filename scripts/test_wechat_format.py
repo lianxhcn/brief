@@ -33,6 +33,7 @@ def add(issue, category):
     for key in ('url', 'homepage_url', 'doi_url'):
         if item.get(key):
             item[key] += '-two'
+    if category == 'papers': item['bibliography']['doi_url'] = item['doi_url']
     issue[category].append(item)
 
 
@@ -105,6 +106,7 @@ class WechatTests(unittest.TestCase):
             m = paper['bibliography']
             m.update(publication_status=status, authors=['Alpha, A.', 'Beta, B.', 'Gamma, C.', 'Delta, D.'],
                      title='Main title: Subtitle', main_title='Main title')
+            paper['citation'] = '; '.join(m['authors']) + ' (2026). ' + m['title'] + '. AER.'
             self.assert_valid(issue)
             text = render_daily(issue)
             self.assertIn('引文：Alpha et al. (2026). Main title. AER', text)
@@ -209,7 +211,7 @@ class WechatTests(unittest.TestCase):
         self.assertTrue(self.validate(issue))
 
     def test_historical_fingerprint_cannot_mask_changes(self):
-        issue = json.loads((ROOT / 'content/issues/2026-09-05.json').read_text(encoding='utf-8'))
+        issue = json.loads((ROOT / 'content/releases/2026-09-05/issue.json').read_text(encoding='utf-8'))
         old = (ROOT / 'publish/wechat/2026-09-05.txt').read_text(encoding='utf-8')
         self.assertTrue(self.validate(issue, old + '改动', legacy=True))
         issue['title'] += '改动'
@@ -245,13 +247,17 @@ class WechatTests(unittest.TestCase):
         self.assertEqual(ledger, before)
 
     def test_real_preview_and_historical_opt_in(self):
-        issue = json.loads((ROOT / 'content/issues/2026-09-05.json').read_text(encoding='utf-8'))
-        self.assertEqual(len(core_items(issue)), 3)
-        self.assertEqual(self.validate(issue), [])
-        self.assertNotIn(issue['lianxh_posts'][0]['title'], render_daily(issue))
+        revised = json.loads((ROOT / 'content/issues/2026-09-05.json').read_text(encoding='utf-8'))
+        original = json.loads((ROOT / 'content/releases/2026-09-05/issue.json').read_text(encoding='utf-8'))
         old = (ROOT / 'publish/wechat/2026-09-05.txt').read_text(encoding='utf-8')
-        self.assertTrue(self.validate(issue, old))
-        self.assertEqual(self.validate(issue, old, legacy=True), [])
+        self.assertEqual(self.validate(revised, old), [])
+        self.assertEqual(self.validate(original, old, legacy=True), [])
+        self.assertTrue(self.validate(original, old))
+        revised.pop('release_snapshot')
+        self.assertEqual(self.validate(revised), [])
+        self.assertEqual(len(core_items(revised)), 3)
+        self.assertNotIn('details/1900', render_daily(revised))
+
 
 
 

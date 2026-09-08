@@ -18,9 +18,14 @@
         "software": [],
         "methods": [],
         "fields": [],
-        "tags": []
+        "tags": [
+          "遗漏变量",
+          "敏感性分析",
+          "regsensitivity"
+        ]
       },
-      "published_date": "2026-09-05"
+      "published_date": "2026-09-05",
+      "tag_origin": "title-editorial"
     },
     {
       "id": "post-1921",
@@ -36,9 +41,13 @@
         "software": [],
         "methods": [],
         "fields": [],
-        "tags": []
+        "tags": [
+          "Embedding",
+          "因果推断"
+        ]
       },
-      "published_date": "2026-09-06"
+      "published_date": "2026-09-06",
+      "tag_origin": "title-editorial"
     }
   ],
   "papers": [
@@ -72,10 +81,20 @@
         "title": "Which policy works, and where? Estimation and inference for state-level treatment effects in difference-in-differences",
         "source": "arXiv (working paper)",
         "publication_status": "working-paper",
-        "homepage_url": "https://arxiv.org/abs/2609.01467"
+        "homepage_url": "https://arxiv.org/abs/2609.01467",
+        "arxiv_id": "2609.01467",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.01467.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.01467",
+          "retrieved_date": "2026-09-08"
+        }
       },
       "arxiv_id": "2609.01467",
-      "priority": "core"
+      "priority": "core",
+      "pdf_url": "https://arxiv.org/pdf/2609.01467.pdf",
+      "pdf_version": "v1"
     },
     {
       "id": "arxiv-2609-05372",
@@ -106,15 +125,520 @@
         "title": "Does p-hacking mitigate or exacerbate the effects of publication bias?",
         "source": "arXiv (working paper)",
         "publication_status": "working-paper",
-        "homepage_url": "https://arxiv.org/abs/2609.05372"
+        "homepage_url": "https://arxiv.org/abs/2609.05372",
+        "arxiv_id": "2609.05372",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.05372.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.05372",
+          "retrieved_date": "2026-09-08"
+        }
       },
       "arxiv_id": "2609.05372",
-      "priority": "core"
+      "priority": "core",
+      "pdf_url": "https://arxiv.org/pdf/2609.05372.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-26522",
+      "title": "网络相关数据中的多参数联合推断",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-27",
+      "source_url": "https://arxiv.org/abs/2608.26522",
+      "homepage_url": "https://arxiv.org/abs/2608.26522",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Sasaki, Y.; Zheng, B. (2026). Inference for high-dimensional network data. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Sasaki, Y.",
+          "Zheng, B."
+        ],
+        "year": 2026,
+        "title": "Inference for high-dimensional network data",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.26522",
+        "arxiv_id": "2608.26522",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.26522.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.26522",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.26522",
+      "priority": "extended",
+      "page_note": "论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。",
+      "wechat_summary": "论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "网络数据",
+          "联合推断"
+        ],
+        "fields": [],
+        "tags": [
+          "网络数据",
+          "联合推断"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "pdf_url": "https://arxiv.org/pdf/2608.26522.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-27155",
+      "title": "非参数双向异质性：代理变量何时能区分潜在类型？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-27",
+      "source_url": "https://arxiv.org/abs/2608.27155",
+      "homepage_url": "https://arxiv.org/abs/2608.27155",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Freeman, H.; Kristensen, D. (2026). Nonparametric identification of two-way unobserved heterogeneity. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Freeman, H.",
+          "Kristensen, D."
+        ],
+        "year": 2026,
+        "title": "Nonparametric identification of two-way unobserved heterogeneity",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.27155",
+        "arxiv_id": "2608.27155",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.27155.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.27155",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.27155",
+      "priority": "extended",
+      "page_note": "论文用双变量回归函数的奇异值分解构造潜在类型的代理变量，研究这些代理是否能够一一对应于双向未观测异质性。在把产生相同条件响应的类型归为等价类后，作者进一步给出有限个主导特征函数实现识别的条件。重点是识别所需的单射性，不能将其理解为任意少量因子都能控制所有异质性。",
+      "wechat_summary": "论文用双变量回归函数的奇异值分解构造潜在类型的代理变量，研究这些代理是否能够一一对应于双向未观测异质性。在把产生相同条件响应的类型归为等价类后，作者进一步给出有限个主导特征函数实现识别的条件。重点是识别所需的单射性，不能将其理解为任意少量因子都能控制所有异质性。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "非参数识别",
+          "双向异质性"
+        ],
+        "fields": [],
+        "tags": [
+          "非参数识别",
+          "双向异质性"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "pdf_url": "https://arxiv.org/pdf/2608.27155.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-18057",
+      "title": "高维协变量下，实验分组能平衡到什么程度？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-19",
+      "source_url": "https://arxiv.org/abs/2608.18057",
+      "homepage_url": "https://arxiv.org/abs/2608.18057",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Cytrynbaum, M. (2026). The limits of experimental design: Covariate balance beyond low dimension. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Cytrynbaum, M."
+        ],
+        "year": 2026,
+        "title": "The limits of experimental design: Covariate balance beyond low dimension",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.18057",
+        "arxiv_id": "2608.18057",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.18057",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.18057.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.18057",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.18057",
+      "priority": "extended",
+      "page_note": "论文考察实验设计在有限样本中接近效率界的速度，说明协变量维数会限制对广泛平滑结果模型的统一平衡能力。作者随后针对复杂度受限的函数类设计分组方案，并讨论与匹配结合。启发是先明确需要平衡的结果模型结构，而非盲目增加分组时使用的协变量。",
+      "wechat_summary": "论文考察实验设计在有限样本中接近效率界的速度，说明协变量维数会限制对广泛平滑结果模型的统一平衡能力。作者随后针对复杂度受限的函数类设计分组方案，并讨论与匹配结合。启发是先明确需要平衡的结果模型结构，而非盲目增加分组时使用的协变量。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "实验设计",
+          "协变量平衡"
+        ],
+        "fields": [],
+        "tags": [
+          "实验设计",
+          "协变量平衡"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.18057",
+      "pdf_url": "https://arxiv.org/pdf/2608.18057.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-18375",
+      "title": "DID 加入时变中介变量后，系数还是直接效应吗？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-19",
+      "source_url": "https://arxiv.org/abs/2608.18375",
+      "homepage_url": "https://arxiv.org/abs/2608.18375",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Ban, K.; Chen, Z.; Kédagni, D. (2026). Difference-in-differences models in the presence of time-varying mediators. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Ban, K.",
+          "Chen, Z.",
+          "Kédagni, D."
+        ],
+        "year": 2026,
+        "title": "Difference-in-differences models in the presence of time-varying mediators",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.18375",
+        "arxiv_id": "2608.18375",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.18375",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.18375.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.18375",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.18375",
+      "priority": "extended",
+      "page_note": "论文讨论处理会改变内生时变中介变量的 DID 设计：通常的 DID 量可能混合直接效应、间接效应与趋势偏差，直接在双向固定效应回归中控制中介也未必识别直接效应。作者在所列假设下利用中介路径条件化识别相应参数。机制分析需要新的识别论证，不能只凭加入中介后系数缩小来下结论。",
+      "wechat_summary": "论文讨论处理会改变内生时变中介变量的 DID 设计：通常的 DID 量可能混合直接效应、间接效应与趋势偏差，直接在双向固定效应回归中控制中介也未必识别直接效应。作者在所列假设下利用中介路径条件化识别相应参数。机制分析需要新的识别论证，不能只凭加入中介后系数缩小来下结论。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "双重差分",
+          "中介效应"
+        ],
+        "fields": [],
+        "tags": [
+          "双重差分",
+          "中介效应"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.18375",
+      "pdf_url": "https://arxiv.org/pdf/2608.18375.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-18973",
+      "title": "配对实验出现样本流失后，是否必须删除不完整配对？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-19",
+      "source_url": "https://arxiv.org/abs/2608.18973",
+      "homepage_url": "https://arxiv.org/abs/2608.18973",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Heß, S.; Schmidt, P. W. (2026). Don't drop the singletons: Efficient inference for pairwise experiments with independent attrition. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Heß, S.",
+          "Schmidt, P. W."
+        ],
+        "year": 2026,
+        "title": "Don't drop the singletons: Efficient inference for pairwise experiments with independent attrition",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.18973",
+        "arxiv_id": "2608.18973",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.18973",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.18973.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.18973",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.18973",
+      "priority": "extended",
+      "page_note": "在流失独立于处理状态和潜在结果的条件下，论文提出利用完整配对与剩余单个观测的置换检验，并讨论结合配对内、配对间比较的加权估计。读者可以据此重新审视配对固定效应导致的数据舍弃。方法的前提是独立流失，不能推广为对选择性失访同样有效。",
+      "wechat_summary": "在流失独立于处理状态和潜在结果的条件下，论文提出利用完整配对与剩余单个观测的置换检验，并讨论结合配对内、配对间比较的加权估计。读者可以据此重新审视配对固定效应导致的数据舍弃。方法的前提是独立流失，不能推广为对选择性失访同样有效。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "随机实验",
+          "样本流失"
+        ],
+        "fields": [],
+        "tags": [
+          "随机实验",
+          "样本流失"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.18973",
+      "pdf_url": "https://arxiv.org/pdf/2608.18973.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-22499",
+      "title": "短动态空间面板如何同时处理共同冲击？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-24",
+      "source_url": "https://arxiv.org/abs/2608.22499",
+      "homepage_url": "https://arxiv.org/abs/2608.22499",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Bai, J.; Chen, J. C. (2026). Fixed-T dynamic spatial panel model with common shocks. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Bai, J.",
+          "Chen, J. C."
+        ],
+        "year": 2026,
+        "title": "Fixed-T dynamic spatial panel model with common shocks",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.22499",
+        "arxiv_id": "2608.22499",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.22499",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.22499.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.22499",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.22499",
+      "priority": "extended",
+      "page_note": "论文研究大 N、固定 T 的动态空间面板，把空间同时性与交互效应放在同一框架中。作者利用另一种方程组织方式及空间扩展随机载荷设定构造准似然，以处理逐个估计载荷产生的附带参数问题。适合比较空间依赖与共同因子处理方式；相关推断仍依赖论文给出的载荷和误差结构。",
+      "wechat_summary": "论文研究大 N、固定 T 的动态空间面板，把空间同时性与交互效应放在同一框架中。作者利用另一种方程组织方式及空间扩展随机载荷设定构造准似然，以处理逐个估计载荷产生的附带参数问题。适合比较空间依赖与共同因子处理方式；相关推断仍依赖论文给出的载荷和误差结构。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "空间计量",
+          "动态面板"
+        ],
+        "fields": [],
+        "tags": [
+          "空间计量",
+          "动态面板"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.22499",
+      "pdf_url": "https://arxiv.org/pdf/2608.22499.pdf",
+      "pdf_version": "v1"
     }
   ],
-  "tools": [],
+  "tools": [
+    {
+      "id": "stata-lwdid-20260821",
+      "name": "lwdid",
+      "ecosystem": "Stata",
+      "version": "SSC 修订 2026-08-21",
+      "release_date": "2026-08-21",
+      "published_date": "2026-08-21",
+      "source_date_basis": "SSC/RePEc revised 字段；不冒充首次发布",
+      "title": "Stata 新命令：lwdid 的滚动 DID 估计",
+      "url": "https://ideas.repec.org/c/boc/bocode/s459672.html",
+      "source_url": "https://ideas.repec.org/c/boc/bocode/s459672.html",
+      "priority": "extended",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "page_note": "Lee 与 Wooldridge 的 lwdid 提供滚动 DID 估计，区分大 N 与小 N 情形，并支持共同或交错处理时点。官方说明列出预处理均值、趋势及部分设定下的季节性变换。SSC 记录显示 8 月 21 日有修订，可用 ssc install lwdid 安装。使用时须按样本维度和识别条件选择选项，不能把去趋势视为平行趋势的自动保证。",
+      "wechat_summary": "Lee 与 Wooldridge 的 lwdid 提供滚动 DID 估计，区分大 N 与小 N 情形，并支持共同或交错处理时点。官方说明列出预处理均值、趋势及部分设定下的季节性变换。SSC 记录显示 8 月 21 日有修订，可用 ssc install lwdid 安装。使用时须按样本维度和识别条件选择选项，不能把去趋势视为平行趋势的自动保证。",
+      "installation_command": "ssc install lwdid",
+      "help_url": "http://fmwww.bc.edu/repec/bocode/l/lwdid.sthlp",
+      "software_tested": false,
+      "project_id": "ssc:lwdid",
+      "catalog": {
+        "section": "methods-tools",
+        "software": [
+          "Stata"
+        ],
+        "methods": [
+          "双重差分",
+          "滚动估计"
+        ],
+        "fields": [],
+        "tags": [
+          "双重差分",
+          "滚动估计"
+        ]
+      },
+      "omission_reason": "补查 SSC 更新记录；此前两周日常快讯未收录该命令。"
+    }
+  ],
   "research_resources": [],
-  "conference_calls": [],
+  "conference_calls": [
+    {
+      "id": "conference-cam-strategy-2026",
+      "event_id": "cam-strategy-2026",
+      "title": "2026 组织与战略管理专业委员会年会：10 月 18 日截稿",
+      "organizer_or_journal": "中国管理现代化研究会组织与战略管理专业委员会；浙江财经大学管理学院承办",
+      "topic": "智能体涌现下的数智组织与战略创新",
+      "official_url": "https://som.zufe.edu.cn/info/1370/18370.htm",
+      "source_url": "https://som.zufe.edu.cn/info/1370/18370.htm",
+      "published_date": "2026-08-15",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "deadline": "2026-10-18",
+      "deadline_kind": "submission",
+      "event_date": "2026-11-06",
+      "event_end": "2026-11-08",
+      "location": "浙江太平洋大酒店、浙江财经大学下沙校区",
+      "fee_note": "教师及其他人员 1200 元，学生 800 元，含会议用餐；交通和住宿自理。",
+      "status": "open",
+      "priority": "extended",
+      "page_note": "年会围绕数智组织与战略创新征稿，欢迎理论、实证、案例和跨学科研究，涉及人机代理、组织治理、平台生态及数据要素等议题。中英文稿均可，建议约 15000 字，格式参考《南开管理评论》。会议于 11 月 6 日报到、7–8 日举行正式议程；投稿与注册是两个步骤，注册缴费截止为 10 月 31 日。",
+      "wechat_summary": "年会围绕数智组织与战略创新征稿，欢迎理论、实证、案例和跨学科研究，涉及人机代理、组织治理、平台生态及数据要素等议题。中英文稿均可，建议约 15000 字，格式参考《南开管理评论》。会议于 11 月 6 日报到、7–8 日举行正式议程；投稿与注册是两个步骤，注册缴费截止为 10 月 31 日。",
+      "catalog": {
+        "section": "academic-updates",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "组织管理",
+          "战略创新",
+          "会议征稿"
+        ]
+      },
+      "reminder": false
+    }
+  ],
   "issue_id": "brief-20260908",
-  "retrieved_date": "2026-09-08"
+  "retrieved_date": "2026-09-08",
+  "website_version": 3,
+  "revised_date": "2026-09-08",
+  "release_snapshot": "content/releases/2026-09-08",
+  "revision_note": "2026-09-08 网页补录：保留来源日期，增加延伸阅读及分类资料；原微信群发布稿另存，不改写历史发送记录。",
+  "discovery": [
+    {
+      "category": "posts",
+      "source_url": "https://www.lianxh.cn",
+      "query": "复核既有 8 月 15 日至 9 月 7 日目录和本期两篇推文",
+      "status": "found",
+      "candidate_count": 33,
+      "eligible_count": 29,
+      "adopted_count": 2,
+      "reason": "复用 9 月 7 日已留存正文证据；未将历史集合视作群发事件。不新增其他推文到本期。",
+      "window_start": "2026-08-09",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_url": "https://arxiv.org/list/econ.EM/2026-08?skip=0&show=2000",
+      "query": "econ.EM 2026 年 8 月完整目录；本轮挑选并核对 12 篇摘要",
+      "status": "found",
+      "candidate_count": 12,
+      "eligible_count": 12,
+      "adopted_count": 6,
+      "reason": "分配到两期各 6 篇，避免过去 14 天快讯重复；仅依据摘要写简要内容。",
+      "window_start": "2026-08-09",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "software",
+      "source_url": "https://ideas.repec.org/s/boc/bocode.html",
+      "query": "SSC revised July–September 2026; lwdid, xtbfkbreak",
+      "status": "found",
+      "candidate_count": 2,
+      "eligible_count": 2,
+      "adopted_count": 1,
+      "reason": "分别核对官方登记页的修订日、功能、安装和 help 入口；两期各采用 1 条。",
+      "window_start": "2026-07-08",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "software",
+      "source_url": "https://www.stata-journal.com/current-issue/",
+      "query": "Stata Journal 26(2) 当前期目录",
+      "status": "no-eligible",
+      "candidate_count": 7,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "已检查当前期目录；本轮未取得可确认落在回溯窗口内的更新日，暂不采用，不能写成没有新命令。",
+      "window_start": "2026-08-09",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "conferences",
+      "source_url": "https://som.zufe.edu.cn/info/1370/18370.htm",
+      "query": "2026 组织与战略管理年会 征稿截止 费用 举办日",
+      "status": "found",
+      "candidate_count": 1,
+      "eligible_count": 1,
+      "adopted_count": 1,
+      "reason": "主办方第一轮通知字段齐全；统一放入 9 月 8 日期次，9 月 5 日不重复收录。",
+      "window_start": "2026-08-15",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "conferences",
+      "source_url": "https://www.cer.sdu.edu.cn/info/1033/12441.htm",
+      "query": "第九届中国制度经济学论坛2026 官方通知",
+      "status": "access-failed",
+      "candidate_count": 1,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "官方页面两次访问超时，未据搜索摘要入选。",
+      "window_start": "2026-06-01",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    }
+  ]
 }

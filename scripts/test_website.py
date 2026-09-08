@@ -55,7 +55,7 @@ class CitationTests(unittest.TestCase):
     def test_real_papers_and_no_mutation(self):
         issue = json.loads((ROOT / 'content/issues/2026-09-05.json').read_text(encoding='utf-8'))
         original = copy.deepcopy(issue)
-        self.assertEqual(render_page(issue).count('class="myapa"'), 3)
+        self.assertEqual(render_page(issue).count('class="myapa"'), len(issue['papers']))
         self.assertEqual(issue, original)
         for p in issue['papers']:
             self.assertIn('>Google<', website_citation(p))
@@ -79,9 +79,9 @@ class WebsiteTests(unittest.TestCase):
 
     def test_home_bounded_and_archive_sorted(self):
         issues = [dict(date=f'2026-09-{i:02}', title=f'期次{i}') for i in range(30, 0, -1)]
-        self.assertEqual(home_page(issues).count('](issues/'), 1)
-        self.assertEqual(archive_page(issues).count('](issues/'), 30)
-        self.assertLess(archive_page(issues).index('2026-09-30'), archive_page(issues).index('2026-09-01'))
+        self.assertEqual(home_page(issues).count('](issues/'), 3)
+        self.assertEqual(archive_page(issues).count('<li><a href="issues/'), 30)
+        self.assertLess(archive_page(issues).index('2026.09.30'), archive_page(issues).index('2026.09.01'))
         self.assertEqual(set(DISPLAY_LABELS.values()), {'新推文', '新论文', '新方法', '会议征稿'})
 
     def test_promotion_review_boundary(self):

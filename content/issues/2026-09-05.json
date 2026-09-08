@@ -6,30 +6,7 @@
   "issue_type": "daily",
   "editorial_version": 2,
   "title": "连享会 · 快讯 | 2026.09.05",
-  "lianxh_posts": [
-    {
-      "id": "lianxh-ai-agent-data-analysis",
-      "title": "连享会 · AI-Agent 数据分析实战",
-      "priority": "extended",
-      "retrieved_date": "2026-09-05",
-      "wechat_summary": "官网页面列出 10 月 17、24、31 日的线上直播安排，由杨楷（深圳大学）主讲；课程内容与最终安排以官网为准。",
-      "page_note": "连享会官网的 AI-Agent 数据分析专题入口，适合关注 AI 工具如何进入实证研究流程的读者。 本条保留自本日较早公开版本，不重复纳入本次群消息短版。",
-      "url": "https://www.lianxh.cn/details/1900.html",
-      "topics": [
-        "r-python-ml"
-      ],
-      "catalog": {
-        "section": "lianxh-new",
-        "software": [],
-        "methods": [],
-        "fields": [],
-        "tags": [
-          "AI-Agent",
-          "数据分析"
-        ]
-      }
-    }
-  ],
+  "lianxh_posts": [],
   "papers": [
     {
       "id": "dray-landais-stantcheva-wealth-tax-qje",
@@ -61,6 +38,27 @@
           "QJE",
           "Forthcoming"
         ]
+      },
+      "bibliography": {
+        "authors": [
+          "Dray, S.",
+          "Landais, C.",
+          "Stantcheva, S."
+        ],
+        "year": 2026,
+        "title": "Wealth and property taxation in the United States",
+        "source": "The Quarterly Journal of Economics",
+        "doi_url": "https://doi.org/10.1093/qje/qjag038",
+        "publication_status": "forthcoming",
+        "retrieved_date": "2026-09-05",
+        "provenance": "content/issues/2026-09-05.json: citation and page_note",
+        "pdf": {
+          "url": "https://stantcheva.scholars.harvard.edu/resource/draylandaisstantchevawealthpropertytaxuspdf",
+          "source_url": "https://www.stefanie-stantcheva.com/research/",
+          "public_access": true,
+          "retrieved_date": "2026-09-05",
+          "version": "作者稿，2026-07-06"
+        }
       }
     },
     {
@@ -94,6 +92,32 @@
           "AER",
           "正式发表"
         ]
+      },
+      "bibliography": {
+        "authors": [
+          "Bachmann, R.",
+          "Carstensen, K.",
+          "Lautenbacher, S.",
+          "Menkhoff, M.",
+          "Schneider, M."
+        ],
+        "year": 2026,
+        "title": "Uncertainty and change: Survey evidence of firms’ subjective beliefs",
+        "source": "American Economic Review",
+        "doi_url": "https://doi.org/10.1257/aer.20240056",
+        "publication_status": "published",
+        "retrieved_date": "2026-09-05",
+        "provenance": "content/issues/2026-09-05.json: citation and page_note",
+        "volume": "116",
+        "issue": "8",
+        "pages": "2806–2849",
+        "pdf": {
+          "url": "https://web.stanford.edu/~schneidr/unc_current.pdf",
+          "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20240056",
+          "public_access": true,
+          "retrieved_date": "2026-09-05",
+          "version": "作者稿，2025-10-31"
+        }
       }
     },
     {
@@ -122,7 +146,358 @@
           "辅助技术",
           "包容性就业"
         ]
+      },
+      "bibliography": {
+        "authors": [
+          "Chen, Y.",
+          "Hoffman, M.",
+          "Xu, H.",
+          "Yuan, Z."
+        ],
+        "year": 2026,
+        "title": "Empowering inclusive work",
+        "source": "NBER Working Paper No. 35372",
+        "doi_url": "https://doi.org/10.3386/w35372",
+        "publication_status": "working-paper",
+        "retrieved_date": "2026-09-05",
+        "provenance": "content/issues/2026-09-05.json: citation and page_note"
       }
+    },
+    {
+      "id": "arxiv-2608-23732",
+      "title": "平稳与非平稳变量混在一起，如何提取共同周期？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-25",
+      "source_url": "https://arxiv.org/abs/2608.23732",
+      "homepage_url": "https://arxiv.org/abs/2608.23732",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Hamilton, J. D.; Ma, X.; Xi, J. (2026). Principal component analysis for a mix of stationary and nonstationary variables. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Hamilton, J. D.",
+          "Ma, X.",
+          "Xi, J."
+        ],
+        "year": 2026,
+        "title": "Principal component analysis for a mix of stationary and nonstationary variables",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.23732",
+        "arxiv_id": "2608.23732",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.23732",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.23732.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.23732",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.23732",
+      "priority": "extended",
+      "page_note": "论文研究混合平稳与非平稳变量的主成分分析，目标是提取共同周期成分，而无需事先逐一判定变量的积分性质。作者用 FRED-MD 数据展示这一思路。阅读时可关注变量预处理如何影响共同因子的含义，以及该方法所需的时间序列条件；它不意味着任何趋势数据都可以直接做普通 PCA。",
+      "wechat_summary": "论文研究混合平稳与非平稳变量的主成分分析，目标是提取共同周期成分，而无需事先逐一判定变量的积分性质。作者用 FRED-MD 数据展示这一思路。阅读时可关注变量预处理如何影响共同因子的含义，以及该方法所需的时间序列条件；它不意味着任何趋势数据都可以直接做普通 PCA。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "主成分分析",
+          "时间序列"
+        ],
+        "fields": [],
+        "tags": [
+          "主成分分析",
+          "时间序列"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.23732",
+      "pdf_url": "https://arxiv.org/pdf/2608.23732.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-23257",
+      "title": "统计显著的发现，有多大概率在复现中再次显著？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-24",
+      "source_url": "https://arxiv.org/abs/2608.23257",
+      "homepage_url": "https://arxiv.org/abs/2608.23257",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Vu, P.; Faridani, S. (2026). How replicable are statistically significant findings?. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Vu, P.",
+          "Faridani, S."
+        ],
+        "year": 2026,
+        "title": "How replicable are statistically significant findings?",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.23257",
+        "arxiv_id": "2608.23257",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.23257",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.23257.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.23257",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.23257",
+      "priority": "extended",
+      "page_note": "论文把原研究的显著性水平与复现成功概率联系起来，并与实验经济学、心理学和社会科学的实际复现结果比较。它帮助区分“原结果显著”和“后续研究有较高把握再次检出”。这些概率依赖统计模型及原研究的信息，不能用单个 p 值直接裁定一篇论文是否可靠。",
+      "wechat_summary": "论文把原研究的显著性水平与复现成功概率联系起来，并与实验经济学、心理学和社会科学的实际复现结果比较。它帮助区分“原结果显著”和“后续研究有较高把握再次检出”。这些概率依赖统计模型及原研究的信息，不能用单个 p 值直接裁定一篇论文是否可靠。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "统计功效",
+          "论文复现"
+        ],
+        "fields": [],
+        "tags": [
+          "统计功效",
+          "论文复现"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.23257",
+      "pdf_url": "https://arxiv.org/pdf/2608.23257.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-23925",
+      "title": "矩条件轻微错设时，如何调整 GMM 推断？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-25",
+      "source_url": "https://arxiv.org/abs/2608.23925",
+      "homepage_url": "https://arxiv.org/abs/2608.23925",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Kline, P. (2026). Repairing locally misspecified GMM: An empirical Bayes approach. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Kline, P."
+        ],
+        "year": 2026,
+        "title": "Repairing locally misspecified GMM: An empirical Bayes approach",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.23925",
+        "arxiv_id": "2608.23925",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.23925",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.23925.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.23925",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.23925",
+      "priority": "extended",
+      "page_note": "论文允许矩条件存在可交换的局部错设误差，利用较多限制条件估计错设分布，再进行偏差调整和经验贝叶斯推断。教育回报的工具变量应用说明了问题的实证背景。可重点阅读“局部错设”与推断区间的关系；这一框架不保证修复任意无效工具变量。",
+      "wechat_summary": "论文允许矩条件存在可交换的局部错设误差，利用较多限制条件估计错设分布，再进行偏差调整和经验贝叶斯推断。教育回报的工具变量应用说明了问题的实证背景。可重点阅读“局部错设”与推断区间的关系；这一框架不保证修复任意无效工具变量。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "GMM",
+          "经验贝叶斯"
+        ],
+        "fields": [],
+        "tags": [
+          "GMM",
+          "经验贝叶斯"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.23925",
+      "pdf_url": "https://arxiv.org/pdf/2608.23925.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-24362",
+      "title": "动态离散选择与逆强化学习如何对话？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-25",
+      "source_url": "https://arxiv.org/abs/2608.24362",
+      "homepage_url": "https://arxiv.org/abs/2608.24362",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Rawat, P.; Rust, J. (2026). Dynamic discrete choice and inverse reinforcement learning: Inferring preferences and beliefs from human behavior. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Rawat, P.",
+          "Rust, J."
+        ],
+        "year": 2026,
+        "title": "Dynamic discrete choice and inverse reinforcement learning: Inferring preferences and beliefs from human behavior",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.24362",
+        "arxiv_id": "2608.24362",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.24362",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.24362.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.24362",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.24362",
+      "priority": "extended",
+      "page_note": "综述将经济学中的动态离散选择与机器学习中的逆强化学习放在共同的马尔可夫决策框架下，讨论偏好、信念及行为数据之间的关系。读者可比较 soft Q 与 logit 选择概率在特定条件下的对应，以及两类估计方法如何应对计算负担。拟合行为并不自动解决偏好与信念的分别识别。",
+      "wechat_summary": "综述将经济学中的动态离散选择与机器学习中的逆强化学习放在共同的马尔可夫决策框架下，讨论偏好、信念及行为数据之间的关系。读者可比较 soft Q 与 logit 选择概率在特定条件下的对应，以及两类估计方法如何应对计算负担。拟合行为并不自动解决偏好与信念的分别识别。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "动态离散选择",
+          "逆强化学习"
+        ],
+        "fields": [],
+        "tags": [
+          "动态离散选择",
+          "逆强化学习"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.24362",
+      "pdf_url": "https://arxiv.org/pdf/2608.24362.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-25814",
+      "title": "离散响应模型部分识别时，如何做贝叶斯推断？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-26",
+      "source_url": "https://arxiv.org/abs/2608.25814",
+      "homepage_url": "https://arxiv.org/abs/2608.25814",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Tamer, E.; Walker, C. D. (2026). Nonparametric Bayesian inference for partially identified discrete response models. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Tamer, E.",
+          "Walker, C. D."
+        ],
+        "year": 2026,
+        "title": "Nonparametric Bayesian inference for partially identified discrete response models",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.25814",
+        "arxiv_id": "2608.25814",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.25814",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.25814.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.25814",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.25814",
+      "priority": "extended",
+      "page_note": "论文从条件选择概率出发刻画识别集，使用高斯过程先验进行非参数贝叶斯推断，讨论如何避免把连续条件变量粗略离散化。它还分析模型错设的检测问题。适合关注离散选择与部分识别的读者，阅读时应区分先验带来的后验信息与模型本身能够识别的信息。",
+      "wechat_summary": "论文从条件选择概率出发刻画识别集，使用高斯过程先验进行非参数贝叶斯推断，讨论如何避免把连续条件变量粗略离散化。它还分析模型错设的检测问题。适合关注离散选择与部分识别的读者，阅读时应区分先验带来的后验信息与模型本身能够识别的信息。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "部分识别",
+          "贝叶斯推断"
+        ],
+        "fields": [],
+        "tags": [
+          "部分识别",
+          "贝叶斯推断"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.25814",
+      "pdf_url": "https://arxiv.org/pdf/2608.25814.pdf",
+      "pdf_version": "v1"
+    },
+    {
+      "id": "arxiv-2608-25901",
+      "title": "时间平均与长差分为什么会改变长期关系估计？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-08-26",
+      "source_url": "https://arxiv.org/abs/2608.25901",
+      "homepage_url": "https://arxiv.org/abs/2608.25901",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "citation": "Ng, S.; Gospodinov, N. (2026). Cross-section estimation of long-run relations using time-compressed data. arXiv (working paper).",
+      "bibliography": {
+        "authors": [
+          "Ng, S.",
+          "Gospodinov, N."
+        ],
+        "year": 2026,
+        "title": "Cross-section estimation of long-run relations using time-compressed data",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2608.25901",
+        "arxiv_id": "2608.25901",
+        "doi_url": "https://doi.org/10.48550/arXiv.2608.25901",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2608.25901.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2608.25901",
+          "retrieved_date": "2026-09-08"
+        }
+      },
+      "arxiv_id": "2608.25901",
+      "priority": "extended",
+      "page_note": "论文研究把面板压缩为时间均值或长差分后，用横截面估计长期关系的条件。非平稳序列的横截面离散程度可能增强信号，但压缩也会改变噪声，均值回复又会削弱这种优势。可用于理解长期回归的取样与变换选择，不能把时间平均视为消除内生性的通用办法。",
+      "wechat_summary": "论文研究把面板压缩为时间均值或长差分后，用横截面估计长期关系的条件。非平稳序列的横截面离散程度可能增强信号，但压缩也会改变噪声，均值回复又会削弱这种优势。可用于理解长期回归的取样与变换选择，不能把时间平均视为消除内生性的通用办法。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [
+          "长期关系",
+          "面板数据"
+        ],
+        "fields": [],
+        "tags": [
+          "长期关系",
+          "面板数据"
+        ]
+      },
+      "source_date_basis": "arXiv v1 提交时间换算 Asia/Shanghai",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "omission_reason": "本轮按批准方案回补此前遗漏的近期方法论文；非当日首次发现记录。",
+      "doi_url": "https://doi.org/10.48550/arXiv.2608.25901",
+      "pdf_url": "https://arxiv.org/pdf/2608.25901.pdf",
+      "pdf_version": "v1"
     }
   ],
   "tools": [
@@ -183,9 +558,136 @@
           "交叉拟合"
         ]
       }
+    },
+    {
+      "id": "stata-xtbfkbreak-20260820",
+      "name": "xtbfkbreak",
+      "ecosystem": "Stata",
+      "version": "SSC 修订 2026-08-20",
+      "release_date": "2026-08-20",
+      "published_date": "2026-08-20",
+      "source_date_basis": "SSC/RePEc revised 字段；不冒充首次发布",
+      "title": "Stata 新命令：xtbfkbreak 估计异质面板的共同结构突变",
+      "url": "https://ideas.repec.org/c/boc/bocode/s459789.html",
+      "source_url": "https://ideas.repec.org/c/boc/bocode/s459789.html",
+      "priority": "extended",
+      "retrieved_date": "2026-09-08",
+      "added_date": "2026-09-08",
+      "page_note": "命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 ssc install xtbfkbreak；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。",
+      "wechat_summary": "命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 ssc install xtbfkbreak；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。",
+      "installation_command": "ssc install xtbfkbreak",
+      "help_url": "http://fmwww.bc.edu/repec/bocode/x/xtbfkbreak.sthlp",
+      "software_tested": false,
+      "project_id": "ssc:xtbfkbreak",
+      "catalog": {
+        "section": "methods-tools",
+        "software": [
+          "Stata"
+        ],
+        "methods": [
+          "结构突变",
+          "CCE"
+        ],
+        "fields": [],
+        "tags": [
+          "结构突变",
+          "CCE"
+        ]
+      },
+      "omission_reason": "补查 SSC 更新记录；此前两周日常快讯未收录该命令。"
     }
   ],
   "research_resources": [],
   "conference_calls": [],
-  "approved_date": "2026-09-05"
+  "approved_date": "2026-09-05",
+  "website_version": 3,
+  "revised_date": "2026-09-08",
+  "release_snapshot": "content/releases/2026-09-05",
+  "revision_note": "2026-09-08 网页补录：保留来源日期，增加延伸阅读及分类资料；原微信群发布稿另存，不改写历史发送记录。",
+  "discovery": [
+    {
+      "category": "posts",
+      "source_url": "https://www.lianxh.cn",
+      "query": "复核既有 8 月 15 日至 9 月 7 日目录和本期两篇推文",
+      "status": "found",
+      "candidate_count": 33,
+      "eligible_count": 29,
+      "adopted_count": 0,
+      "reason": "复用 9 月 7 日已留存正文证据；未将历史集合视作群发事件。不新增其他推文到本期。",
+      "window_start": "2026-08-09",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_url": "https://arxiv.org/list/econ.EM/2026-08?skip=0&show=2000",
+      "query": "econ.EM 2026 年 8 月完整目录；本轮挑选并核对 12 篇摘要",
+      "status": "found",
+      "candidate_count": 12,
+      "eligible_count": 12,
+      "adopted_count": 6,
+      "reason": "分配到两期各 6 篇，避免过去 14 天快讯重复；仅依据摘要写简要内容。",
+      "window_start": "2026-08-09",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "software",
+      "source_url": "https://ideas.repec.org/s/boc/bocode.html",
+      "query": "SSC revised July–September 2026; lwdid, xtbfkbreak",
+      "status": "found",
+      "candidate_count": 2,
+      "eligible_count": 2,
+      "adopted_count": 1,
+      "reason": "分别核对官方登记页的修订日、功能、安装和 help 入口；两期各采用 1 条。",
+      "window_start": "2026-08-06",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "software",
+      "source_url": "https://www.stata-journal.com/current-issue/",
+      "query": "Stata Journal 26(2) 当前期目录",
+      "status": "no-eligible",
+      "candidate_count": 7,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "已检查当前期目录；本轮未取得可确认落在回溯窗口内的更新日，暂不采用，不能写成没有新命令。",
+      "window_start": "2026-08-09",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "conferences",
+      "source_url": "https://som.zufe.edu.cn/info/1370/18370.htm",
+      "query": "2026 组织与战略管理年会 征稿截止 费用 举办日",
+      "status": "found",
+      "candidate_count": 1,
+      "eligible_count": 1,
+      "adopted_count": 0,
+      "reason": "主办方第一轮通知字段齐全；统一放入 9 月 8 日期次，9 月 5 日不重复收录。",
+      "window_start": "2026-08-15",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    },
+    {
+      "category": "conferences",
+      "source_url": "https://www.cer.sdu.edu.cn/info/1033/12441.htm",
+      "query": "第九届中国制度经济学论坛2026 官方通知",
+      "status": "access-failed",
+      "candidate_count": 1,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "官方页面两次访问超时，未据搜索摘要入选。",
+      "window_start": "2026-06-01",
+      "window_end": "2026-09-08",
+      "checked_at": "2026-09-08",
+      "retrieved_date": "2026-09-08"
+    }
+  ]
 }

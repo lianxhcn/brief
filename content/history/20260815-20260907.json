@@ -1,0 +1,958 @@
+{
+  "type": "historical-collection",
+  "status": "published",
+  "range_start": "2026-08-15",
+  "range_end": "2026-09-07",
+  "added_date": "2026-09-07",
+  "revised_date": "2026-09-08",
+  "revision_note": "本页是区间资料集合，并非逐日发送记录。2026-09-08 补入论文、SSC 命令和会议；来源日期与补录日期分别保留。",
+  "entries": [
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-15",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1891",
+        "title": "Claude Code Hooks-钩子：怎么配，如何迁移到 Codex？",
+        "url": "https://www.lianxh.cn/details/1891.html",
+        "page_note": "文章从通知、文件保护和结束前检查等场景解释 Hooks，并列出跨平台迁移时需要重新核对的输入字段、路径和行为。适合作为配置前的检查清单。",
+        "priority": "extended",
+        "published_date": "2026-08-15",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "Claude Code",
+            "Hooks",
+            "Codex"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-15",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1892",
+        "title": "如何发现因果关系？基于causal-learn的因果推理",
+        "url": "https://www.lianxh.cn/details/1892.html",
+        "page_note": "文章梳理 PC、FCI、GES 等因果发现方法，以及条件独立检验和图评价工具。使用前需要判断潜在混杂、数据类型与算法假设，输出的图结构仍需领域知识核对。",
+        "priority": "extended",
+        "published_date": "2026-08-15",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "causal-learn",
+            "因果发现"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-16",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1893",
+        "title": "SNAP07-手动计算：社会网络分析中的密度、距离与聚集系数",
+        "url": "https://www.lianxh.cn/details/1893.html",
+        "page_note": "用六个节点的小网络手算密度、路径和聚集指标，说明相同边数可以对应不同结构。重点讨论网络断开时指标口径如何变化，并给出代码核对入口。",
+        "priority": "extended",
+        "published_date": "2026-08-16",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "社会网络",
+            "网络指标"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-16",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1894",
+        "title": "SNAP08-社会网络中的「圈子」是怎样识别出来的？",
+        "url": "https://www.lianxh.cn/details/1894.html",
+        "page_note": "从小网络的候选划分手算模块度，再转到 Louvain 的软件操作。文章强调分辨率、随机性和社群经济含义需要分别判断，可用于网络分析入门教学。",
+        "priority": "extended",
+        "published_date": "2026-08-16",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "社会网络",
+            "社群识别"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-18",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1895",
+        "title": "从 reghdfe 到 PyFixest：Python 高维固定效应与 DID 快速上手",
+        "url": "https://www.lianxh.cn/details/1895.html",
+        "page_note": "将固定效应公式、聚类标准误和 DID 估计对象与 PyFixest 接口逐项对照。适合熟悉 reghdfe 的读者理解迁移时应比较哪些模型设定。",
+        "priority": "extended",
+        "published_date": "2026-08-18",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "PyFixest",
+            "固定效应",
+            "双重差分"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-18",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1896",
+        "title": "万能提示词真的存在吗？五份 Prompting Science Report 的实证检验",
+        "url": "https://www.lianxh.cn/details/1896.html",
+        "page_note": "围绕五份提示词实验报告，讨论角色、语气、思维链和评价标准如何影响结论。阅读重点是按自己的任务验证提示方案，并将外部材料中的指令与任务要求分开。",
+        "priority": "extended",
+        "published_date": "2026-08-18",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "提示词",
+            "实证检验"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-22",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1897",
+        "title": "Skills、MCP、A2A、ARD：科研 Agent 到底该用哪些？",
+        "url": "https://www.lianxh.cn/details/1897.html",
+        "page_note": "用文献核验工作流区分 Skills 的操作规则、MCP 的工具连接以及 Agent 协作与发现机制。文章提供按任务选择组合的思路，并保留权限与人工核对环节。",
+        "priority": "extended",
+        "published_date": "2026-08-22",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "Agent",
+            "Skills",
+            "MCP"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-24",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1898",
+        "title": "WorkBuddy 接入 Stata MCP：从文献整理到直接跑回归",
+        "url": "https://www.lianxh.cn/details/1898.html",
+        "page_note": "以文献卡片、数据诊断和 Stata 自带数据测试说明 Agent 与 MCP 的连接流程。适合梳理代码生成、实际执行和日志反馈之间的分工。",
+        "priority": "extended",
+        "published_date": "2026-08-24",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "Stata",
+            "MCP",
+            "WorkBuddy"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-24",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1899",
+        "title": "AI 跑出的 DID 很显著，可信吗？用 causal-did 加一道识别防线",
+        "url": "https://www.lianxh.cn/details/1899.html",
+        "page_note": "通过预设反例区分代码运行、结果复现与因果识别，并介绍 causal-did 的设计检查流程。文章提醒读者把识别条件和结果验收写进任务，而不能只要求显著结果。",
+        "priority": "extended",
+        "published_date": "2026-08-24",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "双重差分",
+            "识别假设"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-29",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1901",
+        "title": "LLM 文本标注成本降 80%：一次放几条、一次问几个变量？",
+        "url": "https://www.lianxh.cn/details/1901.html",
+        "page_note": "文章分别讨论一次提交多条文本与一次标注多个变量的成本和质量权衡。适合在大规模标注前设计小样本校准、保留失败记录并检查下游变量误差。",
+        "related_work": "arxiv:2604.03684",
+        "priority": "extended",
+        "published_date": "2026-08-29",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "LLM",
+            "文本标注"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-29",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1902",
+        "title": "平行趋势不成立怎么办？用 DiDwb、MDiD 和 RD 重新识别政策效果",
+        "url": "https://www.lianxh.cn/details/1902.html",
+        "page_note": "围绕空气污染政策评估，解释基线污染与后续趋势相关时的 DID 风险，并比较 DiDwb、MDiD 和 RD 的识别思路。阅读时应同时核对样本与目标参数。",
+        "priority": "extended",
+        "published_date": "2026-08-29",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "平行趋势",
+            "双重差分",
+            "断点回归"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-29",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1903",
+        "title": "AI 我知道-06：为什么 AI 越聊越乱？上下文腐烂与论文协作工作流",
+        "url": "https://www.lianxh.cn/details/1903.html",
+        "page_note": "从变量定义、模型版本和代码修改的混乱出发，讨论任务拆分、项目文件夹与任务日志。适合建立长对话交接规则，避免把过时设定带入当前分析。",
+        "priority": "extended",
+        "published_date": "2026-08-29",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "上下文管理",
+            "论文协作"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-31",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1904",
+        "title": "去 AI 味的 10 个 Skills 怎么选？论文、报告和推文不能只靠一套规则",
+        "url": "https://www.lianxh.cn/details/1904.html",
+        "page_note": "按论文、报告和推文等文体比较润色规则，讨论样文、修改边界及验收方法。文章将事实和术语检查放在语言自然度之前，适合制定项目写作规范。",
+        "priority": "extended",
+        "published_date": "2026-08-31",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "学术写作",
+            "Skills"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-08-31",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1905",
+        "title": "我会 AI，为什么还拿不到实习？",
+        "url": "https://www.lianxh.cn/details/1905.html",
+        "page_note": "文章从需求澄清、过程留痕、结果核查和汇报四个环节讨论项目能力展示。适合把零散课程作业整理成可检查的求职作品，而不是仅列工具名称。",
+        "priority": "extended",
+        "published_date": "2026-08-31",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "AI技能",
+            "职业发展"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-01",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1906",
+        "title": "用 AI-Agent 推送 GitHub：本地仓库同步与授权指南",
+        "url": "https://www.lianxh.cn/details/1906.html",
+        "page_note": "从本地文件夹与远程仓库的关系讲起，说明项目边界、授权和同步检查流程。适合作为整理公开附件前的阅读材料。",
+        "priority": "extended",
+        "published_date": "2026-09-01",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "GitHub",
+            "Agent"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-01",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1907",
+        "title": "招聘数据如何获取？数据来源、去重与字段清洗",
+        "url": "https://www.lianxh.cn/details/1907.html",
+        "page_note": "文章区分招聘广告、职位空缺和实际录用，整理数据获取、去重和字段标准化的工作口径。重点是保留来源和样本覆盖变化，避免把数据管道变化当作招聘需求变化。",
+        "priority": "extended",
+        "published_date": "2026-09-01",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "招聘数据",
+            "数据清洗"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-01",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1908",
+        "title": "招聘数据能测什么？指标构造与 LLM 标注",
+        "url": "https://www.lianxh.cn/details/1908.html",
+        "page_note": "讨论职位名称、任职要求、技能与任务的不同测量对象，并给出 LLM 标注及人工审计流程。适合在构造企业或地区指标前明确变量含义。",
+        "priority": "extended",
+        "published_date": "2026-09-01",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "招聘数据",
+            "文本标注"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-02",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1909",
+        "title": "招聘数据如何进入因果推断？度量误差、平台漂移与识别陷阱",
+        "url": "https://www.lianxh.cn/details/1909.html",
+        "page_note": "将招聘文本进入因果分析的风险分为生成变量误差、平台覆盖漂移和设计识别三层。文章分别讨论 DID 与 shift-share 的检查环节，可与前两篇连读。",
+        "priority": "extended",
+        "published_date": "2026-09-02",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "招聘数据",
+            "度量误差",
+            "因果推断"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-02",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1910",
+        "title": "公司给近 4000 名员工配上 AI，谁真正会用？",
+        "url": "https://www.lianxh.cn/details/1910.html",
+        "page_note": "文章解读企业内部 GenAI 日志研究，区分使用频率与使用方式，并讨论提示信息和任务组织的衡量。研究来自单一企业的观察资料，适合思考使用质量指标。",
+        "related_work": "arxiv:2608.27364",
+        "priority": "extended",
+        "published_date": "2026-09-02",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "AI采用",
+            "劳动经济学"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-03",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1911",
+        "title": "女性 CEO 为何这么少？顶刊论文构造识别策略的思路",
+        "url": "https://www.lianxh.cn/details/1911.html",
+        "page_note": "通过重建 CEO 候选集合，解释如何区分候选池、能力判断与董事会偏好。文章把机制识别与结构模型连接起来，也说明商业数据及候选池设定的限制。",
+        "priority": "extended",
+        "published_date": "2026-09-03",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "女性CEO",
+            "识别策略"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-03",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1912",
+        "title": "ReproAI-上：向编辑部提交论文复现包前的自动预检",
+        "url": "https://www.lianxh.cn/details/1912.html",
+        "page_note": "介绍 ReproAI 的复现包预检流程：静态检查、问题排序、副本修订和按需运行。适合作为提交前材料检查入口，预检结果仍需结合数据逻辑与研究判断。",
+        "related_work": "arxiv:2602.16733",
+        "priority": "extended",
+        "published_date": "2026-09-03",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "ReproAI",
+            "论文复现"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-03",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1913",
+        "title": "ReproAI-下：Stata 复现包实测——ReproAI 能找到漏洞吗？",
+        "url": "https://www.lianxh.cn/details/1913.html",
+        "page_note": "文章用预先设置缺陷的 Stata 小型包考察静态检查，区分结构性问题与样本逻辑问题。适合与上篇连读，理解检出报告及未生成修复副本的边界。",
+        "related_work": "arxiv:2602.16733",
+        "priority": "extended",
+        "published_date": "2026-09-03",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "ReproAI",
+            "Stata",
+            "论文复现"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-04",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1914",
+        "title": "加入年份固定效应以后，宏观共同冲击真的被控制了吗？(下)：行业×年份固定效应、IFE 与 CCE",
+        "url": "https://www.lianxh.cn/details/1914.html",
+        "page_note": "在异质共同冲击框架下，比较组别与年份交互、IFE 和 CCE 的控制思路。文章强调因子数、面板条件与识别变异，应结合上篇理解不同方法的代价。",
+        "priority": "extended",
+        "published_date": "2026-09-04",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "共同冲击",
+            "CCE",
+            "交互固定效应"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-04",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1915",
+        "title": "加入年份固定效应以后，宏观共同冲击真的被控制了吗？(上)：从扰动项到异质暴露",
+        "url": "https://www.lianxh.cn/details/1915.html",
+        "page_note": "从企业对同一利率变化的不同暴露出发，解释年份固定效应能吸收的年度加性变化。文章讨论何时需要暴露度与冲击的交互项，并区分识别问题与标准误问题。",
+        "priority": "extended",
+        "published_date": "2026-09-04",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "年份固定效应",
+            "异质暴露"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-05",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "post-1916"
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-05",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1917",
+        "title": "AI 参与金融决策，为什么不能只看准确率？",
+        "url": "https://www.lianxh.cn/details/1917.html",
+        "page_note": "围绕信用解释、欺诈识别和文本字段抽取，讨论平均准确率之外的稳定性与可审计性。文章提出保存模型、输入和规则版本，并区分结果可复现与判断正确。",
+        "related_work": "arxiv:2605.23955",
+        "priority": "extended",
+        "published_date": "2026-09-05",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "金融决策",
+            "AI评价"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-05",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1918",
+        "title": "Logit + XGBoost：一种可解释的混合信用评分模型",
+        "url": "https://www.lianxh.cn/details/1918.html",
+        "page_note": "介绍以 Logit 为主体、以 XGBoost 学习残差的混合评分思路，并讨论逐笔预测的透明分支占比。文章也提醒读者区分银行账户持有标签与贷款违约标签。",
+        "related_work": "arxiv:2608.26837",
+        "priority": "extended",
+        "published_date": "2026-09-05",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "信用评分",
+            "Logit",
+            "XGBoost"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-06",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "post-1921"
+    },
+    {
+      "category": "lianxh_posts",
+      "source_date": "2026-09-06",
+      "date_kind": "page-display",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "post-1922",
+        "title": "文生图很烧 Tokens 吗？科研配图的选择逻辑",
+        "url": "https://www.lianxh.cn/details/1922.html",
+        "page_note": "按用途区分文生图、代码绘图、矢量排版和界面截图，讨论科研配图如何先确定事实与布局。适合为公式、统计图和概念插图选择合适的制作路径。",
+        "priority": "extended",
+        "published_date": "2026-09-06",
+        "retrieved_date": "2026-09-07",
+        "catalog": {
+          "section": "lianxh-new",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": [
+            "科研配图",
+            "文生图"
+          ]
+        },
+        "tag_origin": "title-editorial"
+      }
+    },
+    {
+      "category": "papers",
+      "source_date": "2026-09-02",
+      "date_kind": "first-public",
+      "added_date": "2026-09-07",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2609-01467"
+    },
+    {
+      "category": "papers",
+      "source_date": "2026-09-01",
+      "date_kind": "first-public",
+      "added_date": "2026-09-07",
+      "payload": {
+        "id": "arxiv-2608-31085",
+        "title": "短面板中的随机系数矩",
+        "publication_status": "working-paper",
+        "journal": "arXiv (working paper)",
+        "published_date": "2026-09-01",
+        "homepage_url": "https://arxiv.org/abs/2608.31085",
+        "source_url": "https://arxiv.org/abs/2608.31085",
+        "retrieved_date": "2026-09-07",
+        "citation": "Botosaru, I.; Powell, J. L. (2026). Moments of random coefficients in short panels. arXiv (working paper).",
+        "page_note": "这篇工作论文研究短面板中随机系数矩的识别，讨论如何利用面板中的信息刻画个体反应差异。适合关注异质性参数与面板识别条件的读者。",
+        "wechat_summary": "工作论文讨论短面板中随机系数矩的识别与估计，关注个体观测有限时仍可识别哪些总体信息。",
+        "catalog": {
+          "section": "research-frontier",
+          "software": [],
+          "methods": [],
+          "fields": [],
+          "tags": []
+        },
+        "bibliography": {
+          "authors": [
+            "Botosaru, I.",
+            "Powell, J. L."
+          ],
+          "year": 2026,
+          "title": "Moments of random coefficients in short panels",
+          "source": "arXiv (working paper)",
+          "publication_status": "working-paper",
+          "homepage_url": "https://arxiv.org/abs/2608.31085",
+          "arxiv_id": "2608.31085",
+          "pdf": {
+            "url": "https://arxiv.org/pdf/2608.31085.pdf",
+            "method": "arxiv-id-derived",
+            "version": "v1",
+            "source_url": "https://arxiv.org/abs/2608.31085",
+            "retrieved_date": "2026-09-08"
+          }
+        },
+        "review": {
+          "source_id": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.31085",
+          "version_read": "arXiv v1",
+          "effective_date": "2026-09-01",
+          "date_basis": "arXiv v1 Submission history 的 UTC 时刻转 Asia/Shanghai 日期；保留原时刻在核验表",
+          "evidence_locator": "官方摘要与 Submission history / First published；采用内容仅涉及研究问题",
+          "evidence_level": "abstract",
+          "identity_status": "resolved",
+          "identity_evidence": "核对原始题名、作者、DOI/arXiv/文章 URL 与完整本地已见记录；未发现对应历史。",
+          "version_matches": true,
+          "human_review": "pending",
+          "verified_at": "2026-09-07T17:16:45+08:00",
+          "discovered_at": "2026-09-07T17:08:59+08:00",
+          "detailed_claims": false,
+          "change_type": "none",
+          "replication_status": "未核验完整复现包；未运行",
+          "pdf_status": "未完成可靠公开 PDF 版本检查，省略",
+          "doi_status": "页面 DOI 标明 pending registration；不作为已可解析 DOI 展示，保留官方主页",
+          "r01_revision": "仅复用已核验缓存压缩读者文字；不新增实质结论"
+        },
+        "arxiv_id": "2608.31085",
+        "priority": "extended",
+        "pdf_url": "https://arxiv.org/pdf/2608.31085.pdf",
+        "pdf_version": "v1"
+      }
+    },
+    {
+      "category": "papers",
+      "source_date": "2026-09-05",
+      "date_kind": "first-public",
+      "added_date": "2026-09-07",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2609-05372"
+    },
+    {
+      "category": "tools",
+      "source_date": "2026-08-21",
+      "date_kind": "release",
+      "added_date": "2026-09-07",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "binsreg-r-22"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "arxiv-2608-23732",
+      "source_date": "2026-08-25",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "arxiv-2608-23257",
+      "source_date": "2026-08-24",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "arxiv-2608-23925",
+      "source_date": "2026-08-25",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "arxiv-2608-24362",
+      "source_date": "2026-08-25",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "arxiv-2608-25814",
+      "source_date": "2026-08-26",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "arxiv-2608-25901",
+      "source_date": "2026-08-26",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "tools",
+      "source_file": "content/issues/2026-09-05.json",
+      "item_id": "stata-xtbfkbreak-20260820",
+      "source_date": "2026-08-20",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2608-26522",
+      "source_date": "2026-08-27",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2608-27155",
+      "source_date": "2026-08-27",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2608-18057",
+      "source_date": "2026-08-19",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2608-18375",
+      "source_date": "2026-08-19",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2608-18973",
+      "source_date": "2026-08-19",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "papers",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "arxiv-2608-22499",
+      "source_date": "2026-08-24",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "tools",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "stata-lwdid-20260821",
+      "source_date": "2026-08-21",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    },
+    {
+      "category": "conference_calls",
+      "source_file": "content/issues/2026-09-08.json",
+      "item_id": "conference-cam-strategy-2026",
+      "source_date": "2026-08-15",
+      "date_kind": "source-publication-or-update",
+      "added_date": "2026-09-08"
+    }
+  ]
+}

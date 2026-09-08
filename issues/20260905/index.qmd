@@ -4,6 +4,8 @@ body-classes: issue-page
 toc-depth: 3
 ---
 
+2026-09-08 网页补录：保留来源日期，增加延伸阅读及分类资料；原微信群发布稿另存，不改写历史发送记录。
+
 ## 本期重点
 
 ### 新论文
@@ -15,6 +17,8 @@ toc-depth: 3
 <p class="myapa">Dray, S., Landais, C., &amp; Stantcheva, S. (2026). Wealth and property taxation in the United States. The Quarterly Journal of Economics (forthcoming). <a href="https://doi.org/10.1093/qje/qjag038" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://stantcheva.scholars.harvard.edu/resource/draylandaisstantchevawealthpropertytaxuspdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Wealth%20and%20property%20taxation%20in%20the%20United%20States" target="_blank" rel="noopener noreferrer">Google</a></p>
 
 论文结合历史财产税记录与普查估值资料，重建美国州、县和全国的长期财富序列。关键步骤是用评估值与市场值的比例校正税册数据，适合关注财富测量与地区差距的读者；这些差异本身不能解释为财产税的因果效应。
+
+标签：<a class="tag-link" href="?q=QJE&amp;show-results=1" title="全站搜索：QJE">QJE</a> · <a class="tag-link" href="?q=Forthcoming&amp;show-results=1" title="全站搜索：Forthcoming">Forthcoming</a>
 
 
 
@@ -28,6 +32,8 @@ toc-depth: 3
 
 作者利用德国制造业企业面板调查，发现销售增长异常偏低或偏高时，管理者都更感到不确定。论文区分主观不确定性与条件波动率，为企业预期的测量提供参考。PDF 为作者稿，与正式发表版可能存在差异。
 
+标签：<a class="tag-link" href="?q=AER&amp;show-results=1" title="全站搜索：AER">AER</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%BC%8F%E5%8F%91%E8%A1%A8&amp;show-results=1" title="全站搜索：正式发表">正式发表</a>
+
 
 
 :::
@@ -40,23 +46,13 @@ toc-depth: 3
 
 binsreg 2.2 于 2026-08-21 发布，包含 binsreg、binsqreg、binsglm、binstest 等函数，可用于分箱回归、置信区间、形状检验及相关可视化，并支持协变量调整和聚类推断。分箱图本身不能确立因果关系。
 
+标签：<a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0&amp;show-results=1" title="全站搜索：软件更新">软件更新</a> · <a class="tag-link" href="?q=binsreg&amp;show-results=1" title="全站搜索：binsreg">binsreg</a>
+
 <a href="https://cran.r-project.org/package=binsreg" target="_blank" rel="noopener noreferrer">CRAN</a>
 
 :::
 
-## 延伸信息
-
-### 新推文
-
-::: {.brief-entry}
-
-#### 连享会 · AI-Agent 数据分析实战 {#lianxh-ai-agent-data-analysis}
-
-AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适合关注数据处理与研究实践的读者。课程由杨楷主讲，安排在 10 月 17、24、31 日线上直播。
-
-<a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
-
-:::
+## 延伸阅读
 
 ### 新论文
 
@@ -67,6 +63,104 @@ AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适�
 <p class="myapa">Chen, Y., Hoffman, M., Xu, H., &amp; Yuan, Z. (2026). Empowering inclusive work. NBER Working Paper No. 35372. <a href="https://doi.org/10.3386/w35372" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Empowering%20inclusive%20work" target="_blank" rel="noopener noreferrer">Google</a></p>
 
 这篇 NBER 工作论文使用中国外卖平台数据，围绕文字转语音工具上线构建双重差分设计。作者报告，听障或听力受损骑手的配送表现、劳动供给与留任均有改善；阅读时可重点关注辅助技术的识别设计及结果的适用范围。
+
+标签：<a class="tag-link" href="?q=%E8%BE%85%E5%8A%A9%E6%8A%80%E6%9C%AF&amp;show-results=1" title="全站搜索：辅助技术">辅助技术</a> · <a class="tag-link" href="?q=%E5%8C%85%E5%AE%B9%E6%80%A7%E5%B0%B1%E4%B8%9A&amp;show-results=1" title="全站搜索：包容性就业">包容性就业</a>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 平稳与非平稳变量混在一起，如何提取共同周期？ {#arxiv-2608-23732}
+
+<p class="myapa">Hamilton, J. D., Ma, X., &amp; Xi, J. (2026). Principal component analysis for a mix of stationary and nonstationary variables. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.23732" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.23732.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Principal%20component%20analysis%20for%20a%20mix%20of%20stationary%20and%20nonstationary%20variables" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究混合平稳与非平稳变量的主成分分析，目标是提取共同周期成分，而无需事先逐一判定变量的积分性质。作者用 FRED-MD 数据展示这一思路。阅读时可关注变量预处理如何影响共同因子的含义，以及该方法所需的时间序列条件；它不意味着任何趋势数据都可以直接做普通 PCA。
+
+标签：<a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 统计显著的发现，有多大概率在复现中再次显著？ {#arxiv-2608-23257}
+
+<p class="myapa">Vu, P. &amp; Faridani, S. (2026). How replicable are statistically significant findings? arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.23257" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.23257.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=How%20replicable%20are%20statistically%20significant%20findings%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文把原研究的显著性水平与复现成功概率联系起来，并与实验经济学、心理学和社会科学的实际复现结果比较。它帮助区分“原结果显著”和“后续研究有较高把握再次检出”。这些概率依赖统计模型及原研究的信息，不能用单个 p 值直接裁定一篇论文是否可靠。
+
+标签：<a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：统计功效">统计功效</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a>
+
+<small>来源日期：2026-08-24；补录：2026-09-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 矩条件轻微错设时，如何调整 GMM 推断？ {#arxiv-2608-23925}
+
+<p class="myapa">Kline, P. (2026). Repairing locally misspecified GMM: An empirical Bayes approach. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.23925" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.23925.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Repairing%20locally%20misspecified%20GMM%3A%20An%20empirical%20Bayes%20approach" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文允许矩条件存在可交换的局部错设误差，利用较多限制条件估计错设分布，再进行偏差调整和经验贝叶斯推断。教育回报的工具变量应用说明了问题的实证背景。可重点阅读“局部错设”与推断区间的关系；这一框架不保证修复任意无效工具变量。
+
+标签：<a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 动态离散选择与逆强化学习如何对话？ {#arxiv-2608-24362}
+
+<p class="myapa">Rawat, P. &amp; Rust, J. (2026). Dynamic discrete choice and inverse reinforcement learning: Inferring preferences and beliefs from human behavior. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.24362" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.24362.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Dynamic%20discrete%20choice%20and%20inverse%20reinforcement%20learning%3A%20Inferring%20preferences%20and%20beliefs%20from%20human%20behavior" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+综述将经济学中的动态离散选择与机器学习中的逆强化学习放在共同的马尔可夫决策框架下，讨论偏好、信念及行为数据之间的关系。读者可比较 soft Q 与 logit 选择概率在特定条件下的对应，以及两类估计方法如何应对计算负担。拟合行为并不自动解决偏好与信念的分别识别。
+
+标签：<a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 离散响应模型部分识别时，如何做贝叶斯推断？ {#arxiv-2608-25814}
+
+<p class="myapa">Tamer, E. &amp; Walker, C. D. (2026). Nonparametric Bayesian inference for partially identified discrete response models. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.25814" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.25814.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Nonparametric%20Bayesian%20inference%20for%20partially%20identified%20discrete%20response%20models" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文从条件选择概率出发刻画识别集，使用高斯过程先验进行非参数贝叶斯推断，讨论如何避免把连续条件变量粗略离散化。它还分析模型错设的检测问题。适合关注离散选择与部分识别的读者，阅读时应区分先验带来的后验信息与模型本身能够识别的信息。
+
+标签：<a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：贝叶斯推断">贝叶斯推断</a>
+
+<small>来源日期：2026-08-26；补录：2026-09-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 时间平均与长差分为什么会改变长期关系估计？ {#arxiv-2608-25901}
+
+<p class="myapa">Ng, S. &amp; Gospodinov, N. (2026). Cross-section estimation of long-run relations using time-compressed data. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.25901" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.25901.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Cross-section%20estimation%20of%20long-run%20relations%20using%20time-compressed%20data" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究把面板压缩为时间均值或长差分后，用横截面估计长期关系的条件。非平稳序列的横截面离散程度可能增强信号，但压缩也会改变噪声，均值回复又会削弱这种优势。可用于理解长期回归的取样与变换选择，不能把时间平均视为消除内生性的通用办法。
+
+标签：<a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：长期关系">长期关系</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a>
+
+<small>来源日期：2026-08-26；补录：2026-09-08</small>
 
 
 
@@ -80,7 +174,23 @@ AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适�
 
 DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.11.4 于 2026-08-10 发布。它将交叉拟合与正交得分封装为接口，可用于复杂控制变量下的因果参数估计；使用时仍需明确识别假设。
 
+标签：<a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：因果机器学习">因果机器学习</a> · <a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E6%8B%9F%E5%90%88&amp;show-results=1" title="全站搜索：交叉拟合">交叉拟合</a>
+
 <a href="https://docs.doubleml.org/" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+::: {.brief-entry}
+
+#### Stata 新命令：xtbfkbreak 估计异质面板的共同结构突变 {#stata-xtbfkbreak-20260820}
+
+命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 ssc install xtbfkbreak；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。
+
+标签：<a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a>
+
+<small>来源日期：2026-08-20；补录：2026-09-08</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459789.html" target="_blank" rel="noopener noreferrer">官方文档</a>
 
 :::
 

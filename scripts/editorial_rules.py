@@ -64,7 +64,7 @@ def check_editorial(issue):
             try:
                 value = item[field]
                 when = date.fromisoformat(value + "-01" if len(value) == 7 else value)
-                if when > date.fromisoformat(issue["date"]):
+                if when > date.fromisoformat(issue.get('revised_date', issue['date']) if field=='retrieved_date' else issue['date']):
                     errors.append(f"{label}: {field} 晚于本期日期。")
             except (TypeError, ValueError):
                 errors.append(f"{label}: {field} 日期格式不合法。")

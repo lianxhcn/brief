@@ -26,4 +26,4 @@
 
 维护者可阅读[维护说明](docs/maintainer-guide.md)，了解内容校验、本地构建和发布步骤。
 
-维护任务开始前先读 [AGENTS.md](AGENTS.md) 和其中列明的 canonical rules。当前新正式期次的生成与发布暂停，恢复条件见 [自动化规则 A-02](docs/automation-rules.md)。
+维护任务开始前先读 [AGENTS.md](AGENTS.md) 和其中列明的 canonical rules。当前每日 07:15 (北京时间) 流程按 [自动化规则](docs/automation-rules.md) 执行；微信群纯文本保存在 `publish/wechat/`，由人工转发。

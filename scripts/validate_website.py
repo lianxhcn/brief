@@ -4,9 +4,9 @@ import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
-from build_catalog_pages import public_issues
+from build_catalog_pages import public_issues, entries, catalog_outputs, PAGE_SIZE
 from website_content import INTERNAL_PHRASES
-from site_config import ROOT, date_compact
+from site_config import ROOT, date_compact, issue_title
 
 class Links(HTMLParser):
     def __init__(self, text):
@@ -39,7 +39,26 @@ class VisibleText(HTMLParser):
 def validate(output):
     errors = []
     search = json.loads((output / 'search.json').read_text(encoding='utf-8'))
-    public = [output / 'index.html', output / 'archive.html', *sorted((output / 'topics').glob('*.html'))]
+    issues = public_issues()
+    expected = catalog_outputs(issues, entries(issues))
+    public = [output / Path(name).with_suffix('.html') for name in expected]
+    for path in public:
+        if not path.exists(): errors.append(f'{path.relative_to(output)}: 应生成的分页缺失')
+    if errors: return errors
+    for path in public:
+        text = path.read_text(encoding='utf-8')
+        if path.parent.name == 'topics' and path.stem != 'index':
+            count = len(re.findall(r'<article\b[^>]*class="catalog-card"', text))
+            if count > PAGE_SIZE: errors.append(f'{path.name}: 栏目单页超过 10 条')
+        if path.stem.startswith('archive'):
+            if text.count('class="archive-year"') > 1 or text.count('class="archive-month"') > 12:
+                errors.append(f'{path.name}: 归档超过一个完整年份')
+            if '每页最多 10 期' in text:
+                errors.append(f'{path.name}: 残留旧归档说明')
+    for record in search:
+        if re.search(r'(?:^|/)(?:logs|docs)/', record.get('href', '')):
+            errors.append('搜索索引包含内部文档或日志')
+    public += sorted((output / 'history').glob('*/index.html'))
     public += [output / 'issues' / date_compact(i['date']) / 'index.html' for i in public_issues()]
     indexes = [output / 'search.json', *output.glob('*.xml'), *output.glob('*.rss'), *output.glob('*listing*.json')]
     for path in [*public, *indexes]:
@@ -50,6 +69,14 @@ def validate(output):
         route = 'issues/' + date_compact(issue['date']) + '/index.html'
         if not any(route in record.get('href', '') for record in search):
             errors.append(f'{route}: 正式期次未进入搜索')
+    from public_history import collections, resolve
+    for slug, data in collections():
+        route = 'history/' + slug + '/index.html'
+        records = [r for r in search if route in r.get('href', '')]
+        if not records: errors.append(route + ': 历史集合未进入搜索')
+        text = ' '.join(r.get('text', '') + ' ' + r.get('title', '') for r in records)
+        for row in data['entries']:
+            if resolve(row)['title'] not in text: errors.append(route + ': 搜索缺历史条目 ' + resolve(row)['id'])
     for path in public:
         visible = ' '.join(VisibleText(path.read_text(encoding='utf-8')).parts)
         for phrase in (*INTERNAL_PHRASES, '该页面内容'):
@@ -61,6 +88,13 @@ def validate(output):
                 errors.append(f'搜索摘要含内部文案 {phrase}')
         if re.search(r'<(?:p|div|a)\b|\]\(https?://', record.get('text', '')):
             errors.append('搜索摘要含原始标记')
+    for path in public:
+        if path.name == 'index.html' and path.parent == output or path.stem.startswith('archive'):
+            raw = path.read_text(encoding='utf-8')
+            for href, body in re.findall(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', raw, re.S):
+                match = re.search(r'issues/(\d{4})(\d{2})(\d{2})/(?:index.html)?$', href)
+                if match and ''.join(VisibleText(body).parts).strip() != issue_title('-'.join(match.groups())):
+                    errors.append(f'{path.name}: 期次入口使用旧标题')
     for path in public:
         parsed = Links(path.read_text(encoding='utf-8'))
         for href in parsed.hrefs:

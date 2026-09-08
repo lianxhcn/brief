@@ -1,5 +1,6 @@
 ---
 title: "连享会 · 快讯"
+body-classes: home-page
 ---
 
 <div class="brief-cover">
@@ -13,14 +14,16 @@ title: "连享会 · 快讯"
 ## 最新期次
 
 - [连享会 · 快讯 | 2026.09.08](issues/20260908/)
+- [连享会 · 快讯 | 2026.09.05](issues/20260905/)
+- [连享会 · 快讯 | 2026.09.04](issues/20260904/)
 
 ## 按内容浏览
 
 <div class="catalog-grid catalog-grid--overview">
-<article class="catalog-card"><h3><a href="topics/lianxh-new.qmd">新推文</a></h3><p>lianxh.cn 最新推文。</p></article>
-<article class="catalog-card"><h3><a href="topics/research-frontier.qmd">新论文</a></h3><p>最新顶刊论文和工作论文。</p></article>
-<article class="catalog-card"><h3><a href="topics/methods-tools.qmd">新方法</a></h3><p>新发布的 Stata、R、Python 命令和 package。</p></article>
-<article class="catalog-card"><h3><a href="topics/academic-updates.qmd">会议征稿</a></h3><p>最新会议和征文信息。</p></article>
+<article class="catalog-card"><h3><a href="topics/lianxh-new.qmd">新推文</a></h3></article>
+<article class="catalog-card"><h3><a href="topics/research-frontier.qmd">新论文</a></h3></article>
+<article class="catalog-card"><h3><a href="topics/methods-tools.qmd">新方法</a></h3></article>
+<article class="catalog-card"><h3><a href="topics/academic-updates.qmd">会议征稿</a></h3></article>
 </div>
 
 使用顶部搜索查找标题、工具或关键词。
@@ -28,4 +31,4 @@ title: "连享会 · 快讯"
 
 可按内容类型查看[栏目索引](topics/index.qmd)，或在[往期](archive.qmd)中按日期查阅公开期次。
 
-<div class="home-promotions"><figure class="course-poster" data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer"><img src="https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/brief-aic-fig01-course-poster-20260906-183956.svg" alt="AI-Agent 数据分析专题：2026-10-17、2026-10-24、2026-10-31" width="1200" height="540" loading="lazy"></a></figure></div>
+<div class="home-promotions"><figure class="course-poster" data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a class="course-poster-desktop" href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer"><img src="https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/brief-aic-fig01-course-poster-20260906-183956.svg" alt="AI-Agent 数据分析专题：2026-10-17、2026-10-24、2026-10-31" width="1200" height="540" loading="lazy"></a><figcaption class="course-mobile-card"><p class="course-mobile-label">连享会 · 近期课程</p><p class="course-mobile-title">AI-Agent 数据分析专题</p><p class="course-mobile-dates">2026-10-17<br>2026-10-24<br>2026-10-31</p><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">查看课程详情 →</a></figcaption></figure></div>

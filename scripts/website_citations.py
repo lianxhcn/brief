@@ -14,6 +14,16 @@ def safe_url(value):
 def external_link(label, url):
     return f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a>'
 
+def arxiv_pdf(m):
+    """由 arXiv 标识构造 PDF，不把网络访问作为前置条件。"""
+    values = []
+    for key in ('arxiv_id', 'doi_url', 'homepage_url'):
+        value = m.get(key, '')
+        match = re.search(r'(?:arXiv[.:/]|arxiv.org/abs/|^)(\d{4}\.\d{4,5})(?:v\d+)?$', value, re.I)
+        if match: values.append(match[1])
+    if len(set(values)) > 1: raise ValueError('arXiv 编号相互冲突')
+    return 'https://arxiv.org/pdf/' + values[0] + '.pdf' if values else ''
+
 def format_myapa(m):
     # 标题由编辑提供 sentence case，避免 lower() 损坏专有名词。
     authors = m['authors']
@@ -39,7 +49,9 @@ def format_myapa(m):
         links.append(external_link('Link', url))
     # PDF 核验记录绑定具体 URL；不以 DOI 冒充 PDF。
     pdf = m.get('pdf', {})
-    if (safe_url(pdf.get('url')) and pdf.get('public_access') is True
+    if arxiv_pdf(m):
+        links.append(external_link('PDF', arxiv_pdf(m)))
+    elif (safe_url(pdf.get('url')) and pdf.get('public_access') is True
             and pdf.get('retrieved_date') and safe_url(pdf.get('source_url'))
             and urlsplit(pdf['url']).netloc != 'doi.org'):
         links.append(external_link('PDF', pdf['url']))
@@ -51,18 +63,17 @@ def bibliography_metadata(item):
     metadata = item.get('bibliography') or json.loads(path.read_text(encoding='utf-8')).get(item['id'])
     if metadata is None:
         raise ValueError(f"{item['id']}: 缺少已核验的网站引文元数据")
-    # 兼容期 sidecar 必须继续匹配共享事实，避免两端元数据漂移。
-    if not item.get('bibliography'):
-        citation = item.get('citation', '')
-        if metadata['title'].casefold() not in citation.casefold():
-            raise ValueError('网站完整题名与共享事实不一致')
-        if metadata.get('doi_url') != item.get('doi_url'):
-            raise ValueError('网站 DOI 与共享事实不一致')
-        if metadata.get('pdf', {}).get('url') != item.get('pdf_url'):
-            raise ValueError('网站 PDF 核验记录与共享事实不一致')
-        positions = [citation.find(author) for author in metadata['authors']]
-        if any(p < 0 for p in positions) or positions != sorted(positions):
-            raise ValueError('网站作者顺序与共享事实不一致')
+    # 原生与 sidecar 执行相同的共享字段检查。
+    citation = item.get('citation', '')
+    if metadata['title'].casefold() not in citation.casefold():
+        raise ValueError('网站完整题名与共享事实不一致')
+    if metadata.get('doi_url') != item.get('doi_url'):
+        raise ValueError('网站 DOI 与共享事实不一致')
+    if metadata.get('pdf', {}).get('url') != item.get('pdf_url'):
+        raise ValueError('网站 PDF 核验记录与共享事实不一致')
+    positions = [citation.find(author) for author in metadata['authors']]
+    if any(p < 0 for p in positions) or positions != sorted(positions):
+        raise ValueError('网站作者顺序与共享事实不一致')
     return metadata
 
 

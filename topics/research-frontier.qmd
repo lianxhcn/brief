@@ -6,42 +6,83 @@ title: "新论文"
 
 <p class="catalog-intro"></p>
 
+<p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
+
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 2 页 · 共 18 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-2.html">末页</a></nav>
+
 <div class="catalog-grid">
 <article class="catalog-card">
+<h3>高维协变量下，实验分组能平衡到什么程度？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文考察实验设计在有限样本中接近效率界的速度，说明协变量维数会限制对广泛平滑结果模型的统一平衡能力。作者随后针对复杂度受限的函数类设计分组方案，并讨论与匹配结合。启发是先明确需要平衡的结果模型结构，而非盲目增加分组时使用的协变量。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a></p>
+<p><a href="../issues/20260908/#arxiv-2608-18057">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>非参数双向异质性：代理变量何时能区分潜在类型？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文用双变量回归函数的奇异值分解构造潜在类型的代理变量，研究这些代理是否能够一一对应于双向未观测异质性。在把产生相同条件响应的类型归为等价类后，作者进一步给出有限个主导特征函数实现识别的条件。重点是识别所需的单射性，不能将其理解为任意少量因子都能控制所有异质性。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a></p>
+<p><a href="../issues/20260908/#arxiv-2608-27155">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>配对实验出现样本流失后，是否必须删除不完整配对？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>在流失独立于处理状态和潜在结果的条件下，论文提出利用完整配对与剩余单个观测的置换检验，并讨论结合配对内、配对间比较的加权估计。读者可以据此重新审视配对固定效应导致的数据舍弃。方法的前提是独立流失，不能推广为对选择性失访同样有效。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a></p>
+<p><a href="../issues/20260908/#arxiv-2608-18973">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>网络相关数据中的多参数联合推断</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a></p>
+<p><a href="../issues/20260908/#arxiv-2608-26522">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>短动态空间面板如何同时处理共同冲击？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文研究大 N、固定 T 的动态空间面板，把空间同时性与交互效应放在同一框架中。作者利用另一种方程组织方式及空间扩展随机载荷设定构造准似然，以处理逐个估计载荷产生的附带参数问题。适合比较空间依赖与共同因子处理方式；相关推断仍依赖论文给出的载荷和误差结构。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a></p>
+<p><a href="../issues/20260908/#arxiv-2608-22499">查看本期</a></p>
+</article>
+<article class="catalog-card">
 <h3>p-hacking 与选择性发表如何共同影响估计</h3>
-<p class="catalog-meta">日期：2026-09-08</p>
-<p>这篇工作论文研究 p-hacking 与选择性发表之间的关系。适合关注研究选择、发表机制和经验结果解释的读者。</p>
-<p class="catalog-tags">未设置附加标签。</p>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文把研究者反复尝试规格的行为与期刊选择显著结果的机制放在同一框架中，区分快速与缓慢的 p-hacking 情形。两者的互动可能使发表偏差朝不同方向变化，因此单看已发表结果难以推断选择机制。该文研究统计偏差的形成，不能据此把选择性报告当作可取的研究实践。</p>
+<p class="catalog-tags"></p>
 <p><a href="../issues/20260908/#arxiv-2609-05372">查看本期</a></p>
 </article>
 <article class="catalog-card">
+<h3>DID 加入时变中介变量后，系数还是直接效应吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文讨论处理会改变内生时变中介变量的 DID 设计：通常的 DID 量可能混合直接效应、间接效应与趋势偏差，直接在双向固定效应回归中控制中介也未必识别直接效应。作者在所列假设下利用中介路径条件化识别相应参数。机制分析需要新的识别论证，不能只凭加入中介后系数缩小来下结论。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a></p>
+<p><a href="../issues/20260908/#arxiv-2608-18375">查看本期</a></p>
+</article>
+<article class="catalog-card">
 <h3>DID 中如何回答州层面的政策问题</h3>
-<p class="catalog-meta">日期：2026-09-08</p>
+<p class="catalog-meta">期次日期：2026-09-08</p>
 <p>这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。</p>
-<p class="catalog-tags">未设置附加标签。</p>
+<p class="catalog-tags"></p>
 <p><a href="../issues/20260908/#arxiv-2609-01467">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>QJE：从历史税册重建美国财富</h3>
-<p class="catalog-meta">日期：2026-09-05</p>
-<p>论文结合历史财产税记录与普查估值资料，重建美国州、县和全国的长期财富序列。关键步骤是用评估值与市场值的比例校正税册数据，适合关注财富测量与地区差距的读者；这些差异本身不能解释为财产税的因果效应。</p>
-<p class="catalog-tags"><strong>方法：</strong>历史数据测量；<strong>研究领域：</strong>经济史、公共经济学；<strong>标签：</strong>QJE、Forthcoming</p>
-<p><a href="../issues/20260905/#dray-landais-stantcheva-wealth-tax-qje">查看本期</a></p>
+<h3>统计显著的发现，有多大概率在复现中再次显著？</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>论文把原研究的显著性水平与复现成功概率联系起来，并与实验经济学、心理学和社会科学的实际复现结果比较。它帮助区分“原结果显著”和“后续研究有较高把握再次检出”。这些概率依赖统计模型及原研究的信息，不能用单个 p 值直接裁定一篇论文是否可靠。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：统计功效">统计功效</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：统计功效">统计功效</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a></p>
+<p><a href="../issues/20260905/#arxiv-2608-23257">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>Empowering Inclusive Work</h3>
-<p class="catalog-meta">日期：2026-09-05</p>
-<p>这篇 NBER 工作论文使用中国外卖平台数据，围绕文字转语音工具上线构建双重差分设计。作者报告，听障或听力受损骑手的配送表现、劳动供给与留任均有改善；阅读时可重点关注辅助技术的识别设计及结果的适用范围。</p>
-<p class="catalog-tags"><strong>方法：</strong>双重差分；<strong>研究领域：</strong>劳动经济学、平台经济；<strong>标签：</strong>辅助技术、包容性就业</p>
-<p><a href="../issues/20260905/#chen-hoffman-xu-yuan-inclusive-work">查看本期</a></p>
-</article>
-<article class="catalog-card">
-<h3>AER：企业如何感知不确定性？</h3>
-<p class="catalog-meta">日期：2026-09-05</p>
-<p>作者利用德国制造业企业面板调查，发现销售增长异常偏低或偏高时，管理者都更感到不确定。论文区分主观不确定性与条件波动率，为企业预期的测量提供参考。PDF 为作者稿，与正式发表版可能存在差异。</p>
-<p class="catalog-tags"><strong>方法：</strong>面板调查、预期测量；<strong>研究领域：</strong>企业经济学、宏观经济学；<strong>标签：</strong>AER、正式发表</p>
-<p><a href="../issues/20260905/#bachmann-firm-uncertainty-aer">查看本期</a></p>
+<h3>离散响应模型部分识别时，如何做贝叶斯推断？</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>论文从条件选择概率出发刻画识别集，使用高斯过程先验进行非参数贝叶斯推断，讨论如何避免把连续条件变量粗略离散化。它还分析模型错设的检测问题。适合关注离散选择与部分识别的读者，阅读时应区分先验带来的后验信息与模型本身能够识别的信息。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：贝叶斯推断">贝叶斯推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：贝叶斯推断">贝叶斯推断</a></p>
+<p><a href="../issues/20260905/#arxiv-2608-25814">查看本期</a></p>
 </article>
 </div>
+
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 2 页 · 共 18 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-2.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

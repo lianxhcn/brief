@@ -1,12 +1,17 @@
 project:
   type: website
   output-dir: _site
+  pre-render:
+    - scripts/build_website.py
   post-render:
     - scripts/build_legacy_redirects.py
     - scripts/validate_website.py
   render:
     - index.qmd
     - archive.qmd
+    - archive-[0-9]*.qmd
+    - "!logs/**"
+    - "!docs/**"
     - topics/
     - issues/
     - history/
@@ -33,6 +38,11 @@ website:
       - href: archive.qmd
         text: 往期
     right:
+      - href: https://github.com/lianxhcn/brief
+        icon: github
+        aria-label: GitHub 仓库
+        target: _blank
+        rel: noopener noreferrer
       - href: https://www.lianxh.cn/
         text: 官网
         target: _blank

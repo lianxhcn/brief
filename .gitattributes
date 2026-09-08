@@ -1,2 +1,6 @@
 # C-15 requires one space after each plain-text URL.
 publish/wechat/*.txt whitespace=-blank-at-eol
+
+# Immutable release manifests use normalized UTF-8 / LF on all platforms.
+content/releases/** text eol=lf
+content/releases/*/wechat.txt whitespace=-blank-at-eol

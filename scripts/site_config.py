@@ -42,3 +42,8 @@ def is_demo_issue(issue: dict) -> bool:
 def is_public_issue(issue: dict) -> bool:
     """Return whether an issue belongs in visitor-facing lists."""
     return issue.get("status") == "published" and not is_demo_issue(issue)
+
+def issue_title(value: str | dict) -> str:
+    """网站统一名称从已验证日期生成，避免读取旧数据 title。"""
+    day = value['date'] if isinstance(value, dict) else value
+    return '连享会 · 快讯 | ' + date.fromisoformat(day).strftime('%Y.%m.%d')

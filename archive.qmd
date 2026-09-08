@@ -1,15 +1,26 @@
 ---
 title: "往期"
+toc: false
 ---
 
-下列链接直达按日期生成的网页版。
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
+
+<p class="catalog-intro">按年份和月份展开，查阅每日快讯</p>
 
 [历史精选：2026-08-15 至 2026-09-07](history/20260815-20260907/)
 
-## 2026-09
 
-- [2026-09-08｜连享会 · 快讯](issues/20260908/)
-- [2026-09-05｜连享会 · 快讯](issues/20260905/)
-- [2026-09-04｜连享会 · 快讯](issues/20260904/)
+
+<div class="archive-tree">
+<details class="archive-year" open><summary>2026 年 <span>3 期</span></summary>
+<details class="archive-month" open><summary>9 月 <span>3 期</span></summary>
+<ul class="archive-days">
+<li><a href="issues/20260908/">连享会 · 快讯 | 2026.09.08</a></li>
+<li><a href="issues/20260905/">连享会 · 快讯 | 2026.09.05</a></li>
+<li><a href="issues/20260904/">连享会 · 快讯 | 2026.09.04</a></li>
+</ul>
+</details>
+</details>
+</div>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

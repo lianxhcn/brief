@@ -6,28 +6,83 @@ title: "新推文"
 
 <p class="catalog-intro"><a href="https://www.lianxh.cn" target="_blank" rel="noopener noreferrer">lianxh.cn 最新推文</a></p>
 
+<p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
+
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-3.html">末页</a></nav>
+
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？</h3>
-<p class="catalog-meta">日期：2026-09-08</p>
+<p class="catalog-meta">期次日期：2026-09-08</p>
 <p>文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。</p>
-<p class="catalog-tags">未设置附加标签。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=regsensitivity&amp;show-results=1" title="全站搜索：regsensitivity">regsensitivity</a></p>
 <p><a href="../issues/20260908/#post-1916">查看本期</a></p>
 </article>
 <article class="catalog-card">
 <h3>文本转成 Embedding 后，还能直接拿来做因果推断吗？</h3>
-<p class="catalog-meta">日期：2026-09-08</p>
+<p class="catalog-meta">期次日期：2026-09-08</p>
 <p>文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。</p>
-<p class="catalog-tags">未设置附加标签。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Embedding&amp;show-results=1" title="全站搜索：Embedding">Embedding</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
 <p><a href="../issues/20260908/#post-1921">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>连享会 · AI-Agent 数据分析实战</h3>
-<p class="catalog-meta">日期：2026-09-05</p>
-<p>AI-Agent 数据分析专题介绍 AI 工具如何进入实证研究流程，适合关注数据处理与研究实践的读者。课程由杨楷主讲，安排在 10 月 17、24、31 日线上直播。</p>
-<p class="catalog-tags"><strong>标签：</strong>AI-Agent、数据分析</p>
-<p><a href="../issues/20260905/#lianxh-ai-agent-data-analysis">查看本期</a></p>
+<h3>文生图很烧 Tokens 吗？科研配图的选择逻辑</h3>
+<p class="catalog-meta">来源日期：2026-09-06</p>
+<p>按用途区分文生图、代码绘图、矢量排版和界面截图，讨论科研配图如何先确定事实与布局。适合为公式、统计图和概念插图选择合适的制作路径。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%85%8D%E5%9B%BE&amp;show-results=1" title="全站搜索：科研配图">科研配图</a> · <a class="tag-link" href="?q=%E6%96%87%E7%94%9F%E5%9B%BE&amp;show-results=1" title="全站搜索：文生图">文生图</a></p>
+<p><a href="../history/20260815-20260907/#post-1922">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>Logit + XGBoost：一种可解释的混合信用评分模型</h3>
+<p class="catalog-meta">来源日期：2026-09-05</p>
+<p>介绍以 Logit 为主体、以 XGBoost 学习残差的混合评分思路，并讨论逐笔预测的透明分支占比。文章也提醒读者区分银行账户持有标签与贷款违约标签。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E8%AF%84%E5%88%86&amp;show-results=1" title="全站搜索：信用评分">信用评分</a> · <a class="tag-link" href="?q=Logit&amp;show-results=1" title="全站搜索：Logit">Logit</a> · <a class="tag-link" href="?q=XGBoost&amp;show-results=1" title="全站搜索：XGBoost">XGBoost</a></p>
+<p><a href="../history/20260815-20260907/#post-1918">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 参与金融决策，为什么不能只看准确率？</h3>
+<p class="catalog-meta">来源日期：2026-09-05</p>
+<p>围绕信用解释、欺诈识别和文本字段抽取，讨论平均准确率之外的稳定性与可审计性。文章提出保存模型、输入和规则版本，并区分结果可复现与判断正确。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：金融决策">金融决策</a> · <a class="tag-link" href="?q=AI%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：AI评价">AI评价</a></p>
+<p><a href="../history/20260815-20260907/#post-1917">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(下)：行业×年份固定效应、IFE 与 CCE</h3>
+<p class="catalog-meta">来源日期：2026-09-04</p>
+<p>在异质共同冲击框架下，比较组别与年份交互、IFE 和 CCE 的控制思路。文章强调因子数、面板条件与识别变异，应结合上篇理解不同方法的代价。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%90%8C%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：共同冲击">共同冲击</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：交互固定效应">交互固定效应</a></p>
+<p><a href="../history/20260815-20260907/#post-1914">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(上)：从扰动项到异质暴露</h3>
+<p class="catalog-meta">来源日期：2026-09-04</p>
+<p>从企业对同一利率变化的不同暴露出发，解释年份固定效应能吸收的年度加性变化。文章讨论何时需要暴露度与冲击的交互项，并区分识别问题与标准误问题。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B4%E4%BB%BD%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：年份固定效应">年份固定效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：异质暴露">异质暴露</a></p>
+<p><a href="../history/20260815-20260907/#post-1915">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>女性 CEO 为何这么少？顶刊论文构造识别策略的思路</h3>
+<p class="catalog-meta">来源日期：2026-09-03</p>
+<p>通过重建 CEO 候选集合，解释如何区分候选池、能力判断与董事会偏好。文章把机制识别与结构模型连接起来，也说明商业数据及候选池设定的限制。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A5%B3%E6%80%A7CEO&amp;show-results=1" title="全站搜索：女性CEO">女性CEO</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E7%AD%96%E7%95%A5&amp;show-results=1" title="全站搜索：识别策略">识别策略</a></p>
+<p><a href="../history/20260815-20260907/#post-1911">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>ReproAI-下：Stata 复现包实测——ReproAI 能找到漏洞吗？</h3>
+<p class="catalog-meta">来源日期：2026-09-03</p>
+<p>文章用预先设置缺陷的 Stata 小型包考察静态检查，区分结构性问题与样本逻辑问题。适合与上篇连读，理解检出报告及未生成修复副本的边界。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ReproAI&amp;show-results=1" title="全站搜索：ReproAI">ReproAI</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a></p>
+<p><a href="../history/20260815-20260907/#post-1913">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>ReproAI-上：向编辑部提交论文复现包前的自动预检</h3>
+<p class="catalog-meta">来源日期：2026-09-03</p>
+<p>介绍 ReproAI 的复现包预检流程：静态检查、问题排序、副本修订和按需运行。适合作为提交前材料检查入口，预检结果仍需结合数据逻辑与研究判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ReproAI&amp;show-results=1" title="全站搜索：ReproAI">ReproAI</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a></p>
+<p><a href="../history/20260815-20260907/#post-1912">查看历史条目</a></p>
 </article>
 </div>
+
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-3.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

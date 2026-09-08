@@ -53,8 +53,8 @@ class UserReviewTests(unittest.TestCase):
     def test_archive_single_date(self):
         # 固定两期输入，归档标签测试不依赖生产期次数量。
         fixtures = [dict(date='2026-09-05'), dict(date='2026-09-04')]
-        labels = re.findall(r'^- \[([^]]+)\]', archive_page(fixtures), re.M)
-        self.assertEqual(labels, ['2026-09-05｜连享会 · 快讯', '2026-09-04｜连享会 · 快讯'])
+        labels = re.findall(r'<li><a[^>]*>([^<]+)</a></li>', archive_page(fixtures))
+        self.assertEqual(labels, ['连享会 · 快讯 | 2026.09.05', '连享会 · 快讯 | 2026.09.04'])
 
     def test_nav_and_cards(self):
         home = home_page(public_issues())
@@ -63,7 +63,7 @@ class UserReviewTests(unittest.TestCase):
         for _, label, description in SECTIONS:
             self.assertIn('text: ' + label, config)
             self.assertIn('>' + label + '</a>', home)
-            self.assertIn(description, home)
+            self.assertNotIn(description, home)
 
 if __name__ == '__main__':
     unittest.main()

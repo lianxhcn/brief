@@ -34,6 +34,17 @@ def main() -> int:
         errors.append("首页渲染结果缺少搜索功能")
     if "navbar-toggler" not in home_html:
         errors.append("首页渲染结果缺少窄屏折叠菜单触发器")
+    from html.parser import HTMLParser
+    class NavLinks(HTMLParser):
+        def __init__(self): super().__init__(); self.links=[]
+        def handle_starttag(self, tag, attrs):
+            a=dict(attrs)
+            if tag=='a': self.links.append(a)
+            elif tag=='i' and a.get('aria-label') and self.links: self.links[-1]['aria-label']=a['aria-label']
+    nav=NavLinks();nav.feed(home_html)
+    github=[a for a in nav.links if a.get('href')=='https://github.com/lianxhcn/brief']
+    if not github or github[0].get('aria-label') != 'GitHub 仓库' or github[0].get('target') != '_blank': errors.append('GitHub 导航可访问性或目标错误')
+    if home_html.find('https://github.com/lianxhcn/brief') > home_html.find('https://www.lianxh.cn/'): errors.append('GitHub 应位于官网左侧')
     styles = (ROOT / "styles.css").read_text(encoding="utf-8")
     if "overflow-x" in styles:
         errors.append("styles.css 不应为导航添加横向滚动")

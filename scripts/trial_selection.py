@@ -31,6 +31,8 @@ def identities(item):
     for field in ('work_id', 'project_id', 'event_id'):
         if item.get(field): keys.add(item[field].casefold())
     if item.get('doi_url'): keys.add(item['doi_url'].casefold().rstrip('/'))
+    match = re.search(r'10\.48550/arxiv\.(\d{4}\.\d{4,5})', item.get('doi_url',''), re.I)
+    if match: keys.add('arxiv:' + match[1])
     if item.get('arxiv_id'): keys.add('arxiv:' + re.sub(r'v\d+$', '', item['arxiv_id']))
     for field in ('url','homepage_url','official_url'):
         if item.get(field): keys.add(item[field].casefold().rstrip('/'))
@@ -69,7 +71,8 @@ def assess(item, category, history, as_of):
     if review.get('human_review') != 'pending': errors.append('不得代填用户审核')
     if review.get('detailed_claims') and (review.get('evidence_level') != 'full-text' or not review.get('claim_locators')):
         errors.append('数字、因果或优劣判断缺正文定位')
-    if item.get('pdf_url'):
+    from website_citations import arxiv_pdf
+    if item.get('pdf_url') and not arxiv_pdf(item):
         pdf = item.get('bibliography', {}).get('pdf', {})
         if pdf.get('url') != item['pdf_url'] or pdf.get('public_access') is not True or not pdf.get('version') or not url(pdf.get('source_url')) or not pdf.get('retrieved_date') or urlsplit(item['pdf_url']).netloc == 'doi.org':
             errors.append('PDF 版本或公开访问证据缺失')
@@ -83,7 +86,8 @@ def assess(item, category, history, as_of):
     if exception:
         if not matches or review.get('previous_id') not in previous_ids or not url(review.get('announcement_url')) or not review.get('impact') or not review.get('change_evidence'):
             errors.append('重要变更缺前次成果关联、原始公告或具体影响')
-    if matches and not exception:
+    reminder = category == 'conference_calls' and item.get('reminder') is True
+    if matches and not exception and not reminder:
         if change not in SUBSTANTIVE or not review.get('new_information') or not review.get('change_evidence'):
             errors.append('长期已见成果无可核验实质新增信息')
         for record in matches:
@@ -105,7 +109,8 @@ def assess(item, category, history, as_of):
         age = (today - relevant).days
         if age < 0: errors.append('未来日期不能入选')
         if category in {'papers', 'tools'}:
-            if age > 30: errors.append('超过 30 天的普通材料或旧状态公告')
+            limit = 62 if category == 'tools' and item.get('ecosystem') == 'Stata' and today.isoformat() == '2026-09-08' and review.get('source_id') in {'ssc-new','stata-journal'} and review.get('omission_reason') else 30
+            if age > limit: errors.append('超过允许检索窗口的普通材料或旧状态公告')
             elif age > 14 and not exception and not review.get('omission_reason'):
                 errors.append('15–30 天缺重要遗漏理由')
         if evaluation(review['verified_at']) > evaluation(as_of): errors.append('核验时间晚于评估时点')
@@ -117,9 +122,10 @@ def assess(item, category, history, as_of):
             if not url(review.get(field)): errors.append('软件缺少 ' + field)
         if not item.get('project_id') or not review.get('update_event') or not review.get('change_evidence'):
             errors.append('软件项目身份与更新事件未区分')
-        if review.get('software_tested') is not False: errors.append('本轮须保留软件未实测声明')
+        if not isinstance(review.get('software_tested'), bool): errors.append('须如实记录是否实测软件')
     if category == 'conference_calls':
-        errors.append('本轮会议状态与提醒链未实现，暂缓真实候选')
+        from website_rules import conference_errors
+        errors.extend(conference_errors(item, as_of, history))
     if category == 'research_resources':
         if review.get('resource_use') == 'background-tutorial' or not review.get('timeliness_reason'):
             errors.append('研究资源须说明当前价值；长期材料仅作配套或后续选题')

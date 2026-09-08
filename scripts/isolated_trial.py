@@ -103,6 +103,12 @@ def run(args):
             selected.append(candidate); seen.update(keys)
         decisions.append({'id':candidate.get('id'),'selected':not reasons,'reasons':reasons})
     issue = assemble_daily_issue(moment.date().isoformat(), selected)
+    issue['discovery'] = snapshot.get('discovery', [])
+    if snapshot.get('short_issue'): issue['short_issue'] = snapshot['short_issue']
+    if getattr(args, 'mode', 'daily') == 'conference':
+        issue['issue_type'] = 'conference-bulletin'
+        for c in CATEGORIES:
+            if c != 'conference_calls' and issue[c]: raise ValueError('会议模式不能混入日常候选')
     issue['isolated_trial'] = True
     issue['as_of'] = args.as_of
     guard.json('draft/issue.json', issue)
@@ -112,13 +118,14 @@ def run(args):
     errors += selection_errors(issue, history, args.as_of)
     coverage = snapshot['coverage']
     core_posts = {x['id'] for x in issue['lianxh_posts'] if x['priority']=='core'}
-    coverage_problems = coverage_errors(coverage, core_posts, args.as_of, observed_posts, history)
+    coverage_problems = coverage_errors(coverage, core_posts, args.as_of, observed_posts, history) if issue['issue_type'] == 'daily' else []
     errors += coverage_problems
     page_rel = 'site/issues/' + date_compact(issue['date']) + '/index.qmd'
     page = guard.write(page_rel, render_page(issue))
     # 完整草稿复用原 renderer；不足 3 条时复用逐条 formatter，校验仍明确失败。
     try:
-        text = render_daily(issue)
+        from render_wechat import render_conference
+        text = render_conference(issue) if issue['issue_type'] == 'conference-bulletin' else render_daily(issue)
     except ValueError:
         blocks = [title_line(issue)]
         entries = [(c,i) for c in CATEGORIES for i in issue[c] if i['priority']=='core']
@@ -155,12 +162,14 @@ def run(args):
               'errors':errors,'core_ids':core_ids,'extended_ids':extended_ids,
               'input_sha256':hashlib.sha256(Path(args.snapshot).read_bytes()).hexdigest(),
               'source_sha256':hashlib.sha256(Path(args.sources).read_bytes()).hexdigest()}
+    result['conference_eligible_count'] = len(issue['conference_calls'])
     guard.json('run-meta.json',result)
     return result
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ('snapshot','sources','observed-posts','as-of','output-root'): parser.add_argument('--'+name,required=True)
+    parser.add_argument('--mode', choices=('daily','conference'), default='daily')
     args=parser.parse_args()
     result=run(args)
     print(json.dumps(result,ensure_ascii=False,indent=2))
