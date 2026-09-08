@@ -14,7 +14,7 @@ from website_tags import tag_links
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "content" / "issues"
 TOPICS_DIR = ROOT / "topics"
-from website_content import SECTIONS, DISPLAY_LABELS, public_summary
+from website_content import SECTIONS, DISPLAY_LABELS, public_summary, inline_code
 SECTION_MAP = {identifier: (title, description) for identifier, title, description in SECTIONS}
 CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources", "conference_calls")
 TAG_FIELDS = (("software", "软件"), ("methods", "方法"), ("fields", "研究领域"))
@@ -83,7 +83,7 @@ def card(entry: dict) -> str:
     return f'''<article class="catalog-card">
 <h3>{escape(entry['title'])}</h3>
 <p class="catalog-meta">{date_label}：{escape(entry['date'])}</p>
-<p>{escape(entry['note'])}</p>
+<p>{inline_code(entry['note'])}</p>
 <p class="catalog-tags">{metadata}</p>
 <p><a href="{date_link}">{link_label}</a></p>
 </article>'''

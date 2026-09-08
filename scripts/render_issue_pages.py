@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 from site_config import date_compact, is_public_issue, issue_title
 from website_tags import tag_links
 from website_citations import website_citation, external_link
-from website_content import CATEGORY_LABELS, public_summary
+from website_content import CATEGORY_LABELS, public_summary, inline_code
 from website_promotions import render_promotion
 
 
@@ -42,7 +42,7 @@ def render_item(item: dict, category: str, public: bool = True, preview: bool = 
         lines.extend([f"**{label}：{escape(item['deadline'])}**", ''])
         if item.get('event_date'):
             lines.extend([f"会议：{escape(item['event_date'])} 至 {escape(item.get('event_end', item['event_date']))} · {escape(item['location'])}", '', '费用：' + escape(item['fee_note']), ''])
-    lines.extend([escape(public_summary(item) if public else item['page_note']), ''])
+    lines.extend([inline_code(public_summary(item) if public else item['page_note']), ''])
     tags = item.get('catalog', {}).get('tags', [])
     if tags: lines.extend(['标签：' + tag_links(tags), ''])
     if show_dates and item.get('added_date'):
@@ -76,7 +76,6 @@ def render_page(issue: dict) -> str:
     lines.extend(['---', ''])
     if not public:
         lines.extend([f"测试状态：{issue['status'].upper()}", ''])
-    if issue.get('revision_note'): lines.extend([escape(issue['revision_note']), ''])
     if issue.get('short_issue'): lines.extend(['本期不足 10 条：' + escape(issue['short_issue']['reason']), ''])
     lines.extend(render_section(issue, 'core', '本期重点'))
     lines.extend(render_section(issue, 'extended', '延伸阅读'))

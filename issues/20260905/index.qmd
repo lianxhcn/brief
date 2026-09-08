@@ -4,8 +4,6 @@ body-classes: issue-page
 toc-depth: 3
 ---
 
-2026-09-08 网页补录：保留来源日期，增加延伸阅读及分类资料；原微信群发布稿另存，不改写历史发送记录。
-
 ## 本期重点
 
 ### 新论文
@@ -184,7 +182,7 @@ DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.1
 
 #### Stata 新命令：xtbfkbreak 估计异质面板的共同结构突变 {#stata-xtbfkbreak-20260820}
 
-命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 ssc install xtbfkbreak；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。
+命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 <code>ssc install xtbfkbreak</code>；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。
 
 标签：<a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a>
 

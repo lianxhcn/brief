@@ -4,8 +4,6 @@ body-classes: issue-page
 toc-depth: 3
 ---
 
-2026-09-08 网页补录：保留来源日期，增加延伸阅读及分类资料；原微信群发布稿另存，不改写历史发送记录。
-
 ## 本期重点
 
 ### 新推文
@@ -166,7 +164,7 @@ toc-depth: 3
 
 #### Stata 新命令：lwdid 的滚动 DID 估计 {#stata-lwdid-20260821}
 
-Lee 与 Wooldridge 的 lwdid 提供滚动 DID 估计，区分大 N 与小 N 情形，并支持共同或交错处理时点。官方说明列出预处理均值、趋势及部分设定下的季节性变换。SSC 记录显示 8 月 21 日有修订，可用 ssc install lwdid 安装。使用时须按样本维度和识别条件选择选项，不能把去趋势视为平行趋势的自动保证。
+Lee 与 Wooldridge 的 lwdid 提供滚动 DID 估计，区分大 N 与小 N 情形，并支持共同或交错处理时点。官方说明列出预处理均值、趋势及部分设定下的季节性变换。SSC 记录显示 8 月 21 日有修订，可用 <code>ssc install lwdid</code> 安装。使用时须按样本维度和识别条件选择选项，不能把去趋势视为平行趋势的自动保证。
 
 标签：<a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%BB%9A%E5%8A%A8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：滚动估计">滚动估计</a>
 

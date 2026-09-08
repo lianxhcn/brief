@@ -48,8 +48,7 @@ def validate_collection(data):
     return errors
 
 def render_collection(data):
-    lines=['---','title: "历史精选：'+data['range_start']+' 至 '+data['range_end']+'"','toc-depth: 2','---','',data['revision_note'],'',
-           '推文日期采用原站显示日期；论文采用提交日期，软件采用登记的修订日期。补录不代表曾在该日发送群消息。','', '## 分类入口','']
+    lines=['---','title: "历史精选：'+data['range_start']+' 至 '+data['range_end']+'"','toc-depth: 2','---','', '## 分类入口','']
     for key,label in LABELS.items():
         n=sum(r['category']==key for r in data['entries'])
         lines.append(f'- [{label} ({n} 条)](#{key})')

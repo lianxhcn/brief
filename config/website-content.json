@@ -85,7 +85,7 @@
   },
   "stata-xtbfkbreak-20260820": {
     "source_sha256": "e79160b554dd67118a18a7316bab48d03250acdf0dde40cc408645b230a01ddc",
-    "summary": "命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 ssc install xtbfkbreak；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。"
+    "summary": "命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 `ssc install xtbfkbreak`；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。"
   },
   "arxiv-2608-26522": {
     "source_sha256": "0a5d93b9bebcba2795c6c74e83c28f4434246a26ebccd2bf4da794fc5cedd9a9",
@@ -113,7 +113,7 @@
   },
   "stata-lwdid-20260821": {
     "source_sha256": "bb7f2c961a21e98cc6bc943675e2dc3d40691c6ccd05b4573d5586100b8567d3",
-    "summary": "Lee 与 Wooldridge 的 lwdid 提供滚动 DID 估计，区分大 N 与小 N 情形，并支持共同或交错处理时点。官方说明列出预处理均值、趋势及部分设定下的季节性变换。SSC 记录显示 8 月 21 日有修订，可用 ssc install lwdid 安装。使用时须按样本维度和识别条件选择选项，不能把去趋势视为平行趋势的自动保证。"
+    "summary": "Lee 与 Wooldridge 的 lwdid 提供滚动 DID 估计，区分大 N 与小 N 情形，并支持共同或交错处理时点。官方说明列出预处理均值、趋势及部分设定下的季节性变换。SSC 记录显示 8 月 21 日有修订，可用 `ssc install lwdid` 安装。使用时须按样本维度和识别条件选择选项，不能把去趋势视为平行趋势的自动保证。"
   },
   "conference-cam-strategy-2026": {
     "source_sha256": "172d6a407f6b0740cd0a08f39591861e129b856c28cb4abe43e4d621f96df224",

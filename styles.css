@@ -217,7 +217,7 @@ main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 10
 .navbar a:focus-visible { outline: 2px solid #185abc; outline-offset: 3px; }
 
 /* 2026-09-08：静态分页和首页移动端课程展示。 */
-.issue-page section:is(#本期重点, #延伸阅读) > h2 { color: #1e5d46; }
+.issue-page section:is(#本期重点, #延伸阅读) > h2 { color: #2E7D32; }
 .home-page #quarto-content section#最新期次 > h2 { margin-top: 1.5rem; }
 .home-page .catalog-grid--overview .catalog-card { text-align: center; }
 .home-page .catalog-grid--overview h3 { margin-bottom: 0; }
@@ -253,3 +253,8 @@ main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 10
 .archive-days { margin: 0.2rem 0 0.8rem; padding-left: 2rem; }
 .archive-days a { display: inline-block; padding-block: 0.5rem; }
 .tag-link { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+
+/* 阅读细化：期次行距与统一分类标记。 */
+.home-page #最新期次 li { line-height: 1.875; }
+.issue-page section.level3 > h3 { border-left: 3px solid #6b9870; padding-left: 0.6rem; }
+.brief-entry code, .catalog-card code { color: #24552a; background: #f0f5f0; padding: 0.1em 0.3em; border-radius: 0.2em; overflow-wrap: anywhere; }

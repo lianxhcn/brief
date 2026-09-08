@@ -33,3 +33,12 @@ def public_summary(item):
     if not isinstance(summary, str) or not summary.strip() or any(t in summary for t in INTERNAL_PHRASES):
         raise ValueError(f"{item['id']}: 读者简介含内部核验文案或为空")
     return summary
+
+def inline_code(text):
+    """只解析反引号行内代码；其余字符一律转义，禁止原始 HTML 注入。"""
+    import html
+    import re
+    parts = re.split(r'(`[^`\n]+`)', text)
+    return ''.join('<code>' + html.escape(part[1:-1]) + '</code>'
+                   if part.startswith('`') and part.endswith('`') and len(part) > 2
+                   else html.escape(part) for part in parts)
