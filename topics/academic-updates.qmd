@@ -8,9 +8,16 @@ title: "会议征稿"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 4 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 5 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>第五届保险与再保险论坛：9 月 30 日截稿</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>第五届保险与再保险论坛于 10 月 30–31 日在上海财经大学金融学院举行，征稿涉及巨灾风险、气候风险、养老金融、保险科技及资本市场等。论文和学生作品通过会议网站提交，截止为 9 月 30 日；作品须未公开发表。论坛不收会务费，交通住宿自理，入选会议不等于期刊录用。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：保险">保险</a> · <a class="tag-link" href="?q=%E5%86%8D%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：再保险">再保险</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
+<p><a href="../issues/20260909/#conference-insurance-reinsurance-2026">查看本期</a></p>
+</article>
 <article class="catalog-card">
 <h3>2026 组织与战略管理专业委员会年会：10 月 18 日截稿</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>

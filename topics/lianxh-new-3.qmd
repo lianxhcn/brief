@@ -8,9 +8,23 @@ title: "新推文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 29 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>LLM 文本标注成本降 80%：一次放几条、一次问几个变量？</h3>
+<p class="catalog-meta">来源日期：2026-08-29</p>
+<p>文章分别讨论一次提交多条文本与一次标注多个变量的成本和质量权衡。适合在大规模标注前设计小样本校准、保留失败记录并检查下游变量误差。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a></p>
+<p><a href="../history/20260815-20260907/#post-1901">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 我知道-06：为什么 AI 越聊越乱？上下文腐烂与论文协作工作流</h3>
+<p class="catalog-meta">来源日期：2026-08-29</p>
+<p>从变量定义、模型版本和代码修改的混乱出发，讨论任务拆分、项目文件夹与任务日志。适合建立长对话交接规则，避免把过时设定带入当前分析。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：上下文管理">上下文管理</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：论文协作">论文协作</a></p>
+<p><a href="../history/20260815-20260907/#post-1903">查看历史条目</a></p>
+</article>
 <article class="catalog-card">
 <h3>WorkBuddy 接入 Stata MCP：从文献整理到直接跑回归</h3>
 <p class="catalog-meta">来源日期：2026-08-24</p>
@@ -67,15 +81,8 @@ title: "新推文 · 第 3 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=causal-learn&amp;show-results=1" title="全站搜索：causal-learn">causal-learn</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%8F%91%E7%8E%B0&amp;show-results=1" title="全站搜索：因果发现">因果发现</a></p>
 <p><a href="../history/20260815-20260907/#post-1892">查看历史条目</a></p>
 </article>
-<article class="catalog-card">
-<h3>Claude Code Hooks-钩子：怎么配，如何迁移到 Codex？</h3>
-<p class="catalog-meta">来源日期：2026-08-15</p>
-<p>文章从通知、文件保护和结束前检查等场景解释 Hooks，并列出跨平台迁移时需要重新核对的输入字段、路径和行为。适合作为配置前的检查清单。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Claude%20Code&amp;show-results=1" title="全站搜索：Claude Code">Claude Code</a> · <a class="tag-link" href="?q=Hooks&amp;show-results=1" title="全站搜索：Hooks">Hooks</a> · <a class="tag-link" href="?q=Codex&amp;show-results=1" title="全站搜索：Codex">Codex</a></p>
-<p><a href="../history/20260815-20260907/#post-1891">查看历史条目</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 29 条</span></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

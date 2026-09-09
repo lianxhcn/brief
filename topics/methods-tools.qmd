@@ -8,9 +8,16 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 4 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 5 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>cellgraph：分组汇总后直接绘图</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>cellgraph 将数据按一个或两个分类变量汇总，再绘制各组均值或其他统计量。官方帮助给出多变量、置信区间及类别排序等示例，适合描述组间差异和快速检查数据。安装命令为 <code>ssc install cellgraph</code>；汇总图呈现的是描述性关系，不能替代识别设计。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E7%BB%84%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：分组统计">分组统计</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：数据可视化">数据可视化</a></p>
+<p><a href="../issues/20260909/#stata-cellgraph-20260827">查看本期</a></p>
+</article>
 <article class="catalog-card">
 <h3>Stata 新命令：lwdid 的滚动 DID 估计</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>

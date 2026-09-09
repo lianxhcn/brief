@@ -1,0 +1,60 @@
+---
+title: "新论文 · 第 3 页"
+---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
+
+<p class="catalog-intro"></p>
+
+<p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
+
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 26 条</span></nav>
+
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>平稳与非平稳变量混在一起，如何提取共同周期？</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>论文研究混合平稳与非平稳变量的主成分分析，目标是提取共同周期成分，而无需事先逐一判定变量的积分性质。作者用 FRED-MD 数据展示这一思路。阅读时可关注变量预处理如何影响共同因子的含义，以及该方法所需的时间序列条件；它不意味着任何趋势数据都可以直接做普通 PCA。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
+<p><a href="../issues/20260905/#arxiv-2608-23732">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>动态离散选择与逆强化学习如何对话？</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>综述将经济学中的动态离散选择与机器学习中的逆强化学习放在共同的马尔可夫决策框架下，讨论偏好、信念及行为数据之间的关系。读者可比较 soft Q 与 logit 选择概率在特定条件下的对应，以及两类估计方法如何应对计算负担。拟合行为并不自动解决偏好与信念的分别识别。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a></p>
+<p><a href="../issues/20260905/#arxiv-2608-24362">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>QJE：从历史税册重建美国财富</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>论文结合历史财产税记录与普查估值资料，重建美国州、县和全国的长期财富序列。关键步骤是用评估值与市场值的比例校正税册数据，适合关注财富测量与地区差距的读者；这些差异本身不能解释为财产税的因果效应。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：历史数据测量">历史数据测量</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：公共经济学">公共经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=QJE&amp;show-results=1" title="全站搜索：QJE">QJE</a> · <a class="tag-link" href="?q=Forthcoming&amp;show-results=1" title="全站搜索：Forthcoming">Forthcoming</a></p>
+<p><a href="../issues/20260905/#dray-landais-stantcheva-wealth-tax-qje">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>Empowering Inclusive Work</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>这篇 NBER 工作论文使用中国外卖平台数据，围绕文字转语音工具上线构建双重差分设计。作者报告，听障或听力受损骑手的配送表现、劳动供给与留任均有改善；阅读时可重点关注辅助技术的识别设计及结果的适用范围。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：平台经济">平台经济</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%85%E5%8A%A9%E6%8A%80%E6%9C%AF&amp;show-results=1" title="全站搜索：辅助技术">辅助技术</a> · <a class="tag-link" href="?q=%E5%8C%85%E5%AE%B9%E6%80%A7%E5%B0%B1%E4%B8%9A&amp;show-results=1" title="全站搜索：包容性就业">包容性就业</a></p>
+<p><a href="../issues/20260905/#chen-hoffman-xu-yuan-inclusive-work">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>AER：企业如何感知不确定性？</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>作者利用德国制造业企业面板调查，发现销售增长异常偏低或偏高时，管理者都更感到不确定。论文区分主观不确定性与条件波动率，为企业预期的测量提供参考。PDF 为作者稿，与正式发表版可能存在差异。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：面板调查">面板调查</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%9C%9F%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：预期测量">预期测量</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：企业经济学">企业经济学</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：宏观经济学">宏观经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=AER&amp;show-results=1" title="全站搜索：AER">AER</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%BC%8F%E5%8F%91%E8%A1%A8&amp;show-results=1" title="全站搜索：正式发表">正式发表</a></p>
+<p><a href="../issues/20260905/#bachmann-firm-uncertainty-aer">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>短面板中的随机系数矩</h3>
+<p class="catalog-meta">来源日期：2026-09-01</p>
+<p>这篇工作论文研究短面板中随机系数矩的识别，讨论如何利用面板中的信息刻画个体反应差异。适合关注异质性参数与面板识别条件的读者。</p>
+<p class="catalog-tags"></p>
+<p><a href="../history/20260815-20260907/#arxiv-2608-31085">查看历史条目</a></p>
+</article>
+</div>
+
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 26 条</span></nav>
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

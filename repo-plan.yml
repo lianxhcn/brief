@@ -1,12 +1,12 @@
 {
-  "project_title": "连享会 · 快讯：2026-09-08 网站内容与流程修订",
+  "project_title": "连享会 · 快讯：2026-09-09 每日期次",
   "repository_mode": "single",
   "recommendation": "single",
   "decision_reason": "沿用独立网站、版本和维护周期，score=4；不新建仓库",
   "confidence": "high",
   "local_root": "G:/codex_project/github_lianxh",
   "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "D-20260908-09：阅读排版、代码样式、公开说明清理及微信副本脚本；共享目录配置不提交",
+  "work_scope": "2026-09-09 公开事实、双端稿、生成索引与 A-14 日期完成证据；私有候选和共享配置不提交",
   "repository_name": "brief",
   "remote_owner": "lianxhcn",
   "remote_url": "https://github.com/lianxhcn/brief.git",
@@ -22,33 +22,26 @@
     "ignore_checked": true,
     "sensitive_content_checked": true,
     "large_files_checked": true,
-    "minimal_verification": "131 tests; generated consistency; prior full render; TXT byte comparison and idempotence"
+    "minimal_verification": "当期 schema/数量/去重；全站渲染与回归；共享 TXT 哈希；当期远程部署"
   },
   "approval": {
     "create_remote": false,
     "commit": true,
     "push": true,
     "deploy": true,
-    "source": "2026-09-08 用户明确要求完成共享副本后推送一次",
-    "validity": "本次已审阅修订立即发布；每日流程另按 D-20260908-06"
+    "source": "D-20260908-06 每日发布授权及 2026-09-09 用户追问当日期次",
+    "validity": "本次 9 月 9 日合格期次"
   },
   "files": [
+    "content/issues/2026-09-09.json",
+    "publish/wechat/2026-09-09.txt",
+    "issues/20260909/index.qmd",
     "config/website-content.json",
+    "index.qmd",
+    "archive.qmd",
+    "topics/",
     "docs/automation-rules.md",
     "docs/decision-log.md",
-    "docs/ui-rules.md",
-    "history/20260815-20260907/index.qmd",
-    "issues/20260905/index.qmd",
-    "issues/20260908/index.qmd",
-    "scripts/build_catalog_pages.py",
-    "scripts/public_history.py",
-    "scripts/render_issue_pages.py",
-    "scripts/website_content.py",
-    "styles.css",
-    "topics/methods-tools.qmd",
-    "docs/tasks/site-readability-20260908.md",
-    "scripts/copy_wechat.py",
-    "scripts/test_readability.py",
     "repo-plan.yml"
   ]
 }

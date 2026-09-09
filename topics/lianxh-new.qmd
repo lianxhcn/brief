@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>从美欧调查看「AI 采用」的测量、组织扩散与因果识别</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>文章从工人和企业调查出发，区分 AI 暴露、实际采用、使用强度与生产率结果，解释问卷口径和组织部署如何改变指标含义。对于使用年报、招聘或调查数据研究 AI 的读者，可借鉴其观察单位、时间窗口和采用路径的核对思路；行业相关性仍不能直接解释为因果效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：AI 采用">AI 采用</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：企业调查">企业调查</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a></p>
+<p><a href="../issues/20260909/#post-1927">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI Agent 到底是什么？一次理清 LLM、Chatbot、Workflow 与 Agentic</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>文章用修正 Stata do-file 的教学场景，比较人主导、预设程序和模型动态安排操作三种机制。讨论模型、对话应用、工具权限和反馈回路各自承担的工作，并给出描述研究系统时应记录的模型版本、决策范围及验收条件。代码运行成功仍需结合研究设定核查，不能由 Agent 名称推断可靠性。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20Agent&amp;show-results=1" title="全站搜索：AI Agent">AI Agent</a> · <a class="tag-link" href="?q=Workflow&amp;show-results=1" title="全站搜索：Workflow">Workflow</a> · <a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：科研复现">科研复现</a></p>
+<p><a href="../issues/20260909/#post-1926">查看本期</a></p>
+</article>
 <article class="catalog-card">
 <h3>遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A5%B3%E6%80%A7CEO&amp;show-results=1" title="全站搜索：女性CEO">女性CEO</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E7%AD%96%E7%95%A5&amp;show-results=1" title="全站搜索：识别策略">识别策略</a></p>
 <p><a href="../history/20260815-20260907/#post-1911">查看历史条目</a></p>
 </article>
-<article class="catalog-card">
-<h3>ReproAI-下：Stata 复现包实测——ReproAI 能找到漏洞吗？</h3>
-<p class="catalog-meta">来源日期：2026-09-03</p>
-<p>文章用预先设置缺陷的 Stata 小型包考察静态检查，区分结构性问题与样本逻辑问题。适合与上篇连读，理解检出报告及未生成修复副本的边界。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ReproAI&amp;show-results=1" title="全站搜索：ReproAI">ReproAI</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a></p>
-<p><a href="../history/20260815-20260907/#post-1913">查看历史条目</a></p>
-</article>
-<article class="catalog-card">
-<h3>ReproAI-上：向编辑部提交论文复现包前的自动预检</h3>
-<p class="catalog-meta">来源日期：2026-09-03</p>
-<p>介绍 ReproAI 的复现包预检流程：静态检查、问题排序、副本修订和按需运行。适合作为提交前材料检查入口，预检结果仍需结合数据逻辑与研究判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ReproAI&amp;show-results=1" title="全站搜索：ReproAI">ReproAI</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a></p>
-<p><a href="../history/20260815-20260907/#post-1912">查看历史条目</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -1,0 +1,640 @@
+{
+  "issue_id": "brief-20260909",
+  "date": "2026-09-09",
+  "title": "连享会 · 快讯 | 2026.09.09",
+  "status": "published",
+  "issue_type": "daily",
+  "editorial_version": 2,
+  "website_version": 3,
+  "retrieved_date": "2026-09-09",
+  "lianxh_posts": [
+    {
+      "id": "post-1927",
+      "title": "从美欧调查看「AI 采用」的测量、组织扩散与因果识别",
+      "url": "https://www.lianxh.cn/details/1927.html",
+      "source_url": "https://www.lianxh.cn/details/1927.html",
+      "published_date": "2026-09-08",
+      "retrieved_date": "2026-09-09",
+      "priority": "core",
+      "page_note": "文章从工人和企业调查出发，区分 AI 暴露、实际采用、使用强度与生产率结果，解释问卷口径和组织部署如何改变指标含义。对于使用年报、招聘或调查数据研究 AI 的读者，可借鉴其观察单位、时间窗口和采用路径的核对思路；行业相关性仍不能直接解释为因果效应。",
+      "wechat_summary": "区分 AI 暴露、实际采用和生产率结果，说明跨国调查口径为何影响比较。适合在构造 AI 变量前核对观察单位、时间顺序与因果解释。",
+      "catalog": {
+        "section": "lianxh-new",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "AI 采用",
+          "企业调查",
+          "因果识别"
+        ]
+      },
+      "tag_origin": "source-keywords-editorial",
+      "evidence_level": "full-text",
+      "version_read": "2026-09-09 浏览器正文",
+      "selection_reason": "上一期后发布的新推文，围绕研究变量构造或科研工作流。"
+    },
+    {
+      "id": "post-1926",
+      "title": "AI Agent 到底是什么？一次理清 LLM、Chatbot、Workflow 与 Agentic",
+      "url": "https://www.lianxh.cn/details/1926.html",
+      "source_url": "https://www.lianxh.cn/details/1926.html",
+      "published_date": "2026-09-08",
+      "retrieved_date": "2026-09-09",
+      "priority": "extended",
+      "page_note": "文章用修正 Stata do-file 的教学场景，比较人主导、预设程序和模型动态安排操作三种机制。讨论模型、对话应用、工具权限和反馈回路各自承担的工作，并给出描述研究系统时应记录的模型版本、决策范围及验收条件。代码运行成功仍需结合研究设定核查，不能由 Agent 名称推断可靠性。",
+      "wechat_summary": "用 Stata 代码纠错示例区分模型、对话应用与任务执行机制，解释工具权限、反馈和验收条件。",
+      "catalog": {
+        "section": "lianxh-new",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "AI Agent",
+          "Workflow",
+          "科研复现"
+        ]
+      },
+      "tag_origin": "source-keywords-editorial",
+      "evidence_level": "full-text",
+      "version_read": "2026-09-09 浏览器正文",
+      "selection_reason": "上一期后发布的新推文，围绕研究变量构造或科研工作流。"
+    }
+  ],
+  "papers": [
+    {
+      "id": "arxiv-2609-04994",
+      "title": "只观察部分年龄收入，怎样估计代际流动？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-04",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.04994",
+      "homepage_url": "https://arxiv.org/abs/2609.04994",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.04994",
+      "arxiv_id": "2609.04994",
+      "pdf_url": "https://arxiv.org/pdf/2609.04994.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Puerta-Cuartas, A."
+        ],
+        "year": 2026,
+        "title": "Identification and Estimation of Intergenerational Income Mobility Measures",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.04994",
+        "arxiv_id": "2609.04994",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.04994",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.04994.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.04994",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Puerta-Cuartas, A. (2026). Identification and Estimation of Intergenerational Income Mobility Measures. arXiv (working paper).",
+      "priority": "core",
+      "page_note": "论文将不同年龄收入观测不完整的问题放入缺失数据框架，结合非参数识别与 Neyman 正交矩构造去偏机器学习估计量。它关注用短期收入平均值代表终身收入时的生命周期偏差，并以美国 PSID 数据说明应用。使用前须核对随机缺失及相关独立性假设，机器学习本身不能消除选择性缺失。",
+      "wechat_summary": "论文用缺失数据框架与正交矩处理代际流动估计的生命周期偏差。适合观察不到完整收入历史的研究，须核对随机缺失和独立性假设。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "代际流动",
+          "缺失数据",
+          "DML"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    },
+    {
+      "id": "arxiv-2609-03227",
+      "title": "配对实验中的二元结果如何做随机化推断？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-03",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.03227",
+      "homepage_url": "https://arxiv.org/abs/2609.03227",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.03227",
+      "arxiv_id": "2609.03227",
+      "pdf_url": "https://arxiv.org/pdf/2609.03227.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Wilson, B."
+        ],
+        "year": 2026,
+        "title": "Randomization Inference for Matched Pairs with Binary Outcomes",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.03227",
+        "arxiv_id": "2609.03227",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.03227",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.03227.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.03227",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Wilson, B. (2026). Randomization Inference for Matched Pairs with Binary Outcomes. arXiv (working paper).",
+      "priority": "extended",
+      "page_note": "论文针对二元结果的配对研究构造平均处理效应置信集，以配对内随机分配为依据，讨论如何利用解析的最不利配置简化检验。框架也延伸到 Rosenbaum 敏感性分析，帮助研究者区分随机实验推断与观察性匹配仍需承担的隐藏偏差假设。",
+      "wechat_summary": "论文针对二元结果的配对研究构造平均处理效应置信集，以配对内随机分配为依据，讨论如何利用解析的最不利配置简化检验。框架也延伸到 Rosenbaum 敏感性分析，帮助研究者区分随机实验推断与观察性匹配仍需承担的隐藏偏差假设。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "配对实验",
+          "随机化推断"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    },
+    {
+      "id": "arxiv-2609-01943",
+      "title": "多种研究设计得到不同结果，主结论怎样选？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-01",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.01943",
+      "homepage_url": "https://arxiv.org/abs/2609.01943",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.01943",
+      "arxiv_id": "2609.01943",
+      "pdf_url": "https://arxiv.org/pdf/2609.01943.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Vilfort, V."
+        ],
+        "year": 2026,
+        "title": "Headline Estimation with Multiple Research Designs",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.01943",
+        "arxiv_id": "2609.01943",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.01943",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.01943.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.01943",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Vilfort, V. (2026). Headline Estimation with Multiple Research Designs. arXiv (working paper).",
+      "priority": "extended",
+      "page_note": "当同一参数对应多个候选研究设计、又无法确定哪个设计有效时，论文用一组先验表达这种不确定性，选择使最坏情形后验风险最小的代表性估计。其设定假定恰有一个设计有效，适合讨论主结论如何综合证据；不能直接推广为任意稳健性回归的机械平均。",
+      "wechat_summary": "当同一参数对应多个候选研究设计、又无法确定哪个设计有效时，论文用一组先验表达这种不确定性，选择使最坏情形后验风险最小的代表性估计。其设定假定恰有一个设计有效，适合讨论主结论如何综合证据；不能直接推广为任意稳健性回归的机械平均。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "研究设计",
+          "稳健决策"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    },
+    {
+      "id": "arxiv-2609-02756",
+      "title": "网络有溢出时，实验结果能迁移到另一种分配政策吗？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-02",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.02756",
+      "homepage_url": "https://arxiv.org/abs/2609.02756",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.02756",
+      "arxiv_id": "2609.02756",
+      "pdf_url": "https://arxiv.org/pdf/2609.02756.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Loomba, S.",
+          "Eckles, D."
+        ],
+        "year": 2026,
+        "title": "Off-policy causal estimation in networks",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.02756",
+        "arxiv_id": "2609.02756",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.02756",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.02756.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.02756",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Loomba, S.; Eckles, D. (2026). Off-policy causal estimation in networks. arXiv (working paper).",
+      "priority": "extended",
+      "page_note": "论文研究存在网络干扰时，如何用现有实验估计另一种处理分配政策下的因果量。作者利用假定的干扰结构构造迁移权重，分析政策变化、结构错设与权重方差之间的联系，并讨论保守方差估计。可用于理解提高干预覆盖率后，直接沿用原实验效应为何需要额外条件。",
+      "wechat_summary": "论文研究存在网络干扰时，如何用现有实验估计另一种处理分配政策下的因果量。作者利用假定的干扰结构构造迁移权重，分析政策变化、结构错设与权重方差之间的联系，并讨论保守方差估计。可用于理解提高干预覆盖率后，直接沿用原实验效应为何需要额外条件。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "网络干扰",
+          "政策评估"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    },
+    {
+      "id": "arxiv-2609-01804",
+      "title": "回归残差为何可能影响聚类稳健标准误？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-01",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.01804",
+      "homepage_url": "https://arxiv.org/abs/2609.01804",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.01804",
+      "arxiv_id": "2609.01804",
+      "pdf_url": "https://arxiv.org/pdf/2609.01804.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Chen, Y."
+        ],
+        "year": 2026,
+        "title": "Robust Variance Estimation in Linear Regression: A Projection-Geometry Perspective",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.01804",
+        "arxiv_id": "2609.01804",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.01804",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.01804.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.01804",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Chen, Y. (2026). Robust Variance Estimation in Linear Regression: A Projection-Geometry Perspective. arXiv (working paper).",
+      "priority": "extended",
+      "page_note": "论文从回归投影的几何结构出发，讨论残差化如何在观测和簇之间重新分配协方差信息。作者把方差估计写成线性逆问题，并提出同时利用簇内与跨簇残差矩的估计方法。适合检视高杠杆和投影溢出下的推断条件；本文仍是工作论文，不能据此断言常用聚类标准误普遍失效。",
+      "wechat_summary": "论文从回归投影的几何结构出发，讨论残差化如何在观测和簇之间重新分配协方差信息。作者把方差估计写成线性逆问题，并提出同时利用簇内与跨簇残差矩的估计方法。适合检视高杠杆和投影溢出下的推断条件；本文仍是工作论文，不能据此断言常用聚类标准误普遍失效。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "聚类标准误",
+          "线性回归"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    },
+    {
+      "id": "arxiv-2609-03933",
+      "title": "厚尾收入下，怎样研究极高分位数的处理效应？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-03",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.03933",
+      "homepage_url": "https://arxiv.org/abs/2609.03933",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.03933",
+      "arxiv_id": "2609.03933",
+      "pdf_url": "https://arxiv.org/pdf/2609.03933.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Wang, X.",
+          "Cai, J. J.",
+          "Wang, H. J.",
+          "Shi, J. Q.",
+          "Tang, Y."
+        ],
+        "year": 2026,
+        "title": "Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.03933",
+        "arxiv_id": "2609.03933",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.03933",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.03933.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.03933",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Wang, X.; Cai, J. J.; Wang, H. J.; Shi, J. Q.; Tang, Y. (2026). Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes. arXiv (working paper).",
+      "priority": "extended",
+      "page_note": "论文先通过逆概率加权分位数回归估计中间条件分位数，再用极值理论外推极端分位数的处理效应。框架面向厚尾结果与异质性分析，并以教育和高工资为应用背景。读者需要区分可直接由样本支持的中间分位数与依赖尾部模型的外推结果。",
+      "wechat_summary": "论文先通过逆概率加权分位数回归估计中间条件分位数，再用极值理论外推极端分位数的处理效应。框架面向厚尾结果与异质性分析，并以教育和高工资为应用背景。读者需要区分可直接由样本支持的中间分位数与依赖尾部模型的外推结果。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "分位数处理效应",
+          "极值理论"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    },
+    {
+      "id": "arxiv-2609-05089",
+      "title": "风险回测要多少样本才能发现预期损失低估？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-04",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.05089",
+      "homepage_url": "https://arxiv.org/abs/2609.05089",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.05089",
+      "arxiv_id": "2609.05089",
+      "pdf_url": "https://arxiv.org/pdf/2609.05089.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Oestmann, D.",
+          "Dickhaus, T."
+        ],
+        "year": 2026,
+        "title": "On E-Backtesting: Generalizations and Sample Size Determination",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.05089",
+        "arxiv_id": "2609.05089",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.05089",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.05089.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.05089",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Oestmann, D.; Dickhaus, T. (2026). On E-Backtesting: Generalizations and Sample Size Determination. arXiv (working paper).",
+      "priority": "extended",
+      "page_note": "论文围绕预期损失的 e-backtesting，讨论在给定检验功效下检测风险低估所需的样本量。作者在 VaR 正确估计等特定情景下给出样本需求近似，并讨论近似的局限及模拟比较。适合把回测未拒绝与样本不足区分开来；相关近似不自动适用于任意风险预测误差。",
+      "wechat_summary": "论文围绕预期损失的 e-backtesting，讨论在给定检验功效下检测风险低估所需的样本量。作者在 VaR 正确估计等特定情景下给出样本需求近似，并讨论近似的局限及模拟比较。适合把回测未拒绝与样本不足区分开来；相关近似不自动适用于任意风险预测误差。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "风险回测",
+          "检验功效"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    },
+    {
+      "id": "arxiv-2609-04418",
+      "title": "高维厚尾时间序列如何稳健估计自协方差？",
+      "publication_status": "working-paper",
+      "journal": "arXiv (working paper)",
+      "published_date": "2026-09-03",
+      "source_date_basis": "arXiv citation_date，UTC 首次提交日期",
+      "source_url": "https://arxiv.org/abs/2609.04418",
+      "homepage_url": "https://arxiv.org/abs/2609.04418",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.04418",
+      "arxiv_id": "2609.04418",
+      "pdf_url": "https://arxiv.org/pdf/2609.04418.pdf",
+      "pdf_version": "v1",
+      "version_read": "v1",
+      "evidence_level": "abstract",
+      "bibliography": {
+        "authors": [
+          "Xu, H.",
+          "Guerrier, S.",
+          "Li, R.",
+          "Ke, Y."
+        ],
+        "year": 2026,
+        "title": "On tail-robust autocovariance matrix estimation for high-dimensional and potentially nonstationary time series",
+        "source": "arXiv (working paper)",
+        "publication_status": "working-paper",
+        "homepage_url": "https://arxiv.org/abs/2609.04418",
+        "arxiv_id": "2609.04418",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.04418",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.04418.pdf",
+          "method": "arxiv-id-derived",
+          "version": "v1",
+          "source_url": "https://arxiv.org/abs/2609.04418",
+          "retrieved_date": "2026-09-09"
+        }
+      },
+      "citation": "Xu, H.; Guerrier, S.; Li, R.; Ke, Y. (2026). On tail-robust autocovariance matrix estimation for high-dimensional and potentially nonstationary time series. arXiv (working paper).",
+      "priority": "extended",
+      "page_note": "论文研究厚尾、高维、时间依赖及可能非平稳情形下的自协方差矩阵估计，讨论逐元素 Huber 估计与截断估计，并提供误差界和乘子 bootstrap 推断框架。月度宏观数据中的变化点检测展示了应用方向，适合关注异常观测与依赖结构如何共同影响推断的读者。",
+      "wechat_summary": "论文研究厚尾、高维、时间依赖及可能非平稳情形下的自协方差矩阵估计，讨论逐元素 Huber 估计与截断估计，并提供误差界和乘子 bootstrap 推断框架。月度宏观数据中的变化点检测展示了应用方向，适合关注异常观测与依赖结构如何共同影响推断的读者。",
+      "catalog": {
+        "section": "research-frontier",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "高维时间序列",
+          "稳健估计"
+        ]
+      },
+      "selection_reason": "近期未收录方法论文，官方摘要足以支持有限简讯，不声称精读或复现。"
+    }
+  ],
+  "tools": [
+    {
+      "id": "stata-cellgraph-20260827",
+      "name": "cellgraph",
+      "title": "cellgraph：分组汇总后直接绘图",
+      "ecosystem": "Stata",
+      "version": "SSC 登记 2026-08-27",
+      "release_date": "2026-08-27",
+      "published_date": "2026-08-27",
+      "source_date_basis": "RePEc citation_publication_date 与 JSON-LD datePublished 一致",
+      "url": "https://ideas.repec.org/c/boc/bocode/s459878.html",
+      "source_url": "https://ideas.repec.org/c/boc/bocode/s459878.html",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "priority": "core",
+      "page_note": "cellgraph 将数据按一个或两个分类变量汇总，再绘制各组均值或其他统计量。官方帮助给出多变量、置信区间及类别排序等示例，适合描述组间差异和快速检查数据。安装命令为 `ssc install cellgraph`；汇总图呈现的是描述性关系，不能替代识别设计。",
+      "wechat_summary": "按一个或两个分类变量汇总数据并绘图，支持均值等统计量，适合快速检查组间差异。安装：ssc install cellgraph。",
+      "installation_command": "ssc install cellgraph",
+      "help_url": "http://fmwww.bc.edu/repec/bocode/c/cellgraph.sthlp",
+      "software_tested": false,
+      "project_id": "ssc:cellgraph",
+      "catalog": {
+        "section": "methods-tools",
+        "software": [
+          "Stata"
+        ],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "分组统计",
+          "数据可视化"
+        ]
+      },
+      "evidence_level": "official-page",
+      "selection_reason": "过去 14 天未收录，官方登记与帮助文件可核验安装及示例。"
+    }
+  ],
+  "research_resources": [],
+  "conference_calls": [
+    {
+      "id": "conference-insurance-reinsurance-2026",
+      "event_id": "insurance-reinsurance-2026",
+      "title": "第五届保险与再保险论坛：9 月 30 日截稿",
+      "organizer_or_journal": "上海财经大学金融学院、厦门大学经济学院、中国平安财产保险股份有限公司上海分公司",
+      "topic": "不确定世界的稳定器：保险与再保险的新使命",
+      "official_url": "https://finance.xmu.edu.cn/info/1017/78994.htm",
+      "source_url": "https://finance.xmu.edu.cn/info/1017/78994.htm",
+      "published_date": "2026-09-04",
+      "source_date_basis": "通知网页发布时间；正文落款 2026-09-01",
+      "retrieved_date": "2026-09-09",
+      "added_date": "2026-09-09",
+      "deadline": "2026-09-30",
+      "deadline_kind": "submission",
+      "event_date": "2026-10-30",
+      "event_end": "2026-10-31",
+      "location": "上海财经大学金融学院",
+      "fee_note": "不收取会务费，往返交通及住宿自理。",
+      "status": "open",
+      "priority": "core",
+      "page_note": "第五届保险与再保险论坛于 10 月 30–31 日在上海财经大学金融学院举行，征稿涉及巨灾风险、气候风险、养老金融、保险科技及资本市场等。论文和学生作品通过会议网站提交，截止为 9 月 30 日；作品须未公开发表。论坛不收会务费，交通住宿自理，入选会议不等于期刊录用。",
+      "wechat_summary": "10 月 30–31 日在上海财经大学举行，征稿涵盖巨灾风险、气候风险、养老金融及保险科技等。不收会务费，交通住宿自理。",
+      "catalog": {
+        "section": "academic-updates",
+        "software": [],
+        "methods": [],
+        "fields": [],
+        "tags": [
+          "保险",
+          "再保险",
+          "会议征稿"
+        ]
+      },
+      "reminder": false,
+      "evidence_level": "official-page"
+    }
+  ],
+  "discovery": [
+    {
+      "category": "posts",
+      "source_url": "https://www.lianxh.cn/",
+      "query": "首页最新推文及 1926/1927 正文，核对上一期和历史集合",
+      "status": "found",
+      "candidate_count": 3,
+      "eligible_count": 2,
+      "adopted_count": 2,
+      "reason": "9 月 8 日新增 1926、1927、1928；采用前两篇。1928 为 binsreg 多语言教程，与近期已收录工具关联，本轮暂缓，留入候选。正文通过浏览器动态加载核验。",
+      "window_start": "2026-09-08",
+      "window_end": "2026-09-09",
+      "checked_at": "2026-09-09",
+      "retrieved_date": "2026-09-09"
+    },
+    {
+      "category": "papers",
+      "source_url": "https://arxiv.org/list/econ.EM/recent",
+      "query": "econ.EM 与 stat.ME 近期目录，逐篇核对作者、v1 日期和摘要",
+      "status": "found",
+      "candidate_count": 8,
+      "eligible_count": 8,
+      "adopted_count": 8,
+      "reason": "采用八篇未收录的方法论文；按官方首次提交日期记录，不把目录显示日或检索日当发表日。",
+      "window_start": "2026-08-26",
+      "window_end": "2026-09-09",
+      "checked_at": "2026-09-09",
+      "retrieved_date": "2026-09-09"
+    },
+    {
+      "category": "software",
+      "source_url": "https://ideas.repec.org/s/boc/bocode.html",
+      "query": "SSC CELLGRAPH 与 PARQIT 登记；CELLGRAPH 帮助文件",
+      "status": "found",
+      "candidate_count": 2,
+      "eligible_count": 1,
+      "adopted_count": 1,
+      "reason": "采用 cellgraph，登记日期 8 月 27 日，安装与帮助示例已核对。PARQIT 本轮未完成可采用性核验，留候选，不冒称没有内容。",
+      "window_start": "2026-08-26",
+      "window_end": "2026-09-09",
+      "checked_at": "2026-09-09",
+      "retrieved_date": "2026-09-09"
+    },
+    {
+      "category": "software",
+      "source_url": "https://www.stata-journal.com/current-issue/",
+      "query": "Stata Journal 26(3) 六篇文章目录与安装入口",
+      "status": "no-eligible",
+      "candidate_count": 6,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "目录可访问，但本轮未完成精确发表日期和各命令资料核验，不将目录年份当作近期更新证明。",
+      "window_start": "2026-08-26",
+      "window_end": "2026-09-09",
+      "checked_at": "2026-09-09",
+      "retrieved_date": "2026-09-09"
+    },
+    {
+      "category": "conferences",
+      "source_url": "https://finance.xmu.edu.cn/info/1017/78994.htm",
+      "query": "第五届保险与再保险论坛官方征稿、时间、地点及费用",
+      "status": "found",
+      "candidate_count": 1,
+      "eligible_count": 1,
+      "adopted_count": 1,
+      "reason": "主办院系通知正文已核验；未与既有同届会议重复，截止仍有效。",
+      "window_start": "2026-09-01",
+      "window_end": "2026-09-09",
+      "checked_at": "2026-09-09",
+      "retrieved_date": "2026-09-09"
+    }
+  ]
+}

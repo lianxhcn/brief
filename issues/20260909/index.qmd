@@ -1,0 +1,209 @@
+---
+title: "连享会 · 快讯 | 2026.09.09"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 从美欧调查看「AI 采用」的测量、组织扩散与因果识别 {#post-1927}
+
+文章从工人和企业调查出发，区分 AI 暴露、实际采用、使用强度与生产率结果，解释问卷口径和组织部署如何改变指标含义。对于使用年报、招聘或调查数据研究 AI 的读者，可借鉴其观察单位、时间窗口和采用路径的核对思路；行业相关性仍不能直接解释为因果效应。
+
+标签：<a class="tag-link" href="?q=AI%20%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：AI 采用">AI 采用</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：企业调查">企业调查</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a>
+
+<a href="https://www.lianxh.cn/details/1927.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 只观察部分年龄收入，怎样估计代际流动？ {#arxiv-2609-04994}
+
+<p class="myapa">Puerta-Cuartas, A. (2026). Identification and Estimation of Intergenerational Income Mobility Measures. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.04994" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.04994.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Identification%20and%20Estimation%20of%20Intergenerational%20Income%20Mobility%20Measures" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将不同年龄收入观测不完整的问题放入缺失数据框架，结合非参数识别与 Neyman 正交矩构造去偏机器学习估计量。它关注用短期收入平均值代表终身收入时的生命周期偏差，并以美国 PSID 数据说明应用。使用前须核对随机缺失及相关独立性假设，机器学习本身不能消除选择性缺失。
+
+标签：<a class="tag-link" href="?q=%E4%BB%A3%E9%99%85%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：代际流动">代际流动</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a> · <a class="tag-link" href="?q=DML&amp;show-results=1" title="全站搜索：DML">DML</a>
+
+<small>来源日期：2026-09-04；补录：2026-09-09</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### cellgraph：分组汇总后直接绘图 {#stata-cellgraph-20260827}
+
+cellgraph 将数据按一个或两个分类变量汇总，再绘制各组均值或其他统计量。官方帮助给出多变量、置信区间及类别排序等示例，适合描述组间差异和快速检查数据。安装命令为 <code>ssc install cellgraph</code>；汇总图呈现的是描述性关系，不能替代识别设计。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E7%BB%84%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：分组统计">分组统计</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：数据可视化">数据可视化</a>
+
+<small>来源日期：2026-08-27；补录：2026-09-09</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459878.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 第五届保险与再保险论坛：9 月 30 日截稿 {#conference-insurance-reinsurance-2026}
+
+**投稿截止：2026-09-30**
+
+会议：2026-10-30 至 2026-10-31 · 上海财经大学金融学院
+
+费用：不收取会务费，往返交通及住宿自理。
+
+第五届保险与再保险论坛于 10 月 30–31 日在上海财经大学金融学院举行，征稿涉及巨灾风险、气候风险、养老金融、保险科技及资本市场等。论文和学生作品通过会议网站提交，截止为 9 月 30 日；作品须未公开发表。论坛不收会务费，交通住宿自理，入选会议不等于期刊录用。
+
+标签：<a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：保险">保险</a> · <a class="tag-link" href="?q=%E5%86%8D%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：再保险">再保险</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<small>来源日期：2026-09-04；补录：2026-09-09</small>
+
+<a href="https://finance.xmu.edu.cn/info/1017/78994.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新推文
+
+::: {.brief-entry}
+
+#### AI Agent 到底是什么？一次理清 LLM、Chatbot、Workflow 与 Agentic {#post-1926}
+
+文章用修正 Stata do-file 的教学场景，比较人主导、预设程序和模型动态安排操作三种机制。讨论模型、对话应用、工具权限和反馈回路各自承担的工作，并给出描述研究系统时应记录的模型版本、决策范围及验收条件。代码运行成功仍需结合研究设定核查，不能由 Agent 名称推断可靠性。
+
+标签：<a class="tag-link" href="?q=AI%20Agent&amp;show-results=1" title="全站搜索：AI Agent">AI Agent</a> · <a class="tag-link" href="?q=Workflow&amp;show-results=1" title="全站搜索：Workflow">Workflow</a> · <a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：科研复现">科研复现</a>
+
+<a href="https://www.lianxh.cn/details/1926.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 配对实验中的二元结果如何做随机化推断？ {#arxiv-2609-03227}
+
+<p class="myapa">Wilson, B. (2026). Randomization Inference for Matched Pairs with Binary Outcomes. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.03227" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.03227.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Randomization%20Inference%20for%20Matched%20Pairs%20with%20Binary%20Outcomes" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文针对二元结果的配对研究构造平均处理效应置信集，以配对内随机分配为依据，讨论如何利用解析的最不利配置简化检验。框架也延伸到 Rosenbaum 敏感性分析，帮助研究者区分随机实验推断与观察性匹配仍需承担的隐藏偏差假设。
+
+标签：<a class="tag-link" href="?q=%E9%85%8D%E5%AF%B9%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：配对实验">配对实验</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 多种研究设计得到不同结果，主结论怎样选？ {#arxiv-2609-01943}
+
+<p class="myapa">Vilfort, V. (2026). Headline Estimation with Multiple Research Designs. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.01943" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.01943.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Headline%20Estimation%20with%20Multiple%20Research%20Designs" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+当同一参数对应多个候选研究设计、又无法确定哪个设计有效时，论文用一组先验表达这种不确定性，选择使最坏情形后验风险最小的代表性估计。其设定假定恰有一个设计有效，适合讨论主结论如何综合证据；不能直接推广为任意稳健性回归的机械平均。
+
+标签：<a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 网络有溢出时，实验结果能迁移到另一种分配政策吗？ {#arxiv-2609-02756}
+
+<p class="myapa">Loomba, S. &amp; Eckles, D. (2026). Off-policy causal estimation in networks. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.02756" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.02756.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Off-policy%20causal%20estimation%20in%20networks" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究存在网络干扰时，如何用现有实验估计另一种处理分配政策下的因果量。作者利用假定的干扰结构构造迁移权重，分析政策变化、结构错设与权重方差之间的联系，并讨论保守方差估计。可用于理解提高干预覆盖率后，直接沿用原实验效应为何需要额外条件。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a>
+
+<small>来源日期：2026-09-02；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 回归残差为何可能影响聚类稳健标准误？ {#arxiv-2609-01804}
+
+<p class="myapa">Chen, Y. (2026). Robust Variance Estimation in Linear Regression: A Projection-Geometry Perspective. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.01804" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.01804.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Robust%20Variance%20Estimation%20in%20Linear%20Regression%3A%20A%20Projection-Geometry%20Perspective" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文从回归投影的几何结构出发，讨论残差化如何在观测和簇之间重新分配协方差信息。作者把方差估计写成线性逆问题，并提出同时利用簇内与跨簇残差矩的估计方法。适合检视高杠杆和投影溢出下的推断条件；本文仍是工作论文，不能据此断言常用聚类标准误普遍失效。
+
+标签：<a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：线性回归">线性回归</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 厚尾收入下，怎样研究极高分位数的处理效应？ {#arxiv-2609-03933}
+
+<p class="myapa">Wang, X., Cai, J. J., Wang, H. J., Shi, J. Q., &amp; Tang, Y. (2026). Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.03933" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.03933.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Causal%20Inference%20for%20Heterogeneous%20Extreme%20Quantiles%20with%20Heavy-Tailed%20Outcomes" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文先通过逆概率加权分位数回归估计中间条件分位数，再用极值理论外推极端分位数的处理效应。框架面向厚尾结果与异质性分析，并以教育和高工资为应用背景。读者需要区分可直接由样本支持的中间分位数与依赖尾部模型的外推结果。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：分位数处理效应">分位数处理效应</a> · <a class="tag-link" href="?q=%E6%9E%81%E5%80%BC%E7%90%86%E8%AE%BA&amp;show-results=1" title="全站搜索：极值理论">极值理论</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 风险回测要多少样本才能发现预期损失低估？ {#arxiv-2609-05089}
+
+<p class="myapa">Oestmann, D. &amp; Dickhaus, T. (2026). On E-Backtesting: Generalizations and Sample Size Determination. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.05089" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.05089.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=On%20E-Backtesting%3A%20Generalizations%20and%20Sample%20Size%20Determination" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文围绕预期损失的 e-backtesting，讨论在给定检验功效下检测风险低估所需的样本量。作者在 VaR 正确估计等特定情景下给出样本需求近似，并讨论近似的局限及模拟比较。适合把回测未拒绝与样本不足区分开来；相关近似不自动适用于任意风险预测误差。
+
+标签：<a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：风险回测">风险回测</a> · <a class="tag-link" href="?q=%E6%A3%80%E9%AA%8C%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：检验功效">检验功效</a>
+
+<small>来源日期：2026-09-04；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 高维厚尾时间序列如何稳健估计自协方差？ {#arxiv-2609-04418}
+
+<p class="myapa">Xu, H., Guerrier, S., Li, R., &amp; Ke, Y. (2026). On tail-robust autocovariance matrix estimation for high-dimensional and potentially nonstationary time series. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.04418" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.04418.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=On%20tail-robust%20autocovariance%20matrix%20estimation%20for%20high-dimensional%20and%20potentially%20nonstationary%20time%20series" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究厚尾、高维、时间依赖及可能非平稳情形下的自协方差矩阵估计，讨论逐元素 Huber 估计与截断估计，并提供误差界和乘子 bootstrap 推断框架。月度宏观数据中的变化点检测展示了应用方向，适合关注异常观测与依赖结构如何共同影响推断的读者。
+
+标签：<a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：高维时间序列">高维时间序列</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：稳健估计">稳健估计</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-09</small>
+
+
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
