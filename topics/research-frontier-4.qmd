@@ -1,0 +1,32 @@
+---
+title: "新论文 · 第 4 页"
+---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
+
+<p class="catalog-intro"></p>
+
+<p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
+
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 4 页 · 共 32 条</span></nav>
+
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>配对实验出现样本流失后，是否必须删除不完整配对？</h3>
+<p class="catalog-meta">来源日期：2026-08-19</p>
+<p>在流失独立于处理状态和潜在结果的条件下，论文提出利用完整配对与剩余单个观测的置换检验，并讨论结合配对内、配对间比较的加权估计。读者可以据此重新审视配对固定效应导致的数据舍弃。方法的前提是独立流失，不能推广为对选择性失访同样有效。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a></p>
+<p><a href="../history/20260815-20260907/#arxiv-2608-18973">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>DID 加入时变中介变量后，系数还是直接效应吗？</h3>
+<p class="catalog-meta">来源日期：2026-08-19</p>
+<p>论文讨论处理会改变内生时变中介变量的 DID 设计：通常的 DID 量可能混合直接效应、间接效应与趋势偏差，直接在双向固定效应回归中控制中介也未必识别直接效应。作者在所列假设下利用中介路径条件化识别相应参数。机制分析需要新的识别论证，不能只凭加入中介后系数缩小来下结论。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a></p>
+<p><a href="../history/20260815-20260907/#arxiv-2608-18375">查看历史条目</a></p>
+</article>
+</div>
+
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 4 页 · 共 32 条</span></nav>
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

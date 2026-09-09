@@ -1,0 +1,23 @@
+📙 连享会 · 快讯 | 2026.09.09
+
+✍️ 01｜新推文：从美欧调查看「AI 采用」的测量、组织扩散与因果识别
+区分 AI 暴露、实际采用和生产率结果，说明跨国调查口径为何影响比较。适合在构造 AI 变量前核对观察单位、时间顺序与因果解释。
+阅读全文： https://www.lianxh.cn/details/1927.html 
+
+📰 02｜论文 · arXiv (working paper)：只观察部分年龄收入，怎样估计代际流动？
+论文用缺失数据框架与正交矩处理代际流动估计的生命周期偏差。适合观察不到完整收入历史的研究，须核对随机缺失和独立性假设。
+引文：Puerta-Cuartas (2026). Identification and Estimation of Intergenerational Income Mobility Measures. arXiv (working paper).
+主页： https://arxiv.org/abs/2609.04994 
+
+📦 03｜命令 · Stata：cellgraph：分组汇总后直接绘图
+按一个或两个分类变量汇总数据并绘图，支持均值等统计量，适合快速检查组间差异。安装：ssc install cellgraph。
+版本：Stata / cellgraph SSC 登记 2026-08-27；发布：2026-08-27
+主页： https://ideas.repec.org/c/boc/bocode/s459878.html 
+
+📅 04｜会议征稿：第五届保险与再保险论坛：9 月 30 日截稿
+10 月 30–31 日在上海财经大学举行，征稿涵盖巨灾风险、气候风险、养老金融及保险科技等。不收会务费，交通住宿自理。
+截止：2026-09-30
+通知： https://finance.xmu.edu.cn/info/1017/78994.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260909/ 

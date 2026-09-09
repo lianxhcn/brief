@@ -36,11 +36,15 @@ toc-depth: 3
 
 ::: {.brief-entry}
 
-#### DID 中如何回答州层面的政策问题 {#arxiv-2609-01467}
+#### QJE：公平偏好如何影响再分配态度？ {#paper-qjag044}
 
-<p class="myapa">Austin, N., Karim, S. R., Strumpf, E., &amp; Webb, M. D. (2026). Which policy works, and where? Estimation and inference for state-level treatment effects in difference-in-differences. arXiv (working paper). <a href="https://arxiv.org/abs/2609.01467" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.01467.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Which%20policy%20works%2C%20and%20where%3F%20Estimation%20and%20inference%20for%20state-level%20treatment%20effects%20in%20difference-in-differences" target="_blank" rel="noopener noreferrer">Google</a></p>
+<p class="myapa">Almås, I., Cappelen, A. W., Sørensen, E. Ø., &amp; Tungodden, B. (2026). Fairness Across the World. The Quarterly Journal of Economics. <a href="https://doi.org/10.1093/qje/qjag044" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://academic.oup.com/qje/advance-article-pdf/doi/10.1093/qje/qjag044/70986336/qjag044.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Fairness%20Across%20the%20World" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。
+论文用跨国统一实验区分人们对运气、努力与再分配效率成本的看法，并将公平偏好和不平等成因信念与政策态度联系起来。它为跨国调查与行为实验提供了共同测量框架；偏好与实际税收再分配的相关性不能直接解释为因果效应。
+
+标签：<a class="tag-link" href="?q=%E5%85%AC%E5%B9%B3%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：公平偏好">公平偏好</a> · <a class="tag-link" href="?q=%E5%86%8D%E5%88%86%E9%85%8D&amp;show-results=1" title="全站搜索：再分配">再分配</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a>
+
+<small>来源日期：2026-09-07；补录：2026-09-09</small>
 
 
 
@@ -48,11 +52,15 @@ toc-depth: 3
 
 ::: {.brief-entry}
 
-#### p-hacking 与选择性发表如何共同影响估计 {#arxiv-2609-05372}
+#### REStud：股权融资摩擦如何影响企业规模？ {#paper-rdag098}
 
-<p class="myapa">Cai, Y., Pernoud, A., &amp; Xu, B. (2026). Does p-hacking mitigate or exacerbate the effects of publication bias? arXiv (working paper). <a href="https://arxiv.org/abs/2609.05372" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.05372.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Does%20p-hacking%20mitigate%20or%20exacerbate%20the%20effects%20of%20publication%20bias%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+<p class="myapa">Peter, A. (2026). Equity Frictions and Firm Ownership. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag098" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Equity%20Frictions%20and%20Firm%20Ownership" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-论文把研究者反复尝试规格的行为与期刊选择显著结果的机制放在同一框架中，区分快速与缓慢的 p-hacking 情形。两者的互动可能使发表偏差朝不同方向变化，因此单看已发表结果难以推断选择机制。该文研究统计偏差的形成，不能据此把选择性报告当作可取的研究实践。
+论文结合欧元区企业所有权与融资资料，构建工人和企业家选择债务、股权融资的一般均衡模型。股权通过风险分担影响企业扩张及财富分布，提示融资约束研究需要区分债务与股权渠道；量化反事实依赖模型设定。
+
+标签：<a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：融资摩擦">融资摩擦</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%89%80%E6%9C%89%E6%9D%83&amp;show-results=1" title="全站搜索：企业所有权">企业所有权</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-09</small>
 
 
 
@@ -61,6 +69,70 @@ toc-depth: 3
 ## 延伸阅读
 
 ### 新论文
+
+::: {.brief-entry}
+
+#### REStud：养老金与地方债为何需要一起分析？ {#paper-rdag097}
+
+<p class="myapa">Myers, S. (2026). Public Employee Pensions and Municipal Insolvency. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag097" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag097/70825999/rdag097.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Public%20Employee%20Pensions%20and%20Municipal%20Insolvency" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将地方政府支出、债券融资和雇员养老金放入同一动态决策框架，并用加州城市数据量化。研究展示只约束养老金资金充足率时，债务决策可能抵消政策效果；适合借鉴资产负债联动建模，反事实结果须结合制度和模型假设理解。
+
+标签：<a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E5%80%BA&amp;show-results=1" title="全站搜索：地方债">地方债</a> · <a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：财政风险">财政风险</a>
+
+<small>来源日期：2026-08-28；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### REStud：养老金缴费激励会提前影响劳动供给吗？ {#paper-rdag082}
+
+<p class="myapa">French, E., Lindner, A., O’Dea, C., &amp; Zawisza, T. (2026). Labor Supply and the Pension Contribution-Benefit Link. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag082" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag082/70785480/rdag082.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Labor%20Supply%20and%20the%20Pension%20Contribution-Benefit%20Link" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用波兰养老金改革带来的出生队列断点，研究退休前劳动供给如何响应缴费与未来待遇的联系，再用生命周期模型分析不同年龄激励的重新分配。适合借鉴队列断点设计；局部改革反应与整个生命周期的模型推断需要分开理解。
+
+标签：<a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91%E6%94%B9%E9%9D%A9&amp;show-results=1" title="全站搜索：养老金改革">养老金改革</a> · <a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：劳动供给">劳动供给</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### REStud：早期职场歧视为何有时放大、有时减弱？ {#paper-rdag092}
+
+<p class="myapa">Bardhi, A., Guo, Y., &amp; Strulovici, B. (2026). Early-Career Discrimination: Spiralling or Self-Correcting? Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag092" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Early-Career%20Discrimination%3A%20Spiralling%20or%20Self-Correcting%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立雇主通过就业过程学习生产率的理论模型，比较主要观察失败与主要观察成功的两类信息环境。即使群体生产率分布相同，早期歧视也可能累积为长期收入差距；研究提供关于学习机制的解释，并非对现实歧视规模的直接估计。
+
+标签：<a class="tag-link" href="?q=%E6%AD%A7%E8%A7%86&amp;show-results=1" title="全站搜索：歧视">歧视</a> · <a class="tag-link" href="?q=%E9%9B%87%E4%B8%BB%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：雇主学习">雇主学习</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 债务危机预测：复杂模型一定胜过 probit 吗？ {#worldbank-wps11441}
+
+<p class="myapa">von Luckner, C. G., Horn, S., Kraay, A. C., &amp; Ramalho, R. (2026). Predicting Debt Distress in Low-Income Countries. World Bank Policy Research Working Paper 11441. <a href="https://doi.org/10.1596/1813-9450-11441" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Predicting%20Debt%20Distress%20in%20Low-Income%20Countries" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文细化低收入国家债务困境的起点测量，并用系统的样本外验证比较二元预测模型与机器学习方法。它把标签定义、验证设计与模型复杂度放在一起考察，适合借鉴危机预测流程；预测能力不能解释为政策的因果效应。
+
+标签：<a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：债务风险">债务风险</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：模型比较">模型比较</a>
+
+<small>来源日期：2026-09-02；补录：2026-09-09</small>
+
+
+
+:::
 
 ::: {.brief-entry}
 
@@ -89,70 +161,6 @@ toc-depth: 3
 标签：<a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a>
 
 <small>来源日期：2026-08-27；补录：2026-09-08</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### 高维协变量下，实验分组能平衡到什么程度？ {#arxiv-2608-18057}
-
-<p class="myapa">Cytrynbaum, M. (2026). The limits of experimental design: Covariate balance beyond low dimension. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.18057" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.18057.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=The%20limits%20of%20experimental%20design%3A%20Covariate%20balance%20beyond%20low%20dimension" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-论文考察实验设计在有限样本中接近效率界的速度，说明协变量维数会限制对广泛平滑结果模型的统一平衡能力。作者随后针对复杂度受限的函数类设计分组方案，并讨论与匹配结合。启发是先明确需要平衡的结果模型结构，而非盲目增加分组时使用的协变量。
-
-标签：<a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a>
-
-<small>来源日期：2026-08-19；补录：2026-09-08</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### DID 加入时变中介变量后，系数还是直接效应吗？ {#arxiv-2608-18375}
-
-<p class="myapa">Ban, K., Chen, Z., &amp; Kédagni, D. (2026). Difference-in-differences models in the presence of time-varying mediators. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.18375" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.18375.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Difference-in-differences%20models%20in%20the%20presence%20of%20time-varying%20mediators" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-论文讨论处理会改变内生时变中介变量的 DID 设计：通常的 DID 量可能混合直接效应、间接效应与趋势偏差，直接在双向固定效应回归中控制中介也未必识别直接效应。作者在所列假设下利用中介路径条件化识别相应参数。机制分析需要新的识别论证，不能只凭加入中介后系数缩小来下结论。
-
-标签：<a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a>
-
-<small>来源日期：2026-08-19；补录：2026-09-08</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### 配对实验出现样本流失后，是否必须删除不完整配对？ {#arxiv-2608-18973}
-
-<p class="myapa">Heß, S. &amp; Schmidt, P. W. (2026). Don&#x27;t drop the singletons: Efficient inference for pairwise experiments with independent attrition. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.18973" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.18973.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Don%27t%20drop%20the%20singletons%3A%20Efficient%20inference%20for%20pairwise%20experiments%20with%20independent%20attrition" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-在流失独立于处理状态和潜在结果的条件下，论文提出利用完整配对与剩余单个观测的置换检验，并讨论结合配对内、配对间比较的加权估计。读者可以据此重新审视配对固定效应导致的数据舍弃。方法的前提是独立流失，不能推广为对选择性失访同样有效。
-
-标签：<a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a>
-
-<small>来源日期：2026-08-19；补录：2026-09-08</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### 短动态空间面板如何同时处理共同冲击？ {#arxiv-2608-22499}
-
-<p class="myapa">Bai, J. &amp; Chen, J. C. (2026). Fixed-T dynamic spatial panel model with common shocks. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2608.22499" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2608.22499.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Fixed-T%20dynamic%20spatial%20panel%20model%20with%20common%20shocks" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-论文研究大 N、固定 T 的动态空间面板，把空间同时性与交互效应放在同一框架中。作者利用另一种方程组织方式及空间扩展随机载荷设定构造准似然，以处理逐个估计载荷产生的附带参数问题。适合比较空间依赖与共同因子处理方式；相关推断仍依赖论文给出的载荷和误差结构。
-
-标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a>
-
-<small>来源日期：2026-08-24；补录：2026-09-08</small>
 
 
 

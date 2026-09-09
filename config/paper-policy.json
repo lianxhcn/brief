@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "effective_date": "2026-09-10",
+  "canonical_rule": "docs/content-rules.md",
+  "top_journal_groups": {
+    "经济学": [
+      "American Economic Review",
+      "Quarterly Journal of Economics",
+      "Journal of Political Economy",
+      "Econometrica",
+      "Review of Economic Studies"
+    ],
+    "金融学": [
+      "Journal of Finance",
+      "Journal of Financial Economics",
+      "Review of Financial Studies"
+    ],
+    "管理学": [
+      "Academy of Management Journal",
+      "Academy of Management Review",
+      "Administrative Science Quarterly",
+      "Journal of Management",
+      "Strategic Management Journal",
+      "Organization Science",
+      "Management Science"
+    ],
+    "统计学": [
+      "Annals of Statistics",
+      "Journal of the American Statistical Association",
+      "Biometrika",
+      "Journal of the Royal Statistical Society, Series B",
+      "Statistical Science"
+    ],
+    "会计学": [
+      "The Accounting Review",
+      "Journal of Accounting Research",
+      "Journal of Accounting and Economics",
+      "Contemporary Accounting Research",
+      "Review of Accounting Studies"
+    ],
+    "社会学": [
+      "American Sociological Review",
+      "American Journal of Sociology",
+      "Social Forces"
+    ]
+  },
+  "journal_check_max_age_days": 4,
+  "working_paper_check_max_age_days": 7,
+  "working_paper_sources": [
+    "NBER",
+    "arXiv",
+    "CEPR",
+    "IZA",
+    "IMF",
+    "World Bank"
+  ]
+}

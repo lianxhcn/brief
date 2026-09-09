@@ -8,23 +8,9 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 26 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 32 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-4.html">末页</a></nav>
 
 <div class="catalog-grid">
-<article class="catalog-card">
-<h3>高维厚尾时间序列如何稳健估计自协方差？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文研究厚尾、高维、时间依赖及可能非平稳情形下的自协方差矩阵估计，讨论逐元素 Huber 估计与截断估计，并提供误差界和乘子 bootstrap 推断框架。月度宏观数据中的变化点检测展示了应用方向，适合关注异常观测与依赖结构如何共同影响推断的读者。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：高维时间序列">高维时间序列</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：稳健估计">稳健估计</a></p>
-<p><a href="../issues/20260909/#arxiv-2609-04418">查看本期</a></p>
-</article>
-<article class="catalog-card">
-<h3>风险回测要多少样本才能发现预期损失低估？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文围绕预期损失的 e-backtesting，讨论在给定检验功效下检测风险低估所需的样本量。作者在 VaR 正确估计等特定情景下给出样本需求近似，并讨论近似的局限及模拟比较。适合把回测未拒绝与样本不足区分开来；相关近似不自动适用于任意风险预测误差。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：风险回测">风险回测</a> · <a class="tag-link" href="?q=%E6%A3%80%E9%AA%8C%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：检验功效">检验功效</a></p>
-<p><a href="../issues/20260909/#arxiv-2609-05089">查看本期</a></p>
-</article>
 <article class="catalog-card">
 <h3>配对实验中的二元结果如何做随机化推断？</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
@@ -40,39 +26,46 @@ title: "新论文"
 <p><a href="../issues/20260909/#arxiv-2609-02756">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>多种研究设计得到不同结果，主结论怎样选？</h3>
+<h3>同样金额的补贴，现金和实物的消费反应相同吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
-<p>当同一参数对应多个候选研究设计、又无法确定哪个设计有效时，论文用一组先验表达这种不确定性，选择使最坏情形后验风险最小的代表性估计。其设定假定恰有一个设计有效，适合讨论主结论如何综合证据；不能直接推广为任意稳健性回归的机械平均。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a></p>
-<p><a href="../issues/20260909/#arxiv-2609-01943">查看本期</a></p>
+<p>论文将四类面向低收入家庭的转移支付与高频购物数据结合，在统一 DID 和事件研究框架下比较现金、实物以及一次性、持续性发放。它强调政策形式与支付频率也是研究设计的一部分；短期食品商店支出反应不能直接代表总消费或长期福利。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BD%AC%E7%A7%BB%E6%94%AF%E4%BB%98&amp;show-results=1" title="全站搜索：转移支付">转移支付</a> · <a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E6%B6%88%E8%B4%B9&amp;show-results=1" title="全站搜索：家庭消费">家庭消费</a></p>
+<p><a href="../issues/20260909/#nber-w35698">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>回归残差为何可能影响聚类稳健标准误？</h3>
+<h3>RFS：长期利率如何通过寿险机构影响信用利差？</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文从回归投影的几何结构出发，讨论残差化如何在观测和簇之间重新分配协方差信息。作者把方差估计写成线性逆问题，并提出同时利用簇内与跨簇残差矩的估计方法。适合检视高杠杆和投影溢出下的推断条件；本文仍是工作论文，不能据此断言常用聚类标准误普遍失效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：线性回归">线性回归</a></p>
-<p><a href="../issues/20260909/#arxiv-2609-01804">查看本期</a></p>
+<p>论文研究寿险机构资产负债久期错配带来的传导渠道，结合债券收益率与基于期限的持有差异检验风险承担和组合调整。该框架有助于解释不同机构持仓下信用利差反应为何不同，使用时须核对期限错配方向和识别条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AF%BF%E9%99%A9%E6%9C%BA%E6%9E%84&amp;show-results=1" title="全站搜索：寿险机构">寿险机构</a> · <a class="tag-link" href="?q=%E4%B9%85%E6%9C%9F%E9%94%99%E9%85%8D&amp;show-results=1" title="全站搜索：久期错配">久期错配</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E5%88%A9%E5%B7%AE&amp;show-results=1" title="全站搜索：信用利差">信用利差</a></p>
+<p><a href="../issues/20260909/#paper-hhag079">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>只观察部分年龄收入，怎样估计代际流动？</h3>
+<h3>RFS：稳定币价格更稳定，为何仍可能发生挤兑？</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文将不同年龄收入观测不完整的问题放入缺失数据框架，结合非参数识别与 Neyman 正交矩构造去偏机器学习估计量。它关注用短期收入平均值代表终身收入时的生命周期偏差，并以美国 PSID 数据说明应用。使用前须核对随机缺失及相关独立性假设，机器学习本身不能消除选择性缺失。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BB%A3%E9%99%85%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：代际流动">代际流动</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a> · <a class="tag-link" href="?q=DML&amp;show-results=1" title="全站搜索：DML">DML</a></p>
-<p><a href="../issues/20260909/#arxiv-2609-04994">查看本期</a></p>
+<p>论文结合稳定币赎回与套利集中度研究，分析发行人面临的权衡：套利效率提高有助于二级市场价格稳定，却也可能降低卖出冲击并增强挤兑动机。适合区分价格偏离与流动性风险，不能仅凭锚定价格稳定判断体系安全。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E5%A5%97%E5%88%A9&amp;show-results=1" title="全站搜索：套利">套利</a> · <a class="tag-link" href="?q=%E6%8C%A4%E5%85%91&amp;show-results=1" title="全站搜索：挤兑">挤兑</a></p>
+<p><a href="../issues/20260909/#paper-hhag072">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>厚尾收入下，怎样研究极高分位数的处理效应？</h3>
+<h3>RFS：ETF 资金流为何更追逐过去业绩？</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文先通过逆概率加权分位数回归估计中间条件分位数，再用极值理论外推极端分位数的处理效应。框架面向厚尾结果与异质性分析，并以教育和高工资为应用背景。读者需要区分可直接由样本支持的中间分位数与依赖尾部模型的外推结果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：分位数处理效应">分位数处理效应</a> · <a class="tag-link" href="?q=%E6%9E%81%E5%80%BC%E7%90%86%E8%AE%BA&amp;show-results=1" title="全站搜索：极值理论">极值理论</a></p>
-<p><a href="../issues/20260909/#arxiv-2609-03933">查看本期</a></p>
+<p>论文比较主动基金、指数基金与 ETF 的资金流对业绩的敏感性，并考察机构持有、从众及模型组合管理的作用。它提示被动投资工具也可能伴随主动择时行为；资金流和过去收益的关系不等于未来收益可预测。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ETF&amp;show-results=1" title="全站搜索：ETF">ETF</a> · <a class="tag-link" href="?q=%E5%9F%BA%E9%87%91%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：基金资金流">基金资金流</a> · <a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a></p>
+<p><a href="../issues/20260909/#paper-hhag080">查看本期</a></p>
 </article>
 <article class="catalog-card">
-<h3>高维协变量下，实验分组能平衡到什么程度？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文考察实验设计在有限样本中接近效率界的速度，说明协变量维数会限制对广泛平滑结果模型的统一平衡能力。作者随后针对复杂度受限的函数类设计分组方案，并讨论与匹配结合。启发是先明确需要平衡的结果模型结构，而非盲目增加分组时使用的协变量。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a></p>
-<p><a href="../issues/20260908/#arxiv-2608-18057">查看本期</a></p>
+<h3>REStud：匹配有效率，为什么仍可能不稳定？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文在带转移支付的一对一匹配实验中改变信息条件和剩余结构，区分配置效率与匹配稳定性。结果提示达成有效匹配并不保证支付安排能阻止重新配对；适合匹配市场教学与实验设计，不能把实验结论直接推广到所有现实市场。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：匹配市场">匹配市场</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：信息摩擦">信息摩擦</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：实验经济学">实验经济学</a></p>
+<p><a href="../issues/20260909/#paper-rdag094">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>JF：公告时间由企业选择，收益率会怎样变化？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文把企业自主选择信息披露时点纳入资产定价模型，解释公告前漂移、公告日跳跃与条件风险溢价之间的关系，并提供盈余公告时点的经验证据。适合提醒事件研究重视公告时点内生性；平均公告收益不能直接当作异常收益或投资策略。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
+<p><a href="../issues/20260909/#paper-jofi-70073">查看本期</a></p>
 </article>
 <article class="catalog-card">
 <h3>非参数双向异质性：代理变量何时能区分潜在类型？</h3>
@@ -81,8 +74,15 @@ title: "新论文"
 <p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a></p>
 <p><a href="../issues/20260908/#arxiv-2608-27155">查看本期</a></p>
 </article>
+<article class="catalog-card">
+<h3>网络相关数据中的多参数联合推断</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a></p>
+<p><a href="../issues/20260908/#arxiv-2608-26522">查看本期</a></p>
+</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 26 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 32 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

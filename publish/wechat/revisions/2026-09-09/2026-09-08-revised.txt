@@ -1,0 +1,23 @@
+📙 连享会 · 快讯 | 2026.09.08
+
+✍️ 01｜新推文：遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？
+文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。
+阅读全文： https://www.lianxh.cn/details/1916.html 
+
+✍️ 02｜新推文：文本转成 Embedding 后，还能直接拿来做因果推断吗？
+文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。
+阅读全文： https://www.lianxh.cn/details/1921.html 
+
+📰 03｜论文 · QJE：公平偏好如何影响再分配态度？
+论文用跨国统一实验区分人们对运气、努力与再分配效率成本的看法，并将公平偏好和不平等成因信念与政策态度联系起来。
+引文：Almås et al. (2026). Fairness Across the World. QJE.
+主页： https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjag044/8787618 
+PDF (出版社开放获取录用稿)： https://academic.oup.com/qje/advance-article-pdf/doi/10.1093/qje/qjag044/70986336/qjag044.pdf 
+
+📰 04｜论文 · Review of Economic Studies：REStud：股权融资摩擦如何影响企业规模？
+论文结合欧元区企业所有权与融资资料，构建工人和企业家选择债务、股权融资的一般均衡模型。
+引文：Peter (2026). Equity Frictions and Firm Ownership. Review of Economic Studies.
+主页： https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag098/8780917 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260908/ 

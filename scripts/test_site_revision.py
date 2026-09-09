@@ -44,17 +44,17 @@ class SiteRevisionTests(unittest.TestCase):
         self.assertTrue(any('最多' in e for e in errors));self.assertTrue(any('重复' in e for e in errors))
     def test_arxiv_derived_without_network(self):
         self.assertEqual(arxiv_pdf(dict(doi_url='https://doi.org/10.48550/arXiv.2609.05372')),'https://arxiv.org/pdf/2609.05372.pdf')
-        m=issue()['papers'][0]['bibliography'];m.pop('pdf')
+        m=copy.deepcopy(bibliography_metadata(next(p for p in issue()['papers'] if arxiv_pdf(p))));m.pop('pdf')
         self.assertIn('>PDF<',format_myapa(m))
         with self.assertRaises(ValueError):arxiv_pdf(dict(arxiv_id='2609.05372',homepage_url='https://arxiv.org/abs/2609.01467'))
-        i=issue();i['papers'][0].pop('pdf_url');self.assertTrue(check_website(i))
+        i=issue();next(p for p in i['papers'] if arxiv_pdf(p)).pop('pdf_url');self.assertTrue(check_website(i))
     def test_native_bibliography_drift(self):
         for field,value in [('title','An unrelated title'),('authors',['Wrong, A.']),('doi_url','https://doi.org/10.1/incorrect')]:
             item=issue()['papers'][0];item['bibliography'][field]=value
             with self.assertRaises(ValueError):bibliography_metadata(item)
     def test_discovery_states_are_distinct(self):
         records=issue()['discovery'];self.assertEqual(discovery_errors(records),[])
-        records[-1]['adopted_count']=1
+        records[-1].update(status='access-failed', adopted_count=1)
         self.assertTrue(discovery_errors(records))
         records=issue()['discovery'];records[0]['status']='not-searched'
         self.assertTrue(discovery_errors(records))

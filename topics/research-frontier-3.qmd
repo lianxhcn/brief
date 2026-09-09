@@ -8,7 +8,7 @@ title: "新论文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 26 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 32 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-4.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
@@ -24,6 +24,13 @@ title: "新论文 · 第 3 页"
 <p>综述将经济学中的动态离散选择与机器学习中的逆强化学习放在共同的马尔可夫决策框架下，讨论偏好、信念及行为数据之间的关系。读者可比较 soft Q 与 logit 选择概率在特定条件下的对应，以及两类估计方法如何应对计算负担。拟合行为并不自动解决偏好与信念的分别识别。</p>
 <p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a></p>
 <p><a href="../issues/20260905/#arxiv-2608-24362">查看本期</a></p>
+</article>
+<article class="catalog-card">
+<h3>p-hacking 与选择性发表如何共同影响估计</h3>
+<p class="catalog-meta">来源日期：2026-09-05</p>
+<p>论文把研究者反复尝试规格的行为与期刊选择显著结果的机制放在同一框架中，区分快速与缓慢的 p-hacking 情形。两者的互动可能使发表偏差朝不同方向变化，因此单看已发表结果难以推断选择机制。该文研究统计偏差的形成，不能据此把选择性报告当作可取的研究实践。</p>
+<p class="catalog-tags"></p>
+<p><a href="../history/20260815-20260907/#arxiv-2609-05372">查看历史条目</a></p>
 </article>
 <article class="catalog-card">
 <h3>QJE：从历史税册重建美国财富</h3>
@@ -47,14 +54,35 @@ title: "新论文 · 第 3 页"
 <p><a href="../issues/20260905/#bachmann-firm-uncertainty-aer">查看本期</a></p>
 </article>
 <article class="catalog-card">
+<h3>DID 中如何回答州层面的政策问题</h3>
+<p class="catalog-meta">来源日期：2026-09-02</p>
+<p>这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。</p>
+<p class="catalog-tags"></p>
+<p><a href="../history/20260815-20260907/#arxiv-2609-01467">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
 <h3>短面板中的随机系数矩</h3>
 <p class="catalog-meta">来源日期：2026-09-01</p>
 <p>这篇工作论文研究短面板中随机系数矩的识别，讨论如何利用面板中的信息刻画个体反应差异。适合关注异质性参数与面板识别条件的读者。</p>
 <p class="catalog-tags"></p>
 <p><a href="../history/20260815-20260907/#arxiv-2608-31085">查看历史条目</a></p>
 </article>
+<article class="catalog-card">
+<h3>短动态空间面板如何同时处理共同冲击？</h3>
+<p class="catalog-meta">来源日期：2026-08-24</p>
+<p>论文研究大 N、固定 T 的动态空间面板，把空间同时性与交互效应放在同一框架中。作者利用另一种方程组织方式及空间扩展随机载荷设定构造准似然，以处理逐个估计载荷产生的附带参数问题。适合比较空间依赖与共同因子处理方式；相关推断仍依赖论文给出的载荷和误差结构。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a></p>
+<p><a href="../history/20260815-20260907/#arxiv-2608-22499">查看历史条目</a></p>
+</article>
+<article class="catalog-card">
+<h3>高维协变量下，实验分组能平衡到什么程度？</h3>
+<p class="catalog-meta">来源日期：2026-08-19</p>
+<p>论文考察实验设计在有限样本中接近效率界的速度，说明协变量维数会限制对广泛平滑结果模型的统一平衡能力。作者随后针对复杂度受限的函数类设计分组方案，并讨论与匹配结合。启发是先明确需要平衡的结果模型结构，而非盲目增加分组时使用的协变量。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a></p>
+<p><a href="../history/20260815-20260907/#arxiv-2608-18057">查看历史条目</a></p>
+</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 26 条</span></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 32 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

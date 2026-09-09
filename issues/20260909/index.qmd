@@ -24,15 +24,15 @@ toc-depth: 3
 
 ::: {.brief-entry}
 
-#### 只观察部分年龄收入，怎样估计代际流动？ {#arxiv-2609-04994}
+#### JF：公告时间由企业选择，收益率会怎样变化？ {#paper-jofi-70073}
 
-<p class="myapa">Puerta-Cuartas, A. (2026). Identification and Estimation of Intergenerational Income Mobility Measures. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.04994" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.04994.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Identification%20and%20Estimation%20of%20Intergenerational%20Income%20Mobility%20Measures" target="_blank" rel="noopener noreferrer">Google</a></p>
+<p class="myapa">Back, K., Carlin, B. I., Kazempour, S. M., &amp; Xie, C. L. (2026). Discretionary Announcement Timing and Stock Returns. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70073" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Discretionary%20Announcement%20Timing%20and%20Stock%20Returns" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-论文将不同年龄收入观测不完整的问题放入缺失数据框架，结合非参数识别与 Neyman 正交矩构造去偏机器学习估计量。它关注用短期收入平均值代表终身收入时的生命周期偏差，并以美国 PSID 数据说明应用。使用前须核对随机缺失及相关独立性假设，机器学习本身不能消除选择性缺失。
+论文把企业自主选择信息披露时点纳入资产定价模型，解释公告前漂移、公告日跳跃与条件风险溢价之间的关系，并提供盈余公告时点的经验证据。适合提醒事件研究重视公告时点内生性；平均公告收益不能直接当作异常收益或投资策略。
 
-标签：<a class="tag-link" href="?q=%E4%BB%A3%E9%99%85%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：代际流动">代际流动</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a> · <a class="tag-link" href="?q=DML&amp;show-results=1" title="全站搜索：DML">DML</a>
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a>
 
-<small>来源日期：2026-09-04；补录：2026-09-09</small>
+<small>来源日期：2026-09-03；补录：2026-09-09</small>
 
 
 
@@ -96,6 +96,86 @@ cellgraph 将数据按一个或两个分类变量汇总，再绘制各组均值�
 
 ::: {.brief-entry}
 
+#### RFS：稳定币价格更稳定，为何仍可能发生挤兑？ {#paper-hhag072}
+
+<p class="myapa">Ma, Y., Zeng, Y., &amp; Zhang, A. L. (2026). Stablecoin Runs and the Centralization of Arbitrage. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag072" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Stablecoin%20Runs%20and%20the%20Centralization%20of%20Arbitrage" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文结合稳定币赎回与套利集中度研究，分析发行人面临的权衡：套利效率提高有助于二级市场价格稳定，却也可能降低卖出冲击并增强挤兑动机。适合区分价格偏离与流动性风险，不能仅凭锚定价格稳定判断体系安全。
+
+标签：<a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E5%A5%97%E5%88%A9&amp;show-results=1" title="全站搜索：套利">套利</a> · <a class="tag-link" href="?q=%E6%8C%A4%E5%85%91&amp;show-results=1" title="全站搜索：挤兑">挤兑</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### RFS：ETF 资金流为何更追逐过去业绩？ {#paper-hhag080}
+
+<p class="myapa">Dannhauser, C. &amp; Pontiff, J. (2026). Flow. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag080" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Flow" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文比较主动基金、指数基金与 ETF 的资金流对业绩的敏感性，并考察机构持有、从众及模型组合管理的作用。它提示被动投资工具也可能伴随主动择时行为；资金流和过去收益的关系不等于未来收益可预测。
+
+标签：<a class="tag-link" href="?q=ETF&amp;show-results=1" title="全站搜索：ETF">ETF</a> · <a class="tag-link" href="?q=%E5%9F%BA%E9%87%91%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：基金资金流">基金资金流</a> · <a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### RFS：长期利率如何通过寿险机构影响信用利差？ {#paper-hhag079}
+
+<p class="myapa">Li, Z. (2026). Long Rates, Life Insurers, and Credit Spreads. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag079" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Long%20Rates%2C%20Life%20Insurers%2C%20and%20Credit%20Spreads" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究寿险机构资产负债久期错配带来的传导渠道，结合债券收益率与基于期限的持有差异检验风险承担和组合调整。该框架有助于解释不同机构持仓下信用利差反应为何不同，使用时须核对期限错配方向和识别条件。
+
+标签：<a class="tag-link" href="?q=%E5%AF%BF%E9%99%A9%E6%9C%BA%E6%9E%84&amp;show-results=1" title="全站搜索：寿险机构">寿险机构</a> · <a class="tag-link" href="?q=%E4%B9%85%E6%9C%9F%E9%94%99%E9%85%8D&amp;show-results=1" title="全站搜索：久期错配">久期错配</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E5%88%A9%E5%B7%AE&amp;show-results=1" title="全站搜索：信用利差">信用利差</a>
+
+<small>来源日期：2026-08-31；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### REStud：匹配有效率，为什么仍可能不稳定？ {#paper-rdag094}
+
+<p class="myapa">Agranov, M., Dianat, A., Samuelson, L., &amp; Yariv, L. (2026). Paying to Match: Decentralized Markets with Information Frictions. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag094" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Paying%20to%20Match%3A%20Decentralized%20Markets%20with%20Information%20Frictions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在带转移支付的一对一匹配实验中改变信息条件和剩余结构，区分配置效率与匹配稳定性。结果提示达成有效匹配并不保证支付安排能阻止重新配对；适合匹配市场教学与实验设计，不能把实验结论直接推广到所有现实市场。
+
+标签：<a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：匹配市场">匹配市场</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：信息摩擦">信息摩擦</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：实验经济学">实验经济学</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 同样金额的补贴，现金和实物的消费反应相同吗？ {#nber-w35698}
+
+<p class="myapa">Bonomo, T., Ruffini, K. J., &amp; Schanzenbach, D. W. (2026). Is a Dollar a Dollar? How Transfer Design Shapes Household Spending. NBER Working Paper 35698. <a href="https://doi.org/10.3386/w35698" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Is%20a%20Dollar%20a%20Dollar%3F%20How%20Transfer%20Design%20Shapes%20Household%20Spending" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将四类面向低收入家庭的转移支付与高频购物数据结合，在统一 DID 和事件研究框架下比较现金、实物以及一次性、持续性发放。它强调政策形式与支付频率也是研究设计的一部分；短期食品商店支出反应不能直接代表总消费或长期福利。
+
+标签：<a class="tag-link" href="?q=%E8%BD%AC%E7%A7%BB%E6%94%AF%E4%BB%98&amp;show-results=1" title="全站搜索：转移支付">转移支付</a> · <a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E6%B6%88%E8%B4%B9&amp;show-results=1" title="全站搜索：家庭消费">家庭消费</a>
+
+<small>来源日期：2026-08-28；补录：2026-09-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
 #### 配对实验中的二元结果如何做随机化推断？ {#arxiv-2609-03227}
 
 <p class="myapa">Wilson, B. (2026). Randomization Inference for Matched Pairs with Binary Outcomes. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.03227" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.03227.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Randomization%20Inference%20for%20Matched%20Pairs%20with%20Binary%20Outcomes" target="_blank" rel="noopener noreferrer">Google</a></p>
@@ -112,22 +192,6 @@ cellgraph 将数据按一个或两个分类变量汇总，再绘制各组均值�
 
 ::: {.brief-entry}
 
-#### 多种研究设计得到不同结果，主结论怎样选？ {#arxiv-2609-01943}
-
-<p class="myapa">Vilfort, V. (2026). Headline Estimation with Multiple Research Designs. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.01943" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.01943.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Headline%20Estimation%20with%20Multiple%20Research%20Designs" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-当同一参数对应多个候选研究设计、又无法确定哪个设计有效时，论文用一组先验表达这种不确定性，选择使最坏情形后验风险最小的代表性估计。其设定假定恰有一个设计有效，适合讨论主结论如何综合证据；不能直接推广为任意稳健性回归的机械平均。
-
-标签：<a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a>
-
-<small>来源日期：2026-09-01；补录：2026-09-09</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
 #### 网络有溢出时，实验结果能迁移到另一种分配政策吗？ {#arxiv-2609-02756}
 
 <p class="myapa">Loomba, S. &amp; Eckles, D. (2026). Off-policy causal estimation in networks. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.02756" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.02756.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Off-policy%20causal%20estimation%20in%20networks" target="_blank" rel="noopener noreferrer">Google</a></p>
@@ -137,70 +201,6 @@ cellgraph 将数据按一个或两个分类变量汇总，再绘制各组均值�
 标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a>
 
 <small>来源日期：2026-09-02；补录：2026-09-09</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### 回归残差为何可能影响聚类稳健标准误？ {#arxiv-2609-01804}
-
-<p class="myapa">Chen, Y. (2026). Robust Variance Estimation in Linear Regression: A Projection-Geometry Perspective. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.01804" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.01804.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Robust%20Variance%20Estimation%20in%20Linear%20Regression%3A%20A%20Projection-Geometry%20Perspective" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-论文从回归投影的几何结构出发，讨论残差化如何在观测和簇之间重新分配协方差信息。作者把方差估计写成线性逆问题，并提出同时利用簇内与跨簇残差矩的估计方法。适合检视高杠杆和投影溢出下的推断条件；本文仍是工作论文，不能据此断言常用聚类标准误普遍失效。
-
-标签：<a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：线性回归">线性回归</a>
-
-<small>来源日期：2026-09-01；补录：2026-09-09</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### 厚尾收入下，怎样研究极高分位数的处理效应？ {#arxiv-2609-03933}
-
-<p class="myapa">Wang, X., Cai, J. J., Wang, H. J., Shi, J. Q., &amp; Tang, Y. (2026). Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.03933" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.03933.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Causal%20Inference%20for%20Heterogeneous%20Extreme%20Quantiles%20with%20Heavy-Tailed%20Outcomes" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-论文先通过逆概率加权分位数回归估计中间条件分位数，再用极值理论外推极端分位数的处理效应。框架面向厚尾结果与异质性分析，并以教育和高工资为应用背景。读者需要区分可直接由样本支持的中间分位数与依赖尾部模型的外推结果。
-
-标签：<a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：分位数处理效应">分位数处理效应</a> · <a class="tag-link" href="?q=%E6%9E%81%E5%80%BC%E7%90%86%E8%AE%BA&amp;show-results=1" title="全站搜索：极值理论">极值理论</a>
-
-<small>来源日期：2026-09-03；补录：2026-09-09</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### 风险回测要多少样本才能发现预期损失低估？ {#arxiv-2609-05089}
-
-<p class="myapa">Oestmann, D. &amp; Dickhaus, T. (2026). On E-Backtesting: Generalizations and Sample Size Determination. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.05089" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.05089.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=On%20E-Backtesting%3A%20Generalizations%20and%20Sample%20Size%20Determination" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-论文围绕预期损失的 e-backtesting，讨论在给定检验功效下检测风险低估所需的样本量。作者在 VaR 正确估计等特定情景下给出样本需求近似，并讨论近似的局限及模拟比较。适合把回测未拒绝与样本不足区分开来；相关近似不自动适用于任意风险预测误差。
-
-标签：<a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：风险回测">风险回测</a> · <a class="tag-link" href="?q=%E6%A3%80%E9%AA%8C%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：检验功效">检验功效</a>
-
-<small>来源日期：2026-09-04；补录：2026-09-09</small>
-
-
-
-:::
-
-::: {.brief-entry}
-
-#### 高维厚尾时间序列如何稳健估计自协方差？ {#arxiv-2609-04418}
-
-<p class="myapa">Xu, H., Guerrier, S., Li, R., &amp; Ke, Y. (2026). On tail-robust autocovariance matrix estimation for high-dimensional and potentially nonstationary time series. arXiv (working paper). <a href="https://doi.org/10.48550/arXiv.2609.04418" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.04418.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=On%20tail-robust%20autocovariance%20matrix%20estimation%20for%20high-dimensional%20and%20potentially%20nonstationary%20time%20series" target="_blank" rel="noopener noreferrer">Google</a></p>
-
-论文研究厚尾、高维、时间依赖及可能非平稳情形下的自协方差矩阵估计，讨论逐元素 Huber 估计与截断估计，并提供误差界和乘子 bootstrap 推断框架。月度宏观数据中的变化点检测展示了应用方向，适合关注异常观测与依赖结构如何共同影响推断的读者。
-
-标签：<a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：高维时间序列">高维时间序列</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：稳健估计">稳健估计</a>
-
-<small>来源日期：2026-09-03；补录：2026-09-09</small>
 
 
 

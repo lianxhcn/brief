@@ -1,0 +1,59 @@
+{
+  "decision": "D-20260909-04",
+  "retrieved_date": "2026-09-09",
+  "issues": {
+    "2026-09-08": {
+      "removed": [
+        "arxiv-2609-01467",
+        "arxiv-2609-05372",
+        "arxiv-2608-18057",
+        "arxiv-2608-18375",
+        "arxiv-2608-18973",
+        "arxiv-2608-22499"
+      ],
+      "added": [
+        "paper-qjag044",
+        "paper-rdag098",
+        "paper-rdag097",
+        "paper-rdag082",
+        "paper-rdag092",
+        "worldbank-wps11441"
+      ],
+      "retained": [
+        "arxiv-2608-26522",
+        "arxiv-2608-27155"
+      ],
+      "top_journal_count": 5,
+      "working_paper_count": 3,
+      "revision_txt": "publish/wechat/revisions/2026-09-09/2026-09-08-revised.txt",
+      "source_date_preserved": true
+    },
+    "2026-09-09": {
+      "removed": [
+        "arxiv-2609-04994",
+        "arxiv-2609-01943",
+        "arxiv-2609-01804",
+        "arxiv-2609-03933",
+        "arxiv-2609-05089",
+        "arxiv-2609-04418"
+      ],
+      "added": [
+        "paper-jofi-70073",
+        "paper-hhag072",
+        "paper-hhag080",
+        "paper-hhag079",
+        "paper-rdag094",
+        "nber-w35698"
+      ],
+      "retained": [
+        "arxiv-2609-03227",
+        "arxiv-2609-02756"
+      ],
+      "top_journal_count": 5,
+      "working_paper_count": 3,
+      "revision_txt": "publish/wechat/revisions/2026-09-09/2026-09-09-revised.txt",
+      "source_date_preserved": true
+    }
+  },
+  "source_audit": "逐刊初筛不等于逐篇全文精读；最终摘要只使用已核实原始摘要。"
+}

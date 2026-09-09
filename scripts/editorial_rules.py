@@ -1,12 +1,10 @@
 """日常快讯编辑规则 v2；历史发布稿保持原格式。"""
 from datetime import date
 from urllib.parse import urlparse
+from paper_policy import paper_policy_errors
 
 CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources", "conference_calls")
-TOP_JOURNALS = {
-    "American Economic Review", "The Quarterly Journal of Economics",
-    "Journal of Political Economy", "Econometrica", "The Review of Economic Studies",
-}
+
 # 仅历史兼容使用；不约束当前 v2 的行数和字符数。
 LEGACY_V2_MAX_LINES = 56
 LEGACY_V2_MAX_CHARS = 2200
@@ -26,9 +24,9 @@ def core_items(issue):
 
 def check_editorial(issue):
     """只检验结构和已记录的证据字段，不能代替人工核验来源。"""
+    errors = paper_policy_errors(issue)
     if not uses_v2(issue):
-        return []
-    errors = []
+        return errors
     entries = core_items(issue)
     if not 3 <= len(entries) <= 5:
         errors.append("日常短版需要 3–5 条 core 信息，会议计入总数。")
