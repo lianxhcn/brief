@@ -1,0 +1,219 @@
+---
+title: "连享会 · 快讯 | 2026.09.10"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### AI 我知道-07：知识图谱如何用于研究？工具、提示词与工作流 {#post-1929}
+
+文章把论文拆成带来源、页码和限定条件的知识卡片，再讨论何时需要将卡片连接为知识图谱。它区分文献网络、向量 RAG 与 GraphRAG，并给出小规模文献库的字段、提示词和核验流程；模型抽取的关系仍是候选证据，不能直接当作综述结论。
+
+标签：<a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1&amp;show-results=1" title="全站搜索：知识图谱">知识图谱</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87&amp;show-results=1" title="全站搜索：知识卡片">知识卡片</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a>
+
+<small>来源日期：2026-09-09；补录：2026-09-10</small>
+
+<a href="https://www.lianxh.cn/details/1929.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### MS：从新闻文本度量叙事模糊性 {#paper-mnsc-2025-02735}
+
+<p class="myapa">Wei, X. &amp; Zhang, Q. (2026). Narrative Ambiguity Matters. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.02735" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Narrative%20Ambiguity%20Matters" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文从经济新闻提取叙事模糊性指标，比较它与调查及收益率指标的信息差异，并研究行业叙事与市场收益预测的联系。适合借鉴文本变量构造和样本外验证；预测关系不能直接解释为新闻对价格的因果影响，也不等于可实施的交易收益。
+
+标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：不确定性">不确定性</a> · <a class="tag-link" href="?q=%E6%94%B6%E7%9B%8A%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：收益预测">收益预测</a>
+
+<small>来源日期：2026-09-04；补录：2026-09-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### CAR：年报风险写在前面，是否更有信息？ {#paper-car-70082}
+
+<p class="myapa">Chin, M., Liu, Y., &amp; Moffitt, K. (2026). Voluntary Disclosure Through the Prominence of Risk Factors in the 10‐K. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70082" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Voluntary%20Disclosure%20Through%20the%20Prominence%20of%20Risk%20Factors%20in%20the%2010%E2%80%90K" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究 10-K 风险因素的排列位置能否补充文本内容，以信用风险和商誉风险为例，将相对靠前程度与风险指标及后续不利事件联系起来。构造文本数据时，除了词频和篇幅，还可保留段落顺序；这里的预测与相关性证据不能证明管理层有意排序的动机。
+
+标签：<a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：风险披露">风险披露</a> · <a class="tag-link" href="?q=%E5%B9%B4%E6%8A%A5%E6%96%87%E6%9C%AC&amp;show-results=1" title="全站搜索：年报文本">年报文本</a> · <a class="tag-link" href="?q=%E6%8C%87%E6%A0%87%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：指标构造">指标构造</a>
+
+<small>来源日期：2026-09-04；补录：2026-09-10</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### parqit：先在磁盘整理大数据，再读入 Stata {#stata-parqit-20260825}
+
+parqit 用嵌入式 DuckDB 对 Parquet 数据执行筛选、合并和汇总，最后才把结果读入 Stata，或直接写回 Parquet。安装命令为 <code>ssc install parqit</code>。它适合内存有限的大数据整理，但默认缺失值规则来自 SQL，且并不支持所有 Stata 选项，迁移代码前应核对帮助文件。
+
+标签：<a class="tag-link" href="?q=Parquet&amp;show-results=1" title="全站搜索：Parquet">Parquet</a> · <a class="tag-link" href="?q=DuckDB&amp;show-results=1" title="全站搜索：DuckDB">DuckDB</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：大数据处理">大数据处理</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-10</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459873.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 2026 年世界经济与国际贸易研讨会：9 月 28 日截稿 {#conference-xmu-weit-2026}
+
+**投稿截止：2026-09-28**
+
+会议：2026-10-23 至 2026-10-24 · 厦门大学
+
+费用：会务费 1000 元/人，学生 500 元/人；交通住宿自理。
+
+会议于 10 月 23–24 日举行，接受中英文原创未发表论文，设研究生专场。选题包括贸易政策、全球价值链、数字贸易与相关前沿方法，9 月 28 日通过官方系统投稿。会务费为普通参会者 1000 元、学生 500 元，交通住宿自理；投稿需按通知单列作者信息以便匿名评审。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-10</small>
+
+<a href="https://gjjmx.xmu.edu.cn/info/1055/111855.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### MS：算法何时应把决策交还给人工？ {#paper-mnsc-2024-06477}
+
+<p class="myapa">Zhalechian, M., Saghafian, S., &amp; Robles, O. (2026). Harmonizing Safety and Speed: A Human-Algorithm Approach to Enhance the FDA’s Medical Device Clearance Policy. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.06477" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Harmonizing%20Safety%20and%20Speed%3A%20A%20Human-Algorithm%20Approach%20to%20Enhance%20the%20FDA%E2%80%99s%20Medical%20Device%20Clearance%20Policy" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文用申报时可获得的信息预测医疗器械召回风险，再设计接受、拒绝或转交专家深入评估的三类决策。它把风险控制与审核工作量共同纳入评价，适合借鉴预测模型如何进入真实流程；基于历史数据的政策评估不等于方案已经部署或得到前瞻性验证。
+
+标签：<a class="tag-link" href="?q=%E4%BA%BA%E6%9C%BA%E5%8D%8F%E5%90%8C&amp;show-results=1" title="全站搜索：人机协同">人机协同</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：决策规则">决策规则</a>
+
+<small>来源日期：2026-08-28；补录：2026-09-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### ASQ：资深劳动者进入平台，为何仍要从零积累声誉？ {#paper-asq-1464889}
+
+<p class="myapa">Parker-Waldern, S. H. &amp; Leonardi, P. M. (2026). Cold Starts and Burning Desires: Reputation System Misalignment and Late-Career Transitions to Platform Work. Administrative Science Quarterly. <a href="https://doi.org/10.1177/00018392261464889" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://journals.sagepub.com/doi/pdf/10.1177/00018392261464889" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Cold%20Starts%20and%20Burning%20Desires%3A%20Reputation%20System%20Misalignment%20and%20Late-Career%20Transitions%20to%20Platform%20Work" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文考察职业生涯后期劳动者转向线上自由职业时遇到的声誉冷启动问题。线下资历未必能转换为平台的可见性和可信度，平台评价规则还可能与劳动者减少工作中心性的目标冲突。适合研究算法管理和职业转型；结论来自特定劳动者情境，不能直接推广到所有年龄群体。
+
+标签：<a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E5%8A%B3%E5%8A%A8&amp;show-results=1" title="全站搜索：平台劳动">平台劳动</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：职业转型">职业转型</a> · <a class="tag-link" href="?q=%E5%A3%B0%E8%AA%89%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：声誉机制">声誉机制</a>
+
+<small>来源日期：2026-09-05；补录：2026-09-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### ASQ：平台降低进入门槛，也会诱发过快扩张吗？ {#paper-asq-1461268}
+
+<p class="myapa">Mostajabi, A., Kapacinskaite, A., &amp; Vakili, K. (2026). Myopic Expansions on Digital Platforms. Administrative Science Quarterly. <a href="https://doi.org/10.1177/00018392261461268" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://journals.sagepub.com/doi/pdf/10.1177/00018392261461268" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Myopic%20Expansions%20on%20Digital%20Platforms" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在 Apple App Store 情境中考察快速跨市场扩张：进入摩擦降低后，开发者可能忽略不同市场的需求差异。研究将短期用户增长与后续评分、下载、财务表现和创新分开观察，提示平台研究不要只看扩张当期的规模指标；市场异质性和长期跟踪同样重要。
+
+标签：<a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%B9%B3%E5%8F%B0&amp;show-results=1" title="全站搜索：数字平台">数字平台</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E6%89%A9%E5%BC%A0&amp;show-results=1" title="全站搜索：市场扩张">市场扩张</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%BB%A9%E6%95%88&amp;show-results=1" title="全站搜索：企业绩效">企业绩效</a>
+
+<small>来源日期：2026-09-05；补录：2026-09-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 空间干预点应当相隔多远？ {#arxiv-2609-08335}
+
+<p class="myapa">Faridani, S. &amp; Leung, M. P. (2026). Designing Spatial Treatments. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.08335" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.08335.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Designing%20Spatial%20Treatments" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究干预发生地与受影响个体所在地不一致时，如何安排空间处理点。它用最小间距设计权衡干预相互污染造成的偏差与处理点变少带来的方差，并给出估计和推断方法。目标是单个干预点的未污染平均影响，适用性依赖影响随距离衰减等设定。
+
+标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：空间溢出">空间溢出</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### A/B 测试显著以后，是否就该上线？ {#arxiv-2609-07633}
+
+<p class="myapa">Farrell, M. H., Korganbekova, M., &amp; Misra, S. (2026). Robust A/B Decisions. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.07633" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.07633.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Robust%20A%2FB%20Decisions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文区分实验样本中的均值检验与未来部署环境中的经济决策，对实验结果附近的分布加入模糊性惩罚，形成保守的上线规则。它将对实验外推的信任程度明确为一个参数，并用广告实验资料评估决策。适合讨论上线收益与分布变化，不能据此将所有显著性检验视为无用。
+
+标签：<a class="tag-link" href="?q=A%2FB%20%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：A/B 测试">A/B 测试</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a> · <a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：分布变化">分布变化</a>
+
+<small>来源日期：2026-09-07；补录：2026-09-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### IV-LASSO：第一阶段的字典与惩罚怎样选？ {#arxiv-2609-07033}
+
+<p class="myapa">Ma, Y., Navjeevan, M., &amp; Salahub, B. (2026). Choosing the Dictionary and Penalty for IV-LASSO. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.07033" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.07033.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Choosing%20the%20Dictionary%20and%20Penalty%20for%20IV-LASSO" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文从结构参数的近似均方误差出发，比较 IV-LASSO 的候选字典和惩罚水平。第一阶段拟合更复杂既能改善逼近，也可能加大与结构误差的关联，因此预测型交叉验证未必对应结构参数的最佳选择。推导基于单个内生变量及同方差高斯误差模型，应用时须核对这些边界。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=LASSO&amp;show-results=1" title="全站搜索：LASSO">LASSO</a> · <a class="tag-link" href="?q=%E6%9C%89%E9%99%90%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：有限样本">有限样本</a>
+
+<small>来源日期：2026-09-07；补录：2026-09-10</small>
+
+
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### SHINE-YES-with-NO 经济学嘉年华：9 月 30 日截稿 {#conference-shine-yes-no-2026}
+
+**投稿截止：2026-09-30**
+
+会议：2026-11-14 至 2026-11-15 · 上海交通大学徐汇校区浩然科技大厦 10 楼
+
+费用：通知提供会议餐食，交通住宿自理；未明确注册费，不标免费。
+
+会议于 11 月 14–15 日在上海交通大学举行，关注中国经济的重要现实问题，欢迎理论、实证研究及扎实调研报告。投稿截止为 9 月 30 日，报告和海报展示均有遴选；投稿方式见组委会通知。交通住宿自理，通知未明确注册费，不能据提供餐食认定免费参会。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<small>来源日期：2026-07-15；补录：2026-09-10</small>
+
+<a href="https://www.shine.sjtu.edu.cn/shine/notice/97433.html" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

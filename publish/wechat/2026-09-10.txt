@@ -1,0 +1,28 @@
+📙 连享会 · 快讯 | 2026.09.10
+
+✍️ 01｜新推文：AI 我知道-07：知识图谱如何用于研究？工具、提示词与工作流
+把论文整理成可追溯的知识卡片，再判断是否需要知识图谱。提供字段与提示词，帮助反复查询方法、变量和证据位置；核心结论仍需人工核验。
+阅读全文： https://www.lianxh.cn/details/1929.html 
+
+📰 02｜论文 · Management Science：MS：从新闻文本度量叙事模糊性
+从经济新闻构造叙事模糊性指标，考察其与市场收益预测的联系。可借鉴文本度量与样本外验证，注意区分预测能力和因果解释。
+引文：Wei & Zhang (2026). Narrative Ambiguity Matters. Management Science.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02735 
+
+📰 03｜论文 · Contemporary Accounting Research：CAR：年报风险写在前面，是否更有信息？
+研究年报风险因素的排列位置是否传递额外信息。除词频与篇幅外，段落顺序也值得保留；风险排序的预测作用不等于因果效应。
+引文：Chin, Liu & Moffitt (2026). Voluntary Disclosure Through the Prominence of Risk Factors in the 10‐K. Contemporary Accounting Research.
+主页： https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70082 
+
+📦 04｜命令 · Stata：parqit：先在磁盘整理大数据，再读入 Stata
+对 Parquet 数据先筛选、合并和汇总，再将结果读入 Stata，减少整表装入内存的需要。安装：ssc install parqit。注意默认 SQL 缺失值规则与 Stata 不同。
+版本：Stata / parqit SSC 登记 2026-08-25；本轮读取帮助版本 0.1.37；发布：2026-08-25
+主页： https://ideas.repec.org/c/boc/bocode/s459873.html 
+
+📅 05｜会议征稿：2026 年世界经济与国际贸易研讨会：9 月 28 日截稿
+10 月 23–24 日举行，接受中英文原创未发表论文，设研究生专场。9 月 28 日截稿；会务费 1000 元，学生 500 元，交通住宿自理。
+截止：2026-09-28
+通知： https://gjjmx.xmu.edu.cn/info/1055/111855.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260910/ 

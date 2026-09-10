@@ -8,9 +8,16 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 5 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 6 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>parqit：先在磁盘整理大数据，再读入 Stata</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>parqit 用嵌入式 DuckDB 对 Parquet 数据执行筛选、合并和汇总，最后才把结果读入 Stata，或直接写回 Parquet。安装命令为 <code>ssc install parqit</code>。它适合内存有限的大数据整理，但默认缺失值规则来自 SQL，且并不支持所有 Stata 选项，迁移代码前应核对帮助文件。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Parquet&amp;show-results=1" title="全站搜索：Parquet">Parquet</a> · <a class="tag-link" href="?q=DuckDB&amp;show-results=1" title="全站搜索：DuckDB">DuckDB</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：大数据处理">大数据处理</a></p>
+<p><a href="../issues/20260910/#stata-parqit-20260825">查看本期</a></p>
+</article>
 <article class="catalog-card">
 <h3>cellgraph：分组汇总后直接绘图</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>

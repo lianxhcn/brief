@@ -8,9 +8,16 @@ title: "新推文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>女性 CEO 为何这么少？顶刊论文构造识别策略的思路</h3>
+<p class="catalog-meta">来源日期：2026-09-03</p>
+<p>通过重建 CEO 候选集合，解释如何区分候选池、能力判断与董事会偏好。文章把机制识别与结构模型连接起来，也说明商业数据及候选池设定的限制。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A5%B3%E6%80%A7CEO&amp;show-results=1" title="全站搜索：女性CEO">女性CEO</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E7%AD%96%E7%95%A5&amp;show-results=1" title="全站搜索：识别策略">识别策略</a></p>
+<p><a href="../history/20260815-20260907/#post-1911">查看历史条目</a></p>
+</article>
 <article class="catalog-card">
 <h3>ReproAI-下：Stata 复现包实测——ReproAI 能找到漏洞吗？</h3>
 <p class="catalog-meta">来源日期：2026-09-03</p>
@@ -74,15 +81,8 @@ title: "新推文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AD%A6%E6%9C%AF%E5%86%99%E4%BD%9C&amp;show-results=1" title="全站搜索：学术写作">学术写作</a> · <a class="tag-link" href="?q=Skills&amp;show-results=1" title="全站搜索：Skills">Skills</a></p>
 <p><a href="../history/20260815-20260907/#post-1904">查看历史条目</a></p>
 </article>
-<article class="catalog-card">
-<h3>平行趋势不成立怎么办？用 DiDwb、MDiD 和 RD 重新识别政策效果</h3>
-<p class="catalog-meta">来源日期：2026-08-29</p>
-<p>围绕空气污染政策评估，解释基线污染与后续趋势相关时的 DID 风险，并比较 DiDwb、MDiD 和 RD 的识别思路。阅读时应同时核对样本与目标参数。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a></p>
-<p><a href="../history/20260815-20260907/#post-1902">查看历史条目</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

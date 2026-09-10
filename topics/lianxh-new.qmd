@@ -8,9 +8,16 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>AI 我知道-07：知识图谱如何用于研究？工具、提示词与工作流</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>文章把论文拆成带来源、页码和限定条件的知识卡片，再讨论何时需要将卡片连接为知识图谱。它区分文献网络、向量 RAG 与 GraphRAG，并给出小规模文献库的字段、提示词和核验流程；模型抽取的关系仍是候选证据，不能直接当作综述结论。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1&amp;show-results=1" title="全站搜索：知识图谱">知识图谱</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87&amp;show-results=1" title="全站搜索：知识卡片">知识卡片</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a></p>
+<p><a href="../issues/20260910/#post-1929">查看本期</a></p>
+</article>
 <article class="catalog-card">
 <h3>从美欧调查看「AI 采用」的测量、组织扩散与因果识别</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
@@ -74,15 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B4%E4%BB%BD%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：年份固定效应">年份固定效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：异质暴露">异质暴露</a></p>
 <p><a href="../history/20260815-20260907/#post-1915">查看历史条目</a></p>
 </article>
-<article class="catalog-card">
-<h3>女性 CEO 为何这么少？顶刊论文构造识别策略的思路</h3>
-<p class="catalog-meta">来源日期：2026-09-03</p>
-<p>通过重建 CEO 候选集合，解释如何区分候选池、能力判断与董事会偏好。文章把机制识别与结构模型连接起来，也说明商业数据及候选池设定的限制。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A5%B3%E6%80%A7CEO&amp;show-results=1" title="全站搜索：女性CEO">女性CEO</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E7%AD%96%E7%95%A5&amp;show-results=1" title="全站搜索：识别策略">识别策略</a></p>
-<p><a href="../history/20260815-20260907/#post-1911">查看历史条目</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
