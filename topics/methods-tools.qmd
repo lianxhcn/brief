@@ -16,42 +16,42 @@ title: "新方法"
 <p class="catalog-meta">期次日期：2026-09-10</p>
 <p>parqit 用嵌入式 DuckDB 对 Parquet 数据执行筛选、合并和汇总，最后才把结果读入 Stata，或直接写回 Parquet。安装命令为 <code>ssc install parqit</code>。它适合内存有限的大数据整理，但默认缺失值规则来自 SQL，且并不支持所有 Stata 选项，迁移代码前应核对帮助文件。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Parquet&amp;show-results=1" title="全站搜索：Parquet">Parquet</a> · <a class="tag-link" href="?q=DuckDB&amp;show-results=1" title="全站搜索：DuckDB">DuckDB</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：大数据处理">大数据处理</a></p>
-<p><a href="../issues/20260910/#stata-parqit-20260825">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#stata-parqit-20260825">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459873.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>cellgraph：分组汇总后直接绘图</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
 <p>cellgraph 将数据按一个或两个分类变量汇总，再绘制各组均值或其他统计量。官方帮助给出多变量、置信区间及类别排序等示例，适合描述组间差异和快速检查数据。安装命令为 <code>ssc install cellgraph</code>；汇总图呈现的是描述性关系，不能替代识别设计。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E7%BB%84%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：分组统计">分组统计</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：数据可视化">数据可视化</a></p>
-<p><a href="../issues/20260909/#stata-cellgraph-20260827">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#stata-cellgraph-20260827">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459878.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>Stata 新命令：lwdid 的滚动 DID 估计</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>
 <p>Lee 与 Wooldridge 的 lwdid 提供滚动 DID 估计，区分大 N 与小 N 情形，并支持共同或交错处理时点。官方说明列出预处理均值、趋势及部分设定下的季节性变换。SSC 记录显示 8 月 21 日有修订，可用 <code>ssc install lwdid</code> 安装。使用时须按样本维度和识别条件选择选项，不能把去趋势视为平行趋势的自动保证。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%BB%9A%E5%8A%A8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：滚动估计">滚动估计</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%BB%9A%E5%8A%A8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：滚动估计">滚动估计</a></p>
-<p><a href="../issues/20260908/#stata-lwdid-20260821">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#stata-lwdid-20260821">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459672.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>Stata 新命令：xtbfkbreak 估计异质面板的共同结构突变</h3>
 <p class="catalog-meta">期次日期：2026-09-05</p>
 <p>命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 <code>ssc install xtbfkbreak</code>；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a></p>
-<p><a href="../issues/20260905/#stata-xtbfkbreak-20260820">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260905/#stata-xtbfkbreak-20260820">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459789.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>R：binsreg 2.2 分箱散点图与统计推断</h3>
 <p class="catalog-meta">期次日期：2026-09-05</p>
 <p>binsreg 2.2 于 2026-08-21 发布，包含 binsreg、binsqreg、binsglm、binstest 等函数，可用于分箱回归、置信区间、形状检验及相关可视化，并支持协变量调整和聚类推断。分箱图本身不能确立因果关系。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%88%86%E7%AE%B1%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分箱回归">分箱回归</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：非参数推断">非参数推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0&amp;show-results=1" title="全站搜索：软件更新">软件更新</a> · <a class="tag-link" href="?q=binsreg&amp;show-results=1" title="全站搜索：binsreg">binsreg</a></p>
-<p><a href="../issues/20260905/#binsreg-r-22">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260905/#binsreg-r-22">查看本期</a><a href="https://cran.r-project.org/package=binsreg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>DoubleML 0.11.4</h3>
 <p class="catalog-meta">期次日期：2026-09-05</p>
 <p>DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.11.4 于 2026-08-10 发布。它将交叉拟合与正交得分封装为接口，可用于复杂控制变量下的因果参数估计；使用时仍需明确识别假设。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：因果机器学习">因果机器学习</a> · <a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E6%8B%9F%E5%90%88&amp;show-results=1" title="全站搜索：交叉拟合">交叉拟合</a></p>
-<p><a href="../issues/20260905/#doubleml-python-0114">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260905/#doubleml-python-0114">查看本期</a><a href="https://docs.doubleml.org/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
