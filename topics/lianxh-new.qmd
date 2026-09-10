@@ -16,70 +16,70 @@ title: "新推文"
 <p class="catalog-meta">期次日期：2026-09-10</p>
 <p>文章把论文拆成带来源、页码和限定条件的知识卡片，再讨论何时需要将卡片连接为知识图谱。它区分文献网络、向量 RAG 与 GraphRAG，并给出小规模文献库的字段、提示词和核验流程；模型抽取的关系仍是候选证据，不能直接当作综述结论。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1&amp;show-results=1" title="全站搜索：知识图谱">知识图谱</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87&amp;show-results=1" title="全站搜索：知识卡片">知识卡片</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a></p>
-<p><a href="../issues/20260910/#post-1929">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#post-1929">查看本期</a><a href="https://www.lianxh.cn/details/1929.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>从美欧调查看「AI 采用」的测量、组织扩散与因果识别</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
 <p>文章从工人和企业调查出发，区分 AI 暴露、实际采用、使用强度与生产率结果，解释问卷口径和组织部署如何改变指标含义。对于使用年报、招聘或调查数据研究 AI 的读者，可借鉴其观察单位、时间窗口和采用路径的核对思路；行业相关性仍不能直接解释为因果效应。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：AI 采用">AI 采用</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：企业调查">企业调查</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a></p>
-<p><a href="../issues/20260909/#post-1927">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#post-1927">查看本期</a><a href="https://www.lianxh.cn/details/1927.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>AI Agent 到底是什么？一次理清 LLM、Chatbot、Workflow 与 Agentic</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
 <p>文章用修正 Stata do-file 的教学场景，比较人主导、预设程序和模型动态安排操作三种机制。讨论模型、对话应用、工具权限和反馈回路各自承担的工作，并给出描述研究系统时应记录的模型版本、决策范围及验收条件。代码运行成功仍需结合研究设定核查，不能由 Agent 名称推断可靠性。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20Agent&amp;show-results=1" title="全站搜索：AI Agent">AI Agent</a> · <a class="tag-link" href="?q=Workflow&amp;show-results=1" title="全站搜索：Workflow">Workflow</a> · <a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：科研复现">科研复现</a></p>
-<p><a href="../issues/20260909/#post-1926">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#post-1926">查看本期</a><a href="https://www.lianxh.cn/details/1926.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>
 <p>文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=regsensitivity&amp;show-results=1" title="全站搜索：regsensitivity">regsensitivity</a></p>
-<p><a href="../issues/20260908/#post-1916">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#post-1916">查看本期</a><a href="https://www.lianxh.cn/details/1916.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>文本转成 Embedding 后，还能直接拿来做因果推断吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>
 <p>文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Embedding&amp;show-results=1" title="全站搜索：Embedding">Embedding</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
-<p><a href="../issues/20260908/#post-1921">查看本期</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#post-1921">查看本期</a><a href="https://www.lianxh.cn/details/1921.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>文生图很烧 Tokens 吗？科研配图的选择逻辑</h3>
 <p class="catalog-meta">来源日期：2026-09-06</p>
 <p>按用途区分文生图、代码绘图、矢量排版和界面截图，讨论科研配图如何先确定事实与布局。适合为公式、统计图和概念插图选择合适的制作路径。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%85%8D%E5%9B%BE&amp;show-results=1" title="全站搜索：科研配图">科研配图</a> · <a class="tag-link" href="?q=%E6%96%87%E7%94%9F%E5%9B%BE&amp;show-results=1" title="全站搜索：文生图">文生图</a></p>
-<p><a href="../history/20260815-20260907/#post-1922">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1922">查看历史条目</a><a href="https://www.lianxh.cn/details/1922.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>Logit + XGBoost：一种可解释的混合信用评分模型</h3>
 <p class="catalog-meta">来源日期：2026-09-05</p>
 <p>介绍以 Logit 为主体、以 XGBoost 学习残差的混合评分思路，并讨论逐笔预测的透明分支占比。文章也提醒读者区分银行账户持有标签与贷款违约标签。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E8%AF%84%E5%88%86&amp;show-results=1" title="全站搜索：信用评分">信用评分</a> · <a class="tag-link" href="?q=Logit&amp;show-results=1" title="全站搜索：Logit">Logit</a> · <a class="tag-link" href="?q=XGBoost&amp;show-results=1" title="全站搜索：XGBoost">XGBoost</a></p>
-<p><a href="../history/20260815-20260907/#post-1918">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1918">查看历史条目</a><a href="https://www.lianxh.cn/details/1918.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>AI 参与金融决策，为什么不能只看准确率？</h3>
 <p class="catalog-meta">来源日期：2026-09-05</p>
 <p>围绕信用解释、欺诈识别和文本字段抽取，讨论平均准确率之外的稳定性与可审计性。文章提出保存模型、输入和规则版本，并区分结果可复现与判断正确。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：金融决策">金融决策</a> · <a class="tag-link" href="?q=AI%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：AI评价">AI评价</a></p>
-<p><a href="../history/20260815-20260907/#post-1917">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1917">查看历史条目</a><a href="https://www.lianxh.cn/details/1917.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(下)：行业×年份固定效应、IFE 与 CCE</h3>
 <p class="catalog-meta">来源日期：2026-09-04</p>
 <p>在异质共同冲击框架下，比较组别与年份交互、IFE 和 CCE 的控制思路。文章强调因子数、面板条件与识别变异，应结合上篇理解不同方法的代价。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%90%8C%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：共同冲击">共同冲击</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：交互固定效应">交互固定效应</a></p>
-<p><a href="../history/20260815-20260907/#post-1914">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1914">查看历史条目</a><a href="https://www.lianxh.cn/details/1914.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(上)：从扰动项到异质暴露</h3>
 <p class="catalog-meta">来源日期：2026-09-04</p>
 <p>从企业对同一利率变化的不同暴露出发，解释年份固定效应能吸收的年度加性变化。文章讨论何时需要暴露度与冲击的交互项，并区分识别问题与标准误问题。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B4%E4%BB%BD%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：年份固定效应">年份固定效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：异质暴露">异质暴露</a></p>
-<p><a href="../history/20260815-20260907/#post-1915">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1915">查看历史条目</a><a href="https://www.lianxh.cn/details/1915.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 

@@ -16,14 +16,14 @@ title: "新推文 · 第 4 页"
 <p class="catalog-meta">来源日期：2026-08-15</p>
 <p>文章梳理 PC、FCI、GES 等因果发现方法，以及条件独立检验和图评价工具。使用前需要判断潜在混杂、数据类型与算法假设，输出的图结构仍需领域知识核对。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=causal-learn&amp;show-results=1" title="全站搜索：causal-learn">causal-learn</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%8F%91%E7%8E%B0&amp;show-results=1" title="全站搜索：因果发现">因果发现</a></p>
-<p><a href="../history/20260815-20260907/#post-1892">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1892">查看历史条目</a><a href="https://www.lianxh.cn/details/1892.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>Claude Code Hooks-钩子：怎么配，如何迁移到 Codex？</h3>
 <p class="catalog-meta">来源日期：2026-08-15</p>
 <p>文章从通知、文件保护和结束前检查等场景解释 Hooks，并列出跨平台迁移时需要重新核对的输入字段、路径和行为。适合作为配置前的检查清单。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Claude%20Code&amp;show-results=1" title="全站搜索：Claude Code">Claude Code</a> · <a class="tag-link" href="?q=Hooks&amp;show-results=1" title="全站搜索：Hooks">Hooks</a> · <a class="tag-link" href="?q=Codex&amp;show-results=1" title="全站搜索：Codex">Codex</a></p>
-<p><a href="../history/20260815-20260907/#post-1891">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1891">查看历史条目</a><a href="https://www.lianxh.cn/details/1891.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 

@@ -16,70 +16,70 @@ title: "新推文 · 第 3 页"
 <p class="catalog-meta">来源日期：2026-08-29</p>
 <p>围绕空气污染政策评估，解释基线污染与后续趋势相关时的 DID 风险，并比较 DiDwb、MDiD 和 RD 的识别思路。阅读时应同时核对样本与目标参数。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a></p>
-<p><a href="../history/20260815-20260907/#post-1902">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1902">查看历史条目</a><a href="https://www.lianxh.cn/details/1902.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>LLM 文本标注成本降 80%：一次放几条、一次问几个变量？</h3>
 <p class="catalog-meta">来源日期：2026-08-29</p>
 <p>文章分别讨论一次提交多条文本与一次标注多个变量的成本和质量权衡。适合在大规模标注前设计小样本校准、保留失败记录并检查下游变量误差。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a></p>
-<p><a href="../history/20260815-20260907/#post-1901">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1901">查看历史条目</a><a href="https://www.lianxh.cn/details/1901.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>AI 我知道-06：为什么 AI 越聊越乱？上下文腐烂与论文协作工作流</h3>
 <p class="catalog-meta">来源日期：2026-08-29</p>
 <p>从变量定义、模型版本和代码修改的混乱出发，讨论任务拆分、项目文件夹与任务日志。适合建立长对话交接规则，避免把过时设定带入当前分析。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：上下文管理">上下文管理</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：论文协作">论文协作</a></p>
-<p><a href="../history/20260815-20260907/#post-1903">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1903">查看历史条目</a><a href="https://www.lianxh.cn/details/1903.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>WorkBuddy 接入 Stata MCP：从文献整理到直接跑回归</h3>
 <p class="catalog-meta">来源日期：2026-08-24</p>
 <p>以文献卡片、数据诊断和 Stata 自带数据测试说明 Agent 与 MCP 的连接流程。适合梳理代码生成、实际执行和日志反馈之间的分工。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=MCP&amp;show-results=1" title="全站搜索：MCP">MCP</a> · <a class="tag-link" href="?q=WorkBuddy&amp;show-results=1" title="全站搜索：WorkBuddy">WorkBuddy</a></p>
-<p><a href="../history/20260815-20260907/#post-1898">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1898">查看历史条目</a><a href="https://www.lianxh.cn/details/1898.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>AI 跑出的 DID 很显著，可信吗？用 causal-did 加一道识别防线</h3>
 <p class="catalog-meta">来源日期：2026-08-24</p>
 <p>通过预设反例区分代码运行、结果复现与因果识别，并介绍 causal-did 的设计检查流程。文章提醒读者把识别条件和结果验收写进任务，而不能只要求显著结果。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E5%81%87%E8%AE%BE&amp;show-results=1" title="全站搜索：识别假设">识别假设</a></p>
-<p><a href="../history/20260815-20260907/#post-1899">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1899">查看历史条目</a><a href="https://www.lianxh.cn/details/1899.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>Skills、MCP、A2A、ARD：科研 Agent 到底该用哪些？</h3>
 <p class="catalog-meta">来源日期：2026-08-22</p>
 <p>用文献核验工作流区分 Skills 的操作规则、MCP 的工具连接以及 Agent 协作与发现机制。文章提供按任务选择组合的思路，并保留权限与人工核对环节。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=Skills&amp;show-results=1" title="全站搜索：Skills">Skills</a> · <a class="tag-link" href="?q=MCP&amp;show-results=1" title="全站搜索：MCP">MCP</a></p>
-<p><a href="../history/20260815-20260907/#post-1897">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1897">查看历史条目</a><a href="https://www.lianxh.cn/details/1897.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>从 reghdfe 到 PyFixest：Python 高维固定效应与 DID 快速上手</h3>
 <p class="catalog-meta">来源日期：2026-08-18</p>
 <p>将固定效应公式、聚类标准误和 DID 估计对象与 PyFixest 接口逐项对照。适合熟悉 reghdfe 的读者理解迁移时应比较哪些模型设定。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=PyFixest&amp;show-results=1" title="全站搜索：PyFixest">PyFixest</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p><a href="../history/20260815-20260907/#post-1895">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1895">查看历史条目</a><a href="https://www.lianxh.cn/details/1895.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>万能提示词真的存在吗？五份 Prompting Science Report 的实证检验</h3>
 <p class="catalog-meta">来源日期：2026-08-18</p>
 <p>围绕五份提示词实验报告，讨论角色、语气、思维链和评价标准如何影响结论。阅读重点是按自己的任务验证提示方案，并将外部材料中的指令与任务要求分开。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8F%90%E7%A4%BA%E8%AF%8D&amp;show-results=1" title="全站搜索：提示词">提示词</a> · <a class="tag-link" href="?q=%E5%AE%9E%E8%AF%81%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：实证检验">实证检验</a></p>
-<p><a href="../history/20260815-20260907/#post-1896">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1896">查看历史条目</a><a href="https://www.lianxh.cn/details/1896.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>SNAP08-社会网络中的「圈子」是怎样识别出来的？</h3>
 <p class="catalog-meta">来源日期：2026-08-16</p>
 <p>从小网络的候选划分手算模块度，再转到 Louvain 的软件操作。文章强调分辨率、随机性和社群经济含义需要分别判断，可用于网络分析入门教学。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社会网络">社会网络</a> · <a class="tag-link" href="?q=%E7%A4%BE%E7%BE%A4%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：社群识别">社群识别</a></p>
-<p><a href="../history/20260815-20260907/#post-1894">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1894">查看历史条目</a><a href="https://www.lianxh.cn/details/1894.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>SNAP07-手动计算：社会网络分析中的密度、距离与聚集系数</h3>
 <p class="catalog-meta">来源日期：2026-08-16</p>
 <p>用六个节点的小网络手算密度、路径和聚集指标，说明相同边数可以对应不同结构。重点讨论网络断开时指标口径如何变化，并给出代码核对入口。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社会网络">社会网络</a> · <a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%8C%87%E6%A0%87&amp;show-results=1" title="全站搜索：网络指标">网络指标</a></p>
-<p><a href="../history/20260815-20260907/#post-1893">查看历史条目</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1893">查看历史条目</a><a href="https://www.lianxh.cn/details/1893.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 

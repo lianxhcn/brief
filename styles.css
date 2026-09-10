@@ -258,3 +258,7 @@ main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 10
 .home-page #最新期次 li { line-height: 1.875; }
 .issue-page section.level3 > h3 { border-left: 3px solid #6b9870; padding-left: 0.6rem; }
 .brief-entry code, .catalog-card code { color: #24552a; background: #f0f5f0; padding: 0.1em 0.3em; border-radius: 0.2em; overflow-wrap: anywhere; }
+
+/* 卡片阅读入口保持间距，窄屏允许换行。 */
+.catalog-actions { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+.catalog-actions a { white-space: nowrap; }

@@ -55,14 +55,14 @@ def entries(issues: list[dict]) -> list[dict]:
                 seen.update(identities(item))
                 collected.append({
                     "id": item["id"], "date": issue["date"], "title": item["title"], "note": public_summary(item),
-                    "section": catalog["section"], "catalog": catalog,
+                    "section": catalog["section"], "catalog": catalog, "original_url": item.get("url") or item.get("source_url", ""),
                 })
     for slug, data in collections():
         for row in data['entries']:
             item = resolve(row)
             if identities(item) & seen: continue
             seen.update(identities(item))
-            collected.append(dict(id=item['id'], date=row['source_date'], title=item['title'], note=public_summary(item), section=item['catalog']['section'], catalog=item['catalog'], history_slug=slug))
+            collected.append(dict(id=item['id'], date=row['source_date'], title=item['title'], note=public_summary(item), section=item['catalog']['section'], catalog=item['catalog'], history_slug=slug, original_url=item.get('url') or item.get('source_url', '')))
     return sorted(collected, key=lambda value: (value["date"], value["title"]), reverse=True)
 
 
@@ -80,12 +80,19 @@ def card(entry: dict) -> str:
     if entry["catalog"]["tags"]:
         labels.append(f"<strong>标签：</strong>{tag_links(entry['catalog']['tags'])}")
     metadata = "；".join(labels) or ""
+    # 新推文复用原始资料地址，日常与历史卡片共用入口。
+    actions = f'<a href="{date_link}">{link_label}</a>'
+    original_url = entry.get('original_url', '')
+    if entry['section'] == 'lianxh-new' and original_url.startswith(('https://', 'http://')):
+        actions += (f'<a href="{escape(original_url)}" target="_blank" '
+                    'rel="noopener noreferrer">阅读原文</a>')
+    action_class = ' class="catalog-actions"' if entry['section'] == 'lianxh-new' else ''
     return f'''<article class="catalog-card">
 <h3>{escape(entry['title'])}</h3>
 <p class="catalog-meta">{date_label}：{escape(entry['date'])}</p>
 <p>{inline_code(entry['note'])}</p>
 <p class="catalog-tags">{metadata}</p>
-<p><a href="{date_link}">{link_label}</a></p>
+<p{action_class}>{actions}</p>
 </article>'''
 
 
