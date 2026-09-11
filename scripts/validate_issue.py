@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import re
 from datetime import date
@@ -473,7 +474,7 @@ def validate_page(issue: dict, issues_dir: Path, errors: list[str]) -> Path:
                 errors.append(f"{path}: myAPA 与已核验元数据不一致")
         else:
             for url in filter(None, (item_url(item, category), item.get("replication_url"))):
-                if url not in text:
+                if url not in html.unescape(text):
                     errors.append(f"{path}: 未渲染数据源 URL {url}")
     return path
 

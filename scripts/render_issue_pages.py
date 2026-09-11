@@ -16,7 +16,8 @@ from website_promotions import render_promotion
 
 
 def escape(value: object) -> str:
-    return html.escape(str(value), quote=False)
+    # 星号必须作为文字保留，防止 Pandoc 将题名和锚点解析为强调。
+    return html.escape(str(value), quote=False).replace('*', '&#42;')
 
 
 def item_links(item: dict, category: str) -> list[str]:

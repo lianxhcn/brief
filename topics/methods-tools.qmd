@@ -8,9 +8,16 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 6 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 7 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>rtablabs：给回归结果数据集补上变量标签</h3>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>rtablabs 为转置后的 r(table) 经 xsvmat 转成的结果数据集添加数值变量标签，便于识别系数、标准误、区间和 p 值。安装命令为 <code>ssc install rtablabs</code>。它适合批量整理回归结果，需先按帮助示例生成对应结果数据集；标签处理不改变估计量，也不替代统计推断。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：回归结果">回归结果</a> · <a class="tag-link" href="?q=%E5%8F%98%E9%87%8F%E6%A0%87%E7%AD%BE&amp;show-results=1" title="全站搜索：变量标签">变量标签</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86&amp;show-results=1" title="全站搜索：数据整理">数据整理</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#stata-rtablabs-20260909">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459884.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>parqit：先在磁盘整理大数据，再读入 Stata</h3>
 <p class="catalog-meta">期次日期：2026-09-10</p>

@@ -1,0 +1,219 @@
+---
+title: "连享会 · 快讯 | 2026.09.11"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### MS：随机现场检查如何影响 IPO 报告质量？ {#paper-mnsc-2024-05042}
+
+<p class="myapa">Fan, M., Guo, K., &amp; Ke, B. (2026). Public Enforcement and Initial Public Offering Reporting Quality in Weak Institutional Environments: Evidence from a Random Experiment in China. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.05042" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Public%20Enforcement%20and%20Initial%20Public%20Offering%20Reporting%20Quality%20in%20Weak%20Institutional%20Environments%3A%20Evidence%20from%20a%20Random%20Experiment%20in%20China" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用中国 IPO 申请企业的随机现场检查安排，研究主动执法如何筛除可疑财务披露，并影响后续申请者的报告行为。它同时讨论监管的筛选、威慑收益与误拒潜在合格企业的代价。适合借鉴随机监管安排的识别思路，不能只按退出企业数量评价监管效果。
+
+标签：<a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：随机检查">随机检查</a> · <a class="tag-link" href="?q=IPO&amp;show-results=1" title="全站搜索：IPO">IPO</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a>
+
+<small>来源日期：2026-08-28；补录：2026-09-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### JPE：同学的受灾经历，怎样影响自己的学习？ {#paper-742714}
+
+<p class="myapa">Tincani, M. M. (2026). Peer Effects and Rank Concerns in the Classroom. Journal of Political Economy. <a href="https://doi.org/10.1086/742714" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Peer%20Effects%20and%20Rank%20Concerns%20in%20the%20Classroom" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文把智利学生行政与调查资料同地震住房损毁程度连接，区分同学平均受灾程度与受灾差异的影响。学校资源调整和学生之间的排名竞争可能分别参与传导；研究用地位竞争模型解释相关现象，提醒同伴效应分析同时考虑学校响应和学生互动。
+
+标签：<a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=%E8%87%AA%E7%84%B6%E7%81%BE%E5%AE%B3&amp;show-results=1" title="全站搜索：自然灾害">自然灾害</a> · <a class="tag-link" href="?q=%E6%8E%92%E5%90%8D%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：排名竞争">排名竞争</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-11</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### rtablabs：给回归结果数据集补上变量标签 {#stata-rtablabs-20260909}
+
+rtablabs 为转置后的 r(table) 经 xsvmat 转成的结果数据集添加数值变量标签，便于识别系数、标准误、区间和 p 值。安装命令为 <code>ssc install rtablabs</code>。它适合批量整理回归结果，需先按帮助示例生成对应结果数据集；标签处理不改变估计量，也不替代统计推断。
+
+标签：<a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：回归结果">回归结果</a> · <a class="tag-link" href="?q=%E5%8F%98%E9%87%8F%E6%A0%87%E7%AD%BE&amp;show-results=1" title="全站搜索：变量标签">变量标签</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86&amp;show-results=1" title="全站搜索：数据整理">数据整理</a>
+
+<small>来源日期：2026-09-09；补录：2026-09-11</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459884.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 第九届中国制度经济学论坛：9 月 25 日截稿 {#conference-institutional-econ-2026}
+
+**投稿截止：2026-09-25**
+
+会议：2026-11-14 至 2026-11-15 · 湘潭大学
+
+费用：不收会务费，提供工作餐；住宿交通自理。
+
+论坛 11 月 14–15 日在湘潭大学举行，接受中英文原创未发表论文，议题涵盖制度变迁、公司治理、数据产权和政策评估。9 月 25 日前投稿，作者信息须与正文分开以便匿名评审；不收会务费，住宿交通自理。优秀论文推荐审稿不等于期刊录用。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<small>来源日期：2026-05-19；补录：2026-09-11</small>
+
+<a href="https://business.xtu.edu.cn/?ac=view&amp;cd=news&amp;id=202605190003" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### MS：用签证抽签研究高技能移民的金融业贡献 {#paper-mnsc-2024-07615}
+
+<p class="myapa">Chen, J., Hshieh, S., Teo, M., &amp; Zhang, F. (2026). Immigrants in Finance: Evidence from Hedge Funds. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07615" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Immigrants%20in%20Finance%3A%20Evidence%20from%20Hedge%20Funds" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用 H-1B 签证随机抽签，考察对冲基金获得高技能移民员工与基金表现之间的关系，并追踪量化技能、投资策略和容量约束等渠道。它提供了用人才供给冲击研究企业表现的思路；结果来自特定金融机构和签证制度，不能当作个人投资建议。
+
+标签：<a class="tag-link" href="?q=%E7%AD%BE%E8%AF%81%E6%8A%BD%E7%AD%BE&amp;show-results=1" title="全站搜索：签证抽签">签证抽签</a> · <a class="tag-link" href="?q=%E9%AB%98%E6%8A%80%E8%83%BD%E7%A7%BB%E6%B0%91&amp;show-results=1" title="全站搜索：高技能移民">高技能移民</a> · <a class="tag-link" href="?q=%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91&amp;show-results=1" title="全站搜索：对冲基金">对冲基金</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### MS：环境监管不确定时，企业会等待还是创新？ {#paper-mnsc-2024-06051}
+
+<p class="myapa">Wang, J. B. (2026). Waiting or Acting: The Effects of Environmental Regulatory Uncertainty on Green Innovation. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.06051" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Waiting%20or%20Acting%3A%20The%20Effects%20of%20Environmental%20Regulatory%20Uncertainty%20on%20Green%20Innovation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究污染企业面对环境监管不确定性时的创新反应，采用环境议题投票的政治极化指标作为工具变量，并结合 2018 年政策提案做 DID 分析。结果支持企业主动增加绿色创新的解释；借鉴时应分别核对工具变量排除限制、政策冲击与平行趋势条件。
+
+标签：<a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：监管不确定性">监管不确定性</a> · <a class="tag-link" href="?q=%E7%BB%BF%E8%89%B2%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：绿色创新">绿色创新</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### ASQ：第三方专家能否促进企业参与规则制定？ {#paper-00018392261473620}
+
+<p class="myapa">Hicken, A., Malesky, E. J., Nillasithanukroh, S. S., &amp; Taussig, M. (2026). Legitimizing the Regulatory State: How Institutional Intermediaries Facilitate Inclusive and Effective Co-creation in Emerging Economies. Administrative Science Quarterly. <a href="https://doi.org/10.1177/00018392261473620" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://journals.sagepub.com/doi/pdf/10.1177/00018392261473620" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Legitimizing%20the%20Regulatory%20State%3A%20How%20Institutional%20Intermediaries%20Facilitate%20Inclusive%20and%20Effective%20Co-creation%20in%20Emerging%20Economies" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在泰国开展现场实验，由第三方专家帮助企业理解监管草案并完善反馈意见，考察这种协助能否改善对政府正当性的认知与实际参与。它把参与意愿、理解能力和可观察行为分开研究，提示政策咨询不仅是信息传递，也涉及信任形成；推广时需考虑当地制度背景。
+
+标签：<a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E5%8F%82%E4%B8%8E&amp;show-results=1" title="全站搜索：监管参与">监管参与</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E4%BF%A1%E4%BB%BB&amp;show-results=1" title="全站搜索：制度信任">制度信任</a>
+
+<small>来源日期：2026-09-07；补录：2026-09-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### JOM：用 O&#42;NET 构造职业指标，怎样避免重复与失真？ {#paper-01492063261449793}
+
+<p class="myapa">Williamson, G., Campion, E. D., &amp; Bremer, J. L. (2026). O&#42;NET Plus: A Review and Organizing Framework Extending O&#42;NET’s Content Model in Management Research. Journal of Management. <a href="https://doi.org/10.1177/01492063261449793" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=O%2ANET%20Plus%3A%20A%20Review%20and%20Organizing%20Framework%20Extending%20O%2ANET%E2%80%99s%20Content%20Model%20in%20Management%20Research" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+综述整理基于 O*NET 描述项构造的职业指标，提出扩展的组织框架并比较测量效度证据。职业复杂度、情绪劳动等指标常由原字段组合而成，同名指标未必采用相同定义。适合在匹配职业数据前检查构造依据与适用层级，不能把字段拼接本身视为测量有效。
+
+标签：<a class="tag-link" href="?q=O%2ANET&amp;show-results=1" title="全站搜索：O*NET">O*NET</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E7%89%B9%E5%BE%81&amp;show-results=1" title="全站搜索：职业特征">职业特征</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：测量效度">测量效度</a>
+
+<small>来源日期：2026-08-29；补录：2026-09-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 证据何时足够？把继续收集数据的成本纳入检验 {#arxiv-2609-09544}
+
+<p class="myapa">Epanomeritakis, A. &amp; Viviano, D. (2026). When is statistical evidence strong enough? Using hypothesis tests to value data collection. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.09544" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.09544.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=When%20is%20statistical%20evidence%20strong%20enough%3F%20Using%20hypothesis%20tests%20to%20value%20data%20collection" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文把立即给出政策建议与等待更多证据视为两种决策，在最小最大遗憾框架下让检验水平随新证据的成本和精度变化。作者提出 A-value 衡量推迟决策、继续实验的临界福利成本，作为 p 值的补充；使用时需要明确决策损失与额外数据的获取条件。
+
+标签：<a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：统计检验">统计检验</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86&amp;show-results=1" title="全站搜索：数据收集">数据收集</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：决策分析">决策分析</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 连续处理 DID：平均处理效应与剂量响应要分开 {#arxiv-2609-09488}
+
+<p class="myapa">Yu, F. (2026). Two Margins in Difference-in-Differences with a Continuous Treatment. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.09488" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.09488.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Two%20Margins%20in%20Difference-in-Differences%20with%20a%20Continuous%20Treatment" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在分期实施、剂量随时间不变的 DID 中，区分实际剂量下的平均处理效应与组内剂量响应斜率。两者需要不同的平行趋势等条件，连续剂量 OLS 系数可能混合这两部分。它给出分别估计与联合推断的思路，提醒研究者不要直接把连续处理回归系数解释成统一的边际因果效应。
+
+标签：<a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：连续处理">连续处理</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### AI 帮忙时做得更好，离开 AI 后也学会了吗？ {#nber-w35720}
+
+<p class="myapa">David Autor, Tanya Rodchenko, Josh Martin, Zanna Iscenko, Scott Strand, David Pearl, &amp; Melissa Ferere. (2026). Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting. NBER Working Paper 35720. <a href="https://doi.org/10.3386/w35720" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35720/w35720.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Does%20AI%20Assistance%20Enhance%20or%20Erode%20Expertise%3F%20Evidence%20from%20a%20Three-Month%20Field%20Experiment%20in%20Patent%20Drafting" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文通过专利律师的三个月随机实验，分别评价使用 AI 时的任务表现和撤去 AI 后的独立判断。使用中的增益与保留下来的技能并不一致，不同资历组也有差别；这为 AI 培训评估提供了更完整的测量方式，不能把辅助下的高分直接当成能力提升。研究由 Google 资助，部分作者与其存在雇佣关系。
+
+标签：<a class="tag-link" href="?q=AI%20%E8%BE%85%E5%8A%A9&amp;show-results=1" title="全站搜索：AI 辅助">AI 辅助</a> · <a class="tag-link" href="?q=%E6%8A%80%E8%83%BD%E7%A7%AF%E7%B4%AF&amp;show-results=1" title="全站搜索：技能积累">技能积累</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a>
+
+<small>来源日期：2026-09-07；补录：2026-09-11</small>
+
+
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 消费经济学会年会：9 月 30 日截稿 {#conference-consumption-econ-2026}
+
+**投稿截止：2026-09-30**
+
+会议：2026-11-07 至 2026-11-07 · 河北石家庄
+
+费用：官方通知未说明费用，不能认定免费。
+
+年会于 11 月 7 日在石家庄举行，围绕新需求、新供给与新循环征稿，涵盖服务消费、数字消费和促进消费的制度机制。投稿截止为 9 月 30 日，要求原创未发表论文，设研究生专场；优秀论文可推荐至支持期刊审稿。通知未明确费用，参会前应核对后续安排。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<small>来源日期：2026-07-11；补录：2026-09-11</small>
+
+<a href="https://www.hueb.edu.cn/info/1067/33493.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

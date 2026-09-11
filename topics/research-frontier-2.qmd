@@ -8,9 +8,72 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 40 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 5 页 · 共 49 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-5.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>MS：算法何时应把决策交还给人工？</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文用申报时可获得的信息预测医疗器械召回风险，再设计接受、拒绝或转交专家深入评估的三类决策。它把风险控制与审核工作量共同纳入评价，适合借鉴预测模型如何进入真实流程；基于历史数据的政策评估不等于方案已经部署或得到前瞻性验证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E6%9C%BA%E5%8D%8F%E5%90%8C&amp;show-results=1" title="全站搜索：人机协同">人机协同</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：决策规则">决策规则</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#paper-mnsc-2024-06477">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06477" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>MS：从新闻文本度量叙事模糊性</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文从经济新闻提取叙事模糊性指标，比较它与调查及收益率指标的信息差异，并研究行业叙事与市场收益预测的联系。适合借鉴文本变量构造和样本外验证；预测关系不能直接解释为新闻对价格的因果影响，也不等于可实施的交易收益。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：不确定性">不确定性</a> · <a class="tag-link" href="?q=%E6%94%B6%E7%9B%8A%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：收益预测">收益预测</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#paper-mnsc-2025-02735">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02735" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>IV-LASSO：第一阶段的字典与惩罚怎样选？</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文从结构参数的近似均方误差出发，比较 IV-LASSO 的候选字典和惩罚水平。第一阶段拟合更复杂既能改善逼近，也可能加大与结构误差的关联，因此预测型交叉验证未必对应结构参数的最佳选择。推导基于单个内生变量及同方差高斯误差模型，应用时须核对这些边界。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=LASSO&amp;show-results=1" title="全站搜索：LASSO">LASSO</a> · <a class="tag-link" href="?q=%E6%9C%89%E9%99%90%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：有限样本">有限样本</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#arxiv-2609-07033">查看本期</a><a href="https://arxiv.org/abs/2609.07033" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>CAR：年报风险写在前面，是否更有信息？</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文研究 10-K 风险因素的排列位置能否补充文本内容，以信用风险和商誉风险为例，将相对靠前程度与风险指标及后续不利事件联系起来。构造文本数据时，除了词频和篇幅，还可保留段落顺序；这里的预测与相关性证据不能证明管理层有意排序的动机。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：风险披露">风险披露</a> · <a class="tag-link" href="?q=%E5%B9%B4%E6%8A%A5%E6%96%87%E6%9C%AC&amp;show-results=1" title="全站搜索：年报文本">年报文本</a> · <a class="tag-link" href="?q=%E6%8C%87%E6%A0%87%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：指标构造">指标构造</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#paper-car-70082">查看本期</a><a href="https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70082" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ASQ：资深劳动者进入平台，为何仍要从零积累声誉？</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文考察职业生涯后期劳动者转向线上自由职业时遇到的声誉冷启动问题。线下资历未必能转换为平台的可见性和可信度，平台评价规则还可能与劳动者减少工作中心性的目标冲突。适合研究算法管理和职业转型；结论来自特定劳动者情境，不能直接推广到所有年龄群体。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E5%8A%B3%E5%8A%A8&amp;show-results=1" title="全站搜索：平台劳动">平台劳动</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：职业转型">职业转型</a> · <a class="tag-link" href="?q=%E5%A3%B0%E8%AA%89%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：声誉机制">声誉机制</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#paper-asq-1464889">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261464889" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ASQ：平台降低进入门槛，也会诱发过快扩张吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文在 Apple App Store 情境中考察快速跨市场扩张：进入摩擦降低后，开发者可能忽略不同市场的需求差异。研究将短期用户增长与后续评分、下载、财务表现和创新分开观察，提示平台研究不要只看扩张当期的规模指标；市场异质性和长期跟踪同样重要。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%B9%B3%E5%8F%B0&amp;show-results=1" title="全站搜索：数字平台">数字平台</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E6%89%A9%E5%BC%A0&amp;show-results=1" title="全站搜索：市场扩张">市场扩张</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%BB%A9%E6%95%88&amp;show-results=1" title="全站搜索：企业绩效">企业绩效</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#paper-asq-1461268">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261461268" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>A/B 测试显著以后，是否就该上线？</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文区分实验样本中的均值检验与未来部署环境中的经济决策，对实验结果附近的分布加入模糊性惩罚，形成保守的上线规则。它将对实验外推的信任程度明确为一个参数，并用广告实验资料评估决策。适合讨论上线收益与分布变化，不能据此将所有显著性检验视为无用。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=A%2FB%20%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：A/B 测试">A/B 测试</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a> · <a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：分布变化">分布变化</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#arxiv-2609-07633">查看本期</a><a href="https://arxiv.org/abs/2609.07633" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>配对实验中的二元结果如何做随机化推断？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文针对二元结果的配对研究构造平均处理效应置信集，以配对内随机分配为依据，讨论如何利用解析的最不利配置简化检验。框架也延伸到 Rosenbaum 敏感性分析，帮助研究者区分随机实验推断与观察性匹配仍需承担的隐藏偏差假设。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%85%8D%E5%AF%B9%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：配对实验">配对实验</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#arxiv-2609-03227">查看本期</a><a href="https://arxiv.org/abs/2609.03227" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>网络有溢出时，实验结果能迁移到另一种分配政策吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文研究存在网络干扰时，如何用现有实验估计另一种处理分配政策下的因果量。作者利用假定的干扰结构构造迁移权重，分析政策变化、结构错设与权重方差之间的联系，并讨论保守方差估计。可用于理解提高干预覆盖率后，直接沿用原实验效应为何需要额外条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#arxiv-2609-02756">查看本期</a><a href="https://arxiv.org/abs/2609.02756" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>同样金额的补贴，现金和实物的消费反应相同吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
@@ -18,71 +81,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BD%AC%E7%A7%BB%E6%94%AF%E4%BB%98&amp;show-results=1" title="全站搜索：转移支付">转移支付</a> · <a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E6%B6%88%E8%B4%B9&amp;show-results=1" title="全站搜索：家庭消费">家庭消费</a></p>
 <p class="catalog-actions"><a href="../issues/20260909/#nber-w35698">查看本期</a><a href="https://www.nber.org/papers/w35698" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>RFS：长期利率如何通过寿险机构影响信用利差？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文研究寿险机构资产负债久期错配带来的传导渠道，结合债券收益率与基于期限的持有差异检验风险承担和组合调整。该框架有助于解释不同机构持仓下信用利差反应为何不同，使用时须核对期限错配方向和识别条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AF%BF%E9%99%A9%E6%9C%BA%E6%9E%84&amp;show-results=1" title="全站搜索：寿险机构">寿险机构</a> · <a class="tag-link" href="?q=%E4%B9%85%E6%9C%9F%E9%94%99%E9%85%8D&amp;show-results=1" title="全站搜索：久期错配">久期错配</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E5%88%A9%E5%B7%AE&amp;show-results=1" title="全站搜索：信用利差">信用利差</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag079">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag079/8777198" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>RFS：稳定币价格更稳定，为何仍可能发生挤兑？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文结合稳定币赎回与套利集中度研究，分析发行人面临的权衡：套利效率提高有助于二级市场价格稳定，却也可能降低卖出冲击并增强挤兑动机。适合区分价格偏离与流动性风险，不能仅凭锚定价格稳定判断体系安全。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E5%A5%97%E5%88%A9&amp;show-results=1" title="全站搜索：套利">套利</a> · <a class="tag-link" href="?q=%E6%8C%A4%E5%85%91&amp;show-results=1" title="全站搜索：挤兑">挤兑</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag072">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag072/8782924" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>RFS：ETF 资金流为何更追逐过去业绩？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文比较主动基金、指数基金与 ETF 的资金流对业绩的敏感性，并考察机构持有、从众及模型组合管理的作用。它提示被动投资工具也可能伴随主动择时行为；资金流和过去收益的关系不等于未来收益可预测。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ETF&amp;show-results=1" title="全站搜索：ETF">ETF</a> · <a class="tag-link" href="?q=%E5%9F%BA%E9%87%91%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：基金资金流">基金资金流</a> · <a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag080">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag080/8778553" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>REStud：匹配有效率，为什么仍可能不稳定？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文在带转移支付的一对一匹配实验中改变信息条件和剩余结构，区分配置效率与匹配稳定性。结果提示达成有效匹配并不保证支付安排能阻止重新配对；适合匹配市场教学与实验设计，不能把实验结论直接推广到所有现实市场。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：匹配市场">匹配市场</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：信息摩擦">信息摩擦</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：实验经济学">实验经济学</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#paper-rdag094">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag094/8770289" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>JF：公告时间由企业选择，收益率会怎样变化？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文把企业自主选择信息披露时点纳入资产定价模型，解释公告前漂移、公告日跳跃与条件风险溢价之间的关系，并提供盈余公告时点的经验证据。适合提醒事件研究重视公告时点内生性；平均公告收益不能直接当作异常收益或投资策略。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#paper-jofi-70073">查看本期</a><a href="https://onlinelibrary.wiley.com/doi/10.1111/jofi.70073" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>非参数双向异质性：代理变量何时能区分潜在类型？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文用双变量回归函数的奇异值分解构造潜在类型的代理变量，研究这些代理是否能够一一对应于双向未观测异质性。在把产生相同条件响应的类型归为等价类后，作者进一步给出有限个主导特征函数实现识别的条件。重点是识别所需的单射性，不能将其理解为任意少量因子都能控制所有异质性。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-27155">查看本期</a><a href="https://arxiv.org/abs/2608.27155" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>网络相关数据中的多参数联合推断</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-26522">查看本期</a><a href="https://arxiv.org/abs/2608.26522" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>债务危机预测：复杂模型一定胜过 probit 吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文细化低收入国家债务困境的起点测量，并用系统的样本外验证比较二元预测模型与机器学习方法。它把标签定义、验证设计与模型复杂度放在一起考察，适合借鉴危机预测流程；预测能力不能解释为政策的因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：债务风险">债务风险</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：模型比较">模型比较</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#worldbank-wps11441">查看本期</a><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099707109022612787" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>REStud：股权融资摩擦如何影响企业规模？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文结合欧元区企业所有权与融资资料，构建工人和企业家选择债务、股权融资的一般均衡模型。股权通过风险分担影响企业扩张及财富分布，提示融资约束研究需要区分债务与股权渠道；量化反事实依赖模型设定。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：融资摩擦">融资摩擦</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%89%80%E6%9C%89%E6%9D%83&amp;show-results=1" title="全站搜索：企业所有权">企业所有权</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#paper-rdag098">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag098/8780917" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 40 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 5 页 · 共 49 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-5.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

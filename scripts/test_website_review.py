@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from datetime import date
 from build_catalog_pages import public_issues, home_page, archive_page, SECTIONS
-from render_issue_pages import render_page
+from render_issue_pages import render_page, escape
 from website_content import public_summary, INTERNAL_PHRASES
 from website_promotions import load_config, render_promotion
 
@@ -31,7 +31,7 @@ class UserReviewTests(unittest.TestCase):
                 if issue.get(key):
                     self.assertIn(f'### {label}', page)
                     for item in issue[key]:
-                        self.assertIn(f"#### {item['title']} {{#{item['id']}}}", page)
+                        self.assertIn(f"#### {escape(item['title'])} {{#{item['id']}}}", page)
 
     def test_summary_changes_need_review(self):
         item = copy.deepcopy(public_issues()[0]['papers'][0])

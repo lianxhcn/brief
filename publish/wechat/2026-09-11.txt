@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.11
+
+📰 01｜论文 · Management Science：MS：随机现场检查如何影响 IPO 报告质量？
+利用中国 IPO 随机现场检查，区分筛除可疑披露与影响后续申请者的威慑作用。研究同时讨论误拒合格企业的代价，为监管政策评估提供思路。
+引文：Fan, Guo & Ke (2026). Public Enforcement and Initial Public Offering Reporting Quality in Weak Institutional Environments: Evidence from a Random Experiment in China. Management Science.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2024.05042 
+
+📰 02｜论文 · JPE：同学的受灾经历，怎样影响自己的学习？
+借助智利地震住房损毁差异，研究冲击如何传递给同班学生。区分学校资源调整和学生排名竞争，有助于理解同伴效应的不同机制。
+引文：Tincani (2026). Peer Effects and Rank Concerns in the Classroom. JPE.
+主页： https://www.journals.uchicago.edu/doi/10.1086/742714 
+
+📦 03｜命令 · Stata：rtablabs：给回归结果数据集补上变量标签
+为 r(table) 转成的回归结果数据集补充变量标签，便于批量整理系数、标准误和区间。需配合 xsvmat 使用；安装：ssc install rtablabs。
+版本：Stata / rtablabs SSC 登记 2026-09-09；发布：2026-09-09
+主页： https://ideas.repec.org/c/boc/bocode/s459884.html 
+
+📅 04｜会议征稿：第九届中国制度经济学论坛：9 月 25 日截稿
+11 月 14–15 日在湘潭大学举行，接受中英文原创论文，9 月 25 日截稿。作者信息与正文分开；不收会务费，住宿交通自理。
+截止：2026-09-25
+通知： https://business.xtu.edu.cn/?ac=view&cd=news&id=202605190003 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260911/ 

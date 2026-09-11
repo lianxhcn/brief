@@ -56,7 +56,7 @@ def format_myapa(m):
             and urlsplit(pdf['url']).netloc != 'doi.org'):
         links.append(external_link('PDF', pdf['url']))
     links.append(external_link('Google', 'https://scholar.google.com/scholar?q=' + quote(m['title'], safe='')))
-    return '<p class="myapa">' + html.escape(text) + ' ' + ', '.join(links) + '</p>'
+    return '<p class="myapa">' + html.escape(text).replace('*', '&#42;') + ' ' + ', '.join(links) + '</p>'
 
 def bibliography_metadata(item):
     path = Path(__file__).resolve().parents[1] / 'config/website-citations.json'

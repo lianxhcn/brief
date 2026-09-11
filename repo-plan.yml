@@ -1,12 +1,12 @@
 {
-  "project_title": "连享会 · 快讯：2026 年 9 月 10 日每日发布",
+  "project_title": "连享会 · 快讯：2026 年 9 月 11 日每日发布",
   "repository_mode": "single",
   "recommendation": "single",
   "decision_reason": "沿用独立网站、版本和维护周期，score=4；不新建仓库",
   "confidence": "high",
   "local_root": "G:/codex_project/github_lianxh",
   "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "9 月 10 日期次、微信群短稿、读者摘要及自动生成的首页、归档和分类索引；私有检索资料不提交",
+  "work_scope": "9 月 11 日期次、微信群短稿、读者摘要及自动生成的首页、归档和分类索引；私有检索资料不提交；修复查询参数 URL 的 HTML 转义校验并增加回归测试；保留 O*NET 题名中的星号并修复其锚点",
   "repository_name": "brief",
   "remote_owner": "lianxhcn",
   "remote_url": "https://github.com/lianxhcn/brief.git",
@@ -30,16 +30,21 @@
     "push": true,
     "deploy": true,
     "source": "D-20260908-06 每日发布授权；本次每日自动任务",
-    "validity": "2026-09-10 当期发布"
+    "validity": "2026-09-11 当期发布"
   },
   "files": [
-    "content/issues/2026-09-10.json",
-    "publish/wechat/2026-09-10.txt",
+    "content/issues/2026-09-11.json",
+    "publish/wechat/2026-09-11.txt",
     "config/website-content.json",
-    "issues/20260910/index.qmd",
+    "issues/20260911/index.qmd",
     "index.qmd",
     "archive.qmd",
     "topics/",
-    "repo-plan.yml"
+    "repo-plan.yml",
+    "scripts/validate_issue.py",
+    "scripts/test_page_urls.py",
+    "scripts/render_issue_pages.py",
+    "scripts/website_citations.py",
+    "scripts/test_website_review.py"
   ]
 }
