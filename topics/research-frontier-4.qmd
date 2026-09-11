@@ -8,9 +8,72 @@ title: "新论文 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 5 页 · 共 49 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 6 页 · 共 58 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>RFS：稳定币价格更稳定，为何仍可能发生挤兑？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文结合稳定币赎回与套利集中度研究，分析发行人面临的权衡：套利效率提高有助于二级市场价格稳定，却也可能降低卖出冲击并增强挤兑动机。适合区分价格偏离与流动性风险，不能仅凭锚定价格稳定判断体系安全。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E5%A5%97%E5%88%A9&amp;show-results=1" title="全站搜索：套利">套利</a> · <a class="tag-link" href="?q=%E6%8C%A4%E5%85%91&amp;show-results=1" title="全站搜索：挤兑">挤兑</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag072">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag072/8782924" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>RFS：ETF 资金流为何更追逐过去业绩？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文比较主动基金、指数基金与 ETF 的资金流对业绩的敏感性，并考察机构持有、从众及模型组合管理的作用。它提示被动投资工具也可能伴随主动择时行为；资金流和过去收益的关系不等于未来收益可预测。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ETF&amp;show-results=1" title="全站搜索：ETF">ETF</a> · <a class="tag-link" href="?q=%E5%9F%BA%E9%87%91%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：基金资金流">基金资金流</a> · <a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag080">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag080/8778553" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>REStud：匹配有效率，为什么仍可能不稳定？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文在带转移支付的一对一匹配实验中改变信息条件和剩余结构，区分配置效率与匹配稳定性。结果提示达成有效匹配并不保证支付安排能阻止重新配对；适合匹配市场教学与实验设计，不能把实验结论直接推广到所有现实市场。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：匹配市场">匹配市场</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：信息摩擦">信息摩擦</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：实验经济学">实验经济学</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-rdag094">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag094/8770289" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>JF：公告时间由企业选择，收益率会怎样变化？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文把企业自主选择信息披露时点纳入资产定价模型，解释公告前漂移、公告日跳跃与条件风险溢价之间的关系，并提供盈余公告时点的经验证据。适合提醒事件研究重视公告时点内生性；平均公告收益不能直接当作异常收益或投资策略。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-jofi-70073">查看本期</a><a href="https://onlinelibrary.wiley.com/doi/10.1111/jofi.70073" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>非参数双向异质性：代理变量何时能区分潜在类型？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文用双变量回归函数的奇异值分解构造潜在类型的代理变量，研究这些代理是否能够一一对应于双向未观测异质性。在把产生相同条件响应的类型归为等价类后，作者进一步给出有限个主导特征函数实现识别的条件。重点是识别所需的单射性，不能将其理解为任意少量因子都能控制所有异质性。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-27155">查看本期</a><a href="https://arxiv.org/abs/2608.27155" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>网络相关数据中的多参数联合推断</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-26522">查看本期</a><a href="https://arxiv.org/abs/2608.26522" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>债务危机预测：复杂模型一定胜过 probit 吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文细化低收入国家债务困境的起点测量，并用系统的样本外验证比较二元预测模型与机器学习方法。它把标签定义、验证设计与模型复杂度放在一起考察，适合借鉴危机预测流程；预测能力不能解释为政策的因果效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：债务风险">债务风险</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：模型比较">模型比较</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#worldbank-wps11441">查看本期</a><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099707109022612787" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>REStud：股权融资摩擦如何影响企业规模？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文结合欧元区企业所有权与融资资料，构建工人和企业家选择债务、股权融资的一般均衡模型。股权通过风险分担影响企业扩张及财富分布，提示融资约束研究需要区分债务与股权渠道；量化反事实依赖模型设定。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：融资摩擦">融资摩擦</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%89%80%E6%9C%89%E6%9D%83&amp;show-results=1" title="全站搜索：企业所有权">企业所有权</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#paper-rdag098">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag098/8780917" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>REStud：早期职场歧视为何有时放大、有时减弱？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文建立雇主通过就业过程学习生产率的理论模型，比较主要观察失败与主要观察成功的两类信息环境。即使群体生产率分布相同，早期歧视也可能累积为长期收入差距；研究提供关于学习机制的解释，并非对现实歧视规模的直接估计。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%AD%A7%E8%A7%86&amp;show-results=1" title="全站搜索：歧视">歧视</a> · <a class="tag-link" href="?q=%E9%9B%87%E4%B8%BB%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：雇主学习">雇主学习</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#paper-rdag092">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag092/8770469" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>REStud：养老金缴费激励会提前影响劳动供给吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>
@@ -18,71 +81,8 @@ title: "新论文 · 第 4 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91%E6%94%B9%E9%9D%A9&amp;show-results=1" title="全站搜索：养老金改革">养老金改革</a> · <a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：劳动供给">劳动供给</a></p>
 <p class="catalog-actions"><a href="../issues/20260908/#paper-rdag082">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag082/8770470" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>REStud：养老金与地方债为何需要一起分析？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文将地方政府支出、债券融资和雇员养老金放入同一动态决策框架，并用加州城市数据量化。研究展示只约束养老金资金充足率时，债务决策可能抵消政策效果；适合借鉴资产负债联动建模，反事实结果须结合制度和模型假设理解。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E5%80%BA&amp;show-results=1" title="全站搜索：地方债">地方债</a> · <a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：财政风险">财政风险</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#paper-rdag097">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag097/8772202" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>QJE：公平偏好如何影响再分配态度？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文用跨国统一实验区分人们对运气、努力与再分配效率成本的看法，并将公平偏好和不平等成因信念与政策态度联系起来。它为跨国调查与行为实验提供了共同测量框架；偏好与实际税收再分配的相关性不能直接解释为因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%B9%B3%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：公平偏好">公平偏好</a> · <a class="tag-link" href="?q=%E5%86%8D%E5%88%86%E9%85%8D&amp;show-results=1" title="全站搜索：再分配">再分配</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#paper-qjag044">查看本期</a><a href="https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjag044/8787618" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>统计显著的发现，有多大概率在复现中再次显著？</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文把原研究的显著性水平与复现成功概率联系起来，并与实验经济学、心理学和社会科学的实际复现结果比较。它帮助区分“原结果显著”和“后续研究有较高把握再次检出”。这些概率依赖统计模型及原研究的信息，不能用单个 p 值直接裁定一篇论文是否可靠。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：统计功效">统计功效</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：统计功效">统计功效</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-23257">查看本期</a><a href="https://arxiv.org/abs/2608.23257" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>离散响应模型部分识别时，如何做贝叶斯推断？</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文从条件选择概率出发刻画识别集，使用高斯过程先验进行非参数贝叶斯推断，讨论如何避免把连续条件变量粗略离散化。它还分析模型错设的检测问题。适合关注离散选择与部分识别的读者，阅读时应区分先验带来的后验信息与模型本身能够识别的信息。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：贝叶斯推断">贝叶斯推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：贝叶斯推断">贝叶斯推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-25814">查看本期</a><a href="https://arxiv.org/abs/2608.25814" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>矩条件轻微错设时，如何调整 GMM 推断？</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文允许矩条件存在可交换的局部错设误差，利用较多限制条件估计错设分布，再进行偏差调整和经验贝叶斯推断。教育回报的工具变量应用说明了问题的实证背景。可重点阅读“局部错设”与推断区间的关系；这一框架不保证修复任意无效工具变量。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a>；<strong>标签：</strong><a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-23925">查看本期</a><a href="https://arxiv.org/abs/2608.23925" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>时间平均与长差分为什么会改变长期关系估计？</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文研究把面板压缩为时间均值或长差分后，用横截面估计长期关系的条件。非平稳序列的横截面离散程度可能增强信号，但压缩也会改变噪声，均值回复又会削弱这种优势。可用于理解长期回归的取样与变换选择，不能把时间平均视为消除内生性的通用办法。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：长期关系">长期关系</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：长期关系">长期关系</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-25901">查看本期</a><a href="https://arxiv.org/abs/2608.25901" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>平稳与非平稳变量混在一起，如何提取共同周期？</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文研究混合平稳与非平稳变量的主成分分析，目标是提取共同周期成分，而无需事先逐一判定变量的积分性质。作者用 FRED-MD 数据展示这一思路。阅读时可关注变量预处理如何影响共同因子的含义，以及该方法所需的时间序列条件；它不意味着任何趋势数据都可以直接做普通 PCA。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-23732">查看本期</a><a href="https://arxiv.org/abs/2608.23732" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>动态离散选择与逆强化学习如何对话？</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>综述将经济学中的动态离散选择与机器学习中的逆强化学习放在共同的马尔可夫决策框架下，讨论偏好、信念及行为数据之间的关系。读者可比较 soft Q 与 logit 选择概率在特定条件下的对应，以及两类估计方法如何应对计算负担。拟合行为并不自动解决偏好与信念的分别识别。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-24362">查看本期</a><a href="https://arxiv.org/abs/2608.24362" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>p-hacking 与选择性发表如何共同影响估计</h3>
-<p class="catalog-meta">来源日期：2026-09-05</p>
-<p>论文把研究者反复尝试规格的行为与期刊选择显著结果的机制放在同一框架中，区分快速与缓慢的 p-hacking 情形。两者的互动可能使发表偏差朝不同方向变化，因此单看已发表结果难以推断选择机制。该文研究统计偏差的形成，不能据此把选择性报告当作可取的研究实践。</p>
-<p class="catalog-tags"></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#arxiv-2609-05372">查看历史条目</a><a href="https://arxiv.org/abs/2609.05372" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 5 页 · 共 49 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 6 页 · 共 58 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

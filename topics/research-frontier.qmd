@@ -8,9 +8,72 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 5 页 · 共 49 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 58 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>限制输油管道，运输替代会怎样改变环保效果？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文将油气生产与运输方式选择放入同一模型，以达科他输油管道为例分析限制基础设施的后果。铁路等替代方式会改变政策的减排收益、运输成本与当地环境损害。适合借鉴包含替代渠道的政策反事实分析；具体效果依赖模型及运输外部性的设定。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：环境政策">环境政策</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E8%BF%90%E8%BE%93%E6%9B%BF%E4%BB%A3&amp;show-results=1" title="全站搜索：运输替代">运输替代</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-742713">查看本期</a><a href="https://www.journals.uchicago.edu/doi/10.1086/742713" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>诊断差异来自症状，还是医生的判断门槛？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文利用电子健康记录估计 ADHD 诊断的结构模型，区分症状分布与诊断门槛对性别差异的贡献。它说明观察到的诊断率不能直接等同于患病率，适合借鉴决策模型中的机制分解。公开复现包使用模拟数据运行代码，不能据此复现原始样本的数值结果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E8%AF%8A%E6%96%AD%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：诊断决策">诊断决策</a> · <a class="tag-link" href="?q=%E5%81%A5%E5%BA%B7%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：健康经济学">健康经济学</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-742421">查看本期</a><a href="https://www.journals.uchicago.edu/doi/10.1086/742421" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>短面板分位数模型：严格外生性能够识别什么？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文研究固定且较少时间期数的线性分位数面板模型，在分位数严格外生性下允许个体异质性和时序相关。作者刻画斜率的尖锐识别集，并给出有限支持下的线性规划计算方式。增加期数未必带来点识别，解释变量路径的变化同样关键；这不是把均值模型去均值公式直接移植到分位数回归。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E7%9F%AD%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：短面板">短面板</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#arxiv-2609-10925">查看本期</a><a href="https://arxiv.org/abs/2609.10925" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>求职者如何回应企业创始人的种族与性别？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>研究通过现场实验随机呈现创始人的种族与性别信息，观察真实求职者的申请意愿、薪资要求及申请者构成，并用调查实验考察可能机制。它将招聘不平等的研究视角延伸到求职者一侧；结论来自特定招聘情境，不宜推广成所有群体的普遍行为。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：招聘行为">招聘行为</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%88%9B%E5%A7%8B%E4%BA%BA&amp;show-results=1" title="全站搜索：企业创始人">企业创始人</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-mnsc-2021-00481">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2021.00481" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>机构把交易交给多家经纪商，能否减少信息泄露？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文比较机构使用多家与单家经纪商的交易，考察信息含量、价格冲击、执行成本及后续跟随交易。结果与机构通过分散执行减少信息泄露的解释一致。适合研究交易信息如何进入价格；摘要证据不应被表述为随机实验结论，也不构成具体交易建议。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%BE%AE%E8%A7%82%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：市场微观结构">市场微观结构</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2&amp;show-results=1" title="全站搜索：信息泄露">信息泄露</a> · <a class="tag-link" href="?q=%E4%BA%A4%E6%98%93%E6%89%A7%E8%A1%8C&amp;show-results=1" title="全站搜索：交易执行">交易执行</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-mnsc-2025-00201">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00201" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>有投票成本时，亲社会动机如何解释参与行为？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文在空间投票模型中加入亲社会动机，联系预期同伴投票、胜选概率与选民对结果的重视程度，解释参与成本存在时的投票行为。作者将均衡预测与既有研究及自建数据比较。适合学习从经验规律约束理论模型，模型拟合并不等同于每个机制都获得独立因果识别。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E7%A5%A8%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：投票行为">投票行为</a> · <a class="tag-link" href="?q=%E4%BA%B2%E7%A4%BE%E4%BC%9A%E5%8A%A8%E6%9C%BA&amp;show-results=1" title="全站搜索：亲社会动机">亲社会动机</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#nber-w35723">查看本期</a><a href="https://www.nber.org/papers/w35723" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>明知岗位存在伤害，工人为什么仍然留下？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文以意大利 ILVA 钢铁厂为案例，研究工人同时作为组织成员与受害者时如何理解持续的污染伤害。归纳分析指出，谋生依赖和对外部保护失效的感受可能相互强化。适合学习多重身份下的质性机制建构；留在岗位不等于认可危险，也不能由单一案例推出普遍因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A8%E6%80%A7%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：质性研究">质性研究</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E4%B8%8D%E5%BD%93%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：组织不当行为">组织不当行为</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E8%80%85%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：劳动者保护">劳动者保护</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-00018392261468328">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261468328" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>实验怎样设计，才能服务后续政策选择？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文让第二轮实验设计直接服务于有约束的福利最大化政策选择，利用第一轮数据安排后续试验。作者以极限实验近似高维动态规划，并在条件现金转移实验中展示应用。重点是根据政策决策目标设计数据收集；其渐近最优性不等于任意有限样本都能获得最优结果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：政策选择">政策选择</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#arxiv-2609-10971">查看本期</a><a href="https://arxiv.org/abs/2609.10971" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>匿名招聘会怎样影响基于自报目标的选择？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>在线实验同时改变求职者性别是否可见、未完成自定绩效目标的代价，考察雇主如何解读目标。结果提示，自报目标包含行为差异时，隐藏性别可能改变雇主对目标可信度的判断。适合学习交互实验设计，不能概括为匿名招聘在所有情境下无效。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8C%BF%E5%90%8D%E6%8B%9B%E8%81%98&amp;show-results=1" title="全站搜索：匿名招聘">匿名招聘</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%8A%A5%E7%9B%AE%E6%A0%87&amp;show-results=1" title="全站搜索：自报目标">自报目标</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-mnsc-2024-07050">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.07050" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>连续处理 DID：平均处理效应与剂量响应要分开</h3>
 <p class="catalog-meta">期次日期：2026-09-11</p>
@@ -18,71 +81,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：连续处理">连续处理</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a></p>
 <p class="catalog-actions"><a href="../issues/20260911/#arxiv-2609-09488">查看本期</a><a href="https://arxiv.org/abs/2609.09488" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>证据何时足够？把继续收集数据的成本纳入检验</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文把立即给出政策建议与等待更多证据视为两种决策，在最小最大遗憾框架下让检验水平随新证据的成本和精度变化。作者提出 A-value 衡量推迟决策、继续实验的临界福利成本，作为 p 值的补充；使用时需要明确决策损失与额外数据的获取条件。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：统计检验">统计检验</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86&amp;show-results=1" title="全站搜索：数据收集">数据收集</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：决策分析">决策分析</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#arxiv-2609-09544">查看本期</a><a href="https://arxiv.org/abs/2609.09544" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>MS：随机现场检查如何影响 IPO 报告质量？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文利用中国 IPO 申请企业的随机现场检查安排，研究主动执法如何筛除可疑财务披露，并影响后续申请者的报告行为。它同时讨论监管的筛选、威慑收益与误拒潜在合格企业的代价。适合借鉴随机监管安排的识别思路，不能只按退出企业数量评价监管效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：随机检查">随机检查</a> · <a class="tag-link" href="?q=IPO&amp;show-results=1" title="全站搜索：IPO">IPO</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-mnsc-2024-05042">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.05042" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>MS：用签证抽签研究高技能移民的金融业贡献</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文利用 H-1B 签证随机抽签，考察对冲基金获得高技能移民员工与基金表现之间的关系，并追踪量化技能、投资策略和容量约束等渠道。它提供了用人才供给冲击研究企业表现的思路；结果来自特定金融机构和签证制度，不能当作个人投资建议。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%AD%BE%E8%AF%81%E6%8A%BD%E7%AD%BE&amp;show-results=1" title="全站搜索：签证抽签">签证抽签</a> · <a class="tag-link" href="?q=%E9%AB%98%E6%8A%80%E8%83%BD%E7%A7%BB%E6%B0%91&amp;show-results=1" title="全站搜索：高技能移民">高技能移民</a> · <a class="tag-link" href="?q=%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91&amp;show-results=1" title="全站搜索：对冲基金">对冲基金</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-mnsc-2024-07615">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.07615" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>MS：环境监管不确定时，企业会等待还是创新？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文研究污染企业面对环境监管不确定性时的创新反应，采用环境议题投票的政治极化指标作为工具变量，并结合 2018 年政策提案做 DID 分析。结果支持企业主动增加绿色创新的解释；借鉴时应分别核对工具变量排除限制、政策冲击与平行趋势条件。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：监管不确定性">监管不确定性</a> · <a class="tag-link" href="?q=%E7%BB%BF%E8%89%B2%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：绿色创新">绿色创新</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-mnsc-2024-06051">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06051" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>JPE：同学的受灾经历，怎样影响自己的学习？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文把智利学生行政与调查资料同地震住房损毁程度连接，区分同学平均受灾程度与受灾差异的影响。学校资源调整和学生之间的排名竞争可能分别参与传导；研究用地位竞争模型解释相关现象，提醒同伴效应分析同时考虑学校响应和学生互动。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=%E8%87%AA%E7%84%B6%E7%81%BE%E5%AE%B3&amp;show-results=1" title="全站搜索：自然灾害">自然灾害</a> · <a class="tag-link" href="?q=%E6%8E%92%E5%90%8D%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：排名竞争">排名竞争</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-742714">查看本期</a><a href="https://www.journals.uchicago.edu/doi/10.1086/742714" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>JOM：用 O*NET 构造职业指标，怎样避免重复与失真？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>综述整理基于 O*NET 描述项构造的职业指标，提出扩展的组织框架并比较测量效度证据。职业复杂度、情绪劳动等指标常由原字段组合而成，同名指标未必采用相同定义。适合在匹配职业数据前检查构造依据与适用层级，不能把字段拼接本身视为测量有效。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=O%2ANET&amp;show-results=1" title="全站搜索：O*NET">O*NET</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E7%89%B9%E5%BE%81&amp;show-results=1" title="全站搜索：职业特征">职业特征</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：测量效度">测量效度</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-01492063261449793">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/01492063261449793" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>ASQ：第三方专家能否促进企业参与规则制定？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文在泰国开展现场实验，由第三方专家帮助企业理解监管草案并完善反馈意见，考察这种协助能否改善对政府正当性的认知与实际参与。它把参与意愿、理解能力和可观察行为分开研究，提示政策咨询不仅是信息传递，也涉及信任形成；推广时需考虑当地制度背景。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E5%8F%82%E4%B8%8E&amp;show-results=1" title="全站搜索：监管参与">监管参与</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E4%BF%A1%E4%BB%BB&amp;show-results=1" title="全站搜索：制度信任">制度信任</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-00018392261473620">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261473620" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 帮忙时做得更好，离开 AI 后也学会了吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文通过专利律师的三个月随机实验，分别评价使用 AI 时的任务表现和撤去 AI 后的独立判断。使用中的增益与保留下来的技能并不一致，不同资历组也有差别；这为 AI 培训评估提供了更完整的测量方式，不能把辅助下的高分直接当成能力提升。研究由 Google 资助，部分作者与其存在雇佣关系。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=AI%20%E8%BE%85%E5%8A%A9&amp;show-results=1" title="全站搜索：AI 辅助">AI 辅助</a> · <a class="tag-link" href="?q=%E6%8A%80%E8%83%BD%E7%A7%AF%E7%B4%AF&amp;show-results=1" title="全站搜索：技能积累">技能积累</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#nber-w35720">查看本期</a><a href="https://www.nber.org/papers/w35720" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>空间干预点应当相隔多远？</h3>
-<p class="catalog-meta">期次日期：2026-09-10</p>
-<p>论文研究干预发生地与受影响个体所在地不一致时，如何安排空间处理点。它用最小间距设计权衡干预相互污染造成的偏差与处理点变少带来的方差，并给出估计和推断方法。目标是单个干预点的未污染平均影响，适用性依赖影响随距离衰减等设定。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：空间溢出">空间溢出</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260910/#arxiv-2609-08335">查看本期</a><a href="https://arxiv.org/abs/2609.08335" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 5 页 · 共 49 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 58 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

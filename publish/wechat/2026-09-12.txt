@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.12
+
+📰 01｜论文 · JPE：限制输油管道，运输替代会怎样改变环保效果？
+以达科他输油管道为例，把铁路替代纳入政策反事实分析。研究提醒：限制一种运输方式之后，还应评估转向其他方式带来的成本与环境损害。
+引文：Covert & Kellogg (2026). Environmental Consequences of Hydrocarbon Infrastructure Policy. JPE.
+主页： https://www.journals.uchicago.edu/doi/10.1086/742713 
+
+📰 02｜论文 · Management Science：求职者如何回应企业创始人的种族与性别？
+现场实验随机呈现创始人信息，比较求职申请、薪资要求与申请者构成。为研究招聘不平等提供了求职者一侧的识别思路。
+引文：Snellman & Younkin (2026). Do Job Applicants Consider Founder Race and Gender? Evidence from a Field Experiment. Management Science.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2021.00481 
+
+📦 03｜命令 · Stata：emlink：没有共同 ID 时，怎样做概率数据连接？
+用无监督 EM 对缺少共同 ID 的两份数据做概率连接，并划分人工复核区间。两表须先采用一致的清洗规则；安装：ssc install emlink。
+版本：Stata / emlink 1.0.15；SSC 登记 2026-09-09；发布：2026-09-09
+主页： https://ideas.repec.org/c/boc/bocode/s459885.html 
+
+📅 04｜会议征稿：第九届中国计量经济学者论坛：10 月 20 日截稿
+11 月 20–22 日在武汉举办，接受计量理论、因果推断及机器学习等方向中英文原创论文，10 月 20 日截稿。不收会务费，交通住宿自理。
+截止：2026-10-20
+通知： https://chow.xmu.edu.cn/info/1046/46392.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260912/ 
