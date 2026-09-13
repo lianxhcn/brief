@@ -1,0 +1,203 @@
+---
+title: "连享会 · 快讯 | 2026.09.13"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 同股不同权公司的股价包含多少未来业绩信息？ {#paper-s11142-026-09991-y}
+
+<p class="myapa">Bangert, J., Myers, L. A., &amp; Schmardebeck, R. (2026). The informativeness of stock price at dual-class firms. Review of Accounting Studies. <a href="https://doi.org/10.1007/s11142-026-09991-y" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://link.springer.com/content/pdf/10.1007/s11142-026-09991-y.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=The%20informativeness%20of%20stock%20price%20at%20dual-class%20firms" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文考察内部人投票权与现金流权的偏离程度，发现偏离越大，当前收益率包含的未来盈利和现金流信息越少。机构投资者监督、董事会监督和高质量披露能够缓和这一关系。适合借鉴股价信息含量的度量及治理机制分析；这些经验关系不应直接解读为随机实验结论。
+
+标签：<a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%BB%B7%E4%BF%A1%E6%81%AF&amp;show-results=1" title="全站搜索：股价信息">股价信息</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：双重股权">双重股权</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 专业文本样本少，怎样迁移通用词向量？ {#paper-mnsc-2022-01740}
+
+<p class="myapa">Xu, K., Zhao, X., Bastani, H., &amp; Bastani, O. (2026). Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings. Management Science. <a href="https://doi.org/10.1287/mnsc.2022.01740" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Group-Sparse%20Matrix%20Factorization%20for%20Transfer%20Learning%20of%20Word%20Embeddings" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+通用语料中的词义可能不适用于专业场景。论文利用少量词语在跨领域时发生语义变化这一结构，提出带组稀疏惩罚的两阶段词向量迁移估计，并给出泛化误差及优化性质的理论分析。适合处理小样本专业文本；理论保证依赖跨领域变化的稀疏性等条件，不能自动延伸为因果识别保证。
+
+标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：迁移学习">迁移学习</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%A8%80%E7%96%8F&amp;show-results=1" title="全站搜索：组稀疏">组稀疏</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-13</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### texpdf：在 Stata 中直接编译 LaTeX 报告 {#stata-texpdf-20260829}
+
+texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件中，把完整 LaTeX 文档编译为 PDF。安装命令为 <code>ssc install texpdf</code>，基本调用为 <code>texpdf using report.tex</code>。官方帮助说明在 Stata 18/19 下测试；编译时无需系统 TeX 或联网，但可用资源受内置包范围限制，不应假定任意中文模板都兼容。本期核验帮助文档，未做本地运行测试。
+
+标签：<a class="tag-link" href="?q=%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90&amp;show-results=1" title="全站搜索：报告生成">报告生成</a> · <a class="tag-link" href="?q=LaTeX&amp;show-results=1" title="全站搜索：LaTeX">LaTeX</a> · <a class="tag-link" href="?q=PDF&amp;show-results=1" title="全站搜索：PDF">PDF</a>
+
+<small>来源日期：2026-08-29；补录：2026-09-13</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459880.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 人工智能与公司金融论坛：9 月 30 日截稿 {#conference-aicf-2026}
+
+**投稿截止：2026-09-30**
+
+会议：2026-10-16 至 2026-10-18 · 厦门大学
+
+费用：教师 1000 元/人，学生 500 元/人；交通住宿自理。
+
+论坛拟于 10 月 16–18 日在厦门大学举行，征集人工智能与企业投融资、治理、风险管理及科技创新等研究。9 月 30 日前提交中英文原创未发表论文，作者信息应独立于正文列在首页。受邀参会教师会务费 1000 元、学生 500 元，交通住宿自理；优秀成果推荐至合作期刊不等于直接录用。
+
+标签：<a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：公司金融">公司金融</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<small>来源日期：2026-09-04；补录：2026-09-13</small>
+
+<a href="https://finance.xmu.edu.cn/info/1017/78984.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 社会责任表现较好，为什么也可能引发道德松懈？ {#paper-orsc-2024-19440}
+
+<p class="myapa">Perkins, B. G., Liu, Y., Hu, S., Qian, C., &amp; Doyle, S. (2026). Social Performance Feedback and Managerial Moral Self-Regulation: The Microfoundations of Corporate Social (Ir)Responsibility. Organization Science. <a href="https://doi.org/10.1287/orsc.2024.19440" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Social%20Performance%20Feedback%20and%20Managerial%20Moral%20Self-Regulation%3A%20The%20Microfoundations%20of%20Corporate%20Social%20%28Ir%29Responsibility" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+研究把企业社会绩效反馈、管理者的企业形象认知与道德自我形象联系起来：低于目标可能促使道德补偿，高于目标可能产生道德许可。作者结合档案数据与一系列实验检验不同层次的机制。适合借鉴组织行为与个体心理之间的研究设计，两类证据的作用应分别理解。
+
+标签：<a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：社会责任">社会责任</a> · <a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E5%8F%8D%E9%A6%88&amp;show-results=1" title="全站搜索：绩效反馈">绩效反馈</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 交货时间和供货量都不确定，怎样边学习边补货？ {#paper-mnsc-2023-04203}
+
+<p class="myapa">Chen, X., Lyu, J., Yuan, S., &amp; Zhou, Y. (2026). Learning in Lost-Sales Inventory Systems with Stochastic Lead Times and Random Supplies. Management Science. <a href="https://doi.org/10.1287/mnsc.2023.04203" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Learning%20in%20Lost-Sales%20Inventory%20Systems%20with%20Stochastic%20Lead%20Times%20and%20Random%20Supplies" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究缺货会损失销售的库存系统，允许交货时间和供货数量随机，且决策者事先不知道需求与供给分布。学习算法处理受限的需求和供给观察，并以最佳固定订货策略为比较基准给出累积遗憾界。适合学习数据不完整时的序贯决策；理论比较对象并非任意最优动态策略。
+
+标签：<a class="tag-link" href="?q=%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：库存管理">库存管理</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：在线学习">在线学习</a> · <a class="tag-link" href="?q=%E6%88%AA%E5%B0%BE%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：截尾数据">截尾数据</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 需求持续变化时，历史数据怎样支持库存决策？ {#paper-mnsc-2023-01823}
+
+<p class="myapa">Keskin, N. B., Min, X., &amp; Song, J. S. (2026). The Nonstationary Newsvendor: Data-Driven Nonparametric Learning. Management Science. <a href="https://doi.org/10.1287/mnsc.2023.01823" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Nonstationary%20Newsvendor%3A%20Data-Driven%20Nonparametric%20Learning" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将需求拆为随时间变化的水平和随机冲击，两者不能分别观察。两阶段非参数订货策略只使用过去需求，在累计变化预算约束下分析遗憾增长率，并用实际数据案例和模拟检验表现。可借鉴到库存、排班及容量规划；应用时仍需检查需求变化方式是否符合模型条件。
+
+标签：<a class="tag-link" href="?q=%E9%9D%9E%E5%B9%B3%E7%A8%B3%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：非平稳需求">非平稳需求</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：非参数学习">非参数学习</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%BA%90%E9%85%8D%E7%BD%AE&amp;show-results=1" title="全站搜索：资源配置">资源配置</a>
+
+<small>来源日期：2026-09-03；补录：2026-09-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 员工的创业经历与新企业存续有什么关系？ {#paper-orsc-2023-17457}
+
+<p class="myapa">Braunerhjelm, P. &amp; Lappi, E. (2026). Staying Alive! Entrepreneurial Human Capital and Resilience of New Ventures. Organization Science. <a href="https://doi.org/10.1287/orsc.2023.17457" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://pubsonline.informs.org/doi/epdf/10.1287/orsc.2023.17457" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Staying%20Alive%21%20Entrepreneurial%20Human%20Capital%20and%20Resilience%20of%20New%20Ventures" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者利用瑞典 1997–2016 年登记数据识别员工过去创办和管理企业的经历，研究这种人力资本与新企业存续的关系。控制多种混杂因素后，两者呈正向关联，资源基础及组织、能力匹配是机制讨论的重点。适合研究员工经历如何进入企业层面分析，但控制变量本身不能排除所有选择偏差。
+
+标签：<a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%AD%98%E7%BB%AD&amp;show-results=1" title="全站搜索：企业存续">企业存续</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：纵向数据">纵向数据</a>
+
+<small>来源日期：2026-08-31；补录：2026-09-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 合成控制怎样评估政策的局部短期影响？ {#arxiv-2609-10617}
+
+<p class="myapa">Lee, R.-C. (2026). Average Treatment Effect Localization: Projection Methods in Synthetic Control. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.10617" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.10617.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Average%20Treatment%20Effect%20Localization%3A%20Projection%20Methods%20in%20Synthetic%20Control" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文针对只有一个受处理单位的面板，提出局部平均处理效应，用于评估政策实施后的短期影响。方法通过筛逼近构造时变因子模型，再利用多样化投影处理边界偏差与识别问题，并建立渐近推断。它为合成控制研究提供了短期评估视角，适用性仍取决于模型及识别假设。
+
+标签：<a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E7%9F%AD%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：短期效应">短期效应</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 大运河改线：政治目标如何改变市场可达性？ {#nber-w35721}
+
+<p class="myapa">Ying Bai, Xiaoyu Bian, &amp; Ruixue Jia. (2026). Politics-driven Market Access and Its Cost: Evidence from China’s Grand Canal. NBER Working Paper 35721. <a href="https://doi.org/10.3386/w35721" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35721/w35721.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Politics-driven%20Market%20Access%20and%20Its%20Cost%3A%20Evidence%20from%20China%E2%80%99s%20Grand%20Canal" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+研究利用跨越五个朝代的网格年度面板，考察首都迁移如何改变大运河路线，以及由此产生的市场可达性和人口分布变化。作者通过反事实分析比较基础设施的经济收益与政治性改线的成本。适合借鉴历史地理数据与空间反事实分析；模型推演需要与直接观察到的历史事实区分。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8F%AF%E8%BE%BE%E6%80%A7&amp;show-results=1" title="全站搜索：市场可达性">市场可达性</a> · <a class="tag-link" href="?q=%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD&amp;show-results=1" title="全站搜索：基础设施">基础设施</a>
+
+<small>来源日期：2026-09-07；补录：2026-09-13</small>
+
+
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 产业经济学研究生论坛：10 月 15 日截稿 {#conference-jxufe-industrial-2026}
+
+**投稿截止：2026-10-15**
+
+会议：2026-11-08 至 2026-11-08 · 江西南昌
+
+费用：免会务费；入选论文报告人食宿免费，差旅按官方规定标准报销。
+
+论坛面向产业经济学、数字经济学及相关专业的在读硕士、博士和博士后，拟于 11 月 8 日在江西南昌举行。10 月 15 日 24:00 前提交中英文 Word 论文，作者信息与正文分开。论坛免会务费，并为入选论文报告人提供食宿及按规定标准报销差旅；普通参会者不应据此推定享有同等待遇。
+
+标签：<a class="tag-link" href="?q=%E4%BA%A7%E4%B8%9A%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：产业经济学">产业经济学</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AE%BA%E5%9D%9B&amp;show-results=1" title="全站搜索：研究生论坛">研究生论坛</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<small>来源日期：2026-05-13；补录：2026-09-13</small>
+
+<a href="https://szjj.jxufe.edu.cn/news-show-2650.html" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

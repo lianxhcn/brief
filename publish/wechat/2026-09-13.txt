@@ -1,0 +1,25 @@
+📙 连享会 · 快讯 | 2026.09.13
+
+📰 01｜论文 · Review of Accounting Studies：同股不同权公司的股价包含多少未来业绩信息？
+内部人投票权与现金流权偏离越大，股价包含的未来业绩信息越少。机构监督、董事会监督和高质量披露能够缓和这一关系，可借鉴其股价信息度量与治理分析。
+引文：Bangert, Myers & Schmardebeck (2026). The informativeness of stock price at dual-class firms. Review of Accounting Studies.
+主页： https://link.springer.com/10.1007/s11142-026-09991-y 
+PDF (出版社开放获取正式版)： https://link.springer.com/content/pdf/10.1007/s11142-026-09991-y.pdf 
+
+📰 02｜论文 · Management Science：专业文本样本少，怎样迁移通用词向量？
+利用少量词语跨领域时改变含义这一结构，通过组稀疏惩罚迁移词向量。适合小样本专业文本分析，理论保证依赖稀疏性等条件。
+引文：Xu et al. (2026). Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings. Management Science.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01740 
+
+📦 03｜命令 · Stata：texpdf：在 Stata 中直接编译 LaTeX 报告
+在 Stata 中把 LaTeX 报告编译为 PDF，编译时无需系统 TeX。安装：ssc install texpdf。官方测试环境为 Stata 18/19；可用宏包限于内置资源，本期未实测。
+版本：Stata / texpdf 0.1.0；发布：2026-08-29
+主页： https://ideas.repec.org/c/boc/bocode/s459880.html 
+
+📅 04｜会议征稿：人工智能与公司金融论坛：9 月 30 日截稿
+10 月 16–18 日在厦门大学举行，征集 AI 与企业投融资、治理及科技创新等研究，9 月 30 日截稿。会务费教师 1000 元、学生 500 元，交通住宿自理。
+截止：2026-09-30
+通知： https://finance.xmu.edu.cn/info/1017/78984.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260913/ 

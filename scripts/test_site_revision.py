@@ -23,7 +23,15 @@ class SiteRevisionTests(unittest.TestCase):
             if i['issue_type']!='daily':continue
             self.assertEqual(check_website(i,ROOT),[])
             items=[x for k in ('lianxh_posts','papers','tools','research_resources','conference_calls') for x in i.get(k,[])]
-            self.assertEqual(len(items),12)
+            # C-09：12 条是默认准备量，验收采用联合范围；少量例外由
+            # 上方 check_website 校验检索说明、实际条数和保留草稿指纹。
+            if not i.get('short_issue'):
+                self.assertGreaterEqual(len(items),10)
+                self.assertLessEqual(len(items),15)
+                core=sum(x.get('priority')=='core' for x in items)
+                extended=sum(x.get('priority')=='extended' for x in items)
+                self.assertTrue(3 <= core <= 5)
+                self.assertTrue(5 <= extended <= 10)
     def test_four_core_fails(self):
         i=issue()
         for k in ('lianxh_posts','papers','tools','conference_calls'):i[k]=[x for x in i[k] if x['priority']=='core']
