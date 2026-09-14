@@ -1,0 +1,28 @@
+📙 连享会 · 快讯 | 2026.09.14
+
+✍️ 01｜新推文：annotaid：不用写代码，在本地批量实现文本标注
+用本地模型批量标注 CSV 文本，介绍配置、标注规则和结果核验。适合问卷开放题及评论分析，仍需人工抽查标签质量。
+阅读全文： https://www.lianxh.cn/details/1930.html 
+
+✍️ 02｜新推文：llm-for-zotero 实操指南：在 Zotero 里把一篇论文读透
+在 Zotero 内提问论文、定位原文并保存笔记，附复杂 PDF 解析和文库操作说明。关键表格、数字及识别结论仍需人工核验。
+阅读全文： https://www.lianxh.cn/details/1931.html 
+
+📰 03｜论文 · Biometrika：AI 预测代替部分真实结果时，怎样校准统计推断？
+把 AI 预测作为真实结果的低成本替代，用真实结果样本重新校准推断。适合标签昂贵的研究，不能把预测值直接当作无误差观测。
+引文：Ji, Lei & Zrnic (2026). Predictions as Surrogates: Revisiting Surrogate Outcomes in the Age of AI. Biometrika.
+主页： https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asag053/8790845 
+
+📰 04｜论文 · The Review of Financial Studies：最低工资调整的就业影响，如何受到融资约束影响？
+结合最低工资变化与企业债务到期结构，分析融资约束下的就业反应，并用各州错期调整检验。为连接公司金融与劳动政策提供研究思路。
+引文：Bilokha et al. (2026). Corporate Financial Constraints, Minimum Wage Policies, and Employment. The Review of Financial Studies.
+主页： https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag075/8790600 
+PDF (出版社公开录用稿)： https://academic.oup.com/rfs/advance-article-pdf/doi/10.1093/rfs/hhag075/71032702/hhag075.pdf 
+
+📦 05｜命令 · Stata：calibra：用已知总体总量校准调查权重
+根据已知总体总量校准抽样权重，支持线性、raking 和 logit 方法。安装：ssc install calibra。须核对目标总量顺序及校准残差，本期未实测。
+版本：Stata / calibra 1.0.0；发布：2026-09-11
+主页： https://ideas.repec.org/c/boc/bocode/s459886.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260914/ 

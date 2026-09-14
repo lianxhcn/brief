@@ -8,9 +8,23 @@ title: "新推文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(下)：行业×年份固定效应、IFE 与 CCE</h3>
+<p class="catalog-meta">来源日期：2026-09-04</p>
+<p>在异质共同冲击框架下，比较组别与年份交互、IFE 和 CCE 的控制思路。文章强调因子数、面板条件与识别变异，应结合上篇理解不同方法的代价。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%90%8C%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：共同冲击">共同冲击</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：交互固定效应">交互固定效应</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1914">查看历史条目</a><a href="https://www.lianxh.cn/details/1914.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(上)：从扰动项到异质暴露</h3>
+<p class="catalog-meta">来源日期：2026-09-04</p>
+<p>从企业对同一利率变化的不同暴露出发，解释年份固定效应能吸收的年度加性变化。文章讨论何时需要暴露度与冲击的交互项，并区分识别问题与标准误问题。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B4%E4%BB%BD%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：年份固定效应">年份固定效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：异质暴露">异质暴露</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1915">查看历史条目</a><a href="https://www.lianxh.cn/details/1915.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>女性 CEO 为何这么少？顶刊论文构造识别策略的思路</h3>
 <p class="catalog-meta">来源日期：2026-09-03</p>
@@ -67,22 +81,8 @@ title: "新推文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：招聘数据">招聘数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a></p>
 <p class="catalog-actions"><a href="../history/20260815-20260907/#post-1907">查看历史条目</a><a href="https://www.lianxh.cn/details/1907.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>我会 AI，为什么还拿不到实习？</h3>
-<p class="catalog-meta">来源日期：2026-08-31</p>
-<p>文章从需求澄清、过程留痕、结果核查和汇报四个环节讨论项目能力展示。适合把零散课程作业整理成可检查的求职作品，而不是仅列工具名称。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E6%8A%80%E8%83%BD&amp;show-results=1" title="全站搜索：AI技能">AI技能</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95&amp;show-results=1" title="全站搜索：职业发展">职业发展</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1905">查看历史条目</a><a href="https://www.lianxh.cn/details/1905.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>去 AI 味的 10 个 Skills 怎么选？论文、报告和推文不能只靠一套规则</h3>
-<p class="catalog-meta">来源日期：2026-08-31</p>
-<p>按论文、报告和推文等文体比较润色规则，讨论样文、修改边界及验收方法。文章将事实和术语检查放在语言自然度之前，适合制定项目写作规范。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AD%A6%E6%9C%AF%E5%86%99%E4%BD%9C&amp;show-results=1" title="全站搜索：学术写作">学术写作</a> · <a class="tag-link" href="?q=Skills&amp;show-results=1" title="全站搜索：Skills">Skills</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1904">查看历史条目</a><a href="https://www.lianxh.cn/details/1904.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

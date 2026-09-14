@@ -8,9 +8,16 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 9 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 1 页 · 共 10 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>calibra：用已知总体总量校准调查权重</h3>
+<p class="catalog-meta">期次日期：2026-09-14</p>
+<p>calibra 按 Deville–Särndal 校准思路调整抽样设计权重，使辅助变量的加权总量与已知总体总量匹配。安装命令为 <code>ssc install calibra</code>，支持线性、raking 和 logit 距离；总体总量必须与变量顺序对应。帮助说明线性方法可能产生负权重，事后截断也需重新检查校准残差。本期核验官方帮助，未实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：调查权重">调查权重</a> · <a class="tag-link" href="?q=%E6%A0%A1%E5%87%86%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：校准估计">校准估计</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：抽样调查">抽样调查</a></p>
+<p class="catalog-actions"><a href="../issues/20260914/#stata-calibra-20260911">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459886.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>texpdf：在 Stata 中直接编译 LaTeX 报告</h3>
 <p class="catalog-meta">期次日期：2026-09-13</p>

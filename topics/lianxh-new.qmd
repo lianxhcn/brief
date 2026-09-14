@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>llm-for-zotero 实操指南：在 Zotero 里把一篇论文读透</h3>
+<p class="catalog-meta">期次日期：2026-09-14</p>
+<p>文章在 Zotero 阅读器中组织论文提问、原文定位、跨论文比较和笔记保存，并说明复杂 PDF 的解析及 Agent 文库操作。读者可按示例核查表格和识别策略；AI 回答适合辅助阅读，关键数字与结论仍须回到原文，云端模型或解析服务的数据去向也需留意。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Zotero&amp;show-results=1" title="全站搜索：Zotero">Zotero</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB&amp;show-results=1" title="全站搜索：论文精读">论文精读</a> · <a class="tag-link" href="?q=%E8%AF%81%E6%8D%AE%E6%A0%B8%E9%AA%8C&amp;show-results=1" title="全站搜索：证据核验">证据核验</a></p>
+<p class="catalog-actions"><a href="../issues/20260914/#post-1931">查看本期</a><a href="https://www.lianxh.cn/details/1931.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>annotaid：不用写代码，在本地批量实现文本标注</h3>
+<p class="catalog-meta">期次日期：2026-09-14</p>
+<p>文章介绍用 annotaid 连接本地大语言模型，对 CSV 中的文本列批量生成标签，并给出 Windows 配置、标注规则和结果检查流程。界面降低操作门槛，研究者仍需定义类别、抽样核验和分析错误；文中作者报告的英文效果不能直接当作中文任务的准确率。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%9C%AC%E5%9C%B0%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：本地模型">本地模型</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
+<p class="catalog-actions"><a href="../issues/20260914/#post-1930">查看本期</a><a href="https://www.lianxh.cn/details/1930.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>AI 我知道-07：知识图谱如何用于研究？工具、提示词与工作流</h3>
 <p class="catalog-meta">期次日期：2026-09-10</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：金融决策">金融决策</a> · <a class="tag-link" href="?q=AI%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：AI评价">AI评价</a></p>
 <p class="catalog-actions"><a href="../history/20260815-20260907/#post-1917">查看历史条目</a><a href="https://www.lianxh.cn/details/1917.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(下)：行业×年份固定效应、IFE 与 CCE</h3>
-<p class="catalog-meta">来源日期：2026-09-04</p>
-<p>在异质共同冲击框架下，比较组别与年份交互、IFE 和 CCE 的控制思路。文章强调因子数、面板条件与识别变异，应结合上篇理解不同方法的代价。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%90%8C%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：共同冲击">共同冲击</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：交互固定效应">交互固定效应</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1914">查看历史条目</a><a href="https://www.lianxh.cn/details/1914.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>加入年份固定效应以后，宏观共同冲击真的被控制了吗？(上)：从扰动项到异质暴露</h3>
-<p class="catalog-meta">来源日期：2026-09-04</p>
-<p>从企业对同一利率变化的不同暴露出发，解释年份固定效应能吸收的年度加性变化。文章讨论何时需要暴露度与冲击的交互项，并区分识别问题与标准误问题。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B4%E4%BB%BD%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：年份固定效应">年份固定效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：异质暴露">异质暴露</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1915">查看历史条目</a><a href="https://www.lianxh.cn/details/1915.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 32 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

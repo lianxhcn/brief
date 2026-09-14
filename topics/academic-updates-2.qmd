@@ -8,9 +8,16 @@ title: "会议征稿 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 13 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 14 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>2026 组织与战略管理专业委员会年会：10 月 18 日截稿</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>年会围绕数智组织与战略创新征稿，欢迎理论、实证、案例和跨学科研究，涉及人机代理、组织治理、平台生态及数据要素等议题。中英文稿均可，建议约 15000 字，格式参考《南开管理评论》。会议于 11 月 6 日报到、7–8 日举行正式议程；投稿与注册是两个步骤，注册缴费截止为 10 月 31 日。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：组织管理">组织管理</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：战略创新">战略创新</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#conference-cam-strategy-2026">查看本期</a><a href="https://som.zufe.edu.cn/info/1370/18370.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>Causal Data Science Meeting 2026</h3>
 <p class="catalog-meta">期次日期：2026-09-04</p>
@@ -34,6 +41,6 @@ title: "会议征稿 · 第 2 页"
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 13 条</span></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 14 条</span></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

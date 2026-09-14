@@ -1,12 +1,12 @@
 {
-  "project_title": "连享会 · 快讯：2026 年 9 月 13 日每日发布",
+  "project_title": "连享会 · 快讯：2026 年 9 月 14 日每日发布",
   "repository_mode": "single",
   "recommendation": "single",
   "decision_reason": "沿用独立网站、版本和维护周期，score=4；不新建仓库",
   "confidence": "high",
   "local_root": "G:/codex_project/github_lianxh",
   "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "9 月 13 日期次、微信群短稿、读者摘要及自动生成的首页、归档和分类索引；私有检索资料不提交；修正每期固定12条的旧测试，使其按 C-09 联合数量验收",
+  "work_scope": "9 月 14 日期次、微信群短稿、读者摘要及自动生成的首页、归档和分类索引；私有检索资料不提交",
   "repository_name": "brief",
   "remote_owner": "lianxhcn",
   "remote_url": "https://github.com/lianxhcn/brief.git",
@@ -30,17 +30,31 @@
     "push": true,
     "deploy": true,
     "source": "D-20260908-06 每日发布授权；本次每日自动任务",
-    "validity": "2026-09-13 当期发布"
+    "validity": "2026-09-14 当期发布"
   },
   "files": [
-    "content/issues/2026-09-13.json",
-    "publish/wechat/2026-09-13.txt",
+    "content/issues/2026-09-14.json",
+    "publish/wechat/2026-09-14.txt",
     "config/website-content.json",
-    "issues/20260913/index.qmd",
+    "issues/20260914/index.qmd",
     "index.qmd",
     "archive.qmd",
-    "topics/",
     "repo-plan.yml",
-    "scripts/test_site_revision.py"
+    "topics/academic-updates-2.qmd",
+    "topics/academic-updates.qmd",
+    "topics/index.qmd",
+    "topics/lianxh-new-2.qmd",
+    "topics/lianxh-new-3.qmd",
+    "topics/lianxh-new-4.qmd",
+    "topics/lianxh-new.qmd",
+    "topics/methods-tools.qmd",
+    "topics/research-frontier-2.qmd",
+    "topics/research-frontier-3.qmd",
+    "topics/research-frontier-4.qmd",
+    "topics/research-frontier-5.qmd",
+    "topics/research-frontier-6.qmd",
+    "topics/research-frontier-7.qmd",
+    "topics/research-frontier-8.qmd",
+    "topics/research-frontier.qmd"
   ]
 }
