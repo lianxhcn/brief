@@ -10,116 +10,13 @@
   "lianxh_posts": [],
   "papers": [
     {
-      "id": "paper-aer-20241087",
-      "title": "预测规则公开后，如何应对策略性操纵？",
-      "priority": "core",
-      "publication_status": "published",
-      "journal": "American Economic Review",
-      "published_date": "2026-09-01",
-      "source_date_basis": "Crossref published-print 登记 2026-09-01；AER 官网标示 2026 年 9 月刊，不声称首次在线日",
-      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20241087",
-      "homepage_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20241087",
-      "publication_evidence_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20241087",
-      "retrieved_date": "2026-09-15",
-      "added_date": "2026-09-15",
-      "doi_url": "https://doi.org/10.1257/aer.20241087",
-      "replication_url": "https://doi.org/10.3886/E244750V1",
-      "evidence_level": "publisher-abstract",
-      "version_read": "AER 官方摘要与复现资料入口；未复现现场实验",
-      "catalog": {
-        "section": "research-frontier",
-        "tags": [
-          "策略性操纵",
-          "预测模型",
-          "机器学习"
-        ],
-        "fields": [],
-        "methods": [],
-        "software": []
-      },
-      "bibliography": {
-        "authors": [
-          "Björkegren, D.",
-          "Blumenstock, J. E.",
-          "Knight, S."
-        ],
-        "year": 2026,
-        "title": "Manipulation-Robust Prediction",
-        "source": "American Economic Review",
-        "publication_status": "published",
-        "volume": "116",
-        "issue": "9",
-        "pages": "3263–3293",
-        "doi_url": "https://doi.org/10.1257/aer.20241087",
-        "homepage_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20241087"
-      },
-      "citation": "Björkegren, D., Blumenstock, J. E., & Knight, S. (2026). Manipulation-Robust Prediction. American Economic Review, 116(9), 3263–3293.",
-      "page_note": "预测结果用于分配机会时，人们可能有意改变可观察特征。论文估计这种策略性反应，并据此调整预测规则。在肯尼亚现场实验中，作者构造的线性规则在可操纵环境下优于线性 LASSO。可借鉴将行为反应纳入模型设计的思路；该结果依赖具体实验和成本估计，不意味着所有预测场景都应采用同一规则。",
-      "wechat_summary": "将人们对预测规则的策略性反应纳入模型设计。肯尼亚现场实验显示，调整后的线性规则在可操纵环境下优于线性 LASSO；适合思考预测模型上线后的行为反馈。"
-    },
-    {
-      "id": "paper-rdag102",
-      "title": "最低工资只调整部分年龄，为什么其他员工也会加薪？",
-      "priority": "core",
-      "publication_status": "published",
-      "journal": "Review of Economic Studies",
-      "published_date": "2026-09-11",
-      "source_date_basis": "出版社登记的首次在线日期；沿用已核验的 Crossref 元数据",
-      "source_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
-      "homepage_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
-      "publication_evidence_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
-      "retrieved_date": "2026-09-15",
-      "added_date": "2026-09-15",
-      "doi_url": "https://doi.org/10.1093/restud/rdag102",
-      "bibliography": {
-        "authors": [
-          "Giupponi, G.",
-          "Machin, S."
-        ],
-        "year": 2026,
-        "title": "Company Wage Policy in a Low-Wage Labor Market",
-        "source": "Review of Economic Studies",
-        "publication_status": "published",
-        "doi_url": "https://doi.org/10.1093/restud/rdag102",
-        "homepage_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
-        "pdf": {
-          "url": "https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag102/71031407/rdag102.pdf",
-          "public_access": true,
-          "source_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
-          "retrieved_date": "2026-09-15",
-          "version": "出版社公开录用稿",
-          "method": "publisher-open-access-and-crossref-pdf-link"
-        }
-      },
-      "citation": "Giupponi, G., Machin, S.. (2026). Company Wage Policy in a Low-Wage Labor Market. Review of Economic Studies.",
-      "page_note": "英国最低工资改革提高了 25 岁及以上员工的标准，较年轻员工的法定标准保持不变。论文利用雇主—雇员匹配数据发现，企业内部薪酬政策使年轻员工也获得工资增长，并讨论薪酬公平规范的解释。研究提醒读者：政策未直接覆盖的人群仍可能受到溢出影响，不能自动当作不受影响的对照组。",
-      "wechat_summary": "利用英国按年龄调整最低工资的改革，研究企业内部工资溢出。适合思考政策处理组与对照组的划分，以及薪酬公平规范。",
-      "evidence_level": "publisher-abstract",
-      "version_read": "出版社提交的 Crossref 原始摘要及首次在线元数据，覆盖检查日期2026-09-14；非全文复现",
-      "catalog": {
-        "section": "research-frontier",
-        "tags": [
-          "最低工资",
-          "工资溢出",
-          "企业薪酬"
-        ],
-        "fields": [
-          "经济学"
-        ],
-        "methods": [],
-        "software": []
-      },
-      "pdf_url": "https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag102/71031407/rdag102.pdf",
-      "pdf_version": "出版社公开录用稿"
-    },
-    {
       "id": "paper-mnsc-2025-03155",
       "title": "复杂供应链网络中，安全库存应放在哪里？",
-      "priority": "extended",
+      "priority": "core",
       "publication_status": "published",
       "journal": "Management Science",
       "published_date": "2026-09-10",
-      "source_date_basis": "出版社登记的首次在线日期；沿用已核验的 Crossref 元数据",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
       "source_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.03155",
       "homepage_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.03155",
       "publication_evidence_url": "https://api.crossref.org/works/10.1287/mnsc.2025.03155",
@@ -141,7 +38,7 @@
         "homepage_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.03155"
       },
       "citation": "Blaettchen, P., Calmon, A. P., Hall, G., Tawarmalani, M.. (2026). From Trees to Treewidth: Inventory Management in Complex Supply Chain Networks. Management Science.",
-      "page_note": "论文为保证服务模型提出基于线性规划的求解框架，处理有向无环供应链中的安全库存配置。计算难度与网络树宽有关，松弛问题可以提供下界，并在满足整数性时证明最优。适合研究网络结构与优化算法的结合；模型并不覆盖任意有环网络。",
+      "page_note": "论文为保证服务模型提出基于线性规划的求解框架，处理有向无环供应链中的安全库存配置。计算难度与网络树宽有关，松弛问题可以提供下界，并在满足整数性时证明最优。适合研究网络结构与优化算法的结合；模型并不覆盖任意有环网络，本文也未复现其计算实验。",
       "wechat_summary": "用线性规划研究复杂供应链中的安全库存配置，利用网络结构降低求解难度。适合库存优化与运筹研究，结论受模型和网络结构约束。",
       "evidence_level": "publisher-abstract",
       "version_read": "出版社提交的 Crossref 原始摘要及首次在线元数据，覆盖检查日期2026-09-14；非全文复现",
@@ -160,13 +57,68 @@
       }
     },
     {
-      "id": "paper-rdag101",
-      "title": "消费者囤货与企业涨价，如何共同塑造供应短缺？",
-      "priority": "extended",
+      "id": "paper-rdag102",
+      "title": "最低工资只调整部分年龄，为什么其他员工也会加薪？",
+      "priority": "core",
       "publication_status": "published",
       "journal": "Review of Economic Studies",
       "published_date": "2026-09-11",
-      "source_date_basis": "出版社登记的首次在线日期；沿用已核验的 Crossref 元数据",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
+      "source_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
+      "homepage_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
+      "publication_evidence_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
+      "retrieved_date": "2026-09-15",
+      "added_date": "2026-09-15",
+      "doi_url": "https://doi.org/10.1093/restud/rdag102",
+      "bibliography": {
+        "authors": [
+          "Giupponi, G.",
+          "Machin, S."
+        ],
+        "year": 2026,
+        "title": "CompanyWage Policy in a Low-Wage Labor Market",
+        "source": "Review of Economic Studies",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1093/restud/rdag102",
+        "homepage_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
+        "pdf": {
+          "url": "https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag102/71031407/rdag102.pdf",
+          "public_access": true,
+          "source_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453",
+          "retrieved_date": "2026-09-15",
+          "version": "出版社公开录用稿",
+          "method": "publisher-open-access-and-crossref-pdf-link"
+        }
+      },
+      "citation": "Giupponi, G., Machin, S.. (2026). CompanyWage Policy in a Low-Wage Labor Market. Review of Economic Studies.",
+      "page_note": "英国最低工资改革提高了 25 岁及以上员工的标准，较年轻员工的法定标准保持不变。论文利用雇主—雇员匹配数据发现，企业内部薪酬政策使年轻员工也获得工资增长，并讨论薪酬公平规范的解释。研究提醒读者：政策未直接覆盖的人群仍可能受到溢出影响，不能自动当作不受影响的对照组。",
+      "wechat_summary": "利用英国按年龄调整最低工资的改革，研究企业内部工资溢出。适合思考政策处理组与对照组的划分，以及薪酬公平规范。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "出版社提交的 Crossref 原始摘要及首次在线元数据，覆盖检查日期2026-09-14；非全文复现",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "最低工资",
+          "工资溢出",
+          "企业薪酬"
+        ],
+        "fields": [
+          "经济学"
+        ],
+        "methods": [],
+        "software": []
+      },
+      "pdf_url": "https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag102/71031407/rdag102.pdf",
+      "pdf_version": "出版社公开录用稿"
+    },
+    {
+      "id": "paper-rdag101",
+      "title": "消费者囤货与企业涨价，如何共同塑造供应短缺？",
+      "priority": "core",
+      "publication_status": "published",
+      "journal": "Review of Economic Studies",
+      "published_date": "2026-09-11",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
       "source_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag101/8790272",
       "homepage_url": "https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag101/8790272",
       "publication_evidence_url": "https://api.crossref.org/works/10.1093/restud/rdag101",
@@ -208,11 +160,11 @@
     {
       "id": "paper-tar-2023-0303",
       "title": "ETF 资金流入是否伴随成分股估值偏离？",
-      "priority": "extended",
+      "priority": "core",
       "publication_status": "published",
       "journal": "The Accounting Review",
       "published_date": "2026-09-08",
-      "source_date_basis": "出版社登记的首次在线日期；沿用已核验的 Crossref 元数据",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
       "source_url": "https://publications.aaahq.org/accounting-review/article/doi/10.2308/TAR-2023-0303/28063/Exchange-Traded-Fund-Flows-and-Valuation",
       "homepage_url": "https://publications.aaahq.org/accounting-review/article/doi/10.2308/TAR-2023-0303/28063/Exchange-Traded-Fund-Flows-and-Valuation",
       "publication_evidence_url": "https://api.crossref.org/works/10.2308/tar-2023-0303",
@@ -244,6 +196,188 @@
         ],
         "fields": [
           "会计学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-soag130",
+      "title": "择校差异来自偏好，还是家庭面临的约束？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Social Forces",
+      "published_date": "2026-09-10",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
+      "source_url": "https://academic.oup.com/sf/advance-article/doi/10.1093/sf/soag130/8790112",
+      "homepage_url": "https://academic.oup.com/sf/advance-article/doi/10.1093/sf/soag130/8790112",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1093/sf/soag130",
+      "retrieved_date": "2026-09-15",
+      "added_date": "2026-09-15",
+      "doi_url": "https://doi.org/10.1093/sf/soag130",
+      "bibliography": {
+        "authors": [
+          "Salza, G.",
+          "Triventi, M."
+        ],
+        "year": 2026,
+        "title": "School preferences across countries and social groups: a factorial survey experiment in the United States, Germany and Italy",
+        "source": "Social Forces",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1093/sf/soag130",
+        "homepage_url": "https://academic.oup.com/sf/advance-article/doi/10.1093/sf/soag130/8790112"
+      },
+      "citation": "Salza, G., Triventi, M.. (2026). School preferences across countries and social groups: a factorial survey experiment in the United States, Germany and Italy. Social Forces.",
+      "page_note": "论文在美国、德国和意大利开展因子调查实验，让受访者评价具有不同属性的假想学校。设计控制信息、费用与距离条件，借助多层模型比较入学意愿、学业预期与社会融入评价。它有助于区分偏好和约束，但陈述偏好不等同于真实择校行为，不能直接据此解释全部教育分层。",
+      "wechat_summary": "论文在美国、德国和意大利开展因子调查实验，让受访者评价具有不同属性的假想学校。设计控制信息、费用与距离条件，借助多层模型比较入学意愿、学业预期与社会融入评价。它有助于区分偏好和约束，但陈述偏好不等同于真实择校行为，不能直接据此解释全部教育分层。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "出版社提交的 Crossref 原始摘要及首次在线元数据，覆盖检查日期2026-09-14；非全文复现",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "调查实验",
+          "教育选择",
+          "跨国比较"
+        ],
+        "fields": [
+          "社会学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-1911-3846-70076",
+      "title": "财务内控审计会改善非财务合规吗？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Contemporary Accounting Research",
+      "published_date": "2026-09-07",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70076",
+      "homepage_url": "https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70076",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1111/1911-3846.70076",
+      "retrieved_date": "2026-09-15",
+      "added_date": "2026-09-15",
+      "doi_url": "https://doi.org/10.1111/1911-3846.70076",
+      "bibliography": {
+        "authors": [
+          "Down, A. K.",
+          "Schroeder, J. H.",
+          "Shepardson, M. L."
+        ],
+        "year": 2026,
+        "title": "Intense Scrutiny of ICFR and Regulatory Compliance: Evidence From FDA ‐Regulated Firms",
+        "source": "Contemporary Accounting Research",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1111/1911-3846.70076",
+        "homepage_url": "https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70076"
+      },
+      "citation": "Down, A. K., Schroeder, J. H., Shepardson, M. L.. (2026). Intense Scrutiny of ICFR and Regulatory Compliance: Evidence From FDA ‐Regulated Firms. Contemporary Accounting Research.",
+      "page_note": "论文利用内控审计引入、审计标准放松及管理层自评制度的变化，研究财务内控监督与 FDA 检查发现之间的关系。作者比较外部审计和单纯管理层自评，并讨论信息系统及内部审计的作用。可借鉴跨监管领域的溢出研究设计；简讯依据出版社摘要，未独立复现制度冲击的识别。",
+      "wechat_summary": "论文利用内控审计引入、审计标准放松及管理层自评制度的变化，研究财务内控监督与 FDA 检查发现之间的关系。作者比较外部审计和单纯管理层自评，并讨论信息系统及内部审计的作用。可借鉴跨监管领域的溢出研究设计；简讯依据出版社摘要，未独立复现制度冲击的识别。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "出版社提交的 Crossref 原始摘要及首次在线元数据，覆盖检查日期2026-09-14；非全文复现",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "内部控制",
+          "审计",
+          "合规"
+        ],
+        "fields": [
+          "会计学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-1911-3846-70074",
+      "title": "同事间的绩效议论，会诱发业绩虚报吗？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Contemporary Accounting Research",
+      "published_date": "2026-09-04",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70074",
+      "homepage_url": "https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70074",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1111/1911-3846.70074",
+      "retrieved_date": "2026-09-15",
+      "added_date": "2026-09-15",
+      "doi_url": "https://doi.org/10.1111/1911-3846.70074",
+      "bibliography": {
+        "authors": [
+          "Khajehnejad, S.",
+          "Linder, S.",
+          "Foss, N. J."
+        ],
+        "year": 2026,
+        "title": "Performance Manipulation as a Reaction to the Prevalence of Gossip: The Role of the Self‐Monitoring Trait",
+        "source": "Contemporary Accounting Research",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1111/1911-3846.70074",
+        "homepage_url": "https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70074"
+      },
+      "citation": "Khajehnejad, S., Linder, S., Foss, N. J.. (2026). Performance Manipulation as a Reaction to the Prevalence of Gossip: The Role of the Self‐Monitoring Trait. Contemporary Accounting Research.",
+      "page_note": "论文结合两项实地调查和一项实验，研究关于同事表现的议论如何影响绩效报告。作者提出社会形象担忧可能促使员工夸大表现，并考察自我监控特质的调节作用。可用于思考正式激励制度之外的报告动机；调查关联、实验效应和心理机制证据应分别判断。",
+      "wechat_summary": "论文结合两项实地调查和一项实验，研究关于同事表现的议论如何影响绩效报告。作者提出社会形象担忧可能促使员工夸大表现，并考察自我监控特质的调节作用。可用于思考正式激励制度之外的报告动机；调查关联、实验效应和心理机制证据应分别判断。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "出版社提交的 Crossref 原始摘要及首次在线元数据，覆盖检查日期2026-09-14；非全文复现",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "绩效操纵",
+          "非正式沟通",
+          "实验研究"
+        ],
+        "fields": [
+          "会计学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-01492063261480612",
+      "title": "员工创新为什么也取决于联系人的网络位置？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Journal of Management",
+      "published_date": "2026-09-07",
+      "source_date_basis": "出版社登记首次在线日期；OUP 录用稿已上线",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/01492063261480612",
+      "homepage_url": "https://journals.sagepub.com/doi/10.1177/01492063261480612",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1177/01492063261480612",
+      "retrieved_date": "2026-09-15",
+      "added_date": "2026-09-15",
+      "doi_url": "https://doi.org/10.1177/01492063261480612",
+      "bibliography": {
+        "authors": [
+          "Piplani, R. S.",
+          "Grosser, T. J."
+        ],
+        "year": 2026,
+        "title": "The Networks of Others: A Model of Secondhand Brokerage and its Effects on Employee Innovation",
+        "source": "Journal of Management",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1177/01492063261480612",
+        "homepage_url": "https://journals.sagepub.com/doi/10.1177/01492063261480612"
+      },
+      "citation": "Piplani, R. S., Grosser, T. J.. (2026). The Networks of Others: A Model of Secondhand Brokerage and its Effects on Employee Innovation. Journal of Management.",
+      "page_note": "这是一篇理论研究，将关注点从员工自身网络位置转向其联系人的中介位置及信息传递能力。论文区分创意生成、细化、争取支持和实施阶段，提出不同网络结构可能发挥不同作用，并讨论知识整合能力等边界。它适合用于构建假说与变量，不应被表述为已经得到因果验证的经验结论。",
+      "wechat_summary": "这是一篇理论研究，将关注点从员工自身网络位置转向其联系人的中介位置及信息传递能力。论文区分创意生成、细化、争取支持和实施阶段，提出不同网络结构可能发挥不同作用，并讨论知识整合能力等边界。它适合用于构建假说与变量，不应被表述为已经得到因果验证的经验结论。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "出版社提交的 Crossref 原始摘要及首次在线元数据，覆盖检查日期2026-09-14；非全文复现",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "社会网络",
+          "创新",
+          "理论模型"
+        ],
+        "fields": [
+          "管理学"
         ],
         "methods": [],
         "software": []
@@ -344,7 +478,7 @@
         }
       },
       "citation": "Hamid Noghanibehambari, David Slusky, Erdal Tekin, Hoa Vu. (2026). The Multigenerational Effects of Legal Access to the Pill on Infant Health. NBER Working Paper 35722.",
-      "page_note": "论文将美国出生记录与不同州、不同出生队列面对的避孕药合法可及性相联系，研究政策对后代出生结局的影响，并讨论生育时间、教育和产前照护等渠道。可借鉴跨代政策暴露的构造思路；数据受限，州际改革的可比性及机制识别仍需精读核查。",
+      "page_note": "论文将美国出生记录与不同州、不同出生队列面对的避孕药合法可及性相联系，研究政策对后代出生结局的影响，并讨论生育时间、教育和产前照护等渠道。可借鉴跨代政策暴露的构造思路；数据受限，州际改革的可比性及机制识别仍需精读核查。这里介绍研究设计，不提供医疗建议。",
       "wechat_summary": "论文将美国出生记录与不同州、不同出生队列面对的避孕药合法可及性相联系，研究政策对后代出生结局的影响，并讨论生育时间、教育和产前照护等渠道。可借鉴跨代政策暴露的构造思路；数据受限，州际改革的可比性及机制识别仍需精读核查。这里介绍研究设计，不提供医疗建议。",
       "evidence_level": "official-abstract",
       "version_read": "NBER 官方摘要及元数据",
@@ -361,202 +495,11 @@
         "methods": [],
         "software": []
       }
-    },
-    {
-      "id": "arxiv-2609-15736",
-      "title": "BLP 需求估计：有限工具变量是否保留了识别信息？",
-      "priority": "extended",
-      "publication_status": "working-paper",
-      "journal": "arXiv",
-      "working_paper_source": "arXiv",
-      "published_date": "2026-09-14",
-      "source_date_basis": "arXiv v1 提交日期；9 月 15 日目录展示不作为发表日",
-      "source_url": "https://arxiv.org/abs/2609.15736",
-      "homepage_url": "https://arxiv.org/abs/2609.15736",
-      "doi_url": "https://doi.org/10.48550/arXiv.2609.15736",
-      "pdf_url": "https://arxiv.org/pdf/2609.15736.pdf",
-      "pdf_version": "arXiv v1",
-      "retrieved_date": "2026-09-15",
-      "added_date": "2026-09-15",
-      "evidence_level": "official-abstract",
-      "version_read": "arXiv v1 官方摘要",
-      "catalog": {
-        "section": "research-frontier",
-        "tags": [
-          "BLP",
-          "条件矩估计",
-          "工具变量"
-        ],
-        "fields": [],
-        "methods": [],
-        "software": []
-      },
-      "bibliography": {
-        "authors": [
-          "Jin, H.",
-          "Sun, R.",
-          "Xie, T."
-        ],
-        "year": 2026,
-        "title": "Conditional-Moment Estimation and Inference in the BLP Model",
-        "source": "arXiv",
-        "publication_status": "working-paper",
-        "doi_url": "https://doi.org/10.48550/arXiv.2609.15736",
-        "homepage_url": "https://arxiv.org/abs/2609.15736",
-        "pdf": {
-          "url": "https://arxiv.org/pdf/2609.15736.pdf",
-          "public_access": true,
-          "source_url": "https://arxiv.org/abs/2609.15736",
-          "retrieved_date": "2026-09-15",
-          "version": "arXiv v1",
-          "method": "arxiv-identifier-rule"
-        }
-      },
-      "citation": "Jin, H., Sun, R., & Xie, T. (2026). Conditional-Moment Estimation and Inference in the BLP Model. arXiv.",
-      "page_note": "论文指出，BLP 模型由条件矩识别，并不保证用固定有限组工具变量构造的无条件 GMM 仍能识别参数。作者先估计条件期望，再以条件方差加权的最小距离法估计需求参数，并在假设下讨论渐近推断。适合检查工具变量选择与识别之间的关系；工作论文中的理论条件和计算表现仍需结合正文判断。",
-      "wechat_summary": "研究 BLP 条件矩识别在转为有限工具变量 GMM 后可能丢失的信息，并提出两步条件矩估计。"
     }
   ],
-  "tools": [
-    {
-      "id": "r-badp-20260915",
-      "title": "badp：动态面板模型平均更新了结果接口",
-      "name": "badp",
-      "ecosystem": "R",
-      "version": "0.7.0",
-      "release_date": "2026-09-15",
-      "published_date": "2026-09-15",
-      "source_date_basis": "官方包仓库版本发布日期，非首次创建日期",
-      "source_url": "https://cran.r-project.org/web/packages/badp/index.html",
-      "url": "https://cran.r-project.org/web/packages/badp/index.html",
-      "retrieved_date": "2026-09-15",
-      "added_date": "2026-09-15",
-      "priority": "core",
-      "page_note": "badp 用贝叶斯模型平均处理含弱外生解释变量的动态面板。0.7.0 将 `best_models()` 改为返回独立模型对象，便于提取系数、标准误和 p 值，并将单模型检验改为基于正态近似的 Wald 推断。安装命令为 `install.packages(\"badp\")`。旧代码的参数与结果读取方式需要调整；模型平均仍依赖候选模型、先验及外生性假设。",
-      "wechat_summary": "动态面板贝叶斯模型平均工具。0.7.0 调整 best_models() 结果接口和单模型推断，旧脚本升级前需检查参数及结果提取方式。",
-      "tested": false,
-      "evidence_level": "official-release-notes",
-      "catalog": {
-        "section": "methods-tools",
-        "tags": [
-          "动态面板",
-          "贝叶斯模型平均",
-          "R"
-        ],
-        "fields": [],
-        "methods": [],
-        "software": [
-          "R"
-        ]
-      },
-      "help_url": "https://cran.r-project.org/web/packages/badp/news/news.html"
-    },
-    {
-      "id": "r-resultcheck-20260915",
-      "title": "resultcheck：检查模型结果是否随代码修改而改变",
-      "name": "resultcheck",
-      "ecosystem": "R",
-      "version": "0.3.1",
-      "release_date": "2026-09-15",
-      "published_date": "2026-09-15",
-      "source_date_basis": "官方包仓库版本发布日期，非首次创建日期",
-      "source_url": "https://cran.r-project.org/web/packages/resultcheck/index.html",
-      "url": "https://cran.r-project.org/web/packages/resultcheck/index.html",
-      "retrieved_date": "2026-09-15",
-      "added_date": "2026-09-15",
-      "priority": "core",
-      "page_note": "resultcheck 保存 R 对象的可读快照，比较模型、表格等输出在修改前后的差异。0.3.1 修复引号样式和 `max.print` 设置导致的假差异，并在序列化后恢复调用者选项。安装命令为 `install.packages(\"resultcheck\")`。此前被截断的基线可能需要人工重审；快照一致只能说明输出稳定，不能证明研究设计或估计方法正确。",
-      "wechat_summary": "保存并比较模型、表格等 R 输出快照。0.3.1 减少引号和打印截断设置引起的假差异；快照稳定不等于统计方法正确。",
-      "tested": false,
-      "evidence_level": "official-release-notes",
-      "catalog": {
-        "section": "methods-tools",
-        "tags": [
-          "结果检查",
-          "研究复现",
-          "R"
-        ],
-        "fields": [],
-        "methods": [],
-        "software": [
-          "R"
-        ]
-      },
-      "help_url": "https://cran.r-project.org/web/packages/resultcheck/news/news.html"
-    },
-    {
-      "id": "python-polars-20260909",
-      "title": "Polars：Parquet 写出与错误定位的维护更新",
-      "name": "polars",
-      "ecosystem": "Python",
-      "version": "1.44.2",
-      "release_date": "2026-09-09",
-      "published_date": "2026-09-09",
-      "source_date_basis": "官方包仓库版本发布日期，非首次创建日期",
-      "source_url": "https://github.com/pola-rs/polars/releases/tag/py-1.44.2",
-      "url": "https://github.com/pola-rs/polars/releases/tag/py-1.44.2",
-      "retrieved_date": "2026-09-15",
-      "added_date": "2026-09-15",
-      "priority": "extended",
-      "page_note": "Polars 为 Python 提供 DataFrame 与惰性查询接口。1.44.2 回移了 Parquet 写出时避免逐文件完整同步的修复，并改善 I/O 和插件加载报错中的路径信息。安装指定版本可用 `pip install polars==1.44.2`。对批量处理研究数据的脚本，重点是核对输入输出和报错定位；不要将修复日志直接理解为未经测试的速度提升。",
-      "wechat_summary": "Parquet 写出和报错定位相关维护更新，适合批量数据清洗流程升级前评估。",
-      "tested": false,
-      "evidence_level": "official-release-notes",
-      "catalog": {
-        "section": "methods-tools",
-        "tags": [
-          "数据清洗",
-          "Parquet",
-          "Python"
-        ],
-        "fields": [],
-        "methods": [],
-        "software": [
-          "Python"
-        ]
-      },
-      "help_url": "https://github.com/pola-rs/polars/pull/29216"
-    }
-  ],
+  "tools": [],
   "research_resources": [],
-  "conference_calls": [
-    {
-      "id": "conference-icebda-2026-registration",
-      "event_id": "icebda-2026",
-      "title": "厦门 iCEBDA 2026：早鸟注册 10 月 15 日截止",
-      "organizer_or_journal": "HSE University CEBDA；厦门大学邹至庄经济研究院承办",
-      "topic": "计量经济学、大数据、时间序列、面板数据与金融计量",
-      "official_url": "https://www.bechair.online/iCEBDA-2026",
-      "source_url": "https://chow.xmu.edu.cn/info/2602/48552.htm",
-      "retrieved_date": "2026-09-15",
-      "first_seen_date": "2026-09-15",
-      "source_date_basis": "原公告发布日期未明；依据有效早鸟注册截止日收录",
-      "deadline": "2026-10-15",
-      "deadline_kind": "registration",
-      "event_date": "2026-12-04",
-      "event_end": "2026-12-07",
-      "location": "中国福建厦门，厦门大学思明校区",
-      "venue_region": "mainland-china",
-      "fee_note": "官网列示普通注册 300 美元、学生 180 美元；付款链接待公布。",
-      "status": "open",
-      "priority": "extended",
-      "reminder": false,
-      "evidence_level": "official-page",
-      "catalog": {
-        "section": "academic-updates",
-        "tags": [
-          "计量经济学",
-          "大数据",
-          "会议报名"
-        ],
-        "fields": [],
-        "methods": [],
-        "software": []
-      },
-      "page_note": "第二届计量经济学与大数据分析国际会议将于 12 月 4–7 日在厦门大学思明校区举行，涉及时间序列、面板数据、局部投影和金融计量。投稿已于 8 月 12 日结束；早鸟注册截止日为 10 月 15 日。官网列示普通注册 300 美元、学生 180 美元，付款入口尚待公布，可先联系会务确认参会安排。",
-      "wechat_summary": "第二届计量经济学与大数据分析国际会议将于 12 月 4–7 日在厦门大学思明校区举行，涉及时间序列、面板数据、局部投影和金融计量。投稿已于 8 月 12 日结束；早鸟注册截止日为 10 月 15 日。官网列示普通注册 300 美元、学生 180 美元，付款入口尚待公布，可先联系会务确认参会安排。"
-    }
-  ],
+  "conference_calls": [],
   "discovery": [
     {
       "category": "posts",
@@ -573,29 +516,29 @@
     },
     {
       "category": "papers",
-      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20241087",
-      "query": "复用9月14日29刊有效轮查记录，逐篇比较 AER/QJE/JFE/JF/RFS 与计量方法；核验 AER、arXiv 新候选，保留6篇已核验当日原稿论文。",
+      "source_url": "https://api.crossref.org/works",
+      "query": "复用9月14日29刊轮查原记录，核验7篇期刊原始摘要和2篇NBER；候选池元数据与采用清单分开。",
       "checked_at": "2026-09-15",
       "window_start": "2026-09-01",
       "window_end": "2026-09-15",
       "status": "found",
       "candidate_count": 10,
-      "eligible_count": 8,
-      "adopted_count": 8,
-      "reason": "复用9月14日29刊有效轮查记录，逐篇比较 AER/QJE/JFE/JF/RFS 与计量方法；核验 AER、arXiv 新候选，保留6篇已核验当日原稿论文。"
+      "eligible_count": 10,
+      "adopted_count": 10,
+      "reason": "复用有效29刊覆盖后核验8篇期刊及2篇NBER。已核验软件、会议候选近期重复，本期按规则用合格新论文补充；未声称其他来源无新内容。"
     },
     {
       "category": "software",
       "source_url": "https://ideas.repec.org/s/boc/bocode.html",
-      "query": "读取 SSC 新条目；calibra/emlink/rtablabs/texpdf近期已发；MINVAR、MVARDLURT 版本日期仍待核验，不能推断整个SSC无新内容。",
+      "query": "有限检查lwdid、emlink、rtablabs，均为近期已发成果，不以换URL重发；SSC目录其他条目尚未逐一核验。",
       "checked_at": "2026-09-15",
       "window_start": "2026-09-01",
       "window_end": "2026-09-15",
       "status": "no-eligible",
-      "candidate_count": 7,
+      "candidate_count": 3,
       "eligible_count": 0,
       "adopted_count": 0,
-      "reason": "读取 SSC 新条目；calibra/emlink/rtablabs/texpdf近期已发；MINVAR、MVARDLURT 版本日期仍待核验，不能推断整个SSC无新内容。"
+      "reason": "有限检查lwdid、emlink、rtablabs，均为近期已发成果，不以换URL重发；SSC目录其他条目尚未逐一核验。"
     },
     {
       "category": "software",
@@ -611,69 +554,17 @@
       "reason": "已访问本期目录，未形成新且已核验的软件候选；不声称遍历全部软件。"
     },
     {
-      "category": "software",
-      "source_url": "https://cran.r-project.org/web/packages/badp/index.html",
-      "query": "核对 badp 与 resultcheck 官方发布日期及 NEWS，均有影响结果处理的实质更新。",
-      "checked_at": "2026-09-15",
-      "window_start": "2026-09-01",
-      "window_end": "2026-09-15",
-      "status": "found",
-      "candidate_count": 2,
-      "eligible_count": 2,
-      "adopted_count": 2,
-      "reason": "核对 badp 与 resultcheck 官方发布日期及 NEWS，均有影响结果处理的实质更新。"
-    },
-    {
-      "category": "software",
-      "source_url": "https://pypi.org/pypi/polars/json",
-      "query": "定向检查8个研究用Python包的PyPI版本；Polars稳定版1.44.2在窗口内，核对官方回移PR；不将有限样本视为全PyPI覆盖。",
-      "checked_at": "2026-09-15",
-      "window_start": "2026-09-01",
-      "window_end": "2026-09-15",
-      "status": "found",
-      "candidate_count": 8,
-      "eligible_count": 1,
-      "adopted_count": 1,
-      "reason": "定向检查8个研究用Python包的PyPI版本；Polars稳定版1.44.2在窗口内，核对官方回移PR；不将有限样本视为全PyPI覆盖。"
-    },
-    {
       "category": "conferences",
-      "source_url": "https://www.cfrn.com.cn/hyxx/index.html",
-      "query": "详情核对数字经济、上海会计、南京金融工程3项候选；尚未取得完整可读官方正文，保留待核验，未采用。",
+      "source_url": "https://conf.xmu.edu.cn/conf2026/weit/index.htm",
+      "query": "厦门大学通知核验日期费用；河北消费经济年会已在9月11日发布，排除重复。",
       "checked_at": "2026-09-15",
       "window_start": "2026-09-01",
       "window_end": "2026-09-15",
       "status": "no-eligible",
-      "candidate_count": 3,
+      "candidate_count": 2,
       "eligible_count": 0,
       "adopted_count": 0,
-      "reason": "详情核对数字经济、上海会计、南京金融工程3项候选；尚未取得完整可读官方正文，保留待核验，未采用。"
-    },
-    {
-      "category": "conferences",
-      "source_url": "https://mp.weixin.qq.com/s/2wWPR9xiqqBqU0bmE21c3A",
-      "query": "上海会计学院官网确认官方通知入口，正文访问失败；不凭CFRN转载确认日期和费用。",
-      "checked_at": "2026-09-15",
-      "window_start": "2026-09-01",
-      "window_end": "2026-09-15",
-      "status": "access-failed",
-      "candidate_count": 1,
-      "eligible_count": 0,
-      "adopted_count": 0,
-      "reason": "上海会计学院官网确认官方通知入口，正文访问失败；不凭CFRN转载确认日期和费用。"
-    },
-    {
-      "category": "conferences",
-      "source_url": "https://chow.xmu.edu.cn/xshd/hylt/hylt.htm",
-      "query": "核对目录及iCEBDA官方专题：保险、AI公司金融已发；iCEBDA投稿已结束，只作为早鸟注册信息收录。",
-      "checked_at": "2026-09-15",
-      "window_start": "2026-09-01",
-      "window_end": "2026-09-15",
-      "status": "found",
-      "candidate_count": 3,
-      "eligible_count": 1,
-      "adopted_count": 1,
-      "reason": "核对目录及iCEBDA官方专题：保险、AI公司金融已发；iCEBDA投稿已结束，只作为早鸟注册信息收录。"
+      "reason": "厦门大学研讨会已在9月10日发布、消费经济年会已在9月11日发布，均排除近期重复。"
     }
   ],
   "paper_policy_version": 1,
@@ -1301,15 +1192,14 @@
       {
         "source": "arXiv",
         "status": "found",
-        "checked_at": "2026-09-15",
-        "window_start": "2026-09-01",
-        "window_end": "2026-09-15",
+        "checked_at": "2026-09-14",
+        "window_start": "2026-08-31",
+        "window_end": "2026-09-14",
         "evidence_url": "https://arxiv.org/list/econ.EM/recent",
         "candidate_ids": [
-          "2609.15736",
-          "2609.13586"
+          "2609.10587"
         ],
-        "reason": "9月15日读取econometrics目录并核对两篇官方摘要；采用BLP，SNN与既有研究的版本关系待核查。"
+        "reason": "核验未用候选官方摘要与日期；NBER35720已发排除，35724入选；其余系列复用真实有效周轮查日期。"
       },
       {
         "source": "CEPR",
@@ -1371,7 +1261,7 @@
     ],
     "reviewed_by": "Codex",
     "reviewed_at": "2026-09-15",
-    "reason": "修订后核心2篇均为Top Journal；延伸6篇论文中3篇顶刊、2篇NBER及1篇arXiv。加入R/Python软件，会议依据实际大陆举办地及注册窗口收录。",
+    "reason": "复用9月14日29刊轮查原日期；4篇核心均为顶刊，延伸4篇顶刊及2篇NBER。无新增推文，已核验软件与会议近期重复，不为栏目凑数。",
     "source_balance_review": {
       "reviewed_by": "Codex",
       "compared_sources": [
@@ -1382,33 +1272,7 @@
         "IMF",
         "World Bank"
       ],
-      "reason": "工作论文比较后采用NBER两篇研究设计与arXiv一篇BLP条件矩方法；未把任何平台设为自动兜底。"
-    },
-    "priority_comparison": [
-      {
-        "source": "AER",
-        "decision": "select",
-        "reason": "操纵稳健预测与经管机器学习方法相关；官方摘要及复现入口可核验。"
-      },
-      {
-        "source": "QJE/JF/RFS",
-        "decision": "defer",
-        "reason": "最新已核验重点候选近期已发；不因来源优先而重复推送。"
-      },
-      {
-        "source": "JFE",
-        "decision": "defer",
-        "reason": "当批候选仅月份精度、缺可核验原始摘要，继续候选池核验。"
-      },
-      {
-        "source": "Social Forces/CAR/Journal of Management",
-        "decision": "replace",
-        "reason": "与本轮AER、计量方法和软件更新比较，优先读者方法需求；不否定原研究质量。"
-      }
-    ]
-  },
-  "release_snapshot": "content/releases/2026-09-15",
-  "revised_date": "2026-09-15",
-  "revision_note": "用户授权当日修订：补 R/Python 更新、AER 与 arXiv 方法论文及大陆会议报名信息；原发布稿留档，修订微信稿单独保存。",
-  "wechat_revision_path": "publish/wechat/revisions/2026-09-15/2026-09-15-revised.txt"
+      "reason": "本期两篇工作论文来自NBER，选择理由为双胞胎设计与跨代政策识别；其他来源复用有效记录，未声称无合格内容。"
+    }
+  }
 }

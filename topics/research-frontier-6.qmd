@@ -8,23 +8,9 @@ title: "新论文 · 第 6 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="catalog-grid">
-<article class="catalog-card">
-<h3>A/B 测试显著以后，是否就该上线？</h3>
-<p class="catalog-meta">期次日期：2026-09-10</p>
-<p>论文区分实验样本中的均值检验与未来部署环境中的经济决策，对实验结果附近的分布加入模糊性惩罚，形成保守的上线规则。它将对实验外推的信任程度明确为一个参数，并用广告实验资料评估决策。适合讨论上线收益与分布变化，不能据此将所有显著性检验视为无用。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=A%2FB%20%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：A/B 测试">A/B 测试</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a> · <a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：分布变化">分布变化</a></p>
-<p class="catalog-actions"><a href="../issues/20260910/#arxiv-2609-07633">查看本期</a><a href="https://arxiv.org/abs/2609.07633" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>配对实验中的二元结果如何做随机化推断？</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>论文针对二元结果的配对研究构造平均处理效应置信集，以配对内随机分配为依据，讨论如何利用解析的最不利配置简化检验。框架也延伸到 Rosenbaum 敏感性分析，帮助研究者区分随机实验推断与观察性匹配仍需承担的隐藏偏差假设。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%85%8D%E5%AF%B9%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：配对实验">配对实验</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#arxiv-2609-03227">查看本期</a><a href="https://arxiv.org/abs/2609.03227" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 <article class="catalog-card">
 <h3>网络有溢出时，实验结果能迁移到另一种分配政策吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-09</p>
@@ -81,8 +67,22 @@ title: "新论文 · 第 6 页"
 <p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a></p>
 <p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-27155">查看本期</a><a href="https://arxiv.org/abs/2608.27155" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
+<article class="catalog-card">
+<h3>网络相关数据中的多参数联合推断</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-26522">查看本期</a><a href="https://arxiv.org/abs/2608.26522" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>债务危机预测：复杂模型一定胜过 probit 吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文细化低收入国家债务困境的起点测量，并用系统的样本外验证比较二元预测模型与机器学习方法。它把标签定义、验证设计与模型复杂度放在一起考察，适合借鉴危机预测流程；预测能力不能解释为政策的因果效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：债务风险">债务风险</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：模型比较">模型比较</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#worldbank-wps11441">查看本期</a><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099707109022612787" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

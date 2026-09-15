@@ -8,9 +8,16 @@ title: "会议征稿"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 2 页 · 共 14 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 2 页 · 共 15 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>厦门 iCEBDA 2026：早鸟注册 10 月 15 日截止</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>第二届计量经济学与大数据分析国际会议将于 12 月 4–7 日在厦门大学思明校区举行，涉及时间序列、面板数据、局部投影和金融计量。投稿已于 8 月 12 日结束；早鸟注册截止日为 10 月 15 日。官网列示普通注册 300 美元、学生 180 美元，付款入口尚待公布，可先联系会务确认参会安排。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：计量经济学">计量经济学</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：大数据">大数据</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E6%8A%A5%E5%90%8D&amp;show-results=1" title="全站搜索：会议报名">会议报名</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#conference-icebda-2026-registration">查看本期</a><a href="https://chow.xmu.edu.cn/info/2602/48552.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>数字经济与竞争政策论坛：10 月 8 日截稿</h3>
 <p class="catalog-meta">期次日期：2026-09-14</p>
@@ -74,15 +81,8 @@ title: "会议征稿"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
 <p class="catalog-actions"><a href="../issues/20260910/#conference-xmu-weit-2026">查看本期</a><a href="https://gjjmx.xmu.edu.cn/info/1055/111855.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>第五届保险与再保险论坛：9 月 30 日截稿</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>第五届保险与再保险论坛于 10 月 30–31 日在上海财经大学金融学院举行，征稿涉及巨灾风险、气候风险、养老金融、保险科技及资本市场等。论文和学生作品通过会议网站提交，截止为 9 月 30 日；作品须未公开发表。论坛不收会务费，交通住宿自理，入选会议不等于期刊录用。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：保险">保险</a> · <a class="tag-link" href="?q=%E5%86%8D%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：再保险">再保险</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#conference-insurance-reinsurance-2026">查看本期</a><a href="https://finance.xmu.edu.cn/info/1017/78994.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 2 页 · 共 14 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 2 页 · 共 15 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

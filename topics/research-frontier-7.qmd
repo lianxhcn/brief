@@ -8,23 +8,9 @@ title: "新论文 · 第 7 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="catalog-grid">
-<article class="catalog-card">
-<h3>网络相关数据中的多参数联合推断</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文研究观测之间沿网络联系发生依赖时，高维统计量如何进行高斯近似与联合推断，并讨论网络 HAC 协方差估计。其价值在于把网络距离与相关结构纳入误差评估，帮助构造同时置信区间。应用时仍需论证所用网络能够反映依赖关系，不能仅替换标准误就忽略网络形成问题。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：联合推断">联合推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-26522">查看本期</a><a href="https://arxiv.org/abs/2608.26522" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>债务危机预测：复杂模型一定胜过 probit 吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>论文细化低收入国家债务困境的起点测量，并用系统的样本外验证比较二元预测模型与机器学习方法。它把标签定义、验证设计与模型复杂度放在一起考察，适合借鉴危机预测流程；预测能力不能解释为政策的因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：债务风险">债务风险</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：模型比较">模型比较</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#worldbank-wps11441">查看本期</a><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099707109022612787" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 <article class="catalog-card">
 <h3>REStud：股权融资摩擦如何影响企业规模？</h3>
 <p class="catalog-meta">期次日期：2026-09-08</p>
@@ -81,8 +67,22 @@ title: "新论文 · 第 7 页"
 <p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a>；<strong>标签：</strong><a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a></p>
 <p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-23925">查看本期</a><a href="https://arxiv.org/abs/2608.23925" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
+<article class="catalog-card">
+<h3>时间平均与长差分为什么会改变长期关系估计？</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>论文研究把面板压缩为时间均值或长差分后，用横截面估计长期关系的条件。非平稳序列的横截面离散程度可能增强信号，但压缩也会改变噪声，均值回复又会削弱这种优势。可用于理解长期回归的取样与变换选择，不能把时间平均视为消除内生性的通用办法。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：长期关系">长期关系</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：长期关系">长期关系</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a></p>
+<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-25901">查看本期</a><a href="https://arxiv.org/abs/2608.25901" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>平稳与非平稳变量混在一起，如何提取共同周期？</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>论文研究混合平稳与非平稳变量的主成分分析，目标是提取共同周期成分，而无需事先逐一判定变量的积分性质。作者用 FRED-MD 数据展示这一思路。阅读时可关注变量预处理如何影响共同因子的含义，以及该方法所需的时间序列条件；它不意味着任何趋势数据都可以直接做普通 PCA。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
+<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-23732">查看本期</a><a href="https://arxiv.org/abs/2608.23732" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

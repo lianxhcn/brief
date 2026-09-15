@@ -8,23 +8,9 @@ title: "新论文 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="catalog-grid">
-<article class="catalog-card">
-<h3>有投票成本时，亲社会动机如何解释参与行为？</h3>
-<p class="catalog-meta">期次日期：2026-09-12</p>
-<p>论文在空间投票模型中加入亲社会动机，联系预期同伴投票、胜选概率与选民对结果的重视程度，解释参与成本存在时的投票行为。作者将均衡预测与既有研究及自建数据比较。适合学习从经验规律约束理论模型，模型拟合并不等同于每个机制都获得独立因果识别。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E7%A5%A8%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：投票行为">投票行为</a> · <a class="tag-link" href="?q=%E4%BA%B2%E7%A4%BE%E4%BC%9A%E5%8A%A8%E6%9C%BA&amp;show-results=1" title="全站搜索：亲社会动机">亲社会动机</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a></p>
-<p class="catalog-actions"><a href="../issues/20260912/#nber-w35723">查看本期</a><a href="https://www.nber.org/papers/w35723" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>明知岗位存在伤害，工人为什么仍然留下？</h3>
-<p class="catalog-meta">期次日期：2026-09-12</p>
-<p>论文以意大利 ILVA 钢铁厂为案例，研究工人同时作为组织成员与受害者时如何理解持续的污染伤害。归纳分析指出，谋生依赖和对外部保护失效的感受可能相互强化。适合学习多重身份下的质性机制建构；留在岗位不等于认可危险，也不能由单一案例推出普遍因果效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A8%E6%80%A7%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：质性研究">质性研究</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E4%B8%8D%E5%BD%93%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：组织不当行为">组织不当行为</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E8%80%85%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：劳动者保护">劳动者保护</a></p>
-<p class="catalog-actions"><a href="../issues/20260912/#paper-00018392261468328">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261468328" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 <article class="catalog-card">
 <h3>实验怎样设计，才能服务后续政策选择？</h3>
 <p class="catalog-meta">期次日期：2026-09-12</p>
@@ -81,8 +67,22 @@ title: "新论文 · 第 4 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=%E8%87%AA%E7%84%B6%E7%81%BE%E5%AE%B3&amp;show-results=1" title="全站搜索：自然灾害">自然灾害</a> · <a class="tag-link" href="?q=%E6%8E%92%E5%90%8D%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：排名竞争">排名竞争</a></p>
 <p class="catalog-actions"><a href="../issues/20260911/#paper-742714">查看本期</a><a href="https://www.journals.uchicago.edu/doi/10.1086/742714" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
+<article class="catalog-card">
+<h3>JOM：用 O*NET 构造职业指标，怎样避免重复与失真？</h3>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>综述整理基于 O*NET 描述项构造的职业指标，提出扩展的组织框架并比较测量效度证据。职业复杂度、情绪劳动等指标常由原字段组合而成，同名指标未必采用相同定义。适合在匹配职业数据前检查构造依据与适用层级，不能把字段拼接本身视为测量有效。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=O%2ANET&amp;show-results=1" title="全站搜索：O*NET">O*NET</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E7%89%B9%E5%BE%81&amp;show-results=1" title="全站搜索：职业特征">职业特征</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：测量效度">测量效度</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#paper-01492063261449793">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/01492063261449793" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ASQ：第三方专家能否促进企业参与规则制定？</h3>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>论文在泰国开展现场实验，由第三方专家帮助企业理解监管草案并完善反馈意见，考察这种协助能否改善对政府正当性的认知与实际参与。它把参与意愿、理解能力和可观察行为分开研究，提示政策咨询不仅是信息传递，也涉及信任形成；推广时需考虑当地制度背景。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E5%8F%82%E4%B8%8E&amp;show-results=1" title="全站搜索：监管参与">监管参与</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E4%BF%A1%E4%BB%BB&amp;show-results=1" title="全站搜索：制度信任">制度信任</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#paper-00018392261473620">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261473620" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -8,23 +8,9 @@ title: "新论文 · 第 5 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-4.html">上一页</a><span aria-current="page">第 5 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-6.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-4.html">上一页</a><span aria-current="page">第 5 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-6.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="catalog-grid">
-<article class="catalog-card">
-<h3>JOM：用 O*NET 构造职业指标，怎样避免重复与失真？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>综述整理基于 O*NET 描述项构造的职业指标，提出扩展的组织框架并比较测量效度证据。职业复杂度、情绪劳动等指标常由原字段组合而成，同名指标未必采用相同定义。适合在匹配职业数据前检查构造依据与适用层级，不能把字段拼接本身视为测量有效。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=O%2ANET&amp;show-results=1" title="全站搜索：O*NET">O*NET</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E7%89%B9%E5%BE%81&amp;show-results=1" title="全站搜索：职业特征">职业特征</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：测量效度">测量效度</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-01492063261449793">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/01492063261449793" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>ASQ：第三方专家能否促进企业参与规则制定？</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论文在泰国开展现场实验，由第三方专家帮助企业理解监管草案并完善反馈意见，考察这种协助能否改善对政府正当性的认知与实际参与。它把参与意愿、理解能力和可观察行为分开研究，提示政策咨询不仅是信息传递，也涉及信任形成；推广时需考虑当地制度背景。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E5%8F%82%E4%B8%8E&amp;show-results=1" title="全站搜索：监管参与">监管参与</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E4%BF%A1%E4%BB%BB&amp;show-results=1" title="全站搜索：制度信任">制度信任</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#paper-00018392261473620">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261473620" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 <article class="catalog-card">
 <h3>AI 帮忙时做得更好，离开 AI 后也学会了吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-11</p>
@@ -81,8 +67,22 @@ title: "新论文 · 第 5 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%B9%B3%E5%8F%B0&amp;show-results=1" title="全站搜索：数字平台">数字平台</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E6%89%A9%E5%BC%A0&amp;show-results=1" title="全站搜索：市场扩张">市场扩张</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%BB%A9%E6%95%88&amp;show-results=1" title="全站搜索：企业绩效">企业绩效</a></p>
 <p class="catalog-actions"><a href="../issues/20260910/#paper-asq-1461268">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261461268" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
+<article class="catalog-card">
+<h3>A/B 测试显著以后，是否就该上线？</h3>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文区分实验样本中的均值检验与未来部署环境中的经济决策，对实验结果附近的分布加入模糊性惩罚，形成保守的上线规则。它将对实验外推的信任程度明确为一个参数，并用广告实验资料评估决策。适合讨论上线收益与分布变化，不能据此将所有显著性检验视为无用。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=A%2FB%20%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：A/B 测试">A/B 测试</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a> · <a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：分布变化">分布变化</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#arxiv-2609-07633">查看本期</a><a href="https://arxiv.org/abs/2609.07633" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>配对实验中的二元结果如何做随机化推断？</h3>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文针对二元结果的配对研究构造平均处理效应置信集，以配对内随机分配为依据，讨论如何利用解析的最不利配置简化检验。框架也延伸到 Rosenbaum 敏感性分析，帮助研究者区分随机实验推断与观察性匹配仍需承担的隐藏偏差假设。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%85%8D%E5%AF%B9%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：配对实验">配对实验</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#arxiv-2609-03227">查看本期</a><a href="https://arxiv.org/abs/2609.03227" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-4.html">上一页</a><span aria-current="page">第 5 / 9 页 · 共 83 条</span><a rel="next" href="research-frontier-6.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-4.html">上一页</a><span aria-current="page">第 5 / 9 页 · 共 81 条</span><a rel="next" href="research-frontier-6.html">下一页</a><a href="research-frontier-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

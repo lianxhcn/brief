@@ -76,7 +76,7 @@ def main() -> int:
     parser.add_argument("--mode", choices=("daily", "conference"), required=True)
     parser.add_argument("--ledger", type=Path)
     args = parser.parse_args()
-    raise RuntimeError("A-02 frozen：旧生产入口已停用；请使用 isolated_trial.py 的显式外部快照入口。")
+    raise RuntimeError("旧 CLI 已退役；每日发布已获授权。请使用 editorial_desk.py plan；新 build 在连续试运行通过后接入，不能绕过编辑审核。")
 
 
 

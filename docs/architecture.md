@@ -53,3 +53,7 @@ R-05 [HARD]：公开历史集合的可发布事实保存在 `content/history/`�
 公开期次名称由 site_config.issue_title(date) 统一生成。标签链接由 website_tags 统一编码，复用 Quarto 的 q 与 show-results 参数打开全站搜索，不维护第二套搜索索引。
 
 R-06 [HARD]：论文先经过来源轮查、候选比较、发表状态核验，再进入 core/extended 分配。config/paper-policy.json 是 C-23 的机器可读映射，不另立名单。paper_review 保存逐刊与工作论文系列检查、例外和集中度说明；候选完整证据留 ops-local。paper_policy 校验接入网站与短版共享的 editorial 检查。旧日期历史记录保留，不能声称通过新增覆盖标准。来源配置和校验不等于自动采集器已经完成，真实抓取结果须逐轮验证。
+
+## 4. R-07：跨日编辑记录
+
+R-07 [HARD]：扩展现有 source-registry 的 editorial_sources 作为检查身份，paper-policy 保留期刊范围映射。私有 ops-local/editorial/events 保存检查、候选决策及发布事件，state.json 为可重建视图。runs 保留原始证据和每日计划；正式期次和发布证据用于迁移，不补造缺失覆盖或微信送达。统一入口为 scripts/editorial_desk.py；旧按日准备脚本只作历史证据，不再作为新生产的长期依赖。历史来源迁移不等于重新联网核验。

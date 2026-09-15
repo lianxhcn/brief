@@ -1,0 +1,25 @@
+📙 连享会 · 快讯 | 2026.09.15
+
+📰 01｜论文 · AER：预测规则公开后，如何应对策略性操纵？
+将人们对预测规则的策略性反应纳入模型设计。肯尼亚现场实验显示，调整后的线性规则在可操纵环境下优于线性 LASSO；适合思考预测模型上线后的行为反馈。
+引文：Björkegren, Blumenstock & Knight (2026). Manipulation-Robust Prediction. AER, 116(9): 3263–3293.
+主页： https://www.aeaweb.org/articles?id=10.1257/aer.20241087 
+
+📰 02｜论文 · Review of Economic Studies：最低工资只调整部分年龄，为什么其他员工也会加薪？
+利用英国按年龄调整最低工资的改革，研究企业内部工资溢出。适合思考政策处理组与对照组的划分，以及薪酬公平规范。
+引文：Giupponi & Machin (2026). Company Wage Policy in a Low-Wage Labor Market. Review of Economic Studies.
+主页： https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453 
+PDF (出版社公开录用稿)： https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag102/71031407/rdag102.pdf 
+
+📦 03｜软件 · R：badp：动态面板模型平均更新了结果接口
+动态面板贝叶斯模型平均工具。0.7.0 调整 best_models() 结果接口和单模型推断，旧脚本升级前需检查参数及结果提取方式。
+版本：R / badp 0.7.0；发布：2026-09-15
+CRAN： https://cran.r-project.org/web/packages/badp/index.html 
+
+📦 04｜软件 · R：resultcheck：检查模型结果是否随代码修改而改变
+保存并比较模型、表格等 R 输出快照。0.3.1 减少引号和打印截断设置引起的假差异；快照稳定不等于统计方法正确。
+版本：R / resultcheck 0.3.1；发布：2026-09-15
+CRAN： https://cran.r-project.org/web/packages/resultcheck/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260915/ 
