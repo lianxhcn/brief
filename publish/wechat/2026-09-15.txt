@@ -1,0 +1,25 @@
+📙 连享会 · 快讯 | 2026.09.15
+
+📰 01｜论文 · Management Science：复杂供应链网络中，安全库存应放在哪里？
+用线性规划研究复杂供应链中的安全库存配置，利用网络结构降低求解难度。适合库存优化与运筹研究，结论受模型和网络结构约束。
+引文：Blaettchen et al. (2026). From Trees to Treewidth: Inventory Management in Complex Supply Chain Networks. Management Science.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2025.03155 
+
+📰 02｜论文 · Review of Economic Studies：最低工资只调整部分年龄，为什么其他员工也会加薪？
+利用英国按年龄调整最低工资的改革，研究企业内部工资溢出。适合思考政策处理组与对照组的划分，以及薪酬公平规范。
+引文：Giupponi & Machin (2026). CompanyWage Policy in a Low-Wage Labor Market. Review of Economic Studies.
+主页： https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag102/8790453 
+PDF (出版社公开录用稿)： https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag102/71031407/rdag102.pdf 
+
+📰 03｜论文 · Review of Economic Studies：消费者囤货与企业涨价，如何共同塑造供应短缺？
+用动态模型分析供应中断时消费者囤货与企业涨价的相互作用，并比较储备等政策。适合研究库存、市场势力和供应链风险。
+引文：Green, Mevorach & Taylor (2026). Stockups, Stockouts, and the Role for Strategic Reserves. Review of Economic Studies.
+主页： https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag101/8790272 
+
+📰 04｜论文 · The Accounting Review：ETF 资金流入是否伴随成分股估值偏离？
+结合 ETF 资金流、股价反转及会计估值指标，分析被动投资需求与估值偏离。可借鉴多类证据相互检验的研究设计。
+引文：Zou (2026). Exchange-Traded Fund Flows and Valuation. The Accounting Review.
+主页： https://publications.aaahq.org/accounting-review/article/doi/10.2308/TAR-2023-0303/28063/Exchange-Traded-Fund-Flows-and-Valuation 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260915/ 

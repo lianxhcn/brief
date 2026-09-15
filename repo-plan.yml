@@ -1,12 +1,12 @@
 {
-  "project_title": "连享会 · 快讯：2026 年 9 月 14 日每日发布",
+  "project_title": "连享会 · 快讯：2026 年 9 月 15 日每日发布",
   "repository_mode": "single",
   "recommendation": "single",
   "decision_reason": "沿用独立网站、版本和维护周期，score=4；不新建仓库",
   "confidence": "high",
   "local_root": "G:/codex_project/github_lianxh",
   "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "9 月 14 日期次、微信群短稿、读者摘要及自动生成的首页、归档和分类索引；私有检索资料不提交",
+  "work_scope": "9 月 15 日期次、微信群短稿、读者摘要及自动生成的首页、归档和分类索引；私有检索资料不提交",
   "repository_name": "brief",
   "remote_owner": "lianxhcn",
   "remote_url": "https://github.com/lianxhcn/brief.git",
@@ -30,13 +30,13 @@
     "push": true,
     "deploy": true,
     "source": "D-20260908-06 每日发布授权；本次每日自动任务",
-    "validity": "2026-09-14 当期发布"
+    "validity": "2026-09-15 当期发布"
   },
   "files": [
-    "content/issues/2026-09-14.json",
-    "publish/wechat/2026-09-14.txt",
+    "content/issues/2026-09-15.json",
+    "publish/wechat/2026-09-15.txt",
     "config/website-content.json",
-    "issues/20260914/index.qmd",
+    "issues/20260915/index.qmd",
     "index.qmd",
     "archive.qmd",
     "repo-plan.yml",
@@ -55,6 +55,7 @@
     "topics/research-frontier-6.qmd",
     "topics/research-frontier-7.qmd",
     "topics/research-frontier-8.qmd",
+    "topics/research-frontier-9.qmd",
     "topics/research-frontier.qmd"
   ]
 }
