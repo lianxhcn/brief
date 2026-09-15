@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.09.16"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 企业减税的收益，如何在企业与员工之间分配？ {#paper-aer-20240404}
+
+<p class="myapa">Kennedy, P. J., Dobridge, C. L., Landefeld, P., &amp; Mortenson, J. (2026). Corporate Tax Cuts, Firm Growth, and Workers&#x27; Earnings. American Economic Review, 116(9), 3380-3422. <a href="https://doi.org/10.1257/aer.20240404" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Corporate%20Tax%20Cuts%2C%20Firm%20Growth%2C%20and%20Workers%27%20Earnings" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用美国雇主—雇员匹配税务记录，比较同行业、规模相近但因原有法律组织形式而面临不同税负变化的企业。研究报告减税后投资、销售、就业与工资总额增加，员工收入增长更多集中于高薪群体。可借鉴以制度差异构造事件研究的思路；平均工资变化与不同员工的收益分配需要分开考察。
+
+标签：<a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%A8%8E%E6%94%B6&amp;show-results=1" title="全站搜索：企业税收">企业税收</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E6%94%B6%E5%85%A5%E5%88%86%E9%85%8D&amp;show-results=1" title="全站搜索：收入分配">收入分配</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### ESG 评级分歧大，是否意味着信息质量差？ {#paper-jofi-70078}
+
+<p class="myapa">Azarmsa, E. &amp; Shapiro, J. (2026). The Market for ESG Ratings. Journal of Finance. <a href="https://doi.org/10.1111/jofi.70078" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Market%20for%20ESG%20Ratings" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立 ESG 评级机构竞争模型，比较专注单一维度与同时覆盖多个维度的信息生产。模型中，专业分工能够提高信息量，却也可能带来更大的评级分歧；投资者需求与企业漂绿会改变评级机构的选择。这提醒实证研究者：评级分歧未必能直接衡量信息质量或社会福利，解释指标时需要对应其形成机制。
+
+标签：<a class="tag-link" href="?q=ESG%20%E8%AF%84%E7%BA%A7&amp;show-results=1" title="全站搜索：ESG 评级">ESG 评级</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%94%9F%E4%BA%A7&amp;show-results=1" title="全站搜索：信息生产">信息生产</a> · <a class="tag-link" href="?q=%E7%AB%9E%E4%BA%89%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：竞争模型">竞争模型</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 再随机化实验：协变量平衡该用哪种距离？ {#paper-01621459-2026-2702652}
+
+<p class="myapa">Schindl, K. &amp; Branson, Z. (2026). A Unified Framework for Rerandomization using Quadratic Forms. Journal of the American Statistical Association. <a href="https://doi.org/10.1080/01621459.2026.2702652" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2403.12815.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=A%20Unified%20Framework%20for%20Rerandomization%20using%20Quadratic%20Forms" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文用二次型统一讨论再随机化实验中的协变量平衡准则，比较马氏距离、欧氏距离及其他权重选择。协变量的特征结构及其与结果的关系，会影响处理效应均值差估计量的精度。作者给出理论分析、模拟和应用，帮助研究者在实验设计阶段选择平衡指标；不能将一种距离视为所有场景的最优选择。
+
+标签：<a class="tag-link" href="?q=%E5%86%8D%E9%9A%8F%E6%9C%BA%E5%8C%96&amp;show-results=1" title="全站搜索：再随机化">再随机化</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-16</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### hdcce：高维面板中的共同相关效应估计 {#r-hdcce-20260915}
+
+hdcce 面向具有交互固定效应的高维面板，提供线性共同相关效应估计及非线性字典扩展。它将共同因子处理与高维变量选择结合，适合讨论横截面相关、潜在共同冲击和稀疏性假设。安装命令为 <code>install.packages(&quot;hdcce&quot;)</code>。这是 0.1.0 首版，应用时应对照官方说明核对模型假设和推断条件。
+
+标签：<a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：高维面板">高维面板</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-16</small>
+
+<a href="https://cran.r-project.org/web/packages/hdcce/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### mvardlurt_multivariate：多变量 ARDL 单位根检验 {#stata-mvardlurt-multivariate-20260909}
+
+该命令实现多变量 ARDL 单位根检验，将协变量的滞后水平及差分项纳入检验框架，提供不同确定性项设定、滞后阶数选择和 bootstrap 临界值。安装命令为 <code>ssc install mvardlurt_multivariate</code>。引入协变量的价值依赖模型和协整条件，不能仅凭加入更多变量就认定检验更可靠。
+
+标签：<a class="tag-link" href="?q=%E5%8D%95%E4%BD%8D%E6%A0%B9%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：单位根检验">单位根检验</a> · <a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>
+
+<small>来源日期：2026-09-09；补录：2026-09-16</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459887.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 研究企业投资时，如何更接近资本的边际价值？ {#paper-jofi-70074}
+
+<p class="myapa">Gala, V. D., Gomes, J. F., &amp; Liu, T. (2026). Marginal Q. Journal of Finance. <a href="https://doi.org/10.1111/jofi.70074" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Marginal%20Q" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文结合资产价格与企业基本面估计资本的边际 q，并通过线性回归修正平均 Tobin Q 的测量误差。研究将估计结果用于分析投资对基本面的敏感性及调整成本，也讨论市场势力和无形资本造成的两类 q 的差异。对公司金融实证的启发是：常用代理变量与理论目标参数之间的距离，需要专门检验。
+
+标签：<a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%20q&amp;show-results=1" title="全站搜索：边际 q">边际 q</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：企业投资">企业投资</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a>
+
+<small>来源日期：2026-08-19；补录：2026-09-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 共同灾害冲击下，消费支出还能检验风险分担吗？ {#paper-aer-20240664}
+
+<p class="myapa">Ligon, E. (2026). Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda. American Economic Review, 116(9), 3294-3329. <a href="https://doi.org/10.1257/aer.20240664" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Risk-Sharing%20Tests%20and%20Covariate%20Shocks%3A%20Drought%2C%20Floods%2C%20and%20Pests%20in%20Uganda" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+传统风险分担检验常从总支出推断边际效用，但共同冲击可能同时改变价格，使这一步推断失效。论文刻画允许从支出恢复边际效用的偏好条件，并用乌干达的干旱、洪水与虫害进行应用。适合研究家庭消费和风险分担，也提醒读者区分只改变个体预算的冲击与改变共同价格的冲击。
+
+标签：<a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%88%86%E6%8B%85&amp;show-results=1" title="全站搜索：风险分担">风险分担</a> · <a class="tag-link" href="?q=%E5%85%B1%E5%90%8C%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：共同冲击">共同冲击</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E6%B6%88%E8%B4%B9&amp;show-results=1" title="全站搜索：家庭消费">家庭消费</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 公交网络设计如何权衡覆盖范围与发车频率？ {#paper-aer-20230768}
+
+<p class="myapa">Kreindler, G., Gaduh, A., Graff, T., Hanna, R., &amp; Olken, B. A. (2026). Optimal Public Transportation Networks: Evidence from the World&#x27;s Largest Bus Rapid Transit System in Jakarta. American Economic Review, 116(9), 3330-3379. <a href="https://doi.org/10.1257/aer.20230768" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Optimal%20Public%20Transportation%20Networks%3A%20Evidence%20from%20the%20World%27s%20Largest%20Bus%20Rapid%20Transit%20System%20in%20Jakarta" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文以雅加达快速公交系统为背景，利用线路扩展事件估计交通需求模型，区分等待时间、车上时间与直达服务的价值，再比较不同网络设计。研究展示了如何将准实验变化与结构模型结合，用于覆盖范围和班次频率的反事实分析。模型中的出行偏好与运营约束，会影响最优方案能否推广到其他城市。
+
+标签：<a class="tag-link" href="?q=%E4%BA%A4%E9%80%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：交通网络">交通网络</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：反事实分析">反事实分析</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 代理 SVAR：结合非高斯冲击与外部工具变量 {#arxiv-2609-14398}
+
+<p class="myapa">Junare, P. S. (2026). Identification and Inference in proxy-SVARs with non-Gaussian shocks. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.14398" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.14398.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Identification%20and%20Inference%20in%20proxy-SVARs%20with%20non-Gaussian%20shocks" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文在 GMM 框架中结合外部工具变量的排除约束与结构冲击的高阶矩条件，研究弱工具情形下的识别和推断。作者还讨论工具外生性的局部偏离，并给出模拟及宏观冲击应用。方法依赖相应秩条件与高阶矩条件，非高斯信息不能自动弥补任意无效工具变量。
+
+标签：<a class="tag-link" href="?q=%E4%BB%A3%E7%90%86%20SVAR&amp;show-results=1" title="全站搜索：代理 SVAR">代理 SVAR</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：弱工具变量">弱工具变量</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a>
+
+<small>来源日期：2026-09-13；补录：2026-09-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 网络中的共同朋友：同质性还是传递偏好？ {#arxiv-2609-14049}
+
+<p class="myapa">Dano, K., Graham, B. S., &amp; Sbai Sassi, Y. (2026). Homophily and transitivity in dynamic network formation. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.14049" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.14049.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Homophily%20and%20transitivity%20in%20dynamic%20network%20formation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文研究动态网络中两种容易混淆的机制：相似个体彼此连接，以及个体偏好与共同朋友相连。模型允许配对层面的时间不变异质性，并讨论如何从连接的形成、维持和解除中识别传递偏好。作者构造估计量并分析单个大型网络中的信息积累，适合关注网络形成与不可观察异质性的读者。
+
+标签：<a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：动态网络">动态网络</a> · <a class="tag-link" href="?q=%E5%90%8C%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：同质性">同质性</a> · <a class="tag-link" href="?q=%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：参数识别">参数识别</a>
+
+<small>来源日期：2026-09-12；补录：2026-09-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 城市低排放区：范围和实施节奏应怎样设计？ {#cepr-dp21931}
+
+<p class="myapa">Barahona, N., Fabra, N., Imelda, &amp; Montero, J. P. (2026). Designing Low Emission Zones: Theory and Evidence. CEPR. <a href="https://cepr.org/publications/dp21931" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Designing%20Low%20Emission%20Zones%3A%20Theory%20and%20Evidence" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文将低排放区视为限制车辆通行的数量型政策，研究区域大小、过渡技术豁免和政策承诺之间的关系。作者结合马德里新车价格与购买数据，比较排放改善与原有车主承担的福利损失。可借鉴将理论机制和实际政策设计结合的思路；模型中的福利比较不应直接外推到所有城市。
+
+标签：<a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：环境政策">环境政策</a> · <a class="tag-link" href="?q=%E5%9F%8E%E5%B8%82%E4%BA%A4%E9%80%9A&amp;show-results=1" title="全站搜索：城市交通">城市交通</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a>
+
+<small>来源日期：2026-09-13；补录：2026-09-16</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### ardldml：高维控制变量下的 ARDL 边界检验 {#r-ardldml-20260915}
+
+ardldml 将双重机器学习思路用于带高维控制变量的 ARDL 边界检验，提供时间序列交叉拟合、趋势吸收诊断和受限联合 wild bootstrap。它特别关注残差化改变零假设分布的情形，提醒使用者不能直接沿用经典临界值。安装命令为 <code>install.packages(&quot;ardldml&quot;)</code>。首版工具仍应结合原方法论文和模拟结果审慎评估。
+
+标签：<a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-16</small>
+
+<a href="https://cran.r-project.org/web/packages/ardldml/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

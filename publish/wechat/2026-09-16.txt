@@ -1,0 +1,30 @@
+📙 连享会 · 快讯 | 2026.09.16
+
+📰 01｜论文 · AER：企业减税的收益，如何在企业与员工之间分配？
+利用企业法律组织形式带来的税负差异和匹配税务记录，研究减税后的企业增长与员工收入分配。适合关注税收政策、事件研究和分配效应的读者。
+引文：Kennedy et al. (2026). Corporate Tax Cuts, Firm Growth, and Workers' Earnings. AER, 116(9): 3380-3422.
+主页： https://www.aeaweb.org/articles?id=10.1257/aer.20240404 
+
+📰 02｜论文 · Journal of Finance：ESG 评级分歧大，是否意味着信息质量差？
+理论模型比较 ESG 评级机构的专业分工与综合评级，说明评级分歧和信息质量可能并非简单的负向关系。适合反思 ESG 分歧指标的经济含义。
+引文：Azarmsa & Shapiro (2026). The Market for ESG Ratings. Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70078 
+
+📰 03｜论文 · Journal of the American Statistical Association：再随机化实验：协变量平衡该用哪种距离？
+用统一框架比较再随机化实验的协变量平衡指标，说明距离选择怎样影响处理效应估计精度。适合设计随机实验和 A/B 测试。
+引文：Schindl & Branson (2026). A Unified Framework for Rerandomization using Quadratic Forms. Journal of the American Statistical Association.
+主页： https://doi.org/10.1080/01621459.2026.2702652 
+PDF (作者预印本 v3，非期刊排版版)： https://arxiv.org/pdf/2403.12815.pdf 
+
+📦 04｜软件 · R：hdcce：高维面板中的共同相关效应估计
+面向具有交互固定效应的高维面板，结合共同因子处理与变量选择。适合研究横截面相关和高维控制变量，使用前需核对模型及推断条件。
+版本：R / hdcce 0.1.0；发布：2026-09-15
+CRAN： https://cran.r-project.org/web/packages/hdcce/index.html 
+
+📦 05｜命令 · Stata：mvardlurt_multivariate：多变量 ARDL 单位根检验
+在单位根检验中纳入协变量，提供滞后阶数选择与 bootstrap 临界值。适合时间序列研究，需留意确定性项、协整关系和模型设定。
+版本：Stata / mvardlurt_multivariate 1.0.0；发布：2026-09-09
+主页： https://ideas.repec.org/c/boc/bocode/s459887.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260916/ 
