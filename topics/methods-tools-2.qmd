@@ -8,9 +8,30 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 16 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 19 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>texpdf：在 Stata 中直接编译 LaTeX 报告</h3>
+<p class="catalog-meta">期次日期：2026-09-13</p>
+<p>texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件中，把完整 LaTeX 文档编译为 PDF。安装命令为 <code>ssc install texpdf</code>，基本调用为 <code>texpdf using report.tex</code>。官方帮助说明在 Stata 18/19 下测试；编译时无需系统 TeX 或联网，但可用资源受内置包范围限制，不应假定任意中文模板都兼容。本期核验帮助文档，未做本地运行测试。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90&amp;show-results=1" title="全站搜索：报告生成">报告生成</a> · <a class="tag-link" href="?q=LaTeX&amp;show-results=1" title="全站搜索：LaTeX">LaTeX</a> · <a class="tag-link" href="?q=PDF&amp;show-results=1" title="全站搜索：PDF">PDF</a></p>
+<p class="catalog-actions"><a href="../issues/20260913/#stata-texpdf-20260829">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459880.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>emlink：没有共同 ID 时，怎样做概率数据连接？</h3>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>emlink 用 Fellegi–Sunter 模型和无监督 EM，将缺少可靠共同标识的两份数据做概率连接，并区分自动匹配、人工复核和不匹配。安装命令为 <code>ssc install emlink</code>。使用前必须对两份数据采用一致的字符串清洗规则；分块键能减少比较量，也可能漏掉真实匹配，不能直接把输出概率当作已核实身份。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%BF%9E%E6%8E%A5&amp;show-results=1" title="全站搜索：数据连接">数据连接</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：概率匹配">概率匹配</a> · <a class="tag-link" href="?q=EM%E7%AE%97%E6%B3%95&amp;show-results=1" title="全站搜索：EM算法">EM算法</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#stata-emlink-20260909">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459885.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>rtablabs：给回归结果数据集补上变量标签</h3>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>rtablabs 为转置后的 r(table) 经 xsvmat 转成的结果数据集添加数值变量标签，便于识别系数、标准误、区间和 p 值。安装命令为 <code>ssc install rtablabs</code>。它适合批量整理回归结果，需先按帮助示例生成对应结果数据集；标签处理不改变估计量，也不替代统计推断。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：回归结果">回归结果</a> · <a class="tag-link" href="?q=%E5%8F%98%E9%87%8F%E6%A0%87%E7%AD%BE&amp;show-results=1" title="全站搜索：变量标签">变量标签</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86&amp;show-results=1" title="全站搜索：数据整理">数据整理</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#stata-rtablabs-20260909">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459884.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>parqit：先在磁盘整理大数据，再读入 Stata</h3>
 <p class="catalog-meta">期次日期：2026-09-10</p>
@@ -55,6 +76,6 @@ title: "新方法 · 第 2 页"
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 16 条</span></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 2 页 · 共 19 条</span></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.17
+
+📰 01｜论文 · AER：机制设计需要收集多少私人信息？
+研究动态询问如何在实施配置规则的同时减少多余的信息泄露，并以拍卖说明询问顺序的作用。适合关注机制设计、数据收集与隐私保护的读者。
+引文：Haupt & Hitzig (2026). Contextually Private Mechanisms. AER, 116(9): 3223-3262.
+主页： https://www.aeaweb.org/articles?id=10.1257/aer.20240579 
+
+📰 02｜论文 · Journal of Finance：简化破产程序能帮助小企业存续吗？
+研究美国小企业破产程序改革，结合重组、存续与债权人回收考察制度效果。可借鉴同时评估企业与债权人结果的思路。
+引文：Hotchkiss, Iverson & Zheng (2026). Can Small Businesses Survive Chapter 11?. Journal of Finance.
+主页： https://onlinelibrary.wiley.com/doi/10.1111/jofi.70076 
+
+📦 03｜软件 · R：estimatr 2.0.0：稳健估计接口与固定效应更新
+新版重写稳健估计实现并更新固定效应处理；部分接口有不兼容变化。Windows 二进制暂未同步至 2.0.0，升级前应检查版本与旧脚本。
+版本：R / estimatr 2.0.0；发布：2026-09-16
+CRAN： https://cran.r-project.org/web/packages/estimatr/index.html 
+
+📅 04｜会议征稿：清华地区研究论坛：摘要投稿 9 月 28 日截止
+11 月 28–29 日在北京清华园举行，涉及全球产业链、区域经济治理与发展转型。9 月 28 日截止摘要及申请，接受个人或整组提交；不收会务费，交通住宿自理。
+截止：2026-09-28
+通知： https://iias.tsinghua.edu.cn/info/1630/4479.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260917/ 

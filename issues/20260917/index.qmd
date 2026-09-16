@@ -1,0 +1,209 @@
+---
+title: "连享会 · 快讯 | 2026.09.17"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 机制设计需要收集多少私人信息？ {#paper-aer-20240579}
+
+<p class="myapa">Haupt, A. &amp; Hitzig, Z. (2026). Contextually Private Mechanisms. American Economic Review, 116(9), 3223-3262. <a href="https://doi.org/10.1257/aer.20240579" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Contextually%20Private%20Mechanisms" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究在实施既定配置规则时，动态询问协议会额外泄露哪些信息，并据此定义情境隐私。作者说明，询问的先后顺序和最初问题会影响隐私损失，并分析多物品 Vickrey 拍卖中的协议设计。适合将信息收集成本与机制设计结合阅读；文中的隐私标准有特定定义，不能直接等同于匿名化或差分隐私。
+
+标签：<a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a> · <a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 简化破产程序能帮助小企业存续吗？ {#paper-jofi-70076}
+
+<p class="myapa">Hotchkiss, E., Iverson, B., &amp; Zheng, X. (2026). Can Small Businesses Survive Chapter 11? Journal of Finance. <a href="https://doi.org/10.1111/jofi.70076" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Can%20Small%20Businesses%20Survive%20Chapter%2011%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文考察美国 Chapter 11 中面向小企业的 Subchapter V 程序：降低破产成本和谈判摩擦，并允许创业者保留所有权。作者报告，更多企业得以重组，其债权人回收和破产后存续表现并不低于传统程序。研究提示，应同时考察重组数量、企业后续表现与债权人收益，不能仅凭重组增加就认定低效率企业被保留。
+
+标签：<a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%A0%B4%E4%BA%A7&amp;show-results=1" title="全站搜索：企业破产">企业破产</a> · <a class="tag-link" href="?q=%E5%80%BA%E6%9D%83%E4%BA%BA%E5%9B%9E%E6%94%B6&amp;show-results=1" title="全站搜索：债权人回收">债权人回收</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：公司金融">公司金融</a>
+
+<small>来源日期：2026-08-19；补录：2026-09-17</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### estimatr 2.0.0：稳健估计接口与固定效应更新 {#r-estimatr-20260916}
+
+estimatr 2.0.0 重写了线性回归、工具变量及实验估计的实现，固定效应改用交替投影吸收。Horvitz–Thompson 接口改用 <code>condition_prs</code>，需要检查旧脚本兼容性。安装命令为 <code>install.packages(&quot;estimatr&quot;)</code>；截至核验时 CRAN 的 Windows 二进制仍为 1.0.6，安装后应以 <code>packageVersion(&quot;estimatr&quot;)</code> 确认版本。需要源码安装时请先核对编译环境。
+
+标签：<a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：稳健标准误">稳健标准误</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-17</small>
+
+<a href="https://cran.r-project.org/web/packages/estimatr/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 清华地区研究论坛：摘要投稿 9 月 28 日截止 {#conference-tsinghua-area-2026}
+
+**投稿截止：2026-09-28**
+
+会议：2026-11-28 至 2026-11-29 · 中国北京，清华园
+
+费用：不收取会务费；交通、住宿自理，受邀学者会议期间部分餐饮由主办方提供。
+
+第五届清华地区研究论坛将于 11 月 28–29 日在北京清华园举行，接受个人投稿和整组申请。议题包括全球产业链重构、区域经济治理、发展转型与区域合作。摘要及申请截止为 9 月 28 日，入选后全文截止为 11 月 9 日。论坛不收取会务费，交通和住宿自理；适合具有国别材料、区域比较或田野研究基础的经管读者。
+
+标签：<a class="tag-link" href="?q=%E5%8C%BA%E5%9F%9F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：区域经济">区域经济</a> · <a class="tag-link" href="?q=%E4%BA%A7%E4%B8%9A%E9%93%BE&amp;show-results=1" title="全站搜索：产业链">产业链</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<a href="https://iias.tsinghua.edu.cn/info/1630/4479.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 小滞后差分与长期方差估计怎样配合？ {#paper-asag052}
+
+<p class="myapa">Wang, Y. &amp; Chan, K. W. (2026). Tight differencing in spectral density estimation with centrosymmetric kernels. Biometrika. <a href="https://doi.org/10.1093/biomet/asag052" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Tight%20differencing%20in%20spectral%20density%20estimation%20with%20centrosymmetric%20kernels" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+差分可以减弱趋势干扰，但小滞后差分也会引入较强相关性，影响核平滑估计的高阶性质。论文提出与这类差分配合的中心对称核，并讨论序列相关数据下的最优差分序列。方法无需先拟合趋势，应用涉及平稳性和白噪声检验；读者可重点关注去趋势与方差估计之间的兼容条件。
+
+标签：<a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%96%B9%E5%B7%AE&amp;show-results=1" title="全站搜索：长期方差">长期方差</a> · <a class="tag-link" href="?q=%E8%B0%B1%E5%AF%86%E5%BA%A6&amp;show-results=1" title="全站搜索：谱密度">谱密度</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a>
+
+<small>来源日期：2026-08-20；补录：2026-09-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 招聘筛选能力为何会维持企业差距？ {#paper-rdag091}
+
+<p class="myapa">Board, S., Meyer-Ter-Vehn, M., &amp; Sadzik, T. (2026). Recruiting Talent. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag091" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Recruiting%20Talent" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立企业私下筛选人才的竞争性劳动市场模型。在人才稀缺时，筛选能力较强的企业支付更高工资、吸引更好的申请者，也改变其他企业面对的申请者构成。动态模型进一步讨论人才推荐如何使招聘能力、利润和人才差异持续存在。这是解释工资与生产率分散的理论机制，不能直接当作某项招聘政策的实证效果。
+
+标签：<a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E4%BA%BA%E6%89%8D%E6%8B%9B%E8%81%98&amp;show-results=1" title="全站搜索：人才招聘">人才招聘</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a>
+
+<small>来源日期：2026-08-22；补录：2026-09-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 企业所得税中的债务优惠有何环境影响？ {#paper-aer-20241765}
+
+<p class="myapa">Iovino, L., Martin, T., &amp; Sauvagnat, J. (2026). The Environmental Bias of Corporate Income Taxation. American Economic Review, 116(9), 3510-3551. <a href="https://doi.org/10.1257/aer.20241765" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Environmental%20Bias%20of%20Corporate%20Income%20Taxation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文考察美国企业所得税与碳排放的关系，报告高排放企业更多受益于债务税收优惠，并比较不同企业在税率变化后的扩张。作者结合多部门一般均衡模型评估改革，讨论取消债务税收优势可能怎样影响排放和产出。适合研究税收、资本结构与环境政策的读者；政策反事实依赖模型设定。
+
+标签：<a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%A8%8E%E6%94%B6&amp;show-results=1" title="全站搜索：企业税收">企业税收</a> · <a class="tag-link" href="?q=%E7%A2%B3%E6%8E%92%E6%94%BE&amp;show-results=1" title="全站搜索：碳排放">碳排放</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 自适应实验中如何借用经验贝叶斯信息？ {#arxiv-2609-17158}
+
+<p class="myapa">Adusumilli, K., Gu, J., &amp; Tao, J. (2026). Empirical Bayes for compound adaptive experiments. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.17158" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.17158.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Empirical%20Bayes%20for%20compound%20adaptive%20experiments" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文研究多项自适应实验之间如何共享信息。在正态均值框架中，作者比较估计先验分布的 g-modeling 与依赖观测密度的 f-modeling，讨论自适应抽样及内生样本量对二者的影响。研究提示，直接套用非自适应样本下的经验贝叶斯校正可能产生偏差；方法的有效性仍依赖其模型与抽样条件。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a> · <a class="tag-link" href="?q=%E8%87%AA%E9%80%82%E5%BA%94%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：自适应实验">自适应实验</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 配对数据的 Wald 推断一定要先知道收敛速度吗？ {#arxiv-2609-16968}
+
+<p class="myapa">Harrison, B. O. &amp; Jacho-Chavez, D. T. (2026). Rate-Agnostic Wald Inference for Dyadic Regressions. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.16968" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.16968.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Rate-Agnostic%20Wald%20Inference%20for%20Dyadic%20Regressions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文讨论贸易流量、重复配对及多层网络等数据中的 OLS 推断，提出不必先估计收敛速度的 Wald 推断框架，并使用删除单个单位的 jackknife 构造半正定方差估计。结果需要对依赖的累积方式作出限制；论文同时讨论重复配对条件不满足时的保守性，不能理解为任意网络相关下都有效。
+
+标签：<a class="tag-link" href="?q=%E9%85%8D%E5%AF%B9%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：配对数据">配对数据</a> · <a class="tag-link" href="?q=Wald%20%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：Wald 检验">Wald 检验</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：稳健推断">稳健推断</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 战争结束后，经济为何仍可能恢复缓慢？ {#imf-wp-2026-189}
+
+<p class="myapa">Balima, H. W., Ladreit, C., Lagerborg, A. H., Moreau, F., Presbitero, A. F., &amp; Weaver, E. (2026). Macroeconomics of War and Recovery. IMF Working Papers. <a href="https://doi.org/10.5089/9798229059015.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Macroeconomics%20of%20War%20and%20Recovery" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇 IMF 工作论文结合跨国历史资料与带地理信息的企业数据，研究战争冲击和战后恢复。作者采用局部投影与双重差分框架，讨论冲突对产出、外部部门和企业活动的影响，以及和平恢复后劳动力、资本和生产率的不同恢复轨迹。适合关注冲突、企业约束与宏观复苏的读者；不同战争的背景与识别条件仍需分别判断。
+
+标签：<a class="tag-link" href="?q=%E6%88%98%E4%BA%89%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：战争冲击">战争冲击</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%A4%8D%E8%8B%8F&amp;show-results=1" title="全站搜索：经济复苏">经济复苏</a>
+
+<small>来源日期：2026-09-04；补录：2026-09-17</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### statsmodels 0.15.0：GLM 边际效应与多变量回归 {#python-statsmodels-0150}
+
+statsmodels 0.15.0 增加 GLM 的 <code>get_margeff</code>、多变量线性回归 <code>MultivariateLS</code> 和 Leybourne 平稳性检验，并修复若干时间序列模型问题。可用 <code>pip install statsmodels==0.15.0</code> 安装指定版本。边际效应的计算仍取决于模型形式和变量设定，不能把接口新增等同于识别问题已经解决。
+
+标签：<a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%8F%98%E9%87%8F%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：多变量回归">多变量回归</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>
+
+<small>来源日期：2026-08-27；补录：2026-09-17</small>
+
+<a href="https://pypi.org/project/statsmodels/0.15.0/" target="_blank" rel="noopener noreferrer">PyPI</a>
+
+:::
+
+::: {.brief-entry}
+
+#### minvar：纵向测量不变性检验 {#stata-minvar-20260829}
+
+minvar 用于宽格式纵向数据的测量不变性分析，按构型、载荷、截距及可选残差约束逐步比较模型，并报告拟合指标及变化。安装命令为 <code>ssc install minvar</code>。命令采用效应编码识别因子，默认使用 mlmv 处理缺失值；在相应缺失数据设定下，SRMR 可能无法提供，阅读结果时应结合识别约束与缺失机制。
+
+标签：<a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E4%B8%8D%E5%8F%98%E6%80%A7&amp;show-results=1" title="全站搜索：测量不变性">测量不变性</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：结构方程">结构方程</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>
+
+<small>来源日期：2026-08-29；补录：2026-09-17</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459881.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
