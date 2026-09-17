@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.18
+
+📰 01｜论文 · AER：中学教育补贴的影响能延续到下一代吗？
+加纳中学奖学金随机实验的长期跟踪，将评估延伸到生育、伴侣选择和子女发展。可借鉴代际结果测量与长期政策评价思路。
+引文：Duflo et al. (2026). Intergenerational Impacts of Secondary Education: Experimental Evidence from Ghana. AER, 116(9): 3586-3621.
+主页： https://www.aeaweb.org/articles?id=10.1257/aer.20241001 
+
+📰 02｜论文 · Journal of Finance：退休风险管理产品为何缺少吸引力？
+结合住户调查实验与生命周期模型，研究年金、长期护理保险和反向抵押贷款需求。可借鉴偏好、家庭风险与信息摩擦的联合建模。
+引文：Michaud & St‐Amour (2026). Longevity, Health, and Housing Risk Management in Retirement. Journal of Finance.
+主页： https://onlinelibrary.wiley.com/doi/10.1111/jofi.70077 
+
+📦 03｜软件 · R：MatchIt 4.8.0：抽样权重如何进入匹配计算
+新版让抽样权重进入部分分层匹配方法的匹配权重计算，并加强输入检查。升级后应复查目标总体与平衡性；Windows 二进制暂未同步至 4.8.0。
+版本：R / MatchIt 4.8.0；发布：2026-09-17
+CRAN： https://cran.r-project.org/web/packages/MatchIt/index.html 
+
+📅 04｜会议征稿：苏州大学智能经济与管理研究生论坛：10 月 11 日截稿
+11 月 20–22 日在苏州大学举行，面向在读博士、硕士，研究生须为独立或第一作者；10 月 11 日截稿。无评审费及会务费，交通自理；入选作者的餐宿安排见通知。
+截止：2026-10-11
+通知： https://sxy.suda.edu.cn/d9/75/c13349a711029/page.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260918/ 

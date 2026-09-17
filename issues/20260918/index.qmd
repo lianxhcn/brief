@@ -1,0 +1,209 @@
+---
+title: "连享会 · 快讯 | 2026.09.18"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 中学教育补贴的影响能延续到下一代吗？ {#paper-aer-20241001}
+
+<p class="myapa">Duflo, E., Dupas, P., Spelke, E., &amp; Walsh, M. (2026). Intergenerational Impacts of Secondary Education: Experimental Evidence from Ghana. American Economic Review, 116(9), 3586-3621. <a href="https://doi.org/10.1257/aer.20241001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Intergenerational%20Impacts%20of%20Secondary%20Education%3A%20Experimental%20Evidence%20from%20Ghana" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用加纳中学奖学金随机实验的长期跟踪，考察教育补贴如何影响生育时点、伴侣选择及下一代健康和认知发展。作者将政策评价从受助者扩展到其子女，提示只观察短期入学或工资可能漏掉部分收益。适合学习长期实验跟踪与代际结果测量；成本收益结论仍依赖观察范围和长期估算假设。
+
+标签：<a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%A1%A5%E8%B4%B4&amp;show-results=1" title="全站搜索：教育补贴">教育补贴</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E4%BB%A3%E9%99%85%E5%BD%B1%E5%93%8D&amp;show-results=1" title="全站搜索：代际影响">代际影响</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 退休风险管理产品为何缺少吸引力？ {#paper-jofi-70077}
+
+<p class="myapa">Michaud, P. &amp; St‐Amour, P. (2026). Longevity, Health, and Housing Risk Management in Retirement. Journal of Finance. <a href="https://doi.org/10.1111/jofi.70077" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Longevity%2C%20Health%2C%20and%20Housing%20Risk%20Management%20in%20Retirement" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+年金、长期护理保险和反向抵押贷款分别对应长寿、健康与住房风险，但其需求可能低于模型的简单预期。论文结合加拿大住户陈述偏好调查实验和生命周期结构模型，考察风险偏好、失能状态估值、住房替代性、遗赠动机及信息摩擦。研究强调应把多种风险与家庭安排共同纳入，而非仅以金融知识不足解释低需求。
+
+标签：<a class="tag-link" href="?q=%E9%80%80%E4%BC%91%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：退休风险">退休风险</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：保险需求">保险需求</a>
+
+<small>来源日期：2026-08-25；补录：2026-09-18</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### MatchIt 4.8.0：抽样权重如何进入匹配计算 {#r-matchit-4-8-0}
+
+MatchIt 4.8.0 改变部分分层匹配方法对 <code>s.weights</code> 的处理：抽样权重现在参与匹配权重计算，使用 <code>add_s.weights()</code> 后也可能重算匹配权重。新版还调整基数匹配和外部数据传入的检查。安装命令为 <code>install.packages(&quot;MatchIt&quot;)</code>；截至核验时 Windows 二进制仍为 4.7.2，需确认实际安装版本。更新后应复查目标总体、平衡性及旧结果差异。
+
+标签：<a class="tag-link" href="?q=%E5%80%BE%E5%90%91%E5%BE%97%E5%88%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：倾向得分匹配">倾向得分匹配</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：抽样权重">抽样权重</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-17；补录：2026-09-18</small>
+
+<a href="https://cran.r-project.org/web/packages/MatchIt/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 苏州大学智能经济与管理研究生论坛：10 月 11 日截稿 {#conference-suda-smart-2026}
+
+**投稿截止：2026-10-11**
+
+会议：2026-11-20 至 2026-11-22 · 中国江苏苏州，苏州大学天赐庄校区
+
+费用：不收取评审费、会务费；交通自理；为入选论文第一作者或独立作者提供指定餐饮，安排外地研究生11月20、21日两晚住宿。
+
+第七届江苏省研究生智能经济与管理学术创新论坛将于 11 月 20–22 日在苏州大学天赐庄校区举行，面向经管相关领域在读博士、硕士研究生，要求研究生独立署名或为第一作者。投稿截止为 10 月 11 日，主题包括机器学习应用、金融科技、供应链和数字贸易。不收评审费及会务费，交通自理；符合条件的入选作者可获安排指定餐饮和两晚住宿，具体以通知为准。
+
+标签：<a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AE%BA%E5%9D%9B&amp;show-results=1" title="全站搜索：研究生论坛">研究生论坛</a> · <a class="tag-link" href="?q=%E6%99%BA%E8%83%BD%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：智能经济">智能经济</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<a href="https://sxy.suda.edu.cn/d9/75/c13349a711029/page.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 银行收紧高排放企业信贷会带来减排吗？ {#paper-hhag078}
+
+<p class="myapa">Kacperczyk, M. &amp; Peydró, J. L. (2026). Carbon Emissions and the Bank-Lending Channel. Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag078" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Carbon%20Emissions%20and%20the%20Bank-Lending%20Channel" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文结合全球企业银团贷款数据，以银行气候承诺和企业原有信贷关系研究融资供给变化。作者报告，高排放企业从作出承诺的银行获得的信贷减少，企业债务、规模与投资随之调整，但未观察到未来排放下降。研究提示，融资退出、实体活动收缩与环境改善应分别检验，不能直接把绿色金融承诺当作减排效果。
+
+标签：<a class="tag-link" href="?q=%E7%A2%B3%E6%8E%92%E6%94%BE&amp;show-results=1" title="全站搜索：碳排放">碳排放</a> · <a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：银行信贷">银行信贷</a> · <a class="tag-link" href="?q=%E7%BB%BF%E8%89%B2%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：绿色金融">绿色金融</a>
+
+<small>来源日期：2026-08-20；补录：2026-09-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 在线医疗如何利用医生差异改善匹配？ {#paper-aer-20240756}
+
+<p class="myapa">Dahlstrand, A. (2026). Defying Distance? The Provision of Medical Services in the Digital Age. American Economic Review, 116(9), 3464-3509. <a href="https://doi.org/10.1257/aer.20240756" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Defying%20Distance%3F%20The%20Provision%20of%20Medical%20Services%20in%20the%20Digital%20Age" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究瑞典在线医疗中患者与医生的匹配，利用全国性、给定时间条件下的随机分配，比较不同医生对不同患者的服务效果。作者讨论数字平台解除地理约束后如何通过重新匹配改善多种结果，同时考察效率与公平的关系。对平台经济读者而言，重点是区分服务者异质性、用户需求差异与匹配规则，而非只看平均服务质量。
+
+标签：<a class="tag-link" href="?q=%E6%9C%8D%E5%8A%A1%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：服务匹配">服务匹配</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%B9%B3%E5%8F%B0&amp;show-results=1" title="全站搜索：数字平台">数字平台</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%BA%90%E9%85%8D%E7%BD%AE&amp;show-results=1" title="全站搜索：资源配置">资源配置</a>
+
+<small>来源日期：2026-09-01；补录：2026-09-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 提供更准确信息一定能减少观点分歧吗？ {#paper-rdag095}
+
+<p class="myapa">Della Lena, S., Merlino, L. P., &amp; Zenou, Y. (2026). Affective Polarization, Media Outlets, and Opinion Dynamics. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag095" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Affective%20Polarization%2C%20Media%20Outlets%2C%20and%20Opinion%20Dynamics" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立包含两个群体和媒体来源的观点动态模型，允许个体认同本群体而排斥对立群体。作者分析情感极化与媒体偏差何时导致持续分歧、学习失败，以及信息干预何时可能适得其反。改善信息的作用取决于偏差结构及传播节点；这些是模型内的条件结论，不能直接解释为普遍适用的媒体干预方案。
+
+标签：<a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社会网络">社会网络</a> · <a class="tag-link" href="?q=%E8%A7%82%E7%82%B9%E6%9E%81%E5%8C%96&amp;show-results=1" title="全站搜索：观点极化">观点极化</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a>
+
+<small>来源日期：2026-08-24；补录：2026-09-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### DID 的敏感性分析为何不能只看前趋势？ {#arxiv-2609-19081}
+
+<p class="myapa">Leavitt, T. (2026). Beyond Pretrends: A Discordance-Based Sensitivity Analysis for Difference-in-Differences. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.19081" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.19081.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Beyond%20Pretrends%3A%20A%20Discordance-Based%20Sensitivity%20Analysis%20for%20Difference-in-Differences" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文比较以控制组处理后变化、处理组处理前变化等方式构造的反事实。如果这些推算明显不一致，即使前趋势看似平行，结论仍可能高度依赖平行趋势假设。作者提出基于推算差异的敏感性模型，并从决策理论解释其标定方式。它为审视 DID 假设增加一个角度，不能据此直接证明某项研究存在或不存在混杂。
+
+标签：<a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 工具变量可能有直接作用时怎样保留推断不确定性？ {#arxiv-2609-18150}
+
+<p class="myapa">Lee, J. H. (2026). Profiled Anderson--Rubin Test: Robust Inference Allowing for Direct Effects of Instruments. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.18150" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.18150.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Profiled%20Anderson--Rubin%20Test%3A%20Robust%20Inference%20Allowing%20for%20Direct%20Effects%20of%20Instruments" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文允许研究者为工具变量对结果的直接作用设定一个范围，在该范围内考察哪些候选效应仍与数据相容。提出的 profiled Anderson–Rubin 检验不依赖强工具变量条件，但仍需要维持抽样假设并解释直接作用范围的依据。适合同时担忧弱识别和排除限制的读者；更宽的置信集合反映信息不足，不宜强行缩成单点结论。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：弱工具变量">弱工具变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 矩阵状态空间模型如何处理高维宏观序列？ {#arxiv-2609-18734}
+
+<p class="myapa">Creal, D. D., Medeiros, M. C., &amp; Sarlo, R. (2026). Conditionally linear, matrix normal state space models. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.18734" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.18734.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Conditionally%20linear%2C%20matrix%20normal%20state%20space%20models" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文把状态与观测的矩阵结构保留在状态空间模型中，推导矩阵形式的 Kalman 滤波、似然与平滑，并给出潜在状态的贝叶斯抽样方法。框架可处理混合频率、异方差和异常值，应用于美国各州宏观时间序列。适合关注高维动态因子与宏观面板建模的读者；结构简化是否合适仍需结合具体数据判断。
+
+标签：<a class="tag-link" href="?q=%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：状态空间模型">状态空间模型</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：宏观面板">宏观面板</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：贝叶斯推断">贝叶斯推断</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-18</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### itdidbounds：处理时间只有区间时的 DID 对比 {#stata-itdidbounds-1-0-0}
+
+itdidbounds 枚举各单位可能的处理日期，计算单位和事件时点层面的变化对比最小值、最大值，再按固定正权重汇总。控制组须确定从未处理或最早可能处理时间晚于目标时点。安装命令为 <code>ssc install itdidbounds</code>。输出描述处理时间不确定性带来的对比范围，不能自动解释为因果效应界限或置信区间。
+
+标签：<a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%97%B6%E9%97%B4&amp;show-results=1" title="全站搜索：处理时间">处理时间</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-18</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459890.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+::: {.brief-entry}
+
+#### tinytable 0.19.0：修正 Quarto 分组表格格式处理 {#r-tinytable-0-19-0}
+
+tinytable 0.19.0 修正 <code>format_tt(quarto = TRUE)</code> 与行分组配合时产生多余 NA 行或格式套到错误单元格的问题，并将相关格式处理扩展到列名、标题、注释和分组标签。安装命令为 <code>install.packages(&quot;tinytable&quot;)</code>。使用 Quarto 输出分组回归表或描述统计表的读者，可重点检查更新前后的表格布局与数值对应关系。
+
+标签：<a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：研究报告">研究报告</a> · <a class="tag-link" href="?q=Quarto&amp;show-results=1" title="全站搜索：Quarto">Quarto</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-18</small>
+
+<a href="https://cran.r-project.org/web/packages/tinytable/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
