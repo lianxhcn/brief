@@ -8,9 +8,16 @@ title: "会议征稿"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 2 页 · 共 17 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 2 页 · 共 18 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>银行与金融中介论坛：10 月 16 日截稿</h3>
+<p class="catalog-meta">期次日期：2026-09-19</p>
+<p>第六届银行与金融中介论坛将于 11 月 28 日在北京召开，由对外经济贸易大学主办。征文涉及金融创新、银行支持科技创新、金融基础设施及金融安全等，接受尚未公开出版的中英文原创论文，PDF 投稿截止为 10 月 16 日。会议费为业界嘉宾 1000 元、教师 800 元、学生 600 元，交通及食宿自理；投稿要求与通知安排以官方页面为准。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C&amp;show-results=1" title="全站搜索：银行">银行</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：金融中介">金融中介</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
+<p class="catalog-actions"><a href="../issues/20260919/#conference-uibe-bank-2026">查看本期</a><a href="https://sbf.uibe.edu.cn/tzgg/c541bd104c72427b9fbf6d324072a39d.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>苏州大学智能经济与管理研究生论坛：10 月 11 日截稿</h3>
 <p class="catalog-meta">期次日期：2026-09-18</p>
@@ -74,15 +81,8 @@ title: "会议征稿"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
 <p class="catalog-actions"><a href="../issues/20260911/#conference-institutional-econ-2026">查看本期</a><a href="https://business.xtu.edu.cn/?ac=view&amp;cd=news&amp;id=202605190003" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>消费经济学会年会：9 月 30 日截稿</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>年会于 11 月 7 日在石家庄举行，围绕新需求、新供给与新循环征稿，涵盖服务消费、数字消费和促进消费的制度机制。投稿截止为 9 月 30 日，要求原创未发表论文，设研究生专场；优秀论文可推荐至支持期刊审稿。通知未明确费用，参会前应核对后续安排。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#conference-consumption-econ-2026">查看本期</a><a href="https://www.hueb.edu.cn/info/1067/33493.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 2 页 · 共 17 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 2 页 · 共 18 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

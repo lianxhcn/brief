@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.19
+
+📰 01｜论文 · QJE：越关注通胀，预期就越准确吗？
+结合德国家庭和企业面板，研究通胀关注度、信息获取与预期偏差的关系。可借鉴开放式预期测量和注意力指标设计。
+引文：Link et al. (2026). Attention to the Macroeconomy. QJE.
+主页： https://doi.org/10.1093/qje/qjag047 
+
+📰 02｜论文 · The Review of Financial Studies：企业的多项预测是否相互一致？
+利用企业经营计划调查，研究多项预测之间的内部一致性及其与误差、绩效和投资的关系。适合关注企业预期、财务预算与预测评价的读者。
+引文：Giustinelli & Rossi (2026). The Coherence Side of Rationality Theory and Evidence from Firm Plans. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag086 
+
+📦 03｜软件 · R：attrition：实验失访后的效应界限
+提供实验失访下的最坏情形、双重抽样和修剪界限。适合评估非随机缺失对结论的影响；追访设计与假设须分别核对。
+版本：R / attrition 1.0.0；发布：2026-09-18
+CRAN： https://cran.r-project.org/web/packages/attrition/index.html 
+
+📅 04｜会议征稿：银行与金融中介论坛：10 月 16 日截稿
+11 月 28 日在北京召开，接受银行与金融中介相关中英文原创论文，10 月 16 日截稿。会议费为业界1000元、教师800元、学生600元，交通及食宿自理。
+截止：2026-10-16
+通知： https://sbf.uibe.edu.cn/tzgg/c541bd104c72427b9fbf6d324072a39d.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260919/ 
