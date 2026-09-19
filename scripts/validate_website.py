@@ -36,6 +36,11 @@ class VisibleText(HTMLParser):
         if not self.skip:
             self.parts.append(text)
 
+def contains_demo_marker(text):
+    # 测试标记需独立于英文单词，避免误伤 demographics 等真实题名。
+    return bool(re.search(r'(?<![A-Za-z])DEMO(?![A-Za-z])|2099[-/]?01', text, re.I))
+
+
 def validate(output):
     errors = []
     search = json.loads((output / 'search.json').read_text(encoding='utf-8'))
@@ -63,7 +68,7 @@ def validate(output):
     indexes = [output / 'search.json', *output.glob('*.xml'), *output.glob('*.rss'), *output.glob('*listing*.json')]
     for path in [*public, *indexes]:
         text = path.read_text(encoding='utf-8')
-        if re.search(r'DEMO|2099[-/]?01', text, re.I):
+        if contains_demo_marker(text):
             errors.append(f'{path.name}: 公共页面或索引出现 DEMO')
     for issue in public_issues():
         route = 'issues/' + date_compact(issue['date']) + '/index.html'

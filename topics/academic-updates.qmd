@@ -8,9 +8,16 @@ title: "会议征稿"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 2 页 · 共 18 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 2 页 · 共 19 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>交大会计合作论坛：10 月 15 日截稿</h3>
+<p class="catalog-meta">期次日期：2026-09-20</p>
+<p>交大会计合作论坛第八届学术年会将于 11 月 13—14 日在成都举行，由西南交通大学经济管理学院承办。征集尚未发表的中英文原创论文，主题包括人工智能、数据资产、ESG 及财务韧性等，投稿不限定五所交大，截止日为 10 月 15 日，并设博士生论坛。会务费 1000 元，学生 600 元，交通及食宿自理；具体要求以官方通知为准。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：会计研究">会计研究</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%99%BA%E4%BC%9A%E8%AE%A1&amp;show-results=1" title="全站搜索：数智会计">数智会计</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
+<p class="catalog-actions"><a href="../issues/20260920/#conference-jiaotong-accounting-2026">查看本期</a><a href="https://glxy.swjtu.edu.cn/info/1335/60235.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>银行与金融中介论坛：10 月 16 日截稿</h3>
 <p class="catalog-meta">期次日期：2026-09-19</p>
@@ -74,15 +81,8 @@ title: "会议征稿"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：计量经济学">计量经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
 <p class="catalog-actions"><a href="../issues/20260912/#conference-cmfa-2026-autumn">查看本期</a><a href="https://chow.xmu.edu.cn/info/1046/48492.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>第九届中国制度经济学论坛：9 月 25 日截稿</h3>
-<p class="catalog-meta">期次日期：2026-09-11</p>
-<p>论坛 11 月 14–15 日在湘潭大学举行，接受中英文原创未发表论文，议题涵盖制度变迁、公司治理、数据产权和政策评估。9 月 25 日前投稿，作者信息须与正文分开以便匿名评审；不收会务费，住宿交通自理。优秀论文推荐审稿不等于期刊录用。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
-<p class="catalog-actions"><a href="../issues/20260911/#conference-institutional-econ-2026">查看本期</a><a href="https://business.xtu.edu.cn/?ac=view&amp;cd=news&amp;id=202605190003" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 2 页 · 共 18 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 2 页 · 共 19 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-2.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

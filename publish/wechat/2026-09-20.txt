@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.20
+
+📰 01｜论文 · The Review of Financial Studies：无法承诺未来政策时，企业怎样安排债务？
+在不能承诺未来债务政策的模型中，研究稳定状态与困境状态下的融资选择。可借鉴其分析资本结构、承诺与股东激励的框架。
+引文：Malenko & Tsoy (2026). Optimal Time-Consistent Debt Policies. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag083 
+
+📰 02｜论文 · Review of Economic Studies：预期石油需求下降，会加快还是减慢开采？
+比较提前开采与减少投资两种相反机制，研究长期需求下降如何影响石油供给。适合关注能源转型和动态投资的读者。
+引文：Kellogg (2026). The End of Oil. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag106 
+
+📦 03｜软件 · R：rupturesRcpp：修复 PELT 变点搜索的提前剪枝
+1.0.3 修复 PELT 搜索中过早删除候选变点的问题，旧版用户可复查相关结果。安装后请核对实际版本；本期未独立实测。
+版本：R / rupturesRcpp 1.0.3；发布：2026-09-18
+CRAN： https://cran.r-project.org/web/packages/rupturesRcpp/index.html 
+
+📅 04｜会议征稿：交大会计合作论坛：10 月 15 日截稿
+11 月 13—14 日在成都举行，面向会计、财务与审计研究，10 月 15 日截稿，投稿不限五所交大。会务费 1000 元，学生 600 元，交通及食宿自理。
+截止：2026-10-15
+通知： https://glxy.swjtu.edu.cn/info/1335/60235.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260920/ 

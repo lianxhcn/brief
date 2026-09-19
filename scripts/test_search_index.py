@@ -1,3 +1,4 @@
+from validate_website import contains_demo_marker
 """R03 本地搜索只验收生成索引与脚本资产，真实交互留至 post-deploy。"""
 import json,re,unittest
 from pathlib import Path
@@ -11,7 +12,7 @@ class SearchIndexTests(unittest.TestCase):
         self.assertIn('binsreg',text.lower())
         self.assertIn('20260905',text)
         self.assertIn('20260904',text)
-        self.assertNotIn('DEMO',text.upper())
+        self.assertFalse(contains_demo_marker(text))
         self.assertNotIn('209901',text)
 
     def test_local_search_assets_exist(self):
@@ -25,5 +26,16 @@ class SearchIndexTests(unittest.TestCase):
             target=(page.parent/unquote(urlsplit(asset).path)).resolve()
             self.assertTrue(target.is_file(),asset)
             self.assertGreater(target.stat().st_size,0)
+
+
+
+class DemoMarkerTests(unittest.TestCase):
+    def test_real_research_words_are_not_demo(self):
+        self.assertFalse(contains_demo_marker('Demographics, Wealth; democracy; demonstration'))
+
+    def test_test_markers_and_dates_are_blocked(self):
+        for text in ['DEMO', '测试DEMO材料', 'demo-example', '_DEMO_', 'issues/20990102/', '2099-01-02']:
+            with self.subTest(text=text):
+                self.assertTrue(contains_demo_marker(text))
 
 if __name__=='__main__':unittest.main()

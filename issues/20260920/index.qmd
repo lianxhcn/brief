@@ -1,0 +1,211 @@
+---
+title: "连享会 · 快讯 | 2026.09.20"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 无法承诺未来政策时，企业怎样安排债务？ {#paper-hhag083}
+
+<p class="myapa">Malenko, A. &amp; Tsoy, A. (2026). Optimal Time-Consistent Debt Policies. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag083" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Optimal%20Time-Consistent%20Debt%20Policies" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在动态权衡模型中研究股东可以随时调整债务、却无法承诺未来政策时的融资选择。作者刻画一类时间一致的债务政策：稳定状态下维持目标利息保障倍数，遭遇较大负面冲击后暂时进入困境状态。研究将静态融资权衡与债务不断增加的激励联系起来，适合讨论资本结构的动态机制；结论来自理论模型，不能直接作为具体企业的融资建议。
+
+标签：<a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：动态融资">动态融资</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E4%B8%80%E8%87%B4%E6%80%A7&amp;show-results=1" title="全站搜索：时间一致性">时间一致性</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-20</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 预期石油需求下降，会加快还是减慢开采？ {#paper-rdag106}
+
+<p class="myapa">Kellogg, R. (2026). The End of Oil. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag106" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20End%20of%20Oil" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+预期长期石油需求下降可能促使生产者提前开采，也可能压低耐用资本投资、从而减少供给。论文建立全球石油供给模型比较两种机制，在有实证依据的参数范围内，投资收缩通常占主导，两种效应总体较温和。对能源转型研究的启发是同时考察资源存量与资本调整；这是依赖模型参数的机制分析，不是对未来油价的确定预测。
+
+标签：<a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：能源转型">能源转型</a> · <a class="tag-link" href="?q=%E7%9F%B3%E6%B2%B9%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：石油供给">石油供给</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：投资决策">投资决策</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-20</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### rupturesRcpp：修复 PELT 变点搜索的提前剪枝 {#r-rupturesrcpp-1-0-3}
+
+rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于最短分段长度时，可能过早剔除后续最优候选点的问题。安装命令为 <code>install.packages(&quot;rupturesRcpp&quot;)</code>。使用旧版分析相关数据的读者可按发布说明复查；截至核验时部分 Windows 二进制仍为 1.0.2，需检查实际版本。这里依据维护者说明，尚未独立实测；统计变点也不自动具有因果解释。
+
+标签：<a class="tag-link" href="?q=%E5%8F%98%E7%82%B9%E6%A3%80%E6%B5%8B&amp;show-results=1" title="全站搜索：变点检测">变点检测</a> · <a class="tag-link" href="?q=PELT&amp;show-results=1" title="全站搜索：PELT">PELT</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-20</small>
+
+<a href="https://cran.r-project.org/web/packages/rupturesRcpp/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 交大会计合作论坛：10 月 15 日截稿 {#conference-jiaotong-accounting-2026}
+
+**投稿截止：2026-10-15**
+
+会议：2026-11-13 至 2026-11-13 · 中国四川成都，西南交通大学
+
+费用：会务费 1000 元，学生 600 元；交通及食宿自理。
+
+交大会计合作论坛第八届学术年会将于 11 月 13—14 日在成都举行，由西南交通大学经济管理学院承办。征集尚未发表的中英文原创论文，主题包括人工智能、数据资产、ESG 及财务韧性等，投稿不限定五所交大，截止日为 10 月 15 日，并设博士生论坛。会务费 1000 元，学生 600 元，交通及食宿自理；具体要求以官方通知为准。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：会计研究">会计研究</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%99%BA%E4%BC%9A%E8%AE%A1&amp;show-results=1" title="全站搜索：数智会计">数智会计</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<a href="https://glxy.swjtu.edu.cn/info/1335/60235.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 人口老龄化如何改变财富与全球失衡？ {#paper-rdag103}
+
+<p class="myapa">Auclert, A., Malmberg, H., Martenet, F., &amp; Rognlie, M. (2026). Demographics, Wealth, and Global Imbalances in the Twenty-First Century. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag103" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Demographics%2C%20Wealth%2C%20and%20Global%20Imbalances%20in%20the%20Twenty-First%20Century" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文结合人口预测与 25 国住户调查，先在年龄别财富和劳动收入剖面保持不变时，衡量年龄结构变化对财富与收入比的影响，再用充分统计量连接一般均衡模型。模型推演显示，老龄化可能降低财富回报并扩大全球失衡。阅读时应区分数据中的年龄剖面与依赖储蓄、遗赠及税收设定的长期预测。
+
+标签：<a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E8%80%81%E9%BE%84%E5%8C%96&amp;show-results=1" title="全站搜索：人口老龄化">人口老龄化</a> · <a class="tag-link" href="?q=%E8%B4%A2%E5%AF%8C%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：财富分布">财富分布</a> · <a class="tag-link" href="?q=%E5%85%A8%E7%90%83%E5%A4%B1%E8%A1%A1&amp;show-results=1" title="全站搜索：全球失衡">全球失衡</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-20</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 过参数化回归除了预测，还能怎样做推断？ {#paper-asag039}
+
+<p class="myapa">Shen, D., Song, D., Ding, P., &amp; Sekhon, J. (2026). Benign Overfitting Beyond Prediction: The Ordinary Least Squares Interpolator. Biometrika. <a href="https://doi.org/10.1093/biomet/asag039" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Benign%20Overfitting%20Beyond%20Prediction%3A%20The%20Ordinary%20Least%20Squares%20Interpolator" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究过参数化情形下最小范数的普通最小二乘插值解，将问题从预测风险扩展到参数估计与统计推断。作者推导留出样本、遗漏变量偏误及 FWL 分解的相应结果，并讨论高斯—马尔可夫性质和同方差方差估计。适合理解高维回归与经典线性模型的联系；这些结果有各自条件，不能据此认定高维系数天然具有因果解释。
+
+标签：<a class="tag-link" href="?q=%E8%BF%87%E5%8F%82%E6%95%B0%E5%8C%96&amp;show-results=1" title="全站搜索：过参数化">过参数化</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：线性回归">线性回归</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
+
+<small>来源日期：2026-09-17；补录：2026-09-20</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 高维张量时间序列如何提取共同因子？ {#paper-qkag125}
+
+<p class="myapa">Chang, J., Huang, G., Yao, Q., &amp; Yu, L. (2026). CP-factorization for high-dimensional tensor time series and double projection iterations. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag125" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=CP-factorization%20for%20high-dimensional%20tensor%20time%20series%20and%20double%20projection%20iterations" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文用 CP 分解刻画高维张量时间序列，通过序列相关矩阵的特征分析估计因子载荷，允许因子相关及载荷非正交，并讨论稀疏弱因子。双重投影迭代进一步改进估计，文中给出相应渐近分布和方差估计。适合研究同时具有多个维度的动态数据；方法的可用性仍取决于载荷条件、时间依赖结构和样本规模。
+
+标签：<a class="tag-link" href="?q=%E5%BC%A0%E9%87%8F%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：张量时间序列">张量时间序列</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：高维统计">高维统计</a>
+
+<small>来源日期：2026-09-17；补录：2026-09-20</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 隐私要求不同，如何联合估计函数型均值？ {#paper-qkag124}
+
+<p class="myapa">Cai, T. T., Chakraborty, A., &amp; Vuursteen, L. (2026). Optimal federated learning for functional mean estimation under heterogeneous privacy constraints. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag124" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Optimal%20federated%20learning%20for%20functional%20mean%20estimation%20under%20heterogeneous%20privacy%20constraints" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究多个服务器持有函数型观测、样本量与隐私限制各不相同时的均值估计，区分共同观测网格与独立网格，刻画隐私保护和估计精度之间的极小极大界限，并构造相应算法。文中用健康与退休调查的 BMI 轨迹说明应用。适合纵向健康数据等场景；联邦计算本身不自动提供隐私保证，需满足论文规定的隐私机制。
+
+标签：<a class="tag-link" href="?q=%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：联邦学习">联邦学习</a> · <a class="tag-link" href="?q=%E5%87%BD%E6%95%B0%E5%9E%8B%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：函数型数据">函数型数据</a> · <a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-20</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 政策学习怎样兼顾平均收益与抽样风险？ {#arxiv-2609-19418}
+
+<p class="myapa">Barnhard, H., Opocher, G., &amp; Singh, R. (2026). Stable Policy Learning. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.19418" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.19418.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Stable%20Policy%20Learning" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文将算法稳定性与政策选择的抽样风险联系起来：替换一个样本后政策变化越小，研究者面对的不确定性可能越低。作者对多个子样本的政策建议进行投票汇总，形成随机分配概率，并在明确条件下比较期望福利与风险厌恶目标。适合讨论政策学习的可靠性；降低抽样波动不等于保证每位受助者都获益。
+
+标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：算法稳定性">算法稳定性</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：抽样风险">抽样风险</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-20</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 汇总很多估计量时，估计权重会带来什么偏误？ {#arxiv-2609-19415}
+
+<p class="myapa">Guerre, E. &amp; Wang, Y. (2026). Aggregating many estimators using estimated weights. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.19415" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.19415.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Aggregating%20many%20estimators%20using%20estimated%20weights" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文研究用估计权重汇总数量不断增加的估计量，允许各估计量对应相同或不同目标。权重与估计量的共同随机性会引入额外偏误，忽略权重估计可能限制汇总方法的有效性。作者提出自适应权重并讨论一致高斯推断及相关检验。适合多模型估计和证据汇总；渐近结论仍受估计量结构及数量增长条件约束。
+
+标签：<a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E9%87%8F%E6%B1%87%E6%80%BB&amp;show-results=1" title="全站搜索：估计量汇总">估计量汇总</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：模型平均">模型平均</a> · <a class="tag-link" href="?q=%E6%9D%83%E9%87%8D%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：权重估计">权重估计</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-20</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 政策学习如何控制可能造成伤害的风险？ {#arxiv-2609-17296}
+
+<p class="myapa">Jin, Y. &amp; Egami, N. (2026). Conformal Policy Learning with Distribution-Free Safety Guarantees. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.17296" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.17296.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Conformal%20Policy%20Learning%20with%20Distribution-Free%20Safety%20Guarantees" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文把处理分配转化为对潜在伤害的统计检验，用可观测代理结果与选择性校准构造保形 p 值。在随机实验的交换性等条件下，方法给出有限样本风险控制，并讨论福利优化和观测数据中的双重稳健扩展。安全保证对应明确的概率目标及假设，不能解释为每个人都不会受损，也不能省略观测研究的识别条件。
+
+标签：<a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：保形推断">保形推断</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：风险控制">风险控制</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-20</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### PyMC 6.3.2：修正 Wald 分布计算与采样卡顿 {#python-pymc-6-3-2}
+
+PyMC 用于贝叶斯概率建模。6.3.2 修正 Wald 分布的均值及初始化参考点中对 alpha 参数的处理，并修复 DEMetropolis 采样器因进度条导致卡住的问题。可用 <code>pip install -U pymc</code> 更新，并在原分析环境核对版本和诊断结果。这里的 Wald 指概率分布，不是 Wald 检验；此条依据官方发布说明，未对修复效果独立实测。
+
+标签：<a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：贝叶斯建模">贝叶斯建模</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>
+
+<small>来源日期：2026-09-08；补录：2026-09-20</small>
+
+<a href="https://github.com/pymc-devs/pymc/releases/tag/v6.3.2" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

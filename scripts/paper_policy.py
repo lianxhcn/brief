@@ -7,7 +7,13 @@ from urllib.parse import urlparse
 POLICY = json.loads((Path(__file__).resolve().parents[1] / 'config/paper-policy.json').read_text(encoding='utf-8-sig'))
 
 def norm(value):
-    return str(value).casefold().removeprefix('the ').strip()
+    name = str(value).casefold().removeprefix('the ').strip()
+    # 出版社完整刊名与既定母表名称对应；不扩大顶刊名单。
+    aliases = {
+        'journal of the royal statistical society series b: statistical methodology':
+            'journal of the royal statistical society, series b',
+    }
+    return aliases.get(name, name)
 
 TOP = {norm(name) for names in POLICY['top_journal_groups'].values() for name in names}
 
