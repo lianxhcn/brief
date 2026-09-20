@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>连续 DID：系数分解、适用条件与 Stata 和 Python 实现</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>文章用可手算的两期例子，将连续处理 DID 系数分解为处理组与控制组的比较，以及处理组内部的强度比较，并给出 Stata 与 Python 配套程序。读者可以据此检查一个系数混合了哪些差异。分解是理解回归的工具；把强度斜率解释为因果效应，还需要相应识别条件，普通平行趋势不能自动排除处理收益选择。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%ADDID&amp;show-results=1" title="全站搜索：连续DID">连续DID</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E5%BC%BA%E5%BA%A6&amp;show-results=1" title="全站搜索：处理强度">处理强度</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#post-1933">查看本期</a><a href="https://www.lianxh.cn/details/1933.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>readraster：在 Stata 里直接读 GeoTIFF 和 NetCDF 地理栅格数据</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>文章介绍在 Stata 中读取 GeoTIFF 和 NetCDF，并通过行政区分区统计或点位匹配整理研究数据，附夜间灯光、气候数据及湖南地区示例。安装入口为 <code>ssc install readraster</code>，部分功能需要配置 Java 依赖。实际使用应先核对坐标系、缺失值和聚合口径；气候情景输出也不能当作已经发生的天气观测。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9C%B0%E7%90%86%E6%A0%85%E6%A0%BC&amp;show-results=1" title="全站搜索：地理栅格">地理栅格</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：空间数据">空间数据</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#post-1934">查看本期</a><a href="https://www.lianxh.cn/details/1934.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>llm-for-zotero 实操指南：在 Zotero 里把一篇论文读透</h3>
 <p class="catalog-meta">期次日期：2026-09-14</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%85%8D%E5%9B%BE&amp;show-results=1" title="全站搜索：科研配图">科研配图</a> · <a class="tag-link" href="?q=%E6%96%87%E7%94%9F%E5%9B%BE&amp;show-results=1" title="全站搜索：文生图">文生图</a></p>
 <p class="catalog-actions"><a href="../history/20260815-20260907/#post-1922">查看历史条目</a><a href="https://www.lianxh.cn/details/1922.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>Logit + XGBoost：一种可解释的混合信用评分模型</h3>
-<p class="catalog-meta">来源日期：2026-09-05</p>
-<p>介绍以 Logit 为主体、以 XGBoost 学习残差的混合评分思路，并讨论逐笔预测的透明分支占比。文章也提醒读者区分银行账户持有标签与贷款违约标签。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E8%AF%84%E5%88%86&amp;show-results=1" title="全站搜索：信用评分">信用评分</a> · <a class="tag-link" href="?q=Logit&amp;show-results=1" title="全站搜索：Logit">Logit</a> · <a class="tag-link" href="?q=XGBoost&amp;show-results=1" title="全站搜索：XGBoost">XGBoost</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1918">查看历史条目</a><a href="https://www.lianxh.cn/details/1918.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 参与金融决策，为什么不能只看准确率？</h3>
-<p class="catalog-meta">来源日期：2026-09-05</p>
-<p>围绕信用解释、欺诈识别和文本字段抽取，讨论平均准确率之外的稳定性与可审计性。文章提出保存模型、输入和规则版本，并区分结果可复现与判断正确。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：金融决策">金融决策</a> · <a class="tag-link" href="?q=AI%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：AI评价">AI评价</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1917">查看历史条目</a><a href="https://www.lianxh.cn/details/1917.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

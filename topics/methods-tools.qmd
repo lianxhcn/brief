@@ -8,9 +8,16 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 27 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 28 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>deriva 0.2.0：把尚不能判断与未检测到漂移分开</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>deriva 用统一接口监测部署后的机器学习模型。0.2.0 将预热阶段的漂移标记统一为 NA，区别于已经开始判断但未发出警报的 FALSE，并增加随机流控制和数据列检查。安装命令为 <code>install.packages(&quot;deriva&quot;)</code>。旧版保存的检测器需重新拟合，部分二进制仍为旧版；升级后应核对版本及下游对缺失标记的处理。本期未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：模型监测">模型监测</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：数据漂移">数据漂移</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#r-deriva-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/deriva/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>rupturesRcpp：修复 PELT 变点搜索的提前剪枝</h3>
 <p class="catalog-meta">期次日期：2026-09-20</p>
@@ -74,15 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%8F%98%E9%87%8F%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：多变量回归">多变量回归</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
 <p class="catalog-actions"><a href="../issues/20260917/#python-statsmodels-0150">查看本期</a><a href="https://pypi.org/project/statsmodels/0.15.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>minvar：纵向测量不变性检验</h3>
-<p class="catalog-meta">期次日期：2026-09-17</p>
-<p>minvar 用于宽格式纵向数据的测量不变性分析，按构型、载荷、截距及可选残差约束逐步比较模型，并报告拟合指标及变化。安装命令为 <code>ssc install minvar</code>。命令采用效应编码识别因子，默认使用 mlmv 处理缺失值；在相应缺失数据设定下，SRMR 可能无法提供，阅读结果时应结合识别约束与缺失机制。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E4%B8%8D%E5%8F%98%E6%80%A7&amp;show-results=1" title="全站搜索：测量不变性">测量不变性</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：结构方程">结构方程</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20260917/#stata-minvar-20260829">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459881.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 27 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 28 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -1,0 +1,209 @@
+---
+title: "连享会 · 快讯 | 2026.09.21"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 连续 DID：系数分解、适用条件与 Stata 和 Python 实现 {#post-1933}
+
+文章用可手算的两期例子，将连续处理 DID 系数分解为处理组与控制组的比较，以及处理组内部的强度比较，并给出 Stata 与 Python 配套程序。读者可以据此检查一个系数混合了哪些差异。分解是理解回归的工具；把强度斜率解释为因果效应，还需要相应识别条件，普通平行趋势不能自动排除处理收益选择。
+
+标签：<a class="tag-link" href="?q=%E8%BF%9E%E7%BB%ADDID&amp;show-results=1" title="全站搜索：连续DID">连续DID</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E5%BC%BA%E5%BA%A6&amp;show-results=1" title="全站搜索：处理强度">处理强度</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a>
+
+<small>来源日期：2026-09-20；补录：2026-09-21</small>
+
+<a href="https://www.lianxh.cn/details/1933.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### readraster：在 Stata 里直接读 GeoTIFF 和 NetCDF 地理栅格数据 {#post-1934}
+
+文章介绍在 Stata 中读取 GeoTIFF 和 NetCDF，并通过行政区分区统计或点位匹配整理研究数据，附夜间灯光、气候数据及湖南地区示例。安装入口为 <code>ssc install readraster</code>，部分功能需要配置 Java 依赖。实际使用应先核对坐标系、缺失值和聚合口径；气候情景输出也不能当作已经发生的天气观测。
+
+标签：<a class="tag-link" href="?q=%E5%9C%B0%E7%90%86%E6%A0%85%E6%A0%BC&amp;show-results=1" title="全站搜索：地理栅格">地理栅格</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：空间数据">空间数据</a>
+
+<small>来源日期：2026-09-20；补录：2026-09-21</small>
+
+<a href="https://www.lianxh.cn/details/1934.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 隐私法规如何改变企业的数据与算力投入？ {#paper-744118}
+
+<p class="myapa">Demirer, M., Jiménez-Hernández, D., Li, D., &amp; Peng, S. (2026). Data, Privacy Laws and Firm Production: Evidence from the GDPR. Journal of Political Economy. <a href="https://doi.org/10.1086/744118" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Data%2C%20Privacy%20Laws%20and%20Firm%20Production%3A%C2%A0Evidence%20from%20the%20GDPR" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用全球云服务商的企业使用数据，以双重差分研究 GDPR 对数据存储和处理需求的影响，再估计包含数据与计算投入的生产函数。作者公开摘要指出，两类投入具有互补性，数据成本变化与整体生产成本变化应分别衡量。适合研究数字投入与监管成本；识别与结构估计各有条件，本文仅依据作者发布的论文摘要，不对个人隐私收益作完整福利评价。
+
+标签：<a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：隐私监管">隐私监管</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E6%8A%95%E5%85%A5&amp;show-results=1" title="全站搜索：数字投入">数字投入</a> · <a class="tag-link" href="?q=%E7%94%9F%E4%BA%A7%E5%87%BD%E6%95%B0&amp;show-results=1" title="全站搜索：生产函数">生产函数</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 如何把消费者搜索理论放进 Transformer 模型？ {#paper-mnsc-2024-04540}
+
+<p class="myapa">Song, Y. &amp; Sun, T. (2026). Sequential Search Transformer: A Deep Structural Econometric Model. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.04540" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Sequential%20Search%20Transformer%3A%20A%20Deep%20Structural%20Econometric%20Model" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文提出顺序搜索 Transformer，将消费者逐步搜索、更新效用认知和停止购买的经济决策结构嵌入可训练模型，并用电商点击流数据研究搜索与购买行为。作者讨论参数识别及产品推荐的政策实验。对研究者的启发是明确预测模块如何连接行为机制；模型内的政策比较仍依赖识别条件，预测更准不等于已获得实验意义的因果效应。
+
+标签：<a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：结构计量">结构计量</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E6%90%9C%E7%B4%A2&amp;show-results=1" title="全站搜索：消费者搜索">消费者搜索</a> · <a class="tag-link" href="?q=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：深度学习">深度学习</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-21</small>
+
+
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 碳价格怎样改变亚马孙的保护与再造林选择？ {#paper-744117}
+
+<p class="myapa">Assunção, J., Hansen, L. P., Munson, T., &amp; Scheinkman, J. A. (2026). Carbon Prices, Forest Conservation and Reforestation in the Brazilian Amazon. Journal of Political Economy. <a href="https://doi.org/10.1086/744117" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://larspeterhansen.org/wp-content/uploads/2026/03/Amazon_Manuscript_submit.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Carbon%20Prices%2C%20Forest%20Conservation%20and%20Reforestation%20in%20the%20Brazilian%20Amazon" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立空间动态土地配置模型，比较养牛、森林保护和再造林，并纳入牛价波动及地区生产率不确定性。作者公开稿表明，碳定价会改变土地用途选择，使森林管理成为减排的重要补充。这里依据作者 2026 年 3 月公开稿介绍机制，期刊上线日期另列；模型推演有参数与政策设定边界，不能当作已经实现的减排效果。
+
+标签：<a class="tag-link" href="?q=%E7%A2%B3%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：碳定价">碳定价</a> · <a class="tag-link" href="?q=%E6%A3%AE%E6%9E%97%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：森林保护">森林保护</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：动态模型">动态模型</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 财经报道增多，是否意味着企业有更多好消息？ {#paper-mnsc-2023-00580}
+
+<p class="myapa">Liu, B., Niessner, M., &amp; So, E. C. (2026). Bad News Bearers: The Negative Tilt of the Financial Press. Management Science. <a href="https://doi.org/10.1287/mnsc.2023.00580" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Bad%20News%20Bearers%3A%20The%20Negative%20Tilt%20of%20the%20Financial%20Press" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文考察财经媒体是否更倾向报道负面事件，并比较报道量、后续企业基本面与市场反应。作者发现，更多报道能够预测后续较差的基本面，负面报道也会吸引注意力；报道选择本身可能包含信息。对新闻情绪指标研究的启发是同时考虑报道数量、情绪与选择过程，不能把这些预测关系直接解释为媒体导致企业经营恶化。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A2%E7%BB%8F%E5%AA%92%E4%BD%93&amp;show-results=1" title="全站搜索：财经媒体">财经媒体</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：投资者注意力">投资者注意力</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 按降雨指数补贴农户，金额越高保护越好吗？ {#paper-mnsc-2024-05008}
+
+<p class="myapa">Lu, K., Song, J., &amp; Zhang, C. (2026). Index-Based Yield Protection for Smallholder Farmers. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.05008" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Index-Based%20Yield%20Protection%20for%20Smallholder%20Farmers" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究无法低成本逐户核实产量时，政府如何依据降雨等指数设计产量保护补贴。指数与实际收成不一致会产生基差风险，模型中提高补贴可能反而增加收入波动；最优补贴与指数精度之间也未必单调。适合讨论农业风险管理和政策测量误差，结论依赖模型条件，不能直接套用为各地区统一补贴标准。
+
+标签：<a class="tag-link" href="?q=%E5%86%9C%E4%B8%9A%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：农业保险">农业保险</a> · <a class="tag-link" href="?q=%E5%9F%BA%E5%B7%AE%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：基差风险">基差风险</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：政策设计">政策设计</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### AI 生成变量之后，怎样保证测量与推断可信？ {#nber-w35744}
+
+<p class="myapa">Dell, M. &amp; Rambachan, A. (2026). The Measurement Revolution? Credible Measurement and Inference in the Age of AI. NBER Working Paper 35744. <a href="https://doi.org/10.3386/w35744" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Measurement%20Revolution%3F%20Credible%20Measurement%20and%20Inference%20in%20the%20Age%20of%20AI" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文区分 AI 进入测量流程的三个环节：发现、概念定义与观测，并讨论每一环节需要怎样的验证。可扩展的测量变多以后，关键问题转向如何选择、评估和校准这些变量。作者强调明确评价标准与适当的验证样本，也讨论缺少随机验证样本时的处理边界；不能把模型输出直接视为无误差数据。
+
+标签：<a class="tag-link" href="?q=AI%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：AI测量">AI测量</a> · <a class="tag-link" href="?q=%E9%AA%8C%E8%AF%81%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：验证样本">验证样本</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
+
+<small>来源日期：2026-09-14；补录：2026-09-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### RDD 置信区间怎样兼顾覆盖率与长度？ {#nber-w35699}
+
+<p class="myapa">Ghosh, A., Imbens, G., &amp; Wager, S. (2026). PLRD: Partially Linear Regression Discontinuity Inference. NBER Working Paper 35699. <a href="https://doi.org/10.3386/w35699" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=PLRD%3A%20Partially%20Linear%20Regression%20Discontinuity%20Inference" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文提出部分线性断点回归估计量 PLRD，给出大样本理论，并使用依照真实应用校准的模拟比较估计误差及区间表现。其方法评估还使用生成模型构造接近原数据的模拟情境。读者可以借鉴对替代估计方法的比较设计；文中模拟表现不代表所有断点、样本量和函数形状下都必然更优。
+
+标签：<a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%8C%BA%E9%97%B4&amp;show-results=1" title="全站搜索：置信区间">置信区间</a> · <a class="tag-link" href="?q=%E6%A8%A1%E6%8B%9F%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：模拟设计">模拟设计</a>
+
+<small>来源日期：2026-09-07；补录：2026-09-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 非随机缺失的面板，能用合成最近邻补全吗？ {#arxiv-2609-13586}
+
+<p class="myapa">Agarwal, A., Dahleh, M., Shah, D., &amp; Shen, D. (2026). Synthetic Nearest Neighbors: Extending Synthetic Controls for Matrix Completion with Missing Not at Random Data. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.13586" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.13586.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Synthetic%20Nearest%20Neighbors%3A%20Extending%20Synthetic%20Controls%20for%20Matrix%20Completion%20with%20Missing%20Not%20at%20Random%20Data" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文把合成控制的局部比较思路用于非随机缺失的矩阵补全，允许不同目标拥有不同的可用观测结构。作者提出合成最近邻估计量，讨论逐元素误差、均值恢复和异方差条件下的推断。适合思考非规则面板中的缺失数据；方法仍需结构与局部信息条件，不能据此认为任意非随机缺失都可恢复。
+
+标签：<a class="tag-link" href="?q=%E7%9F%A9%E9%98%B5%E8%A1%A5%E5%85%A8&amp;show-results=1" title="全站搜索：矩阵补全">矩阵补全</a> · <a class="tag-link" href="?q=%E9%9D%9E%E9%9A%8F%E6%9C%BA%E7%BC%BA%E5%A4%B1&amp;show-results=1" title="全站搜索：非随机缺失">非随机缺失</a> · <a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a>
+
+<small>来源日期：2026-09-11；补录：2026-09-21</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### deriva 0.2.0：把尚不能判断与未检测到漂移分开 {#r-deriva-0-2-0}
+
+deriva 用统一接口监测部署后的机器学习模型。0.2.0 将预热阶段的漂移标记统一为 NA，区别于已经开始判断但未发出警报的 FALSE，并增加随机流控制和数据列检查。安装命令为 <code>install.packages(&quot;deriva&quot;)</code>。旧版保存的检测器需重新拟合，部分二进制仍为旧版；升级后应核对版本及下游对缺失标记的处理。本期未独立实测。
+
+标签：<a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：模型监测">模型监测</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：数据漂移">数据漂移</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-20；补录：2026-09-21</small>
+
+<a href="https://cran.r-project.org/web/packages/deriva/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 青年能源环境政策与管理会议：10 月 20 日截稿 {#conference-young-energy-2026}
+
+**投稿截止：2026-10-20**
+
+会议：2026-11-06 至 2026-11-06 · 中国湖南长沙，温德姆花园酒店及湖南大学工商管理学院
+
+费用：普通参会者含博士后 1200 元，学生 800 元；住宿按酒店另行预订。
+
+第十届全国青年能源环境政策与管理学术会议将于 11 月 6—8 日在长沙举行，征集与能源安全、碳市场及低碳转型等主题相关的未发表中英文论文全文或摘要，10 月 20 日截稿，11 月 2 日截止线上注册。注册费普通参会者 1200 元、学生 800 元。会议设青年学者平行论坛及人才交流环节，具体安排以组委会后续通知为准。
+
+标签：<a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：能源经济">能源经济</a> · <a class="tag-link" href="?q=%E4%BD%8E%E7%A2%B3%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：低碳转型">低碳转型</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<a href="https://ceep.bit.edu.cn/xwdt/zxxw/17058106af214b46abc85dc313375792.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

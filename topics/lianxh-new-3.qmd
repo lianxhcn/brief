@@ -8,9 +8,23 @@ title: "新推文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>招聘数据能测什么？指标构造与 LLM 标注</h3>
+<p class="catalog-meta">来源日期：2026-09-01</p>
+<p>讨论职位名称、任职要求、技能与任务的不同测量对象，并给出 LLM 标注及人工审计流程。适合在构造企业或地区指标前明确变量含义。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：招聘数据">招聘数据</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1908">查看历史条目</a><a href="https://www.lianxh.cn/details/1908.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>招聘数据如何获取？数据来源、去重与字段清洗</h3>
+<p class="catalog-meta">来源日期：2026-09-01</p>
+<p>文章区分招聘广告、职位空缺和实际录用，整理数据获取、去重和字段标准化的工作口径。重点是保留来源和样本覆盖变化，避免把数据管道变化当作招聘需求变化。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：招聘数据">招聘数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1907">查看历史条目</a><a href="https://www.lianxh.cn/details/1907.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>我会 AI，为什么还拿不到实习？</h3>
 <p class="catalog-meta">来源日期：2026-08-31</p>
@@ -67,22 +81,8 @@ title: "新推文 · 第 3 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=Skills&amp;show-results=1" title="全站搜索：Skills">Skills</a> · <a class="tag-link" href="?q=MCP&amp;show-results=1" title="全站搜索：MCP">MCP</a></p>
 <p class="catalog-actions"><a href="../history/20260815-20260907/#post-1897">查看历史条目</a><a href="https://www.lianxh.cn/details/1897.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>从 reghdfe 到 PyFixest：Python 高维固定效应与 DID 快速上手</h3>
-<p class="catalog-meta">来源日期：2026-08-18</p>
-<p>将固定效应公式、聚类标准误和 DID 估计对象与 PyFixest 接口逐项对照。适合熟悉 reghdfe 的读者理解迁移时应比较哪些模型设定。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=PyFixest&amp;show-results=1" title="全站搜索：PyFixest">PyFixest</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1895">查看历史条目</a><a href="https://www.lianxh.cn/details/1895.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>万能提示词真的存在吗？五份 Prompting Science Report 的实证检验</h3>
-<p class="catalog-meta">来源日期：2026-08-18</p>
-<p>围绕五份提示词实验报告，讨论角色、语气、思维链和评价标准如何影响结论。阅读重点是按自己的任务验证提示方案，并将外部材料中的指令与任务要求分开。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8F%90%E7%A4%BA%E8%AF%8D&amp;show-results=1" title="全站搜索：提示词">提示词</a> · <a class="tag-link" href="?q=%E5%AE%9E%E8%AF%81%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：实证检验">实证检验</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1896">查看历史条目</a><a href="https://www.lianxh.cn/details/1896.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 34 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -8,9 +8,16 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 3 页 · 共 27 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 3 页 · 共 28 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>minvar：纵向测量不变性检验</h3>
+<p class="catalog-meta">期次日期：2026-09-17</p>
+<p>minvar 用于宽格式纵向数据的测量不变性分析，按构型、载荷、截距及可选残差约束逐步比较模型，并报告拟合指标及变化。安装命令为 <code>ssc install minvar</code>。命令采用效应编码识别因子，默认使用 mlmv 处理缺失值；在相应缺失数据设定下，SRMR 可能无法提供，阅读结果时应结合识别约束与缺失机制。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E4%B8%8D%E5%8F%98%E6%80%A7&amp;show-results=1" title="全站搜索：测量不变性">测量不变性</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：结构方程">结构方程</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
+<p class="catalog-actions"><a href="../issues/20260917/#stata-minvar-20260829">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459881.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>estimatr 2.0.0：稳健估计接口与固定效应更新</h3>
 <p class="catalog-meta">期次日期：2026-09-17</p>
@@ -74,15 +81,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90&amp;show-results=1" title="全站搜索：报告生成">报告生成</a> · <a class="tag-link" href="?q=LaTeX&amp;show-results=1" title="全站搜索：LaTeX">LaTeX</a> · <a class="tag-link" href="?q=PDF&amp;show-results=1" title="全站搜索：PDF">PDF</a></p>
 <p class="catalog-actions"><a href="../issues/20260913/#stata-texpdf-20260829">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459880.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>emlink：没有共同 ID 时，怎样做概率数据连接？</h3>
-<p class="catalog-meta">期次日期：2026-09-12</p>
-<p>emlink 用 Fellegi–Sunter 模型和无监督 EM，将缺少可靠共同标识的两份数据做概率连接，并区分自动匹配、人工复核和不匹配。安装命令为 <code>ssc install emlink</code>。使用前必须对两份数据采用一致的字符串清洗规则；分块键能减少比较量，也可能漏掉真实匹配，不能直接把输出概率当作已核实身份。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%BF%9E%E6%8E%A5&amp;show-results=1" title="全站搜索：数据连接">数据连接</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：概率匹配">概率匹配</a> · <a class="tag-link" href="?q=EM%E7%AE%97%E6%B3%95&amp;show-results=1" title="全站搜索：EM算法">EM算法</a></p>
-<p class="catalog-actions"><a href="../issues/20260912/#stata-emlink-20260909">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459885.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 3 页 · 共 27 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 3 页 · 共 28 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

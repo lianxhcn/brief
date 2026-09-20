@@ -1,0 +1,22 @@
+📙 连享会 · 快讯 | 2026.09.21
+
+✍️ 01｜新推文：连续 DID：系数分解、适用条件与 Stata 和 Python 实现
+通过手算例子拆解连续 DID 系数，区分组间政策效应与组内强度比较，附 Stata 和 Python 程序。因果解释仍需核对识别条件。
+阅读全文： https://www.lianxh.cn/details/1933.html 
+
+✍️ 02｜新推文：readraster：在 Stata 里直接读 GeoTIFF 和 NetCDF 地理栅格数据
+把地理栅格读取、坐标处理和区域汇总写入 Stata 工作流，附夜间灯光与气候数据示例。使用前需配置 Java 并核对坐标系。
+阅读全文： https://www.lianxh.cn/details/1934.html 
+
+📰 03｜论文 · JPE：隐私法规如何改变企业的数据与算力投入？
+利用云服务商数据研究 GDPR 如何改变企业的数据和计算投入，结合双重差分与生产函数估计，区分数据成本与整体生产成本。
+引文：Demirer et al. (2026). Data, Privacy Laws and Firm Production: Evidence from the GDPR. JPE.
+主页： https://doi.org/10.1086/744118 
+
+📰 04｜论文 · Management Science：如何把消费者搜索理论放进 Transformer 模型？
+结合顺序搜索理论与深度学习，利用电商点击流建模搜索和购买行为。可借鉴行为结构与预测模型的结合方式，政策解释依赖模型条件。
+引文：Song & Sun (2026). Sequential Search Transformer: A Deep Structural Econometric Model. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.04540 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260921/ 
