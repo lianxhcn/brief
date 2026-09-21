@@ -8,9 +8,30 @@ title: "新推文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 39 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>招聘数据如何进入因果推断？度量误差、平台漂移与识别陷阱</h3>
+<p class="catalog-meta">来源日期：2026-09-02</p>
+<p>将招聘文本进入因果分析的风险分为生成变量误差、平台覆盖漂移和设计识别三层。文章分别讨论 DID 与 shift-share 的检查环节，可与前两篇连读。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：招聘数据">招聘数据</a> · <a class="tag-link" href="?q=%E5%BA%A6%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：度量误差">度量误差</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1909">查看历史条目</a><a href="https://www.lianxh.cn/details/1909.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>公司给近 4000 名员工配上 AI，谁真正会用？</h3>
+<p class="catalog-meta">来源日期：2026-09-02</p>
+<p>文章解读企业内部 GenAI 日志研究，区分使用频率与使用方式，并讨论提示信息和任务组织的衡量。研究来自单一企业的观察资料，适合思考使用质量指标。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：AI采用">AI采用</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1910">查看历史条目</a><a href="https://www.lianxh.cn/details/1910.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>用 AI-Agent 推送 GitHub：本地仓库同步与授权指南</h3>
+<p class="catalog-meta">来源日期：2026-09-01</p>
+<p>从本地文件夹与远程仓库的关系讲起，说明项目边界、授权和同步检查流程。适合作为整理公开附件前的阅读材料。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=GitHub&amp;show-results=1" title="全站搜索：GitHub">GitHub</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a></p>
+<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1906">查看历史条目</a><a href="https://www.lianxh.cn/details/1906.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>招聘数据能测什么？指标构造与 LLM 标注</h3>
 <p class="catalog-meta">来源日期：2026-09-01</p>
@@ -60,29 +81,8 @@ title: "新推文 · 第 3 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：上下文管理">上下文管理</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：论文协作">论文协作</a></p>
 <p class="catalog-actions"><a href="../history/20260815-20260907/#post-1903">查看历史条目</a><a href="https://www.lianxh.cn/details/1903.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>WorkBuddy 接入 Stata MCP：从文献整理到直接跑回归</h3>
-<p class="catalog-meta">来源日期：2026-08-24</p>
-<p>以文献卡片、数据诊断和 Stata 自带数据测试说明 Agent 与 MCP 的连接流程。适合梳理代码生成、实际执行和日志反馈之间的分工。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=MCP&amp;show-results=1" title="全站搜索：MCP">MCP</a> · <a class="tag-link" href="?q=WorkBuddy&amp;show-results=1" title="全站搜索：WorkBuddy">WorkBuddy</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1898">查看历史条目</a><a href="https://www.lianxh.cn/details/1898.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 跑出的 DID 很显著，可信吗？用 causal-did 加一道识别防线</h3>
-<p class="catalog-meta">来源日期：2026-08-24</p>
-<p>通过预设反例区分代码运行、结果复现与因果识别，并介绍 causal-did 的设计检查流程。文章提醒读者把识别条件和结果验收写进任务，而不能只要求显著结果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E5%81%87%E8%AE%BE&amp;show-results=1" title="全站搜索：识别假设">识别假设</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1899">查看历史条目</a><a href="https://www.lianxh.cn/details/1899.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>Skills、MCP、A2A、ARD：科研 Agent 到底该用哪些？</h3>
-<p class="catalog-meta">来源日期：2026-08-22</p>
-<p>用文献核验工作流区分 Skills 的操作规则、MCP 的工具连接以及 Agent 协作与发现机制。文章提供按任务选择组合的思路，并保留权限与人工核对环节。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=Skills&amp;show-results=1" title="全站搜索：Skills">Skills</a> · <a class="tag-link" href="?q=MCP&amp;show-results=1" title="全站搜索：MCP">MCP</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1897">查看历史条目</a><a href="https://www.lianxh.cn/details/1897.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 39 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

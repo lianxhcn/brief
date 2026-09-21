@@ -8,9 +8,16 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 28 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>interflex 1.4.1：核估计带宽与失败拟合处理修复</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>interflex 用于估计和展示条件边际效应。1.4.1 修正自适应带宽的密度归一化方式，并让无法识别或无有效权重的局部拟合给出警告或明确报错，避免填零及无效带宽。安装命令为 <code>install.packages(&quot;interflex&quot;)</code>。固定带宽下结果可能改变，Windows 二进制当时仍为 1.4.0，应核对安装版本；本期依据 NEWS 与手册，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a> · <a class="tag-link" href="?q=%E6%A0%B8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：核估计">核估计</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#r-interflex-1-4-1">查看本期</a><a href="https://cran.r-project.org/web/packages/interflex/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>deriva 0.2.0：把尚不能判断与未检测到漂移分开</h3>
 <p class="catalog-meta">期次日期：2026-09-21</p>
@@ -74,15 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BE%E5%90%91%E5%BE%97%E5%88%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：倾向得分匹配">倾向得分匹配</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：抽样权重">抽样权重</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260918/#r-matchit-4-8-0">查看本期</a><a href="https://cran.r-project.org/web/packages/MatchIt/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>statsmodels 0.15.0：GLM 边际效应与多变量回归</h3>
-<p class="catalog-meta">期次日期：2026-09-17</p>
-<p>statsmodels 0.15.0 增加 GLM 的 <code>get_margeff</code>、多变量线性回归 <code>MultivariateLS</code> 和 Leybourne 平稳性检验，并修复若干时间序列模型问题。可用 <code>pip install statsmodels==0.15.0</code> 安装指定版本。边际效应的计算仍取决于模型形式和变量设定，不能把接口新增等同于识别问题已经解决。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%8F%98%E9%87%8F%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：多变量回归">多变量回归</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
-<p class="catalog-actions"><a href="../issues/20260917/#python-statsmodels-0150">查看本期</a><a href="https://pypi.org/project/statsmodels/0.15.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 28 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

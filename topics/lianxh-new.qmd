@@ -8,9 +8,30 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 39 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>Stata 命令 xttestpanel：面板数据模型跑完后，六项检验一起做</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>文章用 xttestpanel 整理线性面板模型的异方差、序列相关、截面相关、函数形式、Hausman 与 VIF 六类诊断，并提供真实数据和固定种子模拟示例。安装命令为 <code>ssc install xttestpanel</code>。检验应结合样本结构与原假设解释，缺失结果不等于不拒绝，Hausman 也不是 FE/RE 自动选择器；单次模拟不构成检验性能验证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：模型诊断">模型诊断</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#post-1936">查看本期</a><a href="https://www.lianxh.cn/details/1936.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>Harness 和 Agent 到底有什么区别？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>文章区分模型、Agent 与 Harness：模型生成判断，Harness 提供工具、权限、记忆和反馈，Agent 在这些条件下持续执行任务。以 DeepSeek Harness 演示工作区、模型和插件配置，建议先用只读权限检查项目。适合理解研究自动化的运行条件；接入更多工具并不等于任务结果已经可靠。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=Harness&amp;show-results=1" title="全站搜索：Harness">Harness</a> · <a class="tag-link" href="?q=%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：工作流">工作流</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#post-1935">查看本期</a><a href="https://www.lianxh.cn/details/1935.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ChatGPT、Codex 怎么用才不浪费额度？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>文章把使用 AI 的成本拆成额度、等待时间和人工切换成本，通过任务边界、交付物和验收条件讨论如何安排问答与代码执行。对研究者的启发是先明确需要讨论问题还是修改文件，再选择工作入口与推理强度，避免反复搬运上下文。产品规则具有时效性，具体可用入口与用量仍应以账户当时显示为准。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI工作流">AI工作流</a> · <a class="tag-link" href="?q=%E4%BB%BB%E5%8A%A1%E5%88%86%E6%B5%81&amp;show-results=1" title="全站搜索：任务分流">任务分流</a> · <a class="tag-link" href="?q=%E9%A2%9D%E5%BA%A6%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：额度管理">额度管理</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#post-1932">查看本期</a><a href="https://www.lianxh.cn/details/1932.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>连续 DID：系数分解、适用条件与 Stata 和 Python 实现</h3>
 <p class="catalog-meta">期次日期：2026-09-21</p>
@@ -60,29 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20Agent&amp;show-results=1" title="全站搜索：AI Agent">AI Agent</a> · <a class="tag-link" href="?q=Workflow&amp;show-results=1" title="全站搜索：Workflow">Workflow</a> · <a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：科研复现">科研复现</a></p>
 <p class="catalog-actions"><a href="../issues/20260909/#post-1926">查看本期</a><a href="https://www.lianxh.cn/details/1926.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=regsensitivity&amp;show-results=1" title="全站搜索：regsensitivity">regsensitivity</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#post-1916">查看本期</a><a href="https://www.lianxh.cn/details/1916.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>文本转成 Embedding 后，还能直接拿来做因果推断吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-08</p>
-<p>文章区分文本向量用于聚类与用于因果分析控制变量的要求，并提供研究设计自查清单。可用于回归前检查文本压缩是否保留了识别所需的信息。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Embedding&amp;show-results=1" title="全站搜索：Embedding">Embedding</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260908/#post-1921">查看本期</a><a href="https://www.lianxh.cn/details/1921.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>文生图很烧 Tokens 吗？科研配图的选择逻辑</h3>
-<p class="catalog-meta">来源日期：2026-09-06</p>
-<p>按用途区分文生图、代码绘图、矢量排版和界面截图，讨论科研配图如何先确定事实与布局。适合为公式、统计图和概念插图选择合适的制作路径。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%85%8D%E5%9B%BE&amp;show-results=1" title="全站搜索：科研配图">科研配图</a> · <a class="tag-link" href="?q=%E6%96%87%E7%94%9F%E5%9B%BE&amp;show-results=1" title="全站搜索：文生图">文生图</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#post-1922">查看历史条目</a><a href="https://www.lianxh.cn/details/1922.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 36 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 39 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

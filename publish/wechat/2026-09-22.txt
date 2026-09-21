@@ -1,0 +1,21 @@
+📙 连享会 · 快讯 | 2026.09.22
+
+✍️ 01｜新推文：ChatGPT、Codex 怎么用才不浪费额度？
+从额度、等待与人工切换成本出发安排 AI 任务，强调明确交付物、工作范围和停止条件；产品规则以当前账户为准。
+阅读全文： https://www.lianxh.cn/details/1932.html 
+
+✍️ 02｜新推文：Harness 和 Agent 到底有什么区别？
+区分模型、Agent 与 Harness 的职责，结合工具、权限和反馈理解自动化执行；首次使用先以只读方式检查项目。
+阅读全文： https://www.lianxh.cn/details/1935.html 
+
+✍️ 03｜新推文：Stata 命令 xttestpanel：面板数据模型跑完后，六项检验一起做
+汇总线性面板回归后的六类诊断，配数据与模拟示例。缺失结果不能当作不显著，多项检验也不能靠多数投票解释。
+阅读全文： https://www.lianxh.cn/details/1936.html 
+
+📰 04｜论文 · JPE：信用违约互换的拍卖设计，怎样影响保险赔付？
+用结构拍卖模型区分学习、数量承诺和 CDS 头寸的作用，研究信用事件拍卖机制如何影响定价与保险赔付。
+引文：Richert (2026). Quantity Commitments in Multiunit Auctions: Evidence from Credit Event Auctions. JPE.
+主页： https://doi.org/10.1086/744119 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260922/ 

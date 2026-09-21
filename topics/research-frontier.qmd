@@ -8,9 +8,58 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 14 页 · 共 131 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 14 页 · 共 138 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>重复的盈利消息，为何仍可能影响资产价格？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>工作论文把季度内盈利公告的重复信息与后续市场收益联系起来，研究投资者是否忽略信息之间的相关性。作者结合收益序列、行业数据和调查证据，提出重复消息引发过度反应、随后得到修正的机制解释。它提示信息指标研究区分真正新增信息与重复信号；这些证据不构成任何时期都有效的交易策略保证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%87%8D%E5%A4%8D&amp;show-results=1" title="全站搜索：信息重复">信息重复</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：行为金融">行为金融</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#nber-w35753">查看本期</a><a href="https://www.nber.org/papers/w35753" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>选择信息来源时，人们为何偏爱对称信号？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>论文通过实验比较人们对对称与非对称信息来源的需求。参与者会回应经济激励，同时仍表现出对对称信息来源的系统性偏好；更高认知能力、较好任务理解和被测量的主观信念并未完全解释这一现象。它提示研究者在设计信息提供实验时，同时区分信息价值与呈现结构；实验结果不宜直接外推为所有现实市场的行为规律。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：信息需求">信息需求</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a> · <a class="tag-link" href="?q=%E4%BF%A1%E5%BF%B5%E5%BD%A2%E6%88%90&amp;show-results=1" title="全站搜索：信念形成">信念形成</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#paper-mnsc-2024-08449">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08449" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>跨境碳税的预期成本，会落到哪些企业？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>论文利用欧盟碳边境调节机制重要公告附近的股票价格反应，比较欧盟采购企业与非欧洲生产商。作者发现，市场对采购企业的成本预期与非欧盟供应链、潜在碳成本及向交易伙伴转嫁成本的能力有关。适合借鉴供应链暴露与政策事件研究的结合；公告反应反映市场预期，不等于已经实现的利润或减排变化。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A2%B3%E8%BE%B9%E5%A2%83%E8%B0%83%E8%8A%82&amp;show-results=1" title="全站搜索：碳边境调节">碳边境调节</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#paper-mnsc-2024-07171">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07171" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>多个选择条件同时存在时，怎样估计 Poisson 回归？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>工作论文研究结果只有在多个相关选择条件均满足时才可观测的情形，在联合正态误差设定下推导选择修正项，提出非线性最小二乘与 PPML 两步估计，并处理第一步估计误差。无需排除限制的识别结论还依赖支持集和秩条件，不能理解为一般样本选择问题都不再需要识别设计。本文依据原始摘要，未独立复现模拟。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：样本选择">样本选择</a> · <a class="tag-link" href="?q=PPML&amp;show-results=1" title="全站搜索：PPML">PPML</a> · <a class="tag-link" href="?q=%E4%B8%A4%E6%AD%A5%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：两步估计">两步估计</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#arxiv-2609-21056">查看本期</a><a href="https://arxiv.org/abs/2609.21056" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>多个结果合成一个指数，处理效应就更清楚了吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>工作论文推导常用综合指数的隐含权重，说明逆协方差加权可能产生负权重，使指数效应方向与各分量不一致。作者提出考虑数据依赖权重的方差估计与另一种检验方法，并区分零效应检验和一般推断。对多结果评估的启发是报告权重和各分量，不能默认合成指数总能提高检验功效；具体结论受指数构造与估计设定约束。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%BC%E5%90%88%E6%8C%87%E6%95%B0&amp;show-results=1" title="全站搜索：综合指数">综合指数</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：处理效应">处理效应</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#arxiv-2609-21393">查看本期</a><a href="https://arxiv.org/abs/2609.21393" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>只匹配前两阶矩，Knockoffs 还能控制误发现率吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>论文研究协变量分布未知时，近似 Model-X Knockoffs 的误发现率控制。作者把严格的分布交换性转为对统计量的三个条件，并证明特定两阶矩统计量配合 Gaussian Knockoffs 时可得到渐近 FDR 控制。结论为常用近似生成方法提供条件性理论依据；它不是任意统计量下的有限样本保证，也不意味着变量筛选后可以直接作因果解释。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：统计学">统计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%98%E9%87%8F%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：变量选择">变量选择</a> · <a class="tag-link" href="?q=%E8%AF%AF%E5%8F%91%E7%8E%B0%E7%8E%87&amp;show-results=1" title="全站搜索：误发现率">误发现率</a> · <a class="tag-link" href="?q=Knockoffs&amp;show-results=1" title="全站搜索：Knockoffs">Knockoffs</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#paper-01621459-2026-2731642">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2731642" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>信用违约互换的拍卖设计，怎样影响保险赔付？</h3>
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>论文研究信用事件拍卖：交易商先承诺买卖数量，再通过多单位拍卖形成同时影响债券交易和 CDS 赔付的价格。作者建立并估计结构模型，区分跨轮学习、数量承诺与既有 CDS 头寸带来的策略激励，再比较替代拍卖机制。这里依据作者主页摘要介绍机制，期刊上线日期单列；反事实结果依赖模型，不能直接视为制度改革的实际成效。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：拍卖机制">拍卖机制</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E8%BF%9D%E7%BA%A6%E4%BA%92%E6%8D%A2&amp;show-results=1" title="全站搜索：信用违约互换">信用违约互换</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#paper-744119">查看本期</a><a href="https://doi.org/10.1086/744119" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>非随机缺失的面板，能用合成最近邻补全吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-21</p>
@@ -32,57 +81,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A2%E7%BB%8F%E5%AA%92%E4%BD%93&amp;show-results=1" title="全站搜索：财经媒体">财经媒体</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：投资者注意力">投资者注意力</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
 <p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2023-00580">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.00580" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>碳价格怎样改变亚马孙的保护与再造林选择？</h3>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文建立空间动态土地配置模型，比较养牛、森林保护和再造林，并纳入牛价波动及地区生产率不确定性。作者公开稿表明，碳定价会改变土地用途选择，使森林管理成为减排的重要补充。这里依据作者 2026 年 3 月公开稿介绍机制，期刊上线日期另列；模型推演有参数与政策设定边界，不能当作已经实现的减排效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A2%B3%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：碳定价">碳定价</a> · <a class="tag-link" href="?q=%E6%A3%AE%E6%9E%97%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：森林保护">森林保护</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：动态模型">动态模型</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-744117">查看本期</a><a href="https://doi.org/10.1086/744117" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>按降雨指数补贴农户，金额越高保护越好吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文研究无法低成本逐户核实产量时，政府如何依据降雨等指数设计产量保护补贴。指数与实际收成不一致会产生基差风险，模型中提高补贴可能反而增加收入波动；最优补贴与指数精度之间也未必单调。适合讨论农业风险管理和政策测量误差，结论依赖模型条件，不能直接套用为各地区统一补贴标准。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%86%9C%E4%B8%9A%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：农业保险">农业保险</a> · <a class="tag-link" href="?q=%E5%9F%BA%E5%B7%AE%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：基差风险">基差风险</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：政策设计">政策设计</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2024-05008">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.05008" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>如何把消费者搜索理论放进 Transformer 模型？</h3>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文提出顺序搜索 Transformer，将消费者逐步搜索、更新效用认知和停止购买的经济决策结构嵌入可训练模型，并用电商点击流数据研究搜索与购买行为。作者讨论参数识别及产品推荐的政策实验。对研究者的启发是明确预测模块如何连接行为机制；模型内的政策比较仍依赖识别条件，预测更准不等于已获得实验意义的因果效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：结构计量">结构计量</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E6%90%9C%E7%B4%A2&amp;show-results=1" title="全站搜索：消费者搜索">消费者搜索</a> · <a class="tag-link" href="?q=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：深度学习">深度学习</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2024-04540">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.04540" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>RDD 置信区间怎样兼顾覆盖率与长度？</h3>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>工作论文提出部分线性断点回归估计量 PLRD，给出大样本理论，并使用依照真实应用校准的模拟比较估计误差及区间表现。其方法评估还使用生成模型构造接近原数据的模拟情境。读者可以借鉴对替代估计方法的比较设计；文中模拟表现不代表所有断点、样本量和函数形状下都必然更优。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%8C%BA%E9%97%B4&amp;show-results=1" title="全站搜索：置信区间">置信区间</a> · <a class="tag-link" href="?q=%E6%A8%A1%E6%8B%9F%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：模拟设计">模拟设计</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#nber-w35699">查看本期</a><a href="https://www.nber.org/papers/w35699" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 生成变量之后，怎样保证测量与推断可信？</h3>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>工作论文区分 AI 进入测量流程的三个环节：发现、概念定义与观测，并讨论每一环节需要怎样的验证。可扩展的测量变多以后，关键问题转向如何选择、评估和校准这些变量。作者强调明确评价标准与适当的验证样本，也讨论缺少随机验证样本时的处理边界；不能把模型输出直接视为无误差数据。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=AI%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：AI测量">AI测量</a> · <a class="tag-link" href="?q=%E9%AA%8C%E8%AF%81%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：验证样本">验证样本</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#nber-w35744">查看本期</a><a href="https://www.nber.org/papers/w35744" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>高维张量时间序列如何提取共同因子？</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>论文用 CP 分解刻画高维张量时间序列，通过序列相关矩阵的特征分析估计因子载荷，允许因子相关及载荷非正交，并讨论稀疏弱因子。双重投影迭代进一步改进估计，文中给出相应渐近分布和方差估计。适合研究同时具有多个维度的动态数据；方法的可用性仍取决于载荷条件、时间依赖结构和样本规模。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：统计学">统计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%A0%E9%87%8F%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：张量时间序列">张量时间序列</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：高维统计">高维统计</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#paper-qkag125">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag125" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>预期石油需求下降，会加快还是减慢开采？</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>预期长期石油需求下降可能促使生产者提前开采，也可能压低耐用资本投资、从而减少供给。论文建立全球石油供给模型比较两种机制，在有实证依据的参数范围内，投资收缩通常占主导，两种效应总体较温和。对能源转型研究的启发是同时考察资源存量与资本调整；这是依赖模型参数的机制分析，不是对未来油价的确定预测。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：能源转型">能源转型</a> · <a class="tag-link" href="?q=%E7%9F%B3%E6%B2%B9%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：石油供给">石油供给</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：投资决策">投资决策</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#paper-rdag106">查看本期</a><a href="https://doi.org/10.1093/restud/rdag106" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 14 页 · 共 131 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 14 页 · 共 138 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

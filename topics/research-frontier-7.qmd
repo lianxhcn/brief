@@ -8,9 +8,58 @@ title: "新论文 · 第 7 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 14 页 · 共 131 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 14 页 · 共 138 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>如何追踪一项生育政策的跨代影响？</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>论文将美国出生记录与不同州、不同出生队列面对的避孕药合法可及性相联系，研究政策对后代出生结局的影响，并讨论生育时间、教育和产前照护等渠道。可借鉴跨代政策暴露的构造思路；数据受限，州际改革的可比性及机制识别仍需精读核查。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B7%A8%E4%BB%A3%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：跨代效应">跨代效应</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E5%87%BA%E7%94%9F%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：出生数据">出生数据</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#nber-w35722">查看本期</a><a href="https://www.nber.org/papers/w35722" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>复杂供应链网络中，安全库存应放在哪里？</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>论文为保证服务模型提出基于线性规划的求解框架，处理有向无环供应链中的安全库存配置。计算难度与网络树宽有关，松弛问题可以提供下界，并在满足整数性时证明最优。适合研究网络结构与优化算法的结合；模型并不覆盖任意有环网络。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98&amp;show-results=1" title="全站搜索：安全库存">安全库存</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92&amp;show-results=1" title="全站搜索：线性规划">线性规划</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：供应链网络">供应链网络</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#paper-mnsc-2025-03155">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2025.03155" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>双胞胎收入相似，怎样区分遗传与社会互动？</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>论文将经典双胞胎设计扩展到缺少卵性信息、但能比较同性与异性双胞胎及普通兄弟姐妹的情形，再结合收入的个人与雇主成分分解。作者发现同企业就业的社会互动可能影响遗传成分估计。它说明家庭相似性不能简单归结为遗传，相关参数的解释依赖模型假设与共同环境处理。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E8%83%9E%E8%83%8E%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：双胞胎设计">双胞胎设计</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E4%BA%92%E5%8A%A8&amp;show-results=1" title="全站搜索：社会互动">社会互动</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E6%94%B6%E5%85%A5&amp;show-results=1" title="全站搜索：劳动收入">劳动收入</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#nber-w35746">查看本期</a><a href="https://www.nber.org/papers/w35746" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ETF 资金流入是否伴随成分股估值偏离？</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>研究考察 ETF 资金流引发的交易与股票价格、后续收益及会计估值指标之间的关系。作者报告资金流追逐过去业绩、当期价格上升与后续反转等相互补充的证据，并讨论专业化 ETF 和卖空约束下的差异。适合借鉴将交易冲击与基本面估值交叉检验的思路；相关性与因果识别仍需分开评价。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=ETF&amp;show-results=1" title="全站搜索：ETF">ETF</a> · <a class="tag-link" href="?q=%E4%BC%B0%E5%80%BC&amp;show-results=1" title="全站搜索：估值">估值</a> · <a class="tag-link" href="?q=%E8%A2%AB%E5%8A%A8%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：被动投资">被动投资</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#paper-tar-2023-0303">查看本期</a><a href="https://publications.aaahq.org/accounting-review/article/doi/10.2308/TAR-2023-0303/28063/Exchange-Traded-Fund-Flows-and-Valuation" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>BLP 需求估计：有限工具变量是否保留了识别信息？</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>论文指出，BLP 模型由条件矩识别，并不保证用固定有限组工具变量构造的无条件 GMM 仍能识别参数。作者先估计条件期望，再以条件方差加权的最小距离法估计需求参数，并在假设下讨论渐近推断。适合检查工具变量选择与识别之间的关系；工作论文中的理论条件和计算表现仍需结合正文判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=BLP&amp;show-results=1" title="全站搜索：BLP">BLP</a> · <a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E7%9F%A9%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：条件矩估计">条件矩估计</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#arxiv-2609-15736">查看本期</a><a href="https://arxiv.org/abs/2609.15736" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>风险信息怎样改变信念？跨国调查与随机信息实验</h3>
+<p class="catalog-meta">期次日期：2026-09-14</p>
+<p>论文先比较八国成年吸烟者的风险认知与官方信息，再用在线随机实验研究不同风险表述如何改变认知。可借鉴其区分跨国描述证据和随机信息干预的设计；这里关注信息与信念，不将实验结果作为产品安全结论。研究披露资助方曾接受烟草企业捐赠，阅读时应同时审视利益关系和研究设计。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：信息实验">信息实验</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E8%AE%A4%E7%9F%A5&amp;show-results=1" title="全站搜索：风险认知">风险认知</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：调查设计">调查设计</a></p>
+<p class="catalog-actions"><a href="../issues/20260914/#nber-w35724">查看本期</a><a href="https://www.nber.org/papers/w35724" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>最低工资调整的就业影响，如何受到融资约束影响？</h3>
+<p class="catalog-meta">期次日期：2026-09-14</p>
+<p>论文结合金融危机期间联邦最低工资上调与企业债务到期结构差异，研究融资约束如何影响企业的用工反应，并以各州错期调整作进一步检验。融资受限与不受限企业的反应存在差异。适合借鉴将企业资产负债表与劳动政策联系的研究设计，解释时仍需审视债务结构和政策变动的识别假设。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%80%E4%BD%8E%E5%B7%A5%E8%B5%84&amp;show-results=1" title="全站搜索：最低工资">最低工资</a> · <a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：融资约束">融资约束</a> · <a class="tag-link" href="?q=%E5%B0%B1%E4%B8%9A&amp;show-results=1" title="全站搜索：就业">就业</a></p>
+<p class="catalog-actions"><a href="../issues/20260914/#paper-hhag075">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag075/8790600" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>当结果变量是分布或网络时，DID 怎样定义处理效应？</h3>
 <p class="catalog-meta">期次日期：2026-09-14</p>
@@ -32,57 +81,8 @@ title: "新论文 · 第 7 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：统计学">统计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0&amp;show-results=1" title="全站搜索：相关系数">相关系数</a> · <a class="tag-link" href="?q=%E5%81%8F%E5%B7%AE%E6%A0%A1%E6%AD%A3&amp;show-results=1" title="全站搜索：偏差校正">偏差校正</a> · <a class="tag-link" href="?q=%E6%B8%90%E8%BF%91%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：渐近推断">渐近推断</a></p>
 <p class="catalog-actions"><a href="../issues/20260914/#paper-asag051">查看本期</a><a href="https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asag051/8788610" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>商业秘密保护加强后，企业内部创新合作如何变化？</h3>
-<p class="catalog-meta">期次日期：2026-09-14</p>
-<p>研究利用美国州级商业秘密法律变化与专利中的企业内部发明人合作网络，考察法律保护和创新活动模块化的关系。作者发现保护增强与较低模块化相关，并讨论新员工连接不同创新群体的作用。适合借鉴法律环境、网络结构与创新组织的结合；机制证据和主效应识别仍需分别评价。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：知识保护">知识保护</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：创新网络">创新网络</a> · <a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9D%97%E5%8C%96&amp;show-results=1" title="全站搜索：网络模块化">网络模块化</a></p>
-<p class="catalog-actions"><a href="../issues/20260914/#paper-smj-70125">查看本期</a><a href="https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.70125" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 预测代替部分真实结果时，怎样校准统计推断？</h3>
-<p class="catalog-meta">期次日期：2026-09-14</p>
-<p>论文将预测辅助推断与代理结果模型联系起来，把预训练模型的预测视为未完全观察到的真实结果的低成本替代。作者用机器学习重新校准填补损失函数，并分析渐近效率和凸优化性质。适合真实标签昂贵的研究；需要真实结果样本参与校准，不能直接把模型预测当作无误差的观测。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：统计学">统计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=%E4%BB%A3%E7%90%86%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：代理结果">代理结果</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a></p>
-<p class="catalog-actions"><a href="../issues/20260914/#paper-asag053">查看本期</a><a href="https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asag053/8790845" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>需求持续变化时，历史数据怎样支持库存决策？</h3>
-<p class="catalog-meta">期次日期：2026-09-13</p>
-<p>论文将需求拆为随时间变化的水平和随机冲击，两者不能分别观察。两阶段非参数订货策略只使用过去需求，在累计变化预算约束下分析遗憾增长率，并用实际数据案例和模拟检验表现。可借鉴到库存、排班及容量规划；应用时仍需检查需求变化方式是否符合模型条件。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%B9%B3%E7%A8%B3%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：非平稳需求">非平稳需求</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：非参数学习">非参数学习</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%BA%90%E9%85%8D%E7%BD%AE&amp;show-results=1" title="全站搜索：资源配置">资源配置</a></p>
-<p class="catalog-actions"><a href="../issues/20260913/#paper-mnsc-2023-01823">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2023.01823" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>社会责任表现较好，为什么也可能引发道德松懈？</h3>
-<p class="catalog-meta">期次日期：2026-09-13</p>
-<p>研究把企业社会绩效反馈、管理者的企业形象认知与道德自我形象联系起来：低于目标可能促使道德补偿，高于目标可能产生道德许可。作者结合档案数据与一系列实验检验不同层次的机制。适合借鉴组织行为与个体心理之间的研究设计，两类证据的作用应分别理解。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：社会责任">社会责任</a> · <a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E5%8F%8D%E9%A6%88&amp;show-results=1" title="全站搜索：绩效反馈">绩效反馈</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a></p>
-<p class="catalog-actions"><a href="../issues/20260913/#paper-orsc-2024-19440">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/orsc.2024.19440" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>大运河改线：政治目标如何改变市场可达性？</h3>
-<p class="catalog-meta">期次日期：2026-09-13</p>
-<p>研究利用跨越五个朝代的网格年度面板，考察首都迁移如何改变大运河路线，以及由此产生的市场可达性和人口分布变化。作者通过反事实分析比较基础设施的经济收益与政治性改线的成本。适合借鉴历史地理数据与空间反事实分析；模型推演需要与直接观察到的历史事实区分。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8F%AF%E8%BE%BE%E6%80%A7&amp;show-results=1" title="全站搜索：市场可达性">市场可达性</a> · <a class="tag-link" href="?q=%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD&amp;show-results=1" title="全站搜索：基础设施">基础设施</a></p>
-<p class="catalog-actions"><a href="../issues/20260913/#nber-w35721">查看本期</a><a href="https://www.nber.org/papers/w35721" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>员工的创业经历与新企业存续有什么关系？</h3>
-<p class="catalog-meta">期次日期：2026-09-13</p>
-<p>作者利用瑞典 1997–2016 年登记数据识别员工过去创办和管理企业的经历，研究这种人力资本与新企业存续的关系。控制多种混杂因素后，两者呈正向关联，资源基础及组织、能力匹配是机制讨论的重点。适合研究员工经历如何进入企业层面分析，但控制变量本身不能排除所有选择偏差。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%AD%98%E7%BB%AD&amp;show-results=1" title="全站搜索：企业存续">企业存续</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：纵向数据">纵向数据</a></p>
-<p class="catalog-actions"><a href="../issues/20260913/#paper-orsc-2023-17457">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/orsc.2023.17457" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>同股不同权公司的股价包含多少未来业绩信息？</h3>
-<p class="catalog-meta">期次日期：2026-09-13</p>
-<p>论文考察内部人投票权与现金流权的偏离程度，发现偏离越大，当前收益率包含的未来盈利和现金流信息越少。机构投资者监督、董事会监督和高质量披露能够缓和这一关系。适合借鉴股价信息含量的度量及治理机制分析；这些经验关系不应直接解读为随机实验结论。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%BB%B7%E4%BF%A1%E6%81%AF&amp;show-results=1" title="全站搜索：股价信息">股价信息</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：双重股权">双重股权</a></p>
-<p class="catalog-actions"><a href="../issues/20260913/#paper-s11142-026-09991-y">查看本期</a><a href="https://link.springer.com/10.1007/s11142-026-09991-y" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 14 页 · 共 131 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 14 页 · 共 138 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -8,9 +8,58 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 131 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 138 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>碳价格怎样改变亚马孙的保护与再造林选择？</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>论文建立空间动态土地配置模型，比较养牛、森林保护和再造林，并纳入牛价波动及地区生产率不确定性。作者公开稿表明，碳定价会改变土地用途选择，使森林管理成为减排的重要补充。这里依据作者 2026 年 3 月公开稿介绍机制，期刊上线日期另列；模型推演有参数与政策设定边界，不能当作已经实现的减排效果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A2%B3%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：碳定价">碳定价</a> · <a class="tag-link" href="?q=%E6%A3%AE%E6%9E%97%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：森林保护">森林保护</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：动态模型">动态模型</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#paper-744117">查看本期</a><a href="https://doi.org/10.1086/744117" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>按降雨指数补贴农户，金额越高保护越好吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>论文研究无法低成本逐户核实产量时，政府如何依据降雨等指数设计产量保护补贴。指数与实际收成不一致会产生基差风险，模型中提高补贴可能反而增加收入波动；最优补贴与指数精度之间也未必单调。适合讨论农业风险管理和政策测量误差，结论依赖模型条件，不能直接套用为各地区统一补贴标准。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%86%9C%E4%B8%9A%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：农业保险">农业保险</a> · <a class="tag-link" href="?q=%E5%9F%BA%E5%B7%AE%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：基差风险">基差风险</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：政策设计">政策设计</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2024-05008">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.05008" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>如何把消费者搜索理论放进 Transformer 模型？</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>论文提出顺序搜索 Transformer，将消费者逐步搜索、更新效用认知和停止购买的经济决策结构嵌入可训练模型，并用电商点击流数据研究搜索与购买行为。作者讨论参数识别及产品推荐的政策实验。对研究者的启发是明确预测模块如何连接行为机制；模型内的政策比较仍依赖识别条件，预测更准不等于已获得实验意义的因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：结构计量">结构计量</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E6%90%9C%E7%B4%A2&amp;show-results=1" title="全站搜索：消费者搜索">消费者搜索</a> · <a class="tag-link" href="?q=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：深度学习">深度学习</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2024-04540">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.04540" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>RDD 置信区间怎样兼顾覆盖率与长度？</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>工作论文提出部分线性断点回归估计量 PLRD，给出大样本理论，并使用依照真实应用校准的模拟比较估计误差及区间表现。其方法评估还使用生成模型构造接近原数据的模拟情境。读者可以借鉴对替代估计方法的比较设计；文中模拟表现不代表所有断点、样本量和函数形状下都必然更优。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%8C%BA%E9%97%B4&amp;show-results=1" title="全站搜索：置信区间">置信区间</a> · <a class="tag-link" href="?q=%E6%A8%A1%E6%8B%9F%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：模拟设计">模拟设计</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#nber-w35699">查看本期</a><a href="https://www.nber.org/papers/w35699" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 生成变量之后，怎样保证测量与推断可信？</h3>
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>工作论文区分 AI 进入测量流程的三个环节：发现、概念定义与观测，并讨论每一环节需要怎样的验证。可扩展的测量变多以后，关键问题转向如何选择、评估和校准这些变量。作者强调明确评价标准与适当的验证样本，也讨论缺少随机验证样本时的处理边界；不能把模型输出直接视为无误差数据。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=AI%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：AI测量">AI测量</a> · <a class="tag-link" href="?q=%E9%AA%8C%E8%AF%81%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：验证样本">验证样本</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#nber-w35744">查看本期</a><a href="https://www.nber.org/papers/w35744" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>高维张量时间序列如何提取共同因子？</h3>
+<p class="catalog-meta">期次日期：2026-09-20</p>
+<p>论文用 CP 分解刻画高维张量时间序列，通过序列相关矩阵的特征分析估计因子载荷，允许因子相关及载荷非正交，并讨论稀疏弱因子。双重投影迭代进一步改进估计，文中给出相应渐近分布和方差估计。适合研究同时具有多个维度的动态数据；方法的可用性仍取决于载荷条件、时间依赖结构和样本规模。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：统计学">统计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%A0%E9%87%8F%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：张量时间序列">张量时间序列</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：高维统计">高维统计</a></p>
+<p class="catalog-actions"><a href="../issues/20260920/#paper-qkag125">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag125" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>预期石油需求下降，会加快还是减慢开采？</h3>
+<p class="catalog-meta">期次日期：2026-09-20</p>
+<p>预期长期石油需求下降可能促使生产者提前开采，也可能压低耐用资本投资、从而减少供给。论文建立全球石油供给模型比较两种机制，在有实证依据的参数范围内，投资收缩通常占主导，两种效应总体较温和。对能源转型研究的启发是同时考察资源存量与资本调整；这是依赖模型参数的机制分析，不是对未来油价的确定预测。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：能源转型">能源转型</a> · <a class="tag-link" href="?q=%E7%9F%B3%E6%B2%B9%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：石油供给">石油供给</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：投资决策">投资决策</a></p>
+<p class="catalog-actions"><a href="../issues/20260920/#paper-rdag106">查看本期</a><a href="https://doi.org/10.1093/restud/rdag106" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>隐私要求不同，如何联合估计函数型均值？</h3>
 <p class="catalog-meta">期次日期：2026-09-20</p>
@@ -32,57 +81,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E9%87%8F%E6%B1%87%E6%80%BB&amp;show-results=1" title="全站搜索：估计量汇总">估计量汇总</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：模型平均">模型平均</a> · <a class="tag-link" href="?q=%E6%9D%83%E9%87%8D%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：权重估计">权重估计</a></p>
 <p class="catalog-actions"><a href="../issues/20260920/#arxiv-2609-19415">查看本期</a><a href="https://arxiv.org/abs/2609.19415" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>无法承诺未来政策时，企业怎样安排债务？</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>论文在动态权衡模型中研究股东可以随时调整债务、却无法承诺未来政策时的融资选择。作者刻画一类时间一致的债务政策：稳定状态下维持目标利息保障倍数，遭遇较大负面冲击后暂时进入困境状态。研究将静态融资权衡与债务不断增加的激励联系起来，适合讨论资本结构的动态机制；结论来自理论模型，不能直接作为具体企业的融资建议。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：动态融资">动态融资</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E4%B8%80%E8%87%B4%E6%80%A7&amp;show-results=1" title="全站搜索：时间一致性">时间一致性</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#paper-hhag083">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag083" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>政策学习怎样兼顾平均收益与抽样风险？</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>工作论文将算法稳定性与政策选择的抽样风险联系起来：替换一个样本后政策变化越小，研究者面对的不确定性可能越低。作者对多个子样本的政策建议进行投票汇总，形成随机分配概率，并在明确条件下比较期望福利与风险厌恶目标。适合讨论政策学习的可靠性；降低抽样波动不等于保证每位受助者都获益。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：算法稳定性">算法稳定性</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：抽样风险">抽样风险</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#arxiv-2609-19418">查看本期</a><a href="https://arxiv.org/abs/2609.19418" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>政策学习如何控制可能造成伤害的风险？</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>工作论文把处理分配转化为对潜在伤害的统计检验，用可观测代理结果与选择性校准构造保形 p 值。在随机实验的交换性等条件下，方法给出有限样本风险控制，并讨论福利优化和观测数据中的双重稳健扩展。安全保证对应明确的概率目标及假设，不能解释为每个人都不会受损，也不能省略观测研究的识别条件。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：保形推断">保形推断</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：风险控制">风险控制</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#arxiv-2609-17296">查看本期</a><a href="https://arxiv.org/abs/2609.17296" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>人口老龄化如何改变财富与全球失衡？</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>论文结合人口预测与 25 国住户调查，先在年龄别财富和劳动收入剖面保持不变时，衡量年龄结构变化对财富与收入比的影响，再用充分统计量连接一般均衡模型。模型推演显示，老龄化可能降低财富回报并扩大全球失衡。阅读时应区分数据中的年龄剖面与依赖储蓄、遗赠及税收设定的长期预测。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E8%80%81%E9%BE%84%E5%8C%96&amp;show-results=1" title="全站搜索：人口老龄化">人口老龄化</a> · <a class="tag-link" href="?q=%E8%B4%A2%E5%AF%8C%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：财富分布">财富分布</a> · <a class="tag-link" href="?q=%E5%85%A8%E7%90%83%E5%A4%B1%E8%A1%A1&amp;show-results=1" title="全站搜索：全球失衡">全球失衡</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#paper-rdag103">查看本期</a><a href="https://doi.org/10.1093/restud/rdag103" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>预训练模型用到未来数据就一定高估预测表现吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-19</p>
-<p>工作论文比较不同训练截止时点的金融时间序列基础模型，与严格使用预测时点可得信息的基准保持相同输入历史和推断流程。研究区分信息集违规与实际准确度偏差，发现接触未来训练信息并不必然改善预测或投资表现。对金融回测而言，应核对训练截止日和模型版本，并实测偏差方向，不能据此允许前视信息进入合规回测。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：预测回测">预测回测</a> · <a class="tag-link" href="?q=%E5%89%8D%E8%A7%86%E5%81%8F%E8%AF%AF&amp;show-results=1" title="全站搜索：前视偏误">前视偏误</a> · <a class="tag-link" href="?q=%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：基础模型">基础模型</a></p>
-<p class="catalog-actions"><a href="../issues/20260919/#arxiv-2609-20554">查看本期</a><a href="https://arxiv.org/abs/2609.20554" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>越关注通胀，预期就越准确吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-19</p>
-<p>论文使用德国家庭与企业的季度面板，研究通胀为何成为人们最关心的经济问题。关注程度既与通胀对决策的重要性有关，也与过去经历有关；更关注通胀的人会获取更多信息，但其预期仍可能偏离事前基准。研究提示，信息搜集、注意力配置和预期准确性应分别衡量，相关性证据不能直接解释为注意力的因果效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%80%9A%E8%83%80%E9%A2%84%E6%9C%9F&amp;show-results=1" title="全站搜索：通胀预期">通胀预期</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：注意力">注意力</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：调查数据">调查数据</a></p>
-<p class="catalog-actions"><a href="../issues/20260919/#paper-qjag047">查看本期</a><a href="https://doi.org/10.1093/qje/qjag047" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>机器学习如何帮助求解动态激励模型？</h3>
-<p class="catalog-meta">期次日期：2026-09-19</p>
-<p>论文把具有持续私人信息和多类型主体的动态逆向选择问题重新表述为可计算的形式，在可检验条件下论证与原问题的对应关系。求解结合并行价值函数迭代、高斯过程回归和贝叶斯主动学习，以近似高维非线性函数。其价值在于拓展可求解的合同模型；近似精度及结果解释仍依赖模型条件和数值验证。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：动态激励">动态激励</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a> · <a class="tag-link" href="?q=%E8%AE%A1%E7%AE%97%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：计算经济学">计算经济学</a></p>
-<p class="catalog-actions"><a href="../issues/20260919/#paper-rdag105">查看本期</a><a href="https://doi.org/10.1093/restud/rdag105" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 131 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 138 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
