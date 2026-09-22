@@ -8,9 +8,23 @@ title: "新方法 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 29 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>Polars：Parquet 写出与错误定位的维护更新</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>Polars 为 Python 提供 DataFrame 与惰性查询接口。1.44.2 回移了 Parquet 写出时避免逐文件完整同步的修复，并改善 I/O 和插件加载报错中的路径信息。安装指定版本可用 <code>pip install polars==1.44.2</code>。对批量处理研究数据的脚本，重点是核对输入输出和报错定位；不要将修复日志直接理解为未经测试的速度提升。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a> · <a class="tag-link" href="?q=Parquet&amp;show-results=1" title="全站搜索：Parquet">Parquet</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#python-polars-20260909">查看本期</a><a href="https://github.com/pola-rs/polars/releases/tag/py-1.44.2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>calibra：用已知总体总量校准调查权重</h3>
+<p class="catalog-meta">期次日期：2026-09-14</p>
+<p>calibra 按 Deville–Särndal 校准思路调整抽样设计权重，使辅助变量的加权总量与已知总体总量匹配。安装命令为 <code>ssc install calibra</code>，支持线性、raking 和 logit 距离；总体总量必须与变量顺序对应。帮助说明线性方法可能产生负权重，事后截断也需重新检查校准残差。本期核验官方帮助，未实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：调查权重">调查权重</a> · <a class="tag-link" href="?q=%E6%A0%A1%E5%87%86%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：校准估计">校准估计</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：抽样调查">抽样调查</a></p>
+<p class="catalog-actions"><a href="../issues/20260914/#stata-calibra-20260911">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459886.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>texpdf：在 Stata 中直接编译 LaTeX 报告</h3>
 <p class="catalog-meta">期次日期：2026-09-13</p>
@@ -67,15 +81,8 @@ title: "新方法 · 第 3 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%88%86%E7%AE%B1%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分箱回归">分箱回归</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：非参数推断">非参数推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0&amp;show-results=1" title="全站搜索：软件更新">软件更新</a> · <a class="tag-link" href="?q=binsreg&amp;show-results=1" title="全站搜索：binsreg">binsreg</a></p>
 <p class="catalog-actions"><a href="../issues/20260905/#binsreg-r-22">查看本期</a><a href="https://cran.r-project.org/package=binsreg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>DoubleML 0.11.4</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.11.4 于 2026-08-10 发布。它将交叉拟合与正交得分封装为接口，可用于复杂控制变量下的因果参数估计；使用时仍需明确识别假设。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：因果机器学习">因果机器学习</a> · <a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E6%8B%9F%E5%90%88&amp;show-results=1" title="全站搜索：交叉拟合">交叉拟合</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#doubleml-python-0114">查看本期</a><a href="https://docs.doubleml.org/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 29 条</span></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

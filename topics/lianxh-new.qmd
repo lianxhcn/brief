@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 39 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 5 页 · 共 41 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>从 GraphRAG 到 ColQwen：大模型文本分析有哪些新玩法？</h3>
+<p class="catalog-meta">期次日期：2026-09-23</p>
+<p>文章围绕变量构造与证据查找，梳理语义标注、层级检索、关系构网、多模态读取、Agent 工作流及时间约束六条路线。以 GraphRAG、ColQwen 等方法说明怎样从文本和图表提取意向、关系与数值，同时比较普通检索基线。建议保留原文定位、日期和模型版本，用独立人工样本检查误判与漏检；检索不到不能直接编码为零，预测表现也不能替代因果识别。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=RAG&amp;show-results=1" title="全站搜索：RAG">RAG</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：经济测量">经济测量</a></p>
+<p class="catalog-actions"><a href="../issues/20260923/#post-1938">查看本期</a><a href="https://www.lianxh.cn/details/1938.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>CatalyzeX：查论文，顺手找代码</h3>
+<p class="catalog-meta">期次日期：2026-09-23</p>
+<p>文章演示从论文题名或研究主题进入 CatalyzeX，再沿代码入口核对 GitHub 仓库的方法，并介绍在 Google Scholar 结果旁查找实现的浏览器扩展。经管读者可用于寻找文本分析、因果机器学习与预测算法的实现线索。找到仓库后仍要确认作者、论文版本、数据与依赖；代码链接不等于完整复现包，没有按钮也不等于没有公开代码。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E4%BB%A3%E7%A0%81&amp;show-results=1" title="全站搜索：论文代码">论文代码</a> · <a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E6%9D%90%E6%96%99&amp;show-results=1" title="全站搜索：复现材料">复现材料</a> · <a class="tag-link" href="?q=CatalyzeX&amp;show-results=1" title="全站搜索：CatalyzeX">CatalyzeX</a></p>
+<p class="catalog-actions"><a href="../issues/20260923/#post-1937">查看本期</a><a href="https://www.lianxh.cn/details/1937.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>Stata 命令 xttestpanel：面板数据模型跑完后，六项检验一起做</h3>
 <p class="catalog-meta">期次日期：2026-09-22</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1&amp;show-results=1" title="全站搜索：知识图谱">知识图谱</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87&amp;show-results=1" title="全站搜索：知识卡片">知识卡片</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a></p>
 <p class="catalog-actions"><a href="../issues/20260910/#post-1929">查看本期</a><a href="https://www.lianxh.cn/details/1929.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>从美欧调查看「AI 采用」的测量、组织扩散与因果识别</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>文章从工人和企业调查出发，区分 AI 暴露、实际采用、使用强度与生产率结果，解释问卷口径和组织部署如何改变指标含义。对于使用年报、招聘或调查数据研究 AI 的读者，可借鉴其观察单位、时间窗口和采用路径的核对思路；行业相关性仍不能直接解释为因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：AI 采用">AI 采用</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：企业调查">企业调查</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#post-1927">查看本期</a><a href="https://www.lianxh.cn/details/1927.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI Agent 到底是什么？一次理清 LLM、Chatbot、Workflow 与 Agentic</h3>
-<p class="catalog-meta">期次日期：2026-09-09</p>
-<p>文章用修正 Stata do-file 的教学场景，比较人主导、预设程序和模型动态安排操作三种机制。讨论模型、对话应用、工具权限和反馈回路各自承担的工作，并给出描述研究系统时应记录的模型版本、决策范围及验收条件。代码运行成功仍需结合研究设定核查，不能由 Agent 名称推断可靠性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20Agent&amp;show-results=1" title="全站搜索：AI Agent">AI Agent</a> · <a class="tag-link" href="?q=Workflow&amp;show-results=1" title="全站搜索：Workflow">Workflow</a> · <a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：科研复现">科研复现</a></p>
-<p class="catalog-actions"><a href="../issues/20260909/#post-1926">查看本期</a><a href="https://www.lianxh.cn/details/1926.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 39 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 5 页 · 共 41 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

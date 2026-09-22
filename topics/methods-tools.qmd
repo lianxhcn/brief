@@ -8,9 +8,23 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>staggR 0.2.1：修正聚合效应的 p 值和显著性标记</h3>
+<p class="catalog-meta">期次日期：2026-09-23</p>
+<p>staggR 为分批实施政策的 DID 提供分组与事件时间参数及聚合工具。0.2.1 修正 ave_coeff() 使用正态分布而非 t 分布计算 p 值的问题，以及显著性星号、缺失系数和日期类型处理，并增加事件研究与日历时间汇总功能。安装命令为 <code>install.packages(&quot;staggR&quot;)</code>。采用的是 Sun–Abraham 思路的实现，仍需核对平行趋势与比较组；本期依据 NEWS 和官方示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260923/#r-staggr-0-2-1">查看本期</a><a href="https://cran.r-project.org/web/packages/staggR/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>csdm 2.0.0：面板共同因子、滞后与协方差修复</h3>
+<p class="catalog-meta">期次日期：2026-09-23</p>
+<p>csdm 提供 MG、CCE、动态 CCE 和 CS-ARDL 等异质面板模型。2.0.0 改善缺失值与横截面均值处理，按明确时间网格构造滞后，修正部分协方差及截面相关诊断，并停用尚未实现合并约束的接口。安装命令为 <code>install.packages(&quot;csdm&quot;)</code>。升级可能改变样本及推断结果，需报告版本并重新核对；Windows 二进制当时仍为旧版，本期未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：异质面板">异质面板</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260923/#r-csdm-2-0-0">查看本期</a><a href="https://cran.r-project.org/web/packages/csdm/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>interflex 1.4.1：核估计带宽与失败拟合处理修复</h3>
 <p class="catalog-meta">期次日期：2026-09-22</p>
@@ -67,22 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：研究报告">研究报告</a> · <a class="tag-link" href="?q=Quarto&amp;show-results=1" title="全站搜索：Quarto">Quarto</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260918/#r-tinytable-0-19-0">查看本期</a><a href="https://cran.r-project.org/web/packages/tinytable/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>itdidbounds：处理时间只有区间时的 DID 对比</h3>
-<p class="catalog-meta">期次日期：2026-09-18</p>
-<p>itdidbounds 枚举各单位可能的处理日期，计算单位和事件时点层面的变化对比最小值、最大值，再按固定正权重汇总。控制组须确定从未处理或最早可能处理时间晚于目标时点。安装命令为 <code>ssc install itdidbounds</code>。输出描述处理时间不确定性带来的对比范围，不能自动解释为因果效应界限或置信区间。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%97%B6%E9%97%B4&amp;show-results=1" title="全站搜索：处理时间">处理时间</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20260918/#stata-itdidbounds-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459890.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>MatchIt 4.8.0：抽样权重如何进入匹配计算</h3>
-<p class="catalog-meta">期次日期：2026-09-18</p>
-<p>MatchIt 4.8.0 改变部分分层匹配方法对 <code>s.weights</code> 的处理：抽样权重现在参与匹配权重计算，使用 <code>add_s.weights()</code> 后也可能重算匹配权重。新版还调整基数匹配和外部数据传入的检查。安装命令为 <code>install.packages(&quot;MatchIt&quot;)</code>；截至核验时 Windows 二进制仍为 4.7.2，需确认实际安装版本。更新后应复查目标总体、平衡性及旧结果差异。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BE%E5%90%91%E5%BE%97%E5%88%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：倾向得分匹配">倾向得分匹配</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：抽样权重">抽样权重</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260918/#r-matchit-4-8-0">查看本期</a><a href="https://cran.r-project.org/web/packages/MatchIt/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 29 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

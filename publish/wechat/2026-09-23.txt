@@ -1,0 +1,22 @@
+📙 连享会 · 快讯 | 2026.09.23
+
+✍️ 01｜新推文：CatalyzeX：查论文，顺手找代码
+介绍从论文找到关联代码的检索路径，结合实例核对版本、数据与依赖，区分算法实现和完整复现材料。
+阅读全文： https://www.lianxh.cn/details/1937.html 
+
+✍️ 02｜新推文：从 GraphRAG 到 ColQwen：大模型文本分析有哪些新玩法？
+从研究任务出发比较文本分析路线，说明如何保存证据、控制历史信息集，并用人工样本评估误判与漏检。
+阅读全文： https://www.lianxh.cn/details/1938.html 
+
+📰 03｜论文 · QJE：居家弹性工作能成为女性进入劳动力市场的第一步吗？
+随机实验考察弹性居家岗位如何影响女性就业参与及后续求职，同时提示工作灵活性与任务表现之间的权衡。
+引文：Ho, Jalota & Karandikar (2026). Bringing Work Home: Flexible Work Arrangements as Gateway Jobs for Women in West Bengal. QJE.
+主页： https://doi.org/10.1093/qje/qjag045 
+
+📰 04｜论文 · Review of Economic Studies：估计企业加价率，生产数据和需求数据能相互验证吗？
+比较并结合生产侧和需求侧加价率估计，说明下游成本及零售竞争假设为何影响市场势力的测量。
+引文：De Loecker & Scott (2026). Markup Estimation using Production and Demand Data: An Application to the US Brewing Industry. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag109 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260923/ 

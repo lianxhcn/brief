@@ -1,0 +1,25 @@
+---
+title: "新方法 · 第 4 页"
+---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
+
+<p class="catalog-intro"></p>
+
+<p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
+
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 4 页 · 共 31 条</span></nav>
+
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>DoubleML 0.11.4</h3>
+<p class="catalog-meta">期次日期：2026-09-05</p>
+<p>DoubleML 为双重/去偏机器学习提供 Python 与 R 实现，Python 版 0.11.4 于 2026-08-10 发布。它将交叉拟合与正交得分封装为接口，可用于复杂控制变量下的因果参数估计；使用时仍需明确识别假设。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：因果机器学习">因果机器学习</a> · <a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E6%8B%9F%E5%90%88&amp;show-results=1" title="全站搜索：交叉拟合">交叉拟合</a></p>
+<p class="catalog-actions"><a href="../issues/20260905/#doubleml-python-0114">查看本期</a><a href="https://docs.doubleml.org/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+</div>
+
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 4 页 · 共 31 条</span></nav>
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

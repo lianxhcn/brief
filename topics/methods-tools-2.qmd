@@ -8,9 +8,23 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 3 页 · 共 29 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>itdidbounds：处理时间只有区间时的 DID 对比</h3>
+<p class="catalog-meta">期次日期：2026-09-18</p>
+<p>itdidbounds 枚举各单位可能的处理日期，计算单位和事件时点层面的变化对比最小值、最大值，再按固定正权重汇总。控制组须确定从未处理或最早可能处理时间晚于目标时点。安装命令为 <code>ssc install itdidbounds</code>。输出描述处理时间不确定性带来的对比范围，不能自动解释为因果效应界限或置信区间。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%97%B6%E9%97%B4&amp;show-results=1" title="全站搜索：处理时间">处理时间</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
+<p class="catalog-actions"><a href="../issues/20260918/#stata-itdidbounds-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459890.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>MatchIt 4.8.0：抽样权重如何进入匹配计算</h3>
+<p class="catalog-meta">期次日期：2026-09-18</p>
+<p>MatchIt 4.8.0 改变部分分层匹配方法对 <code>s.weights</code> 的处理：抽样权重现在参与匹配权重计算，使用 <code>add_s.weights()</code> 后也可能重算匹配权重。新版还调整基数匹配和外部数据传入的检查。安装命令为 <code>install.packages(&quot;MatchIt&quot;)</code>；截至核验时 Windows 二进制仍为 4.7.2，需确认实际安装版本。更新后应复查目标总体、平衡性及旧结果差异。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BE%E5%90%91%E5%BE%97%E5%88%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：倾向得分匹配">倾向得分匹配</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：抽样权重">抽样权重</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260918/#r-matchit-4-8-0">查看本期</a><a href="https://cran.r-project.org/web/packages/MatchIt/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>statsmodels 0.15.0：GLM 边际效应与多变量回归</h3>
 <p class="catalog-meta">期次日期：2026-09-17</p>
@@ -67,22 +81,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：贝叶斯模型平均">贝叶斯模型平均</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260915/#r-badp-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/badp/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>Polars：Parquet 写出与错误定位的维护更新</h3>
-<p class="catalog-meta">期次日期：2026-09-15</p>
-<p>Polars 为 Python 提供 DataFrame 与惰性查询接口。1.44.2 回移了 Parquet 写出时避免逐文件完整同步的修复，并改善 I/O 和插件加载报错中的路径信息。安装指定版本可用 <code>pip install polars==1.44.2</code>。对批量处理研究数据的脚本，重点是核对输入输出和报错定位；不要将修复日志直接理解为未经测试的速度提升。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a> · <a class="tag-link" href="?q=Parquet&amp;show-results=1" title="全站搜索：Parquet">Parquet</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
-<p class="catalog-actions"><a href="../issues/20260915/#python-polars-20260909">查看本期</a><a href="https://github.com/pola-rs/polars/releases/tag/py-1.44.2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>calibra：用已知总体总量校准调查权重</h3>
-<p class="catalog-meta">期次日期：2026-09-14</p>
-<p>calibra 按 Deville–Särndal 校准思路调整抽样设计权重，使辅助变量的加权总量与已知总体总量匹配。安装命令为 <code>ssc install calibra</code>，支持线性、raking 和 logit 距离；总体总量必须与变量顺序对应。帮助说明线性方法可能产生负权重，事后截断也需重新检查校准残差。本期核验官方帮助，未实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：调查权重">调查权重</a> · <a class="tag-link" href="?q=%E6%A0%A1%E5%87%86%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：校准估计">校准估计</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：抽样调查">抽样调查</a></p>
-<p class="catalog-actions"><a href="../issues/20260914/#stata-calibra-20260911">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459886.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 3 页 · 共 29 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
