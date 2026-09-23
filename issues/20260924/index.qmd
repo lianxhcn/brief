@@ -1,0 +1,207 @@
+---
+title: "连享会 · 快讯 | 2026.09.24"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 87% 未违约与 13% 违约：投研 AI 的判断会相同吗？ {#post-1939}
+
+文章以经济含义相同的正负表述为对照，介绍投研 Agent 的表述敏感性压力测试。测试需冻结模型、工具和数据环境，重复运行并比较评分、决策翻转及证据搜索路径，同时用同一表述的波动作为基线。文中示意数字不代表本期实测；稳定性检查也不能替代对数据、识别方法和投资结论的人工审核。
+
+标签：<a class="tag-link" href="?q=%E6%8A%95%E7%A0%94%20Agent&amp;show-results=1" title="全站搜索：投研 Agent">投研 Agent</a> · <a class="tag-link" href="?q=%E8%A1%A8%E8%BF%B0%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：表述偏差">表述偏差</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a>
+
+<small>来源日期：2026-09-24；补录：2026-09-24</small>
+
+<a href="https://www.lianxh.cn/details/1939.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 法官分配真的随机吗？破产案件中的择庭行为 {#paper-jofi-70081}
+
+<p class="myapa">Hüther, N. &amp; Kleiner, K. (2026). Justice Good as Random? The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70081" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Justice%20Good%20as%20Random%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用美国企业破产案件考察法官分配能否视为随机。作者发现，不同债权人及法律顾问涉及的案件在法官既往裁决特征上存在系统差异，并指出大型案件排队规则可能留下择时提交的空间。研究提出衡量由此产生偏差的方法，对法官或审查员工具变量设计有直接启发；采用此类设计时仍需核对具体分案机制与控制条件。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E6%B3%95%E5%AE%98%E5%88%86%E9%85%8D&amp;show-results=1" title="全站搜索：法官分配">法官分配</a> · <a class="tag-link" href="?q=%E7%A0%B4%E4%BA%A7&amp;show-results=1" title="全站搜索：破产">破产</a>
+
+<small>来源日期：2026-09-22；补录：2026-09-24</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 为什么有些人不愿延迟领取养老金？ {#paper-rdag107}
+
+<p class="myapa">Bairoliya, N. &amp; McKiernan, K. (2026). Revisiting Retirement and Social Security Claiming Decisions. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag107" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Revisiting%20Retirement%20and%20Social%20Security%20Claiming%20Decisions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将政策细节、主观寿命预期和对社保规则的理解纳入前瞻性生命周期模型，解释财富、寿命预期和延迟领取激励不同的人为何可能选择相近的领取年龄。作者通过反事实模拟讨论这些信念如何影响退休年龄改革的行为及财政预测。其政策结果依赖模型和信念测量，不能把模拟反应直接视为已经观察到的改革效应。
+
+标签：<a class="tag-link" href="?q=%E9%80%80%E4%BC%91%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：退休决策">退休决策</a> · <a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：主观信念">主观信念</a> · <a class="tag-link" href="?q=%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：生命周期模型">生命周期模型</a>
+
+<small>来源日期：2026-09-21；补录：2026-09-24</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### nonprobsvy 0.3.0：非概率样本推断的方差与 bootstrap 修复 {#r-nonprobsvy-0-3-0}
+
+该 R 包利用概率样本或总体辅助信息，对非概率样本进行加权、插补和双重稳健推断。0.3.0 修复多项 bootstrap 与方差计算问题，包括插补 bootstrap 权重使用和部分双重稳健推断。安装命令为 <code>install.packages(&quot;nonprobsvy&quot;)</code>。官方对 probit/cloglog 双重稳健解析方差提示保守性并建议 bootstrap；Windows 二进制可能滞后于源码，应核对版本。本期已读 NEWS 与示例，未实测。
+
+标签：<a class="tag-link" href="?q=%E9%9D%9E%E6%A6%82%E7%8E%87%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：非概率样本">非概率样本</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-23；补录：2026-09-24</small>
+
+<a href="https://cran.r-project.org/web/packages/nonprobsvy/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 最优处理规则不唯一时，如何评价其平均收益？ {#paper-qkag127}
+
+<p class="myapa">Xu, S. &amp; Guo, X. (2026). Optimal inference of the mean outcome under optimal treatment regime. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag127" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Optimal%20inference%20of%20the%20mean%20outcome%20under%20optimal%20treatment%20regime" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究最优处理规则对应平均结果的推断。当最优规则不唯一时，把估计出的规则当作固定规则可能带来偏差。作者通过自适应平滑处理非正则情形，给出推断程序，并在所考虑的稳健渐近线性无偏估计量类别中建立方差下界及达到该下界的结果。适合政策学习与个体化决策研究；结论仍受论文设定和估计量类别约束。
+
+标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E9%9D%9E%E6%AD%A3%E5%88%99%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：非正则推断">非正则推断</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E5%A4%84%E7%90%86%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：最优处理规则">最优处理规则</a>
+
+<small>来源日期：2026-09-22；补录：2026-09-24</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 预期政府救助，如何改变融资与投资？ {#paper-hhag081}
+
+<p class="myapa">Song, F. &amp; Thakor, A. (2026). Adverse Selection and the Government Intervention Trap. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag081" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Adverse%20Selection%20and%20the%20Government%20Intervention%20Trap" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇理论论文把融资中的逆向选择与失败企业的资产交易联系起来。高质量企业可能容忍当前融资成本，以期待将来收购资产的收益；政府干预交易摩擦会改变这种预期，从而影响事前融资参与和项目投资。模型在不同参数下可以产生有利或不利效果，后者可能形成干预陷阱。它提供机制分析，不能概括为所有救助政策都会降低投资。
+
+标签：<a class="tag-link" href="?q=%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：逆向选择">逆向选择</a> · <a class="tag-link" href="?q=%E6%94%BF%E5%BA%9C%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：政府干预">政府干预</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：企业投资">企业投资</a>
+
+<small>来源日期：2026-09-19；补录：2026-09-24</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 招聘广告中的企业文化，能帮助求职者匹配企业吗？ {#paper-mnsc-2024-07272}
+
+<p class="myapa">Huang, A. H., Pacelli, J., Shi, T. T., &amp; Zou, Y. (2026). Communicating Corporate Culture in Labor Markets: Evidence from Job Postings. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07272" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Communicating%20Corporate%20Culture%20in%20Labor%20Markets%3A%20Evidence%20from%20Job%20Postings" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者用机器学习识别招聘广告中的五类核心文化价值，考察文化信息与员工流入、面试后录用及接受录用之间的联系。求职者重视文化、且难以从其他渠道了解企业时，这类信息的作用更明显。研究为招聘文本度量与劳动力匹配提供思路；简讯依据摘要中的关联证据，不把文化措辞解释为随机分配的处理。
+
+标签：<a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%96%87%E6%9C%AC&amp;show-results=1" title="全站搜索：招聘文本">招聘文本</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96&amp;show-results=1" title="全站搜索：企业文化">企业文化</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：劳动力匹配">劳动力匹配</a>
+
+<small>来源日期：2026-09-21；补录：2026-09-24</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 私人企业财报审计，与税务稽查结果有什么联系？ {#paper-tar-2023-0662}
+
+<p class="myapa">Mullaney, M. S., Stomberg, B., &amp; Williams, B. (2026). Financial Statement Audits of Private Firms and IRS Enforcement Outcomes. The Accounting Review, 1-23. <a href="https://doi.org/10.2308/tar-2023-0662" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Financial%20Statement%20Audits%20of%20Private%20Firms%20and%20IRS%20Enforcement%20Outcomes" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文使用美国私人 C 类公司的税表资料，比较有无经审计 GAAP 财报的企业在 IRS 稽查中的结果。经审计财报与较少、较小的拟议补税差额及更详细的申报披露相关，作者也控制了税务编制者。研究有助于理解财报审计与税收合规的关系；税务数据受限，本文依据摘要，不将相关关系写成已识别的因果效应。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A2%E6%8A%A5%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：财报审计">财报审计</a> · <a class="tag-link" href="?q=%E7%A8%8E%E6%94%B6%E5%90%88%E8%A7%84&amp;show-results=1" title="全站搜索：税收合规">税收合规</a> · <a class="tag-link" href="?q=%E7%A7%81%E4%BA%BA%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：私人企业">私人企业</a>
+
+<small>来源日期：2026-09-21；补录：2026-09-24</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 加入更多预测者，带来改进还是稀释？ {#arxiv-2609-26303}
+
+<p class="myapa">Soleimani, Masoud. (2026). Target alignment, dilution and forecast selection when cross-sectional forecasts share a common target. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.26303" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.26303.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Target%20alignment%2C%20dilution%20and%20forecast%20selection%20when%20cross-sectional%20forecasts%20share%20a%20common%20target" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文讨论多个预测者对同一批对象、同一实际结果进行标准化预测的情形，将预测分解为与目标对齐和不相关的部分。作者据此区分加入预测者带来的真实改进与稀释效应，并提出谨慎的选择规则。应用涉及股票与 ETF 排序，但作者报告的组合并未胜过无信息基线；结果不能转化为投资收益承诺。
+
+标签：<a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：预测组合">预测组合</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：金融预测">金融预测</a>
+
+<small>来源日期：2026-09-22；补录：2026-09-24</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 扩散模型如何恢复反事实结果的联合分布？ {#arxiv-2609-25924}
+
+<p class="myapa">Kong, Xinbing, Li, Zeyu, Mao, Junfan, &amp; Wu, Bin. (2026). Conditional Tensor Diffusion: Distributional Counterfactual Learning and Inference. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.25924" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.25924.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Conditional%20Tensor%20Diffusion%3A%20Distributional%20Counterfactual%20Learning%20and%20Inference" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文将处理掩码、低秩 Tucker 结构与条件扩散结合，学习高维面板或张量中缺失控制结果的条件联合分布，并给出与秩及缺失结构有关的误差界。作者以模拟和挪威电力实验说明预测区间及目标达成概率的用途。方法依赖其结构与识别条件，恢复分布的能力不能自动消除未观测混杂；本期未复现性能比较。
+
+标签：<a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：反事实分布">反事实分布</a> · <a class="tag-link" href="?q=%E5%BC%A0%E9%87%8F%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：张量模型">张量模型</a> · <a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E6%89%A9%E6%95%A3&amp;show-results=1" title="全站搜索：条件扩散">条件扩散</a>
+
+<small>来源日期：2026-09-22；补录：2026-09-24</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 社会规范能代替正式执法吗？来自住房交易的证据 {#nber-w35756}
+
+<p class="myapa">Tomasz Piskorski, Amit Seru, Jian Zhang, &amp; Chun Zhao. (2026). Do Social Norms Substitute for Enforcement? Evidence from Public Officials’ Home Purchases in Singapore. NBER Working Paper 35756. <a href="https://doi.org/10.3386/w35756" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35756/w35756.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Do%20Social%20Norms%20Substitute%20for%20Enforcement%3F%20Evidence%20from%20Public%20Officials%E2%80%99%20Home%20Purchases%20in%20Singapore" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者把新加坡住房交易与地铁扩建公告连接起来，考察公职人员及亲属在尚未公开规划站点附近的购房行为，并结合执法变化、调查信息和动态模型讨论廉洁规范的持续性。研究关注非公开信息与制度约束，提示社会规范可能需要正式执法支持；对行为动机及执法效应的判断仍需结合匹配设计和制度背景，不能外推至所有公职群体。
+
+标签：<a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：制度约束">制度约束</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%BC%98%E5%8A%BF&amp;show-results=1" title="全站搜索：信息优势">信息优势</a> · <a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E4%BA%A4%E6%98%93&amp;show-results=1" title="全站搜索：住房交易">住房交易</a>
+
+<small>来源日期：2026-09-14；补录：2026-09-24</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### iglm 1.2.6：网络干扰模型的诊断与接口更新 {#r-iglm-1-2-6}
+
+iglm 将广义线性模型扩展到结果可能相互依赖的连接群体，用于研究网络关联与溢出。1.2.6 统一度分布接口，增加按属性筛选的子网络描述和拟合诊断，并把部分 type 参数改为 family，同时增强输入检查。安装命令为 <code>install.packages(&quot;iglm&quot;)</code>。旧脚本需核对参数名；网络关联不自动构成因果溢出证据。本期依据官方 NEWS 与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=GLM&amp;show-results=1" title="全站搜索：GLM">GLM</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-23；补录：2026-09-24</small>
+
+<a href="https://cran.r-project.org/web/packages/iglm/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

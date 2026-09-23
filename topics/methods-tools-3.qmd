@@ -8,9 +8,23 @@ title: "新方法 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 33 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>resultcheck：检查模型结果是否随代码修改而改变</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>resultcheck 保存 R 对象的可读快照，比较模型、表格等输出在修改前后的差异。0.3.1 修复引号样式和 <code>max.print</code> 设置导致的假差异，并在序列化后恢复调用者选项。安装命令为 <code>install.packages(&quot;resultcheck&quot;)</code>。此前被截断的基线可能需要人工重审；快照一致只能说明输出稳定，不能证明研究设计或估计方法正确。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：结果检查">结果检查</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#r-resultcheck-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/resultcheck/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>badp：动态面板模型平均更新了结果接口</h3>
+<p class="catalog-meta">期次日期：2026-09-15</p>
+<p>badp 用贝叶斯模型平均处理含弱外生解释变量的动态面板。0.7.0 将 <code>best_models()</code> 改为返回独立模型对象，便于提取系数、标准误和 p 值，并将单模型检验改为基于正态近似的 Wald 推断。安装命令为 <code>install.packages(&quot;badp&quot;)</code>。旧代码的参数与结果读取方式需要调整；模型平均仍依赖候选模型、先验及外生性假设。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：贝叶斯模型平均">贝叶斯模型平均</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260915/#r-badp-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/badp/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>Polars：Parquet 写出与错误定位的维护更新</h3>
 <p class="catalog-meta">期次日期：2026-09-15</p>
@@ -67,22 +81,8 @@ title: "新方法 · 第 3 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%BB%9A%E5%8A%A8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：滚动估计">滚动估计</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%BB%9A%E5%8A%A8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：滚动估计">滚动估计</a></p>
 <p class="catalog-actions"><a href="../issues/20260908/#stata-lwdid-20260821">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459672.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>Stata 新命令：xtbfkbreak 估计异质面板的共同结构突变</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>命令把共同相关效应 (CCE) 与未知突变点估计结合起来，允许异质斜率和未观测共同因子，并提供内生解释变量的工具变量设定。SSC 记录显示 8 月 20 日有修订。安装命令为 <code>ssc install xtbfkbreak</code>；应结合配套方法 help 检查共同突变、因子结构及工具变量条件。这里介绍文档功能，尚无本项目运行结果。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#stata-xtbfkbreak-20260820">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459789.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>R：binsreg 2.2 分箱散点图与统计推断</h3>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>binsreg 2.2 于 2026-08-21 发布，包含 binsreg、binsqreg、binsglm、binstest 等函数，可用于分箱回归、置信区间、形状检验及相关可视化，并支持协变量调整和聚类推断。分箱图本身不能确立因果关系。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>方法：</strong><a class="tag-link" href="?q=%E5%88%86%E7%AE%B1%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分箱回归">分箱回归</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：非参数推断">非参数推断</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0&amp;show-results=1" title="全站搜索：软件更新">软件更新</a> · <a class="tag-link" href="?q=binsreg&amp;show-results=1" title="全站搜索：binsreg">binsreg</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#binsreg-r-22">查看本期</a><a href="https://cran.r-project.org/package=binsreg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 4 页 · 共 33 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

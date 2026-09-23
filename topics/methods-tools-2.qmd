@@ -8,9 +8,23 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 33 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>attrition：实验失访后的效应界限</h3>
+<p class="catalog-meta">期次日期：2026-09-19</p>
+<p>attrition 首次发布，面向随机实验中的非随机结果缺失，提供最坏情形界限、双重抽样界限、修剪界限及敏感性分析。双重抽样需要对最初未回应者随机抽取一部分进行再次追访；不同界限依赖不同假设。安装命令为 <code>install.packages(&quot;attrition&quot;)</code>。输出应区分识别区间与置信区间；截至核验时 Windows 二进制尚不可用，需确认安装方式。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E5%A4%B1%E8%AE%BF&amp;show-results=1" title="全站搜索：实验失访">实验失访</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260919/#r-attrition-1-0-0">查看本期</a><a href="https://cran.r-project.org/web/packages/attrition/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>tinytable 0.19.0：修正 Quarto 分组表格格式处理</h3>
+<p class="catalog-meta">期次日期：2026-09-18</p>
+<p>tinytable 0.19.0 修正 <code>format_tt(quarto = TRUE)</code> 与行分组配合时产生多余 NA 行或格式套到错误单元格的问题，并将相关格式处理扩展到列名、标题、注释和分组标签。安装命令为 <code>install.packages(&quot;tinytable&quot;)</code>。使用 Quarto 输出分组回归表或描述统计表的读者，可重点检查更新前后的表格布局与数值对应关系。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：研究报告">研究报告</a> · <a class="tag-link" href="?q=Quarto&amp;show-results=1" title="全站搜索：Quarto">Quarto</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260918/#r-tinytable-0-19-0">查看本期</a><a href="https://cran.r-project.org/web/packages/tinytable/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>itdidbounds：处理时间只有区间时的 DID 对比</h3>
 <p class="catalog-meta">期次日期：2026-09-18</p>
@@ -67,22 +81,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260916/#r-ardldml-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/ardldml/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>resultcheck：检查模型结果是否随代码修改而改变</h3>
-<p class="catalog-meta">期次日期：2026-09-15</p>
-<p>resultcheck 保存 R 对象的可读快照，比较模型、表格等输出在修改前后的差异。0.3.1 修复引号样式和 <code>max.print</code> 设置导致的假差异，并在序列化后恢复调用者选项。安装命令为 <code>install.packages(&quot;resultcheck&quot;)</code>。此前被截断的基线可能需要人工重审；快照一致只能说明输出稳定，不能证明研究设计或估计方法正确。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：结果检查">结果检查</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260915/#r-resultcheck-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/resultcheck/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>badp：动态面板模型平均更新了结果接口</h3>
-<p class="catalog-meta">期次日期：2026-09-15</p>
-<p>badp 用贝叶斯模型平均处理含弱外生解释变量的动态面板。0.7.0 将 <code>best_models()</code> 改为返回独立模型对象，便于提取系数、标准误和 p 值，并将单模型检验改为基于正态近似的 Wald 推断。安装命令为 <code>install.packages(&quot;badp&quot;)</code>。旧代码的参数与结果读取方式需要调整；模型平均仍依赖候选模型、先验及外生性假设。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：贝叶斯模型平均">贝叶斯模型平均</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260915/#r-badp-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/badp/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 31 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 33 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

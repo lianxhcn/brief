@@ -1,0 +1,23 @@
+📙 连享会 · 快讯 | 2026.09.24
+
+✍️ 01｜新推文：87% 未违约与 13% 违约：投研 AI 的判断会相同吗？
+同一组财务事实换一种说法，AI 判断可能改变。文章介绍成对提示词、重复运行和证据路径比较，区分表述影响与随机波动。
+阅读全文： https://www.lianxh.cn/details/1939.html 
+
+📰 02｜论文 · The Journal of Finance：法官分配真的随机吗？破产案件中的择庭行为
+从企业破产案件考察择时提交如何影响法官分配，提醒法官工具变量研究核验随机分案假设。
+引文：Hüther & Kleiner (2026). Justice Good as Random?. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70081 
+
+📰 03｜论文 · Review of Economic Studies：为什么有些人不愿延迟领取养老金？
+将主观寿命预期与社保规则认知纳入生命周期模型，解释领取年龄并重新评估退休政策模拟。
+引文：Bairoliya & McKiernan (2026). Revisiting Retirement and Social Security Claiming Decisions. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag107 
+
+📦 04｜软件 · R：nonprobsvy 0.3.0：非概率样本推断的方差与 bootstrap 修复
+修复非概率样本分析中的多项方差与 bootstrap 问题；升级后需核对所用版本、模型链接与推断设置。
+版本：R / nonprobsvy 0.3.0；发布：2026-09-23
+CRAN： https://cran.r-project.org/web/packages/nonprobsvy/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260924/ 

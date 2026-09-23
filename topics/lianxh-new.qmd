@@ -8,9 +8,16 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 5 页 · 共 41 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 5 页 · 共 42 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>87% 未违约与 13% 违约：投研 AI 的判断会相同吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>文章以经济含义相同的正负表述为对照，介绍投研 Agent 的表述敏感性压力测试。测试需冻结模型、工具和数据环境，重复运行并比较评分、决策翻转及证据搜索路径，同时用同一表述的波动作为基线。文中示意数字不代表本期实测；稳定性检查也不能替代对数据、识别方法和投资结论的人工审核。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E7%A0%94%20Agent&amp;show-results=1" title="全站搜索：投研 Agent">投研 Agent</a> · <a class="tag-link" href="?q=%E8%A1%A8%E8%BF%B0%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：表述偏差">表述偏差</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#post-1939">查看本期</a><a href="https://www.lianxh.cn/details/1939.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>从 GraphRAG 到 ColQwen：大模型文本分析有哪些新玩法？</h3>
 <p class="catalog-meta">期次日期：2026-09-23</p>
@@ -74,15 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%9C%AC%E5%9C%B0%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：本地模型">本地模型</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
 <p class="catalog-actions"><a href="../issues/20260914/#post-1930">查看本期</a><a href="https://www.lianxh.cn/details/1930.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>AI 我知道-07：知识图谱如何用于研究？工具、提示词与工作流</h3>
-<p class="catalog-meta">期次日期：2026-09-10</p>
-<p>文章把论文拆成带来源、页码和限定条件的知识卡片，再讨论何时需要将卡片连接为知识图谱。它区分文献网络、向量 RAG 与 GraphRAG，并给出小规模文献库的字段、提示词和核验流程；模型抽取的关系仍是候选证据，不能直接当作综述结论。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1&amp;show-results=1" title="全站搜索：知识图谱">知识图谱</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87&amp;show-results=1" title="全站搜索：知识卡片">知识卡片</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a></p>
-<p class="catalog-actions"><a href="../issues/20260910/#post-1929">查看本期</a><a href="https://www.lianxh.cn/details/1929.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 5 页 · 共 41 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 5 页 · 共 42 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
