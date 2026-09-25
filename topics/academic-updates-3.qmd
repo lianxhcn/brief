@@ -8,9 +8,16 @@ title: "会议征稿 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 21 条</span></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 22 条</span></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>2027 Consortium on Asset Management</h3>
+<p class="catalog-meta">期次日期：2026-09-04</p>
+<p>FMA International 的资产管理研究 workshop 将于 2027-04-15 在剑桥举行。征稿涵盖公司治理、金融市场史、传统与另类资产、共同基金、对冲基金和责任投资；参会资格与费用见官方通知。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：资产管理">资产管理</a></p>
+<p class="catalog-actions"><a href="../issues/20260904/#fma-asset-management-2027">查看本期</a><a href="https://www.fma.org/2027-consortium-on-asset-management" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>10th International Conference on Economics and Business (ICEB 2026)</h3>
 <p class="catalog-meta">期次日期：2026-09-04</p>
@@ -20,6 +27,6 @@ title: "会议征稿 · 第 3 页"
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 21 条</span></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="academic-updates.html">首页</a><a rel="prev" href="academic-updates-2.html">上一页</a><span aria-current="page">第 3 / 3 页 · 共 22 条</span></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.25
+
+📰 01｜论文 · JPE：企业持有多少流动资产，会改变货币政策传导吗？
+结合企业微观数据与异质性企业模型，研究现金持有、发债成本如何影响货币政策向投资的传导。
+引文：Jeenas (2026). Firm Balance Sheet Liquidity, Monetary Policy Shocks, and Investment Dynamics. JPE.
+主页： https://doi.org/10.1086/744130 
+
+📰 02｜论文 · JPE：邻里讨论能改变对少数群体的歧视吗？
+通过印度雇用选择实验，比较邻里讨论与法律权利信息，研究群体规范如何影响对少数群体的歧视。
+引文：Webb (2026). Silence to Solidarity: How Communication about a Minority Affects Discrimination. JPE.
+主页： https://doi.org/10.1086/742724 
+
+📦 03｜软件 · R：glmnet 5.1：惩罚权重现在可以按训练数据计算
+新增函数形式的 penalty.factor，方便在交叉验证中计算数据驱动的惩罚权重；安装后需核对版本。
+版本：R / glmnet 5.1；发布：2026-09-24
+CRAN： https://cran.r-project.org/web/packages/glmnet/index.html 
+
+📅 04｜会议征稿：CFRN 青年金融学者年会：10 月 20 日截稿
+拟于 12 月 10 日在深圳举行，征集金融领域未发表论文，10 月 20 日截稿。不收审稿费和会务费，交通及住宿安排请核对通知。
+截止：2026-10-20
+通知： https://finance.sina.com.cn/wm/2026-09-23/doc-inisvcqf1260053.shtml 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260925/ 

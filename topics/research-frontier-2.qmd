@@ -8,9 +8,72 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 155 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 17 页 · 共 164 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-17.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>私人企业财报审计，与税务稽查结果有什么联系？</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>论文使用美国私人 C 类公司的税表资料，比较有无经审计 GAAP 财报的企业在 IRS 稽查中的结果。经审计财报与较少、较小的拟议补税差额及更详细的申报披露相关，作者也控制了税务编制者。研究有助于理解财报审计与税收合规的关系；税务数据受限，本文依据摘要，不将相关关系写成已识别的因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A2%E6%8A%A5%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：财报审计">财报审计</a> · <a class="tag-link" href="?q=%E7%A8%8E%E6%94%B6%E5%90%88%E8%A7%84&amp;show-results=1" title="全站搜索：税收合规">税收合规</a> · <a class="tag-link" href="?q=%E7%A7%81%E4%BA%BA%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：私人企业">私人企业</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#paper-tar-2023-0662">查看本期</a><a href="https://doi.org/10.2308/tar-2023-0662" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>社会规范能代替正式执法吗？来自住房交易的证据</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>作者把新加坡住房交易与地铁扩建公告连接起来，考察公职人员及亲属在尚未公开规划站点附近的购房行为，并结合执法变化、调查信息和动态模型讨论廉洁规范的持续性。研究关注非公开信息与制度约束，提示社会规范可能需要正式执法支持；对行为动机及执法效应的判断仍需结合匹配设计和制度背景，不能外推至所有公职群体。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：制度约束">制度约束</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%BC%98%E5%8A%BF&amp;show-results=1" title="全站搜索：信息优势">信息优势</a> · <a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E4%BA%A4%E6%98%93&amp;show-results=1" title="全站搜索：住房交易">住房交易</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#nber-w35756">查看本期</a><a href="https://www.nber.org/papers/w35756" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>法官分配真的随机吗？破产案件中的择庭行为</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>论文利用美国企业破产案件考察法官分配能否视为随机。作者发现，不同债权人及法律顾问涉及的案件在法官既往裁决特征上存在系统差异，并指出大型案件排队规则可能留下择时提交的空间。研究提出衡量由此产生偏差的方法，对法官或审查员工具变量设计有直接启发；采用此类设计时仍需核对具体分案机制与控制条件。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E6%B3%95%E5%AE%98%E5%88%86%E9%85%8D&amp;show-results=1" title="全站搜索：法官分配">法官分配</a> · <a class="tag-link" href="?q=%E7%A0%B4%E4%BA%A7&amp;show-results=1" title="全站搜索：破产">破产</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#paper-jofi-70081">查看本期</a><a href="https://doi.org/10.1111/jofi.70081" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>最优处理规则不唯一时，如何评价其平均收益？</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>论文研究最优处理规则对应平均结果的推断。当最优规则不唯一时，把估计出的规则当作固定规则可能带来偏差。作者通过自适应平滑处理非正则情形，给出推断程序，并在所考虑的稳健渐近线性无偏估计量类别中建立方差下界及达到该下界的结果。适合政策学习与个体化决策研究；结论仍受论文设定和估计量类别约束。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E9%9D%9E%E6%AD%A3%E5%88%99%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：非正则推断">非正则推断</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E5%A4%84%E7%90%86%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：最优处理规则">最优处理规则</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#paper-qkag127">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag127" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>招聘广告中的企业文化，能帮助求职者匹配企业吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>作者用机器学习识别招聘广告中的五类核心文化价值，考察文化信息与员工流入、面试后录用及接受录用之间的联系。求职者重视文化、且难以从其他渠道了解企业时，这类信息的作用更明显。研究为招聘文本度量与劳动力匹配提供思路；简讯依据摘要中的关联证据，不把文化措辞解释为随机分配的处理。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%96%87%E6%9C%AC&amp;show-results=1" title="全站搜索：招聘文本">招聘文本</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96&amp;show-results=1" title="全站搜索：企业文化">企业文化</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：劳动力匹配">劳动力匹配</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#paper-mnsc-2024-07272">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07272" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>扩散模型如何恢复反事实结果的联合分布？</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>工作论文将处理掩码、低秩 Tucker 结构与条件扩散结合，学习高维面板或张量中缺失控制结果的条件联合分布，并给出与秩及缺失结构有关的误差界。作者以模拟和挪威电力实验说明预测区间及目标达成概率的用途。方法依赖其结构与识别条件，恢复分布的能力不能自动消除未观测混杂；本期未复现性能比较。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：反事实分布">反事实分布</a> · <a class="tag-link" href="?q=%E5%BC%A0%E9%87%8F%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：张量模型">张量模型</a> · <a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E6%89%A9%E6%95%A3&amp;show-results=1" title="全站搜索：条件扩散">条件扩散</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#arxiv-2609-25924">查看本期</a><a href="https://arxiv.org/abs/2609.25924" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>加入更多预测者，带来改进还是稀释？</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>工作论文讨论多个预测者对同一批对象、同一实际结果进行标准化预测的情形，将预测分解为与目标对齐和不相关的部分。作者据此区分加入预测者带来的真实改进与稀释效应，并提出谨慎的选择规则。应用涉及股票与 ETF 排序，但作者报告的组合并未胜过无信息基线；结果不能转化为投资收益承诺。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：预测组合">预测组合</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：金融预测">金融预测</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#arxiv-2609-26303">查看本期</a><a href="https://arxiv.org/abs/2609.26303" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>为什么有些人不愿延迟领取养老金？</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>论文将政策细节、主观寿命预期和对社保规则的理解纳入前瞻性生命周期模型，解释财富、寿命预期和延迟领取激励不同的人为何可能选择相近的领取年龄。作者通过反事实模拟讨论这些信念如何影响退休年龄改革的行为及财政预测。其政策结果依赖模型和信念测量，不能把模拟反应直接视为已经观察到的改革效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%80%80%E4%BC%91%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：退休决策">退休决策</a> · <a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：主观信念">主观信念</a> · <a class="tag-link" href="?q=%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：生命周期模型">生命周期模型</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#paper-rdag107">查看本期</a><a href="https://doi.org/10.1093/restud/rdag107" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>跨地区社交联系如何影响线上借贷供需？</h3>
+<p class="catalog-meta">期次日期：2026-09-23</p>
+<p>论文把地区间社交网络与金融科技平台借贷连接起来，分别研究贷款需求的信息传播和资金供给的信息不对称。作者利用自然灾害及金融顾问不当行为构造移位份额工具变量，考察地理上相隔较远但社会联系紧密地区之间的作用。它为网络数据与金融包容研究提供思路；工具变量的排除限制及网络联系的解释需结合研究设计审查，不能由相关性本身推出因果关系。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社交网络">社交网络</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80&amp;show-results=1" title="全站搜索：金融科技">金融科技</a> · <a class="tag-link" href="?q=%E7%A7%BB%E4%BD%8D%E4%BB%BD%E9%A2%9D%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：移位份额工具变量">移位份额工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20260923/#paper-mnsc-2024-06050">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06050" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>货币政策传导只靠利率意外，是否会漏掉风险偏好？</h3>
 <p class="catalog-meta">期次日期：2026-09-23</p>
@@ -18,71 +81,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：风险偏好">风险偏好</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：高频识别">高频识别</a></p>
 <p class="catalog-actions"><a href="../issues/20260923/#wp-frbsf-2026-20">查看本期</a><a href="https://cepr.org/publications/dp21965" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>居家弹性工作能成为女性进入劳动力市场的第一步吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-23</p>
-<p>论文在印度西孟加拉邦开展随机实验，为原本未就业的女性提供短期数据工作，比较办公地点与工作灵活性安排。作者发现，居家灵活岗位能提高参与，并帮助部分缺乏工作经验者尝试后续较不灵活的工作；同时，远程工作在速度与准确性上存在权衡。研究把劳动供给、家庭规范和岗位设计联系起来，但短期数据工作中的证据不宜直接外推至所有行业。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%A5%B3%E6%80%A7%E5%B0%B1%E4%B8%9A&amp;show-results=1" title="全站搜索：女性就业">女性就业</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%BC%B9%E6%80%A7%E5%B7%A5%E4%BD%9C&amp;show-results=1" title="全站搜索：弹性工作">弹性工作</a></p>
-<p class="catalog-actions"><a href="../issues/20260923/#paper-qjag045">查看本期</a><a href="https://doi.org/10.1093/qje/qjag045" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>大规模 BLP 需求估计，能否逐个市场更新？</h3>
-<p class="catalog-meta">期次日期：2026-09-23</p>
-<p>工作论文提出随机嵌套不动点算法，用随机梯度更新随机系数 Logit 需求模型，并逐市场完成需求反演，以降低大样本下的内存和计算负担。作者给出市场数增大时的渐近结果，也讨论市场共享模拟抽样所产生的误差修正。适合关注大规模结构估计的读者；计算改进并不改变需求模型的识别要求，文中性能表现尚未经本期独立复现。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=BLP&amp;show-results=1" title="全站搜索：BLP">BLP</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%A2%AF%E5%BA%A6&amp;show-results=1" title="全站搜索：随机梯度">随机梯度</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
-<p class="catalog-actions"><a href="../issues/20260923/#arxiv-2609-23998">查看本期</a><a href="https://arxiv.org/abs/2609.23998" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>债券需求增加后，价格反应为何取决于替代品？</h3>
-<p class="catalog-meta">期次日期：2026-09-23</p>
-<p>论文研究公司债需求变化的价格乘数，强调不同债券之间的可替代程度并不相同。区分近似与较远替代品后，单只债券层面的乘数与组合层面的乘数呈现不同特征；信用等级、期限和套利风险也与估计结果有关。对资金流与资产定价研究的启发，是明确需求冲击施加在哪个层级，不能把单券结果直接当作整个市场的价格反应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA&amp;show-results=1" title="全站搜索：公司债">公司债</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：需求冲击">需求冲击</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
-<p class="catalog-actions"><a href="../issues/20260923/#paper-hhag082">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag082" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>估计企业加价率，生产数据和需求数据能相互验证吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-23</p>
-<p>论文在美国啤酒行业比较基于生产数据与需求数据的加价率估计，再尝试把两种方法结合。作者用生产侧加价率构造需求估计的矩条件，并检查竞争性零售市场假设与下游成本处理如何影响结果。它为市场势力研究提供交叉核验思路；两种估计接近不能自动证明所有识别假设成立，应用到其他行业仍需检查投入选择、需求设定和流通成本。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A0%E4%BB%B7%E7%8E%87&amp;show-results=1" title="全站搜索：加价率">加价率</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：需求估计">需求估计</a></p>
-<p class="catalog-actions"><a href="../issues/20260923/#paper-rdag109">查看本期</a><a href="https://doi.org/10.1093/restud/rdag109" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>买卖双方分别随机化时，如何估计效应并聚类？</h3>
-<p class="catalog-meta">期次日期：2026-09-23</p>
-<p>工作论文研究买方与卖方分别独立随机分配的双侧实验。在局部干扰假设下，作者用因子回归估计总体、交互和溢出效应，说明按买卖双方进行双向聚类的渐近设计型推断，并提出针对单个线性目标的更精细方差估计及协变量调整。该结论针对明确的随机化设计，不是对任意平台观测数据使用双向聚类的通用保证。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E4%BE%A7%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：双侧实验">双侧实验</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E8%81%9A%E7%B1%BB&amp;show-results=1" title="全站搜索：双向聚类">双向聚类</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a></p>
-<p class="catalog-actions"><a href="../issues/20260923/#arxiv-2609-22761">查看本期</a><a href="https://arxiv.org/abs/2609.22761" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>乘法型工具变量假设，能识别哪一种处理效应？</h3>
-<p class="catalog-meta">期次日期：2026-09-23</p>
-<p>论文提出乘法型工具变量模型，在处理倾向模型中对工具变量与未观测混杂因素的交互作出限制，据此识别已处理者平均处理效应 ATT，并构造多重稳健与半参数有效的估计方法。它提供了不同于常见单调性或加性同质性条件的识别路径，并以职业培训为例说明应用。新的识别结果仍依赖工具变量有效性和乘法结构条件，不能解释为放松了所有不可检验假设。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=ATT&amp;show-results=1" title="全站搜索：ATT">ATT</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：多重稳健">多重稳健</a></p>
-<p class="catalog-actions"><a href="../issues/20260923/#paper-asag055">查看本期</a><a href="https://doi.org/10.1093/biomet/asag055" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>重复的盈利消息，为何仍可能影响资产价格？</h3>
-<p class="catalog-meta">期次日期：2026-09-22</p>
-<p>工作论文把季度内盈利公告的重复信息与后续市场收益联系起来，研究投资者是否忽略信息之间的相关性。作者结合收益序列、行业数据和调查证据，提出重复消息引发过度反应、随后得到修正的机制解释。它提示信息指标研究区分真正新增信息与重复信号；这些证据不构成任何时期都有效的交易策略保证。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%87%8D%E5%A4%8D&amp;show-results=1" title="全站搜索：信息重复">信息重复</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：行为金融">行为金融</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
-<p class="catalog-actions"><a href="../issues/20260922/#nber-w35753">查看本期</a><a href="https://www.nber.org/papers/w35753" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>选择信息来源时，人们为何偏爱对称信号？</h3>
-<p class="catalog-meta">期次日期：2026-09-22</p>
-<p>论文通过实验比较人们对对称与非对称信息来源的需求。参与者会回应经济激励，同时仍表现出对对称信息来源的系统性偏好；更高认知能力、较好任务理解和被测量的主观信念并未完全解释这一现象。它提示研究者在设计信息提供实验时，同时区分信息价值与呈现结构；实验结果不宜直接外推为所有现实市场的行为规律。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：信息需求">信息需求</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a> · <a class="tag-link" href="?q=%E4%BF%A1%E5%BF%B5%E5%BD%A2%E6%88%90&amp;show-results=1" title="全站搜索：信念形成">信念形成</a></p>
-<p class="catalog-actions"><a href="../issues/20260922/#paper-mnsc-2024-08449">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08449" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>跨境碳税的预期成本，会落到哪些企业？</h3>
-<p class="catalog-meta">期次日期：2026-09-22</p>
-<p>论文利用欧盟碳边境调节机制重要公告附近的股票价格反应，比较欧盟采购企业与非欧洲生产商。作者发现，市场对采购企业的成本预期与非欧盟供应链、潜在碳成本及向交易伙伴转嫁成本的能力有关。适合借鉴供应链暴露与政策事件研究的结合；公告反应反映市场预期，不等于已经实现的利润或减排变化。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A2%B3%E8%BE%B9%E5%A2%83%E8%B0%83%E8%8A%82&amp;show-results=1" title="全站搜索：碳边境调节">碳边境调节</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a></p>
-<p class="catalog-actions"><a href="../issues/20260922/#paper-mnsc-2024-07171">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07171" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 155 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 17 页 · 共 164 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-17.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>
