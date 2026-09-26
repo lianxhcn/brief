@@ -105,6 +105,12 @@ def render_home_promotion(config=None, today=None):
     cards = []
     for item in active_courses(config, today):
         if not safe_url(item.get('poster')):
+            # 海报不是课程事实；已经审核的课程仍提供可读的文字入口。
+            cards.append(f'<section class="course-text-card" {attributes(item)} aria-label="近期课程">'
+                         '<p class="course-mobile-label">连享会 · 近期课程</p>'
+                         f'<p class="course-mobile-title">{html.escape(item["title"])}</p>'
+                         '<p class="course-mobile-dates">' + '、'.join(html.escape(value) for value in item['dates']) + '</p>'
+                         + external_link('查看课程详情 →', item['url']) + '</section>')
             continue
         cards.append(f'<figure class="course-poster" {attributes(item)}>'
                      f'<a class="course-poster-desktop" href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noopener noreferrer">'

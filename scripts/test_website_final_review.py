@@ -18,6 +18,8 @@ class FinalReviewTests(unittest.TestCase):
     def setUp(self):
         self.config = load_config()
         self.course = copy.deepcopy(self.config['approved_courses'][0])
+        # 单实体边界测试不依赖生产配置当前有几门课程。
+        self.config['approved_courses'] = [copy.deepcopy(self.course)]
 
     def selected(self):
         return active_courses(self.config, TODAY)
@@ -90,6 +92,18 @@ class FinalReviewTests(unittest.TestCase):
             self.assertIn(value,side)
         self.assertIn(self.course['poster'],home)
         self.assertNotIn('course-hub-callout',home)
+
+    def test_reviewed_course_without_poster_is_visible_and_expires(self):
+        self.config['approved_courses'][0].pop('poster', None)
+        home = render_home_promotion(self.config, TODAY)
+        self.assertIn('course-text-card', home)
+        self.assertIn(self.course['title'], home)
+        self.assertIn(self.course['url'], home)
+        self.assertIn('2026-10-17', home)
+        self.assertNotIn('<img', home)
+        self.assertEqual(render_home_promotion(self.config, date(2026,11,1)), '')
+        self.config['approved_courses'][0]['review_status'] = 'pending'
+        self.assertEqual(render_home_promotion(self.config, TODAY), '')
 
     def test_topic_cleanup_and_terminology(self):
         values=entries(public_issues())

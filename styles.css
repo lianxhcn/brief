@@ -262,3 +262,9 @@ main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 10
 /* 卡片阅读入口保持间距，窄屏允许换行。 */
 .catalog-actions { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
 .catalog-actions a { white-space: nowrap; }
+/* 已审核课程没有海报时，各屏幕尺寸均显示文字卡片。 */
+.course-text-card { display: block; margin: 0 0 1rem; padding: 1.25rem; background: #eff5f8; border-left: 4px solid #507594; border-radius: 0.5rem; color: #244257; }
+.course-text-card .course-mobile-label { font-size: 1rem; margin: 0 0 0.75rem; }
+.course-text-card .course-mobile-title { font-size: 1.4rem; line-height: 1.4; font-weight: 700; margin: 0 0 1rem; }
+.course-text-card .course-mobile-dates { font-size: 1.05rem; line-height: 1.7; margin-bottom: 0.75rem; }
+.course-text-card a { display: inline-flex; align-items: center; min-height: 44px; font-size: 1rem; color: #244257; }

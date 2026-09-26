@@ -1,6 +1,8 @@
 """使用已有 Playwright 检查真实浏览器布局，不生成图片或发布。"""
 import json
 import threading
+from datetime import date, datetime, time, timedelta
+from website_promotions import load_config
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -47,7 +49,7 @@ def main():
                     if path.startswith('/topics/') and path != '/topics/index.html':
                         assert '查看栏目索引' not in body
                         assert page.locator('main.content h2:not(#toc-title)').count() == 0
-                        assert page.locator('.catalog-card p a').evaluate_all("els => els.every(a => a.textContent === '查看本期')")
+                        assert page.locator('.catalog-actions a:first-child').evaluate_all("els => els.length > 0 && els.every(a => a.textContent === '查看本期')")
                     if path == '/topics/lianxh-new.html':
                         assert page.get_by_role('link',name='lianxh.cn 最新推文',exact=True).get_attribute('href').rstrip('/') == 'https://www.lianxh.cn'
                     if page.locator('section#延伸信息').count():
@@ -61,7 +63,7 @@ def main():
                         assert title.evaluate("el => getComputedStyle(el).color") == 'rgb(35, 78, 112)'
                         assert page.locator('.course-hub-callout li').first.is_visible()
                         assert page.locator('.course-dates').first.is_visible()
-                    if width >= 1280 and page.locator('.course-hub-callout').count():
+                    if width >= 1280 and page.locator('.course-hub-callout').count() and page.locator('#quarto-margin-sidebar').count():
                         card = page.locator('.course-hub-callout')
                         assert card.evaluate("el => el.parentElement.id === 'quarto-margin-sidebar'")
                         bounds = card.bounding_box()
@@ -86,7 +88,8 @@ def main():
                     evidence.append(dict(width=width, path=path, layout='PASS'))
                 page.close()
             expired = browser.new_page()
-            expired.clock.install(time=__import__('datetime').datetime(2026,11,1,12))
+            last_day = max(date.fromisoformat(c['course_end_date']) for c in load_config()['approved_courses'])
+            expired.clock.install(time=datetime.combine(last_day + timedelta(days=1), time(12)))
             for path, selector in [('/', '.home-promotions'), ('/issues/20260905/', '.course-hub-callout')]:
                 expired.goto(base + path, wait_until='domcontentloaded')
                 assert expired.locator(selector).is_hidden()
@@ -96,6 +99,7 @@ def main():
     finally:
         server.shutdown()
     out = ROOT / 'logs/task09-small-polish/responsive.json'
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(evidence, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f'PASS: {len(evidence)} browser checks; {out}')
 

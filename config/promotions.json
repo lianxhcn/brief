@@ -31,6 +31,30 @@
       ],
       "poster": "https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/brief-aic-fig01-course-poster-20260906-183956.svg",
       "poster_note": "R02 根据同实体已确认名称与日期排版；非官网原版海报。"
+    },
+    {
+      "id": "llm-agent-2026",
+      "title": "LLM × Agent：超级研究者专题",
+      "url": "https://www.lianxh.cn/details/1940.html",
+      "dates": [
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "review_status": "approved",
+      "reviewed_date": "2026-09-27",
+      "source_url": "https://www.lianxh.cn/details/1940.html",
+      "source_date": "2026-09-24",
+      "retrieved_date": "2026-09-27",
+      "evidence": "官网标题为 2026 年课程；课程概览列明 11 月 28–29 日、陈沁主讲、网络直播。已核验官网详情及公开 article API。",
+      "status": "confirmed",
+      "course_start_date": "2026-11-28",
+      "course_end_date": "2026-11-29",
+      "links": [
+        {
+          "url": "https://www.lianxh.cn/details/1940.html",
+          "availability": "confirmed"
+        }
+      ]
     }
   ],
   "subscription": {

@@ -41,7 +41,7 @@ class UserReviewTests(unittest.TestCase):
 
     def test_compact_courses(self):
         config = load_config()
-        config['approved_courses'] *= 4
+        config['approved_courses'] = [config['approved_courses'][0]] * 4
         text = render_promotion(config, date(2026, 9, 6))
         self.assertEqual(text.count('<li '), 1)
         self.assertIn('10/17、10/24、10/31', text)
