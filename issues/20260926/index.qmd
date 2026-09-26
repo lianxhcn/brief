@@ -1,0 +1,193 @@
+---
+title: "连享会 · 快讯 | 2026.09.26"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 保险监管竞争：保费降低的代价由谁承担？ {#paper-742725}
+
+<p class="myapa">Tang, J. (2026). Regulatory Competition in the US Life Insurance Industry. Journal of Political Economy, 000-000. <a href="https://doi.org/10.1086/742725" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Regulatory%20Competition%20in%20the%20US%20Life%20Insurance%20Industry" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+美国各州可通过降低资本要求吸引寿险公司，但相关成本可能由其他州分担。论文结合州监管行为、保险公司响应和保险供给，建立定量模型评估这种竞争。模型中，资本要求下降既提高违约风险，也通过较低保费提高消费者剩余，净总剩余则下降。研究适合用于理解监管外部性；福利比较依赖模型与制度环境，不宜直接外推。
+
+标签：<a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：保险监管">保险监管</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E8%A6%81%E6%B1%82&amp;show-results=1" title="全站搜索：资本要求">资本要求</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：监管竞争">监管竞争</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 配额机制：小样本和分布估错时，决策误差有多大？ {#paper-742716}
+
+<p class="myapa">Ball, I. &amp; Kattwinkel, D. (2026). Quota Mechanisms: Finite-Sample Optimality and Robustness. Journal of Political Economy, 000-000. <a href="https://doi.org/10.1086/742716" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.journals.uchicago.edu/doi/reader/10.1086/742716" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Quota%20Mechanisms%3A%20Finite-Sample%20Optimality%20and%20Robustness" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+评分比例等配额把多个决策联系起来，促使掌握私人信息的人在不同对象之间权衡。论文用最优传输方法刻画有限个决策时的误差界，并分析设计者估错类型分布时的敏感性与参与者信念的影响。最优性比较限定于论文设定和无转移支付机制；它为配额设计提供理论判断依据，不等于任何场景都应采用固定比例。
+
+标签：<a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E9%85%8D%E9%A2%9D%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：配额机制">配额机制</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a>
+
+<small>来源日期：2026-09-17；补录：2026-09-26</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### dsge 1.2.0：在 R 中导入 Dynare 模型文件 {#r-dsge-1-2-0}
+
+新版加入 <code>read_dynare()</code>，可把支持的 Dynare 模型文件转为 R 中的模型对象，继续求解、估计和模拟；官方说明不需另装 Dynare、MATLAB 或 Octave。安装命令为 <code>install.packages(&quot;dsge&quot;)</code>。本期核对 CRAN 与 NEWS，重点是 9 月新增的导入功能，其他功能可能早已存在。模型语法支持和转换结果仍需逐项核验，Windows 二进制当前可能滞后；未独立实测。
+
+标签：<a class="tag-link" href="?q=DSGE&amp;show-results=1" title="全站搜索：DSGE">DSGE</a> · <a class="tag-link" href="?q=Dynare&amp;show-results=1" title="全站搜索：Dynare">Dynare</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-25；补录：2026-09-26</small>
+
+<a href="https://cran.r-project.org/web/packages/dsge/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 事业部独立核算，如何关联女性高管的晋升机会？ {#paper-smj-70128}
+
+<p class="myapa">Du, T. &amp; Tsolmon, U. (2026). Firm divisionalization and the gender gap in
+                    CEO
+                    promotion. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70128" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Firm%20divisionalization%20and%20the%20gender%20gap%20in%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20CEO%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20promotion" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+研究利用美国企业经理人的纵向数据，考察组织结构与内部 CEO 晋升的性别差距。事业部承担独立损益责任时，经理人的贡献更容易归属和比较；女性晋升与这类结构、既往损益管理经验及相对部门绩效之间存在关联。论文提示绩效信息的可比性值得纳入组织研究，但观察性结果不能直接解释为组织改制的因果效应。
+
+标签：<a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：组织结构">组织结构</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%AE%A1%E6%99%8B%E5%8D%87&amp;show-results=1" title="全站搜索：高管晋升">高管晋升</a> · <a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：性别差距">性别差距</a>
+
+<small>来源日期：2026-09-16；补录：2026-09-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 财报口径受限时，分析师如何通过提问获得信息？ {#paper-1911-3846-70089}
+
+<p class="myapa">Ashraf, M., De Franco, G., Small, R. C., &amp; Young, S. (2026). Users&#x27; Solicitation of Disclosure When Accounting Standards Restrict Managers&#x27; Discretion Over Financial Reporting: Evidence From Conference Calls. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70089" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Users%27%20Solicitation%20of%20Disclosure%20When%20Accounting%20Standards%20Restrict%20Managers%27%20Discretion%20Over%20Financial%20Reporting%3A%20Evidence%20From%20Conference%20Calls" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究会计准则对管理层报告裁量的限制，与业绩说明会中账户相关提问的联系。分析师提出具体账户问题后，管理层更可能在当前回答及下一季度介绍中披露相应信息，回答情况也与预测质量相关。它把披露看成管理者与信息使用者的动态互动，适合研究文本提问与披露供给；本期依据摘要，不把相关性当作提问的净因果效果。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E8%AF%B4%E6%98%8E%E4%BC%9A&amp;show-results=1" title="全站搜索：业绩说明会">业绩说明会</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分析师预测">分析师预测</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 创投跨行业投资：扩张路径是否比覆盖范围更重要？ {#paper-smj-70130}
+
+<p class="myapa">Li, D. &amp; Jensen, M. (2026). Drifting to the top? The effects of category erraticism on status mobility in the U.S. venture capital industry. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70130" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Drifting%20to%20the%20top%3F%20The%20effects%20of%20category%20erraticism%20on%20status%20mobility%20in%20the%20U.S.%20venture%20capital%20industry" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+研究区分创投机构覆盖行业的广度与跨行业路径的连贯性，使用美国创投机构长期数据考察地位变化。缺乏连贯性的转向与外界对承诺和能力的担忧相关，也与向上地位流动受限相联系，高地位和经验丰富机构面临的期待更强。可借鉴之处是把投资轨迹而非静态行业数量作为解释变量；研究不意味着所有跨行业扩张都会受损。
+
+标签：<a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：风险投资">风险投资</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%BD%A8%E8%BF%B9&amp;show-results=1" title="全站搜索：投资轨迹">投资轨迹</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%9C%B0%E4%BD%8D&amp;show-results=1" title="全站搜索：组织地位">组织地位</a>
+
+<small>来源日期：2026-09-18；补录：2026-09-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 投资者关系转到线上，信息收益会持续吗？ {#paper-1911-3846-70080}
+
+<p class="myapa">Down, A. K., Reiter, N., &amp; Wahid, A. S. (2026). The Virtual Pivot: Adaptive Investor Relations in the Face of Disruption. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70080" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Virtual%20Pivot%3A%20Adaptive%20Investor%20Relations%20in%C2%A0the%C2%A0Face%20of%20Disruption" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者整理 2019—2024 年投资者关系活动，观察疫情冲击下企业何时转向线上沟通，以及后续资本市场表现。数字准备度和董事会构成与较早、持续采用线上形式相关；信息收益更集中于高度不确定时期，而可见度收益在环境稳定后仍存在。研究提供沟通适应能力的测量思路；不能将自选择的线上活动直接解释为市场表现变化的唯一原因。
+
+标签：<a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：投资者关系">投资者关系</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%8C%96&amp;show-results=1" title="全站搜索：数字化">数字化</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：信息环境">信息环境</a>
+
+<small>来源日期：2026-09-15；补录：2026-09-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 同一人反复经历冲击，事件研究该如何分解效应？ {#arxiv-2609-30007}
+
+<p class="myapa">Keiller, Agnes Norris. (2026). First as Tragedy? Second as What? Estimating Dynamic Effects of Recurrent Events. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.30007" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.30007.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=First%20as%20Tragedy%3F%20Second%20as%20What%3F%20Estimating%20Dynamic%20Effects%20of%20Recurrent%20Events" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+处理事件可重复发生且影响持续时，总处理路径效应与每次事件的独立贡献不是同一参数。这篇工作论文说明，分离各次事件效应需要额外假设，并对事件效应增长施加类似条件平行趋势的限制，提出顺序插补估计量。方法允许效应随可观测事件强度变化。它适用于理解失业、灾害等重复冲击，不能只把普通事件研究多放几个虚拟变量就视为有效识别。
+
+标签：<a class="tag-link" href="?q=%E9%87%8D%E5%A4%8D%E4%BA%8B%E4%BB%B6&amp;show-results=1" title="全站搜索：重复事件">重复事件</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E6%8F%92%E8%A1%A5&amp;show-results=1" title="全站搜索：顺序插补">顺序插补</a>
+
+<small>来源日期：2026-09-24；补录：2026-09-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### RDD 的分位数效应，为什么不能照搬线性协变量调整？ {#arxiv-2609-29249}
+
+<p class="myapa">Ma, Jun, Sasaki, Yuya, &amp; Yu, Zhengfei. (2026). Generic Covariate Adjustment for Regression Discontinuity Designs. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.29249" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.29249.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Generic%20Covariate%20Adjustment%20for%20Regression%20Discontinuity%20Designs" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文指出，回归式协变量调整的理论依据未必适用于分位数等非线性目标参数。作者在断点回归和断点斜率设计的一般框架中，提出熵平衡重加权方法，分析一致性和效率改善。它提醒应用者先确认目标参数，再选择调整方式；论文中的效率优势受识别与正则条件约束，不能把结果变显著作为选择方法的标准。
+
+标签：<a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%86%B5%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：熵平衡">熵平衡</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：协变量调整">协变量调整</a>
+
+<small>来源日期：2026-09-24；补录：2026-09-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 教育财政改革的个人收益，能否转化为宏观增长？ {#nber-w35755}
+
+<p class="myapa">C. Kirabo Jackson. (2026). The Macroeconomic Returns to School Finance Reforms: Micro-Calibrated Predictions Meet Causal Evidence. NBER Working Paper 35755. <a href="https://doi.org/10.3386/w35755" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35755/w35755.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=The%20Macroeconomic%20Returns%20to%20School%20Finance%20Reforms%3A%20Micro-Calibrated%20Predictions%20Meet%20Causal%20Evidence" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将教育财政改革对个人收入的微观估计，与受影响出生队列逐步进入劳动力市场的过程结合，预测州级人均劳动收入的长期路径，再用美国各州改革时点开展事件研究。结果支持教育投入的收益可能经过较长滞后才反映在宏观产出中。微观校准与宏观识别各有假设，长期预测不能视为已完整观察到的政策回报。
+
+标签：<a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%B4%A2%E6%94%BF&amp;show-results=1" title="全站搜索：教育财政">教育财政</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：宏观增长">宏观增长</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a>
+
+<small>来源日期：2026-09-14；补录：2026-09-26</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### causalweight 1.1.6：因果加权与双重机器学习工具 {#r-causalweight-1-1-6}
+
+CRAN 于 9 月 25 日发布 1.1.6。包内涵盖逆概率加权、双重稳健估计和双重机器学习，例如 <code>ATETDML()</code> 用交叉拟合估计二元处理的 ATET，并提供倾向得分修剪和聚类推断选项。安装命令为 <code>install.packages(&quot;causalweight&quot;)</code>。这些方法仍要求相应识别假设与重叠条件；本期核对当前手册和示例，未将既有功能称为本次新增，也未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-25；补录：2026-09-26</small>
+
+<a href="https://cran.r-project.org/web/packages/causalweight/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

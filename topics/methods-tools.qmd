@@ -8,9 +8,23 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 35 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 37 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>dsge 1.2.0：在 R 中导入 Dynare 模型文件</h3>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>新版加入 <code>read_dynare()</code>，可把支持的 Dynare 模型文件转为 R 中的模型对象，继续求解、估计和模拟；官方说明不需另装 Dynare、MATLAB 或 Octave。安装命令为 <code>install.packages(&quot;dsge&quot;)</code>。本期核对 CRAN 与 NEWS，重点是 9 月新增的导入功能，其他功能可能早已存在。模型语法支持和转换结果仍需逐项核验，Windows 二进制当前可能滞后；未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=DSGE&amp;show-results=1" title="全站搜索：DSGE">DSGE</a> · <a class="tag-link" href="?q=Dynare&amp;show-results=1" title="全站搜索：Dynare">Dynare</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#r-dsge-1-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/dsge/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>causalweight 1.1.6：因果加权与双重机器学习工具</h3>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>CRAN 于 9 月 25 日发布 1.1.6。包内涵盖逆概率加权、双重稳健估计和双重机器学习，例如 <code>ATETDML()</code> 用交叉拟合估计二元处理的 ATET，并提供倾向得分修剪和聚类推断选项。安装命令为 <code>install.packages(&quot;causalweight&quot;)</code>。这些方法仍要求相应识别假设与重叠条件；本期核对当前手册和示例，未将既有功能称为本次新增，也未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#r-causalweight-1-1-6">查看本期</a><a href="https://cran.r-project.org/web/packages/causalweight/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>glmnet 5.1：惩罚权重现在可以按训练数据计算</h3>
 <p class="catalog-meta">期次日期：2026-09-25</p>
@@ -67,22 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：模型监测">模型监测</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：数据漂移">数据漂移</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260921/#r-deriva-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/deriva/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>rupturesRcpp：修复 PELT 变点搜索的提前剪枝</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于最短分段长度时，可能过早剔除后续最优候选点的问题。安装命令为 <code>install.packages(&quot;rupturesRcpp&quot;)</code>。使用旧版分析相关数据的读者可按发布说明复查；截至核验时部分 Windows 二进制仍为 1.0.2，需检查实际版本。这里依据维护者说明，尚未独立实测；统计变点也不自动具有因果解释。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%98%E7%82%B9%E6%A3%80%E6%B5%8B&amp;show-results=1" title="全站搜索：变点检测">变点检测</a> · <a class="tag-link" href="?q=PELT&amp;show-results=1" title="全站搜索：PELT">PELT</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#r-rupturesrcpp-1-0-3">查看本期</a><a href="https://cran.r-project.org/web/packages/rupturesRcpp/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>PyMC 6.3.2：修正 Wald 分布计算与采样卡顿</h3>
-<p class="catalog-meta">期次日期：2026-09-20</p>
-<p>PyMC 用于贝叶斯概率建模。6.3.2 修正 Wald 分布的均值及初始化参考点中对 alpha 参数的处理，并修复 DEMetropolis 采样器因进度条导致卡住的问题。可用 <code>pip install -U pymc</code> 更新，并在原分析环境核对版本和诊断结果。这里的 Wald 指概率分布，不是 Wald 检验；此条依据官方发布说明，未对修复效果独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：贝叶斯建模">贝叶斯建模</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
-<p class="catalog-actions"><a href="../issues/20260920/#python-pymc-6-3-2">查看本期</a><a href="https://github.com/pymc-devs/pymc/releases/tag/v6.3.2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 35 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 37 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

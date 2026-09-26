@@ -8,9 +8,23 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 35 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 37 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>rupturesRcpp：修复 PELT 变点搜索的提前剪枝</h3>
+<p class="catalog-meta">期次日期：2026-09-20</p>
+<p>rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于最短分段长度时，可能过早剔除后续最优候选点的问题。安装命令为 <code>install.packages(&quot;rupturesRcpp&quot;)</code>。使用旧版分析相关数据的读者可按发布说明复查；截至核验时部分 Windows 二进制仍为 1.0.2，需检查实际版本。这里依据维护者说明，尚未独立实测；统计变点也不自动具有因果解释。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%98%E7%82%B9%E6%A3%80%E6%B5%8B&amp;show-results=1" title="全站搜索：变点检测">变点检测</a> · <a class="tag-link" href="?q=PELT&amp;show-results=1" title="全站搜索：PELT">PELT</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260920/#r-rupturesrcpp-1-0-3">查看本期</a><a href="https://cran.r-project.org/web/packages/rupturesRcpp/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>PyMC 6.3.2：修正 Wald 分布计算与采样卡顿</h3>
+<p class="catalog-meta">期次日期：2026-09-20</p>
+<p>PyMC 用于贝叶斯概率建模。6.3.2 修正 Wald 分布的均值及初始化参考点中对 alpha 参数的处理，并修复 DEMetropolis 采样器因进度条导致卡住的问题。可用 <code>pip install -U pymc</code> 更新，并在原分析环境核对版本和诊断结果。这里的 Wald 指概率分布，不是 Wald 检验；此条依据官方发布说明，未对修复效果独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：贝叶斯建模">贝叶斯建模</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
+<p class="catalog-actions"><a href="../issues/20260920/#python-pymc-6-3-2">查看本期</a><a href="https://github.com/pymc-devs/pymc/releases/tag/v6.3.2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>prais 1.2.0：修复非同步面板的协方差计算</h3>
 <p class="catalog-meta">期次日期：2026-09-19</p>
@@ -67,22 +81,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E4%B8%8D%E5%8F%98%E6%80%A7&amp;show-results=1" title="全站搜索：测量不变性">测量不变性</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：结构方程">结构方程</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
 <p class="catalog-actions"><a href="../issues/20260917/#stata-minvar-20260829">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459881.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>estimatr 2.0.0：稳健估计接口与固定效应更新</h3>
-<p class="catalog-meta">期次日期：2026-09-17</p>
-<p>estimatr 2.0.0 重写了线性回归、工具变量及实验估计的实现，固定效应改用交替投影吸收。Horvitz–Thompson 接口改用 <code>condition_prs</code>，需要检查旧脚本兼容性。安装命令为 <code>install.packages(&quot;estimatr&quot;)</code>；截至核验时 CRAN 的 Windows 二进制仍为 1.0.6，安装后应以 <code>packageVersion(&quot;estimatr&quot;)</code> 确认版本。需要源码安装时请先核对编译环境。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：稳健标准误">稳健标准误</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260917/#r-estimatr-20260916">查看本期</a><a href="https://cran.r-project.org/web/packages/estimatr/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>mvardlurt_multivariate：多变量 ARDL 单位根检验</h3>
-<p class="catalog-meta">期次日期：2026-09-16</p>
-<p>该命令实现多变量 ARDL 单位根检验，将协变量的滞后水平及差分项纳入检验框架，提供不同确定性项设定、滞后阶数选择和 bootstrap 临界值。安装命令为 <code>ssc install mvardlurt_multivariate</code>。引入协变量的价值依赖模型和协整条件，不能仅凭加入更多变量就认定检验更可靠。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%95%E4%BD%8D%E6%A0%B9%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：单位根检验">单位根检验</a> · <a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20260916/#stata-mvardlurt-multivariate-20260909">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459887.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 35 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 37 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li></ul></div></div>

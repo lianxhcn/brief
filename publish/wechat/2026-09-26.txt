@@ -1,0 +1,20 @@
+📙 连享会 · 快讯 | 2026.09.26
+
+📰 01｜论文 · JPE：保险监管竞争：保费降低的代价由谁承担？
+JPE 研究州际寿险监管竞争：较低资本要求可能降低保费，也会增加违约风险与跨州外部性。
+引文：Tang (2026). Regulatory Competition in the US Life Insurance Industry. JPE.
+主页： https://doi.org/10.1086/742725 
+
+📰 02｜论文 · JPE：配额机制：小样本和分布估错时，决策误差有多大？
+JPE 用最优传输分析有限样本下的配额误差，并考察类型分布估错时的稳健性。
+引文：Ball & Kattwinkel (2026). Quota Mechanisms: Finite-Sample Optimality and Robustness. JPE.
+主页： https://doi.org/10.1086/742716 
+PDF (期刊开放获取版)： https://www.journals.uchicago.edu/doi/reader/10.1086/742716 
+
+📦 03｜软件 · R：dsge 1.2.0：在 R 中导入 Dynare 模型文件
+9 月新增 read_dynare()，可在 R 中导入支持的 Dynare 模型文件；安装后应核对版本与转换结果。
+版本：R / dsge 1.2.0；发布：2026-09-25
+CRAN： https://cran.r-project.org/web/packages/dsge/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260926/ 
