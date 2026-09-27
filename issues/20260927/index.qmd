@@ -1,0 +1,207 @@
+---
+title: "连享会 · 快讯 | 2026.09.27"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### ChatGPT：数据帝，何许人也？ {#post-1942}
+
+文章梳理陈沁的数据研究路径，重点讨论怎样把公开文本和持续积累的数据转为研究材料：先明确测量对象，再组合语义识别、文本归类、规则提取和规模化处理。阅读价值在于理解研究问题、变量构造与工程实现如何衔接。正文由 ChatGPT 起草、编辑核查，人物介绍和研究案例仍应沿原文来源继续核对；AI 摘要不能替代识别判断与人工质量检查。
+
+标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%B5%81%E7%A8%8B&amp;show-results=1" title="全站搜索：研究流程">研究流程</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>
+
+<small>来源日期：2026-09-26；补录：2026-09-27</small>
+
+<a href="https://www.lianxh.cn/details/1942.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 投资组合收缩：直接围绕样本外表现配置权重 {#paper-hhag084}
+
+<p class="myapa">Kelly, B., Malamud, S., Pourmohammadi, M., &amp; Trojani, F. (2026). Universal Portfolio Shrinkage. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag084" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Universal%20Portfolio%20Shrinkage" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+协方差矩阵估计误差会影响组合权重。论文提出非线性收缩方法 UPSA，以可闭式计算的基础组合重新加权收益的主成分，直接围绕预期样本外组合表现选择权重，而非统一惩罚或直接丢弃低方差成分。原文用异常收益因子进行经验比较。可借鉴的是让正则化目标对应最终投资任务；本期依据摘要，不把特定样本中的表现解释为普遍收益保证。
+
+标签：<a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：投资组合">投资组合</a> · <a class="tag-link" href="?q=%E5%8D%8F%E6%96%B9%E5%B7%AE%E6%94%B6%E7%BC%A9&amp;show-results=1" title="全站搜索：协方差收缩">协方差收缩</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：样本外评估">样本外评估</a>
+
+<small>来源日期：2026-09-24；补录：2026-09-27</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 房子便宜，贷款为何更贵？制造住宅信贷市场的集中度 {#paper-hhag087}
+
+<p class="myapa">Doerr, S. &amp; Fuster, A. (2026). Affordable Housing, Unaffordable Credit? Concentration and High-Cost Lending for Manufactured Homes. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag087" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Affordable%20Housing%2C%20Unaffordable%20Credit%3F%20Concentration%20and%20High-Cost%20Lending%20for%20Manufactured%20Homes" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+美国制造住宅价格相对较低，其贷款却可能面临较高利率。论文考察贷款机构集中度、纵向整合与借款利率的关系，结合监管利率阈值附近的聚集现象、工具变量和双重差分分析识别市场力量。研究提醒住房负担能力不仅取决于房价，也与信贷供给结构有关；本期未审读识别细节，不将摘要中的证据直接外推到其他住房市场。
+
+标签：<a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：住房金融">住房金融</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E9%9B%86%E4%B8%AD%E5%BA%A6&amp;show-results=1" title="全站搜索：市场集中度">市场集中度</a> · <a class="tag-link" href="?q=%E4%BF%A1%E8%B4%B7%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：信贷成本">信贷成本</a>
+
+<small>来源日期：2026-09-24；补录：2026-09-27</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### fastconley 0.11.1：修复空间标准误的分组与样本对齐 {#r-fastconley-0-11-1}
+
+该 R 包为 lfe 和 fixest 模型计算 Conley 空间 HAC 标准误。0.11.1 修复此前 felm 路径的两个回归问题：省略单位和时间参数时，不再误把前两个固定效应当作空间分组；提取模型数据时改进样本行对齐。安装可用 <code>install.packages(&quot;fastconley&quot;)</code>，但当前 Windows 二进制尚缺，源码安装需编译环境。空间距离、时间窗口和样本对应关系仍需核对；本期已读官方示例与 NEWS，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：空间相关">空间相关</a> · <a class="tag-link" href="?q=Conley%20%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：Conley 标准误">Conley 标准误</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-26；补录：2026-09-27</small>
+
+<a href="https://cran.r-project.org/web/packages/fastconley/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 算法快速收房，为何仍难普及？iBuyers 的信息与流动性取舍 {#paper-742710}
+
+<p class="myapa">Buchak, G., Matvos, G., Piskorski, T., &amp; Seru, A. (2026). Why Is Intermediating Houses So Difficult? Evidence from iBuyers. Journal of Political Economy, 000-000. <a href="https://doi.org/10.1086/742710" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Why%20Is%20Intermediating%20Houses%20So%20Difficult%3F%20Evidence%20from%20iBuyers" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+iBuyers 通过算法报价和快速交易为房主提供流动性，却更多集中于容易估值、交易活跃的房产。作者建立并校准带有逆向选择的动态搜寻模型，解释估值不充分如何限制中介交易范围：成交加快会减少信息积累，房产异质性又放大定价困难。研究适合联系平台交易、资产估值与市场流动性；结论依赖模型设定和所研究的市场环境。
+
+标签：<a class="tag-link" href="?q=%E6%88%BF%E5%9C%B0%E4%BA%A7&amp;show-results=1" title="全站搜索：房地产">房地产</a> · <a class="tag-link" href="?q=%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：逆向选择">逆向选择</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E6%B5%81%E5%8A%A8%E6%80%A7&amp;show-results=1" title="全站搜索：市场流动性">市场流动性</a>
+
+<small>来源日期：2026-09-25；补录：2026-09-27</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 借长期本币债：降低展期风险，也会增加估值波动 {#paper-hhag088}
+
+<p class="myapa">Bertaut, C., Bruno, V., &amp; Shin, H. S. (2026). Original Sin Redux: Role of Duration Risk. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag088" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Original%20Sin%20Redux%3A%20Role%20of%20Duration%20Risk" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文使用美国投资者流向新兴市场本币政府债券的数据，将久期风险与汇率风险放在同一框架中分析。期限拉长可降低到期再融资压力，却也提高债券价格对利率变化的敏感性，并与汇率变动相互作用。作者进一步讨论共同基金投资者行为如何影响压力时期的资金流动。适合区分展期风险与市场价值风险，不宜把本币长期债简单理解为消除了外部脆弱性。
+
+标签：<a class="tag-link" href="?q=%E6%9C%AC%E5%B8%81%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：本币债券">本币债券</a> · <a class="tag-link" href="?q=%E4%B9%85%E6%9C%9F%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：久期风险">久期风险</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%A2%83%E8%B5%84%E6%9C%AC%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：跨境资本流动">跨境资本流动</a>
+
+<small>来源日期：2026-09-24；补录：2026-09-27</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 偶然发明怎样变现？内部利用与专利许可的不同路径 {#paper-smj-70126}
+
+<p class="myapa">Grimpe, C., Hoisl, K., Mariani, M., &amp; Sofka, W. (2026). From accidents to assets—The value pathways of patents for serendipitous inventions. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70126" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=From%20accidents%20to%20assets%E2%80%94The%20value%20pathways%20of%20patents%20for%20serendipitous%20inventions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+偶然发现不一定适合企业既有产品和专利布局。论文比较偶然发明与计划性研发形成的专利，考察技术影响、产品化、战略阻挡和对外许可等价值实现路径。摘要显示，偶然发明的价值更可能通过许可实现，提示研究者区分发明本身的潜力与原企业能否利用它。企业组织能力与对外交易渠道可能影响价值实现；本期不将观察性差异解释为偶然性本身的因果效果。
+
+标签：<a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：创新管理">创新管理</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AE%B8%E5%8F%AF&amp;show-results=1" title="全站搜索：专利许可">专利许可</a> · <a class="tag-link" href="?q=%E5%81%B6%E7%84%B6%E5%8F%91%E6%98%8E&amp;show-results=1" title="全站搜索：偶然发明">偶然发明</a>
+
+<small>来源日期：2026-09-21；补录：2026-09-27</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 坏消息旁边放什么？生物医药企业的组合披露 {#paper-1911-3846-70078}
+
+<p class="myapa">Enache, L., Li, L., Riedl, E. J., &amp; Song, S. (. (2026). Strategic Reporting Through Counterpoised Disclosure: Evidence From the Biopharma Industry. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70078" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Strategic%20Reporting%20Through%20Counterpoised%20Disclosure%3A%20Evidence%20From%20the%20Biopharma%20Industry" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+企业公布一种药物的负面进展时，可能同时披露其他产品的信息。论文利用生物医药企业的 8-K 文件和新闻稿考察这种组合披露，研究它与负面市场反应及后续药物进展的关系。可借鉴之处是把单条公告放回企业产品组合中理解，而非只按整体情绪给文本打分。摘要所述关系不意味着所有同时披露都在误导投资者，也不能把市场反应减弱直接等同于信息质量提高。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E7%94%9F%E7%89%A9%E5%8C%BB%E8%8D%AF&amp;show-results=1" title="全站搜索：生物医药">生物医药</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a>
+
+<small>来源日期：2026-09-17；补录：2026-09-27</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 对照地区只有汇总数据，如何估计政策效应异质性？ {#arxiv-2609-28678}
+
+<p class="myapa">Bonander, Carl. (2026). Heterogeneous Policy Effects in Comparative Case Studies with Treated-Unit Microdata. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.28678" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.28678.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Heterogeneous%20Policy%20Effects%20in%20Comparative%20Case%20Studies%20with%20Treated-Unit%20Microdata" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文处理一种常见的数据不对称：受政策影响地区有个人微观数据，对照地区却只有汇总指标。方法将处理地区内部的 DID 效应差异，与汇总面板识别的总体平均效应结合，恢复不同群体的政策影响。关键是区分两组识别要求：地区内部的相对平行趋势，以及总体平均效应的识别假设。处理地区微观部分可使用重复截面，但数据更多不代表这些假设自动成立。
+
+标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E6%95%88%E5%BA%94%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：效应异质性">效应异质性</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a>
+
+<small>来源日期：2026-09-23；补录：2026-09-27</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 宏观冲击如何改变尾部风险，而不只是平均表现？ {#arxiv-2609-26994}
+
+<p class="myapa">Mumtaz, Haroon &amp; Velasco, Sofia. (2026). Nonlinear Drivers of Macroeconomic Tail Risk: A Threshold Stochastic Volatility-in-Mean VAR with Regime-Dependent Leverage. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.26994" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.26994.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Nonlinear%20Drivers%20of%20Macroeconomic%20Tail%20Risk%3A%20A%20Threshold%20Stochastic%20Volatility-in-Mean%20VAR%20with%20Regime-Dependent%20Leverage" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立带门槛状态、随机波动和状态依赖杠杆关系的 VAR 模型，允许宏观水平与波动之间内生互动。作者区分增长下行风险、通胀上行风险与预测中位数，讨论不同冲击的作用如何随通胀状态及冲击幅度改变。方法启发是把分布尾部作为单独研究对象；结构冲击解释依赖模型设定、状态划分及识别约束，不能凭拟合优度作因果判断。
+
+标签：<a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：宏观风险">宏观风险</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：随机波动">随机波动</a> · <a class="tag-link" href="?q=%E9%97%A8%E6%A7%9B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：门槛模型">门槛模型</a>
+
+<small>来源日期：2026-09-22；补录：2026-09-27</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 最低工资政策评估：先识别哪些门店真正受到覆盖 {#nber-w35749}
+
+<p class="myapa">Vitor C. Melo, David Neumark, Liam Sigaud, &amp; Gary A. Wagner. (2026). We&#x27;ve Got You Covered: Establishment-Level Evidence on California&#x27;s Fast-Food Minimum Wage. NBER Working Paper 35749. <a href="https://doi.org/10.3386/w35749" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35749/w35749.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=We%27ve%20Got%20You%20Covered%3A%20Establishment-Level%20Evidence%20on%20California%27s%20Fast-Food%20Minimum%20Wage" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+加州快餐最低工资政策依连锁规模划定适用对象，而行业汇总数据难以准确识别受覆盖门店，行业编码也可能存在测量误差。作者使用门店层面数据重新考察就业与进入退出，摘要报告影响更多集中于小型连锁。研究的实用启发是先核对处理组归属，再比较政策前后结果；本期依据工作论文摘要，不把初步结果视为最低工资政策的一般结论。
+
+标签：<a class="tag-link" href="?q=%E6%9C%80%E4%BD%8E%E5%B7%A5%E8%B5%84&amp;show-results=1" title="全站搜索：最低工资">最低工资</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%A6%86%E7%9B%96&amp;show-results=1" title="全站搜索：政策覆盖">政策覆盖</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a>
+
+<small>来源日期：2026-09-14；补录：2026-09-27</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### MatchIt 4.8.1：匹配分组与平衡性计算的重要修复 {#r-matchit-4-8-1}
+
+9 月 18 日介绍 4.8.0 后，4.8.1 又修复了影响结果的错误：部分分层 eCDF/eQQ 计算忽略抽样权重，子组标准化口径不一致，以及剔除样本后 quick、optimal、full 匹配的分组错误。它属于结果修复提醒，建议相关使用者重新检查匹配成员与平衡表。安装命令为 <code>install.packages(&quot;MatchIt&quot;)</code>；当前 Windows 二进制仍为 4.7.2，不能仅凭安装成功认定已取得修复。本期核对 NEWS 和官方入门示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：匹配方法">匹配方法</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%A1%E6%80%A7%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：平衡性诊断">平衡性诊断</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：结果修复">结果修复</a>
+
+<small>来源日期：2026-09-26；补录：2026-09-27</small>
+
+<a href="https://cran.r-project.org/web/packages/MatchIt/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

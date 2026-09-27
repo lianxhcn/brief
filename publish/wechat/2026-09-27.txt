@@ -1,0 +1,23 @@
+📙 连享会 · 快讯 | 2026.09.27
+
+✍️ 01｜新推文：ChatGPT：数据帝，何许人也？
+从陈沁的数据研究经历切入，讨论如何把文本转为变量，并将一次分析发展为持续积累的研究流程。
+阅读全文： https://www.lianxh.cn/details/1942.html 
+
+📰 02｜论文 · The Review of Financial Studies：投资组合收缩：直接围绕样本外表现配置权重
+RFS 提出非线性协方差收缩方法，让主成分权重服务于预期样本外组合表现，而非统一惩罚。
+引文：Kelly et al. (2026). Universal Portfolio Shrinkage. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag084 
+
+📰 03｜论文 · The Review of Financial Studies：房子便宜，贷款为何更贵？制造住宅信贷市场的集中度
+RFS 从市场集中度和纵向整合解释制造住宅融资成本，并结合阈值聚集、IV 与 DID 分析。
+引文：Doerr & Fuster (2026). Affordable Housing, Unaffordable Credit? Concentration and High-Cost Lending for Manufactured Homes. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag087 
+
+📦 04｜软件 · R：fastconley 0.11.1：修复空间标准误的分组与样本对齐
+为 lfe、fixest 模型提供空间 HAC 标准误；此次修复 felm 路径的默认分组和样本对齐问题，需核对实际安装版本。
+版本：R / fastconley 0.11.1；发布：2026-09-26
+CRAN： https://cran.r-project.org/web/packages/fastconley/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260927/ 

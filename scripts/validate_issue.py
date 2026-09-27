@@ -224,6 +224,9 @@ def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[
             other_date = date.fromisoformat(other["date"])
         except (KeyError, ValueError):
             continue
+        # 较晚期次的结果修复由其自身验收，不反向使旧期次失效。
+        if other_date > current_date:
+            continue
         if abs((current_date - other_date).days) > 14:
             continue
         from trial_selection import identities
