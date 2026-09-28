@@ -8,9 +8,16 @@ title: "会议征稿"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 22 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 23 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-3.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>ICMSE 2026：北京举行，10 月 9 日截稿</h3>
+<p class="catalog-meta">期次日期：2026-09-28</p>
+<p>第 30 届管理科学与工程国际会议由哈工大与国科大经管学院主办，10 月 24—25 日在北京举行，主题涵盖 AI、平台经济、运营管理及金融风险等。第二轮通知将投稿截止定为 10 月 9 日，全文或长摘要、中英文均可，10 月 18 日前完成注册。第一轮称免注册费，第二轮未重述，其他费用请向会务组确认；优秀论文推荐不代表保证录用。虽冠以国际会议名称，按实际举办地归入大陆会议。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E7%A7%91%E5%AD%A6&amp;show-results=1" title="全站搜索：管理科学">管理科学</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
+<p class="catalog-actions"><a href="../issues/20260928/#conference-icmse-2026">查看本期</a><a href="https://som.hit.edu.cn/info/1011/24628.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>CFRN 青年金融学者年会：10 月 20 日截稿</h3>
 <p class="catalog-meta">期次日期：2026-09-25</p>
@@ -74,15 +81,8 @@ title: "会议征稿"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：数字经济">数字经济</a> · <a class="tag-link" href="?q=%E7%AB%9E%E4%BA%89%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：竞争政策">竞争政策</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
 <p class="catalog-actions"><a href="../issues/20260914/#conference-tjufe-competition-2026">查看本期</a><a href="https://www.tjufe.edu.cn/info/1030/26333.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>人工智能与公司金融论坛：9 月 30 日截稿</h3>
-<p class="catalog-meta">期次日期：2026-09-13</p>
-<p>论坛拟于 10 月 16–18 日在厦门大学举行，征集人工智能与企业投融资、治理、风险管理及科技创新等研究。9 月 30 日前提交中英文原创未发表论文，作者信息应独立于正文列在首页。受邀参会教师会务费 1000 元、学生 500 元，交通住宿自理；优秀成果推荐至合作期刊不等于直接录用。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：公司金融">公司金融</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
-<p class="catalog-actions"><a href="../issues/20260913/#conference-aicf-2026">查看本期</a><a href="https://finance.xmu.edu.cn/info/1017/78984.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 22 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 23 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-3.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.09.28
+
+📰 01｜论文 · QJE：去郊区学校上学，能改变城市学生的长期机会吗？
+利用候补名单优先规则研究波士顿跨区入学项目，考察升学及成年收入。阅读重点是入学邀请如何支持工具变量识别。
+引文：Setren (2026). Busing to Opportunity? The Impacts of the METCO Voluntary School Desegregation Program on Urban Students of Color. QJE.
+主页： https://doi.org/10.1093/qje/qjag043 
+
+📰 02｜论文 · QJE：工资差距扩大，会削弱集体谈判吗？
+结合情景实验、政策变化与信息干预，研究工资不平等怎样影响工会支持和谈判策略。
+引文：Biasi et al. (2026). How Does Wage Inequality Affect the Labor Movement?. QJE.
+主页： https://doi.org/10.1093/qje/qjag046 
+
+📦 03｜软件 · R：scoringutils 2.3.0：预测评分先检查样本与缺失
+新增缺失预测处理，修复若干可能产生错误评分的输入问题。比较模型时应统一预测单位、观察样本和缺失处理口径。
+版本：R / scoringutils 2.3.0；发布：2026-09-27
+CRAN： https://cran.r-project.org/web/packages/scoringutils/index.html 
+
+📅 04｜会议征稿：ICMSE 2026：北京举行，10 月 9 日截稿
+10 月 24—25 日在北京举行，征集管理科学、AI 与金融风险等研究，10 月 9 日截稿。全文或长摘要均可，费用及注册安排请核对主办方通知。
+截止：2026-10-09
+通知： https://som.hit.edu.cn/info/1011/24628.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260928/ 
