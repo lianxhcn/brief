@@ -1,0 +1,25 @@
+📙 连享会 · 快讯 | 2026.09.30
+
+✍️ 01｜新推文：AI 预测不能直接当真值：如何用少量人工标注改进统计推断？——从 PPI 到 RePPI
+介绍 PPI 与 RePPI：用少量人工标签校正大量 AI 预测，通过交叉拟合改进统计推断，避免直接把预测当真值。
+阅读全文： https://www.lianxh.cn/details/1945.html 
+
+✍️ 02｜新推文：LLM文本标注：一换 prompt 系数就变号？用 DSL 纠偏
+同一批文本换提示词后，回归结论为何会变？文章介绍 DSL 如何用人工验证样本校正，区分标签位于回归左边和右边的情形。
+阅读全文： https://www.lianxh.cn/details/1946.html 
+
+✍️ 03｜新推文：LLM 文本标注不再写长答案：Jev 直接返回分类、评分和判断概率
+Jev 直接返回有限类别、评分与概率。文章比较其工作方式，并提醒概率输出仍需本地标签校准，不能跳过人工验证。
+阅读全文： https://www.lianxh.cn/details/1947.html 
+
+✍️ 04｜新推文：Stata 新命令 sreg：随机实验的回归系数未必是你关心的平均效应
+通过分层实验说明回归系数与目标平均效应的区别，介绍 sreg 的权重、控制变量和标准误，并给出 Stata 示例。
+阅读全文： https://www.lianxh.cn/details/1948.html 
+
+📰 05｜论文 · The Journal of Finance：贷款违约风险模型怎样处理房价的内生性？
+JF 新文用控制函数处理违约风险模型中的内生性与测量误差，考察房价下跌和贷款标准对次贷违约的作用。
+引文：PALMER (2026). An IV Hazard Model of Loan Default with an Application to Subprime Mortgage Cohorts. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70088 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260930/ 

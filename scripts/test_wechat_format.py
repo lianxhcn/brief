@@ -71,6 +71,14 @@ class WechatTests(unittest.TestCase):
                 self.assert_valid(issue)
                 self.assertTrue(render_daily(issue).split('\n\n')[1].startswith('✍️ 01｜新推文：'))
 
+    def test_title_dash_is_not_a_separator(self):
+        issue = sample()
+        issue['lianxh_posts'][0]['title'] = '预测如何进入推断？——从 PPI 到 RePPI'
+        text = render_daily(issue)
+        self.assertEqual(self.validate(issue, text), [])
+        self.assertTrue(self.validate(issue, text.replace('——\n🌐', '——\n——\n🌐')))
+        self.assertTrue(self.validate(issue, text.replace('——\n🌐', '🌐')))
+
     def test_optional_conference_fallback_and_resource(self):
         issue = sample()
         issue['conference_calls'] = [conference()]

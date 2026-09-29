@@ -8,9 +8,58 @@ title: "新论文 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 20 页 · 共 200 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-20.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 21 页 · 共 207 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-21.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>宏观冲击如何改变尾部风险，而不只是平均表现？</h3>
+<p class="catalog-meta">期次日期：2026-09-27</p>
+<p>论文建立带门槛状态、随机波动和状态依赖杠杆关系的 VAR 模型，允许宏观水平与波动之间内生互动。作者区分增长下行风险、通胀上行风险与预测中位数，讨论不同冲击的作用如何随通胀状态及冲击幅度改变。方法启发是把分布尾部作为单独研究对象；结构冲击解释依赖模型设定、状态划分及识别约束，不能凭拟合优度作因果判断。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：宏观风险">宏观风险</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：随机波动">随机波动</a> · <a class="tag-link" href="?q=%E9%97%A8%E6%A7%9B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：门槛模型">门槛模型</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#arxiv-2609-26994">查看本期</a><a href="https://arxiv.org/abs/2609.26994" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>坏消息旁边放什么？生物医药企业的组合披露</h3>
+<p class="catalog-meta">期次日期：2026-09-27</p>
+<p>企业公布一种药物的负面进展时，可能同时披露其他产品的信息。论文利用生物医药企业的 8-K 文件和新闻稿考察这种组合披露，研究它与负面市场反应及后续药物进展的关系。可借鉴之处是把单条公告放回企业产品组合中理解，而非只按整体情绪给文本打分。摘要所述关系不意味着所有同时披露都在误导投资者，也不能把市场反应减弱直接等同于信息质量提高。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E7%94%9F%E7%89%A9%E5%8C%BB%E8%8D%AF&amp;show-results=1" title="全站搜索：生物医药">生物医药</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#paper-1911-3846-70078">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70078" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>偶然发明怎样变现？内部利用与专利许可的不同路径</h3>
+<p class="catalog-meta">期次日期：2026-09-27</p>
+<p>偶然发现不一定适合企业既有产品和专利布局。论文比较偶然发明与计划性研发形成的专利，考察技术影响、产品化、战略阻挡和对外许可等价值实现路径。摘要显示，偶然发明的价值更可能通过许可实现，提示研究者区分发明本身的潜力与原企业能否利用它。企业组织能力与对外交易渠道可能影响价值实现；本期不将观察性差异解释为偶然性本身的因果效果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：创新管理">创新管理</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AE%B8%E5%8F%AF&amp;show-results=1" title="全站搜索：专利许可">专利许可</a> · <a class="tag-link" href="?q=%E5%81%B6%E7%84%B6%E5%8F%91%E6%98%8E&amp;show-results=1" title="全站搜索：偶然发明">偶然发明</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#paper-smj-70126">查看本期</a><a href="https://doi.org/10.1002/smj.70126" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>借长期本币债：降低展期风险，也会增加估值波动</h3>
+<p class="catalog-meta">期次日期：2026-09-27</p>
+<p>论文使用美国投资者流向新兴市场本币政府债券的数据，将久期风险与汇率风险放在同一框架中分析。期限拉长可降低到期再融资压力，却也提高债券价格对利率变化的敏感性，并与汇率变动相互作用。作者进一步讨论共同基金投资者行为如何影响压力时期的资金流动。适合区分展期风险与市场价值风险，不宜把本币长期债简单理解为消除了外部脆弱性。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%AC%E5%B8%81%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：本币债券">本币债券</a> · <a class="tag-link" href="?q=%E4%B9%85%E6%9C%9F%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：久期风险">久期风险</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%A2%83%E8%B5%84%E6%9C%AC%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：跨境资本流动">跨境资本流动</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#paper-hhag088">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag088" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>配额机制：小样本和分布估错时，决策误差有多大？</h3>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>评分比例等配额把多个决策联系起来，促使掌握私人信息的人在不同对象之间权衡。论文用最优传输方法刻画有限个决策时的误差界，并分析设计者估错类型分布时的敏感性与参与者信念的影响。最优性比较限定于论文设定和无转移支付机制；它为配额设计提供理论判断依据，不等于任何场景都应采用固定比例。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E9%85%8D%E9%A2%9D%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：配额机制">配额机制</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-742716">查看本期</a><a href="https://doi.org/10.1086/742716" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>财报口径受限时，分析师如何通过提问获得信息？</h3>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>论文研究会计准则对管理层报告裁量的限制，与业绩说明会中账户相关提问的联系。分析师提出具体账户问题后，管理层更可能在当前回答及下一季度介绍中披露相应信息，回答情况也与预测质量相关。它把披露看成管理者与信息使用者的动态互动，适合研究文本提问与披露供给；本期依据摘要，不把相关性当作提问的净因果效果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E8%AF%B4%E6%98%8E%E4%BC%9A&amp;show-results=1" title="全站搜索：业绩说明会">业绩说明会</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分析师预测">分析师预测</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-1911-3846-70089">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70089" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>教育财政改革的个人收益，能否转化为宏观增长？</h3>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>论文将教育财政改革对个人收入的微观估计，与受影响出生队列逐步进入劳动力市场的过程结合，预测州级人均劳动收入的长期路径，再用美国各州改革时点开展事件研究。结果支持教育投入的收益可能经过较长滞后才反映在宏观产出中。微观校准与宏观识别各有假设，长期预测不能视为已完整观察到的政策回报。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%B4%A2%E6%94%BF&amp;show-results=1" title="全站搜索：教育财政">教育财政</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：宏观增长">宏观增长</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#nber-w35755">查看本期</a><a href="https://www.nber.org/papers/w35755" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>投资者关系转到线上，信息收益会持续吗？</h3>
 <p class="catalog-meta">期次日期：2026-09-26</p>
@@ -32,57 +81,8 @@ title: "新论文 · 第 4 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：风险投资">风险投资</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%BD%A8%E8%BF%B9&amp;show-results=1" title="全站搜索：投资轨迹">投资轨迹</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%9C%B0%E4%BD%8D&amp;show-results=1" title="全站搜索：组织地位">组织地位</a></p>
 <p class="catalog-actions"><a href="../issues/20260926/#paper-smj-70130">查看本期</a><a href="https://doi.org/10.1002/smj.70130" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>保险监管竞争：保费降低的代价由谁承担？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>美国各州可通过降低资本要求吸引寿险公司，但相关成本可能由其他州分担。论文结合州监管行为、保险公司响应和保险供给，建立定量模型评估这种竞争。模型中，资本要求下降既提高违约风险，也通过较低保费提高消费者剩余，净总剩余则下降。研究适合用于理解监管外部性；福利比较依赖模型与制度环境，不宜直接外推。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：保险监管">保险监管</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E8%A6%81%E6%B1%82&amp;show-results=1" title="全站搜索：资本要求">资本要求</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：监管竞争">监管竞争</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#paper-742725">查看本期</a><a href="https://doi.org/10.1086/742725" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>事业部独立核算，如何关联女性高管的晋升机会？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>研究利用美国企业经理人的纵向数据，考察组织结构与内部 CEO 晋升的性别差距。事业部承担独立损益责任时，经理人的贡献更容易归属和比较；女性晋升与这类结构、既往损益管理经验及相对部门绩效之间存在关联。论文提示绩效信息的可比性值得纳入组织研究，但观察性结果不能直接解释为组织改制的因果效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：组织结构">组织结构</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%AE%A1%E6%99%8B%E5%8D%87&amp;show-results=1" title="全站搜索：高管晋升">高管晋升</a> · <a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：性别差距">性别差距</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#paper-smj-70128">查看本期</a><a href="https://doi.org/10.1002/smj.70128" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>RDD 的分位数效应，为什么不能照搬线性协变量调整？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>工作论文指出，回归式协变量调整的理论依据未必适用于分位数等非线性目标参数。作者在断点回归和断点斜率设计的一般框架中，提出熵平衡重加权方法，分析一致性和效率改善。它提醒应用者先确认目标参数，再选择调整方式；论文中的效率优势受识别与正则条件约束，不能把结果变显著作为选择方法的标准。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%86%B5%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：熵平衡">熵平衡</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：协变量调整">协变量调整</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#arxiv-2609-29249">查看本期</a><a href="https://arxiv.org/abs/2609.29249" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>限制平均生存时间：观察窗口能否由数据决定？</h3>
-<p class="catalog-meta">期次日期：2026-09-25</p>
-<p>限制平均生存时间把给定窗口内的无事件时间汇总为可解释的处理收益，但窗口过短可能遗漏后期变化，过长又可能降低精度。论文提出在效应大小与估计精度之间权衡的自适应窗口选择，并把选择引入的不确定性纳入推断；还处理零假设下的非正则问题。方法有助于理解数据驱动调参后的推断，临床应用结论不在本期独立验证。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：生存分析">生存分析</a> · <a class="tag-link" href="?q=%E8%87%AA%E9%80%82%E5%BA%94%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：自适应推断">自适应推断</a> · <a class="tag-link" href="?q=%E7%AA%97%E5%8F%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：窗口选择">窗口选择</a></p>
-<p class="catalog-actions"><a href="../issues/20260925/#paper-asag056">查看本期</a><a href="https://doi.org/10.1093/biomet/asag056" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>邻里讨论能改变对少数群体的歧视吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-25</p>
-<p>论文在印度开展实验，观察多数群体成员之间的讨论如何影响对跨性别劳动者的雇用选择。研究比较讨论与法律权利信息，考察私下选择及后续变化，并用规范感知解释讨论可能发挥作用的渠道。它提示干预设计不仅要考虑信息内容，也要关注谁发言、群体规范如何形成；本期依据正式期刊摘要，不把特定场景的效果外推为普遍规律。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%A7%84%E8%8C%83&amp;show-results=1" title="全站搜索：社会规范">社会规范</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a></p>
-<p class="catalog-actions"><a href="../issues/20260925/#paper-742724">查看本期</a><a href="https://doi.org/10.1086/742724" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>选择性记忆为什么会让人拖延？</h3>
-<p class="catalog-meta">期次日期：2026-09-25</p>
-<p>这项纵向实验让参与者完成长度未知的繁琐任务，并提供带噪声的工作量信息。作者通过改变动机性记忆的空间，研究负面信息被淡化后，工作量信念与任务安排如何变化。结果支持选择性记忆可能促使人把更多工作推到未来。它为拖延行为提供可检验的机制，但不能据此认定所有拖延都源于记忆偏差。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%9C%BA%E6%80%A7%E8%AE%B0%E5%BF%86&amp;show-results=1" title="全站搜索：动机性记忆">动机性记忆</a> · <a class="tag-link" href="?q=%E6%8B%96%E5%BB%B6&amp;show-results=1" title="全站搜索：拖延">拖延</a></p>
-<p class="catalog-actions"><a href="../issues/20260925/#paper-mnsc-2025-05353">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.05353" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>自动化会怎样改变最优劳动与资本所得税？</h3>
-<p class="catalog-meta">期次日期：2026-09-25</p>
-<p>论文在任务型自动化模型中，分析工资和资本回报内生变化时的最优所得税。劳动者与机器在可自动化任务上替代，劳动参与和机器供给共同决定一般均衡。作者校准美国工资分布与自动化暴露，比较有无自动化时的税制。它提供税收与技术变化的机制框架；模型中的税率结果依赖任务替代、供给弹性和社会福利设定，不能直接当作现实税率建议。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%87%AA%E5%8A%A8%E5%8C%96&amp;show-results=1" title="全站搜索：自动化">自动化</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E7%A8%8E%E6%94%B6&amp;show-results=1" title="全站搜索：最优税收">最优税收</a> · <a class="tag-link" href="?q=%E4%BB%BB%E5%8A%A1%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：任务模型">任务模型</a></p>
-<p class="catalog-actions"><a href="../issues/20260925/#nber-w35747">查看本期</a><a href="https://www.nber.org/papers/w35747" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 20 页 · 共 200 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-20.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 21 页 · 共 207 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-21.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

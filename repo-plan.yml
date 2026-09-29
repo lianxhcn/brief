@@ -1,12 +1,12 @@
 {
-  "project_title": "连享会 · 快讯：2026年9月29日发布",
+  "project_title": "连享会 · 快讯：2026年9月30日发布",
   "repository_mode": "single",
   "recommendation": "single",
   "decision_reason": "沿用独立网站、版本和维护周期，score=4；不新建仓库",
   "confidence": "high",
   "local_root": "G:/codex_project/github_lianxh",
   "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "9月29日12条快讯、微信短稿、站点索引与DEMO标记误报修复；保护既有Task12工作",
+  "work_scope": "9月30日12条快讯、微信短稿、站点索引与标题破折号误报修复；保护既有Task12工作",
   "repository_name": "brief",
   "remote_owner": "lianxhcn",
   "remote_url": "https://github.com/lianxhcn/brief.git",
@@ -22,7 +22,7 @@
     "ignore_checked": true,
     "sensitive_content_checked": true,
     "large_files_checked": true,
-    "minimal_verification": "184项回归通过、当期与全站校验、29项响应式加4项当期检查；共享TXT及三平台；部署后核验匹配提交与当天首页/期次/搜索"
+    "minimal_verification": "185项回归通过、当期与全站校验、29项响应式加4项当期检查；共享TXT及三平台；部署后核验匹配提交与当天首页/期次/搜索"
   },
   "approval": {
     "create_remote": false,
@@ -30,18 +30,18 @@
     "push": true,
     "deploy": true,
     "source": "用户本轮明确要求继续完成今日发布；按A-02/A-03执行限定提交推送",
-    "validity": "2026-09-29 当日发布"
+    "validity": "2026-09-30 当日发布"
   },
   "files": [
     "archive.qmd",
     "config/website-content.json",
-    "content/issues/2026-09-29.json",
+    "content/issues/2026-09-30.json",
     "index.qmd",
-    "issues/20260929/index.qmd",
-    "publish/wechat/2026-09-29.txt",
+    "issues/20260930/index.qmd",
+    "publish/wechat/2026-09-30.txt",
     "repo-plan.yml",
-    "scripts/test_website.py",
-    "scripts/validate_website.py",
+    "scripts/test_wechat_format.py",
+    "scripts/validate_issue.py",
     "topics/index.qmd",
     "topics/lianxh-new-2.qmd",
     "topics/lianxh-new-3.qmd",
@@ -65,6 +65,7 @@
     "topics/research-frontier-19.qmd",
     "topics/research-frontier-2.qmd",
     "topics/research-frontier-20.qmd",
+    "topics/research-frontier-21.qmd",
     "topics/research-frontier-3.qmd",
     "topics/research-frontier-4.qmd",
     "topics/research-frontier-5.qmd",

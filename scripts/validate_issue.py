@@ -359,7 +359,7 @@ def validate_text_file(path: Path, expected_title: str, expected_urls: set[str],
         if len(actual_links) > maximum or Counter(actual_links) != Counter(required_links):
             fail(f"core {number:02d} 的 URL 数量或允许集合不符合类型规则")
     cta = "——\n" + format_url("🌐 更多内容", detail_url(issue))
-    if not blocks or blocks[-1] != cta or text.count("——") != 1 or text.count("🌐 更多内容") != 1:
+    if not blocks or blocks[-1] != cta or text.splitlines().count("——") != 1 or text.count("🌐 更多内容") != 1:
         fail("分隔线 / CTA 必须唯一且本期 URL 精确")
     for phrase in ("提要：", "摘要：", "简介：", "本期详版", "今日详情", "完整内容", "查看详情", "网页版"):
         if phrase in text:
