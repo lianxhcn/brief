@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.09.29"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### LLM标注与人工标注高度一致，文本变量就可靠吗？ {#post-1943}
+
+文章区分事实提取、规则型分类和解释型构念三类文本任务。LLM 与人工标签高度一致，说明模型能够复现某套参照判断，但还需检查人工标签是否真正对应研究概念。文中讨论编码手册、标注者视角、争议案例及外部效度证据，适合在把文本评分放入回归前检查测量设计。不能仅凭准确率或 F1 值就断言变量可靠，也不能把所有人工分歧都当作随机噪声。
+
+标签：<a class="tag-link" href="?q=LLM%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：LLM标注">LLM标注</a> · <a class="tag-link" href="?q=%E6%9E%84%E5%BF%B5%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：构念效度">构念效度</a> · <a class="tag-link" href="?q=%E7%BC%96%E7%A0%81%E6%89%8B%E5%86%8C&amp;show-results=1" title="全站搜索：编码手册">编码手册</a>
+
+<small>来源日期：2026-09-28；补录：2026-09-29</small>
+
+<a href="https://www.lianxh.cn/details/1943.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### Sphinx + Agent：快速生成 Python 项目主页和在线文档 {#post-1944}
+
+文章以 panelcheck_demo 为例，展示如何让本地 Agent 审计 Python 项目，再用 Sphinx、MyST 和 autodoc 组织教程、函数说明与在线主页，并发布到 GitHub Pages。重点是代码更新后哪些说明可自动同步，哪些仍需人工维护；还讨论独立运行示例、doctest 和严格构建检查。文档生成和测试通过各有范围，不能据此推断统计程序已经覆盖所有输入或环境。
+
+标签：<a class="tag-link" href="?q=Sphinx&amp;show-results=1" title="全站搜索：Sphinx">Sphinx</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3&amp;show-results=1" title="全站搜索：项目文档">项目文档</a>
+
+<small>来源日期：2026-09-28；补录：2026-09-29</small>
+
+<a href="https://www.lianxh.cn/details/1944.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 吉利数字如何影响金融市场定价？ {#paper-mnsc-2025-01449}
+
+<p class="myapa">Chang, J. &amp; Du, H. (2026). Superstition Everywhere. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.01449" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Superstition%20Everywhere" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文比较中国股票、债券、外汇和商品期货市场中价格尾数的分布，考察数字偏好与市场参与者特征的关系。作者区分较成熟投资者面对模糊性时的锚定行为，以及非成熟投资者的过度乐观，并发现数字偏好与系统性误定价并非在所有市场同时出现。研究启发在于把行为模式、投资者结构和价格偏离分开考察；仅观察到某种尾数更常见，不能直接推出可获利的交易策略。
+
+标签：<a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：行为金融">行为金融</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：数字偏好">数字偏好</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a>
+
+<small>来源日期：2026-09-23；补录：2026-09-29</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 常规急诊数据能怎样评价基层医疗服务？ {#paper-mnsc-2023-03234}
+
+<p class="myapa">Savva, N., Sülz, S., Kinirons, M., Sutherland, E., &amp; Leach, R. (2026). The Power of Data: Assessing Primary Care Performance Using Routinely Collected Emergency Department Data. Management Science. <a href="https://doi.org/10.1287/mnsc.2023.03234" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Power%20of%20Data%3A%20Assessing%20Primary%20Care%20Performance%20Using%20Routinely%20Collected%20Emergency%20Department%20Data" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用英国两家相邻急诊机构的业务数据，分析本可在基层处理的疾病就诊，借助方差分解区分基层医疗机构间的系统差异，并控制观测、未观测异质性及社会经济因素。作者将构造的机构指标与患者反馈、既有质量评分和人员配置作比较。对行政数据研究的启发是从下游服务使用反推上游服务差异，但该指标不能直接代替对任意医疗改革的因果评估，跨地区使用需重新检验数据口径和模型假设。
+
+标签：<a class="tag-link" href="?q=%E8%A1%8C%E6%94%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：行政数据">行政数据</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：方差分解">方差分解</a> · <a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：绩效评价">绩效评价</a>
+
+<small>来源日期：2026-09-25；补录：2026-09-29</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### ardlverse 2.0.2：修复影响估计结果的滞后与区间错误 {#r-ardlverse-2-0-2}
+
+CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计算中的滞后对齐问题，并修正面板 NARDL 自助法置信区间与系数匹配错误。使用这些函数的研究者应核对版本并重新检查受影响结果。安装命令为 <code>install.packages(&quot;ardlverse&quot;)</code>；本次查询时 Windows 二进制仍为 2.0.0，不能仅凭重新安装就认定已更新。官方 README 的部分调用仍沿用旧接口，应以当前帮助文件为准。本期核对发行、NEWS、示例和问题列表，未独立运行或证明所有估计正确。
+
+标签：<a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：版本修复">版本修复</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-09-28；补录：2026-09-29</small>
+
+<a href="https://cran.r-project.org/web/packages/ardlverse/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 品牌商代工自有品牌，会改变零售商的模仿策略吗？ {#paper-smj-70123}
+
+<p class="myapa">Hou, Y. (2026). Accommodation in the vertical supply chain: Implications of manufacturer dual tracking. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70123" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Accommodation%20in%20the%20vertical%20supply%20chain%3A%20Implications%20of%20manufacturer%20dual%20tracking" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究早餐谷物市场中一家品牌制造商同时向零售商供应品牌产品和自有品牌产品的变化。作者发现，零售商对直接模仿该制造商品牌的产品减少了推出和广告投入，并据此讨论纵向关系变化与议价能力。它提示研究者将代工关系、产品组合和竞争行为共同纳入分析，而非把自有品牌扩张仅理解为价格竞争。证据来自特定行业与关系变化，机制和结论外推仍需结合具体市场结构。
+
+标签：<a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%9C%89%E5%93%81%E7%89%8C&amp;show-results=1" title="全站搜索：自有品牌">自有品牌</a> · <a class="tag-link" href="?q=%E8%AE%AE%E4%BB%B7%E8%83%BD%E5%8A%9B&amp;show-results=1" title="全站搜索：议价能力">议价能力</a>
+
+<small>来源日期：2026-09-22；补录：2026-09-29</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 权力与地位会同样强化彼此吗？ {#paper-orsc-2024-18685}
+
+<p class="myapa">Mitchell, R., Matusik, J. G., &amp; Hays, N. (2026). The Asymmetric Nature of Social Hierarchies: Unpacking the Dynamic Relationship Between Power and Status. Organization Science. <a href="https://doi.org/10.1287/orsc.2024.18685" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Asymmetric%20Nature%20of%20Social%20Hierarchies%3A%20Unpacking%20the%20Dynamic%20Relationship%20Between%20Power%20and%20Status" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+研究区分控制资源的权力与获得他人尊重的地位，用项目团队的纵向资料和双变量变化得分模型考察二者的动态关系，再以实验分析他人对亲和与合作取向的评价。作者发现两条方向的关系并不对称，地位通向权力变化的路径更强。可借鉴之处是把静态相关与动态变化分开建模；纵向模型本身仍依赖设定与未观测因素假设，不能将时间先后直接视为因果识别。
+
+标签：<a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%9C%B0%E4%BD%8D&amp;show-results=1" title="全站搜索：组织地位">组织地位</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：动态模型">动态模型</a> · <a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：团队研究">团队研究</a>
+
+<small>来源日期：2026-09-25；补录：2026-09-29</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 团队失败以后，加入高地位成员何时有帮助？ {#paper-orsc-2024-19306}
+
+<p class="myapa">Zhong, Y., Li, H. (., Shen, X. (., Hays, N. A., &amp; Li, J. (2026). Survival of the Flattest: Teams with Low (but Not High) Status Differentiation Turn Failure into Success by Adding High-Status Members. Organization Science. <a href="https://doi.org/10.1287/orsc.2024.19306" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Survival%20of%20the%20Flattest%3A%20Teams%20with%20Low%20%28but%20Not%20High%29%20Status%20Differentiation%20Turn%20Failure%20into%20Success%20by%20Adding%20High-Status%20Members" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将团队视为会调整成员构成的开放系统，研究失败之后是否愿意引入高地位成员，以及这一选择怎样受原有地位差距影响。研究结合产品开发团队的纵向档案和预注册实验，发现地位分化较低的团队更容易把新成员视为集体改进机会，分化较高时则可能产生地位威胁。阅读时应区分档案中的绩效关系与实验所检验的个体、团队机制，不能概括为所有失败团队都应引入明星成员。
+
+标签：<a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E5%A4%B1%E8%B4%A5&amp;show-results=1" title="全站搜索：团队失败">团队失败</a> · <a class="tag-link" href="?q=%E5%9C%B0%E4%BD%8D%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：地位差距">地位差距</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B3%A8%E5%86%8C%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：预注册实验">预注册实验</a>
+
+<small>来源日期：2026-09-17；补录：2026-09-29</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 资历高于岗位要求，会促使年长员工帮助后辈吗？ {#paper-01492063261480030}
+
+<p class="myapa">Yu, J., Ganegoda, D. B., &amp; Ma, C. (2026). Passing on Talent: A Generativity Perspective on the Effects of Perceived Overqualification Among Older Employees. Journal of Management. <a href="https://doi.org/10.1177/01492063261480030" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Passing%20on%20Talent%3A%20A%20Generativity%20Perspective%20on%20the%20Effects%20of%20Perceived%20Overqualification%20Among%20Older%20Employees" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文从培育下一代的动机出发，研究年长员工感到自身资历超过岗位要求时，是否更愿意支持年轻同事。两项多时点现场调查将这种感受、传承动机与帮助行为联系起来，并分析面向年长员工的人力资源安排。文章提供了研究主观资历匹配和代际协作的机制线索；多时点调查有助于安排测量顺序，但并不自动排除选择、共同方法偏差或其他混杂。
+
+标签：<a class="tag-link" href="?q=%E8%B5%84%E5%8E%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：资历匹配">资历匹配</a> · <a class="tag-link" href="?q=%E4%BB%A3%E9%99%85%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：代际协作">代际协作</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：现场调查">现场调查</a>
+
+<small>来源日期：2026-09-21；补录：2026-09-29</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 弱相关数据的野生自助法，怎样选择两点乘子？ {#arxiv-2609-32369}
+
+<p class="myapa">Nishi, Mikihito &amp; Yamagata, Takashi. (2026). Two-Point Dependent Wild Bootstrap for Weakly Dependent Estimating Equations. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.32369" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.32369.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Two-Point%20Dependent%20Wild%20Bootstrap%20for%20Weakly%20Dependent%20Estimating%20Equations" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文提出两点分布的相关野生自助法，把乘子的边际分布与序列依赖分开设定，并建立与异方差、自相关稳健协方差估计的联系。在弱依赖和渐近线性等条件下，作者论证检验有效性，辅以 GMM、线性回归模拟及短期利率模型应用。它提供了一条比较乘子分布与长期方差估计的思路；模拟中的尺寸表现不代表所有样本和依赖结构下均有优势，本文尚属工作论文。
+
+标签：<a class="tag-link" href="?q=%E9%87%8E%E7%94%9F%E8%87%AA%E5%8A%A9%E6%B3%95&amp;show-results=1" title="全站搜索：野生自助法">野生自助法</a> · <a class="tag-link" href="?q=%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：序列相关">序列相关</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a>
+
+<small>来源日期：2026-09-26；补录：2026-09-29</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 处理执行不完全时，树模型如何寻找受益人群？ {#arxiv-2609-31769}
+
+<p class="myapa">Gliszczyńska-Schroeder, Karolina. (2026). Estimating Heterogeneous Causal Effects with Tree-Based Methods under Imperfect Compliance. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.31769" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.31769.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Estimating%20Heterogeneous%20Causal%20Effects%20with%20Tree-Based%20Methods%20under%20Imperfect%20Compliance" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文围绕条件服从者平均因果效应，提出可替换机器学习估计器的两阶段方案，比较非贝叶斯森林方法与 BCF-IV 的子组发现及异质效应估计。作者用模拟和英国 ICU 及时入院资料讨论应用。服从者效应不同于全体样本平均效应，机器学习也不替代工具变量有效性、排除限制和单调性等识别条件；计算与精度优势仅对应所比较的设置。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%A3%AE%E6%9E%97&amp;show-results=1" title="全站搜索：因果森林">因果森林</a> · <a class="tag-link" href="?q=%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%9C%8D%E4%BB%8E&amp;show-results=1" title="全站搜索：不完全服从">不完全服从</a>
+
+<small>来源日期：2026-09-24；补录：2026-09-29</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 时间固定效应为何可能遗漏网络中的一般均衡冲击？ {#nber-w35807}
+
+<p class="myapa">Bernard Herskovic &amp; Gill Segal. (2026). Network General Equilibrium as a Threat to Identification: The Failure of Time Fixed Effects. NBER Working Paper No. 35807. <a href="https://doi.org/10.3386/w35807" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35807/w35807.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Network%20General%20Equilibrium%20as%20a%20Threat%20to%20Identification%3A%20The%20Failure%20of%20Time%20Fixed%20Effects" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文指出，网络经济中的总量冲击经价格、成本和需求传递后，对不同企业的影响未必相同。时间去均值可能留下网络梯度，若工具变量、处理分配或暴露度与其相关，面板估计可能混入一般均衡的间接影响。作者建立分析框架并讨论网络可见与不可见时的诊断及修正。它提醒研究者检查对照组是否也受均衡变化影响；不能据此断言所有时间固定效应或 DID 都无效，具体偏差取决于网络、处理设计和目标参数。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：网络溢出">网络溢出</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：时间固定效应">时间固定效应</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a>
+
+<small>来源日期：2026-09-28；补录：2026-09-29</small>
+
+
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.09.29
+
+✍️ 01｜新推文：LLM标注与人工标注高度一致，文本变量就可靠吗？
+人工标签也需要可靠的测量设计。文章区分三类文本任务，说明为何模型与人工高度一致仍不足以证明构念效度。
+阅读全文： https://www.lianxh.cn/details/1943.html 
+
+✍️ 02｜新推文：Sphinx + Agent：快速生成 Python 项目主页和在线文档
+以真实 Python 小项目演示审计、Sphinx 建站、文档检查和在线发布，区分自动同步的函数信息与仍需维护的解释。
+阅读全文： https://www.lianxh.cn/details/1944.html 
+
+📰 03｜论文 · Management Science：吉利数字如何影响金融市场定价？
+比较中国多个金融市场的价格尾数，区分数字偏好与误定价，并考察投资者结构的作用。
+引文：Chang & Du (2026). Superstition Everywhere. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.01449 
+
+📰 04｜论文 · Management Science：常规急诊数据能怎样评价基层医疗服务？
+用急诊业务数据构造基层医疗机构评价指标，通过方差分解和外部指标比较检查其信息价值。
+引文：Savva et al. (2026). The Power of Data: Assessing Primary Care Performance Using Routinely Collected Emergency Department Data. Management Science.
+主页： https://doi.org/10.1287/mnsc.2023.03234 
+
+📦 05｜软件 · R：ardlverse 2.0.2：修复影响估计结果的滞后与区间错误
+本次修复涉及滞后对齐和自助法区间匹配。使用相关 ARDL 函数的研究者应核对实际安装版本，并复查受影响结果。
+版本：R / ardlverse 2.0.2；发布：2026-09-28
+CRAN： https://cran.r-project.org/web/packages/ardlverse/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20260929/ 

@@ -65,6 +65,13 @@ class CitationTests(unittest.TestCase):
             website_citation(dict(id='unreviewed'))
 
 class WebsiteTests(unittest.TestCase):
+    def test_demo_marker_distinguishes_code_identifier(self):
+        from validate_website import contains_demo_marker
+        for text in ('panelcheck_demo', 'demographics', 'demo_data'):
+            self.assertFalse(contains_demo_marker(text), text)
+        for text in ('DEMO', '本期 DEMO 示例', 'test-demo.html', '/issues/20990101/'):
+            self.assertTrue(contains_demo_marker(text), text)
+
     def test_demo_metadata_and_public_lists(self):
         for path in (ROOT / 'content/issues').glob('*demo*.json'):
             issue = json.loads(path.read_text(encoding='utf-8'))

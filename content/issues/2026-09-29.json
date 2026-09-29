@@ -1,0 +1,1577 @@
+{
+  "issue_type": "daily",
+  "editorial_version": 2,
+  "website_version": 3,
+  "paper_policy_version": 1,
+  "paper_review": {
+    "journal_checks": [
+      {
+        "source": "American Economic Review",
+        "status": "found",
+        "checked_at": "2026-09-27",
+        "window_start": "2026-09-01",
+        "window_end": "2026-09-27",
+        "evidence_url": "https://api.crossref.org/journals/0002-8282/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-27&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1257/aer.20241087",
+          "10.1257/aer.20240404",
+          "10.1257/aer.20240701",
+          "10.1257/aer.20230768",
+          "10.1257/aer.20240579",
+          "10.1257/aer.20241001",
+          "10.1257/aer.116.9.3197",
+          "10.1257/aer.20240664",
+          "10.1257/aer.20240756",
+          "10.1257/aer.116.9.i",
+          "10.1257/aer.20241765",
+          "10.1257/aer.20241404"
+        ],
+        "reason": "读取覆盖窗口全部出版社登记元数据；精确日期和未发研究另筛，元数据初筛不等于逐篇精读。"
+      },
+      {
+        "source": "Quarterly Journal of Economics",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0033-5533/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1093/qje/qjag043",
+          "10.1093/qje/qjag046",
+          "10.1093/qje/qjag045",
+          "10.1093/qje/qjag047"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Journal of Political Economy",
+        "status": "found",
+        "checked_at": "2026-09-27",
+        "window_start": "2026-09-01",
+        "window_end": "2026-09-27",
+        "evidence_url": "https://api.crossref.org/works?filter=issn:0022-3808,from-pub-date:2026-09-01,until-pub-date:2026-09-27&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1086/742710",
+          "10.1086/742724",
+          "10.1086/744130",
+          "10.1086/744117",
+          "10.1086/744118",
+          "10.1086/744119",
+          "10.1086/742716",
+          "10.1086/742725",
+          "10.1086/744012",
+          "10.1086/744015",
+          "10.1086/744049",
+          "10.1086/744016",
+          "10.1086/742713",
+          "10.1086/742714",
+          "10.1086/742421"
+        ],
+        "reason": "读取覆盖窗口全部出版社登记元数据；精确日期和未发研究另筛，元数据初筛不等于逐篇精读。"
+      },
+      {
+        "source": "Econometrica",
+        "status": "no-eligible",
+        "checked_at": "2026-09-27",
+        "window_start": "2026-09-01",
+        "window_end": "2026-09-27",
+        "evidence_url": "https://api.crossref.org/journals/0012-9682/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-27&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "读取覆盖窗口全部出版社登记元数据；精确日期和未发研究另筛，元数据初筛不等于逐篇精读。"
+      },
+      {
+        "source": "Review of Economic Studies",
+        "status": "access-failed",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0034-6527/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "HTTP Error 429: Too Many Requests",
+        "fallback": {
+          "source": "Review of Economic Studies",
+          "status": "found",
+          "checked_at": "2026-09-28",
+          "window_start": "2026-09-14",
+          "window_end": "2026-09-28",
+          "evidence_url": "https://api.crossref.org/works?filter=issn:0034-6527,from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100",
+          "candidate_ids": [
+            "10.1093/restud/rdag108",
+            "10.1093/restud/rdag106",
+            "10.1093/restud/rdag103",
+            "10.1093/restud/rdag105",
+            "10.1093/restud/rdag109",
+            "10.1093/restud/rdag107",
+            "10.1093/restud/rdag099"
+          ],
+          "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+        }
+      },
+      {
+        "source": "Journal of Finance",
+        "status": "found",
+        "checked_at": "2026-09-27",
+        "window_start": "2026-09-01",
+        "window_end": "2026-09-27",
+        "evidence_url": "https://api.crossref.org/journals/0022-1082/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-27&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1111/jofi.70019",
+          "10.1111/jofi.13353",
+          "10.1111/jofi.70081",
+          "10.1111/jofi.13354",
+          "10.1111/jofi.70073"
+        ],
+        "reason": "读取覆盖窗口全部出版社登记元数据；精确日期和未发研究另筛，元数据初筛不等于逐篇精读。"
+      },
+      {
+        "source": "Journal of Financial Economics",
+        "status": "no-eligible",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0304-405X/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Review of Financial Studies",
+        "status": "found",
+        "checked_at": "2026-09-27",
+        "window_start": "2026-09-01",
+        "window_end": "2026-09-27",
+        "evidence_url": "https://api.crossref.org/journals/0893-9454/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-27&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1093/rfs/hhag087",
+          "10.1093/rfs/hhag084",
+          "10.1093/rfs/hhag088",
+          "10.1093/rfs/hhag082",
+          "10.1093/rfs/hhag081",
+          "10.1093/rfs/hhag086",
+          "10.1093/rfs/hhag083",
+          "10.1093/rfs/hhag075",
+          "10.1093/rfs/hhag072",
+          "10.1093/rfs/hhag080"
+        ],
+        "reason": "读取覆盖窗口全部出版社登记元数据；精确日期和未发研究另筛，元数据初筛不等于逐篇精读。"
+      },
+      {
+        "source": "Academy of Management Journal",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0001-4273/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.5465/amj.2025.0640"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Academy of Management Review",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0363-7425/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.5465/amr.2024.0311",
+          "10.5465/amr.2026.1082",
+          "10.5465/amr.2026.0703"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Administrative Science Quarterly",
+        "status": "access-failed",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0001-8392/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "HTTP Error 429: Too Many Requests",
+        "fallback": {
+          "source": "Administrative Science Quarterly",
+          "status": "found",
+          "checked_at": "2026-09-28",
+          "window_start": "2026-09-14",
+          "window_end": "2026-09-28",
+          "evidence_url": "https://api.crossref.org/works?filter=issn:0001-8392,from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100",
+          "candidate_ids": [
+            "10.1177/00018392261488839"
+          ],
+          "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+        }
+      },
+      {
+        "source": "Journal of Management",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/works?filter=issn:0149-2063,from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1177/01492063261481739",
+          "10.1177/01492063261480030"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Strategic Management Journal",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/works?filter=issn:0143-2095,from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1002/smj.70124",
+          "10.1002/smj.70123",
+          "10.1002/smj.70126",
+          "10.1002/smj.70130",
+          "10.1002/smj.70127",
+          "10.1002/smj.70128"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Organization Science",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/1047-7039/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1287/orsc.2024.18685",
+          "10.1287/orsc.2026.23114",
+          "10.1287/orsc.2024.19306",
+          "10.1287/orsc.2024.18802",
+          "10.1287/orsc.2024.19531"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Management Science",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0025-1909/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1287/mnsc.2023.03234",
+          "10.1287/mnsc.2025.02458",
+          "10.1287/mnsc.2025.01449",
+          "10.1287/mnsc.2024.06050",
+          "10.1287/mnsc.2024.07272",
+          "10.1287/mnsc.2025.05353",
+          "10.1287/mnsc.2024.05008",
+          "10.1287/mnsc.2023.00580",
+          "10.1287/mnsc.2024.08449",
+          "10.1287/mnsc.2024.04540",
+          "10.1287/mnsc.2024.07171"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Annals of Statistics",
+        "status": "no-eligible",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0090-5364/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Journal of the American Statistical Association",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0162-1459/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1080/01621459.2026.2736788",
+          "10.1080/01621459.2026.2735065",
+          "10.1080/01621459.2026.2736783",
+          "10.1080/01621459.2026.2737387",
+          "10.1080/01621459.2026.2732273"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Biometrika",
+        "status": "access-failed",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0006-3444/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "HTTP Error 429: Too Many Requests",
+        "fallback": {
+          "source": "Biometrika",
+          "status": "found",
+          "checked_at": "2026-09-28",
+          "window_start": "2026-09-14",
+          "window_end": "2026-09-28",
+          "evidence_url": "https://api.crossref.org/works?filter=issn:0006-3444,from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100",
+          "candidate_ids": [
+            "10.1093/biomet/asag056",
+            "10.1093/biomet/asag039",
+            "10.1093/biomet/asag057",
+            "10.1093/biomet/asag059",
+            "10.1093/biomet/asag055"
+          ],
+          "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+        }
+      },
+      {
+        "source": "Journal of the Royal Statistical Society, Series B",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/works?filter=issn:1369-7412,from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100",
+        "candidate_ids": [
+          "10.1093/jrsssb/qkag125",
+          "10.1093/jrsssb/qkag128",
+          "10.1093/jrsssb/qkag127",
+          "10.1093/jrsssb/qkag122"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Statistical Science",
+        "status": "no-eligible",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0883-4237/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "The Accounting Review",
+        "status": "no-eligible",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0001-4826/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Journal of Accounting Research",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/1475-679X/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100",
+        "candidate_ids": [
+          "10.1111/1475-679x.70085"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Journal of Accounting and Economics",
+        "status": "no-eligible",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0165-4101/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Contemporary Accounting Research",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0823-9150/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1111/1911-3846.70090",
+          "10.1111/1911-3846.70089",
+          "10.1111/1911-3846.70085",
+          "10.1111/1911-3846.70078",
+          "10.1111/1911-3846.70080"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Review of Accounting Studies",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/1573-7136/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100",
+        "candidate_ids": [
+          "10.1007/s11142-026-09981-0",
+          "10.1007/s11142-026-09994-9",
+          "10.1007/s11142-026-09990-z"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "American Sociological Review",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0003-1224/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1177/00031224261475572",
+          "10.1177/00031224261475238",
+          "10.1177/00031224261476317"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "American Journal of Sociology",
+        "status": "no-eligible",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0002-9602/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      },
+      {
+        "source": "Social Forces",
+        "status": "found",
+        "checked_at": "2026-09-28",
+        "window_start": "2026-09-14",
+        "window_end": "2026-09-28",
+        "evidence_url": "https://api.crossref.org/journals/0037-7732/works?filter=from-pub-date:2026-09-14,until-pub-date:2026-09-28&rows=100&sort=published&order=desc",
+        "candidate_ids": [
+          "10.1093/sf/soag139",
+          "10.1093/sf/soag144",
+          "10.1093/sf/soag141",
+          "10.1093/sf/soag134",
+          "10.1093/sf/soag140",
+          "10.1093/sf/soag138",
+          "10.1093/sf/soag136",
+          "10.1093/sf/soag137",
+          "10.1093/sf/soag133"
+        ],
+        "reason": "读取窗口内全部出版社登记元数据；原始候选经日期、类型、读者相关性及全历史去重后择优，不把登记或补卷期视为新发表。"
+      }
+    ],
+    "working_paper_checks": [
+      {
+        "source": "NBER",
+        "status": "found",
+        "checked_at": "2026-09-29",
+        "window_start": "2026-09-01",
+        "window_end": "2026-09-29",
+        "evidence_url": "https://api.crossref.org/prefixes/10.3386/works?filter=from-pub-date:2026-09-01,until-pub-date:2026-09-29&rows=200&sort=published&order=desc",
+        "candidate_ids": [
+          "10.3386/w35762",
+          "10.3386/w35717",
+          "10.3386/w35726",
+          "10.3386/w35708",
+          "10.3386/w35809",
+          "10.3386/w35792",
+          "10.3386/w35831",
+          "10.3386/w35808",
+          "10.3386/w35702",
+          "10.3386/w35746",
+          "10.3386/w35744",
+          "10.3386/w35767",
+          "10.3386/w35733",
+          "10.3386/w35829",
+          "10.3386/w35823",
+          "10.3386/w35701",
+          "10.3386/w35722",
+          "10.3386/w35719",
+          "10.3386/w35706",
+          "10.3386/w35814",
+          "10.3386/w35694",
+          "10.3386/w35732",
+          "10.3386/w35771",
+          "10.3386/w35810",
+          "10.3386/w35822",
+          "10.3386/w35797",
+          "10.3386/w35804",
+          "10.3386/w35759",
+          "10.3386/w35709",
+          "10.3386/w35781",
+          "10.3386/w35736",
+          "10.3386/w35826",
+          "10.3386/w35752",
+          "10.3386/w35749",
+          "10.3386/w35830",
+          "10.3386/w35811",
+          "10.3386/w35790",
+          "10.3386/w35813",
+          "10.3386/w35787",
+          "10.3386/w35696",
+          "10.3386/w35757",
+          "10.3386/w35796",
+          "10.3386/w35785",
+          "10.3386/w35729",
+          "10.3386/w35739",
+          "10.3386/w35819",
+          "10.3386/w35776",
+          "10.3386/w35714",
+          "10.3386/w35745",
+          "10.3386/w35707",
+          "10.3386/w35720",
+          "10.3386/w35712",
+          "10.3386/w35770",
+          "10.3386/w35728",
+          "10.3386/w35740",
+          "10.3386/w35799",
+          "10.3386/w35724",
+          "10.3386/w35734",
+          "10.3386/w35783",
+          "10.3386/w35698",
+          "10.3386/w35784",
+          "10.3386/w35803",
+          "10.3386/w35807",
+          "10.3386/w35821",
+          "10.3386/w35764",
+          "10.3386/w35763",
+          "10.3386/w35737",
+          "10.3386/w35741",
+          "10.3386/w35723",
+          "10.3386/w35755",
+          "10.3386/w35710",
+          "10.3386/w35738",
+          "10.3386/w35725",
+          "10.3386/w35793",
+          "10.3386/w35789",
+          "10.3386/w35780",
+          "10.3386/w35747",
+          "10.3386/w35761",
+          "10.3386/w35718",
+          "10.3386/w35715",
+          "10.3386/w35825",
+          "10.3386/w35754",
+          "10.3386/w35711",
+          "10.3386/w35704",
+          "10.3386/w35766",
+          "10.3386/w35753",
+          "10.3386/w35824",
+          "10.3386/w35802",
+          "10.3386/w35795",
+          "10.3386/w35760",
+          "10.3386/w35742",
+          "10.3386/w35805",
+          "10.3386/w35731",
+          "10.3386/w35820",
+          "10.3386/w35700",
+          "10.3386/w35817",
+          "10.3386/w35773",
+          "10.3386/w35818",
+          "10.3386/w35765",
+          "10.3386/w35791",
+          "10.3386/w35735",
+          "10.3386/w35794",
+          "10.3386/w35695",
+          "10.3386/w35727",
+          "10.3386/w35748",
+          "10.3386/w35693",
+          "10.3386/w35705",
+          "10.3386/w35751",
+          "10.3386/w35775",
+          "10.3386/w35750",
+          "10.3386/w35769",
+          "10.3386/w35758",
+          "10.3386/w35828",
+          "10.3386/w35743",
+          "10.3386/w35721",
+          "10.3386/w35730",
+          "10.3386/w35692",
+          "10.3386/w35774",
+          "10.3386/w35716",
+          "10.3386/w35832",
+          "10.3386/w35815",
+          "10.3386/w35778",
+          "10.3386/w35812",
+          "10.3386/w35816",
+          "10.3386/w35772",
+          "10.3386/w35768",
+          "10.3386/w35827",
+          "10.3386/w35697",
+          "10.3386/w35756",
+          "10.3386/w35798",
+          "10.3386/w35703",
+          "10.3386/w35777",
+          "10.3386/w35782",
+          "10.3386/w35779",
+          "10.3386/w35713",
+          "10.3386/w35786",
+          "10.3386/w35806",
+          "10.3386/w35699"
+        ],
+        "reason": "读取NBER登记的本月全部138条元数据，月精度只作发现；35807另核验官网日精度与摘要。首轮100条未完，已扩大到200条完整返回。"
+      },
+      {
+        "source": "arXiv",
+        "status": "found",
+        "checked_at": "2026-09-29",
+        "window_start": "2026-09-01",
+        "window_end": "2026-09-29",
+        "evidence_url": "https://arxiv.org/list/econ.EM/2026-09?show=1000",
+        "candidate_ids": [
+          "2609.00350",
+          "2609.00375",
+          "2609.00414",
+          "2609.00418",
+          "2609.01467",
+          "2609.01804",
+          "2609.01943",
+          "2609.02673",
+          "2609.04994",
+          "2609.05372",
+          "2609.05792",
+          "2609.05883",
+          "2609.06827",
+          "2609.06907",
+          "2609.07033",
+          "2609.07207",
+          "2609.07633",
+          "2609.07888",
+          "2609.08335",
+          "2609.08411",
+          "2609.09488",
+          "2609.09544",
+          "2609.10544",
+          "2609.10587",
+          "2609.10615",
+          "2609.10617",
+          "2609.10925",
+          "2609.10971",
+          "2609.12280",
+          "2609.12406",
+          "2609.12545",
+          "2609.12987",
+          "2609.13026",
+          "2609.14049",
+          "2609.14069",
+          "2609.14398",
+          "2609.15111",
+          "2609.15736",
+          "2609.16086",
+          "2609.16968",
+          "2609.17158",
+          "2609.17170",
+          "2609.17626",
+          "2609.18150",
+          "2609.18157",
+          "2609.18172",
+          "2609.18600",
+          "2609.18734",
+          "2609.18903",
+          "2609.19031",
+          "2609.19415",
+          "2609.19418",
+          "2609.19738",
+          "2609.20260",
+          "2609.20424",
+          "2609.20473",
+          "2609.20655",
+          "2609.21056",
+          "2609.21393",
+          "2609.21587",
+          "2609.21674",
+          "2609.22761",
+          "2609.23303",
+          "2609.23998",
+          "2609.26192",
+          "2609.26303",
+          "2609.26840",
+          "2609.26994",
+          "2609.27691",
+          "2609.27944",
+          "2609.28678",
+          "2609.29249",
+          "2609.29440",
+          "2609.29515",
+          "2609.29958",
+          "2609.30007",
+          "2609.30481",
+          "2609.30504",
+          "2609.30617",
+          "2609.31442",
+          "2609.31561",
+          "2609.32076",
+          "2609.32725",
+          "2609.33058",
+          "2609.33471",
+          "2609.00089",
+          "2609.00541",
+          "2609.00943",
+          "2609.02756",
+          "2609.03227",
+          "2609.04136",
+          "2609.04356",
+          "2609.07944",
+          "2609.09039",
+          "2609.11222",
+          "2609.11575",
+          "2609.11915",
+          "2609.12107",
+          "2609.12271",
+          "2609.13345",
+          "2609.13586",
+          "2609.13698",
+          "2609.15796",
+          "2609.16509",
+          "2609.16618",
+          "2609.17296",
+          "2609.17939",
+          "2609.19028",
+          "2609.19081",
+          "2609.19386",
+          "2609.19547",
+          "2609.20044",
+          "2609.20264",
+          "2609.20393",
+          "2609.21622",
+          "2609.23220",
+          "2609.23223",
+          "2609.25924",
+          "2609.27200",
+          "2609.27912",
+          "2609.28841",
+          "2609.28871",
+          "2609.30528",
+          "2609.31624",
+          "2609.31769",
+          "2609.31958",
+          "2609.32369",
+          "2609.33418",
+          "2609.33859"
+        ],
+        "reason": "读取本月econ.EM完整129项目录，选中两篇另核验首次提交与摘要；目录列入日不等于首发日。"
+      },
+      {
+        "source": "CEPR",
+        "status": "found",
+        "checked_at": "2026-09-23",
+        "window_start": "2026-09-09",
+        "window_end": "2026-09-23",
+        "evidence_url": "https://cepr.org/publications/publication-series/discussion-papers",
+        "candidate_ids": [
+          "CEPR:21958",
+          "CEPR:21959",
+          "CEPR:21960",
+          "CEPR:21961",
+          "CEPR:21962",
+          "CEPR:21963",
+          "CEPR:21964",
+          "CEPR:21965",
+          "CEPR:21966"
+        ],
+        "reason": "直接HTTP失败，网页读取官方最新目录及周报成功；21965与旧金山联储同文合并，保留较早机构发布日期。"
+      },
+      {
+        "source": "IZA",
+        "status": "found",
+        "checked_at": "2026-09-23",
+        "window_start": "2026-09-09",
+        "window_end": "2026-09-23",
+        "evidence_url": "https://www.iza.org/publications/dp",
+        "candidate_ids": [
+          "IZA:18926",
+          "IZA:18927",
+          "IZA:18928",
+          "IZA:18929",
+          "IZA:18930",
+          "IZA:18931",
+          "IZA:18932",
+          "IZA:18933",
+          "IZA:18934",
+          "IZA:18935",
+          "IZA:18936",
+          "IZA:18937",
+          "IZA:18938",
+          "IZA:18939",
+          "IZA:18940",
+          "IZA:18941",
+          "IZA:18942",
+          "IZA:18943",
+          "IZA:18944",
+          "IZA:18945"
+        ],
+        "reason": "本日读取官网最新20条目录；这些为发现候选，月精度与版本关系待核验，本期不采用。"
+      },
+      {
+        "source": "World Bank",
+        "status": "found",
+        "checked_at": "2026-09-24",
+        "window_start": "2026-09-10",
+        "window_end": "2026-09-24",
+        "evidence_url": "https://www.worldbank.org/en/research/all?tf=m",
+        "candidate_ids": [
+          "WPS11457",
+          "WPS11453",
+          "WPS11456",
+          "WPS11454",
+          "WPS11452",
+          "WPS11455"
+        ],
+        "reason": "读取官方本月目录近期20条并定向追查11456；发现同题早期版本线索，暂缓采用。目录的111458疑为编号显示问题，不据此生成引文；本轮并非全月分页穷尽。"
+      },
+      {
+        "source": "IMF",
+        "status": "access-failed",
+        "checked_at": "2026-09-23",
+        "window_start": "2026-09-09",
+        "window_end": "2026-09-23",
+        "evidence_url": "https://www.imf.org/en/Publications/WP",
+        "candidate_ids": [],
+        "reason": "目录HTTP失败，网页工具只返回动态空壳，不能解释为零论文；定向官方摘要替代读取。",
+        "fallback": {
+          "source": "IMF",
+          "status": "found",
+          "checked_at": "2026-09-23",
+          "window_start": "2026-09-09",
+          "window_end": "2026-09-23",
+          "evidence_url": "https://www.imf.org/en/publications/wp/issues/2026/09/04/macroeconomics-of-war-and-recovery-579376",
+          "candidate_ids": [
+            "10.5089/9798229059015.001"
+          ],
+          "reason": "网页工具复核官方9月4日工作论文页；已发而不再采用，本轮无法确认新目录完整覆盖。"
+        }
+      }
+    ],
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-21",
+    "reason": "优先收录两篇完整新推文；重点论文选JPE数据隐私与Management Science结构搜索。延伸3篇顶刊、3篇方法工作论文；顶刊轮查复用9月19日有效记录，实际新核验分开记录。",
+    "source_balance_review": {
+      "reviewed_by": "Codex",
+      "compared_sources": [
+        "NBER",
+        "arXiv",
+        "CEPR",
+        "IZA",
+        "IMF",
+        "World Bank"
+      ],
+      "reason": "NBER和arXiv今日更新，其他系列复用9月23—24日有效检查并保留IMF覆盖限制。工作论文为2篇arXiv与1篇NBER，分别涉及自助推断、不完全服从和网络识别；延伸7篇论文中4篇顶刊。"
+    },
+    "priority_comparison": [
+      {
+        "id": "paper-mnsc-2025-01449",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "paper-mnsc-2023-03234",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "paper-smj-70123",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "paper-orsc-2024-18685",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "paper-orsc-2024-19306",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "paper-01492063261480030",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "arxiv-2609-32369",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "arxiv-2609-31769",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "nber-w35807",
+        "decision": "select",
+        "reason": "近期未发且官方摘要可核验；重点论文分别服务金融定价与行政数据研究，延伸保留4篇顶刊及3篇方法工作论文。"
+      },
+      {
+        "id": "10.1257/aer.20240701",
+        "decision": "defer",
+        "reason": "目录仅有月精度期次，未确认近期首次发表日，不把9月目录收录包装成今日新研究。"
+      },
+      {
+        "id": "10.1111/jofi.70019",
+        "decision": "exclude",
+        "reason": "期刊公告，不是研究论文。"
+      },
+      {
+        "id": "10.1086/744012",
+        "decision": "defer",
+        "reason": "9月11日超默认14天且缓存无原始摘要；本期先用近期已核验研究。"
+      }
+    ]
+  },
+  "issue_id": "brief-20260929",
+  "date": "2026-09-29",
+  "title": "连享会 · 快讯 | 2026.09.29",
+  "retrieved_date": "2026-09-29",
+  "status": "published",
+  "lianxh_posts": [
+    {
+      "id": "post-1943",
+      "title": "LLM标注与人工标注高度一致，文本变量就可靠吗？",
+      "priority": "core",
+      "url": "https://www.lianxh.cn/details/1943.html",
+      "source_url": "https://www.lianxh.cn/details/1943.html",
+      "published_date": "2026-09-28",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "page_note": "文章区分事实提取、规则型分类和解释型构念三类文本任务。LLM 与人工标签高度一致，说明模型能够复现某套参照判断，但还需检查人工标签是否真正对应研究概念。文中讨论编码手册、标注者视角、争议案例及外部效度证据，适合在把文本评分放入回归前检查测量设计。不能仅凭准确率或 F1 值就断言变量可靠，也不能把所有人工分歧都当作随机噪声。",
+      "wechat_summary": "人工标签也需要可靠的测量设计。文章区分三类文本任务，说明为何模型与人工高度一致仍不足以证明构念效度。",
+      "catalog": {
+        "section": "lianxh-new",
+        "tags": [
+          "LLM标注",
+          "构念效度",
+          "编码手册"
+        ],
+        "fields": [],
+        "methods": [],
+        "software": []
+      },
+      "tag_origin": "source-title-and-text",
+      "evidence_level": "full-text",
+      "version_read": "官网公开正文接口，核对研究主线与方法边界",
+      "selection_reason": "上期覆盖之后发布且未入微信的新实质推文，按C-08优先收录"
+    },
+    {
+      "id": "post-1944",
+      "title": "Sphinx + Agent：快速生成 Python 项目主页和在线文档",
+      "priority": "core",
+      "url": "https://www.lianxh.cn/details/1944.html",
+      "source_url": "https://www.lianxh.cn/details/1944.html",
+      "published_date": "2026-09-28",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "page_note": "文章以 panelcheck_demo 为例，展示如何让本地 Agent 审计 Python 项目，再用 Sphinx、MyST 和 autodoc 组织教程、函数说明与在线主页，并发布到 GitHub Pages。重点是代码更新后哪些说明可自动同步，哪些仍需人工维护；还讨论独立运行示例、doctest 和严格构建检查。文档生成和测试通过各有范围，不能据此推断统计程序已经覆盖所有输入或环境。",
+      "wechat_summary": "以真实 Python 小项目演示审计、Sphinx 建站、文档检查和在线发布，区分自动同步的函数信息与仍需维护的解释。",
+      "catalog": {
+        "section": "lianxh-new",
+        "tags": [
+          "Sphinx",
+          "Python",
+          "项目文档"
+        ],
+        "fields": [],
+        "methods": [],
+        "software": []
+      },
+      "tag_origin": "source-title-and-text",
+      "evidence_level": "full-text",
+      "version_read": "官网公开正文接口，核对研究主线与方法边界",
+      "selection_reason": "上期覆盖之后发布且未入微信的新实质推文，按C-08优先收录"
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-mnsc-2025-01449",
+      "title": "吉利数字如何影响金融市场定价？",
+      "priority": "core",
+      "publication_status": "published",
+      "journal": "Management Science",
+      "field": "金融学",
+      "published_date": "2026-09-23",
+      "source_date_basis": "出版社登记的在线发表日期",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01449",
+      "homepage_url": "https://doi.org/10.1287/mnsc.2025.01449",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1287/mnsc.2025.01449",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "doi_url": "https://doi.org/10.1287/mnsc.2025.01449",
+      "bibliography": {
+        "authors": [
+          "Chang, J.",
+          "Du, H."
+        ],
+        "year": 2026,
+        "title": "Superstition Everywhere",
+        "source": "Management Science",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1287/mnsc.2025.01449",
+        "homepage_url": "https://doi.org/10.1287/mnsc.2025.01449"
+      },
+      "citation": "Chang, J., Du, H.. (2026). Superstition Everywhere. Management Science.",
+      "page_note": "论文比较中国股票、债券、外汇和商品期货市场中价格尾数的分布，考察数字偏好与市场参与者特征的关系。作者区分较成熟投资者面对模糊性时的锚定行为，以及非成熟投资者的过度乐观，并发现数字偏好与系统性误定价并非在所有市场同时出现。研究启发在于把行为模式、投资者结构和价格偏离分开考察；仅观察到某种尾数更常见，不能直接推出可获利的交易策略。",
+      "wechat_summary": "比较中国多个金融市场的价格尾数，区分数字偏好与误定价，并考察投资者结构的作用。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "9月29日读取出版社登记元数据及原始摘要，未全文审读",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "行为金融",
+          "数字偏好",
+          "资产定价"
+        ],
+        "fields": [
+          "金融学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-mnsc-2023-03234",
+      "title": "常规急诊数据能怎样评价基层医疗服务？",
+      "priority": "core",
+      "publication_status": "published",
+      "journal": "Management Science",
+      "field": "管理学",
+      "published_date": "2026-09-25",
+      "source_date_basis": "出版社登记的在线发表日期",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03234",
+      "homepage_url": "https://doi.org/10.1287/mnsc.2023.03234",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1287/mnsc.2023.03234",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "doi_url": "https://doi.org/10.1287/mnsc.2023.03234",
+      "bibliography": {
+        "authors": [
+          "Savva, N.",
+          "Sülz, S.",
+          "Kinirons, M.",
+          "Sutherland, E.",
+          "Leach, R."
+        ],
+        "year": 2026,
+        "title": "The Power of Data: Assessing Primary Care Performance Using Routinely Collected Emergency Department Data",
+        "source": "Management Science",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.03234",
+        "homepage_url": "https://doi.org/10.1287/mnsc.2023.03234"
+      },
+      "citation": "Savva, N., Sülz, S., Kinirons, M., Sutherland, E., Leach, R.. (2026). The Power of Data: Assessing Primary Care Performance Using Routinely Collected Emergency Department Data. Management Science.",
+      "page_note": "论文利用英国两家相邻急诊机构的业务数据，分析本可在基层处理的疾病就诊，借助方差分解区分基层医疗机构间的系统差异，并控制观测、未观测异质性及社会经济因素。作者将构造的机构指标与患者反馈、既有质量评分和人员配置作比较。对行政数据研究的启发是从下游服务使用反推上游服务差异，但该指标不能直接代替对任意医疗改革的因果评估，跨地区使用需重新检验数据口径和模型假设。",
+      "wechat_summary": "用急诊业务数据构造基层医疗机构评价指标，通过方差分解和外部指标比较检查其信息价值。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "9月29日读取出版社登记元数据及原始摘要，未全文审读",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "行政数据",
+          "方差分解",
+          "绩效评价"
+        ],
+        "fields": [
+          "管理学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-smj-70123",
+      "title": "品牌商代工自有品牌，会改变零售商的模仿策略吗？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Strategic Management Journal",
+      "field": "管理学",
+      "published_date": "2026-09-22",
+      "source_date_basis": "出版社登记的在线发表日期",
+      "source_url": "https://doi.org/10.1002/smj.70123",
+      "homepage_url": "https://doi.org/10.1002/smj.70123",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1002/smj.70123",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "doi_url": "https://doi.org/10.1002/smj.70123",
+      "bibliography": {
+        "authors": [
+          "Hou, Y."
+        ],
+        "year": 2026,
+        "title": "Accommodation in the vertical supply chain: Implications of manufacturer dual tracking",
+        "source": "Strategic Management Journal",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1002/smj.70123",
+        "homepage_url": "https://doi.org/10.1002/smj.70123"
+      },
+      "citation": "Hou, Y.. (2026). Accommodation in the vertical supply chain: Implications of manufacturer dual tracking. Strategic Management Journal.",
+      "page_note": "论文研究早餐谷物市场中一家品牌制造商同时向零售商供应品牌产品和自有品牌产品的变化。作者发现，零售商对直接模仿该制造商品牌的产品减少了推出和广告投入，并据此讨论纵向关系变化与议价能力。它提示研究者将代工关系、产品组合和竞争行为共同纳入分析，而非把自有品牌扩张仅理解为价格竞争。证据来自特定行业与关系变化，机制和结论外推仍需结合具体市场结构。",
+      "wechat_summary": "早餐谷物行业案例考察双重供货关系如何改变零售商的自有品牌推出与广告行为。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "9月29日读取出版社登记元数据及原始摘要，未全文审读",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "供应链",
+          "自有品牌",
+          "议价能力"
+        ],
+        "fields": [
+          "管理学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-orsc-2024-18685",
+      "title": "权力与地位会同样强化彼此吗？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Organization Science",
+      "field": "管理学",
+      "published_date": "2026-09-25",
+      "source_date_basis": "出版社登记的在线发表日期",
+      "source_url": "https://doi.org/10.1287/orsc.2024.18685",
+      "homepage_url": "https://doi.org/10.1287/orsc.2024.18685",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1287/orsc.2024.18685",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "doi_url": "https://doi.org/10.1287/orsc.2024.18685",
+      "bibliography": {
+        "authors": [
+          "Mitchell, R.",
+          "Matusik, J. G.",
+          "Hays, N."
+        ],
+        "year": 2026,
+        "title": "The Asymmetric Nature of Social Hierarchies: Unpacking the Dynamic Relationship Between Power and Status",
+        "source": "Organization Science",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1287/orsc.2024.18685",
+        "homepage_url": "https://doi.org/10.1287/orsc.2024.18685"
+      },
+      "citation": "Mitchell, R., Matusik, J. G., Hays, N.. (2026). The Asymmetric Nature of Social Hierarchies: Unpacking the Dynamic Relationship Between Power and Status. Organization Science.",
+      "page_note": "研究区分控制资源的权力与获得他人尊重的地位，用项目团队的纵向资料和双变量变化得分模型考察二者的动态关系，再以实验分析他人对亲和与合作取向的评价。作者发现两条方向的关系并不对称，地位通向权力变化的路径更强。可借鉴之处是把静态相关与动态变化分开建模；纵向模型本身仍依赖设定与未观测因素假设，不能将时间先后直接视为因果识别。",
+      "wechat_summary": "结合团队纵向资料和实验，比较权力与地位相互变化的方向及可能机制。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "9月29日读取出版社登记元数据及原始摘要，未全文审读",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "组织地位",
+          "动态模型",
+          "团队研究"
+        ],
+        "fields": [
+          "管理学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-orsc-2024-19306",
+      "title": "团队失败以后，加入高地位成员何时有帮助？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Organization Science",
+      "field": "管理学",
+      "published_date": "2026-09-17",
+      "source_date_basis": "出版社登记的在线发表日期",
+      "source_url": "https://doi.org/10.1287/orsc.2024.19306",
+      "homepage_url": "https://doi.org/10.1287/orsc.2024.19306",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1287/orsc.2024.19306",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "doi_url": "https://doi.org/10.1287/orsc.2024.19306",
+      "bibliography": {
+        "authors": [
+          "Zhong, Y.",
+          "Li, H. (.",
+          "Shen, X. (.",
+          "Hays, N. A.",
+          "Li, J."
+        ],
+        "year": 2026,
+        "title": "Survival of the Flattest: Teams with Low (but Not High) Status Differentiation Turn Failure into Success by Adding High-Status Members",
+        "source": "Organization Science",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1287/orsc.2024.19306",
+        "homepage_url": "https://doi.org/10.1287/orsc.2024.19306"
+      },
+      "citation": "Zhong, Y., Li, H. (., Shen, X. (., Hays, N. A., Li, J.. (2026). Survival of the Flattest: Teams with Low (but Not High) Status Differentiation Turn Failure into Success by Adding High-Status Members. Organization Science.",
+      "page_note": "论文将团队视为会调整成员构成的开放系统，研究失败之后是否愿意引入高地位成员，以及这一选择怎样受原有地位差距影响。研究结合产品开发团队的纵向档案和预注册实验，发现地位分化较低的团队更容易把新成员视为集体改进机会，分化较高时则可能产生地位威胁。阅读时应区分档案中的绩效关系与实验所检验的个体、团队机制，不能概括为所有失败团队都应引入明星成员。",
+      "wechat_summary": "结合纵向档案与预注册实验，研究团队地位差距如何影响失败后的成员调整。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "9月29日读取出版社登记元数据及原始摘要，未全文审读",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "团队失败",
+          "地位差距",
+          "预注册实验"
+        ],
+        "fields": [
+          "管理学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "paper-01492063261480030",
+      "title": "资历高于岗位要求，会促使年长员工帮助后辈吗？",
+      "priority": "extended",
+      "publication_status": "published",
+      "journal": "Journal of Management",
+      "field": "管理学",
+      "published_date": "2026-09-21",
+      "source_date_basis": "出版社登记的在线发表日期",
+      "source_url": "https://doi.org/10.1177/01492063261480030",
+      "homepage_url": "https://doi.org/10.1177/01492063261480030",
+      "publication_evidence_url": "https://api.crossref.org/works/10.1177/01492063261480030",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "doi_url": "https://doi.org/10.1177/01492063261480030",
+      "bibliography": {
+        "authors": [
+          "Yu, J.",
+          "Ganegoda, D. B.",
+          "Ma, C."
+        ],
+        "year": 2026,
+        "title": "Passing on Talent: A Generativity Perspective on the Effects of Perceived Overqualification Among Older Employees",
+        "source": "Journal of Management",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1177/01492063261480030",
+        "homepage_url": "https://doi.org/10.1177/01492063261480030"
+      },
+      "citation": "Yu, J., Ganegoda, D. B., Ma, C.. (2026). Passing on Talent: A Generativity Perspective on the Effects of Perceived Overqualification Among Older Employees. Journal of Management.",
+      "page_note": "论文从培育下一代的动机出发，研究年长员工感到自身资历超过岗位要求时，是否更愿意支持年轻同事。两项多时点现场调查将这种感受、传承动机与帮助行为联系起来，并分析面向年长员工的人力资源安排。文章提供了研究主观资历匹配和代际协作的机制线索；多时点调查有助于安排测量顺序，但并不自动排除选择、共同方法偏差或其他混杂。",
+      "wechat_summary": "多时点现场调查分析资历过剩感、传承动机及帮助行为的关系，关注组织制度的调节作用。",
+      "evidence_level": "publisher-abstract",
+      "version_read": "9月29日读取出版社登记元数据及原始摘要，未全文审读",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "资历匹配",
+          "代际协作",
+          "现场调查"
+        ],
+        "fields": [
+          "管理学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "arxiv-2609-32369",
+      "title": "弱相关数据的野生自助法，怎样选择两点乘子？",
+      "priority": "extended",
+      "publication_status": "working-paper",
+      "journal": "arXiv",
+      "working_paper_source": "arXiv",
+      "field": "统计与计量方法",
+      "published_date": "2026-09-26",
+      "source_date_basis": "arXiv首次提交日期；实际阅读版本另记",
+      "source_url": "https://arxiv.org/abs/2609.32369",
+      "homepage_url": "https://arxiv.org/abs/2609.32369",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.32369",
+      "pdf_url": "https://arxiv.org/pdf/2609.32369.pdf",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "bibliography": {
+        "authors": [
+          "Nishi, Mikihito",
+          "Yamagata, Takashi"
+        ],
+        "year": 2026,
+        "title": "Two-Point Dependent Wild Bootstrap for Weakly Dependent Estimating Equations",
+        "source": "arXiv",
+        "publication_status": "working-paper",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.32369",
+        "homepage_url": "https://arxiv.org/abs/2609.32369",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.32369.pdf",
+          "public_access": true,
+          "source_url": "https://arxiv.org/abs/2609.32369",
+          "retrieved_date": "2026-09-29",
+          "version": "arXiv v1 (2026-09-26)",
+          "method": "arxiv-id-derived"
+        }
+      },
+      "citation": "Nishi, Mikihito, Yamagata, Takashi. (2026). Two-Point Dependent Wild Bootstrap for Weakly Dependent Estimating Equations. arXiv.",
+      "page_note": "工作论文提出两点分布的相关野生自助法，把乘子的边际分布与序列依赖分开设定，并建立与异方差、自相关稳健协方差估计的联系。在弱依赖和渐近线性等条件下，作者论证检验有效性，辅以 GMM、线性回归模拟及短期利率模型应用。它提供了一条比较乘子分布与长期方差估计的思路；模拟中的尺寸表现不代表所有样本和依赖结构下均有优势，本文尚属工作论文。",
+      "wechat_summary": "将两点乘子与序列依赖分开设计，研究弱依赖估计方程的自助推断。",
+      "evidence_level": "official-abstract",
+      "version_read": "arXiv v1 (2026-09-26)摘要；PDF按编号构造",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "野生自助法",
+          "序列相关",
+          "GMM"
+        ],
+        "fields": [
+          "统计与计量方法"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "arxiv-2609-31769",
+      "title": "处理执行不完全时，树模型如何寻找受益人群？",
+      "priority": "extended",
+      "publication_status": "working-paper",
+      "journal": "arXiv",
+      "working_paper_source": "arXiv",
+      "field": "统计与计量方法",
+      "published_date": "2026-09-24",
+      "source_date_basis": "arXiv首次提交日期；实际阅读版本另记",
+      "source_url": "https://arxiv.org/abs/2609.31769",
+      "homepage_url": "https://arxiv.org/abs/2609.31769",
+      "doi_url": "https://doi.org/10.48550/arXiv.2609.31769",
+      "pdf_url": "https://arxiv.org/pdf/2609.31769.pdf",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "bibliography": {
+        "authors": [
+          "Gliszczyńska-Schroeder, Karolina"
+        ],
+        "year": 2026,
+        "title": "Estimating Heterogeneous Causal Effects with Tree-Based Methods under Imperfect Compliance",
+        "source": "arXiv",
+        "publication_status": "working-paper",
+        "doi_url": "https://doi.org/10.48550/arXiv.2609.31769",
+        "homepage_url": "https://arxiv.org/abs/2609.31769",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2609.31769.pdf",
+          "public_access": true,
+          "source_url": "https://arxiv.org/abs/2609.31769",
+          "retrieved_date": "2026-09-29",
+          "version": "arXiv v1 (2026-09-24)",
+          "method": "arxiv-id-derived"
+        }
+      },
+      "citation": "Gliszczyńska-Schroeder, Karolina. (2026). Estimating Heterogeneous Causal Effects with Tree-Based Methods under Imperfect Compliance. arXiv.",
+      "page_note": "工作论文围绕条件服从者平均因果效应，提出可替换机器学习估计器的两阶段方案，比较非贝叶斯森林方法与 BCF-IV 的子组发现及异质效应估计。作者用模拟和英国 ICU 及时入院资料讨论应用。服从者效应不同于全体样本平均效应，机器学习也不替代工具变量有效性、排除限制和单调性等识别条件；计算与精度优势仅对应所比较的设置。",
+      "wechat_summary": "比较不完全服从下的树模型异质效应估计，需明确服从者目标人群及工具变量假设。",
+      "evidence_level": "official-abstract",
+      "version_read": "arXiv v1 (2026-09-24)摘要；PDF按编号构造",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "工具变量",
+          "因果森林",
+          "不完全服从"
+        ],
+        "fields": [
+          "统计与计量方法"
+        ],
+        "methods": [],
+        "software": []
+      }
+    },
+    {
+      "id": "nber-w35807",
+      "title": "时间固定效应为何可能遗漏网络中的一般均衡冲击？",
+      "priority": "extended",
+      "publication_status": "working-paper",
+      "journal": "NBER Working Paper",
+      "working_paper_source": "NBER",
+      "field": "经济学",
+      "published_date": "2026-09-28",
+      "source_date_basis": "NBER官网citation_publication_date；页面Issue Date为月精度",
+      "source_url": "https://www.nber.org/papers/w35807",
+      "homepage_url": "https://www.nber.org/papers/w35807",
+      "doi_url": "https://doi.org/10.3386/w35807",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35807/w35807.pdf",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "bibliography": {
+        "authors": [
+          "Bernard Herskovic",
+          "Gill Segal"
+        ],
+        "year": 2026,
+        "title": "Network General Equilibrium as a Threat to Identification: The Failure of Time Fixed Effects",
+        "source": "NBER Working Paper No. 35807",
+        "publication_status": "working-paper",
+        "doi_url": "https://doi.org/10.3386/w35807",
+        "homepage_url": "https://www.nber.org/papers/w35807",
+        "pdf": {
+          "url": "https://www.nber.org/system/files/working_papers/w35807/w35807.pdf",
+          "public_access": true,
+          "source_url": "https://www.nber.org/papers/w35807",
+          "retrieved_date": "2026-09-29",
+          "version": "NBER September 2026"
+        }
+      },
+      "citation": "Bernard Herskovic, Gill Segal. (2026). Network General Equilibrium as a Threat to Identification: The Failure of Time Fixed Effects. NBER Working Paper No. 35807.",
+      "page_note": "工作论文指出，网络经济中的总量冲击经价格、成本和需求传递后，对不同企业的影响未必相同。时间去均值可能留下网络梯度，若工具变量、处理分配或暴露度与其相关，面板估计可能混入一般均衡的间接影响。作者建立分析框架并讨论网络可见与不可见时的诊断及修正。它提醒研究者检查对照组是否也受均衡变化影响；不能据此断言所有时间固定效应或 DID 都无效，具体偏差取决于网络、处理设计和目标参数。",
+      "wechat_summary": "研究网络一般均衡冲击如何残留于时间去均值后的面板数据，并讨论对工具变量与DID识别的影响。",
+      "evidence_level": "official-abstract",
+      "version_read": "NBER官方摘要；未全文审读",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "网络溢出",
+          "时间固定效应",
+          "因果识别"
+        ],
+        "fields": [
+          "经济学"
+        ],
+        "methods": [],
+        "software": []
+      }
+    }
+  ],
+  "tools": [
+    {
+      "id": "r-ardlverse-2-0-2",
+      "name": "ardlverse",
+      "ecosystem": "R",
+      "version": "2.0.2",
+      "release_date": "2026-09-28",
+      "published_date": "2026-09-28",
+      "source_date_basis": "CRAN官方发行日期",
+      "source_url": "https://cran.r-project.org/web/packages/ardlverse/index.html",
+      "url": "https://cran.r-project.org/web/packages/ardlverse/index.html",
+      "help_url": "https://cran.r-project.org/web/packages/ardlverse/news/news.html",
+      "retrieved_date": "2026-09-29",
+      "added_date": "2026-09-29",
+      "priority": "core",
+      "title": "ardlverse 2.0.2：修复影响估计结果的滞后与区间错误",
+      "page_note": "CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计算中的滞后对齐问题，并修正面板 NARDL 自助法置信区间与系数匹配错误。使用这些函数的研究者应核对版本并重新检查受影响结果。安装命令为 `install.packages(\"ardlverse\")`；本次查询时 Windows 二进制仍为 2.0.0，不能仅凭重新安装就认定已更新。官方 README 的部分调用仍沿用旧接口，应以当前帮助文件为准。本期核对发行、NEWS、示例和问题列表，未独立运行或证明所有估计正确。",
+      "wechat_summary": "本次修复涉及滞后对齐和自助法区间匹配。使用相关 ARDL 函数的研究者应核对实际安装版本，并复查受影响结果。",
+      "tested": false,
+      "evidence_level": "official-documentation",
+      "catalog": {
+        "section": "methods-tools",
+        "tags": [
+          "ARDL",
+          "版本修复",
+          "R"
+        ],
+        "fields": [],
+        "methods": [],
+        "software": [
+          "R"
+        ]
+      },
+      "software_tested": false,
+      "review": {
+        "installation_url": "https://cran.r-project.org/web/packages/ardlverse/index.html",
+        "example_url": "https://cran.r-project.org/web/packages/ardlverse/readme/README.html",
+        "release_url": "https://cran.r-project.org/web/packages/ardlverse/news/news.html",
+        "known_issues_url": "https://github.com/muhammedalkhalaf/ardlverse/issues",
+        "verified_at": "2026-09-29",
+        "software_tested": false,
+        "reason": "官方NEWS明确列出结果相关修复；README含旧接口示例，提醒以当前帮助为准，不宣称独立实测。"
+      }
+    }
+  ],
+  "research_resources": [],
+  "conference_calls": [],
+  "discovery": [
+    {
+      "category": "posts",
+      "source_url": "https://www.lianxh.cn/index.html",
+      "query": "官网目录及公开正文接口核验1943和1944，两篇9月28日新推文均未进入旧短版；1942已发，1941招聘排除，1940课程已交接。",
+      "checked_at": "2026-09-29",
+      "window_start": "2026-09-15",
+      "window_end": "2026-09-29",
+      "status": "found",
+      "candidate_count": 5,
+      "eligible_count": 2,
+      "adopted_count": 2,
+      "reason": "官网目录及公开正文接口核验1943和1944，两篇9月28日新推文均未进入旧短版；1942已发，1941招聘排除，1940课程已交接。",
+      "candidate_ids": [
+        "post-1943",
+        "post-1944",
+        "post-1942",
+        "post-1941",
+        "post-1940"
+      ]
+    },
+    {
+      "category": "papers",
+      "source_url": "https://api.crossref.org/",
+      "query": "复用9月27—28日28刊真实检查；另读6篇出版社摘要，经济金融优先候选已有重复、日期精度或正文证据限制。NBER与arXiv新批次另核验；本行候选数为深入核验9篇，完整初筛目录见paper_review。",
+      "checked_at": "2026-09-29",
+      "window_start": "2026-09-15",
+      "window_end": "2026-09-29",
+      "status": "found",
+      "candidate_count": 9,
+      "eligible_count": 9,
+      "adopted_count": 9,
+      "reason": "复用9月27—28日28刊真实检查；另读6篇出版社摘要，经济金融优先候选已有重复、日期精度或正文证据限制。NBER与arXiv新批次另核验；本行候选数为深入核验9篇，完整初筛目录见paper_review。",
+      "candidate_ids": [
+        "10.1287/mnsc.2025.01449",
+        "10.1287/mnsc.2023.03234",
+        "10.1002/smj.70123",
+        "10.1287/orsc.2024.18685",
+        "10.1287/orsc.2024.19306",
+        "10.1177/01492063261480030",
+        "10.48550/arXiv.2609.32369",
+        "10.48550/arXiv.2609.31769",
+        "10.3386/w35807"
+      ]
+    },
+    {
+      "category": "software",
+      "source_url": "https://cran.r-project.org/web/packages/available_packages_by_date.html",
+      "query": "ardlverse2.0.2为结果相关修复采用；paneltests1.0.6仅改引文，无代码变化，本期不采用。",
+      "checked_at": "2026-09-29",
+      "window_start": "2026-09-15",
+      "window_end": "2026-09-29",
+      "status": "found",
+      "candidate_count": 2,
+      "eligible_count": 1,
+      "adopted_count": 1,
+      "reason": "ardlverse2.0.2为结果相关修复采用；paneltests1.0.6仅改引文，无代码变化，本期不采用。",
+      "candidate_ids": [
+        "ardlverse",
+        "paneltests"
+      ]
+    },
+    {
+      "category": "software",
+      "source_url": "https://pypi.org/rss/updates.xml",
+      "query": "有限RSS及causalml官方发行核验；搜索索引提及0.18开发信息，但PyPI最新仍0.17.0(7月4日)，不当作近期正式更新；并非整个Python生态无新内容。",
+      "checked_at": "2026-09-29",
+      "window_start": "2026-09-15",
+      "window_end": "2026-09-29",
+      "status": "no-eligible",
+      "candidate_count": 0,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "有限RSS及causalml官方发行核验；搜索索引提及0.18开发信息，但PyPI最新仍0.17.0(7月4日)，不当作近期正式更新；并非整个Python生态无新内容。",
+      "candidate_ids": []
+    },
+    {
+      "category": "software",
+      "source_url": "https://www.stata-journal.com/current-issue/",
+      "query": "复查SSC入口及SJ26(3)，已介绍的软件不重复，本轮未采用；有限目录筛查不代表全生态无更新。",
+      "checked_at": "2026-09-29",
+      "window_start": "2026-09-15",
+      "window_end": "2026-09-29",
+      "status": "no-eligible",
+      "candidate_count": 0,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "复查SSC入口及SJ26(3)，已介绍的软件不重复，本轮未采用；有限目录筛查不代表全生态无更新。",
+      "candidate_ids": []
+    },
+    {
+      "category": "conferences",
+      "source_url": "https://www.cfrn.com.cn/hyxx/index.html",
+      "query": "复查CFRN、经济金融网和上财会议目录。北京ICMSE已于昨日采用，其他已介绍会议不重复；南京工作坊仍缺主办方原始通知，保留待核验而非认定没有会议。",
+      "checked_at": "2026-09-29",
+      "window_start": "2026-09-15",
+      "window_end": "2026-09-29",
+      "status": "no-eligible",
+      "candidate_count": 0,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "reason": "复查CFRN、经济金融网和上财会议目录。北京ICMSE已于昨日采用，其他已介绍会议不重复；南京工作坊仍缺主办方原始通知，保留待核验而非认定没有会议。",
+      "candidate_ids": []
+    }
+  ]
+}

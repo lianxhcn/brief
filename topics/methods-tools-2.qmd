@@ -8,9 +8,16 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 40 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 5 页 · 共 41 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-5.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>iglm 1.2.6：网络干扰模型的诊断与接口更新</h3>
+<p class="catalog-meta">期次日期：2026-09-24</p>
+<p>iglm 将广义线性模型扩展到结果可能相互依赖的连接群体，用于研究网络关联与溢出。1.2.6 统一度分布接口，增加按属性筛选的子网络描述和拟合诊断，并把部分 type 参数改为 family，同时增强输入检查。安装命令为 <code>install.packages(&quot;iglm&quot;)</code>。旧脚本需核对参数名；网络关联不自动构成因果溢出证据。本期依据官方 NEWS 与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=GLM&amp;show-results=1" title="全站搜索：GLM">GLM</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260924/#r-iglm-1-2-6">查看本期</a><a href="https://cran.r-project.org/web/packages/iglm/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>staggR 0.2.1：修正聚合效应的 p 值和显著性标记</h3>
 <p class="catalog-meta">期次日期：2026-09-23</p>
@@ -74,15 +81,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E5%A4%B1%E8%AE%BF&amp;show-results=1" title="全站搜索：实验失访">实验失访</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260919/#r-attrition-1-0-0">查看本期</a><a href="https://cran.r-project.org/web/packages/attrition/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>tinytable 0.19.0：修正 Quarto 分组表格格式处理</h3>
-<p class="catalog-meta">期次日期：2026-09-18</p>
-<p>tinytable 0.19.0 修正 <code>format_tt(quarto = TRUE)</code> 与行分组配合时产生多余 NA 行或格式套到错误单元格的问题，并将相关格式处理扩展到列名、标题、注释和分组标签。安装命令为 <code>install.packages(&quot;tinytable&quot;)</code>。使用 Quarto 输出分组回归表或描述统计表的读者，可重点检查更新前后的表格布局与数值对应关系。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：研究报告">研究报告</a> · <a class="tag-link" href="?q=Quarto&amp;show-results=1" title="全站搜索：Quarto">Quarto</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260918/#r-tinytable-0-19-0">查看本期</a><a href="https://cran.r-project.org/web/packages/tinytable/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 4 页 · 共 40 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 5 页 · 共 41 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-5.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

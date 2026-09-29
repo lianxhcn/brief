@@ -37,8 +37,8 @@ class VisibleText(HTMLParser):
             self.parts.append(text)
 
 def contains_demo_marker(text):
-    # 测试标记需独立于英文单词，避免误伤 demographics 等真实题名。
-    return bool(re.search(r'(?<![A-Za-z])DEMO(?![A-Za-z])|2099[-/]?01', text, re.I))
+    # 测试标记需独立于英文单词或代码标识符，避免误伤 demographics、panelcheck_demo。
+    return bool(re.search(r'(?<![A-Za-z0-9_])_?DEMO_?(?![A-Za-z0-9_])|2099[-/]?01', text, re.I))
 
 
 def validate(output):

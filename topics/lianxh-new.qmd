@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 5 页 · 共 43 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 5 页 · 共 45 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>Sphinx + Agent：快速生成 Python 项目主页和在线文档</h3>
+<p class="catalog-meta">期次日期：2026-09-29</p>
+<p>文章以 panelcheck_demo 为例，展示如何让本地 Agent 审计 Python 项目，再用 Sphinx、MyST 和 autodoc 组织教程、函数说明与在线主页，并发布到 GitHub Pages。重点是代码更新后哪些说明可自动同步，哪些仍需人工维护；还讨论独立运行示例、doctest 和严格构建检查。文档生成和测试通过各有范围，不能据此推断统计程序已经覆盖所有输入或环境。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Sphinx&amp;show-results=1" title="全站搜索：Sphinx">Sphinx</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3&amp;show-results=1" title="全站搜索：项目文档">项目文档</a></p>
+<p class="catalog-actions"><a href="../issues/20260929/#post-1944">查看本期</a><a href="https://www.lianxh.cn/details/1944.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>LLM标注与人工标注高度一致，文本变量就可靠吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-29</p>
+<p>文章区分事实提取、规则型分类和解释型构念三类文本任务。LLM 与人工标签高度一致，说明模型能够复现某套参照判断，但还需检查人工标签是否真正对应研究概念。文中讨论编码手册、标注者视角、争议案例及外部效度证据，适合在把文本评分放入回归前检查测量设计。不能仅凭准确率或 F1 值就断言变量可靠，也不能把所有人工分歧都当作随机噪声。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：LLM标注">LLM标注</a> · <a class="tag-link" href="?q=%E6%9E%84%E5%BF%B5%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：构念效度">构念效度</a> · <a class="tag-link" href="?q=%E7%BC%96%E7%A0%81%E6%89%8B%E5%86%8C&amp;show-results=1" title="全站搜索：编码手册">编码手册</a></p>
+<p class="catalog-actions"><a href="../issues/20260929/#post-1943">查看本期</a><a href="https://www.lianxh.cn/details/1943.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>ChatGPT：数据帝，何许人也？</h3>
 <p class="catalog-meta">期次日期：2026-09-27</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%ADDID&amp;show-results=1" title="全站搜索：连续DID">连续DID</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E5%BC%BA%E5%BA%A6&amp;show-results=1" title="全站搜索：处理强度">处理强度</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a></p>
 <p class="catalog-actions"><a href="../issues/20260921/#post-1933">查看本期</a><a href="https://www.lianxh.cn/details/1933.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>readraster：在 Stata 里直接读 GeoTIFF 和 NetCDF 地理栅格数据</h3>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>文章介绍在 Stata 中读取 GeoTIFF 和 NetCDF，并通过行政区分区统计或点位匹配整理研究数据，附夜间灯光、气候数据及湖南地区示例。安装入口为 <code>ssc install readraster</code>，部分功能需要配置 Java 依赖。实际使用应先核对坐标系、缺失值和聚合口径；气候情景输出也不能当作已经发生的天气观测。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9C%B0%E7%90%86%E6%A0%85%E6%A0%BC&amp;show-results=1" title="全站搜索：地理栅格">地理栅格</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：空间数据">空间数据</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#post-1934">查看本期</a><a href="https://www.lianxh.cn/details/1934.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>llm-for-zotero 实操指南：在 Zotero 里把一篇论文读透</h3>
-<p class="catalog-meta">期次日期：2026-09-14</p>
-<p>文章在 Zotero 阅读器中组织论文提问、原文定位、跨论文比较和笔记保存，并说明复杂 PDF 的解析及 Agent 文库操作。读者可按示例核查表格和识别策略；AI 回答适合辅助阅读，关键数字与结论仍须回到原文，云端模型或解析服务的数据去向也需留意。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Zotero&amp;show-results=1" title="全站搜索：Zotero">Zotero</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB&amp;show-results=1" title="全站搜索：论文精读">论文精读</a> · <a class="tag-link" href="?q=%E8%AF%81%E6%8D%AE%E6%A0%B8%E9%AA%8C&amp;show-results=1" title="全站搜索：证据核验">证据核验</a></p>
-<p class="catalog-actions"><a href="../issues/20260914/#post-1931">查看本期</a><a href="https://www.lianxh.cn/details/1931.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 5 页 · 共 43 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 5 页 · 共 45 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-5.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
