@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.01
+
+📰 01｜论文 · Management Science：库存补货决策应该交给客户还是供应商？
+MS 新文比较客户与供应商主导补货，说明缺货成本、仓库网络及成本分担如何影响决策权配置。
+引文：Chen, Cohen & Lee (2026). Who Directs the Control Tower? Customer vs. Supplier-Managed Inventory in Supply Chains. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.02137 
+
+📰 02｜论文 · Strategic Management Journal：产品怎样设计，更容易被用户发现新用途？
+SMJ 研究宜家产品改造，区分新应用与新能力，讨论模块化、视觉简洁性和组件兼容性的作用。
+引文：Lim & Chan (2026). Designing for unanticipated uses: How product attributes shape community‐led exaptation. Strategic Management Journal.
+主页： https://doi.org/10.1002/smj.70132 
+
+📦 03｜软件 · Python：puremacro 4.3：宏观结构求解与关税福利计算更新
+4.3 增加贸易福利与结构求解检查，新选项需显式启用。发行记录仍列有已知失败，使用前应核对说明。
+版本：Python / puremacro 4.3.0；发布：2026-09-20
+PyPI： https://pypi.org/project/puremacro/4.3.0/ 
+
+📅 04｜会议征稿：湾区金融高端论坛：广州举行，11 月 20 日截稿
+12 月 18—20 日在广州举行，11 月 20 日截稿，需提交信息表与 PDF 论文。免会务费，交通住宿自理。
+截止：2026-11-20
+通知： https://aif.sysu.edu.cn/article/221 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261001/ 

@@ -841,6 +841,17 @@
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
       "note": "含当前系列及档案；只沿当前系列核验当届通知，不能把 ongoing 解释为正在征稿；本轮仅入口核验，未完成候选审查"
+    },
+    {
+      "id": "conference:sysu-aif-greatbay-2026",
+      "name": "中山大学高级金融研究院：2026湾区金融论坛通知",
+      "category": "conferences",
+      "url": "https://aif.sysu.edu.cn/article/221",
+      "interval_days": 7,
+      "entry_type": "organizer-notice",
+      "entry_status": "partial-access",
+      "retrieved_date": "2026-10-01",
+      "note": "主办方原通知可由网页检索读取，直接HTTP403；单届通知用于状态追踪，不代表全站会议目录覆盖。"
     }
   ],
   "editorial_registry_note": "连续编辑器使用editorial_sources作为检查身份；原分组保留发现线索与兼容，不作为另一份动态状态。期刊排名不由入口配置修改。"
