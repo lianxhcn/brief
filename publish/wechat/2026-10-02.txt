@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.02
+
+✍️ 01｜新推文：Stata新命令tvpreg：时变参数回归分析
+介绍 tvpreg 的参数路径估计、时变脉冲响应及 Stata 语法，结合 VAR、局部投影和工具变量案例说明用法。
+阅读全文： https://www.lianxh.cn/details/1949.html 
+
+✍️ 02｜新推文：人工标注通过以后，LLM 文本变量还要做哪些验证？
+区分开发、测试与外推样本，检查系统性误差和测量方案敏感性，避免把人工一致性当作文本变量的最终验收。
+阅读全文： https://www.lianxh.cn/details/1950.html 
+
+📰 03｜论文 · QJE：提醒已知支出，能改善季节性贫困吗？
+QJE 田野实验用分类联想帮助农户回忆未来支出，考察储蓄和跨季节消费，区分缺少信息与提取失败。
+引文：Augenblick et al. (2026). Retrieval Failures and Consumption Smoothing: A Field Experiment on Seasonal Poverty. QJE.
+主页： https://doi.org/10.1093/qje/qjag035 
+
+📰 04｜论文 · The Journal of Finance：手机查看财务信息，会改变消费吗？
+JF 利用不同设备应用分批上线，研究移动财务信息访问对采用者消费的影响及监控、自我调节渠道。
+引文：LEVI & BENARTZI (2026). Mind the App: Mobile Access to Financial Information and Consumer Behavior. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70087 
+
+📦 05｜软件 · R：clusterIV 0.2：聚类工具变量与弱工具稳健推断
+新增聚类弱工具稳健检验与置信集合、高维固定效应支持。注意单个内生变量限制及二进制版本滞后。
+版本：R / clusterIV 0.2.0；发布：2026-10-01
+CRAN： https://cran.r-project.org/web/packages/clusterIV/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261002/ 

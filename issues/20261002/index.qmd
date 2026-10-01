@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.10.02"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### Stata新命令tvpreg：时变参数回归分析 {#post-1949}
+
+文章介绍时变参数回归命令 <code>tvpreg</code>，将固定系数扩展为随时间变化的参数路径，并结合 TVP-VAR、局部投影、工具变量与弱工具变量场景解释语法和图形输出。读者可据此区分参数不稳定与离散结构突变，了解 <code>tvpplot</code> 和 <code>predict</code> 的用法。应用仍需核对时间序列设定、工具变量有效性及所用模型的条件；本期阅读推文，未重新运行随文示例。
+
+标签：<a class="tag-link" href="?q=tvpreg&amp;show-results=1" title="全站搜索：tvpreg">tvpreg</a> · <a class="tag-link" href="?q=%E6%97%B6%E5%8F%98%E5%8F%82%E6%95%B0&amp;show-results=1" title="全站搜索：时变参数">时变参数</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-02</small>
+
+<a href="https://www.lianxh.cn/details/1949.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 人工标注通过以后，LLM 文本变量还要做哪些验证？ {#post-1950}
+
+以年报中的管理层乐观程度为例，文章说明人工标签与模型高度一致以后仍需完成哪些检验。内容包括区分开发、测试和外推样本，检查关键子样本的系统性误差，以及跨时期、跨行业和合理测量方案的稳定性。测试样本不能反复用于调提示词；总体准确率也不能保证测量误差不影响后续回归和因果解释。
+
+标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：样本外检验">样本外检验</a> · <a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-02</small>
+
+<a href="https://www.lianxh.cn/details/1950.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 提醒已知支出，能改善季节性贫困吗？ {#paper-qjag035}
+
+<p class="myapa">Augenblick, N., Jack, B. K., Kaur, S., Masiye, F., &amp; Swanson, N. (2026). Retrieval Failures and Consumption Smoothing: A Field Experiment on Seasonal Poverty. The Quarterly Journal of Economics. <a href="https://doi.org/10.1093/qje/qjag035" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Retrieval%20Failures%20and%20Consumption%20Smoothing%3A%20A%20Field%20Experiment%20on%20Seasonal%20Poverty" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在赞比亚农户中随机实施分类联想提示，让受访者回忆未来支出，不额外提供外部信息或理财建议。研究跟踪支出预期、储蓄和跨季节消费，发现回忆改善与更平滑的消费路径相伴，并在美国低收入人群中检验预期反应。它将信息是否知道与决策时能否提取区分开来；不同地区的干预和结果检验并不完全相同，不能把预期变化等同于所有场景的长期收入改善。
+
+标签：<a class="tag-link" href="?q=%E7%94%B0%E9%87%8E%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：田野实验">田野实验</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E5%B9%B3%E6%BB%91&amp;show-results=1" title="全站搜索：消费平滑">消费平滑</a> · <a class="tag-link" href="?q=%E8%AE%B0%E5%BF%86&amp;show-results=1" title="全站搜索：记忆">记忆</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-02</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 手机查看财务信息，会改变消费吗？ {#paper-jofi-70087}
+
+<p class="myapa">LEVI, Y. &amp; BENARTZI, S. (2026). Mind the App: Mobile Access to Financial Information and Consumer Behavior. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70087" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Mind%20the%20App%3A%20Mobile%20Access%20to%20Financial%20Information%20and%20Consumer%20Behavior" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文使用账户聚合服务的交易数据，研究先在电脑端使用服务、随后安装手机应用的消费者。作者利用不同设备应用的分批上线分析移动访问与可自由支配支出的变化，并考察晚间及自我控制代理指标的差异。结果与监控和自我调节渠道一致，但识别针对应用采用者，不能将其直接外推到所有消费者，也不能把代理指标视为自控能力的精确测量。
+
+标签：<a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：消费行为">消费行为</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80&amp;show-results=1" title="全站搜索：金融科技">金融科技</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%88%91%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：自我控制">自我控制</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-02</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### clusterIV 0.2：聚类工具变量与弱工具稳健推断 {#r-clusteriv-0-2-0}
+
+R 包面向一个内生解释变量和单向聚类误差，0.2 新增 cluster-jackknife Anderson–Rubin 与 score 检验、解析反演置信集合以及高维固定效应接口。置信集合可能不连通或无界，不能强行概括成一个普通区间。可用 <code>install.packages(&quot;clusterIV&quot;, type=&quot;source&quot;)</code> 获取当前源码版；核验时 Windows 二进制仍为 0.1.0。普通 CJIVE 插件标准误在工具和控制变量很多时仍可能过度拒绝；本期核对文档与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：弱工具推断">弱工具推断</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-02</small>
+
+<a href="https://cran.r-project.org/web/packages/clusterIV/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 企业的风险选择如何形成宏观波动？ {#paper-qjag048}
+
+<p class="myapa">Kopytov, A., Taschereau-Dumouchel, M., &amp; Xu, Z. (2026). The Origin of Risk. The Quarterly Journal of Economics. <a href="https://doi.org/10.1093/qje/qjag048" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Origin%20of%20Risk" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立风险由企业激励内生决定的模型：企业选择生产率过程的均值、方差，以及与其他企业生产率的协动程度。相关选择累积为总体风险，税收和加成率扭曲会影响这种风险承担。作者用数据考察企业规模、加成率与波动性等预测，并进行模型校准。该框架提供微观选择与宏观波动的联系，但不能将校准反事实直接视为已识别的政策效果。
+
+标签：<a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：企业风险">企业风险</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：宏观波动">宏观波动</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-02</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 内生增长和工资刚性如何改变最优通胀目标？ {#paper-rdag104}
+
+<p class="myapa">Abbritti, M., Consolo, A., &amp; Weber, S. (2026). Monetary Policy Invariance, Hysteresis, and Optimal Inflation. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag104" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Monetary%20Policy%20Invariance%2C%20Hysteresis%2C%20and%20Optimal%20Inflation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在新凯恩斯模型中结合内生生产率与向下名义工资刚性，研究失业和研发的非对称滞后效应。模型中的长期菲利普斯曲线不再垂直，最优通胀取决于价格扭曲与产出滞后之间的权衡，作者还比较不同泰勒规则。阅读时应重点检查增长机制、工资刚性和福利设定；模型结论不能自动转为适用于所有经济体的通胀目标建议。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E5%86%85%E7%94%9F%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：内生增长">内生增长</a> · <a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E5%88%9A%E6%80%A7&amp;show-results=1" title="全站搜索：工资刚性">工资刚性</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-02</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 用最优传输映射生成贝叶斯后验样本 {#paper-qkag126}
+
+<p class="myapa">Li, K., Han, W., Wang, Y., &amp; Yang, Y. (2026). An optimal transport-based generative model for Bayesian posterior sampling. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag126" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=An%20optimal%20transport-based%20generative%20model%20for%20Bayesian%20posterior%20sampling" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文针对归一化常数难以计算的后验分布，学习从参考分布到目标后验的确定性映射，并通过最优传输结构约束优化。框架覆盖连续及混合离散连续参数空间，也利用多元秩和分位数支持探索性分析。它为重复生成后验样本提供另一种计算路线；映射训练质量和目标分布设定仍需诊断，不能因样本独立生成就认定近似后验已经准确。
+
+标签：<a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E8%AE%A1%E7%AE%97&amp;show-results=1" title="全站搜索：贝叶斯计算">贝叶斯计算</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a> · <a class="tag-link" href="?q=%E5%90%8E%E9%AA%8C%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：后验抽样">后验抽样</a>
+
+<small>来源日期：2026-09-29；补录：2026-10-02</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 删失持续时间模型怎样检验未观测异质性？ {#arxiv-2609-36824}
+
+<p class="myapa">Kasahara, Hiroyuki, Matsuyama, Hirokazu, Shimotsu, Katsumi, &amp; Takeishi, Shota. (2026). Testing for Unobserved Heterogeneity in Censored Duration Models: EM Approach. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.36824" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.36824.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Testing%20for%20Unobserved%20Heterogeneity%20in%20Censored%20Duration%20Models%3A%20EM%20Approach" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文为删失 Weibull 持续时间模型提出 EM 检验，处理零假设位于参数空间边界、部分参数在零假设下不可识别的问题。作者给出非标准的渐近零分布，并允许删失依赖协变量，再用模拟和心脏移植资料展示检验。其价值在于避免直接套用常规卡方近似；结论限于文中模型及条件，不代表所有生存模型都可以套用同一临界值。
+
+标签：<a class="tag-link" href="?q=%E6%8C%81%E7%BB%AD%E6%97%B6%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：持续时间模型">持续时间模型</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：异质性检验">异质性检验</a> · <a class="tag-link" href="?q=EM%E7%AE%97%E6%B3%95&amp;show-results=1" title="全站搜索：EM算法">EM算法</a>
+
+<small>来源日期：2026-09-29；补录：2026-10-02</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 欧洲加息与降息的传导是否对称？ {#arxiv-2609-37168}
+
+<p class="myapa">Pfarrhofer, Michael &amp; Stelzer, Anna. (2026). Are there asymmetries in euro area monetary policy transmission? arXiv. <a href="https://doi.org/10.48550/arXiv.2609.37168" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.37168.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Are%20there%20asymmetries%20in%20euro%20area%20monetary%20policy%20transmission%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文用贝叶斯加性回归树估计非线性混频 VAR，将月度宏观金融变量与季度银行贷款调查结合，并通过高频政策意外识别动态反应。作者发现紧缩与宽松方向的差异比部分预设状态划分更突出，峰值反应也取决于初始条件。宽松反应不显著不能解释为真实效应必然为零，识别仍依赖政策意外指标和动态模型设定。
+
+标签：<a class="tag-link" href="?q=%E6%B7%B7%E9%A2%91VAR&amp;show-results=1" title="全站搜索：混频VAR">混频VAR</a> · <a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E6%A0%91&amp;show-results=1" title="全站搜索：回归树">回归树</a>
+
+<small>来源日期：2026-09-29；补录：2026-10-02</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 进口商的市场势力如何改变最优关税？ {#nber-w35829}
+
+<p class="myapa">Jonathan Becker, Corina Boar, &amp; Virgiliu Midrigan. (2026). Importers, Market Power and Optimal Tariffs. NBER Working Paper No. 35829. <a href="https://doi.org/10.3386/w35829" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35829/w35829.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Importers%2C%20Market%20Power%20and%20Optimal%20Tariffs" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文在包含进口固定成本与随企业规模变化的加成率的模型中研究最优关税。进口商较少、较大且成本传导不完全，市场势力导致其相对有效配置的规模和数量不足，关税可能放大这种扭曲。作者推导同时涉及外国出口供给弹性与国内扭曲的关税公式。校准结果依赖市场结构与参数，不能把特定模型中的负最优关税推广为统一政策结论。
+
+标签：<a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93&amp;show-results=1" title="全站搜索：国际贸易">国际贸易</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E5%85%B3%E7%A8%8E&amp;show-results=1" title="全站搜索：最优关税">最优关税</a>
+
+<small>来源日期：2026-09-28；补录：2026-10-02</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### failsafe：回归之后检查容易遗漏的诊断信号 {#stata-failsafe-0-1-6}
+
+Stata 命令读取已有估计结果，报告未收敛、被省略的系数、协方差问题，以及在元数据可用时的聚类数、二元结果单元格和生存事件计数。安装为 <code>ssc install failsafe</code>，估计后运行 <code>failsafe</code>。聚类数和稀疏单元格阈值由使用者指定；命令不重估模型、不自动选模型，也不裁定模型有效与否。0.1.6 的高阶分类交互单元格等检查仍有限，本期核对代码、帮助与官方例子，未独立执行。
+
+标签：<a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：模型检查">模型检查</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>
+
+<small>来源日期：2026-09-18；补录：2026-10-02</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459911.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
