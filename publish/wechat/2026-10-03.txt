@@ -1,0 +1,26 @@
+📙 连享会 · 快讯 | 2026.10.03
+
+✍️ 01｜新推文：greCAPTCHA：测测作者是否真的懂自己的论文
+文章介绍根据论文及作者贡献声明生成问题、限时作答和形成评分报告的 greCAPTCHA 原型，将事实记忆、研究选择、方法基础和失效条件分开考查。
+阅读全文： https://www.lianxh.cn/details/1951.html 
+
+✍️ 02｜新推文：LLM 前视偏差：回测的高准确率可信吗？三种检查方法
+文章用业绩公告实验解释三种前视偏差检查：不提供正文的记忆探测、隐去身份和日期，以及使用训练截止日后的事件。
+阅读全文： https://www.lianxh.cn/details/1952.html 
+
+✍️ 03｜新推文：Jev：快速、低成本的语义判断，用于 Agent 分流与文本分析
+文章把 Jev 的 Noul、Choice 和 Score 接口用于 Agent 的任务分流、检索筛选、工具结果检查和上下文管理，再讨论企业文本中关注、计划与实施披露的区分。
+阅读全文： https://www.lianxh.cn/details/1953.html 
+
+📰 04｜论文 · The Journal of Finance：跨国银行监管能同时改善信贷供给与风险承担吗？
+JF 利用欧洲监管变化与多国信贷登记，分析信贷扩张是否同时避开高风险借款企业。
+引文：ALTAVILLA et al. (2026). Supranational Banking Supervision, Credit Supply, and Risk‐Taking: European Evidence from Multi‐Country Credit Registers. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70091 
+
+📰 05｜论文 · Journal of Accounting Research：银行在加息时管理的是市值风险还是账面资本？
+JAR 对比利率风险对冲与 HTM 会计分类，讨论账面资本保护为何可能伴随实际风险暴露。
+引文：Granja et al. (2026). Book Value Risk Management of Banks: Limited Hedging, HTM Accounting, and Rising Interest Rates. Journal of Accounting Research.
+主页： https://doi.org/10.1111/1475-679x.70090 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261003/ 

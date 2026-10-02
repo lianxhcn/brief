@@ -8,9 +8,51 @@ title: "新论文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 23 页 · 共 223 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-23.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 23 页 · 共 229 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-23.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>产品怎样设计，更容易被用户发现新用途？</h3>
+<p class="catalog-meta">期次日期：2026-10-01</p>
+<p>研究使用 1925 项宜家产品改造，区分用户为产品发现新的应用场景与新的产品能力。模块化与新应用相关，跨产品线兼容性和外观变体会改变这种关系；视觉简洁性则与新能力的发现相关。档案与访谈补充说明企业如何回应用户创新。该研究提供产品属性与社区创新的分析框架，但这些观察性关系不等于随机实验识别出的设计效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%94%A8%E6%88%B7%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：用户创新">用户创新</a> · <a class="tag-link" href="?q=%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：产品设计">产品设计</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9D%97%E5%8C%96&amp;show-results=1" title="全站搜索：模块化">模块化</a></p>
+<p class="catalog-actions"><a href="../issues/20261001/#paper-smj-70132">查看本期</a><a href="https://doi.org/10.1002/smj.70132" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>与倡议团体合作，能帮助新产品获得认可吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-01</p>
+<p>论文把利益相关者理论引入合作创新，研究企业与倡议团体合作是否有助于创新被采用。作者提出，通常负责监督企业行为的团体愿意合作，可能传递社会适当性的信号；在企业此前受到负面报道、行业社会绩效差异较大时，这种信号尤其相关。德国企业创新合作数据支持相关解释。阅读时仍需区分合作选择、合法性信号与创新采用之间的因果关系，不能认为任何团体背书都能提高创新绩效。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%90%88%E4%BD%9C%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：合作创新">合作创新</a> · <a class="tag-link" href="?q=%E5%88%A9%E7%9B%8A%E7%9B%B8%E5%85%B3%E8%80%85&amp;show-results=1" title="全站搜索：利益相关者">利益相关者</a> · <a class="tag-link" href="?q=%E5%90%88%E6%B3%95%E6%80%A7&amp;show-results=1" title="全站搜索：合法性">合法性</a></p>
+<p class="catalog-actions"><a href="../issues/20261001/#paper-smj-70127">查看本期</a><a href="https://doi.org/10.1002/smj.70127" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>采用短视频以后，屏幕时间和睡眠怎样变化？</h3>
+<p class="catalog-meta">期次日期：2026-09-30</p>
+<p>研究使用美国 Android 用户自愿加入面板的手机操作轨迹，以双重差分分析 TikTok 采用前后的应用使用、屏幕时间和推断出的睡眠行为。高强度用户的总屏幕时间增加、其他应用使用减少，并出现较晚入睡等变化，低强度用户未表现出同样结果。阅读时需检查采用选择、平行趋势和睡眠代理指标，不能将手机静默时间直接等同于临床睡眠测量。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：数字行为">数字行为</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%BB%A3%E7%90%86%E6%8C%87%E6%A0%87&amp;show-results=1" title="全站搜索：代理指标">代理指标</a></p>
+<p class="catalog-actions"><a href="../issues/20260930/#paper-mnsc-2024-08260">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08260" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>贷款违约风险模型怎样处理房价的内生性？</h3>
+<p class="catalog-meta">期次日期：2026-09-30</p>
+<p>论文为风险率模型提出控制函数方法，以处理内生或存在测量误差的解释变量，并应用于美国次贷不同发放批次的违约变化。作者利用包括历史房价周期性在内的工具变量，区分信贷标准与房价下跌的作用。它将内生性处理与事件发生风险的建模结合起来；解释结果仍需检查工具变量有效性和风险模型设定，不能把该应用中的价格弹性直接外推至其他市场。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E8%BF%9D%E7%BA%A6%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：违约风险">违约风险</a> · <a class="tag-link" href="?q=%E6%8C%81%E7%BB%AD%E6%97%B6%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：持续时间模型">持续时间模型</a></p>
+<p class="catalog-actions"><a href="../issues/20260930/#paper-jofi-70088">查看本期</a><a href="https://doi.org/10.1111/jofi.70088" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>神经网络求解经济模型，怎样与投影方法比较？</h3>
+<p class="catalog-meta">期次日期：2026-09-30</p>
+<p>工作论文将神经网络经济模型求解器放回最小二乘投影方法的框架，讨论函数逼近方式、残差准则与评估设计应如何共同选择。作者指出，在低维和中等维度问题中，线性基或稀疏网格可能更准确、快速且易于验证，高维问题也需认真选择允许的函数空间。其价值在于建立可比较的数值误差标准；不能仅凭采用深度学习就断言优于传统求解器，也不能把维度作为唯一选择依据。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%80%BC%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：数值方法">数值方法</a> · <a class="tag-link" href="?q=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：深度学习">深度学习</a> · <a class="tag-link" href="?q=%E6%8A%95%E5%BD%B1%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：投影方法">投影方法</a></p>
+<p class="catalog-actions"><a href="../issues/20260930/#nber-w35806">查看本期</a><a href="https://www.nber.org/papers/w35806" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>短期代理指标能可靠代替长期实验结果吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-30</p>
+<p>工作论文比较代理指标和 PPI 类估计量，覆盖不完全中介、分布漂移、稀疏结果与入组时间相关标注等失败情形。作者讨论效率收益与稳健性的权衡，并提出估计量差异诊断。诊断未拒绝不代表代理条件成立，标注样本中的结果过少时 PPI++ 也可能覆盖不足。它可与本期 PPI 推文对照阅读，但不能把模拟比较当成对所有实验的统一保证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BB%A3%E7%90%86%E6%8C%87%E6%A0%87&amp;show-results=1" title="全站搜索：代理指标">代理指标</a> · <a class="tag-link" href="?q=PPI&amp;show-results=1" title="全站搜索：PPI">PPI</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：实验评估">实验评估</a></p>
+<p class="catalog-actions"><a href="../issues/20260930/#arxiv-2609-30528">查看本期</a><a href="https://arxiv.org/abs/2609.30528" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>知道媒体立场，会怎样改变新闻转发？</h3>
 <p class="catalog-meta">期次日期：2026-09-30</p>
@@ -39,50 +81,8 @@ title: "新论文 · 第 3 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E5%8E%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：资历匹配">资历匹配</a> · <a class="tag-link" href="?q=%E4%BB%A3%E9%99%85%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：代际协作">代际协作</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：现场调查">现场调查</a></p>
 <p class="catalog-actions"><a href="../issues/20260929/#paper-01492063261480030">查看本期</a><a href="https://doi.org/10.1177/01492063261480030" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>权力与地位会同样强化彼此吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>研究区分控制资源的权力与获得他人尊重的地位，用项目团队的纵向资料和双变量变化得分模型考察二者的动态关系，再以实验分析他人对亲和与合作取向的评价。作者发现两条方向的关系并不对称，地位通向权力变化的路径更强。可借鉴之处是把静态相关与动态变化分开建模；纵向模型本身仍依赖设定与未观测因素假设，不能将时间先后直接视为因果识别。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%9C%B0%E4%BD%8D&amp;show-results=1" title="全站搜索：组织地位">组织地位</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：动态模型">动态模型</a> · <a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：团队研究">团队研究</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#paper-orsc-2024-18685">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18685" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>时间固定效应为何可能遗漏网络中的一般均衡冲击？</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>工作论文指出，网络经济中的总量冲击经价格、成本和需求传递后，对不同企业的影响未必相同。时间去均值可能留下网络梯度，若工具变量、处理分配或暴露度与其相关，面板估计可能混入一般均衡的间接影响。作者建立分析框架并讨论网络可见与不可见时的诊断及修正。它提醒研究者检查对照组是否也受均衡变化影响；不能据此断言所有时间固定效应或 DID 都无效，具体偏差取决于网络、处理设计和目标参数。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：网络溢出">网络溢出</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：时间固定效应">时间固定效应</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#nber-w35807">查看本期</a><a href="https://www.nber.org/papers/w35807" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>弱相关数据的野生自助法，怎样选择两点乘子？</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>工作论文提出两点分布的相关野生自助法，把乘子的边际分布与序列依赖分开设定，并建立与异方差、自相关稳健协方差估计的联系。在弱依赖和渐近线性等条件下，作者论证检验有效性，辅以 GMM、线性回归模拟及短期利率模型应用。它提供了一条比较乘子分布与长期方差估计的思路；模拟中的尺寸表现不代表所有样本和依赖结构下均有优势，本文尚属工作论文。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%87%8E%E7%94%9F%E8%87%AA%E5%8A%A9%E6%B3%95&amp;show-results=1" title="全站搜索：野生自助法">野生自助法</a> · <a class="tag-link" href="?q=%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：序列相关">序列相关</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#arxiv-2609-32369">查看本期</a><a href="https://arxiv.org/abs/2609.32369" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>常规急诊数据能怎样评价基层医疗服务？</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>论文利用英国两家相邻急诊机构的业务数据，分析本可在基层处理的疾病就诊，借助方差分解区分基层医疗机构间的系统差异，并控制观测、未观测异质性及社会经济因素。作者将构造的机构指标与患者反馈、既有质量评分和人员配置作比较。对行政数据研究的启发是从下游服务使用反推上游服务差异，但该指标不能直接代替对任意医疗改革的因果评估，跨地区使用需重新检验数据口径和模型假设。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E6%94%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：行政数据">行政数据</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：方差分解">方差分解</a> · <a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：绩效评价">绩效评价</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#paper-mnsc-2023-03234">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.03234" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>处理执行不完全时，树模型如何寻找受益人群？</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>工作论文围绕条件服从者平均因果效应，提出可替换机器学习估计器的两阶段方案，比较非贝叶斯森林方法与 BCF-IV 的子组发现及异质效应估计。作者用模拟和英国 ICU 及时入院资料讨论应用。服从者效应不同于全体样本平均效应，机器学习也不替代工具变量有效性、排除限制和单调性等识别条件；计算与精度优势仅对应所比较的设置。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%A3%AE%E6%9E%97&amp;show-results=1" title="全站搜索：因果森林">因果森林</a> · <a class="tag-link" href="?q=%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%9C%8D%E4%BB%8E&amp;show-results=1" title="全站搜索：不完全服从">不完全服从</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#arxiv-2609-31769">查看本期</a><a href="https://arxiv.org/abs/2609.31769" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>团队失败以后，加入高地位成员何时有帮助？</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>论文将团队视为会调整成员构成的开放系统，研究失败之后是否愿意引入高地位成员，以及这一选择怎样受原有地位差距影响。研究结合产品开发团队的纵向档案和预注册实验，发现地位分化较低的团队更容易把新成员视为集体改进机会，分化较高时则可能产生地位威胁。阅读时应区分档案中的绩效关系与实验所检验的个体、团队机制，不能概括为所有失败团队都应引入明星成员。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E5%A4%B1%E8%B4%A5&amp;show-results=1" title="全站搜索：团队失败">团队失败</a> · <a class="tag-link" href="?q=%E5%9C%B0%E4%BD%8D%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：地位差距">地位差距</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B3%A8%E5%86%8C%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：预注册实验">预注册实验</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#paper-orsc-2024-19306">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19306" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 23 页 · 共 223 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-23.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 23 页 · 共 229 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-23.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

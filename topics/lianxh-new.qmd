@@ -8,9 +8,30 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 51 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 54 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>greCAPTCHA：测测作者是否真的懂自己的论文</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>文章介绍根据论文及作者贡献声明生成问题、限时作答和形成评分报告的 greCAPTCHA 原型，将事实记忆、研究选择、方法基础和失效条件分开考查。它为课程口试与投稿前自检提供思路。31 人概念验证中的区分能力不能转换为作者身份认证准确率；自动评分仍有争议，不能凭低分认定学术不端。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E6%8C%87%E5%AF%BC&amp;show-results=1" title="全站搜索：论文指导">论文指导</a> · <a class="tag-link" href="?q=%E6%A0%B8%E9%AA%8C%E8%83%BD%E5%8A%9B&amp;show-results=1" title="全站搜索：核验能力">核验能力</a> · <a class="tag-link" href="?q=AI%E5%86%99%E4%BD%9C&amp;show-results=1" title="全站搜索：AI写作">AI写作</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#post-1951">查看本期</a><a href="https://www.lianxh.cn/details/1951.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>LLM 前视偏差：回测的高准确率可信吗？三种检查方法</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>文章用业绩公告实验解释三种前视偏差检查：不提供正文的记忆探测、隐去身份和日期，以及使用训练截止日后的事件。各检验还受类别比例、信息损失和市场环境影响。模型自报训练截止时间尚未独立核实；原文收益窗口包含公告前价格变化，不能将事件判断指标写成可交易策略收益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%89%8D%E8%A7%86%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：前视偏差">前视偏差</a> · <a class="tag-link" href="?q=%E5%8E%86%E5%8F%B2%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：历史回测">历史回测</a> · <a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#post-1952">查看本期</a><a href="https://www.lianxh.cn/details/1952.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>Jev：快速、低成本的语义判断，用于 Agent 分流与文本分析</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>文章把 Jev 的 Noul、Choice 和 Score 接口用于 Agent 的任务分流、检索筛选、工具结果检查和上下文管理，再讨论企业文本中关注、计划与实施披露的区分。相较前期接口介绍，本篇增加工作流接入和中文语料验证方案。模型置信指标需校准，披露标签不等于真实采用，效率应按整个流程评估。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Jev&amp;show-results=1" title="全站搜索：Jev">Jev</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#post-1953">查看本期</a><a href="https://www.lianxh.cn/details/1953.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>人工标注通过以后，LLM 文本变量还要做哪些验证？</h3>
 <p class="catalog-meta">期次日期：2026-10-02</p>
@@ -60,29 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Sphinx&amp;show-results=1" title="全站搜索：Sphinx">Sphinx</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3&amp;show-results=1" title="全站搜索：项目文档">项目文档</a></p>
 <p class="catalog-actions"><a href="../issues/20260929/#post-1944">查看本期</a><a href="https://www.lianxh.cn/details/1944.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>LLM标注与人工标注高度一致，文本变量就可靠吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>文章区分事实提取、规则型分类和解释型构念三类文本任务。LLM 与人工标签高度一致，说明模型能够复现某套参照判断，但还需检查人工标签是否真正对应研究概念。文中讨论编码手册、标注者视角、争议案例及外部效度证据，适合在把文本评分放入回归前检查测量设计。不能仅凭准确率或 F1 值就断言变量可靠，也不能把所有人工分歧都当作随机噪声。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：LLM标注">LLM标注</a> · <a class="tag-link" href="?q=%E6%9E%84%E5%BF%B5%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：构念效度">构念效度</a> · <a class="tag-link" href="?q=%E7%BC%96%E7%A0%81%E6%89%8B%E5%86%8C&amp;show-results=1" title="全站搜索：编码手册">编码手册</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#post-1943">查看本期</a><a href="https://www.lianxh.cn/details/1943.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>ChatGPT：数据帝，何许人也？</h3>
-<p class="catalog-meta">期次日期：2026-09-27</p>
-<p>文章梳理陈沁的数据研究路径，重点讨论怎样把公开文本和持续积累的数据转为研究材料：先明确测量对象，再组合语义识别、文本归类、规则提取和规模化处理。阅读价值在于理解研究问题、变量构造与工程实现如何衔接。正文由 ChatGPT 起草、编辑核查，人物介绍和研究案例仍应沿原文来源继续核对；AI 摘要不能替代识别判断与人工质量检查。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%B5%81%E7%A8%8B&amp;show-results=1" title="全站搜索：研究流程">研究流程</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a></p>
-<p class="catalog-actions"><a href="../issues/20260927/#post-1942">查看本期</a><a href="https://www.lianxh.cn/details/1942.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>87% 未违约与 13% 违约：投研 AI 的判断会相同吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-24</p>
-<p>文章以经济含义相同的正负表述为对照，介绍投研 Agent 的表述敏感性压力测试。测试需冻结模型、工具和数据环境，重复运行并比较评分、决策翻转及证据搜索路径，同时用同一表述的波动作为基线。文中示意数字不代表本期实测；稳定性检查也不能替代对数据、识别方法和投资结论的人工审核。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E7%A0%94%20Agent&amp;show-results=1" title="全站搜索：投研 Agent">投研 Agent</a> · <a class="tag-link" href="?q=%E8%A1%A8%E8%BF%B0%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：表述偏差">表述偏差</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a></p>
-<p class="catalog-actions"><a href="../issues/20260924/#post-1939">查看本期</a><a href="https://www.lianxh.cn/details/1939.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 51 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 54 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
