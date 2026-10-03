@@ -8,9 +8,16 @@ title: "新方法 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 5 页 · 共 49 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 5 页 · 共 50 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-5.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>staggR 0.2.1：修正聚合效应的 p 值和显著性标记</h3>
+<p class="catalog-meta">期次日期：2026-09-23</p>
+<p>staggR 为分批实施政策的 DID 提供分组与事件时间参数及聚合工具。0.2.1 修正 ave_coeff() 使用正态分布而非 t 分布计算 p 值的问题，以及显著性星号、缺失系数和日期类型处理，并增加事件研究与日历时间汇总功能。安装命令为 <code>install.packages(&quot;staggR&quot;)</code>。采用的是 Sun–Abraham 思路的实现，仍需核对平行趋势与比较组；本期依据 NEWS 和官方示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260923/#r-staggr-0-2-1">查看本期</a><a href="https://cran.r-project.org/web/packages/staggR/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>csdm 2.0.0：面板共同因子、滞后与协方差修复</h3>
 <p class="catalog-meta">期次日期：2026-09-23</p>
@@ -74,15 +81,8 @@ title: "新方法 · 第 3 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：研究报告">研究报告</a> · <a class="tag-link" href="?q=Quarto&amp;show-results=1" title="全站搜索：Quarto">Quarto</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260918/#r-tinytable-0-19-0">查看本期</a><a href="https://cran.r-project.org/web/packages/tinytable/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>itdidbounds：处理时间只有区间时的 DID 对比</h3>
-<p class="catalog-meta">期次日期：2026-09-18</p>
-<p>itdidbounds 枚举各单位可能的处理日期，计算单位和事件时点层面的变化对比最小值、最大值，再按固定正权重汇总。控制组须确定从未处理或最早可能处理时间晚于目标时点。安装命令为 <code>ssc install itdidbounds</code>。输出描述处理时间不确定性带来的对比范围，不能自动解释为因果效应界限或置信区间。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%97%B6%E9%97%B4&amp;show-results=1" title="全站搜索：处理时间">处理时间</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20260918/#stata-itdidbounds-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459890.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 5 页 · 共 49 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-5.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 5 页 · 共 50 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-5.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

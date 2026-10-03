@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 54 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 56 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>别急着做 DID（上）：先把政策背景搞清楚</h3>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>文章从政策制定动机、申请与行政筛选、名单公布和执行强度出发，说明制度细节怎样影响处理组、控制组和事件时间的构造。主动申请、预期反应、门槛及外溢分别对应不同识别威胁，再据此比较 DID、断点与合成控制等设计。方法选择需要政策事实和数据支持，不能仅凭政策前后变化认定自然实验成立。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：识别设计">识别设计</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#post-1954">查看本期</a><a href="https://www.lianxh.cn/details/1954.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>别急着做 DID (下)：让 AI 做你的政策分析「虚拟导师」</h3>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>文章提供政策文件、执行规则、关键日期、数据和已有文献组成的研究材料包，以及多轮导师式提问提示词。用绿色工厂认定示例说明如何从申请池、筛选与预期反应逐步修订研究设计，并将已确认事实、推断和缺口分开记录。AI 可以帮助提出问题和组织证据，但不能代替政策原文核查或证明识别假设成立。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#post-1955">查看本期</a><a href="https://www.lianxh.cn/details/1955.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>greCAPTCHA：测测作者是否真的懂自己的论文</h3>
 <p class="catalog-meta">期次日期：2026-10-03</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Jev&amp;show-results=1" title="全站搜索：Jev">Jev</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E6%A0%A1%E5%87%86&amp;show-results=1" title="全站搜索：概率校准">概率校准</a></p>
 <p class="catalog-actions"><a href="../issues/20260930/#post-1947">查看本期</a><a href="https://www.lianxh.cn/details/1947.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>AI 预测不能直接当真值：如何用少量人工标注改进统计推断？——从 PPI 到 RePPI</h3>
-<p class="catalog-meta">期次日期：2026-09-30</p>
-<p>文章讨论少量人工标签与大量 AI 预测如何共同服务于统计推断，区分直接替换结果变量与利用预测提高效率。通过 PPI、RePPI 的均值和 OLS 设定，解释再校准、三折交叉拟合及标准误计算，并提供 Python 材料。人工验证样本需要与研究总体相匹配，预测准确率不能代替参数和区间的检验；效率改善依赖具体任务。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=PPI&amp;show-results=1" title="全站搜索：PPI">PPI</a> · <a class="tag-link" href="?q=RePPI&amp;show-results=1" title="全站搜索：RePPI">RePPI</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：人工标注">人工标注</a></p>
-<p class="catalog-actions"><a href="../issues/20260930/#post-1945">查看本期</a><a href="https://www.lianxh.cn/details/1945.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>Sphinx + Agent：快速生成 Python 项目主页和在线文档</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>文章以 panelcheck_demo 为例，展示如何让本地 Agent 审计 Python 项目，再用 Sphinx、MyST 和 autodoc 组织教程、函数说明与在线主页，并发布到 GitHub Pages。重点是代码更新后哪些说明可自动同步，哪些仍需人工维护；还讨论独立运行示例、doctest 和严格构建检查。文档生成和测试通过各有范围，不能据此推断统计程序已经覆盖所有输入或环境。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Sphinx&amp;show-results=1" title="全站搜索：Sphinx">Sphinx</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3&amp;show-results=1" title="全站搜索：项目文档">项目文档</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#post-1944">查看本期</a><a href="https://www.lianxh.cn/details/1944.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 54 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 56 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

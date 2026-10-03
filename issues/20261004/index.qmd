@@ -1,0 +1,213 @@
+---
+title: "连享会 · 快讯 | 2026.10.04"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 别急着做 DID（上）：先把政策背景搞清楚 {#post-1954}
+
+文章从政策制定动机、申请与行政筛选、名单公布和执行强度出发，说明制度细节怎样影响处理组、控制组和事件时间的构造。主动申请、预期反应、门槛及外溢分别对应不同识别威胁，再据此比较 DID、断点与合成控制等设计。方法选择需要政策事实和数据支持，不能仅凭政策前后变化认定自然实验成立。
+
+标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：识别设计">识别设计</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a>
+
+<small>来源日期：2026-10-03；补录：2026-10-04</small>
+
+<a href="https://www.lianxh.cn/details/1954.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 别急着做 DID (下)：让 AI 做你的政策分析「虚拟导师」 {#post-1955}
+
+文章提供政策文件、执行规则、关键日期、数据和已有文献组成的研究材料包，以及多轮导师式提问提示词。用绿色工厂认定示例说明如何从申请池、筛选与预期反应逐步修订研究设计，并将已确认事实、推断和缺口分开记录。AI 可以帮助提出问题和组织证据，但不能代替政策原文核查或证明识别假设成立。
+
+标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a>
+
+<small>来源日期：2026-10-03；补录：2026-10-04</small>
+
+<a href="https://www.lianxh.cn/details/1955.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 股债相关性为什么会改变符号？ {#paper-jofi-70092}
+
+<p class="myapa">CHERNOV, M., LOCHSTOER, L. A., &amp; SONG, D. (2026). The Real Channel for Nominal Bond‐Stock Puzzles. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70092" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Real%20Channel%20for%20Nominal%20Bond%E2%80%90Stock%20Puzzles" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文从总消费动态出发，研究股票与债券相关性由正转负的机制。作者在实时序贯学习框架中区分永久消费冲击、暂时冲击占主导的持久状态，以及较短暂的灾难状态，并比较它们对资产价格的含义。实质消费动态提供了名义股债现象的一条解释路径；状态识别依赖模型设定，不能据此直接预测下一次相关性转换。
+
+标签：<a class="tag-link" href="?q=%E8%82%A1%E5%80%BA%E7%9B%B8%E5%85%B3%E6%80%A7&amp;show-results=1" title="全站搜索：股债相关性">股债相关性</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：消费风险">消费风险</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-04</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 灾后众筹能公平弥补家庭损失吗？ {#paper-jofi-70094}
+
+<p class="myapa">COOKSON, J. A., GALLAGHER, E. A., &amp; MULDER, P. (2026). Money to Burn: Crowdfunding Wildfire Recovery. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70094" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Money%20to%20Burn%3A%20Crowdfunding%20Wildfire%20Recovery" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将重大山火后的 GoFundMe 筹款活动与房产损失、家庭信用记录匹配，研究哪些家庭能发起众筹、获得捐款。作者在控制房产损失后仍观察到收入差异，并考察捐赠网络、异地联系、朋友倡议和社会压力渠道。研究提示社会资本可能影响非正式救济分配；这些匹配与机制证据不能说明所有灾害众筹都有相同效果。
+
+标签：<a class="tag-link" href="?q=%E7%81%BE%E5%AE%B3%E6%95%91%E6%B5%8E&amp;show-results=1" title="全站搜索：灾害救济">灾害救济</a> · <a class="tag-link" href="?q=%E4%BC%97%E7%AD%B9&amp;show-results=1" title="全站搜索：众筹">众筹</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：社会资本">社会资本</a>
+
+<small>来源日期：2026-09-29；补录：2026-10-04</small>
+
+
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 首届长寿经济论坛：成都举办，10 月 20 日截稿 {#conference-swufe-longevity-2026}
+
+**投稿截止：2026-10-20**
+
+会议：2026-11-06 至 2026-11-06 · 四川成都，西南财经大学柳林校区
+
+费用：不收审稿费、会务费和注册费；交通住宿自理，提供工作餐。
+
+论坛于 11 月 6 日报到、7–8 日在成都西南财经大学柳林校区举行，征集养老金融、老年消费、长期照护和健康财富等研究。10 月 20 日前按通知提交尚未公开发表的原创中英文 PDF 论文，作者信息单列首页，正文匿名；10 月 30 日前通知录用。不收审稿费、会务费和注册费，交通住宿自理，提供工作餐。
+
+标签：<a class="tag-link" href="?q=%E9%95%BF%E5%AF%BF%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：长寿经济">长寿经济</a> · <a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：养老金融">养老金融</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<a href="https://ixetr.swufe.edu.cn/info/1023/2823.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 政治环境如何影响投资者对社会责任议案的投票？ {#paper-jofi-70093}
+
+<p class="myapa">GORMLEY, T. A., JHA, M., &amp; WANG, M. (2026). The Politicization of Social Responsibility. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70093" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Politicization%20of%20Social%20Responsibility" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究机构投资者对环境与社会议案的支持，比较企业总部所在州的政治领导、补贴和税收优惠环境，并考察同一州领导变化后的投票差异。作者将这些变化与议案对股东价值的含义联系起来。读者可借鉴企业政治环境与投票行为的匹配方式，但不能把政党差异简单视为机构偏好的纯粹变化。
+
+标签：<a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E6%8A%95%E7%A5%A8&amp;show-results=1" title="全站搜索：股东投票">股东投票</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：社会责任">社会责任</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-04</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 监管同业比较会促使银行趋同吗？ {#paper-1475-679x-70086}
+
+<p class="myapa">KIM, M. (2026). Mimicking Regulatory Peers. Journal of Accounting Research. <a href="https://doi.org/10.1111/1475-679x.70086" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Mimicking%20Regulatory%20Peers" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用美国银行监管同业分组改革，研究新设银行被改为与同批银行比较后，监管资本比率是否向同业靠拢。作者发现银行会依据相对资本位置调整，并讨论低资本银行通过贷款组合缩小差距及其后续风险。监管披露可能改变被评估者行为，但贷款质量和失败率的后续关联不宜直接解释为某一次调整的独立因果效应。
+
+标签：<a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：银行监管">银行监管</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%B8%9A%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：同业比较">同业比较</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E5%85%85%E8%B6%B3%E7%8E%87&amp;show-results=1" title="全站搜索：资本充足率">资本充足率</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-04</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 积极股东监督会改变同岗薪酬吗？ {#paper-mnsc-2024-08553}
+
+<p class="myapa">Gartenberg, C. &amp; Pak, E. (2026). More Monitoring, Less Pay: Active Ownership and Employee Compensation. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.08553" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=More%20Monitoring%2C%20Less%20Pay%3A%20Active%20Ownership%20and%20Employee%20Compensation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文使用细分员工薪酬记录，在年份、地区、职业和技能水平相同的劳动市场内比较积极所有者与其他企业的同岗报酬。作者观察到基本工资和激励薪酬差异，并发现其更集中于任务常规、产出容易量化的岗位，讨论管理监督替代薪酬激励的机制。可比岗位设计有助于区分人员结构与薪酬制度，但所有权选择和机制解释仍需谨慎。
+
+标签：<a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E5%91%98%E5%B7%A5%E8%96%AA%E9%85%AC&amp;show-results=1" title="全站搜索：员工薪酬">员工薪酬</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-04</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 用熵正则化最优传输计算部分识别界限 {#arxiv-2609-40156}
+
+<p class="myapa">Costa, Bruno N. &amp; Gunsilius, Florian F. (2026). Partial identification with entropy regularized optimal transport. arXiv. <a href="https://doi.org/10.48550/arXiv.2609.40156" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2609.40156.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Partial%20identification%20with%20entropy%20regularized%20optimal%20transport" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文将部分识别中的优化问题写成路径空间上的最优传输，再通过熵惩罚得到可用 Sinkhorn 迭代求解的多边际问题。作者讨论正则化值向锐界限的收敛、插件估计和近似界限的推断，并以需求估计展示应用。正则化带来的计算便利与界限近似误差需要同时评估，不能把有惩罚的数值结果直接当作未正则化的精确锐界限。
+
+标签：<a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-04</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 全球升温的死亡影响，为什么不限于当地高温？ {#nber-w35832}
+
+<p class="myapa">Adrien Bilal, Diego R. Känzig, &amp; Krzysztof Lisiecki. (2026). Global Temperature and Global Mortality. NBER Working Paper No. 35832. <a href="https://doi.org/10.3386/w35832" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://www.nber.org/system/files/working_papers/w35832/w35832.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Global%20Temperature%20and%20Global%20Mortality" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文区分全球温度变化与当地直接热暴露对死亡率的影响，利用自然温度波动，并结合外部收入与死亡率估计考察宏观经济渠道。作者把死亡与经济活动纳入增长模型，讨论适应和碳社会成本。其贡献是将直接健康冲击与经济间接渠道放在同一框架下比较；损害函数和福利计算依赖识别、外部参数及模型设定，不能将模型输出当作不变常数。
+
+标签：<a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=%E6%AD%BB%E4%BA%A1%E7%8E%87&amp;show-results=1" title="全站搜索：死亡率">死亡率</a> · <a class="tag-link" href="?q=%E7%A2%B3%E7%A4%BE%E4%BC%9A%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：碳社会成本">碳社会成本</a>
+
+<small>来源日期：2026-09-28；补录：2026-10-04</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### datom 0.2：给一组研究数据固定可引用的版本 {#r-datom-0-2-0}
+
+R 包把表格版本与来源关系保存在 Git 元数据及本地或对象存储中，0.2 新增可引用的精确版本集合。新版首次写入会把清单键由 tables 改为 artifacts，旧客户端可能显示空目录；共享项目应先统一升级。安装为 <code>install.packages(&quot;datom&quot;, type=&quot;source&quot;)</code>，核验时二进制仍为 0.1.2。官方示例包含远程仓库和认证步骤，需按权限配置；本期只审阅文档，未实测，也不替代数据库事务保证。
+
+标签：<a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E7%89%88%E6%9C%AC&amp;show-results=1" title="全站搜索：数据版本">数据版本</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-10-03；补录：2026-10-04</small>
+
+<a href="https://cran.r-project.org/web/packages/datom/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 第一届科技金融学术年会：青岛举办，10 月 20 日截稿 {#conference-upc-techfinance-2026}
+
+**投稿截止：2026-10-20**
+
+会议：2026-11-06 至 2026-11-06 · 山东青岛，中国石油大学(华东)培训楼
+
+费用：教师及其他代表1500元/人，学生1000元/人；交通住宿自理。
+
+会议于 11 月 6–8 日在青岛举行，围绕科技信贷、风险投资、创新激励和金融工具开展学术交流，包含论文分论坛。10 月 20 日前按原通知邮箱提交未公开发表的中英文论文，10 月 25 日通知录用，11 月 1 日注册截止。教师及其他代表注册费 1500 元、学生 1000 元，交通住宿自理。网页发布时间为 9 月 17 日，正文落款为 9 月 10 日，二者不混用。
+
+标签：<a class="tag-link" href="?q=%E7%A7%91%E6%8A%80%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：科技金融">科技金融</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：创新融资">创新融资</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
+
+<a href="https://sem.upc.edu.cn/2026/0911/c19376a499582/page.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

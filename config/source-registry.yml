@@ -852,6 +852,28 @@
       "entry_status": "partial-access",
       "retrieved_date": "2026-10-01",
       "note": "主办方原通知可由网页检索读取，直接HTTP403；单届通知用于状态追踪，不代表全站会议目录覆盖。"
+    },
+    {
+      "id": "conference:swufe-longevity-2026",
+      "name": "西南财经大学首届长寿经济论坛",
+      "category": "conferences",
+      "url": "https://ixetr.swufe.edu.cn/info/1023/2823.htm",
+      "interval_days": 7,
+      "entry_type": "organizer-notice",
+      "entry_status": "verified",
+      "retrieved_date": "2026-10-04",
+      "note": "主办方单届通知，仅追踪该届变更，不代表全站目录覆盖。"
+    },
+    {
+      "id": "conference:upc-techfinance-2026",
+      "name": "中国石油大学第一届科技金融学术年会",
+      "category": "conferences",
+      "url": "https://sem.upc.edu.cn/2026/0911/c19376a499582/page.htm",
+      "interval_days": 7,
+      "entry_type": "organizer-notice",
+      "entry_status": "verified",
+      "retrieved_date": "2026-10-04",
+      "note": "主办方单届通知，仅追踪该届变更，不代表全站目录覆盖。"
     }
   ],
   "editorial_registry_note": "连续编辑器使用editorial_sources作为检查身份；原分组保留发现线索与兼容，不作为另一份动态状态。期刊排名不由入口配置修改。"
