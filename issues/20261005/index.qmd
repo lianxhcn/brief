@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.10.05"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### figures4papers：借助 AI Agent 绘制科研图 {#post-1956}
+
+文章以参考图和可编辑绘图代码为起点，说明如何向 AI Agent 交代研究问题、图形样式和统计约束。事件研究图需要明确基准期、处理时点和置信区间，异质性图则应避免把类别组别画成连续趋势。读者可以借鉴分轮修改和保留源代码的流程；模板与视觉优化不能验证估计设定，最终图形仍须逐项核查。
+
+标签：<a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE&amp;show-results=1" title="全站搜索：科研绘图">科研绘图</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a>
+
+<small>来源日期：2026-10-04；补录：2026-10-05</small>
+
+<a href="https://www.lianxh.cn/details/1956.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### Stata 调用大模型：用 `catllm` 完成文本分类与主题发现 {#post-1957}
+
+文章介绍在 Stata 中调用 catllm，将预先定义的分类规则用于文本编码，并从文本中提取候选主题，再由研究者整理分类表。示例强调类别定义、纳入排除条件和多标签规则，需要 Stata、Python 后端及模型服务配合。少量模拟文本演示说明操作流程，不能证明分类准确率；将模型标签用于回归前，还需人工抽样核验和评估测量误差。
+
+标签：<a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：大语言模型">大语言模型</a>
+
+<small>来源日期：2026-10-04；补录：2026-10-05</small>
+
+<a href="https://www.lianxh.cn/details/1957.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 优秀同事怎样影响职业发展：知识溢出与晋升竞争 {#paper-aer-20230714}
+
+<p class="myapa">Cornelissen, T., Dustmann, C., &amp; Schönberg, U. (2026). Knowledge Spillovers, Competition, and Individual Careers. American Economic Review, 116(10), 3910-3941. <a href="https://doi.org/10.1257/aer.20230714" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Knowledge%20Spillovers%2C%20Competition%2C%20and%20Individual%20Careers" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究初入职场者与优秀同事共事时，知识学习与岗位竞争如何共同影响职业发展。作者区分可能争夺晋升机会的同职业同事与其他同事，观察到持续的知识溢出，以及方向相反的竞争影响。可借鉴这种将学习渠道与竞争渠道分开比较的思路；不能仅凭同事平均能力与个人收入的关系，就把全部变化归因于知识传递。
+
+标签：<a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：知识溢出">知识溢出</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95&amp;show-results=1" title="全站搜索：职业发展">职业发展</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 财富税引发迁移，宏观影响一定很大吗？ {#paper-aer-20241596}
+
+<p class="myapa">Jakobsen, K., Kleven, H., Kolsrud, J., Landais, C., &amp; Munoz, M. (2026). Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications. American Economic Review, 116(10), 3674-3720. <a href="https://doi.org/10.1257/aer.20241596" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Taxing%20Top%20Wealth%3A%20Migration%20Responses%20and%20Their%20Aggregate%20Economic%20Implications" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文使用斯堪的纳维亚行政数据研究高财富人群对财富税的迁移反应，并将企业所有者迁出与其企业经营联系起来。作者进一步评估就业、投资和增加值等总体影响，指出个人迁移反应与宏观总量变化需要分开衡量。读者可借鉴由个人行为、企业传导到总量评估的研究链条；不同国家的税制、迁移成本和模型假设会限制结论外推。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A2%E5%AF%8C%E7%A8%8E&amp;show-results=1" title="全站搜索：财富税">财富税</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：人口迁移">人口迁移</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%BB%8F%E8%90%A5&amp;show-results=1" title="全站搜索：企业经营">企业经营</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-05</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### rdlocrand 3.0：局部随机化断点分析中的推断变化 {#r-rdlocrand-3-0}
+
+R 包更新局部随机化断点分析。新版在多项式调整阶数大于 0 时采用大样本正态推断，默认 HC3，随机化 p 值返回 NA；阶数为 0 的随机化推断路径需与之区分。安装为 <code>install.packages(&quot;rdlocrand&quot;, type=&quot;source&quot;)</code>，核验时二进制仍是 2.0。已比较发行源码和维护者说明，未独立运行；HC3 不保证有限样本精确推断，模糊断点的 TSLS 还依赖强第一阶段。
+
+标签：<a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-10-04；补录：2026-10-05</small>
+
+<a href="https://cran.r-project.org/web/packages/rdlocrand/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 谁成为创新者，会影响创新服务于谁吗？ {#paper-aer-20231417}
+
+<p class="myapa">Einiö, E., Feng, J., &amp; Jaravel, X. (2026). Social Push and the Direction of Innovation. American Economic Review, 116(10), 3875-3909. <a href="https://doi.org/10.1257/aer.20231417" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Social%20Push%20and%20the%20Direction%20of%20Innovation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文连接美国和芬兰的数据，研究创新者与产品消费者在性别、社会经济背景和年龄上的对应关系，并在细分产品类别中比较。作者进一步建立增长模型，分析进入创新职业的机会差异怎样改变创新方向、生活成本与增长。研究将创新供给者的社会背景纳入产品研究；数据中的对应关系与模型反事实属于不同层次的证据，需要分别理解。
+
+标签：<a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E6%96%B9%E5%90%91&amp;show-results=1" title="全站搜索：创新方向">创新方向</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%83%8C%E6%99%AF&amp;show-results=1" title="全站搜索：社会背景">社会背景</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：经济增长">经济增长</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 劳动力短缺怎样推动工业革命中的技术采用？ {#paper-aer-20240393}
+
+<p class="myapa">Voth, H., Caprettini, B., &amp; Trew, A. (2026). Fighting for Growth: Labor Scarcity and Technological Progress during the British Industrial Revolution. American Economic Review, 116(10), 3837-3874. <a href="https://doi.org/10.1257/aer.20240393" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Fighting%20for%20Growth%3A%20Labor%20Scarcity%20and%20Technological%20Progress%20during%20the%20British%20Industrial%20Revolution" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究拿破仑战争期间英国征兵造成的劳动力短缺，以及企业采用节省劳动机器的反应，并考察机械技能是否构成配套条件。作者使用军舰接近沿海地区的便利程度来构造海军征募的工具变量。可借鉴将劳动供给冲击与技术采用条件结合的研究设计；工具变量的排除限制及历史地区差异仍须阅读全文核查，不能由摘要直接认定识别成立。
+
+标签：<a class="tag-link" href="?q=%E6%8A%80%E6%9C%AF%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：技术采用">技术采用</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：劳动供给">劳动供给</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 相似的职场不当行为，处罚会因政治立场而不同吗？ {#paper-1475-679x-70089}
+
+<p class="myapa">PANDEY, V., WU, J. S., &amp; ZHANG, Y. (2026). Partisanship, Information, and Punishment for Misconduct at Work. Journal of Accounting Research. <a href="https://doi.org/10.1111/1475-679x.70089" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Partisanship%2C%20Information%2C%20and%20Punishment%20for%20Misconduct%20at%20Work" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究金融顾问的不当行为与离职，比较同一企业和时期中不同政治立场的员工。作者在行为发生率及严重程度相近时仍观察到处罚差异，并结合外部报告质量、上市状态和内部控制相关信息讨论信息环境。研究提示需要把行为、披露与惩罚分开测量；这些信息质量代理变量与机制关联，不能直接当作内部管理过程的完整测量或因果证明。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：信息质量">信息质量</a> · <a class="tag-link" href="?q=%E8%81%8C%E5%9C%BA%E6%83%A9%E7%BD%9A&amp;show-results=1" title="全站搜索：职场惩罚">职场惩罚</a> · <a class="tag-link" href="?q=%E6%94%BF%E6%B2%BB%E7%AB%8B%E5%9C%BA&amp;show-results=1" title="全站搜索：政治立场">政治立场</a>
+
+<small>来源日期：2026-09-28；补录：2026-10-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 为 AI 追求理想数据，组织会付出什么代价？ {#paper-00018392261484887}
+
+<p class="myapa">van den Broek, E. &amp; Levina, N. (2026). In Pursuit of Ideal Data: Epistemic Enchantment and the Unintended Consequences of Datafying for Artificial Intelligence. Administrative Science Quarterly. <a href="https://doi.org/10.1177/00018392261484887" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=In%20Pursuit%20of%20Ideal%20Data%3A%20Epistemic%20Enchantment%20and%20the%20Unintended%20Consequences%20of%20Datafying%20for%20Artificial%20Intelligence" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文基于人力资源部门为 AI 筛选人员而开展数据化工作的三年民族志研究，分析对客观、持续改进预测的期待如何推动数据收集不断扩展。作者追踪理想数据的承诺、实际工作与组织代价之间的张力。研究提供观察 AI 项目推进过程的组织视角；单个案例中的过程证据不等于所有 AI 系统的性能评价，也不能据此推断数据越多必然越差。
+
+标签：<a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：组织研究">组织研究</a> · <a class="tag-link" href="?q=AI%E5%BA%94%E7%94%A8&amp;show-results=1" title="全站搜索：AI应用">AI应用</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：数据治理">数据治理</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 刷新样本能识别重复受访带来的测量变化吗？ {#arxiv-2610-01654}
+
+<p class="myapa">Okubo, Shoki. (2026). Identifying Panel Conditioning with Refreshment Samples: Sharp Bounds and Design Assumptions. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.01654" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.01654.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Identifying%20Panel%20Conditioning%20with%20Refreshment%20Samples%3A%20Sharp%20Bounds%20and%20Design%20Assumptions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文区分样本流失与重复受访本身改变测量结果的面板条件化问题。在单调测量变换和允许选择性流失的设定下，作者刻画识别集合与锐界限，并讨论新增调查波次及选择限制的作用。研究提醒：加入刷新样本不自动消除受访经历带来的偏差，识别改善取决于额外假设，不能把更丰富的面板结构直接等同于点识别。
+
+标签：<a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：面板调查">面板调查</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 越南光伏产业如何嵌入跨国供应链？ {#worldbank-wps11478}
+
+<p class="myapa">Ngov, Meng Yu, Vézina, Pierre-Louis, Tran, Trang Thu, &amp; Nayyar, Gaurav. (2026). The Rise of Viet Nam’s Solar Panel Industry : Inputs, FDI, and Spillovers. World Bank Policy Research Working Paper No. 11478. <a href="https://doi.org/10.1596/1813-9450-11478" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://documents.worldbank.org/curated/en/099430010022632715/pdf/IDU-c42017a3-295b-483e-b2fd-9a5904c23d8c.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=The%20Rise%20of%20Viet%20Nam%E2%80%99s%20Solar%20Panel%20Industry%20%3A%20Inputs%2C%20FDI%2C%20and%20Spillovers" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文将 Panjiva 企业间交易记录与越南企业调查结合，追踪光伏产业的投入品、外资企业和本地供应商联系。作者比较不同来源零部件的价格，并讨论中国外资企业在出口、就业及供应链中的作用，以及本地上游企业的生产率变化。读者可借鉴交易数据与企业调查的连接方式；来源国价格差异不能简单视为补贴的纯粹因果效应。
+
+标签：<a class="tag-link" href="?q=%E5%85%A8%E7%90%83%E4%BB%B7%E5%80%BC%E9%93%BE&amp;show-results=1" title="全站搜索：全球价值链">全球价值链</a> · <a class="tag-link" href="?q=%E5%A4%96%E5%95%86%E7%9B%B4%E6%8E%A5%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：外商直接投资">外商直接投资</a> · <a class="tag-link" href="?q=%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A&amp;show-results=1" title="全站搜索：光伏产业">光伏产业</a>
+
+<small>来源日期：2026-10-02；补录：2026-10-05</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### chartwright 0.4：用配置文件管理 Superset 仪表板 {#python-chartwright-0-4-0}
+
+Python 工具用配置文件描述并检查 Apache Superset 仪表板，0.4 新增带负责人及到期日的规则例外、版本兼容检查和锁定文字的可见性检查。安装为 <code>pip install chartwright==0.4.0</code>，要求 Python 3.11 及以上和已有 Superset 实例。先用 <code>check</code> 核对配置，<code>apply</code> 会写入实例；浏览器检查需额外组件。已核验发行说明与示例，未实测，展示检查不能验证统计指标或业务口径。
+
+标签：<a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：数据可视化">数据可视化</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：研究工作流">研究工作流</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-05</small>
+
+<a href="https://pypi.org/project/chartwright/0.4.0/" target="_blank" rel="noopener noreferrer">PyPI</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

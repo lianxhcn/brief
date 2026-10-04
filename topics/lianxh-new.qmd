@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 56 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 58 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>figures4papers：借助 AI Agent 绘制科研图</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>文章以参考图和可编辑绘图代码为起点，说明如何向 AI Agent 交代研究问题、图形样式和统计约束。事件研究图需要明确基准期、处理时点和置信区间，异质性图则应避免把类别组别画成连续趋势。读者可以借鉴分轮修改和保留源代码的流程；模板与视觉优化不能验证估计设定，最终图形仍须逐项核查。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE&amp;show-results=1" title="全站搜索：科研绘图">科研绘图</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#post-1956">查看本期</a><a href="https://www.lianxh.cn/details/1956.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>Stata 调用大模型：用 `catllm` 完成文本分类与主题发现</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>文章介绍在 Stata 中调用 catllm，将预先定义的分类规则用于文本编码，并从文本中提取候选主题，再由研究者整理分类表。示例强调类别定义、纳入排除条件和多标签规则，需要 Stata、Python 后端及模型服务配合。少量模拟文本演示说明操作流程，不能证明分类准确率；将模型标签用于回归前，还需人工抽样核验和评估测量误差。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：大语言模型">大语言模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#post-1957">查看本期</a><a href="https://www.lianxh.cn/details/1957.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>别急着做 DID（上）：先把政策背景搞清楚</h3>
 <p class="catalog-meta">期次日期：2026-10-04</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=sreg&amp;show-results=1" title="全站搜索：sreg">sreg</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：平均处理效应">平均处理效应</a></p>
 <p class="catalog-actions"><a href="../issues/20260930/#post-1948">查看本期</a><a href="https://www.lianxh.cn/details/1948.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>LLM文本标注：一换 prompt 系数就变号？用 DSL 纠偏</h3>
-<p class="catalog-meta">期次日期：2026-09-30</p>
-<p>文章用 Financial PhraseBank 比较三套提示词生成的情绪标签，说明较高总体准确率仍可能伴随回归系数变号。随后介绍 DSL 如何让人工验证样本进入估计方程，包括 LLM 变量出现在回归两侧以及不等概率抽取标注样本的情形。文中区分真实文本标签实验与模拟的收益变量；校正仍依赖标注质量、已知抽样概率和相应推断条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=DSL&amp;show-results=1" title="全站搜索：DSL">DSL</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a> · <a class="tag-link" href="?q=%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%95%8F%E6%84%9F%E6%80%A7&amp;show-results=1" title="全站搜索：提示词敏感性">提示词敏感性</a></p>
-<p class="catalog-actions"><a href="../issues/20260930/#post-1946">查看本期</a><a href="https://www.lianxh.cn/details/1946.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>LLM 文本标注不再写长答案：Jev 直接返回分类、评分和判断概率</h3>
-<p class="catalog-meta">期次日期：2026-09-30</p>
-<p>文章介绍 Jev 将文本判断直接输出为类别、评分和概率的接口，比较它与自由文本生成及普通模型结构化输出的差别。重点讨论概率在不同提问形式之间未必一致、排序表现不等于校准良好，以及本地标签对阈值选择的作用。模型输出仍需在自己的类别定义与文本分布上验证，不能把返回概率视为研究变量已通过效度检验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Jev&amp;show-results=1" title="全站搜索：Jev">Jev</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E6%A0%A1%E5%87%86&amp;show-results=1" title="全站搜索：概率校准">概率校准</a></p>
-<p class="catalog-actions"><a href="../issues/20260930/#post-1947">查看本期</a><a href="https://www.lianxh.cn/details/1947.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 56 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 58 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.05
+
+✍️ 01｜新推文：figures4papers：借助 AI Agent 绘制科研图
+用参考图、可编辑代码和统计约束指导科研绘图，重点核查事件时间、基准期、置信区间及类别表达。
+阅读全文： https://www.lianxh.cn/details/1956.html 
+
+✍️ 02｜新推文：Stata 调用大模型：用 `catllm` 完成文本分类与主题发现
+先制定分类规则，再用 catllm 辅助文本编码与主题发现；模型标签进入回归前须人工核验。
+阅读全文： https://www.lianxh.cn/details/1957.html 
+
+📰 03｜论文 · AER：优秀同事怎样影响职业发展：知识溢出与晋升竞争
+AER 区分同事带来的学习机会与晋升竞争，解释优秀同事为何可能同时帮助和挤压个人职业发展。
+引文：Cornelissen, Dustmann & Schönberg (2026). Knowledge Spillovers, Competition, and Individual Careers. AER, 116(10): 3910-3941.
+主页： https://doi.org/10.1257/aer.20230714 
+
+📰 04｜论文 · AER：财富税引发迁移，宏观影响一定很大吗？
+AER 将富裕人群迁移、企业经营和总量后果连接起来，提醒研究者区分个体反应与宏观影响。
+引文：Jakobsen et al. (2026). Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications. AER, 116(10): 3674-3720.
+主页： https://doi.org/10.1257/aer.20241596 
+
+📦 05｜软件 · R：rdlocrand 3.0：局部随机化断点分析中的推断变化
+3.0 调整多项式设定下的推断路径：默认 HC3、大样本正态推断；注意与零阶随机化推断区分。
+版本：R / rdlocrand 3.0；发布：2026-10-04
+CRAN： https://cran.r-project.org/web/packages/rdlocrand/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261005/ 
