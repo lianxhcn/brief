@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.06
+
+✍️ 01｜新推文：从 DID 到 QSM：柏林墙研究如何连接因果识别与空间均衡
+从柏林墙研究理解局部政策评估与空间均衡反事实的衔接，区分参数估计、校准和模型反演。
+阅读全文： https://www.lianxh.cn/details/1958.html 
+
+✍️ 02｜新推文：对话式调查：AI 时代问卷调查研究的新模式
+对话式调查将统一主题与适应性追问结合；应保留问答路径，并验证文本编码及追问对测量的影响。
+阅读全文： https://www.lianxh.cn/details/1959.html 
+
+📰 03｜论文 · Journal of the Royal Statistical Society Series B: Statistical Methodology：只有部分正例被标注，如何学习非线性分类关系？
+JRSS-B 用广义可加密度比模型处理正例与未标注数据，在非线性关系和可识别性之间建立联系。
+引文：Sang et al. (2026). Modelling positive and unlabelled data with a generalized additive density ratio model. Journal of the Royal Statistical Society Series B: Statistical Methodology.
+主页： https://doi.org/10.1093/jrsssb/qkag130 
+
+📰 04｜论文 · AER：数据政策如何同时影响平台投资与产品发现？
+AER 将用户注意力、定向广告和产品发现放入动态模型，解释数据政策的短期与长期影响为何可能不同。
+引文：Chen (2026). A Model of the Attention Economy: Data, Platforms, and Discovery. AER, 116(10): 3802-3836.
+主页： https://doi.org/10.1257/aer.20240651 
+
+📦 05｜软件 · R：tidyfinance 0.9：修正 Fama–MacBeth 标准误的排序问题
+维护者说明，旧版 Fama–MacBeth 汇总若未按时间排序，可能影响 Newey–West 标准误和 t 统计量；新版显式排序，风险溢价估计值不变。另新增 FRED-MD/QD 历史版本下载，便于按当时可得信息构造数据。
+版本：R / tidyfinance 0.9.0；发布：2026-10-05
+CRAN： https://cran.r-project.org/web/packages/tidyfinance/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261006/ 

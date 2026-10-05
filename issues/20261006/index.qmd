@@ -1,0 +1,219 @@
+---
+title: "连享会 · 快讯 | 2026.10.06"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 从 DID 到 QSM：柏林墙研究如何连接因果识别与空间均衡 {#post-1958}
+
+文章从柏林墙研究出发，说明政策冲击的局部估计如何与城市空间均衡模型衔接。居民居住与就业选择、企业区位、通勤和土地开发共同决定工资、租金与人口分布，反事实分析需要处理这些反馈。文中区分参数校准、估计与模型反演，并明确柏林墙应用采用长差分和空间暴露差异，不能简单称为标准两期 DID。
+
+标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-06</small>
+
+<a href="https://www.lianxh.cn/details/1958.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 对话式调查：AI 时代问卷调查研究的新模式 {#post-1959}
+
+文章介绍在统一调查主题下设置中性追问和停止规则，再将对话文本转化为可分析变量的流程。对话可以揭示固定问卷遗漏的解释，但追问本身也可能改变受访者态度。研究者需要保留提问路径、提示词和模型版本，并用人工抽样或随机结构化验证问题检查编码；文本更长不等于测量更准确，AI 标签进入回归前仍须核验。
+
+标签：<a class="tag-link" href="?q=%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：问卷调查">问卷调查</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-06</small>
+
+<a href="https://www.lianxh.cn/details/1959.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 只有部分正例被标注，如何学习非线性分类关系？ {#paper-qkag130}
+
+<p class="myapa">Sang, P., Sun, Y., Tian, Q., Zeng, D., &amp; Li, P. (2026). Modelling positive and unlabelled data with a generalized additive density ratio model. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag130" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Modelling%20positive%20and%20unlabelled%20data%20with%20a%20generalized%20additive%20density%20ratio%20model" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+JRSS-B 论文研究正例与未标注数据：未标注样本同时包含正例和负例，不能直接作为负类。作者在密度比模型中引入广义可加结构，允许特征呈非线性影响，并讨论混合比例的识别、估计与推断。方法为不完整标签分析提供了更灵活的设定；可识别性仍依赖模型条件，不能把复杂分类器的预测能力等同于识别保证。
+
+标签：<a class="tag-link" href="?q=%E4%B8%8D%E5%AE%8C%E6%95%B4%E6%A0%87%E7%AD%BE&amp;show-results=1" title="全站搜索：不完整标签">不完整标签</a> · <a class="tag-link" href="?q=%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：半监督学习">半监督学习</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：非线性模型">非线性模型</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-06</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 数据政策如何同时影响平台投资与产品发现？ {#paper-aer-20240651}
+
+<p class="myapa">Chen, D. (2026). A Model of the Attention Economy: Data, Platforms, and Discovery. American Economic Review, 116(10), 3802-3836. <a href="https://doi.org/10.1257/aer.20240651" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=A%20Model%20of%20the%20Attention%20Economy%3A%20Data%2C%20Platforms%2C%20and%20Discovery" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AER 论文建立注意力经济的动态模型，将平台吸引用户、利用数据出售定向广告，与消费者发现产品的过程连接起来。平台投资、产品需求和广告收入会共同调整，因而数据或互操作性政策的短期影响与长期影响可能不同。研究提供分析平台政策传导的理论框架；这些结论取决于模型设定，不能直接当作某项现实监管政策的因果评估。
+
+标签：<a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：平台经济">平台经济</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：数据政策">数据政策</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：注意力">注意力</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-06</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### tidyfinance 0.9：修正 Fama–MacBeth 标准误的排序问题 {#r-tidyfinance-0-9-0}
+
+维护者说明，旧版 Fama–MacBeth 汇总若未按时间排序，可能影响 Newey–West 标准误和 t 统计量；新版显式排序，风险溢价估计值不变。另新增 FRED-MD/QD 历史版本下载，便于按当时可得信息构造数据。安装为 <code>install.packages(&quot;tidyfinance&quot;, type=&quot;source&quot;)</code>，要求 R 4.1 及以上；本轮核验发行说明和示例，未独立测试。
+
+标签：<a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：标准误">标准误</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-06</small>
+
+<a href="https://cran.r-project.org/web/packages/tidyfinance/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 个性化定价与质量选择如何共同影响消费者？ {#paper-aer-20250206}
+
+<p class="myapa">Bergemann, D., Heumann, T., &amp; Wang, M. C. (2026). Screening and Segmenting: A Consumer Surplus Perspective. American Economic Review, 116(10), 3768-3801. <a href="https://doi.org/10.1257/aer.20250206" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Screening%20and%20Segmenting%3A%20A%20Consumer%20Surplus%20Perspective" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AER 论文同时考虑企业通过价格和质量筛选消费者，以及在不同市场分组定价。作者从消费者剩余出发刻画有利的市场划分：某些设定下，相同估值消费者获得的质量相同，支付价格却可能不同。研究提示，评价市场分割需要同时分析价格、质量与需求和供给弹性；不能仅凭存在差别定价就判断所有消费者获益或受损。
+
+标签：<a class="tag-link" href="?q=%E5%B7%AE%E5%88%AB%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：差别定价">差别定价</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E5%89%A9%E4%BD%99&amp;show-results=1" title="全站搜索：消费者剩余">消费者剩余</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%88%86%E5%89%B2&amp;show-results=1" title="全站搜索：市场分割">市场分割</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-06</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 审计专家的专业判断为何也取决于协作方式？ {#paper-1911-3846-70077}
+
+<p class="myapa">Bauer, T. D., Estep, C., &amp; Griffith, E. E. (2026). Specialists&#x27; Evidence Evaluation and Judgments in Audits. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70077" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Specialists%27%20Evidence%20Evaluation%20and%20Judgments%20in%20Audits" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Contemporary Accounting Research 论文通过问卷和执业估值专家实验，研究专家对工作成果的心理所有感如何影响证据评估。作者发现，这种关联取决于审计人员是否以侵入性的方式干预专家工作。研究将协作关系纳入审计质量讨论，提示技术专长之外还需关注职责和参与方式；实验判断与实际审计质量之间的联系仍需谨慎外推。
+
+标签：<a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：审计判断">审计判断</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%AE%B6%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：专家协作">专家协作</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：实验研究">实验研究</a>
+
+<small>来源日期：2026-10-03；补录：2026-10-06</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 提前知道财务报表信息，对投资者值多少钱？ {#paper-1911-3846-70087}
+
+<p class="myapa">Lundholm, R. &amp; Zheng, X. (2026). Estimating the Private Value of Financial Statement Statistics. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70087" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Estimating%20the%20Private%20Value%20of%20Financial%20Statement%20Statistics" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Contemporary Accounting Research 论文提出估计财务报表统计量私人价值的方法，并以杜邦分析中的净资产收益率信息为例。框架把投资者的相对风险厌恶、财富、多资产选择和对冲机会纳入计算，考察其愿意为提前获知未来信息支付多少。这里衡量的是给定偏好与市场模型下的信息价值，不能直接解释为现实数据库的售价或披露制度的社会总收益。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A2%E5%8A%A1%E4%BF%A1%E6%81%AF&amp;show-results=1" title="全站搜索：财务信息">财务信息</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%BB%B7%E5%80%BC&amp;show-results=1" title="全站搜索：信息价值">信息价值</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：投资组合">投资组合</a>
+
+<small>来源日期：2026-09-28；补录：2026-10-06</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 未实现资本利得税负如何关联 CEO 股票质押？ {#paper-tar-2025-0006}
+
+<p class="myapa">Underwood, J. &amp; Yost, B. P. (2026). CEO Tax Lock-In and Share Pledging. The Accounting Review, 1-29. <a href="https://doi.org/10.2308/tar-2025-0006" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=CEO%20Tax%20Lock-In%20and%20Share%20Pledging" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+The Accounting Review 论文使用 2006—2024 年股票质押数据，研究 CEO 持股的税收锁定与借款选择。作者观察到未实现资本利得税负与质押的正向关联，并考察利率、质押约束和公司薪酬调整的作用。可借鉴将个人税收激励与公司治理安排连接的思路；质押关系中的借贷成本和选择因素需要同时考虑，不能将该关联直接当作税率变化的纯粹因果效应。
+
+标签：<a class="tag-link" href="?q=%E8%82%A1%E7%A5%A8%E8%B4%A8%E6%8A%BC&amp;show-results=1" title="全站搜索：股票质押">股票质押</a> · <a class="tag-link" href="?q=%E7%A8%8E%E6%94%B6%E9%94%81%E5%AE%9A&amp;show-results=1" title="全站搜索：税收锁定">税收锁定</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-06</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 交叉拟合后，为什么仍要调整跨折相关性？ {#arxiv-2610-02944}
+
+<p class="myapa">Fava, Bruno. (2026). Cross-Fitting Under Nonregularity: Normality and Inference via Locality. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.02944" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.02944.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Cross-Fitting%20Under%20Nonregularity%3A%20Normality%20and%20Inference%20via%20Locality" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文研究模型比较、处理效应异质性检验和最优处理规则估值等非正则问题。作者提出局部性条件，在部分交叉拟合估计量仍满足中心极限定理时，将跨折相关性纳入渐近方差，并提出相应置信区间。对应用者的启发是：样本分折并不自动使不同折的估计独立；常规标准误能否使用，需检查目标参数的正则性及论文条件。
+
+标签：<a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E6%8B%9F%E5%90%88&amp;show-results=1" title="全站搜索：交叉拟合">交叉拟合</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a> · <a class="tag-link" href="?q=%E9%9D%9E%E6%AD%A3%E5%88%99%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：非正则估计">非正则估计</a>
+
+<small>来源日期：2026-10-02；补录：2026-10-06</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 断点效应能代表门槛政策的全部影响吗？ {#arxiv-2610-02938}
+
+<p class="myapa">Imai, Shunsuke, Nishida, Koshi, &amp; Okamoto, Yuta. (2026). Evaluating Threshold Policies in Randomized Threshold Designs: A Cautionary Tale for Regression Discontinuity Designs. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.02938" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.02938.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Evaluating%20Threshold%20Policies%20in%20Randomized%20Threshold%20Designs%3A%20A%20Cautionary%20Tale%20for%20Regression%20Discontinuity%20Designs" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文区分跨过门槛后的处理分配效应，与门槛要求本身改变努力等行为的激励效应。作者利用随机变化的政策门槛，并结合秩不变性一类限制，识别这两条渠道，再用马拉维奖学金实验说明其区别。研究提示，常规断点估计回答的局部问题可能不同于政策整体评价；额外激励效应的识别需要新的设计和假设，不能仅靠原有断点回归。
+
+标签：<a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%8F%8D%E5%BA%94&amp;show-results=1" title="全站搜索：行为反应">行为反应</a>
+
+<small>来源日期：2026-10-02；补录：2026-10-06</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### safestats 0.8.9：连续监测中的检验与置信序列 {#r-safestats-0-8-9}
+
+R 包提供基于 e 值的连续监测推断。新版增加置信序列的滚动交集显示选项、条件 2×2 检验和初步单因素方差分析函数。安装为 <code>install.packages(&quot;safestats&quot;, type=&quot;source&quot;)</code>，要求 R 4.5 及以上。可选停止下的误差控制依赖相应检验设定；不能把普通 p 值反复查看后直接视为有效序贯检验。本轮核验手册和示例，未实测。
+
+标签：<a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：序贯检验">序贯检验</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：置信序列">置信序列</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-06</small>
+
+<a href="https://cran.r-project.org/web/packages/safestats/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### bootdiag：用模拟分布开展时间序列回归诊断 {#stata-bootdiag-1-0-0}
+
+新命令在回归或受支持的 ARDL 模型后，将残差诊断统计量与 bootstrap 或 Monte Carlo 零假设分布比较。安装为 <code>ssc install bootdiag</code>，帮助文件示例为回归后执行 <code>bootdiag serial, reps(1999)</code>。使用前需核对模型恢复、数据生成过程和重复次数；本轮已读官方帮助及内嵌示例，独立示例下载返回 404，未实测，也未验证作者的有限样本性能声明。
+
+标签：<a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a>
+
+<small>来源日期：2026-10-04；补录：2026-10-06</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459921.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

@@ -8,9 +8,30 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 52 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 55 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>tidyfinance 0.9：修正 Fama–MacBeth 标准误的排序问题</h3>
+<p class="catalog-meta">期次日期：2026-10-06</p>
+<p>维护者说明，旧版 Fama–MacBeth 汇总若未按时间排序，可能影响 Newey–West 标准误和 t 统计量；新版显式排序，风险溢价估计值不变。另新增 FRED-MD/QD 历史版本下载，便于按当时可得信息构造数据。安装为 <code>install.packages(&quot;tidyfinance&quot;, type=&quot;source&quot;)</code>，要求 R 4.1 及以上；本轮核验发行说明和示例，未独立测试。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：标准误">标准误</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20261006/#r-tidyfinance-0-9-0">查看本期</a><a href="https://cran.r-project.org/web/packages/tidyfinance/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>safestats 0.8.9：连续监测中的检验与置信序列</h3>
+<p class="catalog-meta">期次日期：2026-10-06</p>
+<p>R 包提供基于 e 值的连续监测推断。新版增加置信序列的滚动交集显示选项、条件 2×2 检验和初步单因素方差分析函数。安装为 <code>install.packages(&quot;safestats&quot;, type=&quot;source&quot;)</code>，要求 R 4.5 及以上。可选停止下的误差控制依赖相应检验设定；不能把普通 p 值反复查看后直接视为有效序贯检验。本轮核验手册和示例，未实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：序贯检验">序贯检验</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：置信序列">置信序列</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20261006/#r-safestats-0-8-9">查看本期</a><a href="https://cran.r-project.org/web/packages/safestats/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>bootdiag：用模拟分布开展时间序列回归诊断</h3>
+<p class="catalog-meta">期次日期：2026-10-06</p>
+<p>新命令在回归或受支持的 ARDL 模型后，将残差诊断统计量与 bootstrap 或 Monte Carlo 零假设分布比较。安装为 <code>ssc install bootdiag</code>，帮助文件示例为回归后执行 <code>bootdiag serial, reps(1999)</code>。使用前需核对模型恢复、数据生成过程和重复次数；本轮已读官方帮助及内嵌示例，独立示例下载返回 404，未实测，也未验证作者的有限样本性能声明。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a></p>
+<p class="catalog-actions"><a href="../issues/20261006/#stata-bootdiag-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459921.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>rdlocrand 3.0：局部随机化断点分析中的推断变化</h3>
 <p class="catalog-meta">期次日期：2026-10-05</p>
@@ -60,29 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：弱工具推断">弱工具推断</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20261002/#r-clusteriv-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/clusterIV/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>puremacro 4.3：宏观结构求解与关税福利计算更新</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检查、贸易核算及基于支出函数的福利度量。新核算和 Hicksian 福利指标需要显式启用，不能仅升级版本就假定旧脚本自动切换；求解失败也不应被当作有效政策收益。安装为 <code>pip install puremacro==4.3.0</code>。维护者披露该版仍有 11 项既存测试失败及临时处理建议。本期核对发行说明、示例与已知问题，未独立复现，不将维护方测试结果视为普遍正确性证明。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：宏观模型">宏观模型</a> · <a class="tag-link" href="?q=%E8%B4%B8%E6%98%93%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：贸易政策">贸易政策</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#python-puremacro-4-3-0">查看本期</a><a href="https://pypi.org/project/puremacro/4.3.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>polle 1.6.5：动态政策学习的终止事件修正</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>R 包用于学习和评价多阶段处理规则。1.6.5 修正最终结果缺失时早期终止事件的处理，以及警告发生后未保留拟合模型的问题；同时移除 SuperLearner 依赖，并明确 OWL 求解器参数。安装为 <code>install.packages(&quot;polle&quot;)</code>。使用旧流程时应检查依赖、删失处理和求解器设置；双重稳健性仍依赖相应识别与模型条件。本期核对官方帮助、示例和更新说明，未独立运行。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#r-polle-1-6-5">查看本期</a><a href="https://cran.r-project.org/web/packages/polle/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>confoundvis 0.2.0：从回归模型生成混杂敏感性图</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>0.2.0 新增从 <code>lm</code> 拟合直接计算部分 R 平方敏感性路径和影响阈值的接口，提供协变量参照、稳健性临界点及文字报告，并接收 sensemakr、konfound 与 EValue 的结果。安装为 <code>install.packages(&quot;confoundvis&quot;)</code>。这些图表描述假设混杂强度下的结果变化，不能证明未观测混杂不存在；不同框架的强度尺度也不能直接混用。已核对官方示例与 NEWS，未独立运行。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#r-confoundvis-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/confoundvis/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 52 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 55 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

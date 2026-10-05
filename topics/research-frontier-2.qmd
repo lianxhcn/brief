@@ -8,9 +8,65 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 25 页 · 共 244 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-25.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 26 页 · 共 252 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-26.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>谁成为创新者，会影响创新服务于谁吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文连接美国和芬兰的数据，研究创新者与产品消费者在性别、社会经济背景和年龄上的对应关系，并在细分产品类别中比较。作者进一步建立增长模型，分析进入创新职业的机会差异怎样改变创新方向、生活成本与增长。研究将创新供给者的社会背景纳入产品研究；数据中的对应关系与模型反事实属于不同层次的证据，需要分别理解。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E6%96%B9%E5%90%91&amp;show-results=1" title="全站搜索：创新方向">创新方向</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%83%8C%E6%99%AF&amp;show-results=1" title="全站搜索：社会背景">社会背景</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：经济增长">经济增长</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-aer-20231417">查看本期</a><a href="https://doi.org/10.1257/aer.20231417" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>相似的职场不当行为，处罚会因政治立场而不同吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文研究金融顾问的不当行为与离职，比较同一企业和时期中不同政治立场的员工。作者在行为发生率及严重程度相近时仍观察到处罚差异，并结合外部报告质量、上市状态和内部控制相关信息讨论信息环境。研究提示需要把行为、披露与惩罚分开测量；这些信息质量代理变量与机制关联，不能直接当作内部管理过程的完整测量或因果证明。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：信息质量">信息质量</a> · <a class="tag-link" href="?q=%E8%81%8C%E5%9C%BA%E6%83%A9%E7%BD%9A&amp;show-results=1" title="全站搜索：职场惩罚">职场惩罚</a> · <a class="tag-link" href="?q=%E6%94%BF%E6%B2%BB%E7%AB%8B%E5%9C%BA&amp;show-results=1" title="全站搜索：政治立场">政治立场</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-1475-679x-70089">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70089" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>劳动力短缺怎样推动工业革命中的技术采用？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文研究拿破仑战争期间英国征兵造成的劳动力短缺，以及企业采用节省劳动机器的反应，并考察机械技能是否构成配套条件。作者使用军舰接近沿海地区的便利程度来构造海军征募的工具变量。可借鉴将劳动供给冲击与技术采用条件结合的研究设计；工具变量的排除限制及历史地区差异仍须阅读全文核查，不能由摘要直接认定识别成立。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%80%E6%9C%AF%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：技术采用">技术采用</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：劳动供给">劳动供给</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-aer-20240393">查看本期</a><a href="https://doi.org/10.1257/aer.20240393" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>刷新样本能识别重复受访带来的测量变化吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>工作论文区分样本流失与重复受访本身改变测量结果的面板条件化问题。在单调测量变换和允许选择性流失的设定下，作者刻画识别集合与锐界限，并讨论新增调查波次及选择限制的作用。研究提醒：加入刷新样本不自动消除受访经历带来的偏差，识别改善取决于额外假设，不能把更丰富的面板结构直接等同于点识别。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：面板调查">面板调查</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#arxiv-2610-01654">查看本期</a><a href="https://arxiv.org/abs/2610.01654" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>优秀同事怎样影响职业发展：知识溢出与晋升竞争</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文研究初入职场者与优秀同事共事时，知识学习与岗位竞争如何共同影响职业发展。作者区分可能争夺晋升机会的同职业同事与其他同事，观察到持续的知识溢出，以及方向相反的竞争影响。可借鉴这种将学习渠道与竞争渠道分开比较的思路；不能仅凭同事平均能力与个人收入的关系，就把全部变化归因于知识传递。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：知识溢出">知识溢出</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95&amp;show-results=1" title="全站搜索：职业发展">职业发展</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-aer-20230714">查看本期</a><a href="https://doi.org/10.1257/aer.20230714" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>为 AI 追求理想数据，组织会付出什么代价？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文基于人力资源部门为 AI 筛选人员而开展数据化工作的三年民族志研究，分析对客观、持续改进预测的期待如何推动数据收集不断扩展。作者追踪理想数据的承诺、实际工作与组织代价之间的张力。研究提供观察 AI 项目推进过程的组织视角；单个案例中的过程证据不等于所有 AI 系统的性能评价，也不能据此推断数据越多必然越差。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：组织研究">组织研究</a> · <a class="tag-link" href="?q=AI%E5%BA%94%E7%94%A8&amp;show-results=1" title="全站搜索：AI应用">AI应用</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：数据治理">数据治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-00018392261484887">查看本期</a><a href="https://doi.org/10.1177/00018392261484887" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>股债相关性为什么会改变符号？</h3>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>论文从总消费动态出发，研究股票与债券相关性由正转负的机制。作者在实时序贯学习框架中区分永久消费冲击、暂时冲击占主导的持久状态，以及较短暂的灾难状态，并比较它们对资产价格的含义。实质消费动态提供了名义股债现象的一条解释路径；状态识别依赖模型设定，不能据此直接预测下一次相关性转换。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%82%A1%E5%80%BA%E7%9B%B8%E5%85%B3%E6%80%A7&amp;show-results=1" title="全站搜索：股债相关性">股债相关性</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：消费风险">消费风险</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70092">查看本期</a><a href="https://doi.org/10.1111/jofi.70092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>积极股东监督会改变同岗薪酬吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>论文使用细分员工薪酬记录，在年份、地区、职业和技能水平相同的劳动市场内比较积极所有者与其他企业的同岗报酬。作者观察到基本工资和激励薪酬差异，并发现其更集中于任务常规、产出容易量化的岗位，讨论管理监督替代薪酬激励的机制。可比岗位设计有助于区分人员结构与薪酬制度，但所有权选择和机制解释仍需谨慎。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E5%91%98%E5%B7%A5%E8%96%AA%E9%85%AC&amp;show-results=1" title="全站搜索：员工薪酬">员工薪酬</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#paper-mnsc-2024-08553">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08553" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>监管同业比较会促使银行趋同吗？</h3>
 <p class="catalog-meta">期次日期：2026-10-04</p>
@@ -25,64 +81,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
 <p class="catalog-actions"><a href="../issues/20261004/#arxiv-2609-40156">查看本期</a><a href="https://arxiv.org/abs/2609.40156" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>灾后众筹能公平弥补家庭损失吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>论文将重大山火后的 GoFundMe 筹款活动与房产损失、家庭信用记录匹配，研究哪些家庭能发起众筹、获得捐款。作者在控制房产损失后仍观察到收入差异，并考察捐赠网络、异地联系、朋友倡议和社会压力渠道。研究提示社会资本可能影响非正式救济分配；这些匹配与机制证据不能说明所有灾害众筹都有相同效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%81%BE%E5%AE%B3%E6%95%91%E6%B5%8E&amp;show-results=1" title="全站搜索：灾害救济">灾害救济</a> · <a class="tag-link" href="?q=%E4%BC%97%E7%AD%B9&amp;show-results=1" title="全站搜索：众筹">众筹</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：社会资本">社会资本</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70094">查看本期</a><a href="https://doi.org/10.1111/jofi.70094" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>政治环境如何影响投资者对社会责任议案的投票？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>论文研究机构投资者对环境与社会议案的支持，比较企业总部所在州的政治领导、补贴和税收优惠环境，并考察同一州领导变化后的投票差异。作者将这些变化与议案对股东价值的含义联系起来。读者可借鉴企业政治环境与投票行为的匹配方式，但不能把政党差异简单视为机构偏好的纯粹变化。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E6%8A%95%E7%A5%A8&amp;show-results=1" title="全站搜索：股东投票">股东投票</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：社会责任">社会责任</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70093">查看本期</a><a href="https://doi.org/10.1111/jofi.70093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>全球升温的死亡影响，为什么不限于当地高温？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>工作论文区分全球温度变化与当地直接热暴露对死亡率的影响，利用自然温度波动，并结合外部收入与死亡率估计考察宏观经济渠道。作者把死亡与经济活动纳入增长模型，讨论适应和碳社会成本。其贡献是将直接健康冲击与经济间接渠道放在同一框架下比较；损害函数和福利计算依赖识别、外部参数及模型设定，不能将模型输出当作不变常数。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=%E6%AD%BB%E4%BA%A1%E7%8E%87&amp;show-results=1" title="全站搜索：死亡率">死亡率</a> · <a class="tag-link" href="?q=%E7%A2%B3%E7%A4%BE%E4%BC%9A%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：碳社会成本">碳社会成本</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#nber-w35832">查看本期</a><a href="https://www.nber.org/papers/w35832" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>隐私保护会改变保险赔付与谈判结果吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>论文利用以色列人身伤害诉讼裁判匿名化改革，将受影响的人身伤害赔付与未受影响的财产损害赔付进行双重差分比较。作者报告改革后赔付提高，并将其解释为当事人为避免健康与收入信息公开所承担的隐私成本。将这一变化解释为隐私价值，仍依赖对照组可比性及改革没有同时改变其他赔付机制等条件。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E8%B5%94%E4%BB%98&amp;show-results=1" title="全站搜索：保险赔付">保险赔付</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#paper-mnsc-2025-00107">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.00107" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>银行在加息时管理的是市值风险还是账面资本？</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>论文使用美国银行监管报表与 SEC 数据，研究 2022 年加息期间的利率风险对冲和持有至到期会计分类。作者记录到有限的衍生品对冲与证券向 HTM 分类迁移，并以模型解释资本约束、挤兑风险和会计处理的权衡。账面资本受到保护不等于经济风险消失；横截面关联及机制模型也不能自动解释为会计选择的因果效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：银行风险">银行风险</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：会计分类">会计分类</a> · <a class="tag-link" href="?q=%E5%88%A9%E7%8E%87%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：利率风险">利率风险</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#paper-1475-679x-70090">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70090" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>跨国银行监管能同时改善信贷供给与风险承担吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>论文结合多国信贷登记数据与银行由国家监管转向超国家监管的制度变化，比较信贷供给及借款企业风险。作者发现信贷扩张集中于金融压力较大的国家，而对高风险僵尸企业的贷款减少，并考察国家制度、监管激励及银行外部融资渠道。结论取决于欧洲这一制度背景，不能推广为监管层级上移必然改善所有银行的放贷。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：银行监管">银行监管</a> · <a class="tag-link" href="?q=%E4%BF%A1%E8%B4%B7%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：信贷供给">信贷供给</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%89%BF%E6%8B%85&amp;show-results=1" title="全站搜索：风险承担">风险承担</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#paper-jofi-70091">查看本期</a><a href="https://doi.org/10.1111/jofi.70091" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>看处理前趋势挑选控制组后，DID 区间怎样计算？</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>工作论文将控制组筛选纳入 DID 的选择后推断，允许用同一微观样本估计协方差、选择控制组并估计处理效应。作者在固定地区数与时期数的框架中建立覆盖性质，并讨论不同样本量、分期处理和事件时间置信带。该方法处理筛选引入的推断问题；平行趋势及其他识别条件仍需成立，不能由选择后区间替代识别论证。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%90%8E%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：选择后推断">选择后推断</a> · <a class="tag-link" href="?q=%E6%8E%A7%E5%88%B6%E7%BB%84%E7%AD%9B%E9%80%89&amp;show-results=1" title="全站搜索：控制组筛选">控制组筛选</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#arxiv-2610-01464">查看本期</a><a href="https://arxiv.org/abs/2610.01464" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>多模态信息怎样融合，并给出不确定性范围？</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>Meta Fusion 将早期、中间和后期融合纳入统一框架，通过不同潜在表示组合构成模型组，再以软信息共享实现相互学习。论文讨论泛化误差及不确定性量化，用疾病识别和神经解码展示预测应用。经管读者可借鉴多源数据整合思路，但预测覆盖保证有适用条件，不能据此认定融合后的变量满足因果识别要求。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%9A%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：多模态学习">多模态学习</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E9%87%8F%E5%8C%96&amp;show-results=1" title="全站搜索：不确定性量化">不确定性量化</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#paper-qkag129">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag129" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 25 页 · 共 244 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-25.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 26 页 · 共 252 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-26.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
