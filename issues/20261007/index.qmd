@@ -1,0 +1,219 @@
+---
+title: "连享会 · 快讯 | 2026.10.07"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### QSM 怎么学？从读懂模型到复现论文，再到自己的研究 {#post-1960}
+
+文章按读懂模型、运行简单例子、复现论文、扩展选题的顺序组织 QSM 学习路线，区分可观测数据、结构参数、基本面反演与反事实均衡。基准模型匹配了用于校准的数据，并不等于获得独立验证；学习时还应检查额外事实与敏感性分析。文中也区分教学代码和论文原版程序，提醒读者不能把代码运行成功直接当作完成论文复现。
+
+标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a> · <a class="tag-link" href="?q=%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF&amp;show-results=1" title="全站搜索：学习路线">学习路线</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-07</small>
+
+<a href="https://www.lianxh.cn/details/1960.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 一文读懂 QSM：一个地方的变化如何影响其他地区？ {#post-1961}
+
+文章从一个地区新增产业或交通设施如何影响其他地区出发，解释居民迁移、通勤、贸易以及工资和租金调整之间的联系。局部就业增加可能包含跨地区转移，未必等于整个经济系统的净增量。QSM 将个体选择与市场出清放进同一框架，用于分析模型条件下的政策反事实；使用时仍须交代参数、市场联系和均衡假设，不能仅凭模型结构认定政策有效。
+
+标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：政策反事实">政策反事实</a> · <a class="tag-link" href="?q=%E5%8C%BA%E5%9F%9F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：区域经济">区域经济</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-07</small>
+
+<a href="https://www.lianxh.cn/details/1961.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 童年接触机会如何影响跨阶层婚姻？ {#paper-aer-20250115}
+
+<p class="myapa">Goldman, B., Gracie, J., &amp; Porter, S. R. (2026). Who Marries Whom? The Role of Segregation by Race and Class. American Economic Review, 116(10), 3623-3673. <a href="https://doi.org/10.1257/aer.20250115" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Who%20Marries%20Whom%3F%20The%20Role%20of%20Segregation%20by%20Race%20and%20Class" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AER 论文研究居住隔离与婚姻匹配，利用童年社区中其他群体的同龄异性儿童构成作为接触机会的工具变量。作者发现，更多接触会增加跨父母收入阶层的婚姻，但没有检测到相应的白人与黑人跨族群婚姻变化，并用空间婚姻模型分析居住隔离的作用。研究区分接触机会与其他婚姻障碍；工具变量的排除限制和模型外推仍须结合全文判断。
+
+标签：<a class="tag-link" href="?q=%E5%A9%9A%E5%A7%BB%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：婚姻匹配">婚姻匹配</a> · <a class="tag-link" href="?q=%E5%B1%85%E4%BD%8F%E9%9A%94%E7%A6%BB&amp;show-results=1" title="全站搜索：居住隔离">居住隔离</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-07</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 晋升规则明确，为何仍会出现晋升延迟？ {#paper-aer-20231368}
+
+<p class="myapa">Hegde, D., Ljungqvist, A., &amp; Raj, M. (2026). Racial Promotion Gaps. American Economic Review, 116(10), 3721-3767. <a href="https://doi.org/10.1257/aer.20231368" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Racial%20Promotion%20Gaps" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AER 论文利用美国专利局行政数据，将员工何时满足晋升资格与实际晋升时间区分开来。作者观察到黑人专利审查员在达到资格后仍面临晋升延迟，并结合机构规则和主管特征讨论可能机制。可借鉴的研究思路是，把资格形成与规则执行分别测量；制度有统一标准不代表执行过程没有差异，摘要中的机制解释也不能代替对全文识别证据的审查。
+
+标签：<a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a> · <a class="tag-link" href="?q=%E6%99%8B%E5%8D%87%E5%B7%AE%E5%BC%82&amp;show-results=1" title="全站搜索：晋升差异">晋升差异</a> · <a class="tag-link" href="?q=%E8%A1%8C%E6%94%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：行政数据">行政数据</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-07</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### esreg：内生转换回归与收益选择 {#stata-esreg-1-0-0}
+
+Stata 命令以 Roy 模型联合描述是否参与及两种状态下的结果，提供极大似然和两步估计，并报告 ATT、ATU、ATE 及收益选择指标。安装为 <code>ssc install esreg</code>，要求 Stata 16 及以上，官方例程可运行 <code>esreg_examples 1</code>。识别依赖排除变量、函数形式及相应分布或条件均值假设，不能自动解决全部选择偏误。本轮已读帮助和示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%86%85%E7%94%9F%E8%BD%AC%E6%8D%A2%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：内生转换回归">内生转换回归</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%81%8F%E8%AF%AF&amp;show-results=1" title="全站搜索：选择偏误">选择偏误</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-07</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459922.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 需求预测不确定时，如何联合决定库存与价格？ {#paper-mnsc-2024-06402}
+
+<p class="myapa">Zhang, X., Tang, Q., Chen, Z., &amp; Chen, L. (2026). Managing Inventory and Pricing with Contextual Robust Optimization. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.06402" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Managing%20Inventory%20and%20Pricing%20with%20Contextual%20Robust%20Optimization" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Management Science 论文同时处理需求模型的参数不确定性、残差分布不明，以及价格决策反过来影响预测需求的问题。作者提出带情境信息的稳健优化框架，并给出相应条件下的有限样本保证与可计算近似，再通过数值研究比较先估计后优化等做法。对应用者的启发是，应把预测误差与决策反馈共同纳入模型；数值比较不等于已证明所有实际企业都能提高收益。
+
+标签：<a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：稳健优化">稳健优化</a> · <a class="tag-link" href="?q=%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：库存管理">库存管理</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：需求预测">需求预测</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-07</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 持有某家公司股票，会改变消费与储蓄吗？ {#paper-mnsc-2024-05567}
+
+<p class="myapa">Medina, P. C., Mittal, V., &amp; Pagel, M. (2026). The Effects of Stock Ownership on Individual Spending, Investments, and Loyalty. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.05567" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Effects%20of%20Stock%20Ownership%20on%20Individual%20Spending%2C%20Investments%2C%20and%20Loyalty" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Management Science 论文把个股持有与消费者在相应商店的支出联系起来，利用券商账户分批分配和近似随机的股票赠予开展识别。作者报告，获得特定公司股票后，消费者在该公司门店的支出增加；短期总支出与长期股票投资呈现不同变化。研究提供连接资产持有和消费行为的设计思路，但近似随机分配的有效性与样本外推范围仍需阅读全文核查。
+
+标签：<a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：行为金融">行为金融</a> · <a class="tag-link" href="?q=%E8%82%A1%E7%A5%A8%E6%8C%81%E6%9C%89&amp;show-results=1" title="全站搜索：股票持有">股票持有</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：消费行为">消费行为</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-07</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 新兴产业尚无明确监管者，企业如何应对？ {#paper-00018392261477694}
+
+<p class="myapa">Gao, C., DeSantola, A., &amp; Guilbeault, N. (2026). “Clean” Meat? Regulatory Entrepreneurship and Jurisdictional Contestation in a Nascent Industry. Administrative Science Quarterly. <a href="https://doi.org/10.1177/00018392261477694" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=%E2%80%9CClean%E2%80%9D%20Meat%3F%20Regulatory%20Entrepreneurship%20and%20Jurisdictional%20Contestation%20in%20a%20Nascent%20Industry" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Administrative Science Quarterly 论文研究美国细胞培养肉产业在 2015—2019 年间的监管归属变化，结合访谈与档案开展多案例归纳。作者区分监管空缺、归属争议与逐步趋同三个阶段，分析企业及其他参与者如何通过互补或对抗策略影响监管架构。它提供理解新兴产业非市场策略的框架；案例中的过程机制不能直接解释为适用于所有产业的因果规律。
+
+标签：<a class="tag-link" href="?q=%E6%96%B0%E5%85%B4%E4%BA%A7%E4%B8%9A&amp;show-results=1" title="全站搜索：新兴产业">新兴产业</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E5%BD%92%E5%B1%9E&amp;show-results=1" title="全站搜索：监管归属">监管归属</a> · <a class="tag-link" href="?q=%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：案例研究">案例研究</a>
+
+<small>来源日期：2026-09-28；补录：2026-10-07</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 预测不再署名，分析师会怎样调整信息生产？ {#paper-s11142-026-09981-0}
+
+<p class="myapa">Cheng, Q., Deng, T., Huang, S., &amp; Lin, A. (2026). Analyst visibility and earnings forecast quality. Review of Accounting Studies. <a href="https://doi.org/10.1007/s11142-026-09981-0" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Analyst%20visibility%20and%20earnings%20forecast%20quality" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Review of Accounting Studies 论文利用券商在 Eikon 改用匿名预测的变化，采用双重差分设计研究分析师可见度与预测质量。作者报告，受影响分析师的预测准确性提高，并考察媒体关注、明星分析师评选、客户交易及预测发布策略。研究将职业激励与信息生产联系起来；匿名化、人员选择和同期变化是否满足识别条件，仍需结合全文检验，不能把相关激励解释当作已独立证实的机制。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分析师预测">分析师预测</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a>
+
+<small>来源日期：2026-09-25；补录：2026-10-07</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 三重差分加入控制变量后，还缺少什么？ {#arxiv-2610-04223}
+
+<p class="myapa">Liu, Yihong. (2026). Matched Triple-Differences: A Framework for Covariate Adjustment. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.04223" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.04223.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Matched%20Triple-Differences%3A%20A%20Framework%20for%20Covariate%20Adjustment" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文研究带协变量调整的三重差分。作者指出，即使满足条件平行差距，在线性三重固定效应回归中加入协变量水平或趋势，也未必得到目标处理组平均处理效应；还需要相应的平衡条件和额外假设。论文提出匹配式三重差分框架，讨论最近邻、核匹配与相应方差。应用时应先明确目标参数与条件，再选择调整方法，不能认为多加控制变量就自动消除了偏误。
+
+标签：<a class="tag-link" href="?q=%E4%B8%89%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：三重差分">三重差分</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：协变量调整">协变量调整</a> · <a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a>
+
+<small>来源日期：2026-10-03；补录：2026-10-07</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 私募股权报告中，文字与估值分别透露什么？ {#nber-w35860}
+
+<p class="myapa">Josh Lerner, Fiona Paine, &amp; Antoinette Schoar. (2026). Communicating Performance: Textual and Financial Disclosures in Private Equity. NBER Working Paper No. 35860. <a href="https://doi.org/10.3386/w35860" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Communicating%20Performance%3A%20Textual%20and%20Financial%20Disclosures%20in%20Private%20Equity" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+NBER 工作论文比较私募股权基金管理人对投资组合公司的文字讨论与阶段性估值。作者发现，投资早期的文本对公司最终表现包含较多信息；随着投资推进、尤其发生融资事件后，阶段性估值的解释作用增强。研究提示，分析非公开市场披露时应同时考虑文本内容、语调和投资阶段。这是信息含量研究，不能把预测关系直接解释为披露导致业绩改善。
+
+标签：<a class="tag-link" href="?q=%E7%A7%81%E5%8B%9F%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：私募股权">私募股权</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-07</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### renv 1.3.1：修复并发恢复与共享缓存问题 {#r-renv-1-3-1}
+
+新版修复多个项目并发恢复时共享缓存可能留下无效条目的问题，并改进跨文件系统的缓存写入，避免其他进程读到尚未完成的副本。安装为 <code>install.packages(&quot;renv&quot;)</code>；典型流程是 <code>renv::init()</code>、确认代码结果后 <code>renv::snapshot()</code>，换机器再 <code>renv::restore()</code>。锁定 R 包版本有助于环境复现，但不替代数据、系统依赖与结果核验。本轮已读发行说明和示例，未实测。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：环境复现">环境复现</a> · <a class="tag-link" href="?q=%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：依赖管理">依赖管理</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-07</small>
+
+<a href="https://cran.r-project.org/web/packages/renv/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### Polars 2.0：升级前核对 SQL 与数据类型变化 {#python-polars-2-0-0}
+
+Polars 2.0 的发行说明列出 SQL 窗口函数在分组结果上的求值、QUALIFY 求值顺序及精确数值字面量类型等兼容性变化，并新增流式外存排序。安装指定版本可用 <code>pip install polars==2.0.0</code>。处理大型实证数据时，应先在独立环境比较关键查询结果、类型与空值行为，再迁移原项目；发行说明中的性能改进不能代替自己的数据测试。本轮核验官方文档和示例，未实测。
+
+标签：<a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：数据处理">数据处理</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-07</small>
+
+<a href="https://pypi.org/project/polars/2.0.0/" target="_blank" rel="noopener noreferrer">PyPI</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

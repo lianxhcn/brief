@@ -8,9 +8,23 @@ title: "新推文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 6 页 · 共 60 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 7 页 · 共 62 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>Jev：快速、低成本的语义判断，用于 Agent 分流与文本分析</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>文章把 Jev 的 Noul、Choice 和 Score 接口用于 Agent 的任务分流、检索筛选、工具结果检查和上下文管理，再讨论企业文本中关注、计划与实施披露的区分。相较前期接口介绍，本篇增加工作流接入和中文语料验证方案。模型置信指标需校准，披露标签不等于真实采用，效率应按整个流程评估。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Jev&amp;show-results=1" title="全站搜索：Jev">Jev</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#post-1953">查看本期</a><a href="https://www.lianxh.cn/details/1953.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>人工标注通过以后，LLM 文本变量还要做哪些验证？</h3>
+<p class="catalog-meta">期次日期：2026-10-02</p>
+<p>以年报中的管理层乐观程度为例，文章说明人工标签与模型高度一致以后仍需完成哪些检验。内容包括区分开发、测试和外推样本，检查关键子样本的系统性误差，以及跨时期、跨行业和合理测量方案的稳定性。测试样本不能反复用于调提示词；总体准确率也不能保证测量误差不影响后续回归和因果解释。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：样本外检验">样本外检验</a> · <a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a></p>
+<p class="catalog-actions"><a href="../issues/20261002/#post-1950">查看本期</a><a href="https://www.lianxh.cn/details/1950.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>Stata新命令tvpreg：时变参数回归分析</h3>
 <p class="catalog-meta">期次日期：2026-10-02</p>
@@ -67,22 +81,8 @@ title: "新推文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%B5%81%E7%A8%8B&amp;show-results=1" title="全站搜索：研究流程">研究流程</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a></p>
 <p class="catalog-actions"><a href="../issues/20260927/#post-1942">查看本期</a><a href="https://www.lianxh.cn/details/1942.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>87% 未违约与 13% 违约：投研 AI 的判断会相同吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-24</p>
-<p>文章以经济含义相同的正负表述为对照，介绍投研 Agent 的表述敏感性压力测试。测试需冻结模型、工具和数据环境，重复运行并比较评分、决策翻转及证据搜索路径，同时用同一表述的波动作为基线。文中示意数字不代表本期实测；稳定性检查也不能替代对数据、识别方法和投资结论的人工审核。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E7%A0%94%20Agent&amp;show-results=1" title="全站搜索：投研 Agent">投研 Agent</a> · <a class="tag-link" href="?q=%E8%A1%A8%E8%BF%B0%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：表述偏差">表述偏差</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a></p>
-<p class="catalog-actions"><a href="../issues/20260924/#post-1939">查看本期</a><a href="https://www.lianxh.cn/details/1939.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>从 GraphRAG 到 ColQwen：大模型文本分析有哪些新玩法？</h3>
-<p class="catalog-meta">期次日期：2026-09-23</p>
-<p>文章围绕变量构造与证据查找，梳理语义标注、层级检索、关系构网、多模态读取、Agent 工作流及时间约束六条路线。以 GraphRAG、ColQwen 等方法说明怎样从文本和图表提取意向、关系与数值，同时比较普通检索基线。建议保留原文定位、日期和模型版本，用独立人工样本检查误判与漏检；检索不到不能直接编码为零，预测表现也不能替代因果识别。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=RAG&amp;show-results=1" title="全站搜索：RAG">RAG</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：经济测量">经济测量</a></p>
-<p class="catalog-actions"><a href="../issues/20260923/#post-1938">查看本期</a><a href="https://www.lianxh.cn/details/1938.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 6 页 · 共 60 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 7 页 · 共 62 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

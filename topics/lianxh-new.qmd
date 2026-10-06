@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 60 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 62 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>一文读懂 QSM：一个地方的变化如何影响其他地区？</h3>
+<p class="catalog-meta">期次日期：2026-10-07</p>
+<p>文章从一个地区新增产业或交通设施如何影响其他地区出发，解释居民迁移、通勤、贸易以及工资和租金调整之间的联系。局部就业增加可能包含跨地区转移，未必等于整个经济系统的净增量。QSM 将个体选择与市场出清放进同一框架，用于分析模型条件下的政策反事实；使用时仍须交代参数、市场联系和均衡假设，不能仅凭模型结构认定政策有效。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：政策反事实">政策反事实</a> · <a class="tag-link" href="?q=%E5%8C%BA%E5%9F%9F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：区域经济">区域经济</a></p>
+<p class="catalog-actions"><a href="../issues/20261007/#post-1961">查看本期</a><a href="https://www.lianxh.cn/details/1961.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>QSM 怎么学？从读懂模型到复现论文，再到自己的研究</h3>
+<p class="catalog-meta">期次日期：2026-10-07</p>
+<p>文章按读懂模型、运行简单例子、复现论文、扩展选题的顺序组织 QSM 学习路线，区分可观测数据、结构参数、基本面反演与反事实均衡。基准模型匹配了用于校准的数据，并不等于获得独立验证；学习时还应检查额外事实与敏感性分析。文中也区分教学代码和论文原版程序，提醒读者不能把代码运行成功直接当作完成论文复现。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a> · <a class="tag-link" href="?q=%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF&amp;show-results=1" title="全站搜索：学习路线">学习路线</a></p>
+<p class="catalog-actions"><a href="../issues/20261007/#post-1960">查看本期</a><a href="https://www.lianxh.cn/details/1960.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>对话式调查：AI 时代问卷调查研究的新模式</h3>
 <p class="catalog-meta">期次日期：2026-10-06</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%89%8D%E8%A7%86%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：前视偏差">前视偏差</a> · <a class="tag-link" href="?q=%E5%8E%86%E5%8F%B2%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：历史回测">历史回测</a> · <a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a></p>
 <p class="catalog-actions"><a href="../issues/20261003/#post-1952">查看本期</a><a href="https://www.lianxh.cn/details/1952.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>Jev：快速、低成本的语义判断，用于 Agent 分流与文本分析</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>文章把 Jev 的 Noul、Choice 和 Score 接口用于 Agent 的任务分流、检索筛选、工具结果检查和上下文管理，再讨论企业文本中关注、计划与实施披露的区分。相较前期接口介绍，本篇增加工作流接入和中文语料验证方案。模型置信指标需校准，披露标签不等于真实采用，效率应按整个流程评估。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Jev&amp;show-results=1" title="全站搜索：Jev">Jev</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#post-1953">查看本期</a><a href="https://www.lianxh.cn/details/1953.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>人工标注通过以后，LLM 文本变量还要做哪些验证？</h3>
-<p class="catalog-meta">期次日期：2026-10-02</p>
-<p>以年报中的管理层乐观程度为例，文章说明人工标签与模型高度一致以后仍需完成哪些检验。内容包括区分开发、测试和外推样本，检查关键子样本的系统性误差，以及跨时期、跨行业和合理测量方案的稳定性。测试样本不能反复用于调提示词；总体准确率也不能保证测量误差不影响后续回归和因果解释。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：样本外检验">样本外检验</a> · <a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a></p>
-<p class="catalog-actions"><a href="../issues/20261002/#post-1950">查看本期</a><a href="https://www.lianxh.cn/details/1950.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 60 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 62 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

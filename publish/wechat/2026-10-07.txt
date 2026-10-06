@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.07
+
+✍️ 01｜新推文：QSM 怎么学？从读懂模型到复现论文，再到自己的研究
+从模型理解走向论文复现和自主研究，区分校准、反演及独立验证，避免把运行成功当成复现完成。
+阅读全文： https://www.lianxh.cn/details/1960.html 
+
+✍️ 02｜新推文：一文读懂 QSM：一个地方的变化如何影响其他地区？
+借助地区之间的迁移、通勤与价格反馈，理解局部政策变化如何传导，以及局部增量与整体净效应的区别。
+阅读全文： https://www.lianxh.cn/details/1961.html 
+
+📰 03｜论文 · AER：童年接触机会如何影响跨阶层婚姻？
+AER 利用童年社区接触机会的差异研究婚姻匹配，区分跨收入阶层与跨族群的不同反应。
+引文：Goldman, Gracie & Porter (2026). Who Marries Whom? The Role of Segregation by Race and Class. AER, 116(10): 3623-3673.
+主页： https://doi.org/10.1257/aer.20250115 
+
+📰 04｜论文 · AER：晋升规则明确，为何仍会出现晋升延迟？
+AER 将晋升资格和实际晋升分开测量，研究美国专利局统一规则下的晋升延迟及群体差异。
+引文：Hegde, Ljungqvist & Raj (2026). Racial Promotion Gaps. AER, 116(10): 3721-3767.
+主页： https://doi.org/10.1257/aer.20231368 
+
+📦 05｜命令 · Stata：esreg：内生转换回归与收益选择
+Stata 命令以 Roy 模型联合描述是否参与及两种状态下的结果，提供极大似然和两步估计，并报告 ATT、ATU、ATE 及收益选择指标。
+版本：Stata / esreg 1.0.0；发布：2026-10-05
+主页： https://ideas.repec.org/c/boc/bocode/s459922.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261007/ 

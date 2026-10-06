@@ -8,9 +8,30 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 55 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 57 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>renv 1.3.1：修复并发恢复与共享缓存问题</h3>
+<p class="catalog-meta">期次日期：2026-10-07</p>
+<p>新版修复多个项目并发恢复时共享缓存可能留下无效条目的问题，并改进跨文件系统的缓存写入，避免其他进程读到尚未完成的副本。安装为 <code>install.packages(&quot;renv&quot;)</code>；典型流程是 <code>renv::init()</code>、确认代码结果后 <code>renv::snapshot()</code>，换机器再 <code>renv::restore()</code>。锁定 R 包版本有助于环境复现，但不替代数据、系统依赖与结果核验。本轮已读发行说明和示例，未实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：环境复现">环境复现</a> · <a class="tag-link" href="?q=%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：依赖管理">依赖管理</a></p>
+<p class="catalog-actions"><a href="../issues/20261007/#r-renv-1-3-1">查看本期</a><a href="https://cran.r-project.org/web/packages/renv/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>esreg：内生转换回归与收益选择</h3>
+<p class="catalog-meta">期次日期：2026-10-07</p>
+<p>Stata 命令以 Roy 模型联合描述是否参与及两种状态下的结果，提供极大似然和两步估计，并报告 ATT、ATU、ATE 及收益选择指标。安装为 <code>ssc install esreg</code>，要求 Stata 16 及以上，官方例程可运行 <code>esreg_examples 1</code>。识别依赖排除变量、函数形式及相应分布或条件均值假设，不能自动解决全部选择偏误。本轮已读帮助和示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%86%85%E7%94%9F%E8%BD%AC%E6%8D%A2%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：内生转换回归">内生转换回归</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%81%8F%E8%AF%AF&amp;show-results=1" title="全站搜索：选择偏误">选择偏误</a></p>
+<p class="catalog-actions"><a href="../issues/20261007/#stata-esreg-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459922.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>Polars 2.0：升级前核对 SQL 与数据类型变化</h3>
+<p class="catalog-meta">期次日期：2026-10-07</p>
+<p>Polars 2.0 的发行说明列出 SQL 窗口函数在分组结果上的求值、QUALIFY 求值顺序及精确数值字面量类型等兼容性变化，并新增流式外存排序。安装指定版本可用 <code>pip install polars==2.0.0</code>。处理大型实证数据时，应先在独立环境比较关键查询结果、类型与空值行为，再迁移原项目；发行说明中的性能改进不能代替自己的数据测试。本轮核验官方文档和示例，未实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：数据处理">数据处理</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a></p>
+<p class="catalog-actions"><a href="../issues/20261007/#python-polars-2-0-0">查看本期</a><a href="https://pypi.org/project/polars/2.0.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>tidyfinance 0.9：修正 Fama–MacBeth 标准误的排序问题</h3>
 <p class="catalog-meta">期次日期：2026-10-06</p>
@@ -60,29 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：贝叶斯预测">贝叶斯预测</a> · <a class="tag-link" href="?q=%E8%81%94%E7%AB%8B%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：联立方程">联立方程</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20261003/#r-koma-0-4-0">查看本期</a><a href="https://cran.r-project.org/web/packages/koma/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>hscc：异质斜率面板的部分汇集估计</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>Stata 命令把个体斜率分成中心斜率、与解释变量均值相关的异质性和带惩罚的剩余偏离，使用 HC3 调整的 Driscoll–Kraay 推断。1.0.2 新增共同时间固定效应，要求强平衡估计样本。安装为 <code>ssc install hscc</code>，先 <code>xtset</code>，再运行 <code>hscc y x, timefe</code>。帮助文件明确小 T 覆盖不足风险；稳健标准误也不消除内生性。本期核对代码、帮助及例子，未实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%96%9C%E7%8E%87&amp;show-results=1" title="全站搜索：异质斜率">异质斜率</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#stata-hscc-1-0-2">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459910.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>failsafe：回归之后检查容易遗漏的诊断信号</h3>
-<p class="catalog-meta">期次日期：2026-10-02</p>
-<p>Stata 命令读取已有估计结果，报告未收敛、被省略的系数、协方差问题，以及在元数据可用时的聚类数、二元结果单元格和生存事件计数。安装为 <code>ssc install failsafe</code>，估计后运行 <code>failsafe</code>。聚类数和稀疏单元格阈值由使用者指定；命令不重估模型、不自动选模型，也不裁定模型有效与否。0.1.6 的高阶分类交互单元格等检查仍有限，本期核对代码、帮助与官方例子，未独立执行。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：模型检查">模型检查</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20261002/#stata-failsafe-0-1-6">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459911.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>clusterIV 0.2：聚类工具变量与弱工具稳健推断</h3>
-<p class="catalog-meta">期次日期：2026-10-02</p>
-<p>R 包面向一个内生解释变量和单向聚类误差，0.2 新增 cluster-jackknife Anderson–Rubin 与 score 检验、解析反演置信集合以及高维固定效应接口。置信集合可能不连通或无界，不能强行概括成一个普通区间。可用 <code>install.packages(&quot;clusterIV&quot;, type=&quot;source&quot;)</code> 获取当前源码版；核验时 Windows 二进制仍为 0.1.0。普通 CJIVE 插件标准误在工具和控制变量很多时仍可能过度拒绝；本期核对文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：弱工具推断">弱工具推断</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20261002/#r-clusteriv-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/clusterIV/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 55 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 57 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
