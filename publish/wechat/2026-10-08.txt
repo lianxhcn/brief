@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.10.08
+
+📰 01｜论文 · AER：非策略性说谎者之间，怎样识别真实信息？
+AER 理论论文研究奖项分配中的信息甄别：当事人知道谁应获奖，但按给定的作弊程序报告状态。
+引文：Glazer & Rubinstein (2026). Truth Elicitation in a Nonstrategic Environment. AER, 116(10): 3942-3958.
+主页： https://doi.org/10.1257/aer.20251879 
+
+📰 02｜论文 · Management Science：平台出售客户线索，收费越高对消费者越不利吗？
+Management Science 论文用博弈模型研究平台向服务商出售客户线索。
+引文：Shi (2026). The Welfare Effects of Selling Leads in a Two-Sided Marketplace. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.07399 
+
+📰 03｜论文 · Contemporary Accounting Research：联合申请专利，企业为何可能少披露研发信息？
+Contemporary Accounting Research 论文将美国上市公司的联合专利与年报研发叙述联系起来，发现共同持有专利较多的企业往往披露较少研发信息；与大学合作时，关系又可能转为正向。
+引文：Lee & Xiang (2026). Collaborative Innovation and R&amp;D Disclosures: Evidence From Co‐Patents. Contemporary Accounting Research.
+主页： https://doi.org/10.1111/1911-3846.70084 
+
+📦 04｜命令 · Stata：rcsplot：样条曲线的估计样本与绘图区间要一致
+Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。
+版本：Stata / rcsplot 1.0；发布：2026-10-04
+主页： https://ideas.repec.org/c/boc/bocode/s459920.html 
+
+📦 05｜软件 · R：spaci 0.2.0：同时考虑空间混杂与邻近干扰
+R 包提供 iDAPS 匹配和 recoverU+ 估计，用于同时存在空间混杂与邻近处理干扰的观察数据。
+版本：R / spaci 0.2.0；发布：2026-10-07
+CRAN： https://cran.r-project.org/web/packages/spaci/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261008/ 

@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.10.08"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 非策略性说谎者之间，怎样识别真实信息？ {#paper-10-1257-aer-20251879}
+
+<p class="myapa">Glazer, J. &amp; Rubinstein, A. (2026). Truth Elicitation in a Nonstrategic Environment. American Economic Review, 116(10), 3942-3958. <a href="https://doi.org/10.1257/aer.20251879" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Truth%20Elicitation%20in%20a%20Nonstrategic%20Environment" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AER 理论论文研究奖项分配中的信息甄别：当事人知道谁应获奖，但按给定的作弊程序报告状态。委托人通过设计描述获奖条件的文本，在双方陈述矛盾时利用单向作弊原则识别说谎者。该结果依赖非策略行为及作弊程序已知等设定，为问卷和信息诱导提供思考线索，不应直接套用于能够调整策略的真实受访者。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 平台出售客户线索，收费越高对消费者越不利吗？ {#paper-10-1287-mnsc-2024-07399}
+
+<p class="myapa">Shi, P. (2026). The Welfare Effects of Selling Leads in a Two-Sided Marketplace. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07399" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Welfare%20Effects%20of%20Selling%20Leads%20in%20a%20Two-Sided%20Marketplace" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Management Science 论文用博弈模型研究平台向服务商出售客户线索。提高线索价格时，在报价数量不变的条件下，消费者可能收到较低报价；收费过高又会减少服务商购买线索，降低匹配机会。论文比较按客户类型定价与服务补贴的福利作用。这里的权衡来自理论模型，不能据此认定所有平台提高收费都会降低最终服务价格。
+
+标签：<a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：平台经济">平台经济</a> · <a class="tag-link" href="?q=%E5%8F%8C%E8%BE%B9%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：双边市场">双边市场</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 联合申请专利，企业为何可能少披露研发信息？ {#paper-10-1111-1911-3846-70084}
+
+<p class="myapa">Lee, C. &amp; Xiang, Z. (2026). Collaborative Innovation and R&amp;amp;D Disclosures: Evidence From Co‐Patents. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70084" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Collaborative%20Innovation%20and%20R%26amp%3BD%20Disclosures%3A%20Evidence%20From%20Co%E2%80%90Patents" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Contemporary Accounting Research 论文将美国上市公司的联合专利与年报研发叙述联系起来，发现共同持有专利较多的企业往往披露较少研发信息；与大学合作时，关系又可能转为正向。研究强调合作伙伴的信息外部性与对外展示能力的动机，提醒读者解释文本披露指标时考虑合作结构。这些结果属于论文报告的关联证据，不能直接解释为联合专利的因果效应。
+
+标签：<a class="tag-link" href="?q=%E5%90%88%E4%BD%9C%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：合作创新">合作创新</a> · <a class="tag-link" href="?q=%E7%A0%94%E5%8F%91%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：研发披露">研发披露</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E4%B8%93%E5%88%A9&amp;show-results=1" title="全站搜索：联合专利">联合专利</a>
+
+<small>来源日期：2026-09-29；补录：2026-10-08</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### rcsplot：样条曲线的估计样本与绘图区间要一致 {#stata-rcsplot-1-0}
+
+Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。安装为 <code>ssc install rcsplot</code>，要求 Stata 16 及以上。默认先按暴露变量第 1–99 百分位截尾，再用同一区间估计和绘图，并区分总体与非线性检验。使用前应明确截尾改变了哪个样本，不能把曲线形状直接当作因果关系；官方帮助含可运行例子，本轮未独立实测。
+
+标签：<a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E9%99%90%E5%88%B6%E6%80%A7%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;show-results=1" title="全站搜索：限制性三次样条">限制性三次样条</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a>
+
+<small>来源日期：2026-10-04；补录：2026-10-08</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459920.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+::: {.brief-entry}
+
+#### spaci 0.2.0：同时考虑空间混杂与邻近干扰 {#r-spaci-0-2-0}
+
+R 包提供 iDAPS 匹配和 recoverU+ 估计，用于同时存在空间混杂与邻近处理干扰的观察数据。0.2.0 新增空间 HAC 方差、空间区块 bootstrap 和条件随机化检验。安装为 <code>install.packages(&quot;spaci&quot;)</code>；官网提供模拟数据示例。点估计、暴露映射和空间相关推断各有假设，默认独立同分布标准误不能直接照搬。本轮核验文档与版本，未独立实测；部分 Windows 二进制仍显示旧版，安装后须核对版本。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-08</small>
+
+<a href="https://cran.r-project.org/web/packages/spaci/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 交叉实验怎样区分当期效应与延续效应？ {#paper-10-1214-26-aos2663}
+
+<p class="myapa">Jiang, Z. &amp; Ding, P. (2026). Principled analysis of crossover designs: Causal effects, efficient estimation and robust inference. The Annals of Statistics, 54(5), 2614-2636. <a href="https://doi.org/10.1214/26-aos2663" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Principled%20analysis%20of%20crossover%20designs%3A%20Causal%20effects%2C%20efficient%20estimation%20and%20robust%20inference" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+The Annals of Statistics 论文从潜在结果和随机分配机制出发分析交叉实验，即同一对象依次接受不同处理。作者明确当期效应与过去处理的延续效应，再将识别、估计和推断统一到带权重与系数约束的最小二乘框架。它有助于平台轮换实验先定义目标参数再选回归式；稳健性结论仍依赖对应设计及假设，不能只凭使用最小二乘便认为推断可靠。
+
+标签：<a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a> · <a class="tag-link" href="?q=%E5%BB%B6%E7%BB%AD%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：延续效应">延续效应</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 空间混杂存在时，回归斜率何时仍可一致估计？ {#paper-10-1214-26-aos2650}
+
+<p class="myapa">Datta, A. &amp; Stein, M.L. (2026). Infill consistent estimability of the regression slope between Gaussian random fields under spatial confounding. The Annals of Statistics, 54(5), 2406-2431. <a href="https://doi.org/10.1214/26-aos2650" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Infill%20consistent%20estimability%20of%20the%20regression%20slope%20between%20Gaussian%20random%20fields%20under%20spatial%20confounding" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+The Annals of Statistics 论文研究高斯随机场之间的回归：未观测空间过程同时影响暴露与结果时，斜率能否一致估计？作者在固定区域逐渐加密采样的框架下，以过程平滑度和频谱尾部关系刻画可估计条件，并讨论局部差分估计。对空间实证研究，关键启发是先检查识别所依赖的空间尺度，不能认为增加观测点或换一个空间回归命令就足以消除混杂。
+
+标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%87%B4%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：一致估计">一致估计</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：局部差分">局部差分</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 政府如何协调多个独立主体完成共同任务？ {#paper-10-1002-smj-70129}
+
+<p class="myapa">Adner, R. (2026). Government as orchestrator: Ecosystem transformation at scale and speed. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70129" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Government%20as%20orchestrator%3A%20Ecosystem%20transformation%20at%20scale%20and%20speed" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Strategic Management Journal 论文以美国疫苗开发计划 Operation Warp Speed 为分析对象，讨论政府如何协调相互依赖的公共与私人主体。文章关注专门协调机构的设计、外部合作与内部组织调整之间的联系，以及协调能力对任务范围的约束。这是一项围绕案例展开的组织战略分析，可用于形成机制假说，不能直接外推为所有政府主导项目的因果规律。
+
+标签：<a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E7%94%9F%E6%80%81&amp;show-results=1" title="全站搜索：创新生态">创新生态</a> · <a class="tag-link" href="?q=%E6%94%BF%E5%BA%9C%E5%8D%8F%E8%B0%83&amp;show-results=1" title="全站搜索：政府协调">政府协调</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%88%98%E7%95%A5&amp;show-results=1" title="全站搜索：组织战略">组织战略</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 礼品卡带来多少新增消费？用数据融合处理缺失的处理状态 {#arxiv-2610-08558}
+
+<p class="myapa">Whitehouse, J., Betz, W., Zhang, Y., Coles, P., Johari, R., &amp; Syrgkanis, V. (2026). Measuring Gift Card Program Incrementality via Causal Data Fusion. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.08558" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.08558.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Measuring%20Gift%20Card%20Program%20Incrementality%20via%20Causal%20Data%20Fusion" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+礼品卡往往只有在消费时才被观测到，直接比较持卡与未持卡顾客会面临处理状态缺失。工作论文将大规模观察数据与另一群体的小规模实验结合，在条件相对处理效应可迁移的假设下估计新增收入，并以平台礼品卡为应用。它提供利用少量实验补充业务数据的思路，但跨群体迁移条件需要实质论证，不能把数据拼接自动视为识别。
+
+标签：<a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 处理施加在关系上，怎样估计个人层面的效应？ {#arxiv-2610-07363}
+
+<p class="myapa">Kuriksha, A. &amp; Hung, K. (2026). Network Experiments with Edge Treatments and Node Outcomes. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.07363" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.07363.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Network%20Experiments%20with%20Edge%20Treatments%20and%20Node%20Outcomes" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文研究处理施加于网络边、结果却在节点层面观测的实验。设计先随机分配节点，再由端点状态确定边的处理，冲突时再次随机化；作者用节点分配作为处理暴露的工具变量，分析 Wald 估计量。在潜在结果线性及网络稀疏等条件下，论文讨论全局平均处理效应与推断。使用前应核对暴露定义和网络条件，不能据此认为任意网络干扰都能通过工具变量解决。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：网络实验">网络实验</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### PPML 系数可一致，常规置信区间就可靠吗？ {#cepr-dp21998}
+
+<p class="myapa">Egger, P., Ji, T., &amp; Wang, Y. (2026). PPML and Heavy-Tailed Trade and Factor Flows: Why Standard Inference Fails and How to Fix It. CEPR Discussion Paper No. 21998. <a href="https://cepr.org/publications/dp21998" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=PPML%20and%20Heavy-Tailed%20Trade%20and%20Factor%20Flows%3A%20Why%20Standard%20Inference%20Fails%20and%20How%20to%20Fix%20It" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+CEPR 工作论文区分 PPML 点估计的一致性条件与常规推断所需条件。作者指出，在所研究的厚尾双边流量设定下，得分可能不具有有限方差和高斯极限，常规 sandwich 区间可能过窄；论文保留 PPML 点估计，改用适应厚尾的 m-out-of-n bootstrap。它提示引力模型使用者检查尾部与推断假设，不能将该结论概括为所有 PPML 标准误都无效。
+
+标签：<a class="tag-link" href="?q=PPML&amp;show-results=1" title="全站搜索：PPML">PPML</a> · <a class="tag-link" href="?q=%E5%8E%9A%E5%B0%BE%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：厚尾分布">厚尾分布</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
+
+<small>来源日期：2026-09-29；补录：2026-10-08</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### SeqExpMatch 停止维护：顺序实验项目需留意迁移 {#r-seqexpmatch-0-1-1-1}
+
+CRAN 的 0.1.1.1 版本已明确将 SeqExpMatch 标为停止维护，并建议转向 EDI。旧包用于顺序两组实验的随机分配、即时匹配和相应推断。已有复现项目宜先保留锁定环境、记录原函数与随机种子，再独立测试迁移结果；不要为了追新直接替换正在使用的设计。可用 <code>packageVersion(&quot;SeqExpMatch&quot;)</code> 核对版本。本条是维护状态提醒，不是新方法或性能认证，本轮未独立实测。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：顺序实验">顺序实验</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-08</small>
+
+<a href="https://cran.r-project.org/web/packages/SeqExpMatch/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

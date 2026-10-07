@@ -2,13 +2,20 @@
 import unittest
 from datetime import date
 from check_course_handoff import check_handoff
-from website_promotions import load_config
 
 
 class CourseHandoffTests(unittest.TestCase):
     def setUp(self):
         self.today = date(2026, 9, 27)
-        self.config = load_config()
+        # 固定测试夹具不读取每日变动的推广配置，避免审核日更新破坏历史用例。
+        link = 'https://www.lianxh.cn/details/1940.html'
+        self.config = dict(approved_courses=[dict(
+            id='llm-agent-2026', title='LLM × Agent', url=link,
+            source_url=link, evidence='测试夹具：已核验课程',
+            reviewed_date='2026-09-27', review_status='approved', status='confirmed',
+            dates=['2026-11-28', '2026-11-29'],
+            course_start_date='2026-11-28', course_end_date='2026-11-29',
+            links=[dict(url=link, availability='confirmed')])])
         self.discovery = dict(retrieved_date='2026-09-27', candidates=[dict(
             url='https://www.lianxh.cn/details/1940.html', source_date='2026-09-24')])
 

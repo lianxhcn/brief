@@ -8,9 +8,30 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 57 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 6 页 · 共 60 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>spaci 0.2.0：同时考虑空间混杂与邻近干扰</h3>
+<p class="catalog-meta">期次日期：2026-10-08</p>
+<p>R 包提供 iDAPS 匹配和 recoverU+ 估计，用于同时存在空间混杂与邻近处理干扰的观察数据。0.2.0 新增空间 HAC 方差、空间区块 bootstrap 和条件随机化检验。安装为 <code>install.packages(&quot;spaci&quot;)</code>；官网提供模拟数据示例。点估计、暴露映射和空间相关推断各有假设，默认独立同分布标准误不能直接照搬。本轮核验文档与版本，未独立实测；部分 Windows 二进制仍显示旧版，安装后须核对版本。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261008/#r-spaci-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/spaci/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>rcsplot：样条曲线的估计样本与绘图区间要一致</h3>
+<p class="catalog-meta">期次日期：2026-10-08</p>
+<p>Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。安装为 <code>ssc install rcsplot</code>，要求 Stata 16 及以上。默认先按暴露变量第 1–99 百分位截尾，再用同一区间估计和绘图，并区分总体与非线性检验。使用前应明确截尾改变了哪个样本，不能把曲线形状直接当作因果关系；官方帮助含可运行例子，本轮未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E9%99%90%E5%88%B6%E6%80%A7%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;show-results=1" title="全站搜索：限制性三次样条">限制性三次样条</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a></p>
+<p class="catalog-actions"><a href="../issues/20261008/#stata-rcsplot-1-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459920.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>SeqExpMatch 停止维护：顺序实验项目需留意迁移</h3>
+<p class="catalog-meta">期次日期：2026-10-08</p>
+<p>CRAN 的 0.1.1.1 版本已明确将 SeqExpMatch 标为停止维护，并建议转向 EDI。旧包用于顺序两组实验的随机分配、即时匹配和相应推断。已有复现项目宜先保留锁定环境、记录原函数与随机种子，再独立测试迁移结果；不要为了追新直接替换正在使用的设计。可用 <code>packageVersion(&quot;SeqExpMatch&quot;)</code> 核对版本。本条是维护状态提醒，不是新方法或性能认证，本轮未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：顺序实验">顺序实验</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a></p>
+<p class="catalog-actions"><a href="../issues/20261008/#r-seqexpmatch-0-1-1-1">查看本期</a><a href="https://cran.r-project.org/web/packages/SeqExpMatch/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>renv 1.3.1：修复并发恢复与共享缓存问题</h3>
 <p class="catalog-meta">期次日期：2026-10-07</p>
@@ -60,29 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20261005/#r-rdlocrand-3-0">查看本期</a><a href="https://cran.r-project.org/web/packages/rdlocrand/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>chartwright 0.4：用配置文件管理 Superset 仪表板</h3>
-<p class="catalog-meta">期次日期：2026-10-05</p>
-<p>Python 工具用配置文件描述并检查 Apache Superset 仪表板，0.4 新增带负责人及到期日的规则例外、版本兼容检查和锁定文字的可见性检查。安装为 <code>pip install chartwright==0.4.0</code>，要求 Python 3.11 及以上和已有 Superset 实例。先用 <code>check</code> 核对配置，<code>apply</code> 会写入实例；浏览器检查需额外组件。已核验发行说明与示例，未实测，展示检查不能验证统计指标或业务口径。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：数据可视化">数据可视化</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：研究工作流">研究工作流</a></p>
-<p class="catalog-actions"><a href="../issues/20261005/#python-chartwright-0-4-0">查看本期</a><a href="https://pypi.org/project/chartwright/0.4.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>datom 0.2：给一组研究数据固定可引用的版本</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>R 包把表格版本与来源关系保存在 Git 元数据及本地或对象存储中，0.2 新增可引用的精确版本集合。新版首次写入会把清单键由 tables 改为 artifacts，旧客户端可能显示空目录；共享项目应先统一升级。安装为 <code>install.packages(&quot;datom&quot;, type=&quot;source&quot;)</code>，核验时二进制仍为 0.1.2。官方示例包含远程仓库和认证步骤，需按权限配置；本期只审阅文档，未实测，也不替代数据库事务保证。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E7%89%88%E6%9C%AC&amp;show-results=1" title="全站搜索：数据版本">数据版本</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#r-datom-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/datom/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>koma 0.4：贝叶斯联立方程预测中的变换与区间修正</h3>
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>R 包估计和预测宏观时间序列的贝叶斯联立方程系统。0.4.0 修正 Gibbs 抽样间隔、滞后项先验及水平值扇形区间计算。普通 <code>ts</code> 现在按已是增长率的数据处理，不再交互询问；水平值序列需显式转换。安装为 <code>install.packages(&quot;koma&quot;, type=&quot;source&quot;)</code>；实际 R 依赖还需检查。本期核对官方 NEWS 与例子，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：贝叶斯预测">贝叶斯预测</a> · <a class="tag-link" href="?q=%E8%81%94%E7%AB%8B%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：联立方程">联立方程</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#r-koma-0-4-0">查看本期</a><a href="https://cran.r-project.org/web/packages/koma/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 57 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 6 页 · 共 60 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
