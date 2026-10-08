@@ -8,9 +8,72 @@ title: "新论文 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 27 页 · 共 269 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-27.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 28 页 · 共 278 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-28.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>审计专家的专业判断为何也取决于协作方式？</h3>
+<p class="catalog-meta">期次日期：2026-10-06</p>
+<p>Contemporary Accounting Research 论文通过问卷和执业估值专家实验，研究专家对工作成果的心理所有感如何影响证据评估。作者发现，这种关联取决于审计人员是否以侵入性的方式干预专家工作。研究将协作关系纳入审计质量讨论，提示技术专长之外还需关注职责和参与方式；实验判断与实际审计质量之间的联系仍需谨慎外推。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：审计判断">审计判断</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%AE%B6%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：专家协作">专家协作</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：实验研究">实验研究</a></p>
+<p class="catalog-actions"><a href="../issues/20261006/#paper-1911-3846-70077">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70077" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>只有部分正例被标注，如何学习非线性分类关系？</h3>
+<p class="catalog-meta">期次日期：2026-10-06</p>
+<p>JRSS-B 论文研究正例与未标注数据：未标注样本同时包含正例和负例，不能直接作为负类。作者在密度比模型中引入广义可加结构，允许特征呈非线性影响，并讨论混合比例的识别、估计与推断。方法为不完整标签分析提供了更灵活的设定；可识别性仍依赖模型条件，不能把复杂分类器的预测能力等同于识别保证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%8D%E5%AE%8C%E6%95%B4%E6%A0%87%E7%AD%BE&amp;show-results=1" title="全站搜索：不完整标签">不完整标签</a> · <a class="tag-link" href="?q=%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：半监督学习">半监督学习</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：非线性模型">非线性模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261006/#paper-qkag130">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag130" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>交叉拟合后，为什么仍要调整跨折相关性？</h3>
+<p class="catalog-meta">期次日期：2026-10-06</p>
+<p>工作论文研究模型比较、处理效应异质性检验和最优处理规则估值等非正则问题。作者提出局部性条件，在部分交叉拟合估计量仍满足中心极限定理时，将跨折相关性纳入渐近方差，并提出相应置信区间。对应用者的启发是：样本分折并不自动使不同折的估计独立；常规标准误能否使用，需检查目标参数的正则性及论文条件。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E6%8B%9F%E5%90%88&amp;show-results=1" title="全站搜索：交叉拟合">交叉拟合</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a> · <a class="tag-link" href="?q=%E9%9D%9E%E6%AD%A3%E5%88%99%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：非正则估计">非正则估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261006/#arxiv-2610-02944">查看本期</a><a href="https://arxiv.org/abs/2610.02944" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>个性化定价与质量选择如何共同影响消费者？</h3>
+<p class="catalog-meta">期次日期：2026-10-06</p>
+<p>AER 论文同时考虑企业通过价格和质量筛选消费者，以及在不同市场分组定价。作者从消费者剩余出发刻画有利的市场划分：某些设定下，相同估值消费者获得的质量相同，支付价格却可能不同。研究提示，评价市场分割需要同时分析价格、质量与需求和供给弹性；不能仅凭存在差别定价就判断所有消费者获益或受损。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%AE%E5%88%AB%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：差别定价">差别定价</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E5%89%A9%E4%BD%99&amp;show-results=1" title="全站搜索：消费者剩余">消费者剩余</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%88%86%E5%89%B2&amp;show-results=1" title="全站搜索：市场分割">市场分割</a></p>
+<p class="catalog-actions"><a href="../issues/20261006/#paper-aer-20250206">查看本期</a><a href="https://doi.org/10.1257/aer.20250206" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>越南光伏产业如何嵌入跨国供应链？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>工作论文将 Panjiva 企业间交易记录与越南企业调查结合，追踪光伏产业的投入品、外资企业和本地供应商联系。作者比较不同来源零部件的价格，并讨论中国外资企业在出口、就业及供应链中的作用，以及本地上游企业的生产率变化。读者可借鉴交易数据与企业调查的连接方式；来源国价格差异不能简单视为补贴的纯粹因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%85%A8%E7%90%83%E4%BB%B7%E5%80%BC%E9%93%BE&amp;show-results=1" title="全站搜索：全球价值链">全球价值链</a> · <a class="tag-link" href="?q=%E5%A4%96%E5%95%86%E7%9B%B4%E6%8E%A5%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：外商直接投资">外商直接投资</a> · <a class="tag-link" href="?q=%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A&amp;show-results=1" title="全站搜索：光伏产业">光伏产业</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#worldbank-wps11478">查看本期</a><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099430010022632715" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>财富税引发迁移，宏观影响一定很大吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文使用斯堪的纳维亚行政数据研究高财富人群对财富税的迁移反应，并将企业所有者迁出与其企业经营联系起来。作者进一步评估就业、投资和增加值等总体影响，指出个人迁移反应与宏观总量变化需要分开衡量。读者可借鉴由个人行为、企业传导到总量评估的研究链条；不同国家的税制、迁移成本和模型假设会限制结论外推。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A2%E5%AF%8C%E7%A8%8E&amp;show-results=1" title="全站搜索：财富税">财富税</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：人口迁移">人口迁移</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%BB%8F%E8%90%A5&amp;show-results=1" title="全站搜索：企业经营">企业经营</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-aer-20241596">查看本期</a><a href="https://doi.org/10.1257/aer.20241596" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>谁成为创新者，会影响创新服务于谁吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文连接美国和芬兰的数据，研究创新者与产品消费者在性别、社会经济背景和年龄上的对应关系，并在细分产品类别中比较。作者进一步建立增长模型，分析进入创新职业的机会差异怎样改变创新方向、生活成本与增长。研究将创新供给者的社会背景纳入产品研究；数据中的对应关系与模型反事实属于不同层次的证据，需要分别理解。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E6%96%B9%E5%90%91&amp;show-results=1" title="全站搜索：创新方向">创新方向</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%83%8C%E6%99%AF&amp;show-results=1" title="全站搜索：社会背景">社会背景</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：经济增长">经济增长</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-aer-20231417">查看本期</a><a href="https://doi.org/10.1257/aer.20231417" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>相似的职场不当行为，处罚会因政治立场而不同吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文研究金融顾问的不当行为与离职，比较同一企业和时期中不同政治立场的员工。作者在行为发生率及严重程度相近时仍观察到处罚差异，并结合外部报告质量、上市状态和内部控制相关信息讨论信息环境。研究提示需要把行为、披露与惩罚分开测量；这些信息质量代理变量与机制关联，不能直接当作内部管理过程的完整测量或因果证明。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：信息质量">信息质量</a> · <a class="tag-link" href="?q=%E8%81%8C%E5%9C%BA%E6%83%A9%E7%BD%9A&amp;show-results=1" title="全站搜索：职场惩罚">职场惩罚</a> · <a class="tag-link" href="?q=%E6%94%BF%E6%B2%BB%E7%AB%8B%E5%9C%BA&amp;show-results=1" title="全站搜索：政治立场">政治立场</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-1475-679x-70089">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70089" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>劳动力短缺怎样推动工业革命中的技术采用？</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>论文研究拿破仑战争期间英国征兵造成的劳动力短缺，以及企业采用节省劳动机器的反应，并考察机械技能是否构成配套条件。作者使用军舰接近沿海地区的便利程度来构造海军征募的工具变量。可借鉴将劳动供给冲击与技术采用条件结合的研究设计；工具变量的排除限制及历史地区差异仍须阅读全文核查，不能由摘要直接认定识别成立。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%80%E6%9C%AF%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：技术采用">技术采用</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：劳动供给">劳动供给</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#paper-aer-20240393">查看本期</a><a href="https://doi.org/10.1257/aer.20240393" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>刷新样本能识别重复受访带来的测量变化吗？</h3>
 <p class="catalog-meta">期次日期：2026-10-05</p>
@@ -18,71 +81,8 @@ title: "新论文 · 第 4 页"
 <p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：面板调查">面板调查</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%B5%81%E5%A4%B1&amp;show-results=1" title="全站搜索：样本流失">样本流失</a></p>
 <p class="catalog-actions"><a href="../issues/20261005/#arxiv-2610-01654">查看本期</a><a href="https://arxiv.org/abs/2610.01654" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>优秀同事怎样影响职业发展：知识溢出与晋升竞争</h3>
-<p class="catalog-meta">期次日期：2026-10-05</p>
-<p>论文研究初入职场者与优秀同事共事时，知识学习与岗位竞争如何共同影响职业发展。作者区分可能争夺晋升机会的同职业同事与其他同事，观察到持续的知识溢出，以及方向相反的竞争影响。可借鉴这种将学习渠道与竞争渠道分开比较的思路；不能仅凭同事平均能力与个人收入的关系，就把全部变化归因于知识传递。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：知识溢出">知识溢出</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95&amp;show-results=1" title="全站搜索：职业发展">职业发展</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261005/#paper-aer-20230714">查看本期</a><a href="https://doi.org/10.1257/aer.20230714" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>为 AI 追求理想数据，组织会付出什么代价？</h3>
-<p class="catalog-meta">期次日期：2026-10-05</p>
-<p>论文基于人力资源部门为 AI 筛选人员而开展数据化工作的三年民族志研究，分析对客观、持续改进预测的期待如何推动数据收集不断扩展。作者追踪理想数据的承诺、实际工作与组织代价之间的张力。研究提供观察 AI 项目推进过程的组织视角；单个案例中的过程证据不等于所有 AI 系统的性能评价，也不能据此推断数据越多必然越差。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：组织研究">组织研究</a> · <a class="tag-link" href="?q=AI%E5%BA%94%E7%94%A8&amp;show-results=1" title="全站搜索：AI应用">AI应用</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：数据治理">数据治理</a></p>
-<p class="catalog-actions"><a href="../issues/20261005/#paper-00018392261484887">查看本期</a><a href="https://doi.org/10.1177/00018392261484887" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>股债相关性为什么会改变符号？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>论文从总消费动态出发，研究股票与债券相关性由正转负的机制。作者在实时序贯学习框架中区分永久消费冲击、暂时冲击占主导的持久状态，以及较短暂的灾难状态，并比较它们对资产价格的含义。实质消费动态提供了名义股债现象的一条解释路径；状态识别依赖模型设定，不能据此直接预测下一次相关性转换。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%82%A1%E5%80%BA%E7%9B%B8%E5%85%B3%E6%80%A7&amp;show-results=1" title="全站搜索：股债相关性">股债相关性</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：消费风险">消费风险</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70092">查看本期</a><a href="https://doi.org/10.1111/jofi.70092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>积极股东监督会改变同岗薪酬吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>论文使用细分员工薪酬记录，在年份、地区、职业和技能水平相同的劳动市场内比较积极所有者与其他企业的同岗报酬。作者观察到基本工资和激励薪酬差异，并发现其更集中于任务常规、产出容易量化的岗位，讨论管理监督替代薪酬激励的机制。可比岗位设计有助于区分人员结构与薪酬制度，但所有权选择和机制解释仍需谨慎。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E5%91%98%E5%B7%A5%E8%96%AA%E9%85%AC&amp;show-results=1" title="全站搜索：员工薪酬">员工薪酬</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#paper-mnsc-2024-08553">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08553" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>监管同业比较会促使银行趋同吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>论文利用美国银行监管同业分组改革，研究新设银行被改为与同批银行比较后，监管资本比率是否向同业靠拢。作者发现银行会依据相对资本位置调整，并讨论低资本银行通过贷款组合缩小差距及其后续风险。监管披露可能改变被评估者行为，但贷款质量和失败率的后续关联不宜直接解释为某一次调整的独立因果效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：银行监管">银行监管</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%B8%9A%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：同业比较">同业比较</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E5%85%85%E8%B6%B3%E7%8E%87&amp;show-results=1" title="全站搜索：资本充足率">资本充足率</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#paper-1475-679x-70086">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70086" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>用熵正则化最优传输计算部分识别界限</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>工作论文将部分识别中的优化问题写成路径空间上的最优传输，再通过熵惩罚得到可用 Sinkhorn 迭代求解的多边际问题。作者讨论正则化值向锐界限的收敛、插件估计和近似界限的推断，并以需求估计展示应用。正则化带来的计算便利与界限近似误差需要同时评估，不能把有惩罚的数值结果直接当作未正则化的精确锐界限。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#arxiv-2609-40156">查看本期</a><a href="https://arxiv.org/abs/2609.40156" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>灾后众筹能公平弥补家庭损失吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>论文将重大山火后的 GoFundMe 筹款活动与房产损失、家庭信用记录匹配，研究哪些家庭能发起众筹、获得捐款。作者在控制房产损失后仍观察到收入差异，并考察捐赠网络、异地联系、朋友倡议和社会压力渠道。研究提示社会资本可能影响非正式救济分配；这些匹配与机制证据不能说明所有灾害众筹都有相同效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%81%BE%E5%AE%B3%E6%95%91%E6%B5%8E&amp;show-results=1" title="全站搜索：灾害救济">灾害救济</a> · <a class="tag-link" href="?q=%E4%BC%97%E7%AD%B9&amp;show-results=1" title="全站搜索：众筹">众筹</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：社会资本">社会资本</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70094">查看本期</a><a href="https://doi.org/10.1111/jofi.70094" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>政治环境如何影响投资者对社会责任议案的投票？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>论文研究机构投资者对环境与社会议案的支持，比较企业总部所在州的政治领导、补贴和税收优惠环境，并考察同一州领导变化后的投票差异。作者将这些变化与议案对股东价值的含义联系起来。读者可借鉴企业政治环境与投票行为的匹配方式，但不能把政党差异简单视为机构偏好的纯粹变化。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E6%8A%95%E7%A5%A8&amp;show-results=1" title="全站搜索：股东投票">股东投票</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：社会责任">社会责任</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70093">查看本期</a><a href="https://doi.org/10.1111/jofi.70093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>全球升温的死亡影响，为什么不限于当地高温？</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>工作论文区分全球温度变化与当地直接热暴露对死亡率的影响，利用自然温度波动，并结合外部收入与死亡率估计考察宏观经济渠道。作者把死亡与经济活动纳入增长模型，讨论适应和碳社会成本。其贡献是将直接健康冲击与经济间接渠道放在同一框架下比较；损害函数和福利计算依赖识别、外部参数及模型设定，不能将模型输出当作不变常数。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=%E6%AD%BB%E4%BA%A1%E7%8E%87&amp;show-results=1" title="全站搜索：死亡率">死亡率</a> · <a class="tag-link" href="?q=%E7%A2%B3%E7%A4%BE%E4%BC%9A%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：碳社会成本">碳社会成本</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#nber-w35832">查看本期</a><a href="https://www.nber.org/papers/w35832" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 27 页 · 共 269 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-27.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 28 页 · 共 278 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-28.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

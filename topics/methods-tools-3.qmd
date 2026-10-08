@@ -8,9 +8,30 @@ title: "新方法 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 6 页 · 共 60 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 63 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>polle 1.6.5：动态政策学习的终止事件修正</h3>
+<p class="catalog-meta">期次日期：2026-10-01</p>
+<p>R 包用于学习和评价多阶段处理规则。1.6.5 修正最终结果缺失时早期终止事件的处理，以及警告发生后未保留拟合模型的问题；同时移除 SuperLearner 依赖，并明确 OWL 求解器参数。安装为 <code>install.packages(&quot;polle&quot;)</code>。使用旧流程时应检查依赖、删失处理和求解器设置；双重稳健性仍依赖相应识别与模型条件。本期核对官方帮助、示例和更新说明，未独立运行。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20261001/#r-polle-1-6-5">查看本期</a><a href="https://cran.r-project.org/web/packages/polle/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>confoundvis 0.2.0：从回归模型生成混杂敏感性图</h3>
+<p class="catalog-meta">期次日期：2026-10-01</p>
+<p>0.2.0 新增从 <code>lm</code> 拟合直接计算部分 R 平方敏感性路径和影响阈值的接口，提供协变量参照、稳健性临界点及文字报告，并接收 sensemakr、konfound 与 EValue 的结果。安装为 <code>install.packages(&quot;confoundvis&quot;)</code>。这些图表描述假设混杂强度下的结果变化，不能证明未观测混杂不存在；不同框架的强度尺度也不能直接混用。已核对官方示例与 NEWS，未独立运行。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20261001/#r-confoundvis-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/confoundvis/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>boundedur 1.0.3：有界序列单位根检验的重要修正</h3>
+<p class="catalog-meta">期次日期：2026-09-30</p>
+<p>R 包面向有上下界或单侧边界的时间序列，提供修正的 ADF 与 M 型单位根检验。1.0.3 的 NEWS 列出边界参数、ADF 和 M 统计量、MSB 尾部概率、零假设模拟及 MAIC 滞后选择的修正，均可能影响既有结果。安装命令为 <code>install.packages(&quot;boundedur&quot;)</code>。旧版用户应记录版本并重新检查相关结果；本期核对发行、帮助、示例和问题列表，未独立运行，也不把维护者报告的跨软件一致性当作本期复现结论。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%95%E4%BD%8D%E6%A0%B9%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：单位根检验">单位根检验</a> · <a class="tag-link" href="?q=%E6%9C%89%E7%95%8C%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：有界序列">有界序列</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260930/#r-boundedur-1-0-3">查看本期</a><a href="https://cran.r-project.org/web/packages/boundedur/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>ardlverse 2.0.2：修复影响估计结果的滞后与区间错误</h3>
 <p class="catalog-meta">期次日期：2026-09-29</p>
@@ -60,29 +81,8 @@ title: "新方法 · 第 3 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260926/#r-causalweight-1-1-6">查看本期</a><a href="https://cran.r-project.org/web/packages/causalweight/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>glmnet 5.1：惩罚权重现在可以按训练数据计算</h3>
-<p class="catalog-meta">期次日期：2026-09-25</p>
-<p>glmnet 用于 Lasso 与 elastic net 正则化回归。5.1 允许 <code>penalty.factor</code> 接收函数，便于惩罚权重依赖响应变量时与交叉验证配合。安装命令为 <code>install.packages(&quot;glmnet&quot;)</code>；应核对实际安装版本，当前 Windows 二进制可能晚于源码更新。使用数据驱动权重时仍需检查训练集与验证集的隔离。本期核对官方 NEWS 和手册，未独立运行。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=Lasso&amp;show-results=1" title="全站搜索：Lasso">Lasso</a> · <a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：交叉验证">交叉验证</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260925/#r-glmnet-5-1">查看本期</a><a href="https://cran.r-project.org/web/packages/glmnet/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI4OfficialStats：核对 AI 引用统计数据时的指标与口径</h3>
-<p class="catalog-meta">期次日期：2026-09-25</p>
-<p>0.2.0 增加从统计陈述出发的检索核验接口，比较指标、地域、年份、单位等条件，而不只比较数值是否相同。<code>verify_claim()</code> 可查询支持的官方数据源或使用本地证据，<code>verify_text()</code> 处理多条陈述；未写年份时的自动选择也会记录。安装命令为 <code>install.packages(&quot;AI4OfficialStats&quot;)</code>。解析语言、来源连接器和匹配能力存在边界，不能替代人工核对统计定义；本期只审阅官方说明与示例。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8F%A3%E5%BE%84&amp;show-results=1" title="全站搜索：统计口径">统计口径</a> · <a class="tag-link" href="?q=%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C&amp;show-results=1" title="全站搜索：事实核验">事实核验</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260925/#r-ai4officialstats-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/AI4OfficialStats/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>nonprobsvy 0.3.0：非概率样本推断的方差与 bootstrap 修复</h3>
-<p class="catalog-meta">期次日期：2026-09-24</p>
-<p>该 R 包利用概率样本或总体辅助信息，对非概率样本进行加权、插补和双重稳健推断。0.3.0 修复多项 bootstrap 与方差计算问题，包括插补 bootstrap 权重使用和部分双重稳健推断。安装命令为 <code>install.packages(&quot;nonprobsvy&quot;)</code>。官方对 probit/cloglog 双重稳健解析方差提示保守性并建议 bootstrap；Windows 二进制可能滞后于源码，应核对版本。本期已读 NEWS 与示例，未实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E6%A6%82%E7%8E%87%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：非概率样本">非概率样本</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260924/#r-nonprobsvy-0-3-0">查看本期</a><a href="https://cran.r-project.org/web/packages/nonprobsvy/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 6 页 · 共 60 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-6.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 63 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

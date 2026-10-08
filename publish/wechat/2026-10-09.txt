@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.10.09
+
+📰 01｜论文 · Management Science：到达率未知时，怎样安排多方动态匹配？
+Management Science 论文研究参与者随机到达、等待多方匹配的决策问题。
+引文：Wei, Xu & Yu (2026). Constant Regret Primal-Dual Policy for Multiway Dynamic Matching. Management Science.
+主页： https://doi.org/10.1287/mnsc.2023.01668 
+
+📰 02｜论文 · Strategic Management Journal：创业路演如何同时获得资金与投资者关系？
+SMJ 论文把问题从既有关系如何帮助融资，转向路演本身如何建立新关系。
+引文：Leibel, Falchetti & O'Mahony (2026). When money isn't everything: Identifying stage‐based patterns of entrepreneurial resource acquisition. Strategic Management Journal.
+主页： https://doi.org/10.1002/smj.70134 
+
+📰 03｜论文 · Contemporary Accounting Research：职业怀疑能在进入会计行业前培养吗？
+CAR 论文通过纵向研究追踪学生职业怀疑、课程表现及职业选择。
+引文：Blay, Fennema & McAllister (2026). Opportunities for Enhancing Professional Skepticism Prior to Entering the Accounting Profession. Contemporary Accounting Research.
+主页： https://doi.org/10.1111/1911-3846.70083 
+
+📰 04｜论文 · arXiv：聚类数据中的预测辅助推断，标准误该怎么算？
+将机器预测与少量人工标签结合时，同一群组内的观测通常并不独立。
+引文：Broska & Howes (2026). Cluster-Robust Prediction-Powered Inference. arXiv.
+主页： https://arxiv.org/abs/2610.09601 
+
+📦 05｜软件 · R：caples：把 A/B/n 测试设计与结果检查连起来
+R 包 caples 提供转化率 A/B/n 测试的样本量设计和结果汇总，支持不等比例分流、多处理组校正与样本比例失配检查。
+版本：R / caples 0.1.0；发布：2026-10-08
+CRAN： https://cran.r-project.org/web/packages/caples/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261009/ 

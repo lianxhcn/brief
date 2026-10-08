@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.10.09"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 到达率未知时，怎样安排多方动态匹配？ {#paper-10-1287-mnsc-2023-01668}
+
+<p class="myapa">Wei, Y., Xu, J., &amp; Yu, S. H. (2026). Constant Regret Primal-Dual Policy for Multiway Dynamic Matching. Management Science. <a href="https://doi.org/10.1287/mnsc.2023.01668" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Constant%20Regret%20Primal-Dual%20Policy%20for%20Multiway%20Dynamic%20Matching" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Management Science 论文研究参与者随机到达、等待多方匹配的决策问题。作者提出原始对偶策略，估计对偶解并为未来到达者安排匹配，不要求预先知道到达率，也不把匹配限制在一个固定最优基内。在论文模型条件下，策略具有常数遗憾界。适合关注平台撮合与在线运营的读者；理论保证依赖指定随机到达模型，不能直接推及任意平台环境。
+
+标签：<a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：动态匹配">动态匹配</a> · <a class="tag-link" href="?q=%E5%8E%9F%E5%A7%8B%E5%AF%B9%E5%81%B6&amp;show-results=1" title="全站搜索：原始对偶">原始对偶</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：在线决策">在线决策</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 创业路演如何同时获得资金与投资者关系？ {#paper-10-1002-smj-70134}
+
+<p class="myapa">Leibel, E., Falchetti, D., &amp; O&#x27;Mahony, S. (2026). When money isn&#x27;t everything: Identifying stage‐based patterns of entrepreneurial resource acquisition. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70134" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=When%20money%20isn%27t%20everything%3A%20Identifying%20stage%E2%80%90based%20patterns%20of%20entrepreneurial%20resource%20acquisition" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+SMJ 论文把问题从既有关系如何帮助融资，转向路演本身如何建立新关系。研究分析 Slow Money 社群中社会创业者向影响力投资者的展示，发现与企业阶段相匹配的表达方式和资源获取有关：较成熟企业强调财务过程，初创企业强调社会协作，分别对应不同资源。可借鉴之处是将资金与关系分开测量，并考虑企业阶段；摘要中的关系不能直接解释为改变路演话术的因果效果。
+
+标签：<a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：创业融资">创业融资</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社会网络">社会网络</a> · <a class="tag-link" href="?q=%E8%B7%AF%E6%BC%94&amp;show-results=1" title="全站搜索：路演">路演</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 职业怀疑能在进入会计行业前培养吗？ {#paper-10-1111-1911-3846-70083}
+
+<p class="myapa">Blay, A. D., Fennema, M. G., &amp; McAllister, M. (2026). Opportunities for Enhancing Professional Skepticism Prior to Entering the Accounting Profession. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70083" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Opportunities%20for%20Enhancing%20Professional%20Skepticism%20Prior%20to%20Entering%20the%20Accounting%20Profession" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+CAR 论文通过纵向研究追踪学生职业怀疑、课程表现及职业选择。初始怀疑水平与会计审计课程和首次考试表现相关，但低水平学生可通过持续努力弥补；审计教学后的变化也因初始水平而异。这为因材施教提供线索：人格测量可辅助诊断训练需求，不能简单作为淘汰学生的标准。摘要证据支持分组差异和关联，尚不足以把所有变化归因于教学。
+
+标签：<a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：审计教育">审计教育</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E6%80%80%E7%96%91&amp;show-results=1" title="全站搜索：职业怀疑">职业怀疑</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：纵向研究">纵向研究</a>
+
+<small>来源日期：2026-09-29；补录：2026-10-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 聚类数据中的预测辅助推断，标准误该怎么算？ {#arxiv-2610-09601}
+
+<p class="myapa">Broska, D. &amp; Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.09601" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.09601.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Cluster-Robust%20Prediction-Powered%20Inference" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+将机器预测与少量人工标签结合时，同一群组内的观测通常并不独立。论文提出 Cluster-Robust PPI++，允许独立群组内部任意相关，并处理同一群组同时含已标注与未标注样本的情形。作者给出闭式标准误和按群组结构调节的权重。它与文本标注后推断直接相关，但有效性仍依赖群组之间独立等条件；不能把逐行随机抽样产生的标准误直接沿用。
+
+标签：<a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-09</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### caples：把 A/B/n 测试设计与结果检查连起来 {#r-caples-0-1-0}
+
+R 包 caples 提供转化率 A/B/n 测试的样本量设计和结果汇总，支持不等比例分流、多处理组校正与样本比例失配检查。官方示例先用 <code>caples_design()</code> 制定计划，再用 <code>caples_test()</code> 比较转化率并报告区间。CRAN 已发布 0.1.0，可用 <code>install.packages(&quot;caples&quot;)</code> 安装。输出能辅助解释实验，但不能替代随机化与样本独立性检查；本轮未独立实测。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：多重检验">多重检验</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-09</small>
+
+<a href="https://cran.r-project.org/web/packages/caples/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 企业创新声誉为何与专利诉讼和解有关？ {#paper-10-1177-01492063261487124}
+
+<p class="myapa">Li, F., Gao, H., Zhu, Q., &amp; Semadeni, M. (2026). To Settle or Not to Settle: Defending Firm Reputation in Litigation Response. Journal of Management. <a href="https://doi.org/10.1177/01492063261487124" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=To%20Settle%20or%20Not%20to%20Settle%3A%20Defending%20Firm%20Reputation%20in%20Litigation%20Response" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Journal of Management 论文将利益相关者对企业的情境预期纳入诉讼回应分析。作者发现，创新声誉较高的企业在专利诉讼中和解的可能性较低，这一关系随行业创新强度和原告类型变化。研究提示，和解决策除法律与经济成本外，还涉及声誉管理。实证使用时需区分声誉的选择机制与诉讼后的声誉变化，摘要中的关联不能直接作为因果效应。
+
+标签：<a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%A3%B0%E8%AA%89&amp;show-results=1" title="全站搜索：企业声誉">企业声誉</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AF%89%E8%AE%BC&amp;show-results=1" title="全站搜索：专利诉讼">专利诉讼</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：战略管理">战略管理</a>
+
+<small>来源日期：2026-09-30；补录：2026-10-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 网络中一组节点的成员结构相似吗？ {#paper-10-1214-26-aos2655}
+
+<p class="myapa">Fan, J., Fan, Y., Lv, J., &amp; Yang, F. (2026). SIMPLE-RC: Group network inference with NonSharp nulls and weak signals. The Annals of Statistics, 54(5), 2507-2531. <a href="https://doi.org/10.1214/26-aos2655" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=SIMPLE-RC%3A%20Group%20network%20inference%20with%20NonSharp%20nulls%20and%20weak%20signals" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Annals of Statistics 论文提出 SIMPLE-RC，将节点对成员结构完全相同的检验扩展为一组节点近似相似的复合原假设。方法用随机配对降低各个检验之间的相关性，并讨论弱信号与节点度异质性下的渐近分布。对研究企业网络或群体结构的读者，它提供了带不确定性量化的比较思路；采用时仍需核对网络模型和相似性阈值，不能把检验结果等同于因果关系。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：网络推断">网络推断</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a> · <a class="tag-link" href="?q=%E5%BC%B1%E4%BF%A1%E5%8F%B7&amp;show-results=1" title="全站搜索：弱信号">弱信号</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 多机构数据不集中，怎样联合估计精度矩阵？ {#paper-10-1214-26-aos2620}
+
+<p class="myapa">Sun, Y. &amp; Xia, Y. (2026). Optimal integrative estimation for distributed precision matrices with heterogeneity adjustment. The Annals of Statistics, 54(5), 2209-2233. <a href="https://doi.org/10.1214/26-aos2620" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Optimal%20integrative%20estimation%20for%20distributed%20precision%20matrices%20with%20heterogeneity%20adjustment" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Annals of Statistics 论文研究多来源分布异质、原始数据难以集中时的精度矩阵联合估计。HEAT 方法先调整异质性，再聚合与阈值化；迭代版本通过多轮通信修正高阶误差。论文给出相应损失下的收敛率与下界，并以模拟和数据应用检查表现。可用于理解跨机构统计汇总，但通信节省不等于自动满足隐私保护要求，精度矩阵也不能直接解释为因果网络。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%BC%8F%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：分布式估计">分布式估计</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a> · <a class="tag-link" href="?q=%E7%B2%BE%E5%BA%A6%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：精度矩阵">精度矩阵</a>
+
+<small>来源日期：2026-10-01；补录：2026-10-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 多品类需求估计：预测精度与计算成本如何权衡？ {#arxiv-2610-08409}
+
+<p class="myapa">Schmidt, A. B. (2026). Bayesian Machine Learning Methods For Large Scale Demand Estimation. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.08409" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.08409.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Bayesian%20Machine%20Learning%20Methods%20For%20Large%20Scale%20Demand%20Estimation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文比较潜在因子模型与混合 logit 模型，并分别采用 MCMC 与变分推断估计，结合模拟和超市扫描数据讨论多品类需求。研究中潜在因子模型可利用跨品类信息，变分推断以一定预测精度换取更短运行时间。读者可借鉴其模型与计算方案分开比较的思路；结论限于论文设定，较好的预测表现并不自动保证价格内生性已经处理。
+
+标签：<a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：需求估计">需求估计</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：贝叶斯方法">贝叶斯方法</a> · <a class="tag-link" href="?q=%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：变分推断">变分推断</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 气候指数怎样聚合，才与宏观动态相匹配？ {#arxiv-2610-10043}
+
+<p class="myapa">Barrette, C., Goulet Coulombe, P., &amp; Reinicke, T. (2026). Building Macroeconomically Relevant Climate Indices via the Assemblage VAR. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.10043" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.10043.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Building%20Macroeconomically%20Relevant%20Climate%20Indices%20via%20the%20Assemblage%20VAR" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文提出 Assemblage VAR，将非负聚合权重与 VAR 参数联合估计，让观测到的宏观动态参与气候指数构造。两种版本分别调整具体分项和横截面分布位置的权重；美国气候数据应用显示，聚合方式会影响估计出的冲击响应。研究提醒实证作者检查固定权重指数的敏感性。由结果变量参与指数选择，也更需要明确样本使用与结构识别假设，不能仅凭响应较大断言因果关系更强。
+
+标签：<a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=VAR&amp;show-results=1" title="全站搜索：VAR">VAR</a> · <a class="tag-link" href="?q=%E6%8C%87%E6%95%B0%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：指数构造">指数构造</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-09</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### effectcheck：检查论文中的统计数字是否一致 {#r-effectcheck-0-7-17}
+
+R 包 effectcheck 从已经提取的结果文本中识别统计量、效应量与区间，重新计算可核对的部分，并记录设计不明确时采用的假设。入口为 <code>check_text()</code>，当前版本不承担 PDF 文本提取。CRAN 更新到 0.7.17，但作者明确说明仍在开发且尚未充分验证，检查结果须独立复核；一致性异常也不能直接证明研究不当。可用 <code>install.packages(&quot;effectcheck&quot;)</code> 安装，本轮未独立实测。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：统计报告">统计报告</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E6%A0%B8&amp;show-results=1" title="全站搜索：研究复核">研究复核</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-09</small>
+
+<a href="https://cran.r-project.org/web/packages/effectcheck/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### heterogeneouspeereffects：区分组内与组间同伴效应 {#r-heterogeneouspeereffects-0-1-0}
+
+R 包 heterogeneouspeereffects 实现异质同伴效应的两步 GMM，区分直接处理效应、组内及组间溢出，并提供交叉拟合的半参数设定。官方提供模拟示例和两种识别情形的说明。CRAN 0.1.0 可用 <code>install.packages(&quot;heterogeneouspeereffects&quot;)</code> 安装；README 的 GitHub 安装示例仍含占位账号，使用时应以 CRAN 和手册为准。本轮未独立实测，采用前需核对处理资格与群组身份的识别条件。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-09</small>
+
+<a href="https://cran.r-project.org/web/packages/heterogeneouspeereffects/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
