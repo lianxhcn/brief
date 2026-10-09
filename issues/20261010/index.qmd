@@ -1,0 +1,207 @@
+---
+title: "连享会 · 快讯 | 2026.10.10"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 企业多一笔现金，会增加多少雇佣？ {#paper-10-1093-restud-rdag111}
+
+<p class="myapa">Melcangi, D. (2026). The Marginal Propensity to Hire. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag111" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Marginal%20Propensity%20to%20Hire" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+ReStud 论文利用英国商业房产税重估造成的税负变化，研究企业现金流如何转化为雇佣支出。相似地段、相似房产的企业面对不同税额调整，为比较提供了制度背景；小企业和高杠杆企业反应更强。作者再用结果约束含企业异质性与金融摩擦的一般均衡模型。可借鉴税制细节与模型衔接的思路，具体效应能否外推仍取决于制度与样本。
+
+标签：<a class="tag-link" href="?q=%E7%8E%B0%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：现金流">现金流</a> · <a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：融资约束">融资约束</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E9%9B%87%E4%BD%A3&amp;show-results=1" title="全站搜索：企业雇佣">企业雇佣</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 生成式 AI 的劳动暴露如何进入企业估值？ {#paper-10-1111-jofi-70089}
+
+<p class="myapa">EISFELDT, A. L., SCHUBERT, G., ZHANG, M. B., &amp; TASKA, B. (2026). Generative AI and Firm Values. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70089" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Generative%20AI%20and%20Firm%20Values" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+JF 论文从企业劳动力承担的任务出发构造生成式 AI 暴露指标，考察 ChatGPT 发布后的市场反应，并将劳动暴露与企业产品的 AI 暴露区分。研究进一步区分核心与辅助任务，结合劳动需求和盈利变化讨论替代渠道。对文本变量研究而言，重点是明确指标测量的对象和信息时间；股价反应不等同于已经实现的生产率提升，也不能替代任务层面的识别。
+
+标签：<a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8FAI&amp;show-results=1" title="全站搜索：生成式AI">生成式AI</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E4%BC%B0%E5%80%BC&amp;show-results=1" title="全站搜索：企业估值">企业估值</a> · <a class="tag-link" href="?q=%E4%BB%BB%E5%8A%A1%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：任务暴露">任务暴露</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 用企业网站文本识别上市与非上市公司的竞争网络 {#paper-10-1287-mnsc-2024-06516}
+
+<p class="myapa">Hoberg, G., Knoblock, C., Phillips, G., Pujara, J., Qiu, Z., &amp; Raschid, L. (2026). Using Representation Learning and Website Text to Identify Competitor Networks. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.06516" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Using%20Representation%20Learning%20and%20Website%20Text%20to%20Identify%20Competitor%20Networks" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+Management Science 论文利用企业官网的产品与服务文本生成嵌入，将上市与非上市企业放在同一表示空间，构建网站文本竞争网络 WTNIC。作者用多组基准数据评价网络，并以中国竞争冲击研究说明覆盖非上市企业的价值。它提供了竞争关系测量思路；实施时仍需处理网站噪声、抓取日期和表述变化，文本相似也不能直接等同于真实市场替代关系。
+
+标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E7%AB%9E%E4%BA%89%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：竞争网络">竞争网络</a> · <a class="tag-link" href="?q=%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：表示学习">表示学习</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 近似匹配以后，什么时候无需额外回归调整？ {#arxiv-2610-10873}
+
+<p class="myapa">Jin, Y. (2026). When Does Inexact Matching Ensure Balance and Inference without Adjustment? arXiv. <a href="https://doi.org/10.48550/arXiv.2610.10873" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.10873.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=When%20Does%20Inexact%20Matching%20Ensure%20Balance%20and%20Inference%20without%20Adjustment%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究无放回一对一匹配的近似误差，说明平衡是否足以支持后续推断受到协变量维度影响。在控制样本充足等条件下，低维平滑协变量可以使剩余不平衡相对抽样误差足够小；更高维度则可能失效。它提醒应用者，匹配完成并不自动意味着可以忽略调整，匹配距离、共同支撑与维度条件都需要检查。工作论文结论应结合具体定理和设计理解。
+
+标签：<a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-10</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### gepwreg：按结果分位位置汇总协变量效应 {#stata-gepwreg-1-5-0}
+
+Stata 命令 gepwreg 先在全样本建立异质性模型，再用百分位核权重汇总特定结果位置附近的单位效应。帮助文件提供调查设计下的线性化标准误、重跑完整过程的 bootstrap 和图形选项。可用 <code>ssc install gepwreg</code> 安装，示例入口为 <code>gepwreg_examples</code>。该对象与直接拟合条件分位数回归不同；使用前应明确目标效应与异质性设定。本轮核对官方帮助，未独立实测。
+
+标签：<a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0&amp;show-results=1" title="全站搜索：分位数">分位数</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a>
+
+<small>来源日期：2026-10-05；补录：2026-10-10</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s459923.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 加成率上升：静态损失与创新激励怎样比较？ {#paper-10-1093-restud-rdag110}
+
+<p class="myapa">Cavenaile, L., Celik, M. A., &amp; Tian, X. (2026). Are Markups Too High? Competition, Strategic Innovation, and Industry Dynamics. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag110" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Are%20Markups%20Too%20High%3F%20Competition%2C%20Strategic%20Innovation%2C%20and%20Industry%20Dynamics" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+ReStud 论文在熊彼特增长框架中同时考虑寡头竞争、企业创新与内生进入退出，将大型企业和竞争性边缘企业放入同一模型。估计后的模型用于分解美国行业结构变化：较高加成率带来静态福利损失，也可能经利润机会改变创新激励。结论依赖模型机制和估计参数，不能直接据此认定市场集中总是有利；值得借鉴的是把静态与动态福利分别核算。
+
+标签：<a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### ESG 投资回报中有多少来自资金流入？ {#paper-10-1111-jofi-70083}
+
+<p class="myapa">BECK, P. V. D. (2026). Flow‐Driven ESG Returns. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70083" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Flow%E2%80%90Driven%20ESG%20Returns" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+JF 论文使用交易数据估计 ESG 股票与其他股票之间的替代弹性，进而分析流向 ESG 组合的资金如何影响价格及历史回报。研究将机构资金需求与资产基本面变化区分，强调已实现收益可能包含持续流入造成的价格压力。阅读时应把流量驱动回报与长期预期收益分开；历史样本中的分解结果不能直接作为未来超额收益的预测。
+
+标签：<a class="tag-link" href="?q=ESG&amp;show-results=1" title="全站搜索：ESG">ESG</a> · <a class="tag-link" href="?q=%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：资金流">资金流</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 央行更透明，管理者为何可能从股价学得更少？ {#paper-10-1093-rfs-hhag089}
+
+<p class="myapa">Binz, O., Ferracuti, E., &amp; Lind, G. (2026). Central Bank Economic Transparency and Managerial Learning. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag089" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Central%20Bank%20Economic%20Transparency%20and%20Managerial%20Learning" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+RFS 论文研究央行披露宏观经济信息后，投资者的信息搜集与定价重心如何变化。作者发现，披露更充分与管理者从股价获得的信息减少有关，并用英国央行通胀报告调整补充识别证据。论文的机制区分了宏观信息与企业特有信息：股价更包含某类信息，不代表对管理者的增量信息更多。采用其结论时仍需核对政策冲击和投资效率的具体度量。
+
+标签：<a class="tag-link" href="?q=%E5%A4%AE%E8%A1%8C%E9%80%8F%E6%98%8E%E5%BA%A6&amp;show-results=1" title="全站搜索：央行透明度">央行透明度</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%BB%B7%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：股价学习">股价学习</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E6%95%88%E7%8E%87&amp;show-results=1" title="全站搜索：投资效率">投资效率</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 业绩指引在哪里发布，也是一种披露选择 {#paper-10-1111-1911-3846-70088}
+
+<p class="myapa">Chattopadhyay, A., Reiter, N., &amp; Sethuraman, M. (2026). Choosing the Stage: The Strategic Role of Disclosure Venues in Guidance Revisions. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70088" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Choosing%20the%20Stage%3A%20The%20Strategic%20Role%20of%20Disclosure%20Venues%20in%20Guidance%20Revisions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+CAR 论文比较独立公告、电话会议、投资者会议等不同场合的业绩指引修订。研究发现，披露场合与修订方向、幅度、诉讼风险及分析师分歧相关，文本语气和市场回应也不同。可借鉴之处是把披露渠道纳入变量构造，避免将所有公告混作同一种信息事件。经理人会主动选择场合，因此渠道差异不宜未经处理就解释为渠道的因果效果。
+
+标签：<a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E6%8C%87%E5%BC%95&amp;show-results=1" title="全站搜索：业绩指引">业绩指引</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 固定效应模型怎样做信息矩阵设定检验？ {#arxiv-2610-12350}
+
+<p class="myapa">Schumann, M. (2026). The Panel Information Matrix Test. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.12350" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.12350.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=The%20Panel%20Information%20Matrix%20Test" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文提出面板信息矩阵检验，把固定效应纳入设定，区分时间不变异质性与函数形式误设。检验使用一阶和二阶似然导数，并讨论面板横截面和时间长度共同增长时的附带参数偏差。模拟比较渐近临界值与参数 bootstrap 的表现。适用于似然模型设定诊断，但短面板与不同增长速度下的偏差不可忽略，不能把参数检验的经验表现直接移用于设定检验。
+
+标签：<a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AE%BE%E5%AE%9A&amp;show-results=1" title="全站搜索：模型设定">模型设定</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 面板 SVAR 双向相关时，bootstrap 该怎样重抽样？ {#arxiv-2610-11898}
+
+<p class="myapa">Empting, L., Öztürk, S., Maxand, S., &amp; Wagner, K. (2026). Inference in Panel SVARs with Two-Way Dependence. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.11898" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.11898.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Inference%20in%20Panel%20SVARs%20with%20Two-Way%20Dependence" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文针对异质面板 VAR 的横截面及时间双向相关，推导结构冲击响应的联合推断，并提出递归设计的面板移动块 bootstrap。作者比较只沿时间、只沿横截面以及双向联合重抽样；模拟显示，忽略一个相关维度可能导致覆盖不足。可借鉴之处是让重抽样方案与误差依赖结构一致。实际使用仍需核对代理变量识别、块长度和渐近条件，而非机械增加一个聚类选项。
+
+标签：<a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BFSVAR&amp;show-results=1" title="全站搜索：面板SVAR">面板SVAR</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：双向相关">双向相关</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-10</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### openalexR 3.1.1：文献抓取的作者字段与限流处理更新 {#r-openalexr-3-1-1}
+
+R 包 openalexR 3.1.1 更新了多作者字段处理，并让临时限流或网关错误按退避规则重试；NEWS 也列明旧 mailto 参数不再发挥作用。<code>oa_fetch()</code> 可组织查询并返回文献数据，安装为 <code>install.packages(&quot;openalexR&quot;)</code>。构建文献库时应保存查询条件和抓取日期，并区分接口失败与零结果。版本更新不能保证所有字段都转为表格列，官方文档仍需逐项检查；本轮未独立实测。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2&amp;show-results=1" title="全站搜索：文献检索">文献检索</a> · <a class="tag-link" href="?q=OpenAlex&amp;show-results=1" title="全站搜索：OpenAlex">OpenAlex</a>
+
+<small>来源日期：2026-10-09；补录：2026-10-10</small>
+
+<a href="https://cran.r-project.org/web/packages/openalexR/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

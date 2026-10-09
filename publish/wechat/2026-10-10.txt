@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.10.10
+
+📰 01｜论文 · Review of Economic Studies：企业多一笔现金，会增加多少雇佣？
+ReStud 论文利用英国商业房产税重估造成的税负变化，研究企业现金流如何转化为雇佣支出。
+引文：Melcangi (2026). The Marginal Propensity to Hire. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag111 
+
+📰 02｜论文 · The Journal of Finance：生成式 AI 的劳动暴露如何进入企业估值？
+JF 论文从企业劳动力承担的任务出发构造生成式 AI 暴露指标，考察 ChatGPT 发布后的市场反应，并将劳动暴露与企业产品的 AI 暴露区分。
+引文：EISFELDT et al. (2026). Generative AI and Firm Values. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70089 
+
+📰 03｜论文 · Management Science：用企业网站文本识别上市与非上市公司的竞争网络
+Management Science 论文利用企业官网的产品与服务文本生成嵌入，将上市与非上市企业放在同一表示空间，构建网站文本竞争网络 WTNIC。
+引文：Hoberg et al. (2026). Using Representation Learning and Website Text to Identify Competitor Networks. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.06516 
+
+📰 04｜论文 · arXiv：近似匹配以后，什么时候无需额外回归调整？
+论文研究无放回一对一匹配的近似误差，说明平衡是否足以支持后续推断受到协变量维度影响。
+引文：Jin (2026). When Does Inexact Matching Ensure Balance and Inference without Adjustment?. arXiv.
+主页： https://arxiv.org/abs/2610.10873 
+
+📦 05｜命令 · Stata：gepwreg：按结果分位位置汇总协变量效应
+Stata 命令 gepwreg 先在全样本建立异质性模型，再用百分位核权重汇总特定结果位置附近的单位效应。
+版本：Stata / gepwreg 1.5.0；发布：2026-10-05
+主页： https://ideas.repec.org/c/boc/bocode/s459923.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261010/ 

@@ -12,9 +12,10 @@ toc: false
 
 
 <div class="archive-tree">
-<details class="archive-year" open><summary>2026 年 <span>34 期</span></summary>
-<details class="archive-month"><summary>10 月 <span>9 期</span></summary>
+<details class="archive-year" open><summary>2026 年 <span>35 期</span></summary>
+<details class="archive-month"><summary>10 月 <span>10 期</span></summary>
 <ul class="archive-days">
+<li><a href="issues/20261010/">连享会 · 快讯 | 2026.10.10</a></li>
 <li><a href="issues/20261009/">连享会 · 快讯 | 2026.10.09</a></li>
 <li><a href="issues/20261008/">连享会 · 快讯 | 2026.10.08</a></li>
 <li><a href="issues/20261007/">连享会 · 快讯 | 2026.10.07</a></li>
@@ -58,4 +59,4 @@ toc: false
 </details>
 </div>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
