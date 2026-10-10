@@ -8,81 +8,81 @@ title: "新论文 · 第 8 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 29 页 · 共 288 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-29.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 30 页 · 共 298 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-30.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>删失持续时间模型怎样检验未观测异质性？</h3>
+<h3>银行在加息时管理的是市值风险还是账面资本？</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>论文使用美国银行监管报表与 SEC 数据，研究 2022 年加息期间的利率风险对冲和持有至到期会计分类。作者记录到有限的衍生品对冲与证券向 HTM 分类迁移，并以模型解释资本约束、挤兑风险和会计处理的权衡。账面资本受到保护不等于经济风险消失；横截面关联及机制模型也不能自动解释为会计选择的因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：银行风险">银行风险</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：会计分类">会计分类</a> · <a class="tag-link" href="?q=%E5%88%A9%E7%8E%87%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：利率风险">利率风险</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#paper-1475-679x-70090">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70090" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>跨国银行监管能同时改善信贷供给与风险承担吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>论文结合多国信贷登记数据与银行由国家监管转向超国家监管的制度变化，比较信贷供给及借款企业风险。作者发现信贷扩张集中于金融压力较大的国家，而对高风险僵尸企业的贷款减少，并考察国家制度、监管激励及银行外部融资渠道。结论取决于欧洲这一制度背景，不能推广为监管层级上移必然改善所有银行的放贷。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：银行监管">银行监管</a> · <a class="tag-link" href="?q=%E4%BF%A1%E8%B4%B7%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：信贷供给">信贷供给</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%89%BF%E6%8B%85&amp;show-results=1" title="全站搜索：风险承担">风险承担</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#paper-jofi-70091">查看本期</a><a href="https://doi.org/10.1111/jofi.70091" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>看处理前趋势挑选控制组后，DID 区间怎样计算？</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>工作论文将控制组筛选纳入 DID 的选择后推断，允许用同一微观样本估计协方差、选择控制组并估计处理效应。作者在固定地区数与时期数的框架中建立覆盖性质，并讨论不同样本量、分期处理和事件时间置信带。该方法处理筛选引入的推断问题；平行趋势及其他识别条件仍需成立，不能由选择后区间替代识别论证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%90%8E%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：选择后推断">选择后推断</a> · <a class="tag-link" href="?q=%E6%8E%A7%E5%88%B6%E7%BB%84%E7%AD%9B%E9%80%89&amp;show-results=1" title="全站搜索：控制组筛选">控制组筛选</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#arxiv-2610-01464">查看本期</a><a href="https://arxiv.org/abs/2610.01464" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>多模态信息怎样融合，并给出不确定性范围？</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>Meta Fusion 将早期、中间和后期融合纳入统一框架，通过不同潜在表示组合构成模型组，再以软信息共享实现相互学习。论文讨论泛化误差及不确定性量化，用疾病识别和神经解码展示预测应用。经管读者可借鉴多源数据整合思路，但预测覆盖保证有适用条件，不能据此认定融合后的变量满足因果识别要求。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%9A%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：多模态学习">多模态学习</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E9%87%8F%E5%8C%96&amp;show-results=1" title="全站搜索：不确定性量化">不确定性量化</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#paper-qkag129">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag129" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 学到的表示，什么时候可以作为因果分析的控制变量？</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>工作论文分析用文本、图像学习表示后开展因果推断的条件，将目标参数偏差与结果回归和权重表示的两种近似误差相联系。交叉拟合 DML 可对表示依赖的目标推断；要覆盖原始因果参数，还需控制表示误差。论文进一步讨论分折学习、表示聚合及敏感性区间，不能把嵌入向量加入回归就视为混杂已经消除。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：表示学习">表示学习</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#arxiv-2610-01935">查看本期</a><a href="https://arxiv.org/abs/2610.01935" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>进口商的市场势力如何改变最优关税？</h3>
 <p class="catalog-meta">期次日期：2026-10-02</p>
-<p>工作论文为删失 Weibull 持续时间模型提出 EM 检验，处理零假设位于参数空间边界、部分参数在零假设下不可识别的问题。作者给出非标准的渐近零分布，并允许删失依赖协变量，再用模拟和心脏移植资料展示检验。其价值在于避免直接套用常规卡方近似；结论限于文中模型及条件，不代表所有生存模型都可以套用同一临界值。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8C%81%E7%BB%AD%E6%97%B6%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：持续时间模型">持续时间模型</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：异质性检验">异质性检验</a> · <a class="tag-link" href="?q=EM%E7%AE%97%E6%B3%95&amp;show-results=1" title="全站搜索：EM算法">EM算法</a></p>
-<p class="catalog-actions"><a href="../issues/20261002/#arxiv-2609-36824">查看本期</a><a href="https://arxiv.org/abs/2609.36824" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>工作论文在包含进口固定成本与随企业规模变化的加成率的模型中研究最优关税。进口商较少、较大且成本传导不完全，市场势力导致其相对有效配置的规模和数量不足，关税可能放大这种扭曲。作者推导同时涉及外国出口供给弹性与国内扭曲的关税公式。校准结果依赖市场结构与参数，不能把特定模型中的负最优关税推广为统一政策结论。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93&amp;show-results=1" title="全站搜索：国际贸易">国际贸易</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E5%85%B3%E7%A8%8E&amp;show-results=1" title="全站搜索：最优关税">最优关税</a></p>
+<p class="catalog-actions"><a href="../issues/20261002/#nber-w35829">查看本期</a><a href="https://www.nber.org/papers/w35829" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>内生增长和工资刚性如何改变最优通胀目标？</h3>
+<h3>用最优传输映射生成贝叶斯后验样本</h3>
 <p class="catalog-meta">期次日期：2026-10-02</p>
-<p>论文在新凯恩斯模型中结合内生生产率与向下名义工资刚性，研究失业和研发的非对称滞后效应。模型中的长期菲利普斯曲线不再垂直，最优通胀取决于价格扭曲与产出滞后之间的权衡，作者还比较不同泰勒规则。阅读时应重点检查增长机制、工资刚性和福利设定；模型结论不能自动转为适用于所有经济体的通胀目标建议。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E5%86%85%E7%94%9F%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：内生增长">内生增长</a> · <a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E5%88%9A%E6%80%A7&amp;show-results=1" title="全站搜索：工资刚性">工资刚性</a></p>
-<p class="catalog-actions"><a href="../issues/20261002/#paper-rdag104">查看本期</a><a href="https://doi.org/10.1093/restud/rdag104" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>论文针对归一化常数难以计算的后验分布，学习从参考分布到目标后验的确定性映射，并通过最优传输结构约束优化。框架覆盖连续及混合离散连续参数空间，也利用多元秩和分位数支持探索性分析。它为重复生成后验样本提供另一种计算路线；映射训练质量和目标分布设定仍需诊断，不能因样本独立生成就认定近似后验已经准确。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E8%AE%A1%E7%AE%97&amp;show-results=1" title="全站搜索：贝叶斯计算">贝叶斯计算</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a> · <a class="tag-link" href="?q=%E5%90%8E%E9%AA%8C%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：后验抽样">后验抽样</a></p>
+<p class="catalog-actions"><a href="../issues/20261002/#paper-qkag126">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag126" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>企业的风险选择如何形成宏观波动？</h3>
+<h3>欧洲加息与降息的传导是否对称？</h3>
 <p class="catalog-meta">期次日期：2026-10-02</p>
-<p>论文建立风险由企业激励内生决定的模型：企业选择生产率过程的均值、方差，以及与其他企业生产率的协动程度。相关选择累积为总体风险，税收和加成率扭曲会影响这种风险承担。作者用数据考察企业规模、加成率与波动性等预测，并进行模型校准。该框架提供微观选择与宏观波动的联系，但不能将校准反事实直接视为已识别的政策效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：企业风险">企业风险</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：宏观波动">宏观波动</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a></p>
-<p class="catalog-actions"><a href="../issues/20261002/#paper-qjag048">查看本期</a><a href="https://doi.org/10.1093/qje/qjag048" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>工作论文用贝叶斯加性回归树估计非线性混频 VAR，将月度宏观金融变量与季度银行贷款调查结合，并通过高频政策意外识别动态反应。作者发现紧缩与宽松方向的差异比部分预设状态划分更突出，峰值反应也取决于初始条件。宽松反应不显著不能解释为真实效应必然为零，识别仍依赖政策意外指标和动态模型设定。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B7%B7%E9%A2%91VAR&amp;show-results=1" title="全站搜索：混频VAR">混频VAR</a> · <a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E6%A0%91&amp;show-results=1" title="全站搜索：回归树">回归树</a></p>
+<p class="catalog-actions"><a href="../issues/20261002/#arxiv-2609-37168">查看本期</a><a href="https://arxiv.org/abs/2609.37168" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>高维事件序列的频域关联怎样估计？</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>论文研究多元点过程的谱密度矩阵，以描述事件序列的二阶依赖结构。高维情形下，直接估计可能不稳定，作者将 Whittle 伪似然与 ridge 或 Lasso 型惩罚结合，给出相应大样本性质，并用多元 Hawkes 过程模拟和神经元脉冲数据展示方法。对金融交易等事件数据研究具有方法启发，但本文的神经科学应用不直接验证金融场景，谱关联也不自动代表因果关系。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%82%B9%E8%BF%87%E7%A8%8B&amp;show-results=1" title="全站搜索：点过程">点过程</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96&amp;show-results=1" title="全站搜索：正则化">正则化</a> · <a class="tag-link" href="?q=%E9%A2%91%E5%9F%9F%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：频域分析">频域分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#paper-asag059">查看本期</a><a href="https://doi.org/10.1093/biomet/asag059" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>提醒已知支出，能改善季节性贫困吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-02</p>
+<p>论文在赞比亚农户中随机实施分类联想提示，让受访者回忆未来支出，不额外提供外部信息或理财建议。研究跟踪支出预期、储蓄和跨季节消费，发现回忆改善与更平滑的消费路径相伴，并在美国低收入人群中检验预期反应。它将信息是否知道与决策时能否提取区分开来；不同地区的干预和结果检验并不完全相同，不能把预期变化等同于所有场景的长期收入改善。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%94%B0%E9%87%8E%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：田野实验">田野实验</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E5%B9%B3%E6%BB%91&amp;show-results=1" title="全站搜索：消费平滑">消费平滑</a> · <a class="tag-link" href="?q=%E8%AE%B0%E5%BF%86&amp;show-results=1" title="全站搜索：记忆">记忆</a></p>
+<p class="catalog-actions"><a href="../issues/20261002/#paper-qjag035">查看本期</a><a href="https://doi.org/10.1093/qje/qjag035" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>连续更新 GMM 怎样找到全局最小值？</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>在线性工具变量模型中，连续更新 GMM 的目标函数可能让局部优化陷入困难。工作论文将目标写为多项式比值：单个内生变量时由伴随矩阵的实特征值寻找驻点，并比较无穷远处的边界值；多个内生变量时用代数消元筛选候选值。方法允许异方差、自相关或聚类权重，为相关检验的计算提供思路。找到全局最优值解决的是计算问题，不会自动使无效工具变量变得有效。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%80%BC%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：数值优化">数值优化</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#arxiv-2609-36445">查看本期</a><a href="https://arxiv.org/abs/2609.36445" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>正向领导行为为什么也可能产生负面结果？</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>这篇综述汇集领导行为与通常预期方向相反的研究结果，梳理这些反常结果的定义、操作化方式、解释主题及边界条件。它提醒研究者，给领导行为贴上正面或负面标签，并不能预先决定所有结果变量的方向。读者可借此检查构念、机制与情境是否一致；综述提出的是组织文献的整合框架，不能据此认为负面领导行为值得推广，也不意味着所有研究都有相同证据强度。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%86%E5%AF%BC%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：领导行为">领导行为</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a> · <a class="tag-link" href="?q=%E8%BE%B9%E7%95%8C%E6%9D%A1%E4%BB%B6&amp;show-results=1" title="全站搜索：边界条件">边界条件</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#paper-01492063261481739">查看本期</a><a href="https://doi.org/10.1177/01492063261481739" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>控制变量很多时，如何对工资不平等的界限做推断？</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>工作论文将正交矩条件与交叉拟合用于依赖第一阶段干扰参数的部分识别问题，先用灵活方法估计干扰参数，再由矩不等式准则恢复目标集合。作者给出集合估计的收敛性质及子抽样覆盖结果，并讨论就业选择下工资分布与区间删失工资的性别差距。有效推断仍需要第一阶段误差乘积等条件；机器学习并不能自动消除选择偏差或保证界限精确。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：工资差距">工资差距</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#arxiv-2609-37412">查看本期</a><a href="https://arxiv.org/abs/2609.37412" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>库存补货决策应该交给客户还是供应商？</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>论文建立一个供应商对应多个客户仓库的两级供应链模型，比较客户管理库存与供应商管理库存。缺货惩罚的相对大小、需求在仓库之间的集中程度及补货提前期差异，共同影响适合的决策权安排。作者还用四个行业案例校准数值分析，区分信息共享、决策权转移和持有成本分担的作用。结论依赖模型及成本设定，不能简单归结为任何一方管理库存都更有效。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E6%9D%83&amp;show-results=1" title="全站搜索：决策权">决策权</a> · <a class="tag-link" href="?q=%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：库存管理">库存管理</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#paper-mnsc-2025-02137">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02137" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>同样面对加息，家庭为什么作出不同消费反应？</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>工作论文在多国大规模调查中嵌入随机利率情境，考察家庭对宏观经济运行机制的主观理解如何影响消费计划。更关注借贷或储蓄利率的人，在加息情境下计划缩减更多消费；更关注通胀或一般均衡效应的人调整较小。实际消费与内生政策变动之间也有相似模式，但调查中的随机情境与现实政策变动的证据强度不同，不宜把二者合并为同一因果结论。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E9%A2%84%E6%9C%9F&amp;show-results=1" title="全站搜索：主观预期">主观预期</a> · <a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#nber-w35831">查看本期</a><a href="https://www.nber.org/papers/w35831" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>产品怎样设计，更容易被用户发现新用途？</h3>
-<p class="catalog-meta">期次日期：2026-10-01</p>
-<p>研究使用 1925 项宜家产品改造，区分用户为产品发现新的应用场景与新的产品能力。模块化与新应用相关，跨产品线兼容性和外观变体会改变这种关系；视觉简洁性则与新能力的发现相关。档案与访谈补充说明企业如何回应用户创新。该研究提供产品属性与社区创新的分析框架，但这些观察性关系不等于随机实验识别出的设计效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%94%A8%E6%88%B7%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：用户创新">用户创新</a> · <a class="tag-link" href="?q=%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：产品设计">产品设计</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9D%97%E5%8C%96&amp;show-results=1" title="全站搜索：模块化">模块化</a></p>
-<p class="catalog-actions"><a href="../issues/20261001/#paper-smj-70132">查看本期</a><a href="https://doi.org/10.1002/smj.70132" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>手机查看财务信息，会改变消费吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-02</p>
+<p>论文使用账户聚合服务的交易数据，研究先在电脑端使用服务、随后安装手机应用的消费者。作者利用不同设备应用的分批上线分析移动访问与可自由支配支出的变化，并考察晚间及自我控制代理指标的差异。结果与监控和自我调节渠道一致，但识别针对应用采用者，不能将其直接外推到所有消费者，也不能把代理指标视为自控能力的精确测量。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：消费行为">消费行为</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80&amp;show-results=1" title="全站搜索：金融科技">金融科技</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%88%91%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：自我控制">自我控制</a></p>
+<p class="catalog-actions"><a href="../issues/20261002/#paper-jofi-70087">查看本期</a><a href="https://doi.org/10.1111/jofi.70087" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 29 页 · 共 288 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-29.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 30 页 · 共 298 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-30.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

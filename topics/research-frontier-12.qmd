@@ -8,81 +8,81 @@ title: "新论文 · 第 12 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-11.html">上一页</a><span aria-current="page">第 12 / 29 页 · 共 288 条</span><a rel="next" href="research-frontier-13.html">下一页</a><a href="research-frontier-29.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-11.html">上一页</a><span aria-current="page">第 12 / 30 页 · 共 298 条</span><a rel="next" href="research-frontier-13.html">下一页</a><a href="research-frontier-30.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>对照地区只有汇总数据，如何估计政策效应异质性？</h3>
+<h3>工资差距扩大，会削弱集体谈判吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-28</p>
+<p>研究结合三种设计：面向工会组织者的情景实验、扩大威斯康星州教师工资差距的政策变化，以及编剧罢工期间的信息干预。作者发现，不平等可能通过成员支持与组织策略影响工会力量：个人议价能力较强的劳动者更倾向单独谈判，组织者则可能转向较小且更同质的谈判单位。三类证据可用于比较机制的一致性，但各自的人群、处理和识别条件不同，不宜合并成对所有行业统一的因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E4%B8%8D%E5%B9%B3%E7%AD%89&amp;show-results=1" title="全站搜索：工资不平等">工资不平等</a> · <a class="tag-link" href="?q=%E9%9B%86%E4%BD%93%E8%B0%88%E5%88%A4&amp;show-results=1" title="全站搜索：集体谈判">集体谈判</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a></p>
+<p class="catalog-actions"><a href="../issues/20260928/#paper-qjag046">查看本期</a><a href="https://doi.org/10.1093/qje/qjag046" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>存在未观测混杂时，前门识别怎样结合机器学习？</h3>
+<p class="catalog-meta">期次日期：2026-09-28</p>
+<p>论文在前门识别假设下，为平均处理效应和处理组平均处理效应构造一步估计量与目标最小损失估计量，允许灵活估计干扰参数；部分参数化方式无需直接估计中介变量密度。研究还讨论广义独立约束的检验及其对估计效率的作用。应用价值在于区分识别与估计：机器学习改善的是函数拟合，前门方案仍依赖中介完整传递处理效应等结构性假设，诊断检验也不能证明所有不可检验假设成立。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%89%8D%E9%97%A8%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：前门识别">前门识别</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a></p>
+<p class="catalog-actions"><a href="../issues/20260928/#paper-qkag122">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag122" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>因果森林里的协变量平衡，能用核方法改善吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-28</p>
+<p>工作论文把核平衡权重引入因果森林与 X-Learner，研究在非线性处理效应和重叠较弱时如何改善条件平均处理效应估计。作者使用模拟及半模拟 IHDP 数据比较权重与估计表现。可借鉴之处是同时检查协变量平衡和异质效应，而非仅比较预测误差；有限样本平衡改善不能恢复不存在的共同支持，也不能消除未观测混杂。本文为未同行评审的工作论文，本期依据官方摘要介绍。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%B8%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：核平衡">核平衡</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%A3%AE%E6%9E%97&amp;show-results=1" title="全站搜索：因果森林">因果森林</a> · <a class="tag-link" href="?q=%E6%95%88%E5%BA%94%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：效应异质性">效应异质性</a></p>
+<p class="catalog-actions"><a href="../issues/20260928/#arxiv-2609-29440">查看本期</a><a href="https://arxiv.org/abs/2609.29440" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>反复参加调查，会给固定效应与事件研究带来什么偏差？</h3>
+<p class="catalog-meta">期次日期：2026-09-28</p>
+<p>受访者的回答可能随参加调查的次数变化。论文在时期、进入队列与调查持续期的加性模型下，研究错位进入的面板能够识别哪些调查参与效应，以及未识别部分如何传导到常用回归。作者讨论样本支持、规范化和持续期控制，并说明事件时间与调查持续期重合时可能产生没有提前反应的表观前趋势。结论依赖模型及秩条件，不能据此将任意前趋势都归为调查效应；本期仅阅读工作论文摘要。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：调查效应">调查效应</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a></p>
+<p class="catalog-actions"><a href="../issues/20260928/#arxiv-2609-28871">查看本期</a><a href="https://arxiv.org/abs/2609.28871" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>去郊区学校上学，能改变城市学生的长期机会吗？</h3>
+<p class="catalog-meta">期次日期：2026-09-28</p>
+<p>论文研究波士顿 METCO 自愿学校融合项目：将有色人种学生送往收入更高、白人占比较高的郊区学校。作者比较获得与未获得入学邀请的申请者，利用候补名单优先规则构造两阶段最小二乘估计，并结合出生和申请资料控制背景差异。摘要报告教育表现、升学及成年收入的改善，提示学校质量、同伴与升学规范可能共同作用。识别依赖邀请规则及工具变量假设，不能将结论直接推广到任意跨区择校政策。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%9C%BA%E4%BC%9A&amp;show-results=1" title="全站搜索：教育机会">教育机会</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：长期效应">长期效应</a></p>
+<p class="catalog-actions"><a href="../issues/20260928/#paper-qjag043">查看本期</a><a href="https://doi.org/10.1093/qje/qjag043" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>传统企业做平台，数据障碍为何会接连出现？</h3>
+<p class="catalog-meta">期次日期：2026-09-28</p>
+<p>论文跟踪一家金融服务企业建立中小企业与贷款机构对接平台的过程，分析技术限制、数据控制权以及参与方利益如何共同形成数据障碍。过程模型表明，解决一个收集、整合或使用问题，可能重新配置约束并引出下一类问题。对平台与组织研究而言，数据可得性并非纯技术条件，还涉及内部单位和合作方的协作安排。这是纵向案例证据，适合提出和细化机制，不应解读为已识别普遍的平均因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：平台转型">平台转型</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：数据治理">数据治理</a> · <a class="tag-link" href="?q=%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：案例研究">案例研究</a></p>
+<p class="catalog-actions"><a href="../issues/20260928/#paper-smj-70124">查看本期</a><a href="https://doi.org/10.1002/smj.70124" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>算法快速收房，为何仍难普及？iBuyers 的信息与流动性取舍</h3>
 <p class="catalog-meta">期次日期：2026-09-27</p>
-<p>工作论文处理一种常见的数据不对称：受政策影响地区有个人微观数据，对照地区却只有汇总指标。方法将处理地区内部的 DID 效应差异，与汇总面板识别的总体平均效应结合，恢复不同群体的政策影响。关键是区分两组识别要求：地区内部的相对平行趋势，以及总体平均效应的识别假设。处理地区微观部分可使用重复截面，但数据更多不代表这些假设自动成立。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E6%95%88%E5%BA%94%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：效应异质性">效应异质性</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20260927/#arxiv-2609-28678">查看本期</a><a href="https://arxiv.org/abs/2609.28678" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>iBuyers 通过算法报价和快速交易为房主提供流动性，却更多集中于容易估值、交易活跃的房产。作者建立并校准带有逆向选择的动态搜寻模型，解释估值不充分如何限制中介交易范围：成交加快会减少信息积累，房产异质性又放大定价困难。研究适合联系平台交易、资产估值与市场流动性；结论依赖模型设定和所研究的市场环境。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%88%BF%E5%9C%B0%E4%BA%A7&amp;show-results=1" title="全站搜索：房地产">房地产</a> · <a class="tag-link" href="?q=%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：逆向选择">逆向选择</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E6%B5%81%E5%8A%A8%E6%80%A7&amp;show-results=1" title="全站搜索：市场流动性">市场流动性</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#paper-742710">查看本期</a><a href="https://doi.org/10.1086/742710" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>宏观冲击如何改变尾部风险，而不只是平均表现？</h3>
+<h3>最低工资政策评估：先识别哪些门店真正受到覆盖</h3>
 <p class="catalog-meta">期次日期：2026-09-27</p>
-<p>论文建立带门槛状态、随机波动和状态依赖杠杆关系的 VAR 模型，允许宏观水平与波动之间内生互动。作者区分增长下行风险、通胀上行风险与预测中位数，讨论不同冲击的作用如何随通胀状态及冲击幅度改变。方法启发是把分布尾部作为单独研究对象；结构冲击解释依赖模型设定、状态划分及识别约束，不能凭拟合优度作因果判断。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：宏观风险">宏观风险</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：随机波动">随机波动</a> · <a class="tag-link" href="?q=%E9%97%A8%E6%A7%9B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：门槛模型">门槛模型</a></p>
-<p class="catalog-actions"><a href="../issues/20260927/#arxiv-2609-26994">查看本期</a><a href="https://arxiv.org/abs/2609.26994" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>加州快餐最低工资政策依连锁规模划定适用对象，而行业汇总数据难以准确识别受覆盖门店，行业编码也可能存在测量误差。作者使用门店层面数据重新考察就业与进入退出，摘要报告影响更多集中于小型连锁。研究的实用启发是先核对处理组归属，再比较政策前后结果；本期依据工作论文摘要，不把初步结果视为最低工资政策的一般结论。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%80%E4%BD%8E%E5%B7%A5%E8%B5%84&amp;show-results=1" title="全站搜索：最低工资">最低工资</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%A6%86%E7%9B%96&amp;show-results=1" title="全站搜索：政策覆盖">政策覆盖</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#nber-w35749">查看本期</a><a href="https://www.nber.org/papers/w35749" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>坏消息旁边放什么？生物医药企业的组合披露</h3>
+<h3>投资组合收缩：直接围绕样本外表现配置权重</h3>
 <p class="catalog-meta">期次日期：2026-09-27</p>
-<p>企业公布一种药物的负面进展时，可能同时披露其他产品的信息。论文利用生物医药企业的 8-K 文件和新闻稿考察这种组合披露，研究它与负面市场反应及后续药物进展的关系。可借鉴之处是把单条公告放回企业产品组合中理解，而非只按整体情绪给文本打分。摘要所述关系不意味着所有同时披露都在误导投资者，也不能把市场反应减弱直接等同于信息质量提高。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E7%94%9F%E7%89%A9%E5%8C%BB%E8%8D%AF&amp;show-results=1" title="全站搜索：生物医药">生物医药</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
-<p class="catalog-actions"><a href="../issues/20260927/#paper-1911-3846-70078">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70078" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>协方差矩阵估计误差会影响组合权重。论文提出非线性收缩方法 UPSA，以可闭式计算的基础组合重新加权收益的主成分，直接围绕预期样本外组合表现选择权重，而非统一惩罚或直接丢弃低方差成分。原文用异常收益因子进行经验比较。可借鉴的是让正则化目标对应最终投资任务；本期依据摘要，不把特定样本中的表现解释为普遍收益保证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：投资组合">投资组合</a> · <a class="tag-link" href="?q=%E5%8D%8F%E6%96%B9%E5%B7%AE%E6%94%B6%E7%BC%A9&amp;show-results=1" title="全站搜索：协方差收缩">协方差收缩</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：样本外评估">样本外评估</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#paper-hhag084">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag084" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>偶然发明怎样变现？内部利用与专利许可的不同路径</h3>
+<h3>房子便宜，贷款为何更贵？制造住宅信贷市场的集中度</h3>
 <p class="catalog-meta">期次日期：2026-09-27</p>
-<p>偶然发现不一定适合企业既有产品和专利布局。论文比较偶然发明与计划性研发形成的专利，考察技术影响、产品化、战略阻挡和对外许可等价值实现路径。摘要显示，偶然发明的价值更可能通过许可实现，提示研究者区分发明本身的潜力与原企业能否利用它。企业组织能力与对外交易渠道可能影响价值实现；本期不将观察性差异解释为偶然性本身的因果效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：创新管理">创新管理</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AE%B8%E5%8F%AF&amp;show-results=1" title="全站搜索：专利许可">专利许可</a> · <a class="tag-link" href="?q=%E5%81%B6%E7%84%B6%E5%8F%91%E6%98%8E&amp;show-results=1" title="全站搜索：偶然发明">偶然发明</a></p>
-<p class="catalog-actions"><a href="../issues/20260927/#paper-smj-70126">查看本期</a><a href="https://doi.org/10.1002/smj.70126" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>借长期本币债：降低展期风险，也会增加估值波动</h3>
-<p class="catalog-meta">期次日期：2026-09-27</p>
-<p>论文使用美国投资者流向新兴市场本币政府债券的数据，将久期风险与汇率风险放在同一框架中分析。期限拉长可降低到期再融资压力，却也提高债券价格对利率变化的敏感性，并与汇率变动相互作用。作者进一步讨论共同基金投资者行为如何影响压力时期的资金流动。适合区分展期风险与市场价值风险，不宜把本币长期债简单理解为消除了外部脆弱性。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%AC%E5%B8%81%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：本币债券">本币债券</a> · <a class="tag-link" href="?q=%E4%B9%85%E6%9C%9F%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：久期风险">久期风险</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%A2%83%E8%B5%84%E6%9C%AC%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：跨境资本流动">跨境资本流动</a></p>
-<p class="catalog-actions"><a href="../issues/20260927/#paper-hhag088">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag088" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>配额机制：小样本和分布估错时，决策误差有多大？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>评分比例等配额把多个决策联系起来，促使掌握私人信息的人在不同对象之间权衡。论文用最优传输方法刻画有限个决策时的误差界，并分析设计者估错类型分布时的敏感性与参与者信念的影响。最优性比较限定于论文设定和无转移支付机制；它为配额设计提供理论判断依据，不等于任何场景都应采用固定比例。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E9%85%8D%E9%A2%9D%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：配额机制">配额机制</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#paper-742716">查看本期</a><a href="https://doi.org/10.1086/742716" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>财报口径受限时，分析师如何通过提问获得信息？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>论文研究会计准则对管理层报告裁量的限制，与业绩说明会中账户相关提问的联系。分析师提出具体账户问题后，管理层更可能在当前回答及下一季度介绍中披露相应信息，回答情况也与预测质量相关。它把披露看成管理者与信息使用者的动态互动，适合研究文本提问与披露供给；本期依据摘要，不把相关性当作提问的净因果效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E8%AF%B4%E6%98%8E%E4%BC%9A&amp;show-results=1" title="全站搜索：业绩说明会">业绩说明会</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分析师预测">分析师预测</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#paper-1911-3846-70089">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70089" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>教育财政改革的个人收益，能否转化为宏观增长？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>论文将教育财政改革对个人收入的微观估计，与受影响出生队列逐步进入劳动力市场的过程结合，预测州级人均劳动收入的长期路径，再用美国各州改革时点开展事件研究。结果支持教育投入的收益可能经过较长滞后才反映在宏观产出中。微观校准与宏观识别各有假设，长期预测不能视为已完整观察到的政策回报。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%B4%A2%E6%94%BF&amp;show-results=1" title="全站搜索：教育财政">教育财政</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：宏观增长">宏观增长</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#nber-w35755">查看本期</a><a href="https://www.nber.org/papers/w35755" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>投资者关系转到线上，信息收益会持续吗？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>作者整理 2019—2024 年投资者关系活动，观察疫情冲击下企业何时转向线上沟通，以及后续资本市场表现。数字准备度和董事会构成与较早、持续采用线上形式相关；信息收益更集中于高度不确定时期，而可见度收益在环境稳定后仍存在。研究提供沟通适应能力的测量思路；不能将自选择的线上活动直接解释为市场表现变化的唯一原因。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：投资者关系">投资者关系</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%8C%96&amp;show-results=1" title="全站搜索：数字化">数字化</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：信息环境">信息环境</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#paper-1911-3846-70080">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70080" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>同一人反复经历冲击，事件研究该如何分解效应？</h3>
-<p class="catalog-meta">期次日期：2026-09-26</p>
-<p>处理事件可重复发生且影响持续时，总处理路径效应与每次事件的独立贡献不是同一参数。这篇工作论文说明，分离各次事件效应需要额外假设，并对事件效应增长施加类似条件平行趋势的限制，提出顺序插补估计量。方法允许效应随可观测事件强度变化。它适用于理解失业、灾害等重复冲击，不能只把普通事件研究多放几个虚拟变量就视为有效识别。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%87%8D%E5%A4%8D%E4%BA%8B%E4%BB%B6&amp;show-results=1" title="全站搜索：重复事件">重复事件</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E6%8F%92%E8%A1%A5&amp;show-results=1" title="全站搜索：顺序插补">顺序插补</a></p>
-<p class="catalog-actions"><a href="../issues/20260926/#arxiv-2609-30007">查看本期</a><a href="https://arxiv.org/abs/2609.30007" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>美国制造住宅价格相对较低，其贷款却可能面临较高利率。论文考察贷款机构集中度、纵向整合与借款利率的关系，结合监管利率阈值附近的聚集现象、工具变量和双重差分分析识别市场力量。研究提醒住房负担能力不仅取决于房价，也与信贷供给结构有关；本期未审读识别细节，不将摘要中的证据直接外推到其他住房市场。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：住房金融">住房金融</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E9%9B%86%E4%B8%AD%E5%BA%A6&amp;show-results=1" title="全站搜索：市场集中度">市场集中度</a> · <a class="tag-link" href="?q=%E4%BF%A1%E8%B4%B7%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：信贷成本">信贷成本</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#paper-hhag087">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag087" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-11.html">上一页</a><span aria-current="page">第 12 / 29 页 · 共 288 条</span><a rel="next" href="research-frontier-13.html">下一页</a><a href="research-frontier-29.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-11.html">上一页</a><span aria-current="page">第 12 / 30 页 · 共 298 条</span><a rel="next" href="research-frontier-13.html">下一页</a><a href="research-frontier-30.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

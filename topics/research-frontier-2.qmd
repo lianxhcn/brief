@@ -8,81 +8,81 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 29 页 · 共 288 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-29.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 30 页 · 共 298 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-30.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>聚类数据中的预测辅助推断，标准误该怎么算？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>将机器预测与少量人工标签结合时，同一群组内的观测通常并不独立。论文提出 Cluster-Robust PPI++，允许独立群组内部任意相关，并处理同一群组同时含已标注与未标注样本的情形。作者给出闭式标准误和按群组结构调节的权重。它与文本标注后推断直接相关，但有效性仍依赖群组之间独立等条件；不能把逐行随机抽样产生的标准误直接沿用。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#arxiv-2610-09601">查看本期</a><a href="https://arxiv.org/abs/2610.09601" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>面板 SVAR 双向相关时，bootstrap 该怎样重抽样？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>论文针对异质面板 VAR 的横截面及时间双向相关，推导结构冲击响应的联合推断，并提出递归设计的面板移动块 bootstrap。作者比较只沿时间、只沿横截面以及双向联合重抽样；模拟显示，忽略一个相关维度可能导致覆盖不足。可借鉴之处是让重抽样方案与误差依赖结构一致。实际使用仍需核对代理变量识别、块长度和渐近条件，而非机械增加一个聚类选项。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BFSVAR&amp;show-results=1" title="全站搜索：面板SVAR">面板SVAR</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：双向相关">双向相关</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#arxiv-2610-11898">查看本期</a><a href="https://arxiv.org/abs/2610.11898" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>职业怀疑能在进入会计行业前培养吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>CAR 论文通过纵向研究追踪学生职业怀疑、课程表现及职业选择。初始怀疑水平与会计审计课程和首次考试表现相关，但低水平学生可通过持续努力弥补；审计教学后的变化也因初始水平而异。这为因材施教提供线索：人格测量可辅助诊断训练需求，不能简单作为淘汰学生的标准。摘要证据支持分组差异和关联，尚不足以把所有变化归因于教学。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：审计教育">审计教育</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E6%80%80%E7%96%91&amp;show-results=1" title="全站搜索：职业怀疑">职业怀疑</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：纵向研究">纵向研究</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1111-1911-3846-70083">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70083" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>近似匹配以后，什么时候无需额外回归调整？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>论文研究无放回一对一匹配的近似误差，说明平衡是否足以支持后续推断受到协变量维度影响。在控制样本充足等条件下，低维平滑协变量可以使剩余不平衡相对抽样误差足够小；更高维度则可能失效。它提醒应用者，匹配完成并不自动意味着可以忽略调整，匹配距离、共同支撑与维度条件都需要检查。工作论文结论应结合具体定理和设计理解。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#arxiv-2610-10873">查看本期</a><a href="https://arxiv.org/abs/2610.10873" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>网络中一组节点的成员结构相似吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>Annals of Statistics 论文提出 SIMPLE-RC，将节点对成员结构完全相同的检验扩展为一组节点近似相似的复合原假设。方法用随机配对降低各个检验之间的相关性，并讨论弱信号与节点度异质性下的渐近分布。对研究企业网络或群体结构的读者，它提供了带不确定性量化的比较思路；采用时仍需核对网络模型和相似性阈值，不能把检验结果等同于因果关系。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：网络推断">网络推断</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a> · <a class="tag-link" href="?q=%E5%BC%B1%E4%BF%A1%E5%8F%B7&amp;show-results=1" title="全站搜索：弱信号">弱信号</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1214-26-aos2655">查看本期</a><a href="https://doi.org/10.1214/26-aos2655" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>用企业网站文本识别上市与非上市公司的竞争网络</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>Management Science 论文利用企业官网的产品与服务文本生成嵌入，将上市与非上市企业放在同一表示空间，构建网站文本竞争网络 WTNIC。作者用多组基准数据评价网络，并以中国竞争冲击研究说明覆盖非上市企业的价值。它提供了竞争关系测量思路；实施时仍需处理网站噪声、抓取日期和表述变化，文本相似也不能直接等同于真实市场替代关系。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E7%AB%9E%E4%BA%89%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：竞争网络">竞争网络</a> · <a class="tag-link" href="?q=%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：表示学习">表示学习</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1287-mnsc-2024-06516">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06516" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>气候指数怎样聚合，才与宏观动态相匹配？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>论文提出 Assemblage VAR，将非负聚合权重与 VAR 参数联合估计，让观测到的宏观动态参与气候指数构造。两种版本分别调整具体分项和横截面分布位置的权重；美国气候数据应用显示，聚合方式会影响估计出的冲击响应。研究提醒实证作者检查固定权重指数的敏感性。由结果变量参与指数选择，也更需要明确样本使用与结构识别假设，不能仅凭响应较大断言因果关系更强。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=VAR&amp;show-results=1" title="全站搜索：VAR">VAR</a> · <a class="tag-link" href="?q=%E6%8C%87%E6%95%B0%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：指数构造">指数构造</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#arxiv-2610-10043">查看本期</a><a href="https://arxiv.org/abs/2610.10043" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>生成式 AI 的劳动暴露如何进入企业估值？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>JF 论文从企业劳动力承担的任务出发构造生成式 AI 暴露指标，考察 ChatGPT 发布后的市场反应，并将劳动暴露与企业产品的 AI 暴露区分。研究进一步区分核心与辅助任务，结合劳动需求和盈利变化讨论替代渠道。对文本变量研究而言，重点是明确指标测量的对象和信息时间；股价反应不等同于已经实现的生产率提升，也不能替代任务层面的识别。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8FAI&amp;show-results=1" title="全站搜索：生成式AI">生成式AI</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E4%BC%B0%E5%80%BC&amp;show-results=1" title="全站搜索：企业估值">企业估值</a> · <a class="tag-link" href="?q=%E4%BB%BB%E5%8A%A1%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：任务暴露">任务暴露</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1111-jofi-70089">查看本期</a><a href="https://doi.org/10.1111/jofi.70089" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>多机构数据不集中，怎样联合估计精度矩阵？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>Annals of Statistics 论文研究多来源分布异质、原始数据难以集中时的精度矩阵联合估计。HEAT 方法先调整异质性，再聚合与阈值化；迭代版本通过多轮通信修正高阶误差。论文给出相应损失下的收敛率与下界，并以模拟和数据应用检查表现。可用于理解跨机构统计汇总，但通信节省不等于自动满足隐私保护要求，精度矩阵也不能直接解释为因果网络。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%BC%8F%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：分布式估计">分布式估计</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a> · <a class="tag-link" href="?q=%E7%B2%BE%E5%BA%A6%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：精度矩阵">精度矩阵</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1214-26-aos2620">查看本期</a><a href="https://doi.org/10.1214/26-aos2620" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>央行更透明，管理者为何可能从股价学得更少？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>RFS 论文研究央行披露宏观经济信息后，投资者的信息搜集与定价重心如何变化。作者发现，披露更充分与管理者从股价获得的信息减少有关，并用英国央行通胀报告调整补充识别证据。论文的机制区分了宏观信息与企业特有信息：股价更包含某类信息，不代表对管理者的增量信息更多。采用其结论时仍需核对政策冲击和投资效率的具体度量。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%AE%E8%A1%8C%E9%80%8F%E6%98%8E%E5%BA%A6&amp;show-results=1" title="全站搜索：央行透明度">央行透明度</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%BB%B7%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：股价学习">股价学习</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E6%95%88%E7%8E%87&amp;show-results=1" title="全站搜索：投资效率">投资效率</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1093-rfs-hhag089">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag089" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>多品类需求估计：预测精度与计算成本如何权衡？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>论文比较潜在因子模型与混合 logit 模型，并分别采用 MCMC 与变分推断估计，结合模拟和超市扫描数据讨论多品类需求。研究中潜在因子模型可利用跨品类信息，变分推断以一定预测精度换取更短运行时间。读者可借鉴其模型与计算方案分开比较的思路；结论限于论文设定，较好的预测表现并不自动保证价格内生性已经处理。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：需求估计">需求估计</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：贝叶斯方法">贝叶斯方法</a> · <a class="tag-link" href="?q=%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：变分推断">变分推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#arxiv-2610-08409">查看本期</a><a href="https://arxiv.org/abs/2610.08409" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>固定效应模型怎样做信息矩阵设定检验？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>论文提出面板信息矩阵检验，把固定效应纳入设定，区分时间不变异质性与函数形式误设。检验使用一阶和二阶似然导数，并讨论面板横截面和时间长度共同增长时的附带参数偏差。模拟比较渐近临界值与参数 bootstrap 的表现。适用于似然模型设定诊断，但短面板与不同增长速度下的偏差不可忽略，不能把参数检验的经验表现直接移用于设定检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AE%BE%E5%AE%9A&amp;show-results=1" title="全站搜索：模型设定">模型设定</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#arxiv-2610-12350">查看本期</a><a href="https://arxiv.org/abs/2610.12350" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>到达率未知时，怎样安排多方动态匹配？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>Management Science 论文研究参与者随机到达、等待多方匹配的决策问题。作者提出原始对偶策略，估计对偶解并为未来到达者安排匹配，不要求预先知道到达率，也不把匹配限制在一个固定最优基内。在论文模型条件下，策略具有常数遗憾界。适合关注平台撮合与在线运营的读者；理论保证依赖指定随机到达模型，不能直接推及任意平台环境。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：动态匹配">动态匹配</a> · <a class="tag-link" href="?q=%E5%8E%9F%E5%A7%8B%E5%AF%B9%E5%81%B6&amp;show-results=1" title="全站搜索：原始对偶">原始对偶</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：在线决策">在线决策</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1287-mnsc-2023-01668">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.01668" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>加成率上升：静态损失与创新激励怎样比较？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>ReStud 论文在熊彼特增长框架中同时考虑寡头竞争、企业创新与内生进入退出，将大型企业和竞争性边缘企业放入同一模型。估计后的模型用于分解美国行业结构变化：较高加成率带来静态福利损失，也可能经利润机会改变创新激励。结论依赖模型机制和估计参数，不能直接据此认定市场集中总是有利；值得借鉴的是把静态与动态福利分别核算。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1093-restud-rdag110">查看本期</a><a href="https://doi.org/10.1093/restud/rdag110" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>创业路演如何同时获得资金与投资者关系？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>SMJ 论文把问题从既有关系如何帮助融资，转向路演本身如何建立新关系。研究分析 Slow Money 社群中社会创业者向影响力投资者的展示，发现与企业阶段相匹配的表达方式和资源获取有关：较成熟企业强调财务过程，初创企业强调社会协作，分别对应不同资源。可借鉴之处是将资金与关系分开测量，并考虑企业阶段；摘要中的关系不能直接解释为改变路演话术的因果效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：创业融资">创业融资</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社会网络">社会网络</a> · <a class="tag-link" href="?q=%E8%B7%AF%E6%BC%94&amp;show-results=1" title="全站搜索：路演">路演</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1002-smj-70134">查看本期</a><a href="https://doi.org/10.1002/smj.70134" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>企业多一笔现金，会增加多少雇佣？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>ReStud 论文利用英国商业房产税重估造成的税负变化，研究企业现金流如何转化为雇佣支出。相似地段、相似房产的企业面对不同税额调整，为比较提供了制度背景；小企业和高杠杆企业反应更强。作者再用结果约束含企业异质性与金融摩擦的一般均衡模型。可借鉴税制细节与模型衔接的思路，具体效应能否外推仍取决于制度与样本。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：现金流">现金流</a> · <a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：融资约束">融资约束</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E9%9B%87%E4%BD%A3&amp;show-results=1" title="全站搜索：企业雇佣">企业雇佣</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1093-restud-rdag111">查看本期</a><a href="https://doi.org/10.1093/restud/rdag111" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>企业创新声誉为何与专利诉讼和解有关？</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>Journal of Management 论文将利益相关者对企业的情境预期纳入诉讼回应分析。作者发现，创新声誉较高的企业在专利诉讼中和解的可能性较低，这一关系随行业创新强度和原告类型变化。研究提示，和解决策除法律与经济成本外，还涉及声誉管理。实证使用时需区分声誉的选择机制与诉讼后的声誉变化，摘要中的关联不能直接作为因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%A3%B0%E8%AA%89&amp;show-results=1" title="全站搜索：企业声誉">企业声誉</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AF%89%E8%AE%BC&amp;show-results=1" title="全站搜索：专利诉讼">专利诉讼</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：战略管理">战略管理</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1177-01492063261487124">查看本期</a><a href="https://doi.org/10.1177/01492063261487124" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>业绩指引在哪里发布，也是一种披露选择</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>CAR 论文比较独立公告、电话会议、投资者会议等不同场合的业绩指引修订。研究发现，披露场合与修订方向、幅度、诉讼风险及分析师分歧相关，文本语气和市场回应也不同。可借鉴之处是把披露渠道纳入变量构造，避免将所有公告混作同一种信息事件。经理人会主动选择场合，因此渠道差异不宜未经处理就解释为渠道的因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E6%8C%87%E5%BC%95&amp;show-results=1" title="全站搜索：业绩指引">业绩指引</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1111-1911-3846-70088">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70088" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>非策略性说谎者之间，怎样识别真实信息？</h3>
-<p class="catalog-meta">期次日期：2026-10-08</p>
-<p>AER 理论论文研究奖项分配中的信息甄别：当事人知道谁应获奖，但按给定的作弊程序报告状态。委托人通过设计描述获奖条件的文本，在双方陈述矛盾时利用单向作弊原则识别说谎者。该结果依赖非策略行为及作弊程序已知等设定，为问卷和信息诱导提供思考线索，不应直接套用于能够调整策略的真实受访者。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a></p>
-<p class="catalog-actions"><a href="../issues/20261008/#paper-10-1257-aer-20251879">查看本期</a><a href="https://doi.org/10.1257/aer.20251879" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>ESG 投资回报中有多少来自资金流入？</h3>
+<p class="catalog-meta">期次日期：2026-10-10</p>
+<p>JF 论文使用交易数据估计 ESG 股票与其他股票之间的替代弹性，进而分析流向 ESG 组合的资金如何影响价格及历史回报。研究将机构资金需求与资产基本面变化区分，强调已实现收益可能包含持续流入造成的价格压力。阅读时应把流量驱动回报与长期预期收益分开；历史样本中的分解结果不能直接作为未来超额收益的预测。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ESG&amp;show-results=1" title="全站搜索：ESG">ESG</a> · <a class="tag-link" href="?q=%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：资金流">资金流</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
+<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1111-jofi-70083">查看本期</a><a href="https://doi.org/10.1111/jofi.70083" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 29 页 · 共 288 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-29.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 30 页 · 共 298 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-30.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

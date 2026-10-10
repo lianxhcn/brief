@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.10.11
+
+📰 01｜论文 · The Journal of Finance：同评级债券，金融企业为何仍支付更高利差？
+JF 论文比较评级和期限相近的金融企业与工业企业债券，发现前者仍存在利差溢价。
+引文：DICK‐NIELSEN, FELDHÜTTER & LANDO (2026). The Financial Premium. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70084 
+
+📰 02｜论文 · Management Science：如何用少量随机实验预测更多广告活动的增量效果？
+Management Science 论文提出 PIE：先用随机广告实验估计活动层面的因果效果，再学习活动特征与效果之间的预测关系，用于没有开展实验的广告活动。
+引文：Gordon, Moakler & Zettelmeyer (2026). Predicted Incrementality by Experimentation for Ad Measurement. Management Science.
+主页： https://doi.org/10.1287/mnsc.2023.01108 
+
+📰 03｜论文 · Journal of the Royal Statistical Society Series B: Statistical Methodology：目标样本缺失整类协变量，能否借助其他样本？
+JRSS-B 论文研究目标总体完全没有某类协变量、相关来源总体却测量了这些变量的情形。
+引文：Zhao & Wang (2026). Augmented transfer regression learning for completely missing covariates. Journal of the Royal Statistical Society Series B: Statistical Methodology.
+主页： https://doi.org/10.1093/jrsssb/qkag131 
+
+📦 04｜命令 · Stata：cruceandino：让多维分组表和图使用同一套统计口径
+Stata 命令 cruceandino 按一至三个分类变量汇总结果变量，并生成对应表格和图形，适合调查数据的比例、均值及分组比较。
+版本：Stata / cruceandino 0.9.1；发布：2026-10-04
+主页： https://ideas.repec.org/c/boc/bocode/s459918.html 
+
+📦 05｜软件 · R：ardlverse 2.1.0：bootstrap 与协整判定发生重要调整
+R 包 ardlverse 2.1.0 的 NEWS 明确修改了递归 bootstrap，并要求相关统计量共同拒绝后才判定协整，同时区分退化情形。
+版本：R / ardlverse 2.1.0；发布：2026-10-10
+CRAN： https://cran.r-project.org/web/packages/ardlverse/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261011/ 

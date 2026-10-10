@@ -8,9 +8,16 @@ title: "新方法 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 7 页 · 共 65 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 7 页 · 共 66 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>MatchIt 4.8.1：匹配分组与平衡性计算的重要修复</h3>
+<p class="catalog-meta">期次日期：2026-09-27</p>
+<p>9 月 18 日介绍 4.8.0 后，4.8.1 又修复了影响结果的错误：部分分层 eCDF/eQQ 计算忽略抽样权重，子组标准化口径不一致，以及剔除样本后 quick、optimal、full 匹配的分组错误。它属于结果修复提醒，建议相关使用者重新检查匹配成员与平衡表。安装命令为 <code>install.packages(&quot;MatchIt&quot;)</code>；当前 Windows 二进制仍为 4.7.2，不能仅凭安装成功认定已取得修复。本期核对 NEWS 和官方入门示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：匹配方法">匹配方法</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%A1%E6%80%A7%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：平衡性诊断">平衡性诊断</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：结果修复">结果修复</a></p>
+<p class="catalog-actions"><a href="../issues/20260927/#r-matchit-4-8-1">查看本期</a><a href="https://cran.r-project.org/web/packages/MatchIt/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>dsge 1.2.0：在 R 中导入 Dynare 模型文件</h3>
 <p class="catalog-meta">期次日期：2026-09-26</p>
@@ -74,15 +81,8 @@ title: "新方法 · 第 4 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a> · <a class="tag-link" href="?q=%E6%A0%B8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：核估计">核估计</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260922/#r-interflex-1-4-1">查看本期</a><a href="https://cran.r-project.org/web/packages/interflex/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>deriva 0.2.0：把尚不能判断与未检测到漂移分开</h3>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>deriva 用统一接口监测部署后的机器学习模型。0.2.0 将预热阶段的漂移标记统一为 NA，区别于已经开始判断但未发出警报的 FALSE，并增加随机流控制和数据列检查。安装命令为 <code>install.packages(&quot;deriva&quot;)</code>。旧版保存的检测器需重新拟合，部分二进制仍为旧版；升级后应核对版本及下游对缺失标记的处理。本期未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：模型监测">模型监测</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：数据漂移">数据漂移</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#r-deriva-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/deriva/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 7 页 · 共 65 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 7 页 · 共 66 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

@@ -8,9 +8,23 @@ title: "新方法 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 65 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 66 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>hscc：异质斜率面板的部分汇集估计</h3>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>Stata 命令把个体斜率分成中心斜率、与解释变量均值相关的异质性和带惩罚的剩余偏离，使用 HC3 调整的 Driscoll–Kraay 推断。1.0.2 新增共同时间固定效应，要求强平衡估计样本。安装为 <code>ssc install hscc</code>，先 <code>xtset</code>，再运行 <code>hscc y x, timefe</code>。帮助文件明确小 T 覆盖不足风险；稳健标准误也不消除内生性。本期核对代码、帮助及例子，未实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%96%9C%E7%8E%87&amp;show-results=1" title="全站搜索：异质斜率">异质斜率</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#stata-hscc-1-0-2">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459910.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>failsafe：回归之后检查容易遗漏的诊断信号</h3>
+<p class="catalog-meta">期次日期：2026-10-02</p>
+<p>Stata 命令读取已有估计结果，报告未收敛、被省略的系数、协方差问题，以及在元数据可用时的聚类数、二元结果单元格和生存事件计数。安装为 <code>ssc install failsafe</code>，估计后运行 <code>failsafe</code>。聚类数和稀疏单元格阈值由使用者指定；命令不重估模型、不自动选模型，也不裁定模型有效与否。0.1.6 的高阶分类交互单元格等检查仍有限，本期核对代码、帮助与官方例子，未独立执行。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：模型检查">模型检查</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
+<p class="catalog-actions"><a href="../issues/20261002/#stata-failsafe-0-1-6">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459911.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>clusterIV 0.2：聚类工具变量与弱工具稳健推断</h3>
 <p class="catalog-meta">期次日期：2026-10-02</p>
@@ -47,13 +61,6 @@ title: "新方法 · 第 3 页"
 <p class="catalog-actions"><a href="../issues/20260930/#r-boundedur-1-0-3">查看本期</a><a href="https://cran.r-project.org/web/packages/boundedur/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>ardlverse 2.0.2：修复影响估计结果的滞后与区间错误</h3>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计算中的滞后对齐问题，并修正面板 NARDL 自助法置信区间与系数匹配错误。使用这些函数的研究者应核对版本并重新检查受影响结果。安装命令为 <code>install.packages(&quot;ardlverse&quot;)</code>；本次查询时 Windows 二进制仍为 2.0.0，不能仅凭重新安装就认定已更新。官方 README 的部分调用仍沿用旧接口，应以当前帮助文件为准。本期核对发行、NEWS、示例和问题列表，未独立运行或证明所有估计正确。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：版本修复">版本修复</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#r-ardlverse-2-0-2">查看本期</a><a href="https://cran.r-project.org/web/packages/ardlverse/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
 <h3>scoringutils 2.3.0：预测评分先检查样本与缺失</h3>
 <p class="catalog-meta">期次日期：2026-09-28</p>
 <p>该 R 包统一检查、汇总和展示概率预测评分。2.3.0 增加缺失预测的筛选与分数填补工具，并修复重复列名、同一预测单位观测值冲突等可能导致错误评分的问题。安装命令为 <code>install.packages(&quot;scoringutils&quot;)</code>；当前部分二进制仍为 2.2.0，应核对版本。缺失处理会改变比较样本或评价口径，需报告采用的规则；部分非默认绘图和分组比较仍有公开问题记录。本期核对 NEWS、官方示例及问题列表，未独立实测。</p>
@@ -74,15 +81,8 @@ title: "新方法 · 第 3 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：空间相关">空间相关</a> · <a class="tag-link" href="?q=Conley%20%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：Conley 标准误">Conley 标准误</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260927/#r-fastconley-0-11-1">查看本期</a><a href="https://cran.r-project.org/web/packages/fastconley/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>MatchIt 4.8.1：匹配分组与平衡性计算的重要修复</h3>
-<p class="catalog-meta">期次日期：2026-09-27</p>
-<p>9 月 18 日介绍 4.8.0 后，4.8.1 又修复了影响结果的错误：部分分层 eCDF/eQQ 计算忽略抽样权重，子组标准化口径不一致，以及剔除样本后 quick、optimal、full 匹配的分组错误。它属于结果修复提醒，建议相关使用者重新检查匹配成员与平衡表。安装命令为 <code>install.packages(&quot;MatchIt&quot;)</code>；当前 Windows 二进制仍为 4.7.2，不能仅凭安装成功认定已取得修复。本期核对 NEWS 和官方入门示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：匹配方法">匹配方法</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%A1%E6%80%A7%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：平衡性诊断">平衡性诊断</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：结果修复">结果修复</a></p>
-<p class="catalog-actions"><a href="../issues/20260927/#r-matchit-4-8-1">查看本期</a><a href="https://cran.r-project.org/web/packages/MatchIt/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 65 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 66 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
