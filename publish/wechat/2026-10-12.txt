@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.12
+
+✍️ 01｜新推文：QSM 的建模视角与思路：六篇经典论文解读
+推文通过六篇经典论文比较 QSM 的关键建模选择，从商品采购、人口空间配置到通勤、福利与动态增长，说明主体选择如何与市场出清共同构成空间均衡。
+阅读全文： https://www.lianxh.cn/details/1965.html 
+
+✍️ 02｜新推文：QSM-量化空间模型：4 篇综述和 39 篇论文
+推文以四篇综述为入口，梳理 QSM 从地区间贸易与迁移扩展到城市内部结构、人口异质性和动态调整的研究线索，并提供进一步阅读的论文地图。
+阅读全文： https://www.lianxh.cn/details/1966.html 
+
+📰 03｜论文 · The Journal of Finance：国债的便利收益何时更高？从对冲功能理解安全资产
+JF 论文从对冲功能解释美国国债的便利收益：若国债在不利的总体冲击下升值，其安全资产价值会更突出。
+引文：ACHARYA & LAARITS (2026). When Do Treasuries Earn the Convenience Yield?—A Hedging Perspective. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70085 
+
+📰 04｜论文 · Management Science：推荐排序追求互动量，会怎样改变新闻质量？
+Management Science 论文利用 Reddit 排序机制中的不连续性研究排名对评论行为的影响，再用模型比较不同推荐规则。
+引文：Moehring (2026). Personalization, Engagement, and Content Quality on Social Media: An Evaluation of Reddit’s News Feed. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.06298 
+
+📦 05｜软件 · R：coresynth 1.0.1：合成控制推断与公式解析的重要修正
+R 包 coresynth 以统一公式接口提供 SCM、SDID 和广义合成控制等方法。
+版本：R / coresynth 1.0.1；发布：2026-10-11
+CRAN： https://cran.r-project.org/web/packages/coresynth/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261012/ 

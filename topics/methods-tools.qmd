@@ -8,9 +8,23 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 66 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 68 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>denstest 1.0.2：比较密度函数时，置换也要重算统计量</h3>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>R 包 denstest 用于比较多组估计密度函数，可从整体形状或分布矩的角度开展检验。1.0.2 修正了 TF 距离的置换推断：每次置换都重新计算依赖分组的方差估计及距离。安装为 <code>install.packages(&quot;denstest&quot;)</code>，官方示例用 <code>denscomp()</code> 组织比较。其输入是密度函数组，不宜不加区分地当作普通原始样本的均值检验；本轮未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%AF%86%E5%BA%A6%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：密度比较">密度比较</a> · <a class="tag-link" href="?q=%E7%BD%AE%E6%8D%A2%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：置换检验">置换检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#r-denstest-1-0-2">查看本期</a><a href="https://cran.r-project.org/web/packages/denstest/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>coresynth 1.0.1：合成控制推断与公式解析的重要修正</h3>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>R 包 coresynth 以统一公式接口提供 SCM、SDID 和广义合成控制等方法。1.0.1 的 NEWS 修正了 GSC bootstrap 置信区间的构造，并让公式中的变换变量先显式生成，避免静默使用错误列。安装可用 <code>install.packages(&quot;coresynth&quot;)</code>，再检查 <code>packageVersion(&quot;coresynth&quot;)</code>；Windows 二进制可能滞后。不同方法的识别条件不能因接口统一而混同，本轮未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%8C%BA%E9%97%B4&amp;show-results=1" title="全站搜索：置信区间">置信区间</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#r-coresynth-1-0-1">查看本期</a><a href="https://cran.r-project.org/web/packages/coresynth/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>cruceandino：让多维分组表和图使用同一套统计口径</h3>
 <p class="catalog-meta">期次日期：2026-10-11</p>
@@ -67,22 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a></p>
 <p class="catalog-actions"><a href="../issues/20261008/#r-spaci-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/spaci/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>rcsplot：样条曲线的估计样本与绘图区间要一致</h3>
-<p class="catalog-meta">期次日期：2026-10-08</p>
-<p>Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。安装为 <code>ssc install rcsplot</code>，要求 Stata 16 及以上。默认先按暴露变量第 1–99 百分位截尾，再用同一区间估计和绘图，并区分总体与非线性检验。使用前应明确截尾改变了哪个样本，不能把曲线形状直接当作因果关系；官方帮助含可运行例子，本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E9%99%90%E5%88%B6%E6%80%A7%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;show-results=1" title="全站搜索：限制性三次样条">限制性三次样条</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a></p>
-<p class="catalog-actions"><a href="../issues/20261008/#stata-rcsplot-1-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459920.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>SeqExpMatch 停止维护：顺序实验项目需留意迁移</h3>
-<p class="catalog-meta">期次日期：2026-10-08</p>
-<p>CRAN 的 0.1.1.1 版本已明确将 SeqExpMatch 标为停止维护，并建议转向 EDI。旧包用于顺序两组实验的随机分配、即时匹配和相应推断。已有复现项目宜先保留锁定环境、记录原函数与随机种子，再独立测试迁移结果；不要为了追新直接替换正在使用的设计。可用 <code>packageVersion(&quot;SeqExpMatch&quot;)</code> 核对版本。本条是维护状态提醒，不是新方法或性能认证，本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：顺序实验">顺序实验</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a></p>
-<p class="catalog-actions"><a href="../issues/20261008/#r-seqexpmatch-0-1-1-1">查看本期</a><a href="https://cran.r-project.org/web/packages/SeqExpMatch/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 66 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 68 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
