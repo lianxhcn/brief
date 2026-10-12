@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.13
+
+✍️ 01｜新推文：简约式估计与结构估计：大牛们如何看？
+推文结合多位经济学家的访谈和研究，解释可信因果识别与结构反事实怎样衔接。
+阅读全文： https://www.lianxh.cn/details/1967.html 
+
+✍️ 02｜新推文：结构模型速览：研究思路与知识地图
+推文从主体、目标、约束和市场联系出发，梳理结构模型的研究步骤，并比较局部均衡与一般均衡以及 DSGE、CGE、QSM 等模型传统。
+阅读全文： https://www.lianxh.cn/details/1968.html 
+
+📰 03｜论文 · Management Science：央行数字货币会挤出还是支持稳定币？
+论文用理论模型讨论代币化央行数字货币与稳定币的竞争。
+引文：Chiu & Monnet (2026). Money Creation for Crypto Space: Stablecoins or Central Bank Digital Currencies?. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.08420 
+
+📰 04｜论文 · The Accounting Review：税务关键审计事项会改变跨国利润转移吗？
+论文研究审计报告中与不确定税务头寸有关的关键审计事项。
+引文：Beuselinck et al. (2026). Tax-Related Key Audit Matters and Changes in Multinational Income Shifting. The Accounting Review.
+主页： https://doi.org/10.2308/tar-2024-0168 
+
+📦 05｜软件 · R：concstats 0.2.1：集中度指标与份额计算更新
+R 包 concstats 根据市场份额计算集中度和不平等指标。
+版本：R / concstats 0.2.1；发布：2026-10-12
+CRAN： https://cran.r-project.org/web/packages/concstats/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261013/ 

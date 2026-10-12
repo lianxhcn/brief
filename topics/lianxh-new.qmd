@@ -8,9 +8,23 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 64 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 66 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>结构模型速览：研究思路与知识地图</h3>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>推文从主体、目标、约束和市场联系出发，梳理结构模型的研究步骤，并比较局部均衡与一般均衡以及 DSGE、CGE、QSM 等模型传统。读者可据此辨认论文中的行为关系和反事实问题；模型能够求解并不保证参数可识别，仍需核对数据提供的经验约束。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a> · <a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：反事实">反事实</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#post-1968">查看本期</a><a href="https://www.lianxh.cn/details/1968.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>简约式估计与结构估计：大牛们如何看？</h3>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>推文结合多位经济学家的访谈和研究，解释可信因果识别与结构反事实怎样衔接。已经观察到的政策变化可以约束行为参数，但预测尚未实施的政策还需要说明机制、参数稳定性和均衡反馈。适合在立题时判断是否需要完整结构模型，以及新增假设能否获得经验支持。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a> · <a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：反事实">反事实</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#post-1967">查看本期</a><a href="https://www.lianxh.cn/details/1967.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>QSM-量化空间模型：4 篇综述和 39 篇论文</h3>
 <p class="catalog-meta">期次日期：2026-10-12</p>
@@ -67,22 +81,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：大语言模型">大语言模型</a></p>
 <p class="catalog-actions"><a href="../issues/20261005/#post-1957">查看本期</a><a href="https://www.lianxh.cn/details/1957.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>别急着做 DID（上）：先把政策背景搞清楚</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>文章从政策制定动机、申请与行政筛选、名单公布和执行强度出发，说明制度细节怎样影响处理组、控制组和事件时间的构造。主动申请、预期反应、门槛及外溢分别对应不同识别威胁，再据此比较 DID、断点与合成控制等设计。方法选择需要政策事实和数据支持，不能仅凭政策前后变化认定自然实验成立。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：识别设计">识别设计</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#post-1954">查看本期</a><a href="https://www.lianxh.cn/details/1954.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>别急着做 DID (下)：让 AI 做你的政策分析「虚拟导师」</h3>
-<p class="catalog-meta">期次日期：2026-10-04</p>
-<p>文章提供政策文件、执行规则、关键日期、数据和已有文献组成的研究材料包，以及多轮导师式提问提示词。用绿色工厂认定示例说明如何从申请池、筛选与预期反应逐步修订研究设计，并将已确认事实、推断和缺口分开记录。AI 可以帮助提出问题和组织证据，但不能代替政策原文核查或证明识别假设成立。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261004/#post-1955">查看本期</a><a href="https://www.lianxh.cn/details/1955.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 64 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 66 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
