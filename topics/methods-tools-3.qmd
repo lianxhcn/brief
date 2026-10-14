@@ -8,9 +8,16 @@ title: "新方法 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 69 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 70 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>rdlocrand 3.0：局部随机化断点分析中的推断变化</h3>
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>R 包更新局部随机化断点分析。新版在多项式调整阶数大于 0 时采用大样本正态推断，默认 HC3，随机化 p 值返回 NA；阶数为 0 的随机化推断路径需与之区分。安装为 <code>install.packages(&quot;rdlocrand&quot;, type=&quot;source&quot;)</code>，核验时二进制仍是 2.0。已比较发行源码和维护者说明，未独立运行；HC3 不保证有限样本精确推断，模糊断点的 TSLS 还依赖强第一阶段。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#r-rdlocrand-3-0">查看本期</a><a href="https://cran.r-project.org/web/packages/rdlocrand/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>chartwright 0.4：用配置文件管理 Superset 仪表板</h3>
 <p class="catalog-meta">期次日期：2026-10-05</p>
@@ -74,15 +81,8 @@ title: "新方法 · 第 3 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20261001/#r-confoundvis-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/confoundvis/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>boundedur 1.0.3：有界序列单位根检验的重要修正</h3>
-<p class="catalog-meta">期次日期：2026-09-30</p>
-<p>R 包面向有上下界或单侧边界的时间序列，提供修正的 ADF 与 M 型单位根检验。1.0.3 的 NEWS 列出边界参数、ADF 和 M 统计量、MSB 尾部概率、零假设模拟及 MAIC 滞后选择的修正，均可能影响既有结果。安装命令为 <code>install.packages(&quot;boundedur&quot;)</code>。旧版用户应记录版本并重新检查相关结果；本期核对发行、帮助、示例和问题列表，未独立运行，也不把维护者报告的跨软件一致性当作本期复现结论。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%95%E4%BD%8D%E6%A0%B9%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：单位根检验">单位根检验</a> · <a class="tag-link" href="?q=%E6%9C%89%E7%95%8C%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：有界序列">有界序列</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260930/#r-boundedur-1-0-3">查看本期</a><a href="https://cran.r-project.org/web/packages/boundedur/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 69 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-2.html">上一页</a><span aria-current="page">第 3 / 7 页 · 共 70 条</span><a rel="next" href="methods-tools-4.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

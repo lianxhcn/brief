@@ -8,9 +8,16 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 69 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 70 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>cpop 1.0.10：时间序列斜率变化检测更新</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>R 包 cpop 用连续分段线性拟合识别时间序列的斜率变化，以残差平方和与变化次数惩罚控制拟合复杂度。1.0.10 增加 罚参数路径结果的后处理，并适配 crops 1.0.5。安装用 <code>install.packages(&quot;cpop&quot;)</code>，再核对版本；当前 Windows 二进制仍为 1.0.9，新版源码需要编译环境。本轮核对了官方说明和示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#r-cpop-1-0-10">查看本期</a><a href="https://cran.r-project.org/web/packages/cpop/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>concstats 0.2.1：集中度指标与份额计算更新</h3>
 <p class="catalog-meta">期次日期：2026-10-13</p>
@@ -74,15 +81,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：统计报告">统计报告</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E6%A0%B8&amp;show-results=1" title="全站搜索：研究复核">研究复核</a></p>
 <p class="catalog-actions"><a href="../issues/20261009/#r-effectcheck-0-7-17">查看本期</a><a href="https://cran.r-project.org/web/packages/effectcheck/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>caples：把 A/B/n 测试设计与结果检查连起来</h3>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>R 包 caples 提供转化率 A/B/n 测试的样本量设计和结果汇总，支持不等比例分流、多处理组校正与样本比例失配检查。官方示例先用 <code>caples_design()</code> 制定计划，再用 <code>caples_test()</code> 比较转化率并报告区间。CRAN 已发布 0.1.0，可用 <code>install.packages(&quot;caples&quot;)</code> 安装。输出能辅助解释实验，但不能替代随机化与样本独立性检查；本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：多重检验">多重检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#r-caples-0-1-0">查看本期</a><a href="https://cran.r-project.org/web/packages/caples/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 69 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 70 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

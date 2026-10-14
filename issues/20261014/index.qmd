@@ -1,0 +1,211 @@
+---
+title: "连享会 · 快讯 | 2026.10.14"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### DSGE、CGE、QSM：三种一般均衡模型怎么看、怎么选？ {#post-1970}
+
+推文以提前宣布提高钢材关税为例，说明一般均衡中的价格、收入和市场反馈，再比较 DSGE 的跨期调整、CGE 的部门联系与 QSM 的空间配置。三种名称对应常见建模重心，并非互斥分类；选模型前应先明确政策问题和需要保留的传导机制。
+
+标签：<a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a>
+
+<small>来源日期：2026-10-13；补录：2026-10-14</small>
+
+<a href="https://www.lianxh.cn/details/1970.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### HANK、OLG、BLP：家庭差异、世代交叠与市场结构 {#post-1971}
+
+推文分别用货币政策、养老金与差异化产品市场解释 HANK、OLG 和 BLP：家庭异质性、世代交叠与需求估计各解决不同问题。这些模型名称不处于同一分类层级，阅读时应区分经济环境、行为关系和估计框架，避免把缩写当作可直接替换的模型菜单。
+
+标签：<a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a>
+
+<small>来源日期：2026-10-13；补录：2026-10-14</small>
+
+<a href="https://www.lianxh.cn/details/1971.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 银行专业化如何影响抛补利率平价？ {#paper-10-1111-jofi-70095}
+
+<p class="myapa">Moskowitz, T. J., Ross, C. P., Ross, S. Y., &amp; Vasudevan, K. (2026). Risk, Specialization, and Covered‐Interest Parity. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70095" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Risk%2C%20Specialization%2C%20and%20Covered%E2%80%90Interest%20Parity" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用银行外汇衍生品敞口研究金融中介的风险分担。作者发现，外汇掉期业务中的对冲并不总与期限匹配，机构会专注于熟悉的风险市场。研究将跨市场的抛补利率平价偏离与中介专业化联系起来，为理解套利边界和风险溢价提供了新的观察角度。
+
+标签：<a class="tag-link" href="?q=%E6%B1%87%E7%8E%87&amp;show-results=1" title="全站搜索：汇率">汇率</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：金融中介">金融中介</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%88%86%E6%8B%85&amp;show-results=1" title="全站搜索：风险分担">风险分担</a>
+
+<small>来源日期：2026-10-13；补录：2026-10-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 求职建议推广后，效果为何可能减弱？ {#paper-10-1093-restud-rdag112}
+
+<p class="myapa">Altmann, S., Glenny, A. M., Mahlstedt, R., &amp; Sebald, A. (2026). The Direct and Indirect Effects of Online Job Search Advice. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag112" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Direct%20and%20Indirect%20Effects%20of%20Online%20Job%20Search%20Advice" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在丹麦公共就业服务平台开展两阶段随机实验，改变地区内获得职位信息和职业建议的求职者比例。摘要报告，小范围提供建议时就业与收入改善，覆盖面扩大后收益减弱；作者将这一变化与推荐职业中的竞争拥挤联系起来。政策扩围评估需要同时考虑直接效果与求职者之间的溢出。
+
+标签：<a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%BA%A2%E5%87%BA%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：溢出效应">溢出效应</a>
+
+<small>来源日期：2026-10-12；补录：2026-10-14</small>
+
+
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 检查报告同时展示优点，会促进审计创新吗？ {#paper-10-1111-1911-3846-70091}
+
+<p class="myapa">Kang, Y. J. &amp; Piercey, M. D. (2026). Would a Balanced PCAOB Inspection Approach Increase Auditors&#x27; Use of Innovative Audit Procedures? Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70091" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Would%20a%20Balanced%20PCAOB%20Inspection%20Approach%20Increase%20Auditors%27%20Use%20of%20Innovative%20Audit%20Procedures%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文比较只报告审计缺陷的 PCAOB 检查方式与同时披露优点、缺点的平衡方式。摘要显示，在重大错报风险适中的情境下，后者使审计人员更加考虑创新程序的潜在有效性，并在计划中优先安排此类程序。结论具有情境边界，不能直接推断所有检查改革都会提高实际审计质量。
+
+标签：<a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：审计">审计</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：监管">监管</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a>
+
+<small>来源日期：2026-10-13；补录：2026-10-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 提高披露要求，是否足以让养老金资产更透明？ {#paper-10-1007-s11142-026-09992-x}
+
+<p class="myapa">Anantharaman, D., Chuk, E., &amp; Xia, T. S. (2026). So similar, yet so different: comparing the US GAAP and IFRS experience at eliciting greater transparency on pension asset disclosures. Review of Accounting Studies. <a href="https://doi.org/10.1007/s11142-026-09992-x" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=So%20similar%2C%20yet%20so%20different%3A%20comparing%20the%20US%20GAAP%20and%20IFRS%20experience%20at%20eliciting%20greater%20transparency%20on%20pension%20asset%20disclosures" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文比较 US GAAP 和 IFRS 对养老金资产披露的两次改革。两者都提高披露要求，但 IFRS 同时取消预期收益率这一计量要素，US GAAP 则保留。作者报告 IFRS 下透明度改善更明显，强调披露规则需要结合管理层的计量与报告激励分析，不能仅比较规定文本的详尽程度。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99&amp;show-results=1" title="全站搜索：会计准则">会计准则</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a>
+
+<small>来源日期：2026-10-10；补录：2026-10-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 债券问询函与关联投资者：信息约束怎样发挥作用？ {#paper-10-1287-mnsc-2024-07607}
+
+<p class="myapa">Ding, Y., Wong, T. J., Zhang, R., &amp; Zhang, T. (2026). Comment Letters, Connected Investors, and Corporate Bond Issuance. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07607" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Comment%20Letters%2C%20Connected%20Investors%2C%20and%20Corporate%20Bond%20Issuance" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文使用中国公司债发行数据，考察监管问询函与发行结果及投资者参与的关系。摘要报告，问询更常针对信息不透明企业；与发行人有既有业务关系的金融机构在相关发行中参与更多。作者讨论私人信息和关系收益的作用，提示评估信息监管时还需关注投资者与发行人的联系。
+
+标签：<a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：公司债券">公司债券</a> · <a class="tag-link" href="?q=%E9%97%AE%E8%AF%A2%E5%87%BD&amp;show-results=1" title="全站搜索：问询函">问询函</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a>
+
+<small>来源日期：2026-10-13；补录：2026-10-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 把高频尾部信息纳入 VaR 与 ES 预测 {#arxiv-2610-13446}
+
+<p class="myapa">Keisuke Sasaki &amp; Yasuhiro Omori. (2026). Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.13446" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.13446.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Realized%20Tail-Risk%20Conditional%20Autoregressive%20Expectile%20Models%3A%20Accurate%20and%20Stable%20Forecasting%20Performance" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文将日内收益构造的已实现分位数和预期短缺纳入条件 expectile 的动态与测量方程，用于联合预测 VaR 和 ES。参数通过 MCMC 估计，并以数值实验和美国股票收益作比较。这里介绍的是预测框架；摘要中的表现描述不等于对其他市场或样本的独立验证。
+
+标签：<a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：高频数据">高频数据</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a>
+
+<small>来源日期：2026-10-09；补录：2026-10-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 技能与投入互补，为何低技能儿童仍可能获得更高边际回报？ {#arxiv-2610-12509}
+
+<p class="myapa">Liam Puknys. (2026). Early Investment Snowballs for Low-Skill Children: Average Marginal Returns and the Dynamics of Skill Formation. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.12509" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.12509.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Early%20Investment%20Snowballs%20for%20Low-Skill%20Children%3A%20Average%20Marginal%20Returns%20and%20the%20Dynamics%20of%20Skill%20Formation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文区分固定其他投入时的弹性与对投入联合分布取平均后的边际回报，并重新分析儿童技能形成模型。两种统计对象的差异可以解释部分看似矛盾的结论。作者也指出，控制母亲永久收入后，当期收入无法提供预期的投资变动信息，因此提醒将估计作描述性解释。
+
+标签：<a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a>
+
+<small>来源日期：2026-10-06；补录：2026-10-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 非线性 GMM 如何随数据到达递推更新？ {#arxiv-2610-12873}
+
+<p class="myapa">Duy Nguyen. (2026). An efficient stochastic generalized method of moments estimator for nonlinear moment models. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.12873" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.12873.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=An%20efficient%20stochastic%20generalized%20method%20of%20moments%20estimator%20for%20nonlinear%20moment%20models" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工作论文研究非线性随机 GMM 的渐近性质，通过递推更新矩条件雅可比、权重矩阵及预条件矩阵，并对迭代结果取平均。理论依赖单调性、矩条件及初始估计等要求；一般非线性情形不能无条件视为全局收敛。适合关注大样本单遍估计和在线过度识别检验的读者。
+
+标签：<a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：在线估计">在线估计</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
+
+<small>来源日期：2026-10-09；补录：2026-10-14</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### cpop 1.0.10：时间序列斜率变化检测更新 {#r-cpop-1-0-10}
+
+R 包 cpop 用连续分段线性拟合识别时间序列的斜率变化，以残差平方和与变化次数惩罚控制拟合复杂度。1.0.10 增加 罚参数路径结果的后处理，并适配 crops 1.0.5。安装用 <code>install.packages(&quot;cpop&quot;)</code>，再核对版本；当前 Windows 二进制仍为 1.0.9，新版源码需要编译环境。本轮核对了官方说明和示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a>
+
+<small>来源日期：2026-10-13；补录：2026-10-14</small>
+
+<a href="https://cran.r-project.org/web/packages/cpop/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 第十二届人工智能发展与治理产学研论坛征文 {#conference-ai-governance-2026}
+
+**投稿截止：2026-10-30**
+
+会议：2026-11-13 至 2026-11-13 · 中国大陆，广州
+
+费用：本次征文通知未公布注册或会务费用，参会前请向主办方确认。
+
+论坛将于 11 月 13–14 日在广州举行，征集人工智能与产业创新、企业组织、政策评估及安全治理等主题的论文和企业案例。全文于 10 月 30 日前通过官方通知所列邮箱提交，入选论文须至少一位作者注册并报告。通知未公布会务费用，不能据此认定免费；具体投稿格式和联系方式见主办方原文。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E6%96%87&amp;show-results=1" title="全站搜索：会议征文">会议征文</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E4%BA%A7%E4%B8%9A%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：产业经济">产业经济</a>
+
+<small>来源日期：2026-09-16；补录：2026-10-14</small>
+
+<a href="https://gjxh.dufe.edu.cn/content_101519.html" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

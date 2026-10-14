@@ -8,9 +8,65 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 32 页 · 共 315 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-32.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 33 页 · 共 323 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-33.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>非线性 GMM 如何随数据到达递推更新？</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文研究非线性随机 GMM 的渐近性质，通过递推更新矩条件雅可比、权重矩阵及预条件矩阵，并对迭代结果取平均。理论依赖单调性、矩条件及初始估计等要求；一般非线性情形不能无条件视为全局收敛。适合关注大样本单遍估计和在线过度识别检验的读者。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：在线估计">在线估计</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-12873">查看本期</a><a href="https://arxiv.org/abs/2610.12873" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>银行专业化如何影响抛补利率平价？</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文利用银行外汇衍生品敞口研究金融中介的风险分担。作者发现，外汇掉期业务中的对冲并不总与期限匹配，机构会专注于熟悉的风险市场。研究将跨市场的抛补利率平价偏离与中介专业化联系起来，为理解套利边界和风险溢价提供了新的观察角度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B1%87%E7%8E%87&amp;show-results=1" title="全站搜索：汇率">汇率</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：金融中介">金融中介</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%88%86%E6%8B%85&amp;show-results=1" title="全站搜索：风险分担">风险分担</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1111-jofi-70095">查看本期</a><a href="https://doi.org/10.1111/jofi.70095" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>求职建议推广后，效果为何可能减弱？</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文在丹麦公共就业服务平台开展两阶段随机实验，改变地区内获得职位信息和职业建议的求职者比例。摘要报告，小范围提供建议时就业与收入改善，覆盖面扩大后收益减弱；作者将这一变化与推荐职业中的竞争拥挤联系起来。政策扩围评估需要同时考虑直接效果与求职者之间的溢出。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%BA%A2%E5%87%BA%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：溢出效应">溢出效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1093-restud-rdag112">查看本期</a><a href="https://doi.org/10.1093/restud/rdag112" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>检查报告同时展示优点，会促进审计创新吗？</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文比较只报告审计缺陷的 PCAOB 检查方式与同时披露优点、缺点的平衡方式。摘要显示，在重大错报风险适中的情境下，后者使审计人员更加考虑创新程序的潜在有效性，并在计划中优先安排此类程序。结论具有情境边界，不能直接推断所有检查改革都会提高实际审计质量。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：审计">审计</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：监管">监管</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1111-1911-3846-70091">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70091" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>提高披露要求，是否足以让养老金资产更透明？</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文比较 US GAAP 和 IFRS 对养老金资产披露的两次改革。两者都提高披露要求，但 IFRS 同时取消预期收益率这一计量要素，US GAAP 则保留。作者报告 IFRS 下透明度改善更明显，强调披露规则需要结合管理层的计量与报告激励分析，不能仅比较规定文本的详尽程度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99&amp;show-results=1" title="全站搜索：会计准则">会计准则</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1007-s11142-026-09992-x">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09992-x" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>把高频尾部信息纳入 VaR 与 ES 预测</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文将日内收益构造的已实现分位数和预期短缺纳入条件 expectile 的动态与测量方程，用于联合预测 VaR 和 ES。参数通过 MCMC 估计，并以数值实验和美国股票收益作比较。这里介绍的是预测框架；摘要中的表现描述不等于对其他市场或样本的独立验证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：高频数据">高频数据</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-13446">查看本期</a><a href="https://arxiv.org/abs/2610.13446" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>技能与投入互补，为何低技能儿童仍可能获得更高边际回报？</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文区分固定其他投入时的弹性与对投入联合分布取平均后的边际回报，并重新分析儿童技能形成模型。两种统计对象的差异可以解释部分看似矛盾的结论。作者也指出，控制母亲永久收入后，当期收入无法提供预期的投资变动信息，因此提醒将估计作描述性解释。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-12509">查看本期</a><a href="https://arxiv.org/abs/2610.12509" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>债券问询函与关联投资者：信息约束怎样发挥作用？</h3>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文使用中国公司债发行数据，考察监管问询函与发行结果及投资者参与的关系。摘要报告，问询更常针对信息不透明企业；与发行人有既有业务关系的金融机构在相关发行中参与更多。作者讨论私人信息和关系收益的作用，提示评估信息监管时还需关注投资者与发行人的联系。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：公司债券">公司债券</a> · <a class="tag-link" href="?q=%E9%97%AE%E8%AF%A2%E5%87%BD&amp;show-results=1" title="全站搜索：问询函">问询函</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1287-mnsc-2024-07607">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07607" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>面板分位数回归如何处理内生解释变量？</h3>
 <p class="catalog-meta">期次日期：2026-10-13</p>
@@ -25,64 +81,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：团队流动">团队流动</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BB%A9%E6%95%88&amp;show-results=1" title="全站搜索：组织绩效">组织绩效</a> · <a class="tag-link" href="?q=%E5%8D%8F%E4%BD%9C%E7%BB%8F%E9%AA%8C&amp;show-results=1" title="全站搜索：协作经验">协作经验</a></p>
 <p class="catalog-actions"><a href="../issues/20261013/#paper-10-1287-orsc-2024-18867">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18867" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>税务关键审计事项会改变跨国利润转移吗？</h3>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文研究审计报告中与不确定税务头寸有关的关键审计事项。披露与跨国利润转移减少相关，关联在税收执法较强、企业融资约束较低等情形更明显。可借鉴信息显著性与外部监督的机制；摘要层面的关联不能替代对识别设计和审计选择过程的核查。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：审计披露">审计披露</a> · <a class="tag-link" href="?q=%E5%88%A9%E6%B6%A6%E8%BD%AC%E7%A7%BB&amp;show-results=1" title="全站搜索：利润转移">利润转移</a> · <a class="tag-link" href="?q=%E7%A8%8E%E6%94%B6&amp;show-results=1" title="全站搜索：税收">税收</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-2308-tar-2024-0168">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0168" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>数据科学家与领域专家为何难以用好同一个 AI 模型？</h3>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文通过银行场景的归纳研究，分析数据科学家与领域专家在知识生产和评价标准上的分歧。预测结果能否使用还取决于领域专家如何把它接入现有业务对象与工作惯例。研究提供理解 AI 落地组织障碍的视角，属于情境性的定性证据，不能直接推为普遍绩效结论。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E5%BA%94%E7%94%A8&amp;show-results=1" title="全站搜索：AI应用">AI应用</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%9F%A5%E8%AF%86&amp;show-results=1" title="全站搜索：组织知识">组织知识</a> · <a class="tag-link" href="?q=%E9%A2%86%E5%9F%9F%E4%B8%93%E5%AE%B6&amp;show-results=1" title="全站搜索：领域专家">领域专家</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-1287-orsc-2023-17369">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.17369" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>报告基础设施怎样连接内控与投资效率？</h3>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文以 SOX 404 内控要求为信息质量需求冲击，研究企业在信息技术和通信等报告基础设施上的投入。作者发现投入增加，并与后续投资效率改善相联系。研究启发在于把合规要求、内部信息摩擦和资源配置连接起来；政策冲击的可比性与其他同期变化需在全文中进一步核查。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%86%85%E9%83%A8%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：内部控制">内部控制</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF&amp;show-results=1" title="全站搜索：信息技术">信息技术</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E6%95%88%E7%8E%87&amp;show-results=1" title="全站搜索：投资效率">投资效率</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-2308-tar-2023-0595">查看本期</a><a href="https://doi.org/10.2308/tar-2023-0595" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>局部投影怎样利用额外滞后提高估计效率？</h3>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>作者提出把额外滞后作为排除工具变量的局部投影估计。在有限阶模型和鞅差冲击等条件下，适当加权的 IV 方法具有渐近效率优势，并讨论未知持续性与局部模型误设下的推断。启发在于重新分配滞后变量的角色；额外滞后不是天然有效的工具，不能省略条件检查。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E8%84%89%E5%86%B2%E5%93%8D%E5%BA%94&amp;show-results=1" title="全站搜索：脉冲响应">脉冲响应</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-13269">查看本期</a><a href="https://arxiv.org/abs/2610.13269" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>央行数字货币会挤出还是支持稳定币？</h3>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文用理论模型讨论代币化央行数字货币与稳定币的竞争。适度利率与匿名性可能使公共数字货币替代稳定币，高利率而匿名性较弱时却可能成为稳定币的抵押品。关键在于制度设计如何改变发行人的选择；这些是模型条件下的机制与福利判断，不是对现实政策的直接因果评估。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81&amp;show-results=1" title="全站搜索：数字货币">数字货币</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E7%90%86%E8%AE%BA&amp;show-results=1" title="全站搜索：金融理论">金融理论</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-1287-mnsc-2024-08420">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08420" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>处理分配相关时，怎样构造设计型标准误？</h3>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文针对处理暴露分布已知、单位之间分配依赖复杂的实验或准实验设计，构造设计型方差估计量。其目标是方差上界，保守程度与处理效应异质性有关，可涵盖干扰和空间相关分配。它要求明确分配机制，不是给任意观察性回归套用的通用稳健标准误。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：标准误">标准误</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：空间相关">空间相关</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-12674">查看本期</a><a href="https://arxiv.org/abs/2610.12674" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>信贷经理更换后，贷款重谈为何更严格？</h3>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文考察原始信贷经理被替换后的首次贷款重谈，发现结果对借款人更不利，并将其与初始放贷阶段的业务拓展压力联系起来。研究结合贷款合同、银行财务和经理履历，提醒读者关注贷款关系中的人员激励；是否能作因果解释仍需核对人员更换的选择机制。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：银行信贷">银行信贷</a> · <a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E5%A5%91%E7%BA%A6&amp;show-results=1" title="全站搜索：债务契约">债务契约</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%91%98%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：人员激励">人员激励</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-2308-tar-2025-0120">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0120" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>随机分配以后，为什么逐个观测 bootstrap 仍可能失效？</h3>
-<p class="catalog-meta">期次日期：2026-10-12</p>
-<p>论文指出，随机分配与重抽样未必消除相同的协方差项。即使随机分配让 OLS 推断对某些结果相关性不敏感，独立重抽样仍可能遗漏处理效应的跨单位协方差。作者分析需要恢复的随机回归量得分协方差，并讨论有序或分组依赖条件下的估计。实际启发是让重抽样与依赖结构对应，不能把随机实验当作独立 bootstrap 自动有效的保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a> · <a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：相关误差">相关误差</a></p>
-<p class="catalog-actions"><a href="../issues/20261012/#arxiv-2610-04217">查看本期</a><a href="https://arxiv.org/abs/2610.04217" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 32 页 · 共 315 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-32.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 33 页 · 共 323 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-33.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>
