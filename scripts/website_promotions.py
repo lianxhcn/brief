@@ -115,7 +115,7 @@ def render_home_promotion(config=None, today=None):
         cards.append(f'<figure class="course-poster" {attributes(item)}>'
                      f'<a class="course-poster-desktop" href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
                      f'<img src="{html.escape(item["poster"], quote=True)}" alt="{html.escape(item["title"], quote=True)}：'
-                     f'{html.escape("、".join(item["dates"]))}" width="1200" height="540" loading="lazy"></a>'
+                     f'{html.escape("、".join(item["dates"]))}" width="{item.get("poster_width", 1200)}" height="{item.get("poster_height", 540)}" loading="lazy"></a>'
                      '<figcaption class="course-mobile-card"><p class="course-mobile-label">连享会 · 近期课程</p>'
                      f'<p class="course-mobile-title">{html.escape(item["title"])}</p>'
                      '<p class="course-mobile-dates">' + '<br>'.join(html.escape(value) for value in item['dates']) + '</p>'

@@ -13,6 +13,7 @@ title: "新推文 · 第 6 页"
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>公司给近 4000 名员工配上 AI，谁真正会用？</h3>
+
 <p class="catalog-meta">来源日期：2026-09-02</p>
 <p>文章解读企业内部 GenAI 日志研究，区分使用频率与使用方式，并讨论提示信息和任务组织的衡量。研究来自单一企业的观察资料，适合思考使用质量指标。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：AI采用">AI采用</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a></p>
@@ -20,6 +21,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>用 AI-Agent 推送 GitHub：本地仓库同步与授权指南</h3>
+
 <p class="catalog-meta">来源日期：2026-09-01</p>
 <p>从本地文件夹与远程仓库的关系讲起，说明项目边界、授权和同步检查流程。适合作为整理公开附件前的阅读材料。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=GitHub&amp;show-results=1" title="全站搜索：GitHub">GitHub</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a></p>
@@ -27,6 +29,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>招聘数据能测什么？指标构造与 LLM 标注</h3>
+
 <p class="catalog-meta">来源日期：2026-09-01</p>
 <p>讨论职位名称、任职要求、技能与任务的不同测量对象，并给出 LLM 标注及人工审计流程。适合在构造企业或地区指标前明确变量含义。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：招聘数据">招聘数据</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a></p>
@@ -34,6 +37,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>招聘数据如何获取？数据来源、去重与字段清洗</h3>
+
 <p class="catalog-meta">来源日期：2026-09-01</p>
 <p>文章区分招聘广告、职位空缺和实际录用，整理数据获取、去重和字段标准化的工作口径。重点是保留来源和样本覆盖变化，避免把数据管道变化当作招聘需求变化。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：招聘数据">招聘数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a></p>
@@ -41,6 +45,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>我会 AI，为什么还拿不到实习？</h3>
+
 <p class="catalog-meta">来源日期：2026-08-31</p>
 <p>文章从需求澄清、过程留痕、结果核查和汇报四个环节讨论项目能力展示。适合把零散课程作业整理成可检查的求职作品，而不是仅列工具名称。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E6%8A%80%E8%83%BD&amp;show-results=1" title="全站搜索：AI技能">AI技能</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95&amp;show-results=1" title="全站搜索：职业发展">职业发展</a></p>
@@ -48,6 +53,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>去 AI 味的 10 个 Skills 怎么选？论文、报告和推文不能只靠一套规则</h3>
+
 <p class="catalog-meta">来源日期：2026-08-31</p>
 <p>按论文、报告和推文等文体比较润色规则，讨论样文、修改边界及验收方法。文章将事实和术语检查放在语言自然度之前，适合制定项目写作规范。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AD%A6%E6%9C%AF%E5%86%99%E4%BD%9C&amp;show-results=1" title="全站搜索：学术写作">学术写作</a> · <a class="tag-link" href="?q=Skills&amp;show-results=1" title="全站搜索：Skills">Skills</a></p>
@@ -55,6 +61,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>平行趋势不成立怎么办？用 DiDwb、MDiD 和 RD 重新识别政策效果</h3>
+
 <p class="catalog-meta">来源日期：2026-08-29</p>
 <p>围绕空气污染政策评估，解释基线污染与后续趋势相关时的 DID 风险，并比较 DiDwb、MDiD 和 RD 的识别思路。阅读时应同时核对样本与目标参数。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a></p>
@@ -62,6 +69,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>LLM 文本标注成本降 80%：一次放几条、一次问几个变量？</h3>
+
 <p class="catalog-meta">来源日期：2026-08-29</p>
 <p>文章分别讨论一次提交多条文本与一次标注多个变量的成本和质量权衡。适合在大规模标注前设计小样本校准、保留失败记录并检查下游变量误差。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a></p>
@@ -69,6 +77,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>AI 我知道-06：为什么 AI 越聊越乱？上下文腐烂与论文协作工作流</h3>
+
 <p class="catalog-meta">来源日期：2026-08-29</p>
 <p>从变量定义、模型版本和代码修改的混乱出发，讨论任务拆分、项目文件夹与任务日志。适合建立长对话交接规则，避免把过时设定带入当前分析。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：上下文管理">上下文管理</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：论文协作">论文协作</a></p>
@@ -76,6 +85,7 @@ title: "新推文 · 第 6 页"
 </article>
 <article class="catalog-card">
 <h3>WorkBuddy 接入 Stata MCP：从文献整理到直接跑回归</h3>
+
 <p class="catalog-meta">来源日期：2026-08-24</p>
 <p>以文献卡片、数据诊断和 Stata 自带数据测试说明 Agent 与 MCP 的连接流程。适合梳理代码生成、实际执行和日志反馈之间的分工。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=MCP&amp;show-results=1" title="全站搜索：MCP">MCP</a> · <a class="tag-link" href="?q=WorkBuddy&amp;show-results=1" title="全站搜索：WorkBuddy">WorkBuddy</a></p>

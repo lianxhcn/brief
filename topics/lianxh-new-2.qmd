@@ -13,6 +13,7 @@ title: "新推文 · 第 2 页"
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>figures4papers：借助 AI Agent 绘制科研图</h3>
+
 <p class="catalog-meta">期次日期：2026-10-05</p>
 <p>文章以参考图和可编辑绘图代码为起点，说明如何向 AI Agent 交代研究问题、图形样式和统计约束。事件研究图需要明确基准期、处理时点和置信区间，异质性图则应避免把类别组别画成连续趋势。读者可以借鉴分轮修改和保留源代码的流程；模板与视觉优化不能验证估计设定，最终图形仍须逐项核查。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE&amp;show-results=1" title="全站搜索：科研绘图">科研绘图</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a></p>
@@ -20,6 +21,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>Stata 调用大模型：用 `catllm` 完成文本分类与主题发现</h3>
+
 <p class="catalog-meta">期次日期：2026-10-05</p>
 <p>文章介绍在 Stata 中调用 catllm，将预先定义的分类规则用于文本编码，并从文本中提取候选主题，再由研究者整理分类表。示例强调类别定义、纳入排除条件和多标签规则，需要 Stata、Python 后端及模型服务配合。少量模拟文本演示说明操作流程，不能证明分类准确率；将模型标签用于回归前，还需人工抽样核验和评估测量误差。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：大语言模型">大语言模型</a></p>
@@ -27,6 +29,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>别急着做 DID（上）：先把政策背景搞清楚</h3>
+
 <p class="catalog-meta">期次日期：2026-10-04</p>
 <p>文章从政策制定动机、申请与行政筛选、名单公布和执行强度出发，说明制度细节怎样影响处理组、控制组和事件时间的构造。主动申请、预期反应、门槛及外溢分别对应不同识别威胁，再据此比较 DID、断点与合成控制等设计。方法选择需要政策事实和数据支持，不能仅凭政策前后变化认定自然实验成立。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E8%AF%86%E5%88%AB%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：识别设计">识别设计</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
@@ -34,6 +37,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>别急着做 DID (下)：让 AI 做你的政策分析「虚拟导师」</h3>
+
 <p class="catalog-meta">期次日期：2026-10-04</p>
 <p>文章提供政策文件、执行规则、关键日期、数据和已有文献组成的研究材料包，以及多轮导师式提问提示词。用绿色工厂认定示例说明如何从申请池、筛选与预期反应逐步修订研究设计，并将已确认事实、推断和缺口分开记录。AI 可以帮助提出问题和组织证据，但不能代替政策原文核查或证明识别假设成立。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a></p>
@@ -41,6 +45,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>greCAPTCHA：测测作者是否真的懂自己的论文</h3>
+
 <p class="catalog-meta">期次日期：2026-10-03</p>
 <p>文章介绍根据论文及作者贡献声明生成问题、限时作答和形成评分报告的 greCAPTCHA 原型，将事实记忆、研究选择、方法基础和失效条件分开考查。它为课程口试与投稿前自检提供思路。31 人概念验证中的区分能力不能转换为作者身份认证准确率；自动评分仍有争议，不能凭低分认定学术不端。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E6%8C%87%E5%AF%BC&amp;show-results=1" title="全站搜索：论文指导">论文指导</a> · <a class="tag-link" href="?q=%E6%A0%B8%E9%AA%8C%E8%83%BD%E5%8A%9B&amp;show-results=1" title="全站搜索：核验能力">核验能力</a> · <a class="tag-link" href="?q=AI%E5%86%99%E4%BD%9C&amp;show-results=1" title="全站搜索：AI写作">AI写作</a></p>
@@ -48,6 +53,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>LLM 前视偏差：回测的高准确率可信吗？三种检查方法</h3>
+
 <p class="catalog-meta">期次日期：2026-10-03</p>
 <p>文章用业绩公告实验解释三种前视偏差检查：不提供正文的记忆探测、隐去身份和日期，以及使用训练截止日后的事件。各检验还受类别比例、信息损失和市场环境影响。模型自报训练截止时间尚未独立核实；原文收益窗口包含公告前价格变化，不能将事件判断指标写成可交易策略收益。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%89%8D%E8%A7%86%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：前视偏差">前视偏差</a> · <a class="tag-link" href="?q=%E5%8E%86%E5%8F%B2%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：历史回测">历史回测</a> · <a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a></p>
@@ -55,6 +61,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>Jev：快速、低成本的语义判断，用于 Agent 分流与文本分析</h3>
+
 <p class="catalog-meta">期次日期：2026-10-03</p>
 <p>文章把 Jev 的 Noul、Choice 和 Score 接口用于 Agent 的任务分流、检索筛选、工具结果检查和上下文管理，再讨论企业文本中关注、计划与实施披露的区分。相较前期接口介绍，本篇增加工作流接入和中文语料验证方案。模型置信指标需校准，披露标签不等于真实采用，效率应按整个流程评估。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Jev&amp;show-results=1" title="全站搜索：Jev">Jev</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a></p>
@@ -62,6 +69,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>人工标注通过以后，LLM 文本变量还要做哪些验证？</h3>
+
 <p class="catalog-meta">期次日期：2026-10-02</p>
 <p>以年报中的管理层乐观程度为例，文章说明人工标签与模型高度一致以后仍需完成哪些检验。内容包括区分开发、测试和外推样本，检查关键子样本的系统性误差，以及跨时期、跨行业和合理测量方案的稳定性。测试样本不能反复用于调提示词；总体准确率也不能保证测量误差不影响后续回归和因果解释。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：样本外检验">样本外检验</a> · <a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a></p>
@@ -69,6 +77,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>Stata新命令tvpreg：时变参数回归分析</h3>
+
 <p class="catalog-meta">期次日期：2026-10-02</p>
 <p>文章介绍时变参数回归命令 <code>tvpreg</code>，将固定系数扩展为随时间变化的参数路径，并结合 TVP-VAR、局部投影、工具变量与弱工具变量场景解释语法和图形输出。读者可据此区分参数不稳定与离散结构突变，了解 <code>tvpplot</code> 和 <code>predict</code> 的用法。应用仍需核对时间序列设定、工具变量有效性及所用模型的条件；本期阅读推文，未重新运行随文示例。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=tvpreg&amp;show-results=1" title="全站搜索：tvpreg">tvpreg</a> · <a class="tag-link" href="?q=%E6%97%B6%E5%8F%98%E5%8F%82%E6%95%B0&amp;show-results=1" title="全站搜索：时变参数">时变参数</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
@@ -76,6 +85,7 @@ title: "新推文 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>Stata 新命令 sreg：随机实验的回归系数未必是你关心的平均效应</h3>
+
 <p class="catalog-meta">期次日期：2026-09-30</p>
 <p>文章以分层随机实验解释固定效应回归的权重为何可能偏离研究者关心的平均处理效应，并介绍 Stata 命令 <code>sreg</code> 的估计与推断。内容包括人口权重与精度权重、实验前控制变量、与分配设计匹配的标准误及秘鲁学生实验。安装可用 <code>ssc install sreg, all replace</code>。随机分配视频的效应不能直接解释为服药效应，干预后的服药数量也不宜作为估计总效应的控制变量。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=sreg&amp;show-results=1" title="全站搜索：sreg">sreg</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：平均处理效应">平均处理效应</a></p>

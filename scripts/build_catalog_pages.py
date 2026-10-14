@@ -10,6 +10,7 @@ from pathlib import Path
 
 from site_config import date_compact, is_public_issue, issue_title
 from website_tags import tag_links
+from website_citations import catalog_citation
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "content" / "issues"
@@ -54,6 +55,7 @@ def entries(issues: list[dict]) -> list[dict]:
                 if identities(item) & seen: continue
                 seen.update(identities(item))
                 collected.append({
+                    "paper_metadata": catalog_citation(item, item.get("added_date") or issue["date"]) if category == "papers" else "",
                     "id": item["id"], "date": issue["date"], "title": item["title"], "note": public_summary(item),
                     "section": catalog["section"], "catalog": catalog, "original_url": (item.get("url") or item.get("source_url") or item.get("official_url") or item.get("doi_url") or item.get("homepage_url") or ""),
                 })
@@ -62,7 +64,7 @@ def entries(issues: list[dict]) -> list[dict]:
             item = resolve(row)
             if identities(item) & seen: continue
             seen.update(identities(item))
-            collected.append(dict(id=item['id'], date=row['source_date'], title=item['title'], note=public_summary(item), section=item['catalog']['section'], catalog=item['catalog'], history_slug=slug, original_url=(item.get('url') or item.get('source_url') or item.get('official_url') or item.get('doi_url') or item.get('homepage_url') or '')))
+            collected.append(dict(paper_metadata=catalog_citation(item, row.get('added_date')) if row['category']=='papers' else '', id=item['id'], date=row['source_date'], title=item['title'], note=public_summary(item), section=item['catalog']['section'], catalog=item['catalog'], history_slug=slug, original_url=(item.get('url') or item.get('source_url') or item.get('official_url') or item.get('doi_url') or item.get('homepage_url') or '')))
     return sorted(collected, key=lambda value: (value["date"], value["title"]), reverse=True)
 
 
@@ -89,6 +91,7 @@ def card(entry: dict) -> str:
     action_class = ' class="catalog-actions"' if original_url.startswith(('https://', 'http://')) else ''
     return f'''<article class="catalog-card">
 <h3>{escape(entry['title'])}</h3>
+{entry.get("paper_metadata", "")}
 <p class="catalog-meta">{date_label}：{escape(entry['date'])}</p>
 <p>{inline_code(entry['note'])}</p>
 <p class="catalog-tags">{metadata}</p>

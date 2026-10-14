@@ -42,7 +42,8 @@ def main():
                         assert term not in body, (path, term)
                     if path == '/':
                         assert page.locator('.course-hub-callout').count() == 0
-                        assert page.locator('.home-promotions .course-poster img').count() == 1
+                        assert page.locator('.home-promotions .course-poster img').count() >= 1
+                        assert page.locator('.home-promotions .course-poster figcaption a').count() == page.locator('.home-promotions .course-poster img').count()
                         assert page.locator('main.content').evaluate("el => !el.querySelector('.home-promotions').nextElementSibling")
                     else:
                         assert page.locator('.course-hub-callout').count() == 1

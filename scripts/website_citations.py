@@ -79,3 +79,33 @@ def bibliography_metadata(item):
 
 def website_citation(item):
     return format_myapa(bibliography_metadata(item))
+
+
+# 栏目与历史分页共用：仅从审核后的引文事实读取，不推测作者和日期。
+JOURNAL_ABBREVIATIONS = {
+    'American Economic Review': 'AER', 'The Quarterly Journal of Economics': 'QJE',
+    'Quarterly Journal of Economics': 'QJE', 'Journal of Political Economy': 'JPE',
+    'The Journal of Finance': 'JF', 'Journal of Finance': 'JF',
+    'Journal of Financial Economics': 'JFE', 'The Review of Financial Studies': 'RFS',
+    'Review of Financial Studies': 'RFS', 'The Review of Economic Studies': 'REStud',
+    'Review of Economic Studies': 'REStud', 'Journal of the American Statistical Association': 'JASA',
+    'The Accounting Review': 'TAR', 'Journal of Accounting Research': 'JAR',
+    'Journal of Accounting and Economics': 'JAE', 'Contemporary Accounting Research': 'CAR',
+}
+
+def catalog_citation(item, added_date=None):
+    m = bibliography_metadata(item)
+    authors = m['authors']
+    names = authors[0] + ' et al.' if len(authors) > 3 else '; '.join(authors)
+    source = JOURNAL_ABBREVIATIONS.get(m['source'], m['source'])
+    working = item.get('publication_status') == 'working-paper'
+    if working:
+        source += ' (Working paper)'
+    title = m['title'].rstrip()
+    text = f"{names} ({m['year']}). {title}" + ('' if title.endswith(('.', '?', '!')) else '.') + f' {source}.'
+    # 原字段是什么精度就展示什么精度，缺失不拿收录日兜底。
+    source_date = item.get('published_date') or item.get('release_date') or '待核'
+    label = '提交/版本日期' if working else '发表日期'
+    collected = added_date or item.get('added_date') or '待核'
+    return ('<p class="catalog-citation">' + html.escape(text) + '</p>'
+            + '<p class="catalog-meta">' + html.escape(f'{label}：{source_date} · 收录日期：{collected}') + '</p>')

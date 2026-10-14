@@ -8,11 +8,28 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 7 页 · 共 70 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
+<h3>heterogeneouspeereffects：区分组内与组间同伴效应</h3>
+
+<p class="catalog-meta">期次日期：2026-10-09</p>
+<p>R 包 heterogeneouspeereffects 实现异质同伴效应的两步 GMM，区分直接处理效应、组内及组间溢出，并提供交叉拟合的半参数设定。官方提供模拟示例和两种识别情形的说明。CRAN 0.1.0 可用 <code>install.packages(&quot;heterogeneouspeereffects&quot;)</code> 安装；README 的 GitHub 安装示例仍含占位账号，使用时应以 CRAN 和手册为准。本轮未独立实测，采用前需核对处理资格与群组身份的识别条件。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
+<p class="catalog-actions"><a href="../issues/20261009/#r-heterogeneouspeereffects-0-1-0">查看本期</a><a href="https://cran.r-project.org/web/packages/heterogeneouspeereffects/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>effectcheck：检查论文中的统计数字是否一致</h3>
+
+<p class="catalog-meta">期次日期：2026-10-09</p>
+<p>R 包 effectcheck 从已经提取的结果文本中识别统计量、效应量与区间，重新计算可核对的部分，并记录设计不明确时采用的假设。入口为 <code>check_text()</code>，当前版本不承担 PDF 文本提取。CRAN 更新到 0.7.17，但作者明确说明仍在开发且尚未充分验证，检查结果须独立复核；一致性异常也不能直接证明研究不当。可用 <code>install.packages(&quot;effectcheck&quot;)</code> 安装，本轮未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：统计报告">统计报告</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E6%A0%B8&amp;show-results=1" title="全站搜索：研究复核">研究复核</a></p>
+<p class="catalog-actions"><a href="../issues/20261009/#r-effectcheck-0-7-17">查看本期</a><a href="https://cran.r-project.org/web/packages/effectcheck/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
 <h3>caples：把 A/B/n 测试设计与结果检查连起来</h3>
+
 <p class="catalog-meta">期次日期：2026-10-09</p>
 <p>R 包 caples 提供转化率 A/B/n 测试的样本量设计和结果汇总，支持不等比例分流、多处理组校正与样本比例失配检查。官方示例先用 <code>caples_design()</code> 制定计划，再用 <code>caples_test()</code> 比较转化率并报告区间。CRAN 已发布 0.1.0，可用 <code>install.packages(&quot;caples&quot;)</code> 安装。输出能辅助解释实验，但不能替代随机化与样本独立性检查；本轮未独立实测。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：多重检验">多重检验</a></p>
@@ -20,6 +37,7 @@ title: "新方法 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>spaci 0.2.0：同时考虑空间混杂与邻近干扰</h3>
+
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>R 包提供 iDAPS 匹配和 recoverU+ 估计，用于同时存在空间混杂与邻近处理干扰的观察数据。0.2.0 新增空间 HAC 方差、空间区块 bootstrap 和条件随机化检验。安装为 <code>install.packages(&quot;spaci&quot;)</code>；官网提供模拟数据示例。点估计、暴露映射和空间相关推断各有假设，默认独立同分布标准误不能直接照搬。本轮核验文档与版本，未独立实测；部分 Windows 二进制仍显示旧版，安装后须核对版本。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a></p>
@@ -27,6 +45,7 @@ title: "新方法 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>rcsplot：样条曲线的估计样本与绘图区间要一致</h3>
+
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。安装为 <code>ssc install rcsplot</code>，要求 Stata 16 及以上。默认先按暴露变量第 1–99 百分位截尾，再用同一区间估计和绘图，并区分总体与非线性检验。使用前应明确截尾改变了哪个样本，不能把曲线形状直接当作因果关系；官方帮助含可运行例子，本轮未独立实测。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E9%99%90%E5%88%B6%E6%80%A7%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;show-results=1" title="全站搜索：限制性三次样条">限制性三次样条</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a></p>
@@ -34,6 +53,7 @@ title: "新方法 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>SeqExpMatch 停止维护：顺序实验项目需留意迁移</h3>
+
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>CRAN 的 0.1.1.1 版本已明确将 SeqExpMatch 标为停止维护，并建议转向 EDI。旧包用于顺序两组实验的随机分配、即时匹配和相应推断。已有复现项目宜先保留锁定环境、记录原函数与随机种子，再独立测试迁移结果；不要为了追新直接替换正在使用的设计。可用 <code>packageVersion(&quot;SeqExpMatch&quot;)</code> 核对版本。本条是维护状态提醒，不是新方法或性能认证，本轮未独立实测。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：顺序实验">顺序实验</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a></p>
@@ -41,6 +61,7 @@ title: "新方法 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>renv 1.3.1：修复并发恢复与共享缓存问题</h3>
+
 <p class="catalog-meta">期次日期：2026-10-07</p>
 <p>新版修复多个项目并发恢复时共享缓存可能留下无效条目的问题，并改进跨文件系统的缓存写入，避免其他进程读到尚未完成的副本。安装为 <code>install.packages(&quot;renv&quot;)</code>；典型流程是 <code>renv::init()</code>、确认代码结果后 <code>renv::snapshot()</code>，换机器再 <code>renv::restore()</code>。锁定 R 包版本有助于环境复现，但不替代数据、系统依赖与结果核验。本轮已读发行说明和示例，未实测。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：环境复现">环境复现</a> · <a class="tag-link" href="?q=%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：依赖管理">依赖管理</a></p>
@@ -48,6 +69,7 @@ title: "新方法 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>esreg：内生转换回归与收益选择</h3>
+
 <p class="catalog-meta">期次日期：2026-10-07</p>
 <p>Stata 命令以 Roy 模型联合描述是否参与及两种状态下的结果，提供极大似然和两步估计，并报告 ATT、ATU、ATE 及收益选择指标。安装为 <code>ssc install esreg</code>，要求 Stata 16 及以上，官方例程可运行 <code>esreg_examples 1</code>。识别依赖排除变量、函数形式及相应分布或条件均值假设，不能自动解决全部选择偏误。本轮已读帮助和示例，未独立实测。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%86%85%E7%94%9F%E8%BD%AC%E6%8D%A2%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：内生转换回归">内生转换回归</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%81%8F%E8%AF%AF&amp;show-results=1" title="全站搜索：选择偏误">选择偏误</a></p>
@@ -55,6 +77,7 @@ title: "新方法 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>Polars 2.0：升级前核对 SQL 与数据类型变化</h3>
+
 <p class="catalog-meta">期次日期：2026-10-07</p>
 <p>Polars 2.0 的发行说明列出 SQL 窗口函数在分组结果上的求值、QUALIFY 求值顺序及精确数值字面量类型等兼容性变化，并新增流式外存排序。安装指定版本可用 <code>pip install polars==2.0.0</code>。处理大型实证数据时，应先在独立环境比较关键查询结果、类型与空值行为，再迁移原项目；发行说明中的性能改进不能代替自己的数据测试。本轮核验官方文档和示例，未实测。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：数据处理">数据处理</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a></p>
@@ -62,27 +85,14 @@ title: "新方法 · 第 2 页"
 </article>
 <article class="catalog-card">
 <h3>tidyfinance 0.9：修正 Fama–MacBeth 标准误的排序问题</h3>
+
 <p class="catalog-meta">期次日期：2026-10-06</p>
 <p>维护者说明，旧版 Fama–MacBeth 汇总若未按时间排序，可能影响 Newey–West 标准误和 t 统计量；新版显式排序，风险溢价估计值不变。另新增 FRED-MD/QD 历史版本下载，便于按当时可得信息构造数据。安装为 <code>install.packages(&quot;tidyfinance&quot;, type=&quot;source&quot;)</code>，要求 R 4.1 及以上；本轮核验发行说明和示例，未独立测试。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：标准误">标准误</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20261006/#r-tidyfinance-0-9-0">查看本期</a><a href="https://cran.r-project.org/web/packages/tidyfinance/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>safestats 0.8.9：连续监测中的检验与置信序列</h3>
-<p class="catalog-meta">期次日期：2026-10-06</p>
-<p>R 包提供基于 e 值的连续监测推断。新版增加置信序列的滚动交集显示选项、条件 2×2 检验和初步单因素方差分析函数。安装为 <code>install.packages(&quot;safestats&quot;, type=&quot;source&quot;)</code>，要求 R 4.5 及以上。可选停止下的误差控制依赖相应检验设定；不能把普通 p 值反复查看后直接视为有效序贯检验。本轮核验手册和示例，未实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：序贯检验">序贯检验</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：置信序列">置信序列</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20261006/#r-safestats-0-8-9">查看本期</a><a href="https://cran.r-project.org/web/packages/safestats/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>bootdiag：用模拟分布开展时间序列回归诊断</h3>
-<p class="catalog-meta">期次日期：2026-10-06</p>
-<p>新命令在回归或受支持的 ARDL 模型后，将残差诊断统计量与 bootstrap 或 Monte Carlo 零假设分布比较。安装为 <code>ssc install bootdiag</code>，帮助文件示例为回归后执行 <code>bootdiag serial, reps(1999)</code>。使用前需核对模型恢复、数据生成过程和重复次数；本轮已读官方帮助及内嵌示例，独立示例下载返回 404，未实测，也未验证作者的有限样本性能声明。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a></p>
-<p class="catalog-actions"><a href="../issues/20261006/#stata-bootdiag-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459921.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 7 页 · 共 70 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li></ul></div></div>

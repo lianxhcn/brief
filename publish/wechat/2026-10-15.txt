@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.15
+
+📰 01｜论文 · Review of Economic Studies：药品质量监管为何可能同时提高价格与福利？
+论文考察智利仿制药生物等效性监管，结合政策变化与药品进入、认证和需求模型，分析质量标准对竞争的影响。
+引文：Atal, Cuesta & Sæthre (2026). Quality Regulation and Competition: Evidence from Pharmaceutical Markets. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag113 
+
+📰 02｜论文 · JPE：车险公司购买驾驶数据，如何改变定价与福利？
+论文研究美国车险公司的自愿驾驶监测计划：司机接受短期追踪，以换取后续保费折扣。
+引文：Jin & Vasserman (2026). Buying Data from Consumers: The Impact of Monitoring in U.S. Auto Insurance. JPE.
+主页： https://doi.org/10.1086/744482 
+
+📰 03｜论文 · Journal of Accounting Research：银行监管会影响环境执法的减排效果吗？
+环境执法要求企业采用更清洁的技术，而技术改造往往需要银行融资。
+引文：Gallemore & Giese (2026). Unintended Regulatory Spillovers: The Impact of Bank Regulatory Oversight on Environmental Enforcement. Journal of Accounting Research.
+主页： https://doi.org/10.1111/1475-679x.70088 
+
+📦 04｜软件 · R：flextable 0.10.3：整理可复现研究表格
+R 包 flextable 用统一接口整理表头、单元格与模型结果，并支持 Word、PowerPoint、HTML、PDF 和 Typst 输出。
+版本：R / flextable 0.10.3；发布：2026-10-14
+CRAN： https://cran.r-project.org/web/packages/flextable/index.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261015/ 

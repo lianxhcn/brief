@@ -13,6 +13,7 @@ title: "新推文"
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>HANK、OLG、BLP：家庭差异、世代交叠与市场结构</h3>
+
 <p class="catalog-meta">期次日期：2026-10-14</p>
 <p>推文分别用货币政策、养老金与差异化产品市场解释 HANK、OLG 和 BLP：家庭异质性、世代交叠与需求估计各解决不同问题。这些模型名称不处于同一分类层级，阅读时应区分经济环境、行为关系和估计框架，避免把缩写当作可直接替换的模型菜单。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a></p>
@@ -20,6 +21,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>DSGE、CGE、QSM：三种一般均衡模型怎么看、怎么选？</h3>
+
 <p class="catalog-meta">期次日期：2026-10-14</p>
 <p>推文以提前宣布提高钢材关税为例，说明一般均衡中的价格、收入和市场反馈，再比较 DSGE 的跨期调整、CGE 的部门联系与 QSM 的空间配置。三种名称对应常见建模重心，并非互斥分类；选模型前应先明确政策问题和需要保留的传导机制。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a></p>
@@ -27,6 +29,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>结构模型速览：研究思路与知识地图</h3>
+
 <p class="catalog-meta">期次日期：2026-10-13</p>
 <p>推文从主体、目标、约束和市场联系出发，梳理结构模型的研究步骤，并比较局部均衡与一般均衡以及 DSGE、CGE、QSM 等模型传统。读者可据此辨认论文中的行为关系和反事实问题；模型能够求解并不保证参数可识别，仍需核对数据提供的经验约束。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a> · <a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：反事实">反事实</a></p>
@@ -34,6 +37,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>简约式估计与结构估计：大牛们如何看？</h3>
+
 <p class="catalog-meta">期次日期：2026-10-13</p>
 <p>推文结合多位经济学家的访谈和研究，解释可信因果识别与结构反事实怎样衔接。已经观察到的政策变化可以约束行为参数，但预测尚未实施的政策还需要说明机制、参数稳定性和均衡反馈。适合在立题时判断是否需要完整结构模型，以及新增假设能否获得经验支持。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a> · <a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：反事实">反事实</a></p>
@@ -41,6 +45,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>QSM-量化空间模型：4 篇综述和 39 篇论文</h3>
+
 <p class="catalog-meta">期次日期：2026-10-12</p>
 <p>推文以四篇综述为入口，梳理 QSM 从地区间贸易与迁移扩展到城市内部结构、人口异质性和动态调整的研究线索，并提供进一步阅读的论文地图。初学者可先辨认不同模型增加了哪些空间联系，再按自己的研究问题选择阅读路径。它适合搭建文献框架，具体模型和识别条件仍需回到原论文核对。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=QSM&amp;show-results=1" title="全站搜索：QSM">QSM</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB&amp;show-results=1" title="全站搜索：文献阅读">文献阅读</a></p>
@@ -48,6 +53,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>QSM 的建模视角与思路：六篇经典论文解读</h3>
+
 <p class="catalog-meta">期次日期：2026-10-12</p>
 <p>推文通过六篇经典论文比较 QSM 的关键建模选择，从商品采购、人口空间配置到通勤、福利与动态增长，说明主体选择如何与市场出清共同构成空间均衡。适合带着工资、住房、贸易和迁居之间的联系阅读公式。文章强调，各篇模型的假设不能拼接成通用方程；反事实结果取决于所选机制及参数。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=QSM&amp;show-results=1" title="全站搜索：QSM">QSM</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB&amp;show-results=1" title="全站搜索：文献阅读">文献阅读</a></p>
@@ -55,6 +61,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>一文读懂 QSM：一个地方的变化如何影响其他地区？</h3>
+
 <p class="catalog-meta">期次日期：2026-10-07</p>
 <p>文章从一个地区新增产业或交通设施如何影响其他地区出发，解释居民迁移、通勤、贸易以及工资和租金调整之间的联系。局部就业增加可能包含跨地区转移，未必等于整个经济系统的净增量。QSM 将个体选择与市场出清放进同一框架，用于分析模型条件下的政策反事实；使用时仍须交代参数、市场联系和均衡假设，不能仅凭模型结构认定政策有效。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：政策反事实">政策反事实</a> · <a class="tag-link" href="?q=%E5%8C%BA%E5%9F%9F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：区域经济">区域经济</a></p>
@@ -62,6 +69,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>QSM 怎么学？从读懂模型到复现论文，再到自己的研究</h3>
+
 <p class="catalog-meta">期次日期：2026-10-07</p>
 <p>文章按读懂模型、运行简单例子、复现论文、扩展选题的顺序组织 QSM 学习路线，区分可观测数据、结构参数、基本面反演与反事实均衡。基准模型匹配了用于校准的数据，并不等于获得独立验证；学习时还应检查额外事实与敏感性分析。文中也区分教学代码和论文原版程序，提醒读者不能把代码运行成功直接当作完成论文复现。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a> · <a class="tag-link" href="?q=%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF&amp;show-results=1" title="全站搜索：学习路线">学习路线</a></p>
@@ -69,6 +77,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>对话式调查：AI 时代问卷调查研究的新模式</h3>
+
 <p class="catalog-meta">期次日期：2026-10-06</p>
 <p>文章介绍在统一调查主题下设置中性追问和停止规则，再将对话文本转化为可分析变量的流程。对话可以揭示固定问卷遗漏的解释，但追问本身也可能改变受访者态度。研究者需要保留提问路径、提示词和模型版本，并用人工抽样或随机结构化验证问题检查编码；文本更长不等于测量更准确，AI 标签进入回归前仍须核验。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：问卷调查">问卷调查</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a></p>
@@ -76,6 +85,7 @@ title: "新推文"
 </article>
 <article class="catalog-card">
 <h3>从 DID 到 QSM：柏林墙研究如何连接因果识别与空间均衡</h3>
+
 <p class="catalog-meta">期次日期：2026-10-06</p>
 <p>文章从柏林墙研究出发，说明政策冲击的局部估计如何与城市空间均衡模型衔接。居民居住与就业选择、企业区位、通勤和土地开发共同决定工资、租金与人口分布，反事实分析需要处理这些反馈。文中区分参数校准、估计与模型反演，并明确柏林墙应用采用长差分和空间暴露差异，不能简单称为标准两期 DID。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a></p>

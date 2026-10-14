@@ -268,3 +268,10 @@ main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 10
 .course-text-card .course-mobile-title { font-size: 1.4rem; line-height: 1.4; font-weight: 700; margin: 0 0 1rem; }
 .course-text-card .course-mobile-dates { font-size: 1.05rem; line-height: 1.7; margin-bottom: 0.75rem; }
 .course-text-card a { display: inline-flex; align-items: center; min-height: 44px; font-size: 1rem; color: #244257; }
+
+/* 引文自然换行；图片失效时仍保留可读课程详情。 */
+.catalog-citation { overflow-wrap: anywhere; line-height: 1.6; }
+@media (min-width: 40.001rem) {
+  .course-mobile-card { display: block; padding: .65rem 0; }
+  .course-mobile-card p { display: inline; margin-right: .75rem; }
+}

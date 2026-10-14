@@ -13,6 +13,7 @@ title: "新推文 · 第 4 页"
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>Harness 和 Agent 到底有什么区别？</h3>
+
 <p class="catalog-meta">期次日期：2026-09-22</p>
 <p>文章区分模型、Agent 与 Harness：模型生成判断，Harness 提供工具、权限、记忆和反馈，Agent 在这些条件下持续执行任务。以 DeepSeek Harness 演示工作区、模型和插件配置，建议先用只读权限检查项目。适合理解研究自动化的运行条件；接入更多工具并不等于任务结果已经可靠。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=Harness&amp;show-results=1" title="全站搜索：Harness">Harness</a> · <a class="tag-link" href="?q=%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：工作流">工作流</a></p>
@@ -20,6 +21,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>ChatGPT、Codex 怎么用才不浪费额度？</h3>
+
 <p class="catalog-meta">期次日期：2026-09-22</p>
 <p>文章把使用 AI 的成本拆成额度、等待时间和人工切换成本，通过任务边界、交付物和验收条件讨论如何安排问答与代码执行。对研究者的启发是先明确需要讨论问题还是修改文件，再选择工作入口与推理强度，避免反复搬运上下文。产品规则具有时效性，具体可用入口与用量仍应以账户当时显示为准。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI工作流">AI工作流</a> · <a class="tag-link" href="?q=%E4%BB%BB%E5%8A%A1%E5%88%86%E6%B5%81&amp;show-results=1" title="全站搜索：任务分流">任务分流</a> · <a class="tag-link" href="?q=%E9%A2%9D%E5%BA%A6%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：额度管理">额度管理</a></p>
@@ -27,6 +29,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>连续 DID：系数分解、适用条件与 Stata 和 Python 实现</h3>
+
 <p class="catalog-meta">期次日期：2026-09-21</p>
 <p>文章用可手算的两期例子，将连续处理 DID 系数分解为处理组与控制组的比较，以及处理组内部的强度比较，并给出 Stata 与 Python 配套程序。读者可以据此检查一个系数混合了哪些差异。分解是理解回归的工具；把强度斜率解释为因果效应，还需要相应识别条件，普通平行趋势不能自动排除处理收益选择。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%ADDID&amp;show-results=1" title="全站搜索：连续DID">连续DID</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E5%BC%BA%E5%BA%A6&amp;show-results=1" title="全站搜索：处理强度">处理强度</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a></p>
@@ -34,6 +37,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>readraster：在 Stata 里直接读 GeoTIFF 和 NetCDF 地理栅格数据</h3>
+
 <p class="catalog-meta">期次日期：2026-09-21</p>
 <p>文章介绍在 Stata 中读取 GeoTIFF 和 NetCDF，并通过行政区分区统计或点位匹配整理研究数据，附夜间灯光、气候数据及湖南地区示例。安装入口为 <code>ssc install readraster</code>，部分功能需要配置 Java 依赖。实际使用应先核对坐标系、缺失值和聚合口径；气候情景输出也不能当作已经发生的天气观测。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9C%B0%E7%90%86%E6%A0%85%E6%A0%BC&amp;show-results=1" title="全站搜索：地理栅格">地理栅格</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：空间数据">空间数据</a></p>
@@ -41,6 +45,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>llm-for-zotero 实操指南：在 Zotero 里把一篇论文读透</h3>
+
 <p class="catalog-meta">期次日期：2026-09-14</p>
 <p>文章在 Zotero 阅读器中组织论文提问、原文定位、跨论文比较和笔记保存，并说明复杂 PDF 的解析及 Agent 文库操作。读者可按示例核查表格和识别策略；AI 回答适合辅助阅读，关键数字与结论仍须回到原文，云端模型或解析服务的数据去向也需留意。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Zotero&amp;show-results=1" title="全站搜索：Zotero">Zotero</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB&amp;show-results=1" title="全站搜索：论文精读">论文精读</a> · <a class="tag-link" href="?q=%E8%AF%81%E6%8D%AE%E6%A0%B8%E9%AA%8C&amp;show-results=1" title="全站搜索：证据核验">证据核验</a></p>
@@ -48,6 +53,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>annotaid：不用写代码，在本地批量实现文本标注</h3>
+
 <p class="catalog-meta">期次日期：2026-09-14</p>
 <p>文章介绍用 annotaid 连接本地大语言模型，对 CSV 中的文本列批量生成标签，并给出 Windows 配置、标注规则和结果检查流程。界面降低操作门槛，研究者仍需定义类别、抽样核验和分析错误；文中作者报告的英文效果不能直接当作中文任务的准确率。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%9C%AC%E5%9C%B0%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：本地模型">本地模型</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
@@ -55,6 +61,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>AI 我知道-07：知识图谱如何用于研究？工具、提示词与工作流</h3>
+
 <p class="catalog-meta">期次日期：2026-09-10</p>
 <p>文章把论文拆成带来源、页码和限定条件的知识卡片，再讨论何时需要将卡片连接为知识图谱。它区分文献网络、向量 RAG 与 GraphRAG，并给出小规模文献库的字段、提示词和核验流程；模型抽取的关系仍是候选证据，不能直接当作综述结论。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1&amp;show-results=1" title="全站搜索：知识图谱">知识图谱</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E5%8D%A1%E7%89%87&amp;show-results=1" title="全站搜索：知识卡片">知识卡片</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a></p>
@@ -62,6 +69,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>从美欧调查看「AI 采用」的测量、组织扩散与因果识别</h3>
+
 <p class="catalog-meta">期次日期：2026-09-09</p>
 <p>文章从工人和企业调查出发，区分 AI 暴露、实际采用、使用强度与生产率结果，解释问卷口径和组织部署如何改变指标含义。对于使用年报、招聘或调查数据研究 AI 的读者，可借鉴其观察单位、时间窗口和采用路径的核对思路；行业相关性仍不能直接解释为因果效应。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：AI 采用">AI 采用</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：企业调查">企业调查</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a></p>
@@ -69,6 +77,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>AI Agent 到底是什么？一次理清 LLM、Chatbot、Workflow 与 Agentic</h3>
+
 <p class="catalog-meta">期次日期：2026-09-09</p>
 <p>文章用修正 Stata do-file 的教学场景，比较人主导、预设程序和模型动态安排操作三种机制。讨论模型、对话应用、工具权限和反馈回路各自承担的工作，并给出描述研究系统时应记录的模型版本、决策范围及验收条件。代码运行成功仍需结合研究设定核查，不能由 Agent 名称推断可靠性。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20Agent&amp;show-results=1" title="全站搜索：AI Agent">AI Agent</a> · <a class="tag-link" href="?q=Workflow&amp;show-results=1" title="全站搜索：Workflow">Workflow</a> · <a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：科研复现">科研复现</a></p>
@@ -76,6 +85,7 @@ title: "新推文 · 第 4 页"
 </article>
 <article class="catalog-card">
 <h3>遗漏变量敏感性分析：为什么系数可能先“变号”而不是“归零”？</h3>
+
 <p class="catalog-meta">期次日期：2026-09-08</p>
 <p>文章区分遗漏变量使系数归零与允许符号反转的敏感性问题，介绍 regsensitivity 的识别集、临界点和绘图操作。适合检查方向性结论需要怎样的额外假设。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=regsensitivity&amp;show-results=1" title="全站搜索：regsensitivity">regsensitivity</a></p>
