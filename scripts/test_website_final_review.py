@@ -38,13 +38,13 @@ class FinalReviewTests(unittest.TestCase):
         self.config['approved_courses'][0]['links'][0]['url'] = 'javascript:alert(1)'
         self.assertEqual(self.selected(), [])
 
-    def test_nearest_remaining_session_sort_and_limit(self):
+    def test_nearest_remaining_session_sort_without_truncation(self):
         courses = []
         for i, values in enumerate((['2026-08-01','2026-10-01'], ['2026-09-30'], ['2026-09-06'], ['2026-09-07'])):
             course = dict(self.course, id=f'course-{i}', dates=values, course_start_date=values[0], course_end_date=values[-1])
             courses.append(course)
         self.config['approved_courses'] = courses
-        self.assertEqual([c['id'] for c in self.selected()], ['course-2','course-3','course-1'])
+        self.assertEqual([c['id'] for c in self.selected()], ['course-2','course-3','course-1','course-0'])
 
     def test_final_day_inclusive_then_hidden_both_renderers(self):
         for renderer in (render_promotion, render_home_promotion):
