@@ -77,7 +77,7 @@ def active_courses(config=None, today=None):
         if not future:
             continue
         courses.append(dict(item, next_date=future[0]))
-    return sorted(courses, key=lambda i: (i['next_date'], i['id']))[:3]
+    return sorted(courses, key=lambda i: (i['next_date'], i['id']))
 
 
 def attributes(item):
