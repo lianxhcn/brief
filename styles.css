@@ -271,10 +271,7 @@ main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 10
 
 /* 引文自然换行；图片失效时仍保留可读课程详情。 */
 .catalog-citation { overflow-wrap: anywhere; line-height: 1.6; }
-@media (min-width: 40.001rem) {
-  .course-mobile-card { display: block; padding: .65rem 0; }
-  .course-mobile-card p { display: inline; margin-right: .75rem; }
-}
+
 
 /* 课程独立卡片：完整海报、清晰边界与统一阅读间距。 */
 .home-promotions { display: grid; gap: 28px; }
@@ -288,17 +285,14 @@ main.content section[id], main.content :is(h2,h3,h4)[id] { scroll-margin-top: 10
   outline: 3px solid #2e7d32; outline-offset: -3px;
 }
 @media (min-width: 40.001rem) {
-  .home-promotions .course-mobile-card {
-    padding: 16px 20px; border-top: 1px solid #e3e8ec;
-    background: #f8fafb; text-align: left;
-  }
-  .home-promotions .course-mobile-card p { display: block; margin: 0 0 8px; }
-  .home-promotions .course-mobile-label { display: none; }
-  .home-promotions .course-mobile-title { font-size: 1.1rem; font-weight: 600; color: #244257; }
-  .home-promotions .course-mobile-dates { line-height: 1.6; color: #52616b; }
-  .home-promotions .course-mobile-card a { display: inline-flex; align-items: center; min-height: 44px; }
+  .home-promotions .course-mobile-card { display: none; }
 }
 @media (max-width: 40rem) {
   .home-promotions { gap: 24px; }
   .home-promotions .course-mobile-card { border: 0; border-radius: 0; }
 }
+
+/* 以低饱和边框区分课程，桌面直接点击海报进入详情。 */
+.home-promotions > .course-poster:nth-of-type(3n + 1) { border-color: #94b4a1; }
+.home-promotions > .course-poster:nth-of-type(3n + 2) { border-color: #c4ab92; }
+.home-promotions > .course-poster:nth-of-type(3n) { border-color: #96abc7; }

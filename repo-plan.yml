@@ -6,7 +6,7 @@
   "confidence": "high",
   "local_root": "G:/codex_project/github_lianxh",
   "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "仅课程海报独立卡片样式：边框、圆角、28px间距、文字区内边距和手机24px间距。",
+  "work_scope": "桌面隐藏重复课程文字，保留手机文字兜底，以绿、暖棕、蓝色细边框区分海报。",
   "repository_name": "brief",
   "remote_owner": "lianxhcn",
   "remote_url": "https://github.com/lianxhcn/brief.git",
