@@ -8,9 +8,73 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 34 页 · 共 333 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-34.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 35 页 · 共 341 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-35.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>车险公司购买驾驶数据，如何改变定价与福利？</h3>
+<p class="catalog-citation">Jin, Y.; Vasserman, S. (2026). Buying Data from Consumers: The Impact of Monitoring in U.S. Auto Insurance. JPE.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>论文研究美国车险公司的自愿驾驶监测计划：司机接受短期追踪，以换取后续保费折扣。作者将监测参与、消费者选择与保险定价放入均衡模型，讨论信息改善、行为变化和企业市场势力之间的关系。JPE 的在线发表信息已核验；此处内容依据作者在 NBER 发布的对应工作论文摘要，尚未核读完整论文或期刊最终正文，因此不转述具体效果数值。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：保险">保险</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81&amp;show-results=1" title="全站搜索：数据隐私">数据隐私</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#paper-10-1086-744482">查看本期</a><a href="https://doi.org/10.1086/744482" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>药品质量监管为何可能同时提高价格与福利？</h3>
+<p class="catalog-citation">Atal, J. P.; Cuesta, J. I.; Sæthre, M. (2026). Quality Regulation and Competition: Evidence from Pharmaceutical Markets. REStud.</p><p class="catalog-meta">发表日期：2026-10-10 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>论文考察智利仿制药生物等效性监管，结合政策变化与药品进入、认证和需求模型，分析质量标准对竞争的影响。研究显示，认证能够缓解质量信息不对称、降低消费者对无品牌仿制药的顾虑，但也改变企业进入成本。作者的模型估计表明，药品种类减少和价格上升可以与消费者福利改善并存；这一结论依赖所研究市场与模型设定。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A8%E9%87%8F%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：质量监管">质量监管</a> · <a class="tag-link" href="?q=%E4%BA%A7%E4%B8%9A%E7%BB%84%E7%BB%87&amp;show-results=1" title="全站搜索：产业组织">产业组织</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#paper-10-1093-restud-rdag113">查看本期</a><a href="https://doi.org/10.1093/restud/rdag113" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>最高法院构成变化与市场宏观预期</h3>
+<p class="catalog-citation">Thomas Drechsel; Naixin Zhang (2026). Do Judges Move Markets? Ideological Shifts in the Supreme Court and Macroeconomic Expectations. NBER Working Paper 35895 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-12 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>作者利用美国最高法院大法官意外去世带来的意识形态构成变化，观察高频资产价格如何反应。研究将通胀、实际活动与债券收益率的预期变化联系起来，讨论市场是否把司法构成调整理解为未来财政政策信息。该设计依赖事件的意外性与高频窗口解释，不能据此直接断定司法倾向决定宏观经济走势。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E9%A2%84%E6%9C%9F&amp;show-results=1" title="全站搜索：宏观预期">宏观预期</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#nber-w35895">查看本期</a><a href="https://www.nber.org/papers/w35895" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>就业保障会让发明更依赖企业内部知识吗？</h3>
+<p class="catalog-citation">Wehrheim, D.; Melero, E.; Palomeras, N. (2026). The Paradox of Inventors’ Job Security. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>论文将专利与雇主雇员资料匹配，利用美国各州不当解雇法律的分期实施研究发明人的就业保障。作者发现，更稳定的雇佣关系可能强化企业专用知识投资，使创新更依赖内部技术、原创性较低，但为雇主带来更高私人价值。研究把创新方向与创新数量区分开来，也提醒应用者检视分期政策设计和创新价值指标的含义。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a> · <a class="tag-link" href="?q=%E5%B0%B1%E4%B8%9A%E4%BF%9D%E9%9A%9C&amp;show-results=1" title="全站搜索：就业保障">就业保障</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#paper-10-1287-orsc-2025-21133">查看本期</a><a href="https://doi.org/10.1287/orsc.2025.21133" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>小群体政策评估：数据够不够检出有意义的效应？</h3>
+<p class="catalog-citation">Kelly M. Jones; Mayra Pineda-Torres (2026). Estimating the Impact of Targeted Public Policies with Limited Data. NBER Working Paper 35894 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-12 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>论文讨论一项常见困难：政策只针对人口中的小群体，但研究者只能获得总体数据。作者以生育政策与经济福利研究为例，用统计功效计算说明为什么总体结果可能难以检出目标群体的变化，并提出研究前评估样本与效应量的思路。适合在设计政策评估前阅读；工作论文结论仍应结合具体样本、处理比例和结果变量判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：统计功效">统计功效</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：样本设计">样本设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#nber-w35894">查看本期</a><a href="https://www.nber.org/papers/w35894" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>向总部咨询，就一定能提高审计质量吗？</h3>
+<p class="catalog-citation">Sherwood, M. G.; Minutti-Meza, M.; Zimmerman, A. B. (2026). Determinants and Consequences of Auditors’ Consultations with the National Office. TAR.</p><p class="catalog-meta">发表日期：2026-10-12 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>审计团队向事务所总部咨询，可能是为了获取专业知识，也可能是满足程序要求。论文结合监管标准、访谈和 PCAOB 检查资料，区分强制与自愿咨询。总体咨询行为与审计质量没有稳定的正向关系，而较早开展、聚焦会计问题的部分咨询与更高质量相关。结果提示，不能仅用咨询次数衡量专业支持效果；相关性也不应直接解释为因果改善。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：审计质量">审计质量</a> · <a class="tag-link" href="?q=%E4%B8%93%E4%B8%9A%E5%92%A8%E8%AF%A2&amp;show-results=1" title="全站搜索：专业咨询">专业咨询</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：监管检查">监管检查</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#paper-10-2308-tar-2024-0348">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0348" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>反向引力模型：从政策目标求贸易成本变化</h3>
+<p class="catalog-citation">James E. Anderson; Mario Larch; Yoto V. Yotov (2026). Inverted Gravity. NBER Working Paper 35897 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-12 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>通常的引力模型从贸易成本出发预测贸易与福利；这篇工作论文反过来，从目标福利或观察到的贸易流量求所需的成本调整。作者讨论目标可实现性、工具数量与解的唯一性，并以 NAFTA 和世界贸易作为应用。它为贸易政策反事实分析提供了另一种计算视角，但可行解与具体福利判断仍取决于结构模型假设。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93&amp;show-results=1" title="全站搜索：国际贸易">国际贸易</a> · <a class="tag-link" href="?q=%E5%BC%95%E5%8A%9B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：引力模型">引力模型</a> · <a class="tag-link" href="?q=%E5%8F%8D%E4%BA%8B%E5%AE%9E%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：反事实分析">反事实分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#nber-w35897">查看本期</a><a href="https://www.nber.org/papers/w35897" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>公开纳税申报表怎样改变企业报告动机？</h3>
+<p class="catalog-citation">ALLEN, E. J.; FRIEDMAN, H. L.; UYSAL, A. (2026). The effect of the mandatory disclosure of corporate tax returns on reporting bias. JAR.</p><p class="catalog-meta">发表日期：2026-10-11 · 收录日期：2026-10-15</p>
+<p class="catalog-meta">期次日期：2026-10-15</p>
+<p>论文利用土耳其企业被要求公开纳税申报表的数据，构建并估计管理层报告偏差的结构模型。作者发现，财务利润与应税利润都向投资者提供信息，模型估计支持税务披露减弱盈余管理激励、降低估值不确定性的解释。研究还比较分别披露与财税一致制度的反事实结果，为理解披露制度和信息质量之间的关系提供了方法示例。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A8%8E%E5%8A%A1%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：税务披露">税务披露</a> · <a class="tag-link" href="?q=%E7%9B%88%E4%BD%99%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：盈余管理">盈余管理</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261015/#paper-10-1111-1475-679x-70087">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70087" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>非线性 GMM 如何随数据到达递推更新？</h3>
 <p class="catalog-citation">Duy Nguyen (2026). An efficient stochastic generalized method of moments estimator for nonlinear moment models. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-14</p>
@@ -27,72 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B1%87%E7%8E%87&amp;show-results=1" title="全站搜索：汇率">汇率</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：金融中介">金融中介</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%88%86%E6%8B%85&amp;show-results=1" title="全站搜索：风险分担">风险分担</a></p>
 <p class="catalog-actions"><a href="../issues/20261014/#paper-10-1111-jofi-70095">查看本期</a><a href="https://doi.org/10.1111/jofi.70095" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>求职建议推广后，效果为何可能减弱？</h3>
-<p class="catalog-citation">Altmann, S. et al. (2026). The Direct and Indirect Effects of Online Job Search Advice. REStud.</p><p class="catalog-meta">发表日期：2026-10-12 · 收录日期：2026-10-14</p>
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>论文在丹麦公共就业服务平台开展两阶段随机实验，改变地区内获得职位信息和职业建议的求职者比例。摘要报告，小范围提供建议时就业与收入改善，覆盖面扩大后收益减弱；作者将这一变化与推荐职业中的竞争拥挤联系起来。政策扩围评估需要同时考虑直接效果与求职者之间的溢出。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%BA%A2%E5%87%BA%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：溢出效应">溢出效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1093-restud-rdag112">查看本期</a><a href="https://doi.org/10.1093/restud/rdag112" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>检查报告同时展示优点，会促进审计创新吗？</h3>
-<p class="catalog-citation">Kang, Y. J.; Piercey, M. D. (2026). Would a Balanced PCAOB Inspection Approach Increase Auditors&#x27; Use of Innovative Audit Procedures? CAR.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-14</p>
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>论文比较只报告审计缺陷的 PCAOB 检查方式与同时披露优点、缺点的平衡方式。摘要显示，在重大错报风险适中的情境下，后者使审计人员更加考虑创新程序的潜在有效性，并在计划中优先安排此类程序。结论具有情境边界，不能直接推断所有检查改革都会提高实际审计质量。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：审计">审计</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：监管">监管</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1111-1911-3846-70091">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70091" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>提高披露要求，是否足以让养老金资产更透明？</h3>
-<p class="catalog-citation">Anantharaman, D.; Chuk, E.; Xia, T. S. (2026). So similar, yet so different: comparing the US GAAP and IFRS experience at eliciting greater transparency on pension asset disclosures. Review of Accounting Studies.</p><p class="catalog-meta">发表日期：2026-10-10 · 收录日期：2026-10-14</p>
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>论文比较 US GAAP 和 IFRS 对养老金资产披露的两次改革。两者都提高披露要求，但 IFRS 同时取消预期收益率这一计量要素，US GAAP 则保留。作者报告 IFRS 下透明度改善更明显，强调披露规则需要结合管理层的计量与报告激励分析，不能仅比较规定文本的详尽程度。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99&amp;show-results=1" title="全站搜索：会计准则">会计准则</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1007-s11142-026-09992-x">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09992-x" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>把高频尾部信息纳入 VaR 与 ES 预测</h3>
-<p class="catalog-citation">Keisuke Sasaki; Yasuhiro Omori (2026). Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-14</p>
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>工作论文将日内收益构造的已实现分位数和预期短缺纳入条件 expectile 的动态与测量方程，用于联合预测 VaR 和 ES。参数通过 MCMC 估计，并以数值实验和美国股票收益作比较。这里介绍的是预测框架；摘要中的表现描述不等于对其他市场或样本的独立验证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：高频数据">高频数据</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-13446">查看本期</a><a href="https://arxiv.org/abs/2610.13446" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>技能与投入互补，为何低技能儿童仍可能获得更高边际回报？</h3>
-<p class="catalog-citation">Liam Puknys (2026). Early Investment Snowballs for Low-Skill Children: Average Marginal Returns and the Dynamics of Skill Formation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-14</p>
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>工作论文区分固定其他投入时的弹性与对投入联合分布取平均后的边际回报，并重新分析儿童技能形成模型。两种统计对象的差异可以解释部分看似矛盾的结论。作者也指出，控制母亲永久收入后，当期收入无法提供预期的投资变动信息，因此提醒将估计作描述性解释。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-12509">查看本期</a><a href="https://arxiv.org/abs/2610.12509" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>债券问询函与关联投资者：信息约束怎样发挥作用？</h3>
-<p class="catalog-citation">Ding, Y. et al. (2026). Comment Letters, Connected Investors, and Corporate Bond Issuance. Management Science.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-14</p>
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>论文使用中国公司债发行数据，考察监管问询函与发行结果及投资者参与的关系。摘要报告，问询更常针对信息不透明企业；与发行人有既有业务关系的金融机构在相关发行中参与更多。作者讨论私人信息和关系收益的作用，提示评估信息监管时还需关注投资者与发行人的联系。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：公司债券">公司债券</a> · <a class="tag-link" href="?q=%E9%97%AE%E8%AF%A2%E5%87%BD&amp;show-results=1" title="全站搜索：问询函">问询函</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1287-mnsc-2024-07607">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07607" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>面板分位数回归如何处理内生解释变量？</h3>
-<p class="catalog-citation">Antonio F. Galvao; Ulrich Hounyo; Jiahao Lin (2026). GMM for Panel Data Quantile Regression. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-13</p>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文把分位数矩条件平滑化，并通过个体分位数限制消去个体效应，使面板分位数模型可以用 GMM 算法实现。理论允许一定的时间依赖和内生解释变量，但依赖面板两个维度共同增长等条件。适合关注异质性动态反应的研究者，不能将大样本结论直接用于任意短面板。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-12824">查看本期</a><a href="https://arxiv.org/abs/2610.12824" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>老同事一起转入新团队，个人与团队收益相同吗？</h3>
-<p class="catalog-citation">Zhao, E.Y.; Shea, C.; Li, S. (2026). Colleagues that work together move together: How co-moving among newcomers affects individual and team performance. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-13</p>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文利用职业篮球档案数据并辅以访谈，研究来自同一旧团队的成员共同转入新团队。既有协作经验可能帮助个人发挥，却也可能妨碍新团队整合，体现不同层次结果之间的取舍。适合借鉴个人与团队层面的联合分析；体育场景结论推广到企业团队仍需验证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：团队流动">团队流动</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BB%A9%E6%95%88&amp;show-results=1" title="全站搜索：组织绩效">组织绩效</a> · <a class="tag-link" href="?q=%E5%8D%8F%E4%BD%9C%E7%BB%8F%E9%AA%8C&amp;show-results=1" title="全站搜索：协作经验">协作经验</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-1287-orsc-2024-18867">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18867" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 34 页 · 共 333 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-34.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 35 页 · 共 341 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-35.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

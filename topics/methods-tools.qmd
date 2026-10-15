@@ -8,9 +8,17 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 73 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>conformalForecast 0.2.0：多步时间序列的保形预测区间</h3>
+
+<p class="catalog-meta">期次日期：2026-10-16</p>
+<p>R 包 conformalForecast 提供经典、自适应、PID 控制及考虑自相关的多步保形预测工具。适合比较时间序列预测区间的构造方式，不能把一般保形预测的覆盖保证直接套用于任意序列。安装命令为 <code>install.packages(&quot;conformalForecast&quot;)</code>。官方示例使用 AR(2) 模拟和滚动窗口预测，应用时需核对数据依赖条件；未独立实测，Windows 二进制可能暂落后于源码版。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：保形预测">保形预测</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
+<p class="catalog-actions"><a href="../issues/20261016/#r-conformalforecast-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/conformalForecast/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>focus 0.1.11：在线监测数据流变化</h3>
 
@@ -83,16 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2&amp;show-results=1" title="全站搜索：文献检索">文献检索</a> · <a class="tag-link" href="?q=OpenAlex&amp;show-results=1" title="全站搜索：OpenAlex">OpenAlex</a></p>
 <p class="catalog-actions"><a href="../issues/20261010/#r-openalexr-3-1-1">查看本期</a><a href="https://cran.r-project.org/web/packages/openalexR/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>gepwreg：按结果分位位置汇总协变量效应</h3>
-
-<p class="catalog-meta">期次日期：2026-10-10</p>
-<p>Stata 命令 gepwreg 先在全样本建立异质性模型，再用百分位核权重汇总特定结果位置附近的单位效应。帮助文件提供调查设计下的线性化标准误、重跑完整过程的 bootstrap 和图形选项。可用 <code>ssc install gepwreg</code> 安装，示例入口为 <code>gepwreg_examples</code>。该对象与直接拟合条件分位数回归不同；使用前应明确目标效应与异质性设定。本轮核对官方帮助，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0&amp;show-results=1" title="全站搜索：分位数">分位数</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a></p>
-<p class="catalog-actions"><a href="../issues/20261010/#stata-gepwreg-1-5-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459923.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 73 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

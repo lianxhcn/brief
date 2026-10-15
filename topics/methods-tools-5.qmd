@@ -8,9 +8,17 @@ title: "新方法 · 第 5 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 8 页 · 共 73 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>glmnet 5.1：惩罚权重现在可以按训练数据计算</h3>
+
+<p class="catalog-meta">期次日期：2026-09-25</p>
+<p>glmnet 用于 Lasso 与 elastic net 正则化回归。5.1 允许 <code>penalty.factor</code> 接收函数，便于惩罚权重依赖响应变量时与交叉验证配合。安装命令为 <code>install.packages(&quot;glmnet&quot;)</code>；应核对实际安装版本，当前 Windows 二进制可能晚于源码更新。使用数据驱动权重时仍需检查训练集与验证集的隔离。本期核对官方 NEWS 和手册，未独立运行。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=Lasso&amp;show-results=1" title="全站搜索：Lasso">Lasso</a> · <a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：交叉验证">交叉验证</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260925/#r-glmnet-5-1">查看本期</a><a href="https://cran.r-project.org/web/packages/glmnet/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>AI4OfficialStats：核对 AI 引用统计数据时的指标与口径</h3>
 
@@ -83,16 +91,8 @@ title: "新方法 · 第 5 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：贝叶斯建模">贝叶斯建模</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
 <p class="catalog-actions"><a href="../issues/20260920/#python-pymc-6-3-2">查看本期</a><a href="https://github.com/pymc-devs/pymc/releases/tag/v6.3.2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>prais 1.2.0：修复非同步面板的协方差计算</h3>
-
-<p class="catalog-meta">期次日期：2026-09-19</p>
-<p>prais 用 Prais–Winsten 方法处理回归误差的 AR(1) 相关。1.2.0 修复起始时间不同的面板在协方差计算中的错配，以及重排子样本、缺失值和新数据预测的若干问题，并调整数值计算方式。安装命令为 <code>install.packages(&quot;prais&quot;)</code>。采用旧版处理相关数据的读者应复查结果；截至核验时 Windows 二进制仍为 1.1.4，不能仅凭安装成功认定已升级。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：序列相关">序列相关</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a></p>
-<p class="catalog-actions"><a href="../issues/20260919/#r-prais-1-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/prais/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 8 页 · 共 73 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

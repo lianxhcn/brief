@@ -8,9 +8,17 @@ title: "新方法 · 第 6 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 8 页 · 共 73 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>prais 1.2.0：修复非同步面板的协方差计算</h3>
+
+<p class="catalog-meta">期次日期：2026-09-19</p>
+<p>prais 用 Prais–Winsten 方法处理回归误差的 AR(1) 相关。1.2.0 修复起始时间不同的面板在协方差计算中的错配，以及重排子样本、缺失值和新数据预测的若干问题，并调整数值计算方式。安装命令为 <code>install.packages(&quot;prais&quot;)</code>。采用旧版处理相关数据的读者应复查结果；截至核验时 Windows 二进制仍为 1.1.4，不能仅凭安装成功认定已升级。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：序列相关">序列相关</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a></p>
+<p class="catalog-actions"><a href="../issues/20260919/#r-prais-1-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/prais/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>bayesinits：为多条贝叶斯链生成合规初值</h3>
 
@@ -83,16 +91,8 @@ title: "新方法 · 第 6 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：高维面板">高维面板</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
 <p class="catalog-actions"><a href="../issues/20260916/#r-hdcce-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/hdcce/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>ardldml：高维控制变量下的 ARDL 边界检验</h3>
-
-<p class="catalog-meta">期次日期：2026-09-16</p>
-<p>ardldml 将双重机器学习思路用于带高维控制变量的 ARDL 边界检验，提供时间序列交叉拟合、趋势吸收诊断和受限联合 wild bootstrap。它特别关注残差化改变零假设分布的情形，提醒使用者不能直接沿用经典临界值。安装命令为 <code>install.packages(&quot;ardldml&quot;)</code>。首版工具仍应结合原方法论文和模拟结果审慎评估。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260916/#r-ardldml-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/ardldml/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 8 页 · 共 72 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 8 页 · 共 73 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="ai-agent-open-202610" data-course-start="2026-10-15" data-course-end="2026-10-16" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1969.html" target="_blank" rel="noopener noreferrer">AI Agent 公开课：工具安装与科研实践</a><span class="course-dates">10/15、10/16</span></li><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
