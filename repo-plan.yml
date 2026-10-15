@@ -6,7 +6,7 @@
   "confidence": "high",
   "local_root": "G:/codex_project/github_lianxh",
   "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "将旧三门截断测试改为四门完整展示及排序测试，与用户新规则一致。",
+  "work_scope": "仅课程海报独立卡片样式：边框、圆角、28px间距、文字区内边距和手机24px间距。",
   "repository_name": "brief",
   "remote_owner": "lianxhcn",
   "remote_url": "https://github.com/lianxhcn/brief.git",
@@ -33,7 +33,7 @@
     "validity": "2026-10-15 当日发布"
   },
   "files": [
-    "scripts/test_website_final_review.py",
+    "styles.css",
     "repo-plan.yml"
   ]
 }
