@@ -14,7 +14,7 @@
       "reviewed_date": "2026-10-15",
       "source_url": "https://www.lianxh.cn/aic.html",
       "retrieved_date": "2026-10-15",
-      "evidence": "官网课程概览明确写明 2026 年 10 月 17, 24, 31 日；详情页与 aic.html 正文一致。R02 浏览器核验，公开原文存于本地日志。 10月9日通过官网公开文章API复核标题与授课日期。 2026-10-14官网公开文章API复核标题、年份与授课日期。",
+      "evidence": "官网课程概览明确写明 2026 年 10 月 17, 24, 31 日；详情页与 aic.html 正文一致。R02 浏览器核验，公开原文存于本地日志。 10月9日通过官网公开文章API复核标题与授课日期。 2026-10-14官网公开文章API复核标题、年份与授课日期。 2026-10-17 KC课程总览仍列出本课程；官网首页轮播已移除对应海报，保留文字入口。",
       "id": "aic-2026",
       "status": "confirmed",
       "course_start_date": "2026-10-17",
@@ -28,14 +28,7 @@
           "url": "https://www.lianxh.cn/details/1900.html",
           "availability": "confirmed"
         }
-      ],
-      "poster": "https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/brief-course-fig01-official-1900-20261015-071928.png",
-      "poster_note": "官网首页轮播原图，已核对课程详情与日期",
-      "official_image_url": "https://www.lianxh.cn/images/2026/08/27/UVDspoA5.png",
-      "image_sha256": "aec8ef45a76edb7636727ba676478c737b8350fa50fe750bba35e1fde84cc21a",
-      "image_verified_date": "2026-10-15",
-      "poster_width": 1500,
-      "poster_height": 400
+      ]
     },
     {
       "id": "llm-agent-2026",

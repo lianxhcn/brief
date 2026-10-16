@@ -1,0 +1,19 @@
+📙 连享会 · 快讯 | 2026.10.17
+
+📰 01｜论文 · JPE：移民流入与美国工会的形成
+作者将历史档案整理为美国县级工会数据，研究移民流入与工会形成的关系，并采用 shift-share 工具变量讨论劳动供给冲击。
+引文：Medici (2026). Closing Ranks: Organized Labor and Immigration. JPE.
+主页： https://doi.org/10.1086/744504 
+
+📰 02｜论文 · Journal of the American Statistical Association：稀疏网络中，节点特征如何解释连接差异？
+论文研究含节点特征的受欢迎程度回归潜空间模型。
+引文：Gao et al. (2026). Popularity Regression-Based Latent Space Model for Large-Scale Sparse Network Analysis. Journal of the American Statistical Association.
+主页： https://doi.org/10.1080/01621459.2026.2744404 
+
+📰 03｜论文 · Journal of the American Statistical Association：厚尾误差下的高维回归推断
+论文以偏 Gini 协方差构造高维线性回归推断，处理厚尾、可能不对称的随机误差。
+引文：Zhang et al. (2026). Partial Gini Covariance-based Robust Inference for High-dimensional Linear Models with Heavy-tailed Errors. Journal of the American Statistical Association.
+主页： https://doi.org/10.1080/01621459.2026.2744399 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261017/ 

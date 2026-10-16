@@ -18,6 +18,8 @@ class FinalReviewTests(unittest.TestCase):
     def setUp(self):
         self.config = load_config()
         self.course = copy.deepcopy(self.config['approved_courses'][0])
+        # 海报样例独立于官网当前是否仍展示该课程的轮播。
+        self.course['poster'] = 'https://example.org/course-banner.png'
         # 单实体边界测试不依赖生产配置当前有几门课程。
         self.config['approved_courses'] = [copy.deepcopy(self.course)]
 
