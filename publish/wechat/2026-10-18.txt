@@ -1,0 +1,28 @@
+📙 连享会 · 快讯 | 2026.10.18
+
+✍️ 01｜新推文：用大白话绘制科研图：scipilot-figure-skill
+用五幅世界银行数据图演示科研绘图：从环境检查到图例、字体和样本口径返修。
+阅读全文： https://www.lianxh.cn/details/1972.html 
+
+📰 02｜论文 · Management Science：竞争会缓解生成式 AI 的内容同质化吗？
+Management Science：竞争可能促使内容生产者选择更有差异的 AI 模型，基准高分未必等于市场价值。
+引文：Raghavan (2026). Competition and Diversity in Generative AI. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.02761 
+
+📰 03｜论文 · Management Science：系统重要性银行认定之后，贷款表现如何变化？
+Management Science：印度贷款数据揭示系统重要性认定与银行监督、追偿及贷款表现之间的关系。
+引文：Agrawal et al. (2026). Systemically Important Banks and Loan Performance: Evidence from India. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.03238 
+
+📦 04｜软件 · Python：linearmodels 7.1：工具变量与面板推断更新
+Python linearmodels 7.1 增加 IVJIVE 等功能，并修正若干推断细节；复现项目升级前宜固定旧版本作比较。
+版本：Python / linearmodels 7.1；发布：2026-10-16
+PyPI： https://pypi.org/project/linearmodels/7.1/ 
+
+📅 05｜会议征稿：第四届全国应用经济学博士生论坛征稿
+上海财经大学，11月20–21日；10月30日17:00截稿。无会务费，交通住宿自理。
+截止：2026-10-30
+通知： https://econ.sufe.edu.cn/25/c6/c6905a271814/page.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261018/ 

@@ -1,0 +1,213 @@
+---
+title: "连享会 · 快讯 | 2026.10.18"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 用大白话绘制科研图：scipilot-figure-skill {#lianxh-1972}
+
+文章以五幅世界银行数据图为例，演示在 Codex 中安装 scipilot-figure-skill、检查 Python 与中文字体，再用自然语言完成取数、绘图和返修。重点是按实际展示尺寸检查图例、刻度与样本口径，并在调整样式时保留数据和统计设定。AI 生成的图形仍需核对指标、样本与解释。
+
+标签：<a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE&amp;show-results=1" title="全站搜索：科研绘图">科研绘图</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=AI-Agent&amp;show-results=1" title="全站搜索：AI-Agent">AI-Agent</a>
+
+<small>来源日期：2026-10-17；补录：2026-10-18</small>
+
+<a href="https://www.lianxh.cn/details/1972.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 竞争会缓解生成式 AI 的内容同质化吗？ {#paper-10-1287-mnsc-2025-02761}
+
+<p class="myapa">Raghavan, M. (2026). Competition and Diversity in Generative AI. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.02761" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Competition%20and%20Diversity%20in%20Generative%20AI" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文用内容生产者竞争的博弈模型讨论 AI 同质化：面对竞争，生产者可能主动选择能够提供不同内容的模型，因此单一基准上的最高分未必等于最大的市场价值。作者还用文本和图像实验检验相关预测。这里讨论的是特定竞争环境中的激励，不能据此断言所有 AI 市场都会自然产生多样性。
+
+标签：<a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8FAI&amp;show-results=1" title="全站搜索：生成式AI">生成式AI</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：市场竞争">市场竞争</a>
+
+<small>来源日期：2026-10-16；补录：2026-10-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 系统重要性银行认定之后，贷款表现如何变化？ {#paper-10-1287-mnsc-2025-03238}
+
+<p class="myapa">Agrawal, S., Kashyap, N., Mahapatro, S., &amp; Tantri, P. (2026). Systemically Important Banks and Loan Performance: Evidence from India. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.03238" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Systemically%20Important%20Banks%20and%20Loan%20Performance%3A%20Evidence%20from%20India" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者利用印度银行被分批认定为国内系统重要性银行的情境与贷款层面数据，考察认定前后的贷款表现。摘要报告认定后贷款表现下降，并提供监督和追偿减弱、借款人健康状况与偿还行为变化的证据。论文提示，研究银行监管不能只看资本要求，也要考虑隐含保障可能改变的激励。
+
+标签：<a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：银行监管">银行监管</a> · <a class="tag-link" href="?q=%E4%BF%A1%E8%B4%B7%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：信贷风险">信贷风险</a>
+
+<small>来源日期：2026-10-14；补录：2026-10-18</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### linearmodels 7.1：工具变量与面板推断更新 {#tool-linearmodels-7-1}
+
+Python 的 linearmodels 7.1 增加 IVJIVE 估计和若干工具变量诊断，并更新面板模型检验。变更日志还列出 GMM 带宽、Fama–MacBeth p 值以及加权模型相关修正；正在复现的项目宜固定版本，并比较升级前后的结果。可用 <code>pip install linearmodels==7.1</code> 安装。这里只介绍官方发布信息，具体模型仍需在自己的数据上检查。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a>
+
+<small>来源日期：2026-10-16；补录：2026-10-18</small>
+
+<a href="https://pypi.org/project/linearmodels/7.1/" target="_blank" rel="noopener noreferrer">PyPI</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 第四届全国应用经济学博士生论坛征稿 {#sufe-applied-phd-2026}
+
+**投稿截止：2026-10-30**
+
+会议：2026-11-20 至 2026-11-20 · 上海财经大学，中国上海
+
+费用：无会务费；受邀报告人午晚餐由会议安排，交通住宿自理。
+
+论坛将于 11 月 20–21 日在上海财经大学举行，面向应用经济学及相关方向征稿。研究生须为第一作者或通讯作者，投稿为未发表的中英文论文，每人限投一篇；具体篇幅与格式见官方通知。投稿截止为 10 月 30 日 17:00。无会务费，受邀报告人午晚餐由会议安排，交通住宿自理。
+
+标签：<a class="tag-link" href="?q=%E5%BA%94%E7%94%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：应用经济学">应用经济学</a> · <a class="tag-link" href="?q=%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%AE%BA%E5%9D%9B&amp;show-results=1" title="全站搜索：博士生论坛">博士生论坛</a>
+
+<small>来源日期：2026-10-15；补录：2026-10-18</small>
+
+<a href="https://econ.sufe.edu.cn/25/c6/c6905a271814/page.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 同事被列为诉讼被告，会改变审计师行为吗？ {#paper-10-1111-1911-3846-70093}
+
+<p class="myapa">Christensen, B. E., Lundstrom, N. G., &amp; Newton, N. J. (2026). Could That Happen to Me? Auditor Response When Colleagues Are Named in Lawsuits. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70093" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Could%20That%20Happen%20to%20Me%3F%20Auditor%20Response%20When%20Colleagues%20Are%20Named%20in%20Lawsuits" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文比较审计合伙人与事务所共同被诉、以及仅事务所被诉的情形，关注同一办公室内未被起诉合伙人的反应。摘要报告，前一种情形下，其他合伙人对现有客户的审计质量和收费提高，客户选择也更谨慎。研究将个人声誉与诉讼风险传导落实到同事关系，适合关注审计行为和组织内部外溢的读者。
+
+标签：<a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：审计质量">审计质量</a> · <a class="tag-link" href="?q=%E8%AF%89%E8%AE%BC%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：诉讼风险">诉讼风险</a>
+
+<small>来源日期：2026-10-13；补录：2026-10-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 平台升级为何同时带来创新与跨平台经营？ {#paper-10-1002-smj-70136}
+
+<p class="myapa">Agarwal, S. &amp; Ranganathan, R. (2026). A platform for change? Core component innovations, complementor adaptation, and multihoming in platform‐based ecosystems. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70136" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=A%20platform%20for%20change%3F%20Core%20component%20innovations%2C%20complementor%20adaptation%2C%20and%20multihoming%20in%20platform%E2%80%90based%20ecosystems" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者利用苹果五次主要 iOS 升级的细粒度数据，研究平台核心组件创新如何关联补充者的适应行为。分析发现，配套创新与多平台经营可能同时增加；进一步讨论标准化与差异化在不同平台间的作用。研究采用溯因分析组织证据，适合用于理解平台生态的动态调整，不宜将这些关联直接解释为普遍因果规律。
+
+标签：<a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%B9%B3%E5%8F%B0&amp;show-results=1" title="全站搜索：数字平台">数字平台</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%B9%B3%E5%8F%B0%E7%BB%8F%E8%90%A5&amp;show-results=1" title="全站搜索：多平台经营">多平台经营</a>
+
+<small>来源日期：2026-10-16；补录：2026-10-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 歧视如何产生于有方向的信息搜寻？ {#paper-10-1287-mnsc-2025-01818}
+
+<p class="myapa">Eyting, M. (2026). Why Do We Discriminate? Directional Beliefs and Biased Information Processing. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.01818" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Why%20Do%20We%20Discriminate%3F%20Directional%20Beliefs%20and%20Biased%20Information%20Processing" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+一系列实验考察人们如何通过选择性搜寻与解释信息形成有方向的信念，并产生歧视。作者将这一机制与偏好性歧视和统计性歧视区分，报告在实验中限制对信息的解释空间可以降低偏差。阅读时可关注信念测量与信息环境如何被操纵，以及实验结果向招聘或信贷等场景推广时需要哪些条件。
+
+标签：<a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：信息处理">信息处理</a>
+
+<small>来源日期：2026-10-14；补录：2026-10-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 有限总体视角下，GMM 的方差该怎样估计？ {#arxiv-2610-15168}
+
+<p class="myapa">Kakehi, H., Matsushita, Y., &amp; Otsu, T. (2026). GMM under finite-population asymptotics: instrumental variables and regression adjustment. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.15168" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.15168.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=GMM%20under%20finite-population%20asymptotics%3A%20instrumental%20variables%20and%20regression%20adjustment" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将 GMM 推断放入有限总体框架，讨论工具变量估计与随机实验中的回归调整。作者给出一致性、渐近正态性和保守方差估计，并分析加权矩阵、错设和过度识别检验。其价值在于提醒读者：推断所针对的总体与随机性来源会改变方差解释，不能把超总体公式不加区分地搬到固定研究总体。
+
+标签：<a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E6%9C%89%E9%99%90%E6%80%BB%E4%BD%93&amp;show-results=1" title="全站搜索：有限总体">有限总体</a>
+
+<small>来源日期：2026-10-10；补录：2026-10-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 实验样本与行政记录匹配不唯一，还能估计处理效应吗？ {#arxiv-2610-15063}
+
+<p class="myapa">Ferman, B. &amp; Finamor, L. (2026). Randomized Experiments with Ambiguous Record Linkage. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.15063" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.15063.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Randomized%20Experiments%20with%20Ambiguous%20Record%20Linkage" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+实验对象与行政数据使用粗略标识符匹配时，一个人可能对应多个候选结果。论文在真实结果包含于候选集合等条件下，构造无需先确定唯一匹配、也不依赖结果模型的样本平均处理效应估计量，并讨论随机化推断。回归调整和重加权用于改善精度；匹配模糊带来的精度损失仍须评估，不能理解为匹配质量不再重要。
+
+标签：<a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E8%AE%B0%E5%BD%95%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：记录匹配">记录匹配</a>
+
+<small>来源日期：2026-10-10；补录：2026-10-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 高维回归中，怎样同时检验多条线性约束？ {#arxiv-2610-16503}
+
+<p class="myapa">Lim, D., Min, P., Tan, J. H. W., &amp; Wei, J. (2026). Honest Inference for High-Dimensional Linear Models. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.16503" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.16503.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Honest%20Inference%20for%20High-Dimensional%20Linear%20Models" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文针对稀疏高维线性模型中的多条线性约束，结合去偏 LASSO、岭型二次统计量与随维度调整的临界值构造推断方法，并允许一定形式的异方差和非同分布观测。读者可关注待检验约束数量、稀疏性与尾部条件怎样影响适用范围。工作论文中的理论保证依赖这些条件，不能等同于任意高维数据都可直接套用。
+
+标签：<a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：高维回归">高维回归</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
+
+<small>来源日期：2026-10-12；补录：2026-10-18</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### comets：基于协方差的条件独立性检验 {#tool-comets-0-2-3}
+
+comets 提供 GCM、PCM 等基于协方差的条件独立性检验，帮助研究者检查给定协变量后两个变量是否仍有关联。手册给出 <code>comet(y ~ x1 + x2 | z, data=df, test=&quot;gcm&quot;)</code> 一类接口，便于区分被检验变量与条件变量。安装命令为 <code>install.packages(&quot;comets&quot;)</code>，源码安装涉及编译，二进制可能滞后。条件独立性检验本身不能证明因果识别成立。
+
+标签：<a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E7%8B%AC%E7%AB%8B&amp;show-results=1" title="全站搜索：条件独立">条件独立</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：统计检验">统计检验</a>
+
+<small>来源日期：2026-10-17；补录：2026-10-18</small>
+
+<a href="https://cran.r-project.org/web/packages/comets/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
