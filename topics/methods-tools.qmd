@@ -8,9 +8,17 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 75 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 76 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>censusindia：印度人口普查与历史地理数据</h3>
+
+<p class="catalog-meta">期次日期：2026-10-19</p>
+<p>R 包 censusindia 提供印度历次人口普查表、州与地区边界，以及人口预测数据。可用 <code>install.packages(&quot;censusindia&quot;)</code> 安装，通过 <code>get_census(2011, &quot;state&quot;)</code> 查询州级数据。边界及较大表格首次使用时下载并缓存；历史边界变化与预测数据的性质需要单独核对。本期核验了官方说明与示例，未独立运行。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E6%99%AE%E6%9F%A5&amp;show-results=1" title="全站搜索：人口普查">人口普查</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：空间数据">空间数据</a></p>
+<p class="catalog-actions"><a href="../issues/20261019/#tool-censusindia-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=censusindia" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>linearmodels 7.1：工具变量与面板推断更新</h3>
 
@@ -83,16 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%8C%BA%E9%97%B4&amp;show-results=1" title="全站搜索：置信区间">置信区间</a></p>
 <p class="catalog-actions"><a href="../issues/20261012/#r-coresynth-1-0-1">查看本期</a><a href="https://cran.r-project.org/web/packages/coresynth/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>cruceandino：让多维分组表和图使用同一套统计口径</h3>
-
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>Stata 命令 cruceandino 按一至三个分类变量汇总结果变量，并生成对应表格和图形，适合调查数据的比例、均值及分组比较。官方帮助基于 Stata 17 的 table 与 collect 框架，可导出多种表格格式；<code>ssc install cruceandino</code> 安装后先看 <code>help cruceandino</code> 的示例。绘图便利不替代抽样设计和统计推断，应核对权重、缺失值及分母。本轮核对官方帮助，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E5%88%86%E7%BB%84%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：分组统计">分组统计</a> · <a class="tag-link" href="?q=%E5%9B%BE%E8%A1%A8&amp;show-results=1" title="全站搜索：图表">图表</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#stata-cruceandino-0-9-1">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459918.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 75 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 76 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

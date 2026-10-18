@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.10.19
+
+📰 01｜论文 · Journal of the Royal Statistical Society Series B: Statistical Methodology：共形多重检验如何利用全部数据？
+JRSS-B：统一利用多类样本构造共形多重检验，在相应假设下控制错误发现率。
+引文：Huo et al. (2026). Unified conformalized multiple testing with full data efficiency. Journal of the Royal Statistical Society Series B: Statistical Methodology.
+主页： https://doi.org/10.1093/jrsssb/qkag132 
+
+📰 02｜论文 · Organization Science：招聘配额增加了就业，也改善了职业发展吗？
+Organization Science：巴西残障就业政策研究提示，应分别评价新增就业、工资差距与职业发展。
+引文：Nardi et al. (2026). Diversity and/or Inclusion? Evidence from Disability Quota and Inclusion Laws in Brazil. Organization Science.
+主页： https://doi.org/10.1287/orsc.2024.18693 
+
+📰 03｜论文 · Journal of Management：CEO 的政治倾向与纵向一体化决策
+Journal of Management：利用 CEO 更替研究政治倾向与企业边界选择，提醒读者关注交易环境之外的管理者差异。
+引文：Loncarich, Abdurakhmonov & Schnacker (2026). Transaction Hazards Through Ideological Filters: How CEO Political Ideology Influences Vertical Integration Decisions. Journal of Management.
+主页： https://doi.org/10.1177/01492063261487117 
+
+📦 04｜软件 · R：censusindia：印度人口普查与历史地理数据
+R 包 censusindia 将印度人口普查表与对应年份边界结合，便于人口和空间研究；预测数据应与历史普查值区分。
+版本：R / censusindia 0.2.1；发布：2026-10-18
+CRAN： https://cran.r-project.org/package=censusindia 
+
+📅 05｜会议征稿：产业政策研讨会：11 月 30 日截稿
+北大与复旦合办产业政策研讨会，12月26–27日北京举行，11月30日截稿；无会务费，交通住宿自理。
+截止：2026-11-30
+通知： https://www.nse.pku.edu.cn/tzgg/76d5dd2782664a948265678d2a295fb2.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261019/ 
