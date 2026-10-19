@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.20
+
+✍️ 01｜新推文：从线性模型说起：关于统计建模的一些思考
+从住房租金出发，理清模型设定、参数估计与因果识别的区别。
+阅读全文： https://www.lianxh.cn/details/1973.html 
+
+✍️ 02｜新推文：面板中介分析+双重机器学习：识别、估计与研究设计
+面板中介分析如何结合 DML？重点看处理历史、序贯识别和联合推断。
+阅读全文： https://www.lianxh.cn/details/1974.html 
+
+📰 03｜论文 · The Review of Financial Studies：证券设计为什么要与信息披露一起考虑？
+RFS：证券与信号应联合设计，最优结构取决于信息和支付函数的限制。
+引文：Inostroza & Tsoy (2026). Optimal Information and Security Design. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag093 
+
+📰 04｜论文 · Biometrika：重抽样检验如何用鞍点近似减少计算？
+Biometrika：以鞍点近似加速特定重抽样检验，同时分析近似误差与检验有效性。
+引文：Niu et al. (2026). Saddlepoint approximations for plug-in resampling. Biometrika.
+主页： https://doi.org/10.1093/biomet/asag063 
+
+📦 05｜软件 · R：scf：美国消费者金融调查的加权与多重插补分析
+scf 整合 SCF 调查的多重插补与重复权重，便于家庭财富研究；安装后注意核对版本。
+版本：R / scf 1.2.0；发布：2026-10-19
+CRAN： https://cran.r-project.org/package=scf 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261020/ 

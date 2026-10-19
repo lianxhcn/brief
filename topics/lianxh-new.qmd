@@ -8,9 +8,25 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 7 页 · 共 69 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 71 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>面板中介分析+双重机器学习：识别、估计与研究设计</h3>
+
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>文章围绕历史相关的直接、间接与总效应，介绍面板中介分析中的一阶差分、个体层面交叉拟合和联合 DML–GMM。固定效应与灵活控制不能自动解决时变未观测混杂，处理路径、当期时序和序贯识别条件仍需结合研究背景论证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：中介分析">中介分析</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#lianxh-1974">查看本期</a><a href="https://www.lianxh.cn/details/1974.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>从线性模型说起：关于统计建模的一些思考</h3>
+
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>文章以住房租金为例，区分条件均值、分位数、方差和完整条件分布，串联线性回归、GLM 与 OLS、GMM、MLE。它强调先明确预测、描述或干预问题，再选择模型假设和推断方法；估计方法本身不能提供因果识别。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：统计建模">统计建模</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：线性回归">线性回归</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#lianxh-1973">查看本期</a><a href="https://www.lianxh.cn/details/1973.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>用大白话绘制科研图：scipilot-figure-skill</h3>
 
@@ -75,24 +91,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：政策反事实">政策反事实</a> · <a class="tag-link" href="?q=%E5%8C%BA%E5%9F%9F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：区域经济">区域经济</a></p>
 <p class="catalog-actions"><a href="../issues/20261007/#post-1961">查看本期</a><a href="https://www.lianxh.cn/details/1961.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>QSM 怎么学？从读懂模型到复现论文，再到自己的研究</h3>
-
-<p class="catalog-meta">期次日期：2026-10-07</p>
-<p>文章按读懂模型、运行简单例子、复现论文、扩展选题的顺序组织 QSM 学习路线，区分可观测数据、结构参数、基本面反演与反事实均衡。基准模型匹配了用于校准的数据，并不等于获得独立验证；学习时还应检查额外事实与敏感性分析。文中也区分教学代码和论文原版程序，提醒读者不能把代码运行成功直接当作完成论文复现。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：论文复现">论文复现</a> · <a class="tag-link" href="?q=%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF&amp;show-results=1" title="全站搜索：学习路线">学习路线</a></p>
-<p class="catalog-actions"><a href="../issues/20261007/#post-1960">查看本期</a><a href="https://www.lianxh.cn/details/1960.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>对话式调查：AI 时代问卷调查研究的新模式</h3>
-
-<p class="catalog-meta">期次日期：2026-10-06</p>
-<p>文章介绍在统一调查主题下设置中性追问和停止规则，再将对话文本转化为可分析变量的流程。对话可以揭示固定问卷遗漏的解释，但追问本身也可能改变受访者态度。研究者需要保留提问路径、提示词和模型版本，并用人工抽样或随机结构化验证问题检查编码；文本更长不等于测量更准确，AI 标签进入回归前仍须核验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：问卷调查">问卷调查</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a></p>
-<p class="catalog-actions"><a href="../issues/20261006/#post-1959">查看本期</a><a href="https://www.lianxh.cn/details/1959.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 7 页 · 共 69 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-7.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 71 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

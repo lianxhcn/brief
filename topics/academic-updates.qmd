@@ -8,9 +8,17 @@ title: "会议征稿"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 3 页 · 共 30 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-4.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>资产评估学术论坛：11 月 1 日截稿</h3>
+
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>第九届中国资产评估学术论坛暨《资产评估研究》研讨会将于 11 月 22 日在厦门大学举行，征集数字资产、人工智能与评估、并购重组、ESG 等方向原创未发表论文。11 月 1 日前提交 Word 文档，11 月 13 日前通知入选；不收会务费，交通住宿自理。优秀论文推荐后仍需期刊审稿。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：资产评估">资产评估</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#xmu-asset-valuation-2026">查看本期</a><a href="https://conf.xmu.edu.cn/conf2026/asset/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>产业政策研讨会：11 月 30 日截稿</h3>
 
@@ -83,16 +91,8 @@ title: "会议征稿"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：金融研究">金融研究</a> · <a class="tag-link" href="?q=%E9%9D%92%E5%B9%B4%E5%AD%A6%E8%80%85&amp;show-results=1" title="全站搜索：青年学者">青年学者</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
 <p class="catalog-actions"><a href="../issues/20260925/#conference-cfrn-young-2026">查看本期</a><a href="https://finance.sina.com.cn/wm/2026-09-23/doc-inisvcqf1260053.shtml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>厦大发展经济学论坛：10 月 8 日截稿</h3>
-
-<p class="catalog-meta">期次日期：2026-09-22</p>
-<p>发展经济学前沿与国际发展经验论坛将于 10 月 31 日至 11 月 1 日在厦门大学举行，征集包容性增长、收入分配、公共支出与政策评估等研究，接受全文或扩展摘要，10 月 8 日截止。教职及专业人员注册费 600 元、学生 300 元，交通住宿自理。会议采用线下形式，投稿与注册请查看厦门大学官方通知。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%91%E5%B1%95%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：发展经济学">发展经济学</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a></p>
-<p class="catalog-actions"><a href="../issues/20260922/#conference-xmu-development-2026">查看本期</a><a href="https://chow.xmu.edu.cn/info/1046/48682.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 3 页 · 共 30 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-3.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 31 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-4.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
