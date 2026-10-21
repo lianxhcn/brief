@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.21
+
+📰 01｜论文 · Management Science：报名越方便，后续参与就越多吗？
+论文以拼车平台和线上任务实验研究报名摩擦。
+引文：Dykstra, O’ Flaherty & Whillans (2026). The Buy-in Effect: When Increasing Initial Effort Encourages Follow-Through. Management Science.
+主页： https://doi.org/10.1287/mnsc.2023.03600 
+
+📰 02｜论文 · Management Science：从机器翻译到 ChatGPT：哪些任务更容易被替代？
+作者利用在线翻译市场中两次技术变化，比较常规翻译与需要文化和创意适配的任务。
+引文：Yilmaz, Naumovska & Aggarwal (2026). AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.06740 
+
+📰 03｜论文 · The Accounting Review：遏制利润转移的税制，会推动海外实体投资吗？
+论文研究美国 GILTI 税制对跨国企业实体投资的影响。
+引文：Huang, Osswald & Wilson (2026). The Effect of Global Intangible Low-Taxed Income Tax on U.S. Multinational Companies’ Cross-Border Tangible Investments. The Accounting Review.
+主页： https://doi.org/10.2308/tar-2024-0158 
+
+📦 04｜软件 · R：ifo：在 R 中获取德国企业景气调查时间序列
+R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 `install.packages("ifo")` 安装，官方示例以 `ifo_business()` 获取景气、现状与预期指标。
+版本：R / ifo 0.3.1；发布：2026-10-20
+CRAN： https://cran.r-project.org/package=ifo 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261021/ 

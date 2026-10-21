@@ -1,0 +1,207 @@
+---
+title: "连享会 · 快讯 | 2026.10.21"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 报名越方便，后续参与就越多吗？ {#paper-10-1287-mnsc-2023-03600}
+
+<p class="myapa">Dykstra, H., O’ Flaherty, S., &amp; Whillans, A. (2026). The Buy-in Effect: When Increasing Initial Effort Encourages Follow-Through. Management Science. <a href="https://doi.org/10.1287/mnsc.2023.03600" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Buy-in%20Effect%3A%20When%20Increasing%20Initial%20Effort%20Encourages%20Follow-Through" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文以拼车平台和线上任务实验研究报名摩擦。增加适度初始投入虽然降低报名人数，却提高后续参与，提醒研究者区分首次采用与持续使用。作者同时分析筛选与意向处理效应，不能仅比较最终报名者来判断政策效果。
+
+标签：<a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：行为干预">行为干预</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a>
+
+<small>来源日期：2026-10-16；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 从机器翻译到 ChatGPT：哪些任务更容易被替代？ {#paper-10-1287-mnsc-2024-06740}
+
+<p class="myapa">Yilmaz, E. D., Naumovska, I., &amp; Aggarwal, V. A. (2026). AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.06740" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=AI-Driven%20Human%20Task%20Substitution%3A%20Evidence%20from%20Google%20Translate%20and%20ChatGPT" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者利用在线翻译市场中两次技术变化，比较常规翻译与需要文化和创意适配的任务。DID 结果显示，Google 神经机器翻译主要影响常规任务，而 ChatGPT 的替代范围更广。结论来自特定平台和时期，不能直接推广为所有知识工作岗位的消失。
+
+标签：<a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a>
+
+<small>来源日期：2026-10-14；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 遏制利润转移的税制，会推动海外实体投资吗？ {#paper-10-2308-tar-2024-0158}
+
+<p class="myapa">Huang, J., Osswald, B., &amp; Wilson, R. J. (2026). The Effect of Global Intangible Low-Taxed Income Tax on U.S. Multinational Companies’ Cross-Border Tangible Investments. The Accounting Review. <a href="https://doi.org/10.2308/tar-2024-0158" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Effect%20of%20Global%20Intangible%20Low-Taxed%20Income%20Tax%20on%20U.S.%20Multinational%20Companies%E2%80%99%20Cross-Border%20Tangible%20Investments" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究美国 GILTI 税制对跨国企业实体投资的影响。作者根据公开财务报表构建事前识别策略，发现企业增加海外有形投资，但未发现国内有形投资显著下降，并考察境内外创新变化。研究提示，限制利润转移的税收规则可能同时改变真实投资激励。
+
+标签：<a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E7%A8%8E%E6%94%B6&amp;show-results=1" title="全站搜索：国际税收">国际税收</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%9B%BD%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：跨国企业">跨国企业</a>
+
+<small>来源日期：2026-10-07；补录：2026-10-21</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### ifo：在 R 中获取德国企业景气调查时间序列 {#tool-ifo-0-3-1}
+
+R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 <code>install.packages(&quot;ifo&quot;)</code> 安装，官方示例以 <code>ifo_business()</code> 获取景气、现状与预期指标。CRAN 源码更新至 0.3.1，部分二进制仍为 0.3.0，安装后应核对版本。本期检查文档，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0&amp;show-results=1" title="全站搜索：景气指数">景气指数</a>
+
+<small>来源日期：2026-10-20；补录：2026-10-21</small>
+
+<a href="https://cran.r-project.org/package=ifo" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 运输监测更精准，食品浪费一定更少吗？ {#paper-10-1287-mnsc-2024-07382}
+
+<p class="myapa">Lu, T. (2026). Shipment Monitoring, Allocation, and the Impact on Food Waste. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07382" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Shipment%20Monitoring%2C%20Allocation%2C%20and%20the%20Impact%20on%20Food%20Waste" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立采购与两地市场分配模型，分析监测鲜活产品状态后如何按剩余保质期安排运输。监测可改善分配效率，却也可能诱发更多采购，使浪费总量上升。浪费率下降与浪费总量下降应分别评估，结论依赖模型中的采购和运输条件。
+
+标签：<a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E9%A3%9F%E5%93%81%E6%B5%AA%E8%B4%B9&amp;show-results=1" title="全站搜索：食品浪费">食品浪费</a>
+
+<small>来源日期：2026-10-15；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 远程协作怎样形成心理安全感？ {#paper-10-1287-orsc-2024-19818}
+
+<p class="myapa">Conzon, V. M. (2026). Repatterning Interactions in Remote Work Environments: Bolstering Psychological Safety Through Mutually Humanizing Self-Disclosure. Organization Science. <a href="https://doi.org/10.1287/orsc.2024.19818" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Repatterning%20Interactions%20in%20Remote%20Work%20Environments%3A%20Bolstering%20Psychological%20Safety%20Through%20Mutually%20Humanizing%20Self-Disclosure" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+基于专业服务组织从线下转向远程工作的纵向质性资料，作者提出成员相互自我披露、增进对彼此生活处境的理解，进而增强心理安全感的过程模型。相关协作实践兼顾任务协调和时间地点灵活性。这是机制性解释，不能直接视为远程办公的平均因果效应。
+
+标签：<a class="tag-link" href="?q=%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC&amp;show-results=1" title="全站搜索：远程办公">远程办公</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：组织行为">组织行为</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 企业愿景怎样逐步变成虚假陈述？ {#paper-10-1287-orsc-2023-18038}
+
+<p class="myapa">Zuzul, T. &amp; Mohliver, A. C. (2026). Dominant Deceptions: How Future-Oriented Narratives Transform into Deception. Organization Science. <a href="https://doi.org/10.1287/orsc.2023.18038" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Dominant%20Deceptions%3A%20How%20Future-Oriented%20Narratives%20Transform%20into%20Deception" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者跟踪新兴行业企业，解释面向未来的愿景如何被转译为具体指标，在进展压力下由“将会实现”变成“已经实现”，最终固化为组织反复传播的错误陈述。研究关注分散、渐进的过程及其支持条件，适合思考组织叙事与治理风险。
+
+标签：<a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%8F%99%E4%BA%8B&amp;show-results=1" title="全站搜索：组织叙事">组织叙事</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：企业治理">企业治理</a>
+
+<small>来源日期：2026-10-08；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 空气污染暴露：不能只看居住地址 {#paper-10-1080-01621459-2026-2743983}
+
+<p class="myapa">Shin, H., Braun, D., Irene, K., Audirac, M., &amp; Antonelli, J. (2026). A Spatial Interference Approach to Account for Mobility in Air Pollution Studies with Multivariate Continuous Treatments. Journal of the American Statistical Association. <a href="https://doi.org/10.1080/01621459.2026.2743983" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2305.14194.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=A%20Spatial%20Interference%20Approach%20to%20Account%20for%20Mobility%20in%20Air%20Pollution%20Studies%20with%20Multivariate%20Continuous%20Treatments" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文把人口流动带来的跨区域污染暴露作为空间干扰问题，结合手机流动信息构造暴露，并用灵活贝叶斯方法估计政策相关效应。仅按居住地赋值可能遗漏真实暴露路径。本期核对 JASA 新发表书目，内容依据作者 arXiv v4 摘要，未核对期刊全文。
+
+标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：空间溢出">空间溢出</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a>
+
+<small>来源日期：2026-10-20；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 高持续性面板局部投影：偏差校正后如何计算标准误？ {#arxiv-2610-26427}
+
+<p class="myapa">Dhaene, Geert &amp; Juodis, Arturas. (2026). Almost Uniform Bias Correction for Persistent Panel Local Projections. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.26427" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.26427.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Almost%20Uniform%20Bias%20Correction%20for%20Persistent%20Panel%20Local%20Projections" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究含自回归控制变量的面板局部投影，允许目标变量和控制变量具有较强持续性。理论分析支持半面板 jackknife 在超出平稳情形时的偏差修正性质，同时强调标准误必须反映校正带来的抽样不确定性，不能直接沿用未经调整的标准误。
+
+标签：<a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%81%8F%E5%B7%AE%E6%A0%A1%E6%AD%A3&amp;show-results=1" title="全站搜索：偏差校正">偏差校正</a>
+
+<small>来源日期：2026-10-19；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 无需带宽选择的处理效应异质性检验 {#arxiv-2610-25986}
+
+<p class="myapa">Lu, Haokun &amp; Song, Xiaojun. (2026). Tuning-Free Tests for Treatment Effect Heterogeneity via Expectile Processes. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.25986" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.25986.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Tuning-Free%20Tests%20for%20Treatment%20Effect%20Heterogeneity%20via%20Expectile%20Processes" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+作者利用 expectile 处理效应曲线刻画同质性原假设，构造过程函数型检验及乘数 bootstrap，避免密度估计、带宽选择和反复拟合。文中包含协变量调整与节水实验应用。无需调参并不等于无需研究设计和识别条件，工作论文结论仍待进一步检验。
+
+标签：<a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：处理效应">处理效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：异质性检验">异质性检验</a>
+
+<small>来源日期：2026-10-19；补录：2026-10-21</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 聚类结果的序贯推断：多次查看数据仍怎样控制错误？ {#arxiv-2610-25613}
+
+<p class="myapa">Lindon, Michael. (2026). Anytime-Valid Inference in Linear Models with Clustered Outcomes: Exact Multivariate Tests and Cluster-Robust Confidence Sequences. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.25613" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.25613.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Anytime-Valid%20Inference%20in%20Linear%20Models%20with%20Clustered%20Outcomes%3A%20Exact%20Multivariate%20Tests%20and%20Cluster-Robust%20Confidence%20Sequences" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将随时有效推断扩展到每个单位具有多个相关结果的线性模型。高斯多元模型下给出精确 e 值和置信序列；一般聚类投影下则得到渐近有效的方法。精确结果与稳健渐近结果依赖不同假设，不能把普通聚类稳健检验直接当成可随时停止的检验。
+
+标签：<a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：序贯推断">序贯推断</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a>
+
+<small>来源日期：2026-10-19；补录：2026-10-21</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### gtregression：从回归模型到论文表格 {#tool-gtregression-1-2-0}
+
+R 包 gtregression 整合回归、诊断、森林图和 Word 等格式导出。1.2.0 增加风险差、NNT 与更多模型支持；官方示例用 <code>uni_reg()</code>、<code>multi_reg()</code> 和 <code>merge_tables()</code> 组织结果。安装命令为 <code>install.packages(&quot;gtregression&quot;)</code>。格式化输出不能替代模型诊断与因果识别，本期未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：回归输出">回归输出</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：结果可视化">结果可视化</a>
+
+<small>来源日期：2026-10-20；补录：2026-10-21</small>
+
+<a href="https://cran.r-project.org/package=gtregression" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

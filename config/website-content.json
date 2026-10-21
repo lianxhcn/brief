@@ -3240,5 +3240,77 @@
     "source_sha256": "43f5b1df5cabb2d3907e6bea822fdd2457a254d81b75cc7cedf4153e7f621e37",
     "source": "content/issues/2026-10-20.json",
     "reviewed_date": "2026-10-20"
+  },
+  "paper-10-1287-mnsc-2023-03600": {
+    "summary": "论文以拼车平台和线上任务实验研究报名摩擦。增加适度初始投入虽然降低报名人数，却提高后续参与，提醒研究者区分首次采用与持续使用。作者同时分析筛选与意向处理效应，不能仅比较最终报名者来判断政策效果。",
+    "source_sha256": "08eab25b719089803fe7655384bbf2f14ae5f489cf596e3ad70b1e92ce9953bc",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "paper-10-1287-mnsc-2024-06740": {
+    "summary": "作者利用在线翻译市场中两次技术变化，比较常规翻译与需要文化和创意适配的任务。DID 结果显示，Google 神经机器翻译主要影响常规任务，而 ChatGPT 的替代范围更广。结论来自特定平台和时期，不能直接推广为所有知识工作岗位的消失。",
+    "source_sha256": "b9bd6047c4636e16a943f724f23ad739f41308d05d4c9a2fb0c4087e3c0e7f18",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "paper-10-2308-tar-2024-0158": {
+    "summary": "论文研究美国 GILTI 税制对跨国企业实体投资的影响。作者根据公开财务报表构建事前识别策略，发现企业增加海外有形投资，但未发现国内有形投资显著下降，并考察境内外创新变化。研究提示，限制利润转移的税收规则可能同时改变真实投资激励。",
+    "source_sha256": "cd7d6dca288a6e95737eb8dc3fd215c9d5dc5f28706e5e7ffcbf8cce141be741",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "paper-10-1287-mnsc-2024-07382": {
+    "summary": "论文建立采购与两地市场分配模型，分析监测鲜活产品状态后如何按剩余保质期安排运输。监测可改善分配效率，却也可能诱发更多采购，使浪费总量上升。浪费率下降与浪费总量下降应分别评估，结论依赖模型中的采购和运输条件。",
+    "source_sha256": "14c2a7aeab0cd5b0dea17bc2549d1b1c06fbd644547258cb200463976e251c1b",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "paper-10-1287-orsc-2024-19818": {
+    "summary": "基于专业服务组织从线下转向远程工作的纵向质性资料，作者提出成员相互自我披露、增进对彼此生活处境的理解，进而增强心理安全感的过程模型。相关协作实践兼顾任务协调和时间地点灵活性。这是机制性解释，不能直接视为远程办公的平均因果效应。",
+    "source_sha256": "6896d0f8be5735ea64b4c3421666280a40ab048f82c09b721ee2b9077e297965",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "paper-10-1287-orsc-2023-18038": {
+    "summary": "作者跟踪新兴行业企业，解释面向未来的愿景如何被转译为具体指标，在进展压力下由“将会实现”变成“已经实现”，最终固化为组织反复传播的错误陈述。研究关注分散、渐进的过程及其支持条件，适合思考组织叙事与治理风险。",
+    "source_sha256": "c582da61d1907d7c049050ea2e23f3d2b9d916b0c87c776e8a96f7f163fe22eb",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "paper-10-1080-01621459-2026-2743983": {
+    "summary": "论文把人口流动带来的跨区域污染暴露作为空间干扰问题，结合手机流动信息构造暴露，并用灵活贝叶斯方法估计政策相关效应。仅按居住地赋值可能遗漏真实暴露路径。本期核对 JASA 新发表书目，内容依据作者 arXiv v4 摘要，未核对期刊全文。",
+    "source_sha256": "df6d970fa1e7f37420087fdc4110b8f13e2f018daaee7d55ed9edaa1f85b8128",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "arxiv-2610-26427": {
+    "summary": "论文研究含自回归控制变量的面板局部投影，允许目标变量和控制变量具有较强持续性。理论分析支持半面板 jackknife 在超出平稳情形时的偏差修正性质，同时强调标准误必须反映校正带来的抽样不确定性，不能直接沿用未经调整的标准误。",
+    "source_sha256": "2f8a2cb769bfdecc3da39a2ded925b8ad8977beea6d6b0c6761809f0b2fe9c13",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "arxiv-2610-25986": {
+    "summary": "作者利用 expectile 处理效应曲线刻画同质性原假设，构造过程函数型检验及乘数 bootstrap，避免密度估计、带宽选择和反复拟合。文中包含协变量调整与节水实验应用。无需调参并不等于无需研究设计和识别条件，工作论文结论仍待进一步检验。",
+    "source_sha256": "a0270552e11dc3a22ee7974fbb2f89a48d262a1eeb1a94b093956cf77cdbfec4",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "arxiv-2610-25613": {
+    "summary": "论文将随时有效推断扩展到每个单位具有多个相关结果的线性模型。高斯多元模型下给出精确 e 值和置信序列；一般聚类投影下则得到渐近有效的方法。精确结果与稳健渐近结果依赖不同假设，不能把普通聚类稳健检验直接当成可随时停止的检验。",
+    "source_sha256": "d514f1ebc45f2960b28bc2a8c4f611e1218f7e52458514561cccb75bfb40b015",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "tool-ifo-0-3-1": {
+    "summary": "R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 `install.packages(\"ifo\")` 安装，官方示例以 `ifo_business()` 获取景气、现状与预期指标。CRAN 源码更新至 0.3.1，部分二进制仍为 0.3.0，安装后应核对版本。本期检查文档，未独立实测。",
+    "source_sha256": "5aa6b3cb87608f4987b02c8ec71c56f4ecd75327ac5a37ad9bc43c32b46442c8",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
+  },
+  "tool-gtregression-1-2-0": {
+    "summary": "R 包 gtregression 整合回归、诊断、森林图和 Word 等格式导出。1.2.0 增加风险差、NNT 与更多模型支持；官方示例用 `uni_reg()`、`multi_reg()` 和 `merge_tables()` 组织结果。安装命令为 `install.packages(\"gtregression\")`。格式化输出不能替代模型诊断与因果识别，本期未独立实测。",
+    "source_sha256": "cf70a6c9a07e7c83b3c86bfd664e1e93d747bf03dacf72cc94c4cdda054995be",
+    "source": "content/issues/2026-10-21.json",
+    "reviewed_date": "2026-10-21"
   }
 }

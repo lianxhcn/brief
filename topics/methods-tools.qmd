@@ -8,9 +8,25 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 77 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 79 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>ifo：在 R 中获取德国企业景气调查时间序列</h3>
+
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 <code>install.packages(&quot;ifo&quot;)</code> 安装，官方示例以 <code>ifo_business()</code> 获取景气、现状与预期指标。CRAN 源码更新至 0.3.1，部分二进制仍为 0.3.0，安装后应核对版本。本期检查文档，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0&amp;show-results=1" title="全站搜索：景气指数">景气指数</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#tool-ifo-0-3-1">查看本期</a><a href="https://cran.r-project.org/package=ifo" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>gtregression：从回归模型到论文表格</h3>
+
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>R 包 gtregression 整合回归、诊断、森林图和 Word 等格式导出。1.2.0 增加风险差、NNT 与更多模型支持；官方示例用 <code>uni_reg()</code>、<code>multi_reg()</code> 和 <code>merge_tables()</code> 组织结果。安装命令为 <code>install.packages(&quot;gtregression&quot;)</code>。格式化输出不能替代模型诊断与因果识别，本期未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：回归输出">回归输出</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：结果可视化">结果可视化</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#tool-gtregression-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=gtregression" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>scf：美国消费者金融调查的加权与多重插补分析</h3>
 
@@ -75,24 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a></p>
 <p class="catalog-actions"><a href="../issues/20261014/#r-cpop-1-0-10">查看本期</a><a href="https://cran.r-project.org/web/packages/cpop/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>concstats 0.2.1：集中度指标与份额计算更新</h3>
-
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>R 包 concstats 根据市场份额计算集中度和不平等指标。0.2.1 新增前三、前五等汇总接口和原始数据转份额辅助函数，并修正 Simpson 指标实现。安装用 <code>install.packages(&quot;concstats&quot;)</code>，核对 <code>packageVersion(&quot;concstats&quot;)</code>；Windows 二进制可能滞后。市场边界和份额口径需要研究者自行确定，本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9B%86%E4%B8%AD%E5%BA%A6&amp;show-results=1" title="全站搜索：集中度">集中度</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E4%BB%BD%E9%A2%9D&amp;show-results=1" title="全站搜索：市场份额">市场份额</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#r-concstats-0-2-1">查看本期</a><a href="https://cran.r-project.org/web/packages/concstats/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>denstest 1.0.2：比较密度函数时，置换也要重算统计量</h3>
-
-<p class="catalog-meta">期次日期：2026-10-12</p>
-<p>R 包 denstest 用于比较多组估计密度函数，可从整体形状或分布矩的角度开展检验。1.0.2 修正了 TF 距离的置换推断：每次置换都重新计算依赖分组的方差估计及距离。安装为 <code>install.packages(&quot;denstest&quot;)</code>，官方示例用 <code>denscomp()</code> 组织比较。其输入是密度函数组，不宜不加区分地当作普通原始样本的均值检验；本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%AF%86%E5%BA%A6%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：密度比较">密度比较</a> · <a class="tag-link" href="?q=%E7%BD%AE%E6%8D%A2%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：置换检验">置换检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261012/#r-denstest-1-0-2">查看本期</a><a href="https://cran.r-project.org/web/packages/denstest/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 77 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 79 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

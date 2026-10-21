@@ -8,9 +8,25 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 77 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 79 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>concstats 0.2.1：集中度指标与份额计算更新</h3>
+
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>R 包 concstats 根据市场份额计算集中度和不平等指标。0.2.1 新增前三、前五等汇总接口和原始数据转份额辅助函数，并修正 Simpson 指标实现。安装用 <code>install.packages(&quot;concstats&quot;)</code>，核对 <code>packageVersion(&quot;concstats&quot;)</code>；Windows 二进制可能滞后。市场边界和份额口径需要研究者自行确定，本轮未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9B%86%E4%B8%AD%E5%BA%A6&amp;show-results=1" title="全站搜索：集中度">集中度</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E4%BB%BD%E9%A2%9D&amp;show-results=1" title="全站搜索：市场份额">市场份额</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#r-concstats-0-2-1">查看本期</a><a href="https://cran.r-project.org/web/packages/concstats/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>denstest 1.0.2：比较密度函数时，置换也要重算统计量</h3>
+
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>R 包 denstest 用于比较多组估计密度函数，可从整体形状或分布矩的角度开展检验。1.0.2 修正了 TF 距离的置换推断：每次置换都重新计算依赖分组的方差估计及距离。安装为 <code>install.packages(&quot;denstest&quot;)</code>，官方示例用 <code>denscomp()</code> 组织比较。其输入是密度函数组，不宜不加区分地当作普通原始样本的均值检验；本轮未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%AF%86%E5%BA%A6%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：密度比较">密度比较</a> · <a class="tag-link" href="?q=%E7%BD%AE%E6%8D%A2%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：置换检验">置换检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#r-denstest-1-0-2">查看本期</a><a href="https://cran.r-project.org/web/packages/denstest/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>coresynth 1.0.1：合成控制推断与公式解析的重要修正</h3>
 
@@ -75,24 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：多重检验">多重检验</a></p>
 <p class="catalog-actions"><a href="../issues/20261009/#r-caples-0-1-0">查看本期</a><a href="https://cran.r-project.org/web/packages/caples/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>spaci 0.2.0：同时考虑空间混杂与邻近干扰</h3>
-
-<p class="catalog-meta">期次日期：2026-10-08</p>
-<p>R 包提供 iDAPS 匹配和 recoverU+ 估计，用于同时存在空间混杂与邻近处理干扰的观察数据。0.2.0 新增空间 HAC 方差、空间区块 bootstrap 和条件随机化检验。安装为 <code>install.packages(&quot;spaci&quot;)</code>；官网提供模拟数据示例。点估计、暴露映射和空间相关推断各有假设，默认独立同分布标准误不能直接照搬。本轮核验文档与版本，未独立实测；部分 Windows 二进制仍显示旧版，安装后须核对版本。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261008/#r-spaci-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/spaci/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>rcsplot：样条曲线的估计样本与绘图区间要一致</h3>
-
-<p class="catalog-meta">期次日期：2026-10-08</p>
-<p>Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。安装为 <code>ssc install rcsplot</code>，要求 Stata 16 及以上。默认先按暴露变量第 1–99 百分位截尾，再用同一区间估计和绘图，并区分总体与非线性检验。使用前应明确截尾改变了哪个样本，不能把曲线形状直接当作因果关系；官方帮助含可运行例子，本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E9%99%90%E5%88%B6%E6%80%A7%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;show-results=1" title="全站搜索：限制性三次样条">限制性三次样条</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a></p>
-<p class="catalog-actions"><a href="../issues/20261008/#stata-rcsplot-1-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459920.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 77 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 79 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
