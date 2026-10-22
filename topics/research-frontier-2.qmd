@@ -8,9 +8,65 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 39 页 · 共 387 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-39.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>运输监测更精准，食品浪费一定更少吗？</h3>
+<p class="catalog-citation">Lu, T. (2026). Shipment Monitoring, Allocation, and the Impact on Food Waste. Management Science.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文建立采购与两地市场分配模型，分析监测鲜活产品状态后如何按剩余保质期安排运输。监测可改善分配效率，却也可能诱发更多采购，使浪费总量上升。浪费率下降与浪费总量下降应分别评估，结论依赖模型中的采购和运输条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E9%A3%9F%E5%93%81%E6%B5%AA%E8%B4%B9&amp;show-results=1" title="全站搜索：食品浪费">食品浪费</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2024-07382">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07382" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>聚类结果的序贯推断：多次查看数据仍怎样控制错误？</h3>
+<p class="catalog-citation">Lindon, Michael (2026). Anytime-Valid Inference in Linear Models with Clustered Outcomes: Exact Multivariate Tests and Cluster-Robust Confidence Sequences. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文将随时有效推断扩展到每个单位具有多个相关结果的线性模型。高斯多元模型下给出精确 e 值和置信序列；一般聚类投影下则得到渐近有效的方法。精确结果与稳健渐近结果依赖不同假设，不能把普通聚类稳健检验直接当成可随时停止的检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：序贯推断">序贯推断</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#arxiv-2610-25613">查看本期</a><a href="https://arxiv.org/abs/2610.25613" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>空气污染暴露：不能只看居住地址</h3>
+<p class="catalog-citation">Shin, H. et al. (2026). A Spatial Interference Approach to Account for Mobility in Air Pollution Studies with Multivariate Continuous Treatments. JASA.</p><p class="catalog-meta">发表日期：2026-10-20 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文把人口流动带来的跨区域污染暴露作为空间干扰问题，结合手机流动信息构造暴露，并用灵活贝叶斯方法估计政策相关效应。仅按居住地赋值可能遗漏真实暴露路径。本期核对 JASA 新发表书目，内容依据作者 arXiv v4 摘要，未核对期刊全文。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：空间溢出">空间溢出</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1080-01621459-2026-2743983">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2743983" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>无需带宽选择的处理效应异质性检验</h3>
+<p class="catalog-citation">Lu, Haokun; Song, Xiaojun (2026). Tuning-Free Tests for Treatment Effect Heterogeneity via Expectile Processes. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者利用 expectile 处理效应曲线刻画同质性原假设，构造过程函数型检验及乘数 bootstrap，避免密度估计、带宽选择和反复拟合。文中包含协变量调整与节水实验应用。无需调参并不等于无需研究设计和识别条件，工作论文结论仍待进一步检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：处理效应">处理效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：异质性检验">异质性检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#arxiv-2610-25986">查看本期</a><a href="https://arxiv.org/abs/2610.25986" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>报名越方便，后续参与就越多吗？</h3>
+<p class="catalog-citation">Dykstra, H.; O’ Flaherty, S.; Whillans, A. (2026). The Buy-in Effect: When Increasing Initial Effort Encourages Follow-Through. Management Science.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文以拼车平台和线上任务实验研究报名摩擦。增加适度初始投入虽然降低报名人数，却提高后续参与，提醒研究者区分首次采用与持续使用。作者同时分析筛选与意向处理效应，不能仅比较最终报名者来判断政策效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：行为干预">行为干预</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2023-03600">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.03600" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>企业愿景怎样逐步变成虚假陈述？</h3>
+<p class="catalog-citation">Zuzul, T.; Mohliver, A. C. (2026). Dominant Deceptions: How Future-Oriented Narratives Transform into Deception. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者跟踪新兴行业企业，解释面向未来的愿景如何被转译为具体指标，在进展压力下由“将会实现”变成“已经实现”，最终固化为组织反复传播的错误陈述。研究关注分散、渐进的过程及其支持条件，适合思考组织叙事与治理风险。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%8F%99%E4%BA%8B&amp;show-results=1" title="全站搜索：组织叙事">组织叙事</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：企业治理">企业治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-orsc-2023-18038">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.18038" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>从机器翻译到 ChatGPT：哪些任务更容易被替代？</h3>
+<p class="catalog-citation">Yilmaz, E. D.; Naumovska, I.; Aggarwal, V. A. (2026). AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT. Management Science.</p><p class="catalog-meta">发表日期：2026-10-14 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者利用在线翻译市场中两次技术变化，比较常规翻译与需要文化和创意适配的任务。DID 结果显示，Google 神经机器翻译主要影响常规任务，而 ChatGPT 的替代范围更广。结论来自特定平台和时期，不能直接推广为所有知识工作岗位的消失。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2024-06740">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06740" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>银行财务内控与按揭收入虚报</h3>
 <p class="catalog-citation">Dou, Y.; Wang, D.; Wu, X. (2026). Internal Control over Financial Reporting and Mortgage Fraud. TAR.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
@@ -35,64 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AF%81%E5%88%B8%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：证券设计">证券设计</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
 <p class="catalog-actions"><a href="../issues/20261020/#paper-10-1093-rfs-hhag093">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>言论保护法律与企业社会责任行为</h3>
-<p class="catalog-citation">Griffin, P. A. et al. (2026). Does Free Speech Law Contribute to Corporate Social Responsibility Behavior? Empirical Evidence. TAR.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>论文考察美国各州反 SLAPP 法律实施前后，利益相关者批评与企业社会责任活动、披露之间的变化。作者发现更强言论保护伴随更多外部批评和 CSR 活动，提出企业回应负面舆论的解释。采用类似分期政策设计时，仍需核对识别假设和同期制度变化。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：企业社会责任">企业社会责任</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：制度环境">制度环境</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2023-0659">查看本期</a><a href="https://doi.org/10.2308/tar-2023-0659" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>纵向处理效应中的贝叶斯模型平均</h3>
-<p class="catalog-citation">Adenyo, D. et al. (2026). A Bayesian model averaging approach for estimating longitudinal treatment effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-16 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>作者提出面向纵向处理路径的贝叶斯模型平均方法，估计反事实均值和边际结构模型参数，并通过先验倾向于有效率的调整变量集合。研究讨论变量选择后的推断，包含模拟及药物暴露示例。方法仍依赖纵向因果识别条件，不能用模型平均代替混杂因素的实质判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：纵向因果推断">纵向因果推断</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：模型平均">模型平均</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#arxiv-2610-23578">查看本期</a><a href="https://arxiv.org/abs/2610.23578" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>环保承诺是否对应实际减排？</h3>
-<p class="catalog-citation">Chang, S.; Christensen, H. B.; McKinley, A. (2026). Beyond Greenwashing: Environmental Commitments and Gas Flaring in the African Oil Sector. TAR.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>论文研究石油企业零常规放空燃烧承诺与非洲油田排放的关系，区分运营改进与资产转手，并比较利益相关者压力。作者的证据支持部分承诺伴随实际运营调整；研究启发在于追踪设施层面排放和资产边界，避免仅凭企业声明衡量环保行动。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%89%BF%E8%AF%BA&amp;show-results=1" title="全站搜索：环境承诺">环境承诺</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8E%92%E6%94%BE&amp;show-results=1" title="全站搜索：企业排放">企业排放</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0361">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0361" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>强调节约投入，会改变员工的预算目标吗？</h3>
-<p class="catalog-citation">Andrassy, J. et al. (2026). Productivity versus Efficiency: The Effect of Incentive Focus on Target Setting in Participative Budgets. TAR.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>研究比较以扩大产出和节约投入为重点的激励设置，关注参与式预算中的风险感知与目标选择。作者报告效率导向激励下目标较低、实现目标更困难的现象，并检验结果不确定性的作用。其结论依赖研究情境，不能直接推出所有效率考核均有害。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a> · <a class="tag-link" href="?q=%E9%A2%84%E7%AE%97%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：预算管理">预算管理</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0493">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0493" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>在线更新相关结构，预测多地区电力需求</h3>
-<p class="catalog-citation">Schulz, C. J. et al. (2026). Online Conditional Vine Copulas: Forecasting Electricity Demand. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-16 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>论文用协变量刻画 vine copula 的参数，并以最近观测逐步更新多变量分布预测，减少每次重新拟合全部历史数据的需求。应用关注英国多个地区的电力净需求及随时间变化的依赖关系。它提供分布预测思路，预测表现不等于因果识别，实际使用需核对更新规则和模型适配性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分布预测">分布预测</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：在线估计">在线估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#arxiv-2610-23119">查看本期</a><a href="https://arxiv.org/abs/2610.23119" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>预测辅助推断中的协方差权重如何校准？</h3>
-<p class="catalog-citation">Chen, Siyuan; Bai, Yang; Zhu, Huichen (2026). Covariance-Calibrated Prediction-Powered Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>这篇工作论文使用未标记样本的预测分数校准 GMM 的协方差权重，并通过谱保护保证目标矩阵正定。作者讨论原协方差与保护后目标的混合权重及有限样本风险。其价值在于将预测信息用于提高参数估计精度，而不是直接把预测值当作真实观测；实际改善依赖设计与预测误差条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-21837">查看本期</a><a href="https://arxiv.org/abs/2610.21837" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>面板数据的中介效应如何结合双重机器学习？</h3>
-<p class="catalog-citation">Wu, Peikai; Xiao, Zhiguo (2026). Causal Mediation Analysis for Panel Data with Double/Debiased Machine Learning. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>作者在双向固定效应框架中构造历史相关的直接、间接与总效应，结合一阶差分、交叉拟合和正交矩进行估计。识别依赖给定个体效应的序贯条件独立假设，允许时间不变混杂并不意味着消除了全部时变混杂。应用提示，总效应稳定也可能掩盖直接效应和间接效应分解的敏感性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：中介分析">中介分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-21339">查看本期</a><a href="https://arxiv.org/abs/2610.21339" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 39 页 · 共 387 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-39.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

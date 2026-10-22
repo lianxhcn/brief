@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.10.22
+
+✍️ 01｜新推文：Lieflat-Charts：让 AI 画图保持统一风格的 Skill
+推文介绍模板驱动的绘图 Skill，用金砖五国人均 GDP 演示黑白论文图、彩色论文图和报告图的转换。
+阅读全文： https://www.lianxh.cn/details/1975.html 
+
+✍️ 02｜新推文：LLM 文本标注：准确率很高，回归结论就可靠吗？
+推文用教学反例说明：相同准确率甚至相同混淆矩阵，仍可能对应方向相反的回归系数。
+阅读全文： https://www.lianxh.cn/details/1976.html 
+
+📰 03｜论文 · Management Science：公司发行股票与回购股票，为何并不对称？
+论文用企业比投资者掌握更多信息的理论框架，比较发行与回购决策。
+引文：Bond, Yuan & Zhong (2026). Share Issues vs. Share Repurchases. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.03301 
+
+📰 04｜论文 · Management Science：盈利公告后的价格漂移，债券与股票有何不同？
+论文结合公司债交易数据和债权股权模型，研究盈利公告后的价格漂移。
+引文：Nozawa, Qiu & Xiong (2026). Disagreement and Bond PEAD. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.07966 
+
+📦 05｜软件 · R：flexMatch：为堆叠 DID 构造匹配样本
+R 包 flexMatch 将候选处理组和对照组筛选、截面匹配与事件时间堆叠串联起来，并提供平衡诊断。
+版本：R / flexMatch 0.1.0；发布：2026-10-21
+CRAN： https://cran.r-project.org/package=flexMatch 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261022/ 

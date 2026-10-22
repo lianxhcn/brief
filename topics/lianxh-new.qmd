@@ -8,9 +8,25 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 71 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 73 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>Lieflat-Charts：让 AI 画图保持统一风格的 Skill</h3>
+
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>推文介绍模板驱动的绘图 Skill，用金砖五国人均 GDP 演示黑白论文图、彩色论文图和报告图的转换。可按图型编号统一样式，再调整配色和版面；图型是否合适、数据单位与结论是否匹配，仍须人工核对。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：数据可视化">数据可视化</a> · <a class="tag-link" href="?q=Agent%20Skill&amp;show-results=1" title="全站搜索：Agent Skill">Agent Skill</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#lianxh-1975">查看本期</a><a href="https://www.lianxh.cn/details/1975.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>LLM 文本标注：准确率很高，回归结论就可靠吗？</h3>
+
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>推文用教学反例说明：相同准确率甚至相同混淆矩阵，仍可能对应方向相反的回归系数。文章给出独立人工验证、分组误判检查和固定样本的提示词敏感性分析，并介绍 DSL 校正的条件；附无需调用 API 的 Python 示例。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：人工验证">人工验证</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#lianxh-1976">查看本期</a><a href="https://www.lianxh.cn/details/1976.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>面板中介分析+双重机器学习：识别、估计与研究设计</h3>
 
@@ -75,24 +91,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=QSM&amp;show-results=1" title="全站搜索：QSM">QSM</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB&amp;show-results=1" title="全站搜索：文献阅读">文献阅读</a></p>
 <p class="catalog-actions"><a href="../issues/20261012/#post-1966">查看本期</a><a href="https://www.lianxh.cn/details/1966.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>QSM 的建模视角与思路：六篇经典论文解读</h3>
-
-<p class="catalog-meta">期次日期：2026-10-12</p>
-<p>推文通过六篇经典论文比较 QSM 的关键建模选择，从商品采购、人口空间配置到通勤、福利与动态增长，说明主体选择如何与市场出清共同构成空间均衡。适合带着工资、住房、贸易和迁居之间的联系阅读公式。文章强调，各篇模型的假设不能拼接成通用方程；反事实结果取决于所选机制及参数。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=QSM&amp;show-results=1" title="全站搜索：QSM">QSM</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB&amp;show-results=1" title="全站搜索：文献阅读">文献阅读</a></p>
-<p class="catalog-actions"><a href="../issues/20261012/#post-1965">查看本期</a><a href="https://www.lianxh.cn/details/1965.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>一文读懂 QSM：一个地方的变化如何影响其他地区？</h3>
-
-<p class="catalog-meta">期次日期：2026-10-07</p>
-<p>文章从一个地区新增产业或交通设施如何影响其他地区出发，解释居民迁移、通勤、贸易以及工资和租金调整之间的联系。局部就业增加可能包含跨地区转移，未必等于整个经济系统的净增量。QSM 将个体选择与市场出清放进同一框架，用于分析模型条件下的政策反事实；使用时仍须交代参数、市场联系和均衡假设，不能仅凭模型结构认定政策有效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：政策反事实">政策反事实</a> · <a class="tag-link" href="?q=%E5%8C%BA%E5%9F%9F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：区域经济">区域经济</a></p>
-<p class="catalog-actions"><a href="../issues/20261007/#post-1961">查看本期</a><a href="https://www.lianxh.cn/details/1961.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 71 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 73 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

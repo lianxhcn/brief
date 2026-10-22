@@ -3312,5 +3312,77 @@
     "source_sha256": "cf70a6c9a07e7c83b3c86bfd664e1e93d747bf03dacf72cc94c4cdda054995be",
     "source": "content/issues/2026-10-21.json",
     "reviewed_date": "2026-10-21"
+  },
+  "lianxh-1975": {
+    "summary": "推文介绍模板驱动的绘图 Skill，用金砖五国人均 GDP 演示黑白论文图、彩色论文图和报告图的转换。可按图型编号统一样式，再调整配色和版面；图型是否合适、数据单位与结论是否匹配，仍须人工核对。",
+    "source_sha256": "241d7d8f22b6f473e4ab27048cd05bb5a32195a9a553ec8b7eeeb971eaa7c769",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "lianxh-1976": {
+    "summary": "推文用教学反例说明：相同准确率甚至相同混淆矩阵，仍可能对应方向相反的回归系数。文章给出独立人工验证、分组误判检查和固定样本的提示词敏感性分析，并介绍 DSL 校正的条件；附无需调用 API 的 Python 示例。",
+    "source_sha256": "97e0b8520beac321c870267ddce65dcaf1974e550e1fc00d59607d48da33d61a",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "paper-10-1287-mnsc-2025-03301": {
+    "summary": "论文用企业比投资者掌握更多信息的理论框架，比较发行与回购决策。模型解释不同发行方式与公开市场回购的差异，并指出回购偏离最优的方向取决于企业重视长期价值还是短期股价。结论依赖模型假设，不能直接当作企业回购的政策判断。",
+    "source_sha256": "6fc72ce8713bf0ae13ba9290cb36f4a595ad4202c5e518e0d9a299763784544a",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "paper-10-1287-mnsc-2024-07966": {
+    "summary": "论文结合公司债交易数据和债权股权模型，研究盈利公告后的价格漂移。债券样本中，交易较活跃的债券漂移更明显，作者也比较信用违约互换与股票表现，并用投资者分歧和证券收益结构解释差异。跨资产比较不能概括为所有股票都不存在公告后漂移。",
+    "source_sha256": "2c3850459e0f52ab07d8b87abfe54a0d051d347f6b8c4f5740af0b90c490b208",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "paper-10-1111-1911-3846-70092": {
+    "summary": "论文利用网络招聘信息，考察审计事务所办公室面对客户网络安全事件时的用人反应。研究发现，相关办公室增加网络安全专业人员需求，反应随客户关系和信息泄露类型变化；网络安全人力投入也与高风险客户市场份额的维持有关。这是摘要报告的经验关系，不应直接解释为招聘的因果收益。",
+    "source_sha256": "61a8f8d8d6295e53af907df5965886ae96c85e5b7e23805c19d7dfcf0ac4ddff",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "paper-10-1002-smj-70137": {
+    "summary": "论文以 Russell 3000 公司为样本，区分企业的象征性与实质性气候行动。作者发现，投资者政治捐款所反映的倾向与企业气候表态之间的关系随时期变化，而实质行动还与投资者持续性、持股特征和公司治理有关。政治倾向的代理指标及相关性边界值得细读。",
+    "source_sha256": "fd3ff834c1e2c076f75be8eb43acb738106f61c6341280bd92dc5398d7adc039",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "paper-10-1287-mnsc-2024-08081": {
+    "summary": "论文在比利时红十字会中心开展随机现场实验，比较奖励提醒与额外优惠券对血浆捐赠的影响。提醒的效果随重复而减弱，额外奖励在实施期间有效，撤去后效果消失，并伴随对全血捐赠的挤出。评估激励需要同时考察持续性与对其他行为的替代。",
+    "source_sha256": "d4442317b5e4adf3c32121f06eb7b212b53996eee6f3a1cf07e62857b7cd60df",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "paper-10-1287-mnsc-2023-04259": {
+    "summary": "论文研究移动零售车辆的停留与行驶安排，把顾客到达、商品新鲜度和等待时间纳入路径决策。作者用连续近似与渐近界分析收益和服务负荷的权衡，为流动零售运营提供建模思路。模型计算结果不等同于已经验证的现实经营增益。",
+    "source_sha256": "110a9e2638f64240416f9196522ab6d3042e48ae8f6cc2c9bb6ed16beb116ba6",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "paper-arxiv-2610-29221": {
+    "summary": "政策分配可能先改变人与人的网络，再影响结果。论文将政策价值写为对分配后网络分布的整合，建立识别条件、插件估计量与遗憾界，并以座位安排和商业群组说明应用。福利改善属于模型预测，依赖网络形成与结果模型，不能视作随机实验已经实现的收益。",
+    "source_sha256": "dda6dd6e75f808dface5b7bfdbb0a969fd6ced7b209098cb8eb5c8802a477324",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "tool-flexmatch-0-1-0": {
+    "summary": "R 包 flexMatch 将候选处理组和对照组筛选、截面匹配与事件时间堆叠串联起来，并提供平衡诊断。安装命令为 `install.packages(\"flexMatch\")`。干净窗口与协变量平衡不能证明平行趋势，重复处理的残留效应也需另行判断。本期核验官方示例，未独立实测。",
+    "source_sha256": "aec1f7a4810616517ff66aa3b8b0bdb816b341793de849dcc94cf8330ae736a0",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "tool-stargazer2-0-1-1": {
+    "summary": "R 包 stargazer2 延续熟悉的表格接口，支持 lm、glm 以及 fixest、plm、alpaca 等模型对象，可输出 LaTeX、文本与 HTML。安装命令为 `install.packages(\"stargazer2\")`。Windows 二进制与源码版本可能不同，输出后仍应核对标准误、固定效应标记和样本量；本期未独立实测。",
+    "source_sha256": "4b773d0b09e5e97557df0b4f5c01f7b60bd723cbf88b2e6137c2f1ae58ce9fcb",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
+  },
+  "conference-normal-economics-2026": {
+    "summary": "全国师范大学经管学科论坛将于11月20日在上海华东师范大学举行，11月19日报到，征文截止10月31日。青年学者论坛围绕经济高质量发展、组织创新等议题，要求匿名正文和 Word 稿件。官方通知列明教师会务费1000元、学生500元；投稿前请再核对最新会务安排。",
+    "source_sha256": "bebcf10d3e87d85f7a1c265c9617cda66e303c75f1a7a95c09194cc55b14c16f",
+    "source": "content/issues/2026-10-22.json",
+    "reviewed_date": "2026-10-22"
   }
 }
