@@ -8,9 +8,49 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>客户遭遇网络攻击后，审计师怎样调整人才需求？</h3>
+<p class="catalog-citation">Li, B. et al. (2026). Auditors&#x27; Response to Clients&#x27; Cyber Breaches: A Human‐Capital Perspective. CAR.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>论文利用网络招聘信息，考察审计事务所办公室面对客户网络安全事件时的用人反应。研究发现，相关办公室增加网络安全专业人员需求，反应随客户关系和信息泄露类型变化；网络安全人力投入也与高风险客户市场份额的维持有关。这是摘要报告的经验关系，不应直接解释为招聘的因果收益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：审计">审计</a> · <a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8&amp;show-results=1" title="全站搜索：网络安全">网络安全</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1111-1911-3846-70092">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>公司发行股票与回购股票，为何并不对称？</h3>
+<p class="catalog-citation">Bond, P.; Yuan, Y.; Zhong, H. (2026). Share Issues vs. Share Repurchases. Management Science.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>论文用企业比投资者掌握更多信息的理论框架，比较发行与回购决策。模型解释不同发行方式与公开市场回购的差异，并指出回购偏离最优的方向取决于企业重视长期价值还是短期股价。结论依赖模型假设，不能直接当作企业回购的政策判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：公司金融">公司金融</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1287-mnsc-2025-03301">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.03301" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>高持续性面板局部投影：偏差校正后如何计算标准误？</h3>
+<p class="catalog-citation">Dhaene, Geert; Juodis, Arturas (2026). Almost Uniform Bias Correction for Persistent Panel Local Projections. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文研究含自回归控制变量的面板局部投影，允许目标变量和控制变量具有较强持续性。理论分析支持半面板 jackknife 在超出平稳情形时的偏差修正性质，同时强调标准误必须反映校正带来的抽样不确定性，不能直接沿用未经调整的标准误。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%81%8F%E5%B7%AE%E6%A0%A1%E6%AD%A3&amp;show-results=1" title="全站搜索：偏差校正">偏差校正</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#arxiv-2610-26427">查看本期</a><a href="https://arxiv.org/abs/2610.26427" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>遏制利润转移的税制，会推动海外实体投资吗？</h3>
+<p class="catalog-citation">Huang, J.; Osswald, B.; Wilson, R. J. (2026). The Effect of Global Intangible Low-Taxed Income Tax on U.S. Multinational Companies’ Cross-Border Tangible Investments. TAR.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文研究美国 GILTI 税制对跨国企业实体投资的影响。作者根据公开财务报表构建事前识别策略，发现企业增加海外有形投资，但未发现国内有形投资显著下降，并考察境内外创新变化。研究提示，限制利润转移的税收规则可能同时改变真实投资激励。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E7%A8%8E%E6%94%B6&amp;show-results=1" title="全站搜索：国际税收">国际税收</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%9B%BD%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：跨国企业">跨国企业</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-2308-tar-2024-0158">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0158" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>远程协作怎样形成心理安全感？</h3>
+<p class="catalog-citation">Conzon, V. M. (2026). Repatterning Interactions in Remote Work Environments: Bolstering Psychological Safety Through Mutually Humanizing Self-Disclosure. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>基于专业服务组织从线下转向远程工作的纵向质性资料，作者提出成员相互自我披露、增进对彼此生活处境的理解，进而增强心理安全感的过程模型。相关协作实践兼顾任务协调和时间地点灵活性。这是机制性解释，不能直接视为远程办公的平均因果效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC&amp;show-results=1" title="全站搜索：远程办公">远程办公</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：组织行为">组织行为</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-orsc-2024-19818">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19818" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>运输监测更精准，食品浪费一定更少吗？</h3>
 <p class="catalog-citation">Lu, T. (2026). Shipment Monitoring, Allocation, and the Impact on Food Waste. Management Science.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-21</p>
@@ -51,48 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：行为干预">行为干预</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a></p>
 <p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2023-03600">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.03600" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>企业愿景怎样逐步变成虚假陈述？</h3>
-<p class="catalog-citation">Zuzul, T.; Mohliver, A. C. (2026). Dominant Deceptions: How Future-Oriented Narratives Transform into Deception. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-21</p>
-<p class="catalog-meta">期次日期：2026-10-21</p>
-<p>作者跟踪新兴行业企业，解释面向未来的愿景如何被转译为具体指标，在进展压力下由“将会实现”变成“已经实现”，最终固化为组织反复传播的错误陈述。研究关注分散、渐进的过程及其支持条件，适合思考组织叙事与治理风险。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%8F%99%E4%BA%8B&amp;show-results=1" title="全站搜索：组织叙事">组织叙事</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：企业治理">企业治理</a></p>
-<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-orsc-2023-18038">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.18038" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>从机器翻译到 ChatGPT：哪些任务更容易被替代？</h3>
-<p class="catalog-citation">Yilmaz, E. D.; Naumovska, I.; Aggarwal, V. A. (2026). AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT. Management Science.</p><p class="catalog-meta">发表日期：2026-10-14 · 收录日期：2026-10-21</p>
-<p class="catalog-meta">期次日期：2026-10-21</p>
-<p>作者利用在线翻译市场中两次技术变化，比较常规翻译与需要文化和创意适配的任务。DID 结果显示，Google 神经机器翻译主要影响常规任务，而 ChatGPT 的替代范围更广。结论来自特定平台和时期，不能直接推广为所有知识工作岗位的消失。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2024-06740">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06740" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>银行财务内控与按揭收入虚报</h3>
-<p class="catalog-citation">Dou, Y.; Wang, D.; Wu, X. (2026). Internal Control over Financial Reporting and Mortgage Fraud. TAR.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>作者将按揭申请收入增长与税务收入增长的差距作为地方层面的虚报指标，研究其与银行财务报告内控缺陷及整改的关系，并利用内控规定调整补充分析。研究连接会计内控与贷款业务风险；复用该指标时，应核对地区收入口径和指标测量误差。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%86%85%E9%83%A8%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：内部控制">内部控制</a> · <a class="tag-link" href="?q=%E6%8C%89%E6%8F%AD%E8%B4%B7%E6%AC%BE&amp;show-results=1" title="全站搜索：按揭贷款">按揭贷款</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2024-0214">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0214" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>重抽样检验如何用鞍点近似减少计算？</h3>
-<p class="catalog-citation">Niu, Z. et al. (2026). Saddlepoint approximations for plug-in resampling. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>论文针对固定已拟合干扰参数的插入式重抽样程序，用鞍点近似计算尾部概率，讨论有限样本相对误差界及第一类错误控制。方法要求重抽样统计量具有相应条件独立结构；对大规模条件独立检验有启发，但不能把特定实验中的提速推广到所有 bootstrap。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%8D%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：重抽样">重抽样</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-1093-biomet-asag063">查看本期</a><a href="https://doi.org/10.1093/biomet/asag063" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>证券设计为什么要与信息披露一起考虑？</h3>
-<p class="catalog-citation">Inostroza, N.; Tsoy, A. (2026). Optimal Information and Security Design. RFS.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>作者把证券支付结构与私人信号联合设计，研究流动性冲击后资产所有者向非完全竞争买方出售证券的问题。模型中，资产出售、债务及其他支付结构的相对优势取决于允许怎样设计信号及支付函数限制，不能脱离这些条件概括为某类证券总是最优。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AF%81%E5%88%B8%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：证券设计">证券设计</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-1093-rfs-hhag093">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

@@ -1,0 +1,203 @@
+---
+title: "连享会 · 快讯 | 2026.10.23"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 药品有条件批准：监管如何兼顾证据与企业激励？ {#paper-10-1287-mnsc-2025-03836}
+
+<p class="myapa">Xu, C., Lopomo, G., Ridley, D., &amp; Sun, P. (2026). Conditional and Lenient Drug Approvals. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.03836" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Conditional%20and%20Lenient%20Drug%20Approvals" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立监管机构与药企的信息不对称模型，讨论初步疗效证据下的有条件批准与后续确认性检验。企业掌握测试成本，监管者权衡消费者福利与测试激励；最优政策可能包含部分批准和不同的最终门槛。这是模型与校准分析，不能直接推导具体药品的安全性判断。
+
+标签：<a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：监管设计">监管设计</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a>
+
+<small>来源日期：2026-10-19；补录：2026-10-23</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### QJE：洪水保险补贴为何要同时考虑灾后救助？ {#paper-10-1093-qje-qjag051}
+
+<p class="myapa">Gruber, J. &amp; Solomon, A. (2026). Optimal Flood Insurance in a Second-Best World: Fiscal Spillovers, Reclassification Risk, and Moral Hazard. The Quarterly Journal of Economics. <a href="https://doi.org/10.1093/qje/qjag051" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Optimal%20Flood%20Insurance%20in%20a%20Second-Best%20World%3A%20Fiscal%20Spillovers%2C%20Reclassification%20Risk%2C%20and%20Moral%20Hazard" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文将洪水保险保费补贴、灾后财政救助与气候风险重新定价放入同一框架，结合多类数据估计模型所需参数。补贴减少可能降低高风险地区投保率，并把成本转移到灾后救助；家庭也面临未来风险评估变化。政策权衡不能只看补贴诱发的道德风险，还需考虑财政外溢和风险保障。
+
+标签：<a class="tag-link" href="?q=%E7%81%BE%E5%AE%B3%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：灾害保险">灾害保险</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E8%B4%A2%E6%94%BF&amp;show-results=1" title="全站搜索：公共财政">公共财政</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### QJE：新商品如何沿社交网络进入本地商店？ {#paper-10-1093-qje-qjag052}
+
+<p class="myapa">Argente, D., Méndez, E., &amp; Van Patten, D. (2026). How New Products Enter Markets: Social Networks, Consumer Imports, and Retailer Learning. The Quarterly Journal of Economics. <a href="https://doi.org/10.1093/qje/qjag052" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=How%20New%20Products%20Enter%20Markets%3A%20Social%20Networks%2C%20Consumer%20Imports%2C%20and%20Retailer%20Learning" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文结合消费者海关购买记录、人口社交网络与零售商覆盖区域，研究新商品的两步扩散：消费者先通过现实社会关系了解并购买新品，零售商再从这些早期购买中学习本地需求。作者利用海外支出变化经移民网络传递所形成的需求变动进行识别，并辅以零售商调查。外生性与网络传导假设仍是解释结果的关键。
+
+标签：<a class="tag-link" href="?q=%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社交网络">社交网络</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E5%A4%96%E6%BA%A2&amp;show-results=1" title="全站搜索：需求外溢">需求外溢</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### DRDID 1.4.0：检查预处理与加权 bootstrap 的变化 {#tool-drdid-1-4-0}
+
+新版修订面板缺失值处理、公式变量提取及 IPT 求解核验，并调整加权 bootstrap 的分母一致性。既有研究升级后应比较样本与区间变化；双重稳健仍依赖识别假设及至少一个辅助模型设定正确。 安装命令为 <code>install.packages(&quot;DRDID&quot;)</code>。本期核验官方文档与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+<a href="https://cran.r-project.org/package=DRDID" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 测试数据出现新类别时，如何估计类别比例？ {#paper-10-1093-jrsssb-qkag134}
+
+<p class="myapa">Liu, S., Liu, Y., Tian, Q., Li, P., &amp; Qin, J. (2026). Semiparametric learning from open-set label shift data. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag134" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Semiparametric%20learning%20from%20open-set%20label%20shift%20data" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文研究开放集标签漂移：测试样本出现训练数据没有的类别，且既有类别比例发生变化。作者用半参数密度比模型给出识别条件，构造经验似然估计、置信区间与拟合优度检验，并提出 EM 计算方法。新旧类别允许重叠，但仍依赖模型假设；方法不能自动消除文本标签误差。
+
+标签：<a class="tag-link" href="?q=%E6%A0%87%E7%AD%BE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：标签漂移">标签漂移</a> · <a class="tag-link" href="?q=%E5%8D%8A%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：半参数估计">半参数估计</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 不知道网络结构，也能检验短面板中的同伴效应吗？ {#paper-arxiv-2610-31106}
+
+<p class="myapa">Boot, T. &amp; Juodis, A. (2026). Testing for peer effects in short panels without identifying the network structure. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.31106" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.31106.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Testing%20for%20peer%20effects%20in%20short%20panels%20without%20identifying%20the%20network%20structure" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+这篇工作论文提出短面板的工具变量型同伴效应检验，通过协变量投影结果与自身残差的成对比较，避免先估计完整网络。方法允许个体固定效应、异质斜率及个体内序列相关，并针对投影信号较弱时的非标准分布构造条件模拟临界值。检验存在同伴效应，不等于识别具体网络或每条关系的效应。
+
+标签：<a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=%E7%9F%AD%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：短面板">短面板</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### fereg：使用 fixest 风格语法估计高维固定效应 {#tool-fereg-0-4-0}
+
+R 包采用 fixest 风格接口，提供 OLS、IV、Poisson 等估计及多种稳健标准误，底层使用 Rust。当前 CRAN 页面尚无 Windows 二进制包，从源码安装需要 Cargo 与 rustc；速度与结果一致性需用自己的数据另行核对。 安装命令为 <code>install.packages(&quot;fereg&quot;)</code>。本期核验官方文档与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+<a href="https://cran.r-project.org/package=fereg" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### eFRED：在 R 中整理宏观经济序列 {#tool-efred-0-2-0}
+
+该包封装 FRED API，支持查询序列、来源与标签，并把相关指标整理成面板数据。适合宏观数据收集与更新；下载后的频率、单位和修订版本仍需核对，不能把更新后的序列直接当作历史实时信息集。 安装命令为 <code>install.packages(&quot;eFRED&quot;)</code>。本期核验官方文档与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96&amp;show-results=1" title="全站搜索：数据获取">数据获取</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+<a href="https://cran.r-project.org/package=eFRED" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### qdfauction：从出价分布走向拍卖结构分析 {#tool-qdfauction-0-2-0}
+
+该包提供多类非参数分位数密度估计，并用于第一价格密封拍卖中的私人估值恢复、密度与置信带分析。官方示例使用木材拍卖数据。独立或相关估值、风险中性或厌恶对应不同设定，不能仅凭函数输出忽略结构假设。 安装命令为 <code>install.packages(&quot;qdfauction&quot;)</code>。本期核验官方文档与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+<a href="https://cran.r-project.org/package=qdfauction" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### BsplineQuantReg：带形状约束的分位数回归 {#tool-bsplinequantreg-0-2-6}
+
+该包以 B 样条拟合分位数曲线，并在指定阶数下加入单调性或凸性约束。适合将明确的形状限制纳入估计与原型演示；约束应来自研究问题，且需检查样条阶数和求解器。当前版本要求 R 4.5.0 或以上。 安装命令为 <code>install.packages(&quot;BsplineQuantReg&quot;)</code>。本期核验官方文档与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E5%BD%A2%E7%8A%B6%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：形状约束">形状约束</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+<a href="https://cran.r-project.org/package=BsplineQuantReg" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### farr：事件收益计算中的边界值检查 {#tool-farr-1-1-1}
+
+会计实证工具包提供事件收益、面板模拟与 DuckDB 数据流程。1.1.1 明确拒绝小于 -1 的收益率，近期更新也处理完全亏损和非交易日公告。复现事件研究时，应同时记录交易日映射、累计窗口和缺失值规则。 安装命令为 <code>install.packages(&quot;farr&quot;)</code>。本期核验官方文档与示例，未独立实测。
+
+标签：<a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AE%9E%E8%AF%81&amp;show-results=1" title="全站搜索：会计实证">会计实证</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-23</small>
+
+<a href="https://cran.r-project.org/package=farr" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### CEPR 应用微观经济史研讨会：10月31日截稿 {#conference-cepr-micro-history-3}
+
+**投稿截止：2026-10-31**
+
+会议：2027-02-25 至 2027-02-26 · 德国柏林，Kiel Institute Berlin，Chausseestraße 111
+
+费用：官方页面未说明，需向主办方确认
+
+第三届 CEPR 应用微观经济史研讨会将于2027年2月25–26日在德国柏林举行，投稿截止2026年10月31日。主题关注历史微观数据、数字化与现代计量研究设计。主办方页面未列明参会费用，申请前需查看征稿详情。此项为境外会议，仅在网页版呈现。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E6%96%87&amp;show-results=1" title="全站搜索：会议征文">会议征文</a>
+
+<a href="https://www.kielinstitut.de/de/veranstaltungen/seminare-vortraege-workshops/3rd-cepr-applied-micro-economic-history-workshop/" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

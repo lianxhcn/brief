@@ -8,9 +8,49 @@ title: "新论文 · 第 9 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>提高披露要求，是否足以让养老金资产更透明？</h3>
+<p class="catalog-citation">Anantharaman, D.; Chuk, E.; Xia, T. S. (2026). So similar, yet so different: comparing the US GAAP and IFRS experience at eliciting greater transparency on pension asset disclosures. Review of Accounting Studies.</p><p class="catalog-meta">发表日期：2026-10-10 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文比较 US GAAP 和 IFRS 对养老金资产披露的两次改革。两者都提高披露要求，但 IFRS 同时取消预期收益率这一计量要素，US GAAP 则保留。作者报告 IFRS 下透明度改善更明显，强调披露规则需要结合管理层的计量与报告激励分析，不能仅比较规定文本的详尽程度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99&amp;show-results=1" title="全站搜索：会计准则">会计准则</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1007-s11142-026-09992-x">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09992-x" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>把高频尾部信息纳入 VaR 与 ES 预测</h3>
+<p class="catalog-citation">Keisuke Sasaki; Yasuhiro Omori (2026). Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文将日内收益构造的已实现分位数和预期短缺纳入条件 expectile 的动态与测量方程，用于联合预测 VaR 和 ES。参数通过 MCMC 估计，并以数值实验和美国股票收益作比较。这里介绍的是预测框架；摘要中的表现描述不等于对其他市场或样本的独立验证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：高频数据">高频数据</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-13446">查看本期</a><a href="https://arxiv.org/abs/2610.13446" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>技能与投入互补，为何低技能儿童仍可能获得更高边际回报？</h3>
+<p class="catalog-citation">Liam Puknys (2026). Early Investment Snowballs for Low-Skill Children: Average Marginal Returns and the Dynamics of Skill Formation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文区分固定其他投入时的弹性与对投入联合分布取平均后的边际回报，并重新分析儿童技能形成模型。两种统计对象的差异可以解释部分看似矛盾的结论。作者也指出，控制母亲永久收入后，当期收入无法提供预期的投资变动信息，因此提醒将估计作描述性解释。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-12509">查看本期</a><a href="https://arxiv.org/abs/2610.12509" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>债券问询函与关联投资者：信息约束怎样发挥作用？</h3>
+<p class="catalog-citation">Ding, Y. et al. (2026). Comment Letters, Connected Investors, and Corporate Bond Issuance. Management Science.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文使用中国公司债发行数据，考察监管问询函与发行结果及投资者参与的关系。摘要报告，问询更常针对信息不透明企业；与发行人有既有业务关系的金融机构在相关发行中参与更多。作者讨论私人信息和关系收益的作用，提示评估信息监管时还需关注投资者与发行人的联系。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：公司债券">公司债券</a> · <a class="tag-link" href="?q=%E9%97%AE%E8%AF%A2%E5%87%BD&amp;show-results=1" title="全站搜索：问询函">问询函</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1287-mnsc-2024-07607">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07607" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>面板分位数回归如何处理内生解释变量？</h3>
+<p class="catalog-citation">Antonio F. Galvao; Ulrich Hounyo; Jiahao Lin (2026). GMM for Panel Data Quantile Regression. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-13</p>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>论文把分位数矩条件平滑化，并通过个体分位数限制消去个体效应，使面板分位数模型可以用 GMM 算法实现。理论允许一定的时间依赖和内生解释变量，但依赖面板两个维度共同增长等条件。适合关注异质性动态反应的研究者，不能将大样本结论直接用于任意短面板。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-12824">查看本期</a><a href="https://arxiv.org/abs/2610.12824" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>老同事一起转入新团队，个人与团队收益相同吗？</h3>
 <p class="catalog-citation">Zhao, E.Y.; Shea, C.; Li, S. (2026). Colleagues that work together move together: How co-moving among newcomers affects individual and team performance. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-13</p>
@@ -51,48 +91,8 @@ title: "新论文 · 第 9 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E8%84%89%E5%86%B2%E5%93%8D%E5%BA%94&amp;show-results=1" title="全站搜索：脉冲响应">脉冲响应</a></p>
 <p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-13269">查看本期</a><a href="https://arxiv.org/abs/2610.13269" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>央行数字货币会挤出还是支持稳定币？</h3>
-<p class="catalog-citation">Chiu, J.; Monnet, C. (2026). Money Creation for Crypto Space: Stablecoins or Central Bank Digital Currencies? Management Science.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-13</p>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文用理论模型讨论代币化央行数字货币与稳定币的竞争。适度利率与匿名性可能使公共数字货币替代稳定币，高利率而匿名性较弱时却可能成为稳定币的抵押品。关键在于制度设计如何改变发行人的选择；这些是模型条件下的机制与福利判断，不是对现实政策的直接因果评估。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81&amp;show-results=1" title="全站搜索：数字货币">数字货币</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E7%90%86%E8%AE%BA&amp;show-results=1" title="全站搜索：金融理论">金融理论</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-1287-mnsc-2024-08420">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08420" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>处理分配相关时，怎样构造设计型标准误？</h3>
-<p class="catalog-citation">Sylvia Klosin; Jonathan Roth (2026). Simple Standard Errors for Complicated (Quasi-)Experimental Designs. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-08 · 收录日期：2026-10-13</p>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文针对处理暴露分布已知、单位之间分配依赖复杂的实验或准实验设计，构造设计型方差估计量。其目标是方差上界，保守程度与处理效应异质性有关，可涵盖干扰和空间相关分配。它要求明确分配机制，不是给任意观察性回归套用的通用稳健标准误。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：标准误">标准误</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：空间相关">空间相关</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-12674">查看本期</a><a href="https://arxiv.org/abs/2610.12674" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>信贷经理更换后，贷款重谈为何更严格？</h3>
-<p class="catalog-citation">Cheong, J.; Kang, J.K.; Wittenberg-Moerman, R. (2026). Unwinding Loan Prospecting Pressure through Renegotiation: The Role of Loan Officer Changes in Debt Contracting. TAR.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-13</p>
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>论文考察原始信贷经理被替换后的首次贷款重谈，发现结果对借款人更不利，并将其与初始放贷阶段的业务拓展压力联系起来。研究结合贷款合同、银行财务和经理履历，提醒读者关注贷款关系中的人员激励；是否能作因果解释仍需核对人员更换的选择机制。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：银行信贷">银行信贷</a> · <a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E5%A5%91%E7%BA%A6&amp;show-results=1" title="全站搜索：债务契约">债务契约</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%91%98%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：人员激励">人员激励</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#paper-10-2308-tar-2025-0120">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0120" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>随机分配以后，为什么逐个观测 bootstrap 仍可能失效？</h3>
-<p class="catalog-citation">Hounyo, U.; Hwang, J. (2026). Bootstrap Inference with a Randomly Assigned Regressor: Covariance Filtering and the Limits of Marginal Resampling. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-03 · 收录日期：2026-10-12</p>
-<p class="catalog-meta">期次日期：2026-10-12</p>
-<p>论文指出，随机分配与重抽样未必消除相同的协方差项。即使随机分配让 OLS 推断对某些结果相关性不敏感，独立重抽样仍可能遗漏处理效应的跨单位协方差。作者分析需要恢复的随机回归量得分协方差，并讨论有序或分组依赖条件下的估计。实际启发是让重抽样与依赖结构对应，不能把随机实验当作独立 bootstrap 自动有效的保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a> · <a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：相关误差">相关误差</a></p>
-<p class="catalog-actions"><a href="../issues/20261012/#arxiv-2610-04217">查看本期</a><a href="https://arxiv.org/abs/2610.04217" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>联合事件预测中，边际分布估计误差怎样进入区间？</h3>
-<p class="catalog-citation">Ng, H.; Tao, Y. (2026). Vine Copula VAR:From Recursive Margins to Joint Forecast Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-12</p>
-<p class="catalog-meta">期次日期：2026-10-12</p>
-<p>论文研究 Vine Copula VAR 联合事件概率预测中的不确定性。历史误差可能保留各自预测时点的边际分布估计，而最终预测又使用新估计，两类误差需要共同进入推断。作者在特定稳定性与 Copula 设定下推导协方差和区间，并用宏观发布数据说明实时预测问题。可借鉴信息时点一致性的处理，不能将结论直接外推到任意依赖结构。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%94%E5%90%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：联合预测">联合预测</a> · <a class="tag-link" href="?q=Copula&amp;show-results=1" title="全站搜索：Copula">Copula</a> · <a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：估计误差">估计误差</a></p>
-<p class="catalog-actions"><a href="../issues/20261012/#arxiv-2610-07589">查看本期</a><a href="https://arxiv.org/abs/2610.07589" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

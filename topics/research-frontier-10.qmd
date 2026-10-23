@@ -8,9 +8,49 @@ title: "新论文 · 第 10 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-9.html">上一页</a><span aria-current="page">第 10 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-11.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-9.html">上一页</a><span aria-current="page">第 10 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-11.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>央行数字货币会挤出还是支持稳定币？</h3>
+<p class="catalog-citation">Chiu, J.; Monnet, C. (2026). Money Creation for Crypto Space: Stablecoins or Central Bank Digital Currencies? Management Science.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-13</p>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>论文用理论模型讨论代币化央行数字货币与稳定币的竞争。适度利率与匿名性可能使公共数字货币替代稳定币，高利率而匿名性较弱时却可能成为稳定币的抵押品。关键在于制度设计如何改变发行人的选择；这些是模型条件下的机制与福利判断，不是对现实政策的直接因果评估。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81&amp;show-results=1" title="全站搜索：数字货币">数字货币</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E7%90%86%E8%AE%BA&amp;show-results=1" title="全站搜索：金融理论">金融理论</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#paper-10-1287-mnsc-2024-08420">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08420" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>处理分配相关时，怎样构造设计型标准误？</h3>
+<p class="catalog-citation">Sylvia Klosin; Jonathan Roth (2026). Simple Standard Errors for Complicated (Quasi-)Experimental Designs. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-08 · 收录日期：2026-10-13</p>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>论文针对处理暴露分布已知、单位之间分配依赖复杂的实验或准实验设计，构造设计型方差估计量。其目标是方差上界，保守程度与处理效应异质性有关，可涵盖干扰和空间相关分配。它要求明确分配机制，不是给任意观察性回归套用的通用稳健标准误。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：标准误">标准误</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：空间相关">空间相关</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-12674">查看本期</a><a href="https://arxiv.org/abs/2610.12674" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>信贷经理更换后，贷款重谈为何更严格？</h3>
+<p class="catalog-citation">Cheong, J.; Kang, J.K.; Wittenberg-Moerman, R. (2026). Unwinding Loan Prospecting Pressure through Renegotiation: The Role of Loan Officer Changes in Debt Contracting. TAR.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-13</p>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>论文考察原始信贷经理被替换后的首次贷款重谈，发现结果对借款人更不利，并将其与初始放贷阶段的业务拓展压力联系起来。研究结合贷款合同、银行财务和经理履历，提醒读者关注贷款关系中的人员激励；是否能作因果解释仍需核对人员更换的选择机制。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：银行信贷">银行信贷</a> · <a class="tag-link" href="?q=%E5%80%BA%E5%8A%A1%E5%A5%91%E7%BA%A6&amp;show-results=1" title="全站搜索：债务契约">债务契约</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%91%98%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：人员激励">人员激励</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#paper-10-2308-tar-2025-0120">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0120" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>随机分配以后，为什么逐个观测 bootstrap 仍可能失效？</h3>
+<p class="catalog-citation">Hounyo, U.; Hwang, J. (2026). Bootstrap Inference with a Randomly Assigned Regressor: Covariance Filtering and the Limits of Marginal Resampling. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-03 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>论文指出，随机分配与重抽样未必消除相同的协方差项。即使随机分配让 OLS 推断对某些结果相关性不敏感，独立重抽样仍可能遗漏处理效应的跨单位协方差。作者分析需要恢复的随机回归量得分协方差，并讨论有序或分组依赖条件下的估计。实际启发是让重抽样与依赖结构对应，不能把随机实验当作独立 bootstrap 自动有效的保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a> · <a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：相关误差">相关误差</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#arxiv-2610-04217">查看本期</a><a href="https://arxiv.org/abs/2610.04217" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>联合事件预测中，边际分布估计误差怎样进入区间？</h3>
+<p class="catalog-citation">Ng, H.; Tao, Y. (2026). Vine Copula VAR:From Recursive Margins to Joint Forecast Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>论文研究 Vine Copula VAR 联合事件概率预测中的不确定性。历史误差可能保留各自预测时点的边际分布估计，而最终预测又使用新估计，两类误差需要共同进入推断。作者在特定稳定性与 Copula 设定下推导协方差和区间，并用宏观发布数据说明实时预测问题。可借鉴信息时点一致性的处理，不能将结论直接外推到任意依赖结构。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%94%E5%90%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：联合预测">联合预测</a> · <a class="tag-link" href="?q=Copula&amp;show-results=1" title="全站搜索：Copula">Copula</a> · <a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：估计误差">估计误差</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#arxiv-2610-07589">查看本期</a><a href="https://arxiv.org/abs/2610.07589" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>推荐排序追求互动量，会怎样改变新闻质量？</h3>
 <p class="catalog-citation">Moehring, A. (2026). Personalization, Engagement, and Content Quality on Social Media: An Evaluation of Reddit’s News Feed. Management Science.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-12</p>
@@ -51,48 +91,8 @@ title: "新论文 · 第 10 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BD%E5%80%BA&amp;show-results=1" title="全站搜索：国债">国债</a> · <a class="tag-link" href="?q=%E4%BE%BF%E5%88%A9%E6%94%B6%E7%9B%8A&amp;show-results=1" title="全站搜索：便利收益">便利收益</a> · <a class="tag-link" href="?q=%E5%AE%89%E5%85%A8%E8%B5%84%E4%BA%A7&amp;show-results=1" title="全站搜索：安全资产">安全资产</a></p>
 <p class="catalog-actions"><a href="../issues/20261012/#paper-10-1111-jofi-70085">查看本期</a><a href="https://doi.org/10.1111/jofi.70085" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>AI 冲击之后，自由职业者怎样重新选择工作？</h3>
-<p class="catalog-citation">Yiu, S. et al. (2026). Worker Repositioning and Technological Change: Evidence from an Online Labor Market. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-12</p>
-<p class="catalog-meta">期次日期：2026-10-12</p>
-<p>Organization Science 论文利用在线劳动力平台数据，比较 ChatGPT 推出前后不同 AI 暴露程度与技能水平的自由职业者。研究以 DID 设计考察参与、跨领域调整及向高价值合约转移，强调技术变化也会通过劳动供给适应改变市场。已有领域技能可能同时带来调整成本；解释结果时仍应核对暴露度量、平行趋势及平台样本的外推边界。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8FAI&amp;show-results=1" title="全站搜索：生成式AI">生成式AI</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%8A%9B%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：劳动力供给">劳动力供给</a> · <a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a></p>
-<p class="catalog-actions"><a href="../issues/20261012/#paper-10-1287-orsc-2025-20566">查看本期</a><a href="https://doi.org/10.1287/orsc.2025.20566" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>集体股东行动能解决搭便车问题吗？</h3>
-<p class="catalog-citation">Doidge, C.; Dyck, A.; Yang, L. (2026). Collective Activism. Management Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>Management Science 论文分析投资者集体行动组织的内生形成和规模。加入组织可以缓解成员内部的搭便车，但可能增强组织与独立行动者之间的搭便车；协调成本也影响组织形成。模型提示，扩大参与者数量未必持续提高加入收益，小幅协调成本变化可能改变均衡。可用于理解投资者治理与协同行动，适用时仍需结合组织规则及成本结构。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：股东治理">股东治理</a> · <a class="tag-link" href="?q=%E9%9B%86%E4%BD%93%E8%A1%8C%E5%8A%A8&amp;show-results=1" title="全站搜索：集体行动">集体行动</a> · <a class="tag-link" href="?q=%E6%90%AD%E4%BE%BF%E8%BD%A6&amp;show-results=1" title="全站搜索：搭便车">搭便车</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#paper-10-1287-mnsc-2025-02975">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02975" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>财务困境如何通过竞争传向同行？</h3>
-<p class="catalog-citation">CHEN, H. et al. (2026). Feedback and Contagion through Distressed Competition. JF.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>JF 论文把战略竞争纳入含长期违约债务的动态模型：陷入财务困境的企业可能更激进地竞争，压低利润率，进一步加剧自身与同行的压力。模型讨论价格战、掠夺等互动下的反馈与传染，并说明个体杠杆选择未必符合行业整体稳定。适合连接资本结构与产业组织研究；这些结论依赖模型设定，不应直接当作已经识别的现实因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%9A%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：行业竞争">行业竞争</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E4%BC%A0%E6%9F%93&amp;show-results=1" title="全站搜索：风险传染">风险传染</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#paper-10-1111-jofi-70080">查看本期</a><a href="https://doi.org/10.1111/jofi.70080" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>结构不稳定时，滚动预测窗口该选多长？</h3>
-<p class="catalog-citation">Djogbenou, A. A. (2026). Rolling Window Selection in FAR Models with Structural Instabilities. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-08 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>论文研究因子扩展回归存在结构不稳定时的滚动窗口选择。作者以条件均方预测误差为目标，在可行准则中考虑潜在因子估计的不确定性，并给出渐近损失有效性的条件与模拟。它提醒研究者，窗口长度是偏差与信息量之间的选择，不能只凭固定经验值。使用时还要核对样本长度、因子估计和结构变化形式是否符合理论条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%BB%9A%E5%8A%A8%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：滚动预测">滚动预测</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：结构变化">结构变化</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#arxiv-2610-12025">查看本期</a><a href="https://arxiv.org/abs/2610.12025" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>相关结构是否发生变化？Copula 平滑检验的新思路</h3>
-<p class="catalog-citation">Huang, S.; Song, X. (2026). Detecting Copula Structural Changes: A Smooth Testing Approach. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-07 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>论文针对多变量动态模型中创新项 Copula 的结构变化，把依赖结构不变的假设转化为一组广义傅里叶系数的联合检验。作者给出使用估计残差时的渐近结果，并提出基函数截断阶数的数据驱动选择。研究关注依赖结构，而不只检查各变量的均值或方差是否改变；有限样本表现和动态模型设定仍需结合具体应用判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Copula&amp;show-results=1" title="全站搜索：Copula">Copula</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#arxiv-2610-09351">查看本期</a><a href="https://arxiv.org/abs/2610.09351" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-9.html">上一页</a><span aria-current="page">第 10 / 40 页 · 共 394 条</span><a rel="next" href="research-frontier-11.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-9.html">上一页</a><span aria-current="page">第 10 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-11.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

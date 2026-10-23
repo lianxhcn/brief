@@ -8,9 +8,57 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 81 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 87 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-9.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>qdfauction：从出价分布走向拍卖结构分析</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>该包提供多类非参数分位数密度估计，并用于第一价格密封拍卖中的私人估值恢复、密度与置信带分析。官方示例使用木材拍卖数据。独立或相关估值、风险中性或厌恶对应不同设定，不能仅凭函数输出忽略结构假设。 安装命令为 <code>install.packages(&quot;qdfauction&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-qdfauction-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=qdfauction" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>fereg：使用 fixest 风格语法估计高维固定效应</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>R 包采用 fixest 风格接口，提供 OLS、IV、Poisson 等估计及多种稳健标准误，底层使用 Rust。当前 CRAN 页面尚无 Windows 二进制包，从源码安装需要 Cargo 与 rustc；速度与结果一致性需用自己的数据另行核对。 安装命令为 <code>install.packages(&quot;fereg&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-fereg-0-4-0">查看本期</a><a href="https://cran.r-project.org/package=fereg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>farr：事件收益计算中的边界值检查</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>会计实证工具包提供事件收益、面板模拟与 DuckDB 数据流程。1.1.1 明确拒绝小于 -1 的收益率，近期更新也处理完全亏损和非交易日公告。复现事件研究时，应同时记录交易日映射、累计窗口和缺失值规则。 安装命令为 <code>install.packages(&quot;farr&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AE%9E%E8%AF%81&amp;show-results=1" title="全站搜索：会计实证">会计实证</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-farr-1-1-1">查看本期</a><a href="https://cran.r-project.org/package=farr" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>eFRED：在 R 中整理宏观经济序列</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>该包封装 FRED API，支持查询序列、来源与标签，并把相关指标整理成面板数据。适合宏观数据收集与更新；下载后的频率、单位和修订版本仍需核对，不能把更新后的序列直接当作历史实时信息集。 安装命令为 <code>install.packages(&quot;eFRED&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96&amp;show-results=1" title="全站搜索：数据获取">数据获取</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-efred-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=eFRED" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>DRDID 1.4.0：检查预处理与加权 bootstrap 的变化</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>新版修订面板缺失值处理、公式变量提取及 IPT 求解核验，并调整加权 bootstrap 的分母一致性。既有研究升级后应比较样本与区间变化；双重稳健仍依赖识别假设及至少一个辅助模型设定正确。 安装命令为 <code>install.packages(&quot;DRDID&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-drdid-1-4-0">查看本期</a><a href="https://cran.r-project.org/package=DRDID" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>BsplineQuantReg：带形状约束的分位数回归</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>该包以 B 样条拟合分位数曲线，并在指定阶数下加入单调性或凸性约束。适合将明确的形状限制纳入估计与原型演示；约束应来自研究问题，且需检查样条阶数和求解器。当前版本要求 R 4.5.0 或以上。 安装命令为 <code>install.packages(&quot;BsplineQuantReg&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E5%BD%A2%E7%8A%B6%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：形状约束">形状约束</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-bsplinequantreg-0-2-6">查看本期</a><a href="https://cran.r-project.org/package=BsplineQuantReg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>stargazer2：为现代计量模型生成回归表</h3>
 
@@ -43,56 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：回归输出">回归输出</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：结果可视化">结果可视化</a></p>
 <p class="catalog-actions"><a href="../issues/20261021/#tool-gtregression-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=gtregression" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>scf：美国消费者金融调查的加权与多重插补分析</h3>
-
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>R 包 scf 将美国消费者金融调查的多重插补数据与重复权重组织起来，提供加权描述统计、回归与图表接口。可用 <code>install.packages(&quot;scf&quot;)</code> 安装，参考 <code>scf_download(2022)</code> 下载示例。CRAN 源码版本为 1.2.0，部分二进制包仍为旧版，安装后应检查版本；本期核对了文档，未独立运行。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：家庭金融">家庭金融</a> · <a class="tag-link" href="?q=%E5%A4%8D%E6%9D%82%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：复杂抽样">复杂抽样</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#tool-scf-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=scf" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>censusindia：印度人口普查与历史地理数据</h3>
-
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>R 包 censusindia 提供印度历次人口普查表、州与地区边界，以及人口预测数据。可用 <code>install.packages(&quot;censusindia&quot;)</code> 安装，通过 <code>get_census(2011, &quot;state&quot;)</code> 查询州级数据。边界及较大表格首次使用时下载并缓存；历史边界变化与预测数据的性质需要单独核对。本期核验了官方说明与示例，未独立运行。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E6%99%AE%E6%9F%A5&amp;show-results=1" title="全站搜索：人口普查">人口普查</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：空间数据">空间数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#tool-censusindia-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=censusindia" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>linearmodels 7.1：工具变量与面板推断更新</h3>
-
-<p class="catalog-meta">期次日期：2026-10-18</p>
-<p>Python 的 linearmodels 7.1 增加 IVJIVE 估计和若干工具变量诊断，并更新面板模型检验。变更日志还列出 GMM 带宽、Fama–MacBeth p 值以及加权模型相关修正；正在复现的项目宜固定版本，并比较升级前后的结果。可用 <code>pip install linearmodels==7.1</code> 安装。这里只介绍官方发布信息，具体模型仍需在自己的数据上检查。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261018/#tool-linearmodels-7-1">查看本期</a><a href="https://pypi.org/project/linearmodels/7.1/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>comets：基于协方差的条件独立性检验</h3>
-
-<p class="catalog-meta">期次日期：2026-10-18</p>
-<p>comets 提供 GCM、PCM 等基于协方差的条件独立性检验，帮助研究者检查给定协变量后两个变量是否仍有关联。手册给出 <code>comet(y ~ x1 + x2 | z, data=df, test=&quot;gcm&quot;)</code> 一类接口，便于区分被检验变量与条件变量。安装命令为 <code>install.packages(&quot;comets&quot;)</code>，源码安装涉及编译，二进制可能滞后。条件独立性检验本身不能证明因果识别成立。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E7%8B%AC%E7%AB%8B&amp;show-results=1" title="全站搜索：条件独立">条件独立</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：统计检验">统计检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261018/#tool-comets-0-2-3">查看本期</a><a href="https://cran.r-project.org/web/packages/comets/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>conformalForecast 0.2.0：多步时间序列的保形预测区间</h3>
-
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>R 包 conformalForecast 提供经典、自适应、PID 控制及考虑自相关的多步保形预测工具。适合比较时间序列预测区间的构造方式，不能把一般保形预测的覆盖保证直接套用于任意序列。安装命令为 <code>install.packages(&quot;conformalForecast&quot;)</code>。官方示例使用 AR(2) 模拟和滚动窗口预测，应用时需核对数据依赖条件；未独立实测，Windows 二进制可能暂落后于源码版。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：保形预测">保形预测</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#r-conformalforecast-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/conformalForecast/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>focus 0.1.11：在线监测数据流变化</h3>
-
-<p class="catalog-meta">期次日期：2026-10-15</p>
-<p>R 包 focus 面向单变量及多变量数据流的在线结构变化检测，也提供批量分析接口。官方示例展示逐点更新检测器、读取统计量并按阈值报警的流程，适合了解实时监测与事后断点估计的区别。10 月 14 日发布源码版 0.1.11；安装用 <code>install.packages(&quot;focus&quot;)</code>。Windows 二进制目前为 0.1.10，源码需要编译环境。本轮核验了版本、安装说明和示例，未独立实测，也未核实本次版本的具体算法变更。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：在线监测">在线监测</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a></p>
-<p class="catalog-actions"><a href="../issues/20261015/#r-focus-0-1-11">查看本期</a><a href="https://cran.r-project.org/web/packages/focus/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 81 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 87 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>

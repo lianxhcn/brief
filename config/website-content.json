@@ -3384,5 +3384,77 @@
     "source_sha256": "bebcf10d3e87d85f7a1c265c9617cda66e303c75f1a7a95c09194cc55b14c16f",
     "source": "content/issues/2026-10-22.json",
     "reviewed_date": "2026-10-22"
+  },
+  "paper-10-1287-mnsc-2025-03836": {
+    "summary": "论文建立监管机构与药企的信息不对称模型，讨论初步疗效证据下的有条件批准与后续确认性检验。企业掌握测试成本，监管者权衡消费者福利与测试激励；最优政策可能包含部分批准和不同的最终门槛。这是模型与校准分析，不能直接推导具体药品的安全性判断。",
+    "source_sha256": "fc01e7269557212032797ecec32a697ce8b2e3d685c3e557033742d1817f09fb",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "paper-10-1093-jrsssb-qkag134": {
+    "summary": "论文研究开放集标签漂移：测试样本出现训练数据没有的类别，且既有类别比例发生变化。作者用半参数密度比模型给出识别条件，构造经验似然估计、置信区间与拟合优度检验，并提出 EM 计算方法。新旧类别允许重叠，但仍依赖模型假设；方法不能自动消除文本标签误差。",
+    "source_sha256": "1615f887532a83d144c0a77b2caa9ce7323faec8b70ce89d370c9849a87c0e88",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "paper-arxiv-2610-31106": {
+    "summary": "这篇工作论文提出短面板的工具变量型同伴效应检验，通过协变量投影结果与自身残差的成对比较，避免先估计完整网络。方法允许个体固定效应、异质斜率及个体内序列相关，并针对投影信号较弱时的非标准分布构造条件模拟临界值。检验存在同伴效应，不等于识别具体网络或每条关系的效应。",
+    "source_sha256": "44b237ddfe45b4ce976bb5e54b36a91584169a39277462e2060e89ceffa558ee",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "tool-drdid-1-4-0": {
+    "summary": "新版修订面板缺失值处理、公式变量提取及 IPT 求解核验，并调整加权 bootstrap 的分母一致性。既有研究升级后应比较样本与区间变化；双重稳健仍依赖识别假设及至少一个辅助模型设定正确。 安装命令为 `install.packages(\"DRDID\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "d8ecff425525541a369f726697d04195e245f3c91a41e7833e163d451b0088a2",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "tool-fereg-0-4-0": {
+    "summary": "R 包采用 fixest 风格接口，提供 OLS、IV、Poisson 等估计及多种稳健标准误，底层使用 Rust。当前 CRAN 页面尚无 Windows 二进制包，从源码安装需要 Cargo 与 rustc；速度与结果一致性需用自己的数据另行核对。 安装命令为 `install.packages(\"fereg\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "a24e568285c6b95d276d986b07d1f212d9563f474d8503c6b973724e61477f28",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "tool-efred-0-2-0": {
+    "summary": "该包封装 FRED API，支持查询序列、来源与标签，并把相关指标整理成面板数据。适合宏观数据收集与更新；下载后的频率、单位和修订版本仍需核对，不能把更新后的序列直接当作历史实时信息集。 安装命令为 `install.packages(\"eFRED\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "d20768bba8d3d5baab6a81ab2bd393d68cc7d08ab3d45976827b5d7b680a2743",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "tool-qdfauction-0-2-0": {
+    "summary": "该包提供多类非参数分位数密度估计，并用于第一价格密封拍卖中的私人估值恢复、密度与置信带分析。官方示例使用木材拍卖数据。独立或相关估值、风险中性或厌恶对应不同设定，不能仅凭函数输出忽略结构假设。 安装命令为 `install.packages(\"qdfauction\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "6e2cd24555f441815cacfa85cb13de6613da464827e1c6e34618dd9ab231ec2c",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "tool-bsplinequantreg-0-2-6": {
+    "summary": "该包以 B 样条拟合分位数曲线，并在指定阶数下加入单调性或凸性约束。适合将明确的形状限制纳入估计与原型演示；约束应来自研究问题，且需检查样条阶数和求解器。当前版本要求 R 4.5.0 或以上。 安装命令为 `install.packages(\"BsplineQuantReg\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "2f40927095fe8f387fff2160df290bc5353387f5ec5cc3145282cc66388549df",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "tool-farr-1-1-1": {
+    "summary": "会计实证工具包提供事件收益、面板模拟与 DuckDB 数据流程。1.1.1 明确拒绝小于 -1 的收益率，近期更新也处理完全亏损和非交易日公告。复现事件研究时，应同时记录交易日映射、累计窗口和缺失值规则。 安装命令为 `install.packages(\"farr\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "1555f8ebfa108fb64a9fd380b7ec9e30d78c2643007d7cea39caddbb32b79945",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "conference-cepr-micro-history-3": {
+    "summary": "第三届 CEPR 应用微观经济史研讨会将于2027年2月25–26日在德国柏林举行，投稿截止2026年10月31日。主题关注历史微观数据、数字化与现代计量研究设计。主办方页面未列明参会费用，申请前需查看征稿详情。此项为境外会议，仅在网页版呈现。",
+    "source_sha256": "0498a61108452a2bf3a1fd0ca936bb931f9542b24b9a6926e1c41ef34b22de3e",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "paper-10-1093-qje-qjag051": {
+    "summary": "论文将洪水保险保费补贴、灾后财政救助与气候风险重新定价放入同一框架，结合多类数据估计模型所需参数。补贴减少可能降低高风险地区投保率，并把成本转移到灾后救助；家庭也面临未来风险评估变化。政策权衡不能只看补贴诱发的道德风险，还需考虑财政外溢和风险保障。",
+    "source_sha256": "7083fb66f0f7761440d2aa6f53f8a6a00130cd119a377e899ef1ce6746b4b528",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
+  },
+  "paper-10-1093-qje-qjag052": {
+    "summary": "论文结合消费者海关购买记录、人口社交网络与零售商覆盖区域，研究新商品的两步扩散：消费者先通过现实社会关系了解并购买新品，零售商再从这些早期购买中学习本地需求。作者利用海外支出变化经移民网络传递所形成的需求变动进行识别，并辅以零售商调查。外生性与网络传导假设仍是解释结果的关键。",
+    "source_sha256": "5b0b08e5a438b9ff026e93854094c803f6423f21e665f9a969f8983dc1c1cf95",
+    "source": "content/issues/2026-10-23.json",
+    "reviewed_date": "2026-10-23"
   }
 }

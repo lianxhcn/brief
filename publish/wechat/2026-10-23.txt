@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.23
+
+📰 01｜论文 · Management Science：药品有条件批准：监管如何兼顾证据与企业激励？
+论文建立监管机构与药企的信息不对称模型，讨论初步疗效证据下的有条件批准与后续确认性检验。
+引文：Xu et al. (2026). Conditional and Lenient Drug Approvals. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.03836 
+
+📰 02｜论文 · QJE：洪水保险补贴为何要同时考虑灾后救助？
+论文将洪水保险保费补贴、灾后财政救助与气候风险重新定价放入同一框架，结合多类数据估计模型所需参数。
+引文：Gruber & Solomon (2026). Optimal Flood Insurance in a Second-Best World: Fiscal Spillovers, Reclassification Risk, and Moral Hazard. QJE.
+主页： https://doi.org/10.1093/qje/qjag051 
+
+📰 03｜论文 · QJE：新商品如何沿社交网络进入本地商店？
+论文结合消费者海关购买记录、人口社交网络与零售商覆盖区域，研究新商品的两步扩散：消费者先通过现实社会关系了解并购买新品，零售商再从这些早期购买中学习本地需求。
+引文：Argente, Méndez & Van Patten (2026). How New Products Enter Markets: Social Networks, Consumer Imports, and Retailer Learning. QJE.
+主页： https://doi.org/10.1093/qje/qjag052 
+
+📦 04｜软件 · R：DRDID 1.4.0：检查预处理与加权 bootstrap 的变化
+新版修订面板缺失值处理、公式变量提取及 IPT 求解核验，并调整加权 bootstrap 的分母一致性。
+版本：R / DRDID 1.4.0；发布：2026-10-22
+CRAN： https://cran.r-project.org/package=DRDID 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261023/ 
