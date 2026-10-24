@@ -8,9 +8,65 @@ title: "新论文 · 第 11 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 41 页 · 共 406 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-41.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>随机分配以后，为什么逐个观测 bootstrap 仍可能失效？</h3>
+<p class="catalog-citation">Hounyo, U.; Hwang, J. (2026). Bootstrap Inference with a Randomly Assigned Regressor: Covariance Filtering and the Limits of Marginal Resampling. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-03 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>论文指出，随机分配与重抽样未必消除相同的协方差项。即使随机分配让 OLS 推断对某些结果相关性不敏感，独立重抽样仍可能遗漏处理效应的跨单位协方差。作者分析需要恢复的随机回归量得分协方差，并讨论有序或分组依赖条件下的估计。实际启发是让重抽样与依赖结构对应，不能把随机实验当作独立 bootstrap 自动有效的保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a> · <a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：相关误差">相关误差</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#arxiv-2610-04217">查看本期</a><a href="https://arxiv.org/abs/2610.04217" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>联合事件预测中，边际分布估计误差怎样进入区间？</h3>
+<p class="catalog-citation">Ng, H.; Tao, Y. (2026). Vine Copula VAR:From Recursive Margins to Joint Forecast Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>论文研究 Vine Copula VAR 联合事件概率预测中的不确定性。历史误差可能保留各自预测时点的边际分布估计，而最终预测又使用新估计，两类误差需要共同进入推断。作者在特定稳定性与 Copula 设定下推导协方差和区间，并用宏观发布数据说明实时预测问题。可借鉴信息时点一致性的处理，不能将结论直接外推到任意依赖结构。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%94%E5%90%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：联合预测">联合预测</a> · <a class="tag-link" href="?q=Copula&amp;show-results=1" title="全站搜索：Copula">Copula</a> · <a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：估计误差">估计误差</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#arxiv-2610-07589">查看本期</a><a href="https://arxiv.org/abs/2610.07589" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>推荐排序追求互动量，会怎样改变新闻质量？</h3>
+<p class="catalog-citation">Moehring, A. (2026). Personalization, Engagement, and Content Quality on Social Media: An Evaluation of Reddit’s News Feed. Management Science.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>Management Science 论文利用 Reddit 排序机制中的不连续性研究排名对评论行为的影响，再用模型比较不同推荐规则。个性化互动量目标可能加大用户接触新闻可信度的差异，加入可信度目标则会改变互动量与内容质量的取舍。可借鉴平台规则与用户行为模型相结合的思路；反事实政策结果仍依赖模型设定，不能只凭点击量判断推荐质量。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95&amp;show-results=1" title="全站搜索：推荐算法">推荐算法</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：信息质量">信息质量</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：平台治理">平台治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#paper-10-1287-mnsc-2024-06298">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06298" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>房产税差异会改变企业在县界附近的选址吗？</h3>
+<p class="catalog-citation">Bulloch, B.D.; Gaertner, F.B.; Hoopes, J.L. (2026). Do Commercial Property Taxes Affect Business Microlocation Decisions? TAR.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>The Accounting Review 论文利用企业精确地理位置，在县界两侧比较营利性机构与通常免征房产税的非营利机构，研究地方税差异与选址密度。结果表明，税收节省与客户可达性会共同影响企业的微观区位选择。对空间实证的启发是把边界设计与对照对象结合；县界附近其他制度和地理差异仍需在识别中处理。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E9%80%89%E5%9D%80&amp;show-results=1" title="全站搜索：企业选址">企业选址</a> · <a class="tag-link" href="?q=%E6%88%BF%E4%BA%A7%E7%A8%8E&amp;show-results=1" title="全站搜索：房产税">房产税</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%96%AD%E7%82%B9&amp;show-results=1" title="全站搜索：空间断点">空间断点</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#paper-10-2308-tar-2025-0248">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0248" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>并购前的定向捐赠如何连接利益相关者？</h3>
+<p class="catalog-citation">VANSTEENKISTE, C. (2026). Targeted Philanthropy: Evidence from M&amp;As. JF.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>JF 论文考察企业围绕并购重新分配慈善资金的行为：收购方在发出要约前增加面向目标相关慈善机构的捐赠，交易撤回后又缩减投入。作者进一步比较内部人关联机构、员工社区和监管地区，并考察捐赠与交易表现的关系。研究为公司慈善与利益相关者管理提供视角；不能把观察到的关联直接等同于每笔捐赠的因果效果或动机。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%85%88%E5%96%84&amp;show-results=1" title="全站搜索：企业慈善">企业慈善</a> · <a class="tag-link" href="?q=%E5%B9%B6%E8%B4%AD&amp;show-results=1" title="全站搜索：并购">并购</a> · <a class="tag-link" href="?q=%E5%88%A9%E7%9B%8A%E7%9B%B8%E5%85%B3%E8%80%85&amp;show-results=1" title="全站搜索：利益相关者">利益相关者</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#paper-10-1111-jofi-70090">查看本期</a><a href="https://doi.org/10.1111/jofi.70090" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>孩子上大学时，创业家庭如何调整企业投入？</h3>
+<p class="catalog-citation">Kim, O.S. (2026). Trading Off Business and Family Investments: Evidence from U.S. Entrepreneurial Households. Management Science.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>Management Science 论文将小企业账户与企业主家庭联系起来，围绕子女进入大学年龄的时间节点比较经营活动。结果与家庭教育开支挤占企业内部资金的解释一致，企业规模收缩不必同时意味着效率下降。可以借鉴家庭与企业联结数据的研究设计；具体识别仍要核对子女年龄附近的可比性及家庭其他变化。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E5%AE%B6%E5%BA%AD&amp;show-results=1" title="全站搜索：创业家庭">创业家庭</a> · <a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：教育投资">教育投资</a> · <a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：融资约束">融资约束</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#paper-10-1287-mnsc-2024-04789">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.04789" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>国债的便利收益何时更高？从对冲功能理解安全资产</h3>
+<p class="catalog-citation">ACHARYA, V.V.; LAARITS, T. (2026). When Do Treasuries Earn the Convenience Yield?—A Hedging Perspective. JF.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-12</p>
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>JF 论文从对冲功能解释美国国债的便利收益：若国债在不利的总体冲击下升值，其安全资产价值会更突出。作者考察股债收益协方差，并将其分解到便利收益、无摩擦无风险利率和违约风险等部分。可借鉴之处是区分安全资产的不同收益来源；这种关联不能简化成任何时候股债都必须负相关。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BD%E5%80%BA&amp;show-results=1" title="全站搜索：国债">国债</a> · <a class="tag-link" href="?q=%E4%BE%BF%E5%88%A9%E6%94%B6%E7%9B%8A&amp;show-results=1" title="全站搜索：便利收益">便利收益</a> · <a class="tag-link" href="?q=%E5%AE%89%E5%85%A8%E8%B5%84%E4%BA%A7&amp;show-results=1" title="全站搜索：安全资产">安全资产</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#paper-10-1111-jofi-70085">查看本期</a><a href="https://doi.org/10.1111/jofi.70085" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>AI 冲击之后，自由职业者怎样重新选择工作？</h3>
 <p class="catalog-citation">Yiu, S. et al. (2026). Worker Repositioning and Technological Change: Evidence from an Online Labor Market. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-12</p>
@@ -35,64 +91,8 @@ title: "新论文 · 第 11 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%9A%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：行业竞争">行业竞争</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E4%BC%A0%E6%9F%93&amp;show-results=1" title="全站搜索：风险传染">风险传染</a></p>
 <p class="catalog-actions"><a href="../issues/20261011/#paper-10-1111-jofi-70080">查看本期</a><a href="https://doi.org/10.1111/jofi.70080" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>结构不稳定时，滚动预测窗口该选多长？</h3>
-<p class="catalog-citation">Djogbenou, A. A. (2026). Rolling Window Selection in FAR Models with Structural Instabilities. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-08 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>论文研究因子扩展回归存在结构不稳定时的滚动窗口选择。作者以条件均方预测误差为目标，在可行准则中考虑潜在因子估计的不确定性，并给出渐近损失有效性的条件与模拟。它提醒研究者，窗口长度是偏差与信息量之间的选择，不能只凭固定经验值。使用时还要核对样本长度、因子估计和结构变化形式是否符合理论条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%BB%9A%E5%8A%A8%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：滚动预测">滚动预测</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：结构变化">结构变化</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#arxiv-2610-12025">查看本期</a><a href="https://arxiv.org/abs/2610.12025" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>相关结构是否发生变化？Copula 平滑检验的新思路</h3>
-<p class="catalog-citation">Huang, S.; Song, X. (2026). Detecting Copula Structural Changes: A Smooth Testing Approach. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-07 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>论文针对多变量动态模型中创新项 Copula 的结构变化，把依赖结构不变的假设转化为一组广义傅里叶系数的联合检验。作者给出使用估计残差时的渐近结果，并提出基函数截断阶数的数据驱动选择。研究关注依赖结构，而不只检查各变量的均值或方差是否改变；有限样本表现和动态模型设定仍需结合具体应用判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Copula&amp;show-results=1" title="全站搜索：Copula">Copula</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#arxiv-2610-09351">查看本期</a><a href="https://arxiv.org/abs/2610.09351" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>目标样本缺失整类协变量，能否借助其他样本？</h3>
-<p class="catalog-citation">Zhao, H.; Wang, T. (2026). Augmented transfer regression learning for completely missing covariates. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>JRSS-B 论文研究目标总体完全没有某类协变量、相关来源总体却测量了这些变量的情形。方法将加权估计方程与缺失协变量一阶、二阶矩的插补项结合。关键条件是给定已观测变量后，缺失变量的条件分布可以跨总体迁移；双重稳健性也有对应模型正确性要求。它为跨数据源补足信息提供框架，不能把任意外部数据库的变量直接拼入目标样本。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：迁移学习">迁移学习</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E5%8D%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：缺失协变量">缺失协变量</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#paper-10-1093-jrsssb-qkag131">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag131" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>如何用少量随机实验预测更多广告活动的增量效果？</h3>
-<p class="catalog-citation">Gordon, B.R.; Moakler, R.; Zettelmeyer, F. (2026). Predicted Incrementality by Experimentation for Ad Measurement. Management Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>Management Science 论文提出 PIE：先用随机广告实验估计活动层面的因果效果，再学习活动特征与效果之间的预测关系，用于没有开展实验的广告活动。这里可以使用活动结束后的汇总特征，但它们并不因此成为因果回归中的合法控制变量。可借鉴实验与预测相结合的测量思路；能否迁移到新的活动，仍依赖训练实验的代表性及样本外验证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%95%88%E6%9E%9C%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：效果预测">效果预测</a> · <a class="tag-link" href="?q=%E5%B9%BF%E5%91%8A%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：广告测量">广告测量</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#paper-10-1287-mnsc-2023-01108">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.01108" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>同评级债券，金融企业为何仍支付更高利差？</h3>
-<p class="catalog-citation">DICK‐NIELSEN, J.; FELDHÜTTER, P.; LANDO, D. (2026). The Financial Premium. JF.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>JF 论文比较评级和期限相近的金融企业与工业企业债券，发现前者仍存在利差溢价。作者用银行持有非金融债务组合的模型解释：资产组合分散了个别风险，但银行债务仍承受更强的系统性风险。可用于思考信用评级之外的风险暴露与资产定价；经验差异和模型解释应分开理解，不能将评级相同视为风险完全相同。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%80%BA%E5%88%B8%E5%88%A9%E5%B7%AE&amp;show-results=1" title="全站搜索：债券利差">债券利差</a> · <a class="tag-link" href="?q=%E7%B3%BB%E7%BB%9F%E6%80%A7%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：系统性风险">系统性风险</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E6%9C%BA%E6%9E%84&amp;show-results=1" title="全站搜索：金融机构">金融机构</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#paper-10-1111-jofi-70084">查看本期</a><a href="https://doi.org/10.1111/jofi.70084" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>共享董事与员工流动：公司网络如何连接劳动力市场？</h3>
-<p class="catalog-citation">Begley, T.A.; Haslag, P.; Weagley, D. (2026). Directing the Labor Market: Shared Directors and Employee Flows. RFS.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>RFS 论文结合员工履历与董事联系，研究两家公司共享董事期间的人员流动。结果显示员工跨企业流动减少，且在潜在限制流动收益较高、员工技能较高的情形更明显；内部晋升和员工满意度的证据也用于比较解释。可借鉴董事网络与员工级数据的连接方式。摘要证据与劳动力市场协调机制一致，但仅凭这种关系不能断言每个共享董事安排都具有排他目的。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E4%BA%AB%E8%91%A3%E4%BA%8B&amp;show-results=1" title="全站搜索：共享董事">共享董事</a> · <a class="tag-link" href="?q=%E5%91%98%E5%B7%A5%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：员工流动">员工流动</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动力市场">劳动力市场</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#paper-10-1093-rfs-hhag090">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag090" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>从年报文本构造企业系统性风险暴露</h3>
-<p class="catalog-citation">Holstead, C. et al. (2026). From Text to Beta: Macroeconomic Disclosures and Firm-Level Systematic Risk. TAR.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-11</p>
-<p class="catalog-meta">期次日期：2026-10-11</p>
-<p>The Accounting Review 论文把新闻中的宏观风险与企业 10-K 披露联系起来，用文本刻画不同时期的重要宏观风险及企业收益对这些风险的暴露，再考察其与股票收益横截面的关系。企业披露随时间和经济周期变化，因此风险暴露也不是固定标签。对文本实证的启发是同时明确风险词汇来源、企业暴露度量与定价检验；不能把文本指标自动解释成因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B4%E6%8A%A5%E6%96%87%E6%9C%AC&amp;show-results=1" title="全站搜索：年报文本">年报文本</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：风险暴露">风险暴露</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
-<p class="catalog-actions"><a href="../issues/20261011/#paper-10-2308-tar-2024-0833">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0833" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 41 页 · 共 406 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-41.html">末页</a></nav>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

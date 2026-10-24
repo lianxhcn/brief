@@ -8,9 +8,49 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 9 页 · 共 87 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 10 页 · 共 92 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-10.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>BsplineQuantReg：带形状约束的分位数回归</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>该包以 B 样条拟合分位数曲线，并在指定阶数下加入单调性或凸性约束。适合将明确的形状限制纳入估计与原型演示；约束应来自研究问题，且需检查样条阶数和求解器。当前版本要求 R 4.5.0 或以上。 安装命令为 <code>install.packages(&quot;BsplineQuantReg&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E5%BD%A2%E7%8A%B6%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：形状约束">形状约束</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-bsplinequantreg-0-2-6">查看本期</a><a href="https://cran.r-project.org/package=BsplineQuantReg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>stargazer2：为现代计量模型生成回归表</h3>
+
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>R 包 stargazer2 延续熟悉的表格接口，支持 lm、glm 以及 fixest、plm、alpaca 等模型对象，可输出 LaTeX、文本与 HTML。安装命令为 <code>install.packages(&quot;stargazer2&quot;)</code>。Windows 二进制与源码版本可能不同，输出后仍应核对标准误、固定效应标记和样本量；本期未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%A1%A8&amp;show-results=1" title="全站搜索：回归表">回归表</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：结果输出">结果输出</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#tool-stargazer2-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=stargazer2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>flexMatch：为堆叠 DID 构造匹配样本</h3>
+
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>R 包 flexMatch 将候选处理组和对照组筛选、截面匹配与事件时间堆叠串联起来，并提供平衡诊断。安装命令为 <code>install.packages(&quot;flexMatch&quot;)</code>。干净窗口与协变量平衡不能证明平行趋势，重复处理的残留效应也需另行判断。本期核验官方示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%A0%86%E5%8F%A0DID&amp;show-results=1" title="全站搜索：堆叠DID">堆叠DID</a> · <a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#tool-flexmatch-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=flexMatch" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ifo：在 R 中获取德国企业景气调查时间序列</h3>
+
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 <code>install.packages(&quot;ifo&quot;)</code> 安装，官方示例以 <code>ifo_business()</code> 获取景气、现状与预期指标。CRAN 源码更新至 0.3.1，部分二进制仍为 0.3.0，安装后应核对版本。本期检查文档，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0&amp;show-results=1" title="全站搜索：景气指数">景气指数</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#tool-ifo-0-3-1">查看本期</a><a href="https://cran.r-project.org/package=ifo" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>gtregression：从回归模型到论文表格</h3>
+
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>R 包 gtregression 整合回归、诊断、森林图和 Word 等格式导出。1.2.0 增加风险差、NNT 与更多模型支持；官方示例用 <code>uni_reg()</code>、<code>multi_reg()</code> 和 <code>merge_tables()</code> 组织结果。安装命令为 <code>install.packages(&quot;gtregression&quot;)</code>。格式化输出不能替代模型诊断与因果识别，本期未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：回归输出">回归输出</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：结果可视化">结果可视化</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#tool-gtregression-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=gtregression" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>scf：美国消费者金融调查的加权与多重插补分析</h3>
 
@@ -51,48 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：保形预测">保形预测</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
 <p class="catalog-actions"><a href="../issues/20261016/#r-conformalforecast-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/conformalForecast/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>focus 0.1.11：在线监测数据流变化</h3>
-
-<p class="catalog-meta">期次日期：2026-10-15</p>
-<p>R 包 focus 面向单变量及多变量数据流的在线结构变化检测，也提供批量分析接口。官方示例展示逐点更新检测器、读取统计量并按阈值报警的流程，适合了解实时监测与事后断点估计的区别。10 月 14 日发布源码版 0.1.11；安装用 <code>install.packages(&quot;focus&quot;)</code>。Windows 二进制目前为 0.1.10，源码需要编译环境。本轮核验了版本、安装说明和示例，未独立实测，也未核实本次版本的具体算法变更。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：在线监测">在线监测</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a></p>
-<p class="catalog-actions"><a href="../issues/20261015/#r-focus-0-1-11">查看本期</a><a href="https://cran.r-project.org/web/packages/focus/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>flextable 0.10.3：整理可复现研究表格</h3>
-
-<p class="catalog-meta">期次日期：2026-10-15</p>
-<p>R 包 flextable 用统一接口整理表头、单元格与模型结果，并支持 Word、PowerPoint、HTML、PDF 和 Typst 输出。10 月 14 日发布的 0.10.3 修正新版 Pandoc 下的标题测试；近期 0.10.2 修复跨列标题导致表宽超限的问题。可用 <code>install.packages(&quot;flextable&quot;)</code> 安装，再核对版本。官方手册示例已检查，未独立实测；当前 Windows 二进制版本可能落后于源码版。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：结果输出">结果输出</a> · <a class="tag-link" href="?q=%E5%8F%AF%E5%A4%8D%E7%8E%B0%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：可复现报告">可复现报告</a></p>
-<p class="catalog-actions"><a href="../issues/20261015/#r-flextable-0-10-3">查看本期</a><a href="https://cran.r-project.org/web/packages/flextable/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>cpop 1.0.10：时间序列斜率变化检测更新</h3>
-
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>R 包 cpop 用连续分段线性拟合识别时间序列的斜率变化，以残差平方和与变化次数惩罚控制拟合复杂度。1.0.10 增加 罚参数路径结果的后处理，并适配 crops 1.0.5。安装用 <code>install.packages(&quot;cpop&quot;)</code>，再核对版本；当前 Windows 二进制仍为 1.0.9，新版源码需要编译环境。本轮核对了官方说明和示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E7%AA%81%E5%8F%98&amp;show-results=1" title="全站搜索：结构突变">结构突变</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#r-cpop-1-0-10">查看本期</a><a href="https://cran.r-project.org/web/packages/cpop/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>concstats 0.2.1：集中度指标与份额计算更新</h3>
-
-<p class="catalog-meta">期次日期：2026-10-13</p>
-<p>R 包 concstats 根据市场份额计算集中度和不平等指标。0.2.1 新增前三、前五等汇总接口和原始数据转份额辅助函数，并修正 Simpson 指标实现。安装用 <code>install.packages(&quot;concstats&quot;)</code>，核对 <code>packageVersion(&quot;concstats&quot;)</code>；Windows 二进制可能滞后。市场边界和份额口径需要研究者自行确定，本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9B%86%E4%B8%AD%E5%BA%A6&amp;show-results=1" title="全站搜索：集中度">集中度</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E4%BB%BD%E9%A2%9D&amp;show-results=1" title="全站搜索：市场份额">市场份额</a></p>
-<p class="catalog-actions"><a href="../issues/20261013/#r-concstats-0-2-1">查看本期</a><a href="https://cran.r-project.org/web/packages/concstats/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>denstest 1.0.2：比较密度函数时，置换也要重算统计量</h3>
-
-<p class="catalog-meta">期次日期：2026-10-12</p>
-<p>R 包 denstest 用于比较多组估计密度函数，可从整体形状或分布矩的角度开展检验。1.0.2 修正了 TF 距离的置换推断：每次置换都重新计算依赖分组的方差估计及距离。安装为 <code>install.packages(&quot;denstest&quot;)</code>，官方示例用 <code>denscomp()</code> 组织比较。其输入是密度函数组，不宜不加区分地当作普通原始样本的均值检验；本轮未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%AF%86%E5%BA%A6%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：密度比较">密度比较</a> · <a class="tag-link" href="?q=%E7%BD%AE%E6%8D%A2%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：置换检验">置换检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261012/#r-denstest-1-0-2">查看本期</a><a href="https://cran.r-project.org/web/packages/denstest/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 9 页 · 共 87 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 10 页 · 共 92 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-10.html">末页</a></nav>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

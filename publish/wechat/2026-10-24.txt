@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.24
+
+📰 01｜论文 · Review of Economic Studies：线性 IV 何时不能解释为 LATE？
+协变量下的工具变量效应错设可能产生负权重；论文讨论交互工具变量如何改善 LATE 解释，并以审前羁押研究为例。
+引文：Słoczyńki (2026). When Should We (Not) Interpret Linear IV Estimands as LATE?. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag116 
+
+📰 02｜论文 · The Journal of Finance：期权隐含信念的波动是否过大？
+论文在贴现因子假设下构造期权隐含信念变动的界限，再用指数期权检验越界，区分风险中性信念与主观信念。
+引文：Augenblick & Lazarus (2026). Excess Movement in Option‐Implied Beliefs. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70086 
+
+📰 03｜论文 · The Review of Financial Studies：公共养老金为什么转向另类资产？
+论文比较美国公共养老金转向私募股权和对冲基金的解释，强调顾问、同业及历史经验对回报信念的影响。
+引文：Begenau, Liang & Siriwardane (2026). The Rise of Alternatives. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag091 
+
+📦 04｜软件 · R：oolong：给自动文本分析加入人工验证
+该 R 包提供词侵入、主题侵入及人工金标准等验证流程，帮助检查主题模型或词典分析结果是否具有可解释性。
+版本：R / oolong 0.7.1；发布：2026-10-23
+CRAN： https://cran.r-project.org/package=oolong 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261024/ 

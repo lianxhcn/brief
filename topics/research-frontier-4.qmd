@@ -8,9 +8,65 @@ title: "新论文 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 41 页 · 共 406 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-41.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>重抽样检验如何用鞍点近似减少计算？</h3>
+<p class="catalog-citation">Niu, Z. et al. (2026). Saddlepoint approximations for plug-in resampling. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>论文针对固定已拟合干扰参数的插入式重抽样程序，用鞍点近似计算尾部概率，讨论有限样本相对误差界及第一类错误控制。方法要求重抽样统计量具有相应条件独立结构；对大规模条件独立检验有启发，但不能把特定实验中的提速推广到所有 bootstrap。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%8D%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：重抽样">重抽样</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-1093-biomet-asag063">查看本期</a><a href="https://doi.org/10.1093/biomet/asag063" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>证券设计为什么要与信息披露一起考虑？</h3>
+<p class="catalog-citation">Inostroza, N.; Tsoy, A. (2026). Optimal Information and Security Design. RFS.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>作者把证券支付结构与私人信号联合设计，研究流动性冲击后资产所有者向非完全竞争买方出售证券的问题。模型中，资产出售、债务及其他支付结构的相对优势取决于允许怎样设计信号及支付函数限制，不能脱离这些条件概括为某类证券总是最优。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AF%81%E5%88%B8%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：证券设计">证券设计</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-1093-rfs-hhag093">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>言论保护法律与企业社会责任行为</h3>
+<p class="catalog-citation">Griffin, P. A. et al. (2026). Does Free Speech Law Contribute to Corporate Social Responsibility Behavior? Empirical Evidence. TAR.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>论文考察美国各州反 SLAPP 法律实施前后，利益相关者批评与企业社会责任活动、披露之间的变化。作者发现更强言论保护伴随更多外部批评和 CSR 活动，提出企业回应负面舆论的解释。采用类似分期政策设计时，仍需核对识别假设和同期制度变化。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：企业社会责任">企业社会责任</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：制度环境">制度环境</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2023-0659">查看本期</a><a href="https://doi.org/10.2308/tar-2023-0659" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>纵向处理效应中的贝叶斯模型平均</h3>
+<p class="catalog-citation">Adenyo, D. et al. (2026). A Bayesian model averaging approach for estimating longitudinal treatment effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-16 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>作者提出面向纵向处理路径的贝叶斯模型平均方法，估计反事实均值和边际结构模型参数，并通过先验倾向于有效率的调整变量集合。研究讨论变量选择后的推断，包含模拟及药物暴露示例。方法仍依赖纵向因果识别条件，不能用模型平均代替混杂因素的实质判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：纵向因果推断">纵向因果推断</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：模型平均">模型平均</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#arxiv-2610-23578">查看本期</a><a href="https://arxiv.org/abs/2610.23578" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>环保承诺是否对应实际减排？</h3>
+<p class="catalog-citation">Chang, S.; Christensen, H. B.; McKinley, A. (2026). Beyond Greenwashing: Environmental Commitments and Gas Flaring in the African Oil Sector. TAR.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>论文研究石油企业零常规放空燃烧承诺与非洲油田排放的关系，区分运营改进与资产转手，并比较利益相关者压力。作者的证据支持部分承诺伴随实际运营调整；研究启发在于追踪设施层面排放和资产边界，避免仅凭企业声明衡量环保行动。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%89%BF%E8%AF%BA&amp;show-results=1" title="全站搜索：环境承诺">环境承诺</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8E%92%E6%94%BE&amp;show-results=1" title="全站搜索：企业排放">企业排放</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0361">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0361" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>强调节约投入，会改变员工的预算目标吗？</h3>
+<p class="catalog-citation">Andrassy, J. et al. (2026). Productivity versus Efficiency: The Effect of Incentive Focus on Target Setting in Participative Budgets. TAR.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>研究比较以扩大产出和节约投入为重点的激励设置，关注参与式预算中的风险感知与目标选择。作者报告效率导向激励下目标较低、实现目标更困难的现象，并检验结果不确定性的作用。其结论依赖研究情境，不能直接推出所有效率考核均有害。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a> · <a class="tag-link" href="?q=%E9%A2%84%E7%AE%97%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：预算管理">预算管理</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0493">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0493" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>在线更新相关结构，预测多地区电力需求</h3>
+<p class="catalog-citation">Schulz, C. J. et al. (2026). Online Conditional Vine Copulas: Forecasting Electricity Demand. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-16 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>论文用协变量刻画 vine copula 的参数，并以最近观测逐步更新多变量分布预测，减少每次重新拟合全部历史数据的需求。应用关注英国多个地区的电力净需求及随时间变化的依赖关系。它提供分布预测思路，预测表现不等于因果识别，实际使用需核对更新规则和模型适配性。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分布预测">分布预测</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：在线估计">在线估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#arxiv-2610-23119">查看本期</a><a href="https://arxiv.org/abs/2610.23119" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>预测辅助推断中的协方差权重如何校准？</h3>
 <p class="catalog-citation">Chen, Siyuan; Bai, Yang; Zhu, Huichen (2026). Covariance-Calibrated Prediction-Powered Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
@@ -35,64 +91,8 @@ title: "新论文 · 第 4 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：组织网络">组织网络</a> · <a class="tag-link" href="?q=%E9%9F%A7%E6%80%A7&amp;show-results=1" title="全站搜索：韧性">韧性</a></p>
 <p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2024-19624">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19624" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>招聘配额增加了就业，也改善了职业发展吗？</h3>
-<p class="catalog-citation">Nardi, L. et al. (2026). Diversity and/or Inclusion? Evidence from Disability Quota and Inclusion Laws in Brazil. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-12 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>作者利用巴西雇主—雇员匹配数据研究残障就业配额执法强化及后续反歧视立法。论文区分进入就业与在职者发展：新增雇用和就业稳定性改善，并不必然伴随工资差距缩小或晋升加快。这个区分有助于设计政策评价指标，避免只用雇用人数代表全面的包容性改善。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2024-18693">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18693" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>外国企业如何选择专利诉讼代理团队？</h3>
-<p class="catalog-citation">Kim, Y.; Uribe, J.N.; Sytch, M. (2026). Legal Chameleons: Political Ideology, Institutional Histories, and Firms’ Management of Identity Cues. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>论文研究亚洲企业在美国专利诉讼中如何选择外部律师团队，以及这种选择与法院政治倾向和既往裁决记录的关系。作者将代理团队选择视为企业应对不利评价环境的一种策略，并讨论外来者身份的显著性。相关结果属于特定法律制度与样本中的研究发现，不能据此推断个体律师的能力或提供按族裔选人的建议。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AF%89%E8%AE%BC&amp;show-results=1" title="全站搜索：专利诉讼">专利诉讼</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%AD%96%E7%95%A5&amp;show-results=1" title="全站搜索：企业策略">企业策略</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2024-19400">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19400" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>处理状态反复变化时，怎样研究异质性 DID？</h3>
-<p class="catalog-citation">Dukes, Oliver et al. (2026). Difference-in-Differences for Heterogeneous Effects of General Treatment Strategies Accounting for Time-Varying Covariates. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>论文提出边际结构嵌套均值模型，在条件平行趋势假设下研究随时间变化的处理及异质性效应。它将用于调整的协变量与用于刻画效应差异的协变量区分开来，并允许处理状态反复开启与关闭。Medicaid 扩张的应用展示了研究思路；能否使用仍取决于条件平行趋势及动态处理模型设定。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%97%B6%E5%8F%98%E5%8D%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：时变协变量">时变协变量</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-22113">查看本期</a><a href="https://arxiv.org/abs/2610.22113" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>同事间聊育儿，如何影响工作与家庭？</h3>
-<p class="catalog-citation">Lin, Y. et al. (2026). Feel Free to Chat About Your Kids? Exploring the Effects of Workplace Parenting Conversations. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>作者将访谈、经验抽样与现场实验结合，研究同为父母的同事围绕育儿进行深入交流时，如何获得工具性、情感性与关系支持。研究将工作场所对话延伸到非工作身份，并比较工作和家庭两类行为结果。其研究设计可供混合方法研究参考，结论仍须结合样本与具体对话情境理解。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E4%BD%9C%E5%AE%B6%E5%BA%AD&amp;show-results=1" title="全站搜索：工作家庭">工作家庭</a> · <a class="tag-link" href="?q=%E6%B7%B7%E5%90%88%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：混合方法">混合方法</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2023-18043">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.18043" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>创业初期的灾害冲击会留下组织痕迹吗？</h3>
-<p class="catalog-citation">Dutta, S.; Nahm, P.; Rios, L.A. (2026). Early Environmental Shocks and Organizational Reconfiguration in High-Growth Ventures. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-05 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>论文将美国创业企业面板与创立地自然灾害记录结合，考察成立初期遭遇冲击与后续生存、融资及上市的关系。作者发现不同结果指标呈现不同方向，并用员工层面的描述证据讨论组织结构与角色流动性。研究强调早期环境可能留下长期痕迹，不能据此把灾害概括为有利于创业的因素。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：创业企业">创业企业</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：组织调整">组织调整</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2023-18371">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.18371" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>共形多重检验如何利用全部数据？</h3>
-<p class="catalog-citation">Huo, Y. et al. (2026). Unified conformalized multiple testing with full data efficiency. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>论文将原假设、备择假设和未标记样本统一用于构造评分与校准 p 值，通过全排列策略控制错误发现率，并讨论如何在候选共形程序间选择方法而不额外切分数据。它关注检验功效与数据利用率之间的关系；用于实证研究前，应核对可交换性等理论条件及计算成本。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：共形推断">共形推断</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：多重检验">多重检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1093-jrsssb-qkag132">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag132" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>CEO 的政治倾向与纵向一体化决策</h3>
-<p class="catalog-citation">Loncarich, H.; Abdurakhmonov, M.; Schnacker, M.L. (2026). Transaction Hazards Through Ideological Filters: How CEO Political Ideology Influences Vertical Integration Decisions. Journal of Management.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>论文以美国上市公司面板和 CEO 更替为切入点，考察政治倾向与企业边界选择的关系。作者发现较保守 CEO 所在企业具有较高的纵向一体化水平，并比较资产专用性、行业集中度与需求波动的调节关系。这里的关联证据不能直接排除全部内生性，适合与交易成本理论及高管特征研究对照阅读。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E4%B8%80%E4%BD%93%E5%8C%96&amp;show-results=1" title="全站搜索：纵向一体化">纵向一体化</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1177-01492063261487117">查看本期</a><a href="https://doi.org/10.1177/01492063261487117" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 40 页 · 共 399 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-40.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 41 页 · 共 406 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-41.html">末页</a></nav>
 
-<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li></ul></div></div>
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

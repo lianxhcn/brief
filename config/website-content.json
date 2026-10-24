@@ -3456,5 +3456,77 @@
     "source_sha256": "5b0b08e5a438b9ff026e93854094c803f6423f21e665f9a969f8983dc1c1cf95",
     "source": "content/issues/2026-10-23.json",
     "reviewed_date": "2026-10-23"
+  },
+  "paper-10-1093-restud-rdag116": {
+    "summary": "当工具变量的作用随协变量变化，常见线性设定隐含的同质性限制可能带来负权重。论文说明，在较弱单调性条件下，IV 系数未必仍有平均因果效应解释，并讨论交互工具变量设定如何避免这类错设。应用使用审前羁押案例；采用方法前仍需检查识别假设与工具强度。",
+    "source_sha256": "3d3d71ac23321cb64ba7218c95ea55356cc6c8ad33607cedb76fbcb7a612a142",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "paper-10-1111-jofi-70086": {
+    "summary": "风险中性概率并不等于投资者的主观概率。论文在随机贴现因子的假设下，推导期权隐含信念合理变动的界限，再用指数期权检查是否越界。该思路允许较灵活的贴现率变化，但结论仍取决于所用界限的条件，不能把价格波动直接当作非理性证据。",
+    "source_sha256": "a5c99c3a7603ec165361629262926e48bc0465154599d6578e4fb68f569a6071",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "paper-10-1093-rfs-hhag091": {
+    "summary": "论文研究美国公共养老金减少公开股票配置、增加私募股权和对冲基金投资的现象。作者比较投资回报信念、支出需求、风险偏好及治理等解释，强调投资顾问、同业和历史经验对信念的作用。适合关注机构投资者资产配置的读者；不能将摘要中的解释直接理解为独立识别的因果效应。",
+    "source_sha256": "85cd5b5b3d4263cad8890e849b5f9d02265b00d2d7086eb6c29eaae025c40005",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "paper-10-1093-restud-rdag117": {
+    "summary": "多个信息源未必提供独立证据。论文把来源间相关结构视为未知，研究使最坏情形收益尽可能好的决策规则。在两状态两行动的设定中，只使用最佳来源即可最优；更一般情形按局部决策分配不同来源。这是特定模型下的稳健性结果，不是普遍鼓励忽略其他资料。",
+    "source_sha256": "2d57ce2d00fdd6053ce87a11c698c7ef72be6bc8550dd2709597d33d9bfc40cb",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "paper-10-1093-biomet-asag065": {
+    "summary": "数据持续到达且旧数据不能反复读取时，传统带宽选择难以直接使用。论文针对非平稳密度的核估计，提出按最新数据块动态选择平滑参数的方法，并用交叉验证性质确定块大小。适用于理解分布漂移下的顺序估计；模拟及天文数据应用并不等于所有经济时间序列上都有效。",
+    "source_sha256": "ea1590f49e897076932f2edc422800d6f4ad24583239b84416ee2135f74ddf8d",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "paper-10-1093-biomet-asag066": {
+    "summary": "论文检验高维因子载荷是否具有 Kronecker 结构，从而检查双向矩阵因子模型的结构限制。针对旋转不识别造成的似然展开困难，作者加入识别惩罚并建立检验统计量的渐近结果。读者可以据此区分采用矩阵结构的便利与验证结构的必要性；实际应用仍受高维渐近条件约束。",
+    "source_sha256": "eedd09bd9afb222284ed7e15dafb2d6e47fe63c136d863295118aee1e05f797c",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "paper-arxiv-2610-31537": {
+    "summary": "暂时阻止某一期的政策采用，与持续禁止采用直到观察结局，是两个不同的因果问题。论文在条件可忽略性或平行趋势下讨论相应比较策略，指出持续禁止的目标需要随时间变化的对照集合和权重。它提醒使用分期 DID、匹配或合成控制的研究者，先明确干预定义，再选择估计方法。",
+    "source_sha256": "c9528078016a03068a76df2f03d8bb70998d239376688aafe1e12d3b48f3068f",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "tool-oolong-0-7-1": {
+    "summary": "该 R 包提供词侵入、主题侵入及人工金标准等验证流程，帮助检查主题模型或词典分析结果是否具有可解释性。新版已登上 CRAN。人工验证可以揭示自动测量的问题，但不能代替变量构造与后续回归识别判断。 安装命令为 `install.packages(\"oolong\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "7524430e167b4eef71bb7b7a0ccf4acdac8fb0f72b9ed949e7a77eea0e03ef1a",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "tool-duckdb-2-0-0": {
+    "summary": "CRAN 发布 duckdb R 接口 2.0.0，提供嵌入式分析数据库与 DBI 连接。手册示例展示通过数据表与文件接口完成筛选、选择和汇总。适合整理本地多文件数据；此处版本指 R 包，不能混同其他语言接口版本，升级前应检查现有代码兼容性。 安装命令为 `install.packages(\"duckdb\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "6c7f4577019b4fe00abbbc81d8d6b518891ffe702b4b097560236a03279e03f1",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "tool-lme4-2-1-0": {
+    "summary": "lme4 用于拟合线性及广义线性混合效应模型，CRAN 当前版本为 2.1-0。官方资料包含拟合、协方差结构和性能提示。它适合层级数据及随机效应建模，但随机效应假设并不自动解决解释变量与个体异质性相关的问题。 安装命令为 `install.packages(\"lme4\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "c0c39d5ce835d0a8cdcda7a8bea5e1615001ede86d0905a39680a7aba247d800",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "tool-tvgarchkf-1-0-1": {
+    "summary": "该包允许 GARCH(1,1) 参数随时间逐步变化，通过状态空间表示与 Kalman 滤波开展估计和预测。手册给出模拟及自动平滑选择示例。读者应先判断时变参数设定是否符合数据特征，避免仅凭灵活性选择模型。 安装命令为 `install.packages(\"tvGarchKF\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "bb05802541187496522e54d2510e92c178f15e7e56588e5796149734b73a6d68",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
+  },
+  "tool-highs-1-15-1-1": {
+    "summary": "R 包 highs 提供 HiGHS 求解接口，手册包含线性规划、混合整数线性规划与二次规划示例，可用于资源配置或匹配问题中的优化步骤。求解器只处理给定的目标与约束，模型设定和数据合理性仍需研究者检查；不同问题类型的支持范围应以文档为准。 安装命令为 `install.packages(\"highs\")`。本期核验官方文档与示例，未独立实测。",
+    "source_sha256": "7844d7a70b90ca0c58df4e3dc8a392d29fffaafa820b4368d7edeb8669dfdd18",
+    "source": "content/issues/2026-10-24.json",
+    "reviewed_date": "2026-10-24"
   }
 }
