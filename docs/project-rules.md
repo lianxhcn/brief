@@ -4,10 +4,10 @@ canonical owner：身份、状态和跨模块治理。生效日期：2026-09-05�
 
 ## 1. 身份与目录
 
-- P-01 [HARD]：项目名称为连享会 · 快讯；开发仓库为 `G:\codex_project\github_lianxh\lianxh-group-briefs`；文档目录为 `G:\codex_project\lianxh-group-briefs-docs`。本地与远程名称不同为已确认状态，不擅自改名。
+- P-01 [HARD]：项目名称为连享会 · 快讯；当前笔记本开发仓库为 `D:\github_lianxh\brief`，不得嵌套为 `brief\brief`。旧台式机开发及外部文档路径保留为历史 provenance，不要求旧机器可用。
 - P-02 [HARD]：公开仓库 `https://github.com/lianxhcn/brief`；Pages `https://lianxhcn.github.io/brief/`；正式 issue URL contract 为 `https://lianxhcn.github.io/brief/issues/YYYYMMDD/`。日期源码统一进入 `issues/YYYYMMDD/`。
 - P-03 [HARD]：`config/site.json` 为运行时公开身份配置的唯一来源；本文件定义批准的契约，配置不能改写规则。读者页面不得出现私有路径、开发目录名或旧公开身份。
-- P-04 [HARD]：仅 G 盘开发仓库承担开发；外部文档为 provenance，不把 D 盘镜像当开发副本，不为统一名称修改镜像或远程。
+- P-04 [HARD]：依 D-20261025-01，由笔记本 `D:\github_lianxh\brief` 接续采编与发布；这是从公开仓库新克隆的工作副本，不是旧 D 盘镜像。旧机器恢复后先核对远程和未提交状态，避免双机重复发布。外部文档仍为 provenance，公开仓库与 URL 不变。
 
 ## 2. 规则系统
 

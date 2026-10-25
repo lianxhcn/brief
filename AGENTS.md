@@ -4,7 +4,7 @@
 
 ## 1. 项目与必读顺序
 
-项目：连享会 · 快讯。开发仓库：`G:\codex_project\github_lianxh\lianxh-group-briefs`。文档目录：`G:\codex_project\lianxh-group-briefs-docs`。公开仓库：[lianxhcn/brief](https://github.com/lianxhcn/brief)。生产站点：[连享会 · 快讯](https://lianxhcn.github.io/brief/)。
+项目：连享会 · 快讯。当前笔记本开发仓库：`D:\github_lianxh\brief`（直接为仓库根目录，不嵌套 brief）。旧台式机路径仅为历史 provenance，见 D-20261025-01。公开仓库：[lianxhcn/brief](https://github.com/lianxhcn/brief)。生产站点：[连享会 · 快讯](https://lianxhcn.github.io/brief/)。
 
 [HARD] 每次开始 Task 前必须完整执行：
 

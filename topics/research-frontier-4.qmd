@@ -8,9 +8,49 @@ title: "新论文 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 41 页 · 共 406 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-41.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 42 页 · 共 411 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>无需带宽选择的处理效应异质性检验</h3>
+<p class="catalog-citation">Lu, Haokun; Song, Xiaojun (2026). Tuning-Free Tests for Treatment Effect Heterogeneity via Expectile Processes. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者利用 expectile 处理效应曲线刻画同质性原假设，构造过程函数型检验及乘数 bootstrap，避免密度估计、带宽选择和反复拟合。文中包含协变量调整与节水实验应用。无需调参并不等于无需研究设计和识别条件，工作论文结论仍待进一步检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：处理效应">处理效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：异质性检验">异质性检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#arxiv-2610-25986">查看本期</a><a href="https://arxiv.org/abs/2610.25986" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>报名越方便，后续参与就越多吗？</h3>
+<p class="catalog-citation">Dykstra, H.; O’ Flaherty, S.; Whillans, A. (2026). The Buy-in Effect: When Increasing Initial Effort Encourages Follow-Through. Management Science.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文以拼车平台和线上任务实验研究报名摩擦。增加适度初始投入虽然降低报名人数，却提高后续参与，提醒研究者区分首次采用与持续使用。作者同时分析筛选与意向处理效应，不能仅比较最终报名者来判断政策效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：行为干预">行为干预</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2023-03600">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.03600" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>企业愿景怎样逐步变成虚假陈述？</h3>
+<p class="catalog-citation">Zuzul, T.; Mohliver, A. C. (2026). Dominant Deceptions: How Future-Oriented Narratives Transform into Deception. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者跟踪新兴行业企业，解释面向未来的愿景如何被转译为具体指标，在进展压力下由“将会实现”变成“已经实现”，最终固化为组织反复传播的错误陈述。研究关注分散、渐进的过程及其支持条件，适合思考组织叙事与治理风险。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%8F%99%E4%BA%8B&amp;show-results=1" title="全站搜索：组织叙事">组织叙事</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：企业治理">企业治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-orsc-2023-18038">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.18038" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>从机器翻译到 ChatGPT：哪些任务更容易被替代？</h3>
+<p class="catalog-citation">Yilmaz, E. D.; Naumovska, I.; Aggarwal, V. A. (2026). AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT. Management Science.</p><p class="catalog-meta">发表日期：2026-10-14 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者利用在线翻译市场中两次技术变化，比较常规翻译与需要文化和创意适配的任务。DID 结果显示，Google 神经机器翻译主要影响常规任务，而 ChatGPT 的替代范围更广。结论来自特定平台和时期，不能直接推广为所有知识工作岗位的消失。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2024-06740">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06740" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>银行财务内控与按揭收入虚报</h3>
+<p class="catalog-citation">Dou, Y.; Wang, D.; Wu, X. (2026). Internal Control over Financial Reporting and Mortgage Fraud. TAR.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>作者将按揭申请收入增长与税务收入增长的差距作为地方层面的虚报指标，研究其与银行财务报告内控缺陷及整改的关系，并利用内控规定调整补充分析。研究连接会计内控与贷款业务风险；复用该指标时，应核对地区收入口径和指标测量误差。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%86%85%E9%83%A8%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：内部控制">内部控制</a> · <a class="tag-link" href="?q=%E6%8C%89%E6%8F%AD%E8%B4%B7%E6%AC%BE&amp;show-results=1" title="全站搜索：按揭贷款">按揭贷款</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2024-0214">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0214" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>重抽样检验如何用鞍点近似减少计算？</h3>
 <p class="catalog-citation">Niu, Z. et al. (2026). Saddlepoint approximations for plug-in resampling. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
@@ -51,48 +91,8 @@ title: "新论文 · 第 4 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%89%BF%E8%AF%BA&amp;show-results=1" title="全站搜索：环境承诺">环境承诺</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8E%92%E6%94%BE&amp;show-results=1" title="全站搜索：企业排放">企业排放</a></p>
 <p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0361">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0361" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>强调节约投入，会改变员工的预算目标吗？</h3>
-<p class="catalog-citation">Andrassy, J. et al. (2026). Productivity versus Efficiency: The Effect of Incentive Focus on Target Setting in Participative Budgets. TAR.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>研究比较以扩大产出和节约投入为重点的激励设置，关注参与式预算中的风险感知与目标选择。作者报告效率导向激励下目标较低、实现目标更困难的现象，并检验结果不确定性的作用。其结论依赖研究情境，不能直接推出所有效率考核均有害。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a> · <a class="tag-link" href="?q=%E9%A2%84%E7%AE%97%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：预算管理">预算管理</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0493">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0493" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>在线更新相关结构，预测多地区电力需求</h3>
-<p class="catalog-citation">Schulz, C. J. et al. (2026). Online Conditional Vine Copulas: Forecasting Electricity Demand. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-16 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>论文用协变量刻画 vine copula 的参数，并以最近观测逐步更新多变量分布预测，减少每次重新拟合全部历史数据的需求。应用关注英国多个地区的电力净需求及随时间变化的依赖关系。它提供分布预测思路，预测表现不等于因果识别，实际使用需核对更新规则和模型适配性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分布预测">分布预测</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：在线估计">在线估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#arxiv-2610-23119">查看本期</a><a href="https://arxiv.org/abs/2610.23119" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>预测辅助推断中的协方差权重如何校准？</h3>
-<p class="catalog-citation">Chen, Siyuan; Bai, Yang; Zhu, Huichen (2026). Covariance-Calibrated Prediction-Powered Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>这篇工作论文使用未标记样本的预测分数校准 GMM 的协方差权重，并通过谱保护保证目标矩阵正定。作者讨论原协方差与保护后目标的混合权重及有限样本风险。其价值在于将预测信息用于提高参数估计精度，而不是直接把预测值当作真实观测；实际改善依赖设计与预测误差条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-21837">查看本期</a><a href="https://arxiv.org/abs/2610.21837" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>面板数据的中介效应如何结合双重机器学习？</h3>
-<p class="catalog-citation">Wu, Peikai; Xiao, Zhiguo (2026). Causal Mediation Analysis for Panel Data with Double/Debiased Machine Learning. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>作者在双向固定效应框架中构造历史相关的直接、间接与总效应，结合一阶差分、交叉拟合和正交矩进行估计。识别依赖给定个体效应的序贯条件独立假设，允许时间不变混杂并不意味着消除了全部时变混杂。应用提示，总效应稳定也可能掩盖直接效应和间接效应分解的敏感性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：中介分析">中介分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-21339">查看本期</a><a href="https://arxiv.org/abs/2610.21339" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>组织网络如何承受冲击并恢复？</h3>
-<p class="catalog-citation">Sytch, M.; Roy, S.; Zhelyazkov, P.I. (2026). Reconceptualizing Network Change: Robustness and Resilience of Interorganizational Networks. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>这篇理论文章区分网络的稳健性与韧性：前者关注冲击刚发生时能否维持集体成果，后者关注较长时期内能否恢复甚至改善。作者建议将分析单位从单个组织的局部关系变化扩展到整体网络，讨论疫情、灾害或伙伴失效怎样重塑合作结构。它提供概念框架，不是已验证的网络风险预测工具。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：组织网络">组织网络</a> · <a class="tag-link" href="?q=%E9%9F%A7%E6%80%A7&amp;show-results=1" title="全站搜索：韧性">韧性</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2024-19624">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19624" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 41 页 · 共 406 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-41.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 42 页 · 共 411 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

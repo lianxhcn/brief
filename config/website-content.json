@@ -3528,5 +3528,57 @@
     "source_sha256": "7844d7a70b90ca0c58df4e3dc8a392d29fffaafa820b4368d7edeb8669dfdd18",
     "source": "content/issues/2026-10-24.json",
     "reviewed_date": "2026-10-24"
+  },
+  "paper-10-1093-rfs-hhag092": {
+    "source_sha256": "c85098304330be90214a108417baa622bb16e52b47068d2975f6e81a6ab04c16",
+    "summary": "论文研究私募股权发起人的监督如何替代银行监督。与其他贷款相比，PE 支持的贷款中牵头银行保留份额较低、非银行持有份额较高；这种替代在发起人参与激励较强时更明显。作者同时考察贷款表现与借款人困境，帮助理解非银行信贷扩张中的信息生产机制；这些证据不意味着所有 PE 参与都能降低信贷风险。"
+  },
+  "paper-10-1111-1911-3846-70096": {
+    "source_sha256": "a167e8ba39e3bf8ea85f73fbe1a88d34d4bd0d67b53b4092f85f17bd761631e9",
+    "summary": "当员工可以操纵短期绩效指标时，提高测量精度既有助于识别能力，也可能加强低能力员工的操纵激励。论文构造留任与解雇决策模型，说明指标价值可能随精度非单调变化。适合把绩效管理、测量误差与激励设计联系起来阅读；这是模型中的机制结论，不能直接当作所有组织都应降低考核精度的建议。"
+  },
+  "paper-10-1002-smj-70133": {
+    "source_sha256": "9a3abfa2f96ed2a8dde32fe1785628b4cf404192bf1ee8b03351882f0873634e",
+    "summary": "论文将按内部网络重要性提供奖励的制度称为 pay-for-prominence，并用一家跨国公司的现场准实验考察员工连接和离职。货币激励能够推动员工成为更突出的知识连接者，但网络地位上升也伴随更高离职风险。研究提示，短期知识流动与长期网络稳定性需要共同评估；单一企业场景的结果仍有外推边界。"
+  },
+  "paper-arxiv-2610-26576": {
+    "source_sha256": "e54f07fd24d581a31245e2f29b68b2494bf45c9b0c00d5c6b400cbffaeea4d85",
+    "summary": "合成控制常通过非凸双层优化选择预测变量权重矩阵。论文把给定权重矩阵下的估计理解为向捐赠者凸包的投影，并刻画改变权重矩阵时可达到的合成控制集合。在其设定下，可用枚举方法替代原来的双层优化，分别处理凸包内外及对角权重矩阵情形。它讨论的是估计与求解结构，不能替代研究设计中的可比性判断；当前为工作论文，方法说明依据作者摘要。"
+  },
+  "paper-arxiv-2610-28979": {
+    "source_sha256": "b4e891d818c4d44a8a2a504ec8edaa25431d916b24507a57d71ead5b6d5574ca",
+    "summary": "联合实验常同时关注多个效应，固定样本量未必适合持续到达的数据。论文为可表示成总体 OLS 系数线性对比的目标量构造渐近 e-process、置信序列及 anytime-valid p 值，使监测和依数据停止能够纳入推断框架。它说明普通置信区间反复查看的问题，也为在线调查的样本规划提供思路；渐近保证和适用目标量条件不能省略。当前为工作论文，不把摘要中的模拟节省比例当作普遍效果。"
+  },
+  "tool-whichdidshouldiuse-ssc-2026-10-24": {
+    "source_sha256": "d9abdabf084b62372822c76b5ce5bac1cc2f4486f4a3b7badc380d35465543c5",
+    "summary": "新 SSC 命令读取面板数据，将设计分为 CLA、SAD、HAD、SFSD 或 OTHER，并提示相应估计方法及教材章节。它只做设计分类，不执行估计，也不提供固定效应、权重或标准误选项。可在选择 DID 估计器前作设计梳理；研究者仍需核对政策赋值、处理路径和识别假设。安装入口为 `ssc install whichdidshouldiuse`。"
+  },
+  "tool-distlaghet-0-1-0": {
+    "source_sha256": "8d7dae13c443065312131edb4e32ed9aadb9cf5b47b1e7204dca01daf19c34fb",
+    "summary": "CRAN 新包 DistLagHet 提供平行趋势假设下复杂处理设计的效应估计，包含有限滞后、完整动态和滞后交互三类设定，并提供 bootstrap 实现和模拟数据示例。方法依据为 de Chaisemartin 与 D’Haultfoeuille 的研究；不能因为能运行估计就认定平行趋势成立，实际使用前应检查对应模型与处理路径。可通过 `install.packages(\"DistLagHet\")` 获取；发布时部分平台二进制尚未同步，可能需要编译环境。"
+  },
+  "tool-ragr-0-1-1": {
+    "source_sha256": "3da0fa160e3a2e8da50807210afd0deb96e5293a64e9eeb4ea34103205dede1b",
+    "summary": "ragR 将文档导入、文本分块、嵌入存储、检索问答和评估组织成 R 流程，包含 R 原生向量存储及问答日志。0.1.1 修复 RAGAS 风格评估 JSON 输出截断的问题。可用于给研究资料建立可检查的问答流程；模型评估分数不能代替人工核对引文与答案，外部 API 调用还需自行配置。安装入口为 `install.packages(\"ragR\")`。"
+  },
+  "tool-stratifyr-2-0-4": {
+    "source_sha256": "6532f1080099deea5ea560ebbcbac3285cd99650fe61a36e6ac17c18892f9189",
+    "summary": "stratifyR 为单变量总体的最优分层与 Neyman 分配提供求解器。2.0-4 为精确动态规划加入有限总体修正和顶层全查选项，面向企业或农场调查中少数大型单位的情形，并报告对应方差与分配诊断。官方 NEWS 的版本日期为 10 月 24 日，CRAN 上架为 10 月 25 日；新选项用于数据型精确求解，不能与成本约束模式组合。安装为 `install.packages(\"stratifyR\")`。"
+  },
+  "tool-arrow-26-0-0": {
+    "source_sha256": "d69e2b36eb0d93b6586503d362c7f3f80d12881742a6a1e72149f2c84ca4c06a",
+    "summary": "R 接口 arrow 26.0.0 的 NEWS 宣布 `read_feather()` 与 `write_feather()` 进入弃用提示，建议使用 IPC 文件接口，并移除早已弃用的 `map_batches()` 参数。版本还修复 Parquet float16 读取等问题，并加入 Azure Blob Storage 接口。适合处理跨语言列式数据的研究流程；升级前应检查既有脚本，CRAN 源码版本与 Windows 二进制可能暂不同步。安装入口为 `install.packages(\"arrow\")`。"
+  },
+  "tool-errortracer-1-4-0": {
+    "source_sha256": "edc3a705dec06141595b3dea56e000b2bc5d5d7205e93cecf3dcfb776a6fee49",
+    "summary": "ErrorTracer 连接回归、贝叶斯先验与预测不确定性分解。1.4.0 修正预测扰动在后验抽样之间循环复用造成的方差膨胀，并把总方差改为实测后验预测方差。维护者建议重新计算旧自相关模型的方差预算、区间、PIT、校准及预测有效期；这项提醒针对其具体实现，不表示所有时间序列模型都有同一问题。安装为 `install.packages(\"ErrorTracer\")`，具体影响见官方 NEWS。"
+  },
+  "tool-adaptiveglasso-1-0-0": {
+    "source_sha256": "2f367f1110bdc90504498efaf5d6be8068fead66777be25a5089b47606a78f87",
+    "summary": "CRAN 首发 AdaptiveGlasso 将 ridge 稳定化、交叉验证、初始 graphical lasso 和边特异性惩罚结合，用于稀疏精度矩阵及条件依赖网络估计。输出包括精度、协方差、邻接和自适应权重矩阵，提供模拟示例。它适合探索高维变量关系，网络边不自动具有因果含义；初发版本仍应结合样本特征和稳定性分析使用。安装为 `install.packages(\"AdaptiveGlasso\")`。"
+  },
+  "tool-whichdidshouldiuse-1-0-0": {
+    "source_sha256": "57cf4754533b8056cc71644f75403718deed1a99898c9ae7a731f1fa2bc35a26",
+    "summary": "新 SSC 命令读取面板数据，将设计分为 CLA、SAD、HAD、SFSD 或 OTHER，并提示相应估计方法及教材章节。它只做设计分类，不执行估计，也不提供固定效应、权重或标准误选项。可在选择 DID 估计器前作设计梳理；研究者仍需核对政策赋值、处理路径和识别假设。安装入口为 `ssc install whichdidshouldiuse`。"
   }
 }

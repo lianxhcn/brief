@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.25
+
+📰 01｜论文 · Review of Financial Studies：私募股权如何促进非银行贷款？
+研究发现，私募股权发起人的监督和困境支持可替代部分银行监督，帮助解释银行保留贷款份额下降、非银行持有份额上升的机制。
+引文：Haque, Mayer & Wang (2026). How private equity fuels nonbank lending. Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag092 
+
+📦 02｜命令 · Stata：whichdidshouldiuse：先判断面板属于哪类 DID 设计
+新命令先把面板数据归入相应 DID 设计类型，并提示估计方法和教材章节。它负责分类，不执行回归，适合在选估计器前梳理研究设计。
+版本：Stata / whichdidshouldiuse 1.0.0；发布：2026-10-24
+主页： https://ideas.repec.org/c/boc/bocode/s459944.html 
+
+📦 03｜软件 · R：DistLagHet：复杂处理路径下的效应估计
+R 新包提供平行趋势假设下复杂处理设计的效应估计，支持有限滞后、完整动态和滞后交互设定。先核对处理路径与模型条件，再选择估计形式。
+版本：R / DistLagHet 0.1.0；发布：2026-10-24
+CRAN： https://cran.r-project.org/package=DistLagHet 
+
+📦 04｜软件 · R：ragR：在 R 中连接文档检索、问答与评估
+该 R 包连接文档导入、向量检索、问答日志和 RAG 评估。0.1.1 修复评估 JSON 截断问题，适合搭建可检查的研究资料问答流程。
+版本：R / ragR 0.1.1；发布：2026-10-25
+CRAN： https://cran.r-project.org/package=ragR 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261025/ 
