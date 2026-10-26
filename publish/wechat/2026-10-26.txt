@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.26
+
+📰 01｜论文 · Management Science：商品价格为何能预测部分货币汇率？
+商品价格对汇率的预测力集中于短期和少数交易稀疏的货币。论文将其与信息消化迟缓、流动性和建仓约束联系起来。
+引文：Jeanneret & Sokolovski (2026). Looking under the hood of commodity currency predictability. Management Science.
+主页： https://doi.org/10.1287/mnsc.2024.07249 
+
+📰 02｜论文 · Management Science：分散的土地管制权，如何加剧住房约束？
+论文结合模型与工具变量分析，说明地方管制权分散可能使各辖区忽略区域住房可负担性，导致更严格的土地使用限制。
+引文：Favilukis & Song (2026). Why zoning is too restrictive. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.02844 
+
+📦 03｜软件 · R：DeclareDesign 2.0：研究设计诊断与迁移提示
+2.0.0 重写研究设计模拟与诊断流程，并调整若干接口及错误检查。升级已有脚本前应核对官方迁移说明。
+版本：R / DeclareDesign 2.0.0；发布：2026-10-25
+CRAN： https://cran.r-project.org/package=DeclareDesign 
+
+📦 04｜软件 · R：tightenBlock：在平衡约束下收紧观察研究分块
+该包在协变量平衡约束下收紧观察研究分块，可用于改进比较设计；匹配并不自动解决未测量混杂。
+版本：R / tightenBlock 0.1.8；发布：2026-10-24
+CRAN： https://cran.r-project.org/package=tightenBlock 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261026/ 

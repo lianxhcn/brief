@@ -8,9 +8,41 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 10 页 · 共 99 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-10.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 11 页 · 共 103 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>tightenBlock：在平衡约束下收紧观察研究分块</h3>
+
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>tightenBlock 在控制协变量与细致平衡的条件下，将观察研究的原始分块收紧为更小或更少的块，结合最优子集匹配和双准则匹配。官方示例使用酒精消费与 HDL 数据，主函数为 <code>tighten()</code>。它适合在分析前整理比较设计，但不能消除未测量混杂；可选求解器 rrelaxiv 不在 CRAN，也不是使用该包的必需条件。当前 CRAN 版本为 0.1.8，安装为 <code>install.packages(&quot;tightenBlock&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%A7%82%E5%AF%9F%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：观察研究">观察研究</a> · <a class="tag-link" href="?q=%E5%AD%90%E9%9B%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：子集匹配">子集匹配</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#tool-tightenblock-0-1-8">查看本期</a><a href="https://cran.r-project.org/package=tightenBlock" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>samplingVarEst：不等概率抽样的方差估计</h3>
+
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>samplingVarEst 面向不放回、不等概率抽样，提供单阶段与两阶段设计的点估计、联合包含概率近似及多种 Jackknife 方差估计。手册包含 Oaxaca 市镇数据示例，可帮助区分总体量估计和抽样设计带来的不确定性。使用时要确认包含概率及设计假设，不可直接套用独立同分布样本的解释。当前版本 1.6，安装为 <code>install.packages(&quot;samplingVarEst&quot;)</code>；源码安装需要编译环境。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：调查抽样">调查抽样</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：方差估计">方差估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#tool-samplingvarest-1-6">查看本期</a><a href="https://cran.r-project.org/package=samplingVarEst" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>DeclareDesign 2.0：研究设计诊断与迁移提示</h3>
+
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>DeclareDesign 将研究设计组织为模型、目标量、数据策略和回答策略，通过模拟诊断设计表现。2.0.0 以 tidyverse 重写，保留声明语法，但调整 redesign、估计器目标量关联等边界接口；某些旧版静默失效情形现在会报错。升级已有功效与设计模拟脚本时，应按迁移指南逐项检查，不能把成功运行等同于设计有效。安装为 <code>install.packages(&quot;DeclareDesign&quot;)</code>；当前部分 Windows 二进制仍为旧版。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a> · <a class="tag-link" href="?q=%E6%A8%A1%E6%8B%9F%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：模拟诊断">模拟诊断</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#tool-declaredesign-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=DeclareDesign" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>CompositionalZADR：处理包含零值的构成数据</h3>
+
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>构成数据的各部分共享总量约束，零值又使常规对数比处理更困难。CompositionalZADR 提供零调整 Dirichlet 分布的估计、回归、模拟和等高线工具，手册给出含零比例数据的示例。当前版本 1.1；模型并非一般计数模型，使用前仍要核对零值含义与分布假设。安装为 <code>install.packages(&quot;CompositionalZADR&quot;)</code>，源码需要编译环境，部分二进制尚为旧版。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9E%84%E6%88%90%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：构成数据">构成数据</a> · <a class="tag-link" href="?q=Dirichlet%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：Dirichlet回归">Dirichlet回归</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#tool-compositionalzadr-1-1">查看本期</a><a href="https://cran.r-project.org/package=CompositionalZADR" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>whichdidshouldiuse：先判断面板属于哪类 DID 设计</h3>
 
@@ -59,40 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态处理效应">动态处理效应</a></p>
 <p class="catalog-actions"><a href="../issues/20261025/#tool-distlaghet-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=DistLagHet" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>AdaptiveGlasso：自适应稀疏条件依赖网络估计</h3>
-
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>CRAN 首发 AdaptiveGlasso 将 ridge 稳定化、交叉验证、初始 graphical lasso 和边特异性惩罚结合，用于稀疏精度矩阵及条件依赖网络估计。输出包括精度、协方差、邻接和自适应权重矩阵，提供模拟示例。它适合探索高维变量关系，网络边不自动具有因果含义；初发版本仍应结合样本特征和稳定性分析使用。安装为 <code>install.packages(&quot;AdaptiveGlasso&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BE%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：图模型">图模型</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96&amp;show-results=1" title="全站搜索：正则化">正则化</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#tool-adaptiveglasso-1-0-0">查看本期</a><a href="https://cran.r-project.org/package=AdaptiveGlasso" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>tvGarchKF：用状态空间方法估计时变波动</h3>
-
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>该包允许 GARCH(1,1) 参数随时间逐步变化，通过状态空间表示与 Kalman 滤波开展估计和预测。手册给出模拟及自动平滑选择示例。读者应先判断时变参数设定是否符合数据特征，避免仅凭灵活性选择模型。 安装命令为 <code>install.packages(&quot;tvGarchKF&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B3%A2%E5%8A%A8%E7%8E%87&amp;show-results=1" title="全站搜索：波动率">波动率</a> · <a class="tag-link" href="?q=%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4&amp;show-results=1" title="全站搜索：状态空间">状态空间</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#tool-tvgarchkf-1-0-1">查看本期</a><a href="https://cran.r-project.org/package=tvGarchKF" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>oolong：给自动文本分析加入人工验证</h3>
-
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>该 R 包提供词侵入、主题侵入及人工金标准等验证流程，帮助检查主题模型或词典分析结果是否具有可解释性。新版已登上 CRAN。人工验证可以揭示自动测量的问题，但不能代替变量构造与后续回归识别判断。 安装命令为 <code>install.packages(&quot;oolong&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：人工验证">人工验证</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#tool-oolong-0-7-1">查看本期</a><a href="https://cran.r-project.org/package=oolong" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>lme4 更新：线性与广义线性混合模型</h3>
-
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>lme4 用于拟合线性及广义线性混合效应模型，CRAN 当前版本为 2.1-0。官方资料包含拟合、协方差结构和性能提示。它适合层级数据及随机效应建模，但随机效应假设并不自动解决解释变量与个体异质性相关的问题。 安装命令为 <code>install.packages(&quot;lme4&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B7%B7%E5%90%88%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：混合模型">混合模型</a> · <a class="tag-link" href="?q=%E5%B1%82%E7%BA%A7%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：层级数据">层级数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#tool-lme4-2-1-0">查看本期</a><a href="https://cran.r-project.org/package=lme4" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 10 页 · 共 99 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-10.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 11 页 · 共 103 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

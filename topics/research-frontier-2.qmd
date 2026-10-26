@@ -8,9 +8,57 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 42 页 · 共 411 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 42 页 · 共 417 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>合成控制：用几何刻画替代双层优化</h3>
+<p class="catalog-citation">Abadie, A.; Shang, Y. (2026). Synthetic control: An exact geometric formulation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>合成控制常通过非凸双层优化选择预测变量权重矩阵。论文把给定权重矩阵下的估计理解为向捐赠者凸包的投影，并刻画改变权重矩阵时可达到的合成控制集合。在其设定下，可用枚举方法替代原来的双层优化，分别处理凸包内外及对角权重矩阵情形。它讨论的是估计与求解结构，不能替代研究设计中的可比性判断；当前为工作论文，方法说明依据作者摘要。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：优化方法">优化方法</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-arxiv-2610-26576">查看本期</a><a href="https://arxiv.org/abs/2610.26576" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>线性 IV 何时不能解释为 LATE？</h3>
+<p class="catalog-citation">Słoczyńki, T. (2026). When Should We (Not) Interpret Linear IV Estimands as LATE? REStud.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>当工具变量的作用随协变量变化，常见线性设定隐含的同质性限制可能带来负权重。论文说明，在较弱单调性条件下，IV 系数未必仍有平均因果效应解释，并讨论交互工具变量设定如何避免这类错设。应用使用审前羁押案例；采用方法前仍需检查识别假设与工具强度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质性效应">异质性效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-restud-rdag116">查看本期</a><a href="https://doi.org/10.1093/restud/rdag116" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>矩阵因子模型的双向结构可以检验吗？</h3>
+<p class="catalog-citation">Kong, X.; Zhang, L.; Zhang, T. (2026). Testing matrix factor structure via generalized likelihood ratio. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>论文检验高维因子载荷是否具有 Kronecker 结构，从而检查双向矩阵因子模型的结构限制。针对旋转不识别造成的似然展开困难，作者加入识别惩罚并建立检验统计量的渐近结果。读者可以据此区分采用矩阵结构的便利与验证结构的必要性；实际应用仍受高维渐近条件约束。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A9%E9%98%B5%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：矩阵因子模型">矩阵因子模型</a> · <a class="tag-link" href="?q=%E4%BC%BC%E7%84%B6%E6%AF%94%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：似然比检验">似然比检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-biomet-asag066">查看本期</a><a href="https://doi.org/10.1093/biomet/asag066" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>流式数据分布变化时，怎样动态选择带宽？</h3>
+<p class="catalog-citation">Lemyre, F.C.; Delaigle, A.; Mao, J. (2026). Blockwise dynamic selection of smoothing parameters for kernel estimators of nonstationary densities of streaming data. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-23 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>数据持续到达且旧数据不能反复读取时，传统带宽选择难以直接使用。论文针对非平稳密度的核估计，提出按最新数据块动态选择平滑参数的方法，并用交叉验证性质确定块大小。适用于理解分布漂移下的顺序估计；模拟及天文数据应用并不等于所有经济时间序列上都有效。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%81%E5%BC%8F%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：流式数据">流式数据</a> · <a class="tag-link" href="?q=%E6%A0%B8%E5%AF%86%E5%BA%A6%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：核密度估计">核密度估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-biomet-asag065">查看本期</a><a href="https://doi.org/10.1093/biomet/asag065" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>期权隐含信念的波动是否过大？</h3>
+<p class="catalog-citation">Augenblick, N.; Lazarus, E. (2026). Excess Movement in Option‐Implied Beliefs. JF.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>风险中性概率并不等于投资者的主观概率。论文在随机贴现因子的假设下，推导期权隐含信念合理变动的界限，再用指数期权检查是否越界。该思路允许较灵活的贴现率变化，但结论仍取决于所用界限的条件，不能把价格波动直接当作非理性证据。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%9F%E6%9D%83%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：期权定价">期权定价</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：投资者信念">投资者信念</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1111-jofi-70086">查看本期</a><a href="https://doi.org/10.1111/jofi.70086" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>分期实施政策：对照组取决于你要回答的干预问题</h3>
+<p class="catalog-citation">Lundberg, I.; Xu, Y. (2026). Causal inference in staggered adoption panels: The correct comparison set depends on your intervention. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-22 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>暂时阻止某一期的政策采用，与持续禁止采用直到观察结局，是两个不同的因果问题。论文在条件可忽略性或平行趋势下讨论相应比较策略，指出持续禁止的目标需要随时间变化的对照集合和权重。它提醒使用分期 DID、匹配或合成控制的研究者，先明确干预定义，再选择估计方法。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E6%9C%9F%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：分期处理">分期处理</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-arxiv-2610-31537">查看本期</a><a href="https://arxiv.org/abs/2610.31537" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>公共养老金为什么转向另类资产？</h3>
 <p class="catalog-citation">Begenau, J.; Liang, P.; Siriwardane, E. (2026). The Rise of Alternatives. RFS.</p><p class="catalog-meta">发表日期：2026-10-23 · 收录日期：2026-10-24</p>
@@ -43,56 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%87%E7%AD%BE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：标签漂移">标签漂移</a> · <a class="tag-link" href="?q=%E5%8D%8A%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：半参数估计">半参数估计</a></p>
 <p class="catalog-actions"><a href="../issues/20261023/#paper-10-1093-jrsssb-qkag134">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag134" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>不知道网络结构，也能检验短面板中的同伴效应吗？</h3>
-<p class="catalog-citation">Boot, T.; Juodis, A. (2026). Testing for peer effects in short panels without identifying the network structure. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-22 · 收录日期：2026-10-23</p>
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>这篇工作论文提出短面板的工具变量型同伴效应检验，通过协变量投影结果与自身残差的成对比较，避免先估计完整网络。方法允许个体固定效应、异质斜率及个体内序列相关，并针对投影信号较弱时的非标准分布构造条件模拟临界值。检验存在同伴效应，不等于识别具体网络或每条关系的效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=%E7%9F%AD%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：短面板">短面板</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#paper-arxiv-2610-31106">查看本期</a><a href="https://arxiv.org/abs/2610.31106" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>QJE：洪水保险补贴为何要同时考虑灾后救助？</h3>
-<p class="catalog-citation">Gruber, J.; Solomon, A. (2026). Optimal Flood Insurance in a Second-Best World: Fiscal Spillovers, Reclassification Risk, and Moral Hazard. QJE.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-23</p>
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>论文将洪水保险保费补贴、灾后财政救助与气候风险重新定价放入同一框架，结合多类数据估计模型所需参数。补贴减少可能降低高风险地区投保率，并把成本转移到灾后救助；家庭也面临未来风险评估变化。政策权衡不能只看补贴诱发的道德风险，还需考虑财政外溢和风险保障。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%81%BE%E5%AE%B3%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：灾害保险">灾害保险</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E8%B4%A2%E6%94%BF&amp;show-results=1" title="全站搜索：公共财政">公共财政</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#paper-10-1093-qje-qjag051">查看本期</a><a href="https://doi.org/10.1093/qje/qjag051" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>QJE：新商品如何沿社交网络进入本地商店？</h3>
-<p class="catalog-citation">Argente, D.; Méndez, E.; Van Patten, D. (2026). How New Products Enter Markets: Social Networks, Consumer Imports, and Retailer Learning. QJE.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-23</p>
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>论文结合消费者海关购买记录、人口社交网络与零售商覆盖区域，研究新商品的两步扩散：消费者先通过现实社会关系了解并购买新品，零售商再从这些早期购买中学习本地需求。作者利用海外支出变化经移民网络传递所形成的需求变动进行识别，并辅以零售商调查。外生性与网络传导假设仍是解释结果的关键。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社交网络">社交网络</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E5%A4%96%E6%BA%A2&amp;show-results=1" title="全站搜索：需求外溢">需求外溢</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#paper-10-1093-qje-qjag052">查看本期</a><a href="https://doi.org/10.1093/qje/qjag052" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>移动零售车怎样兼顾路线与顾客等待？</h3>
-<p class="catalog-citation">Dong, Z.; Cao, J.; Qi, W. (2026). Retail on Wheels: A Time-Sensitive Traveling Salesman Problem. Management Science.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-22</p>
-<p class="catalog-meta">期次日期：2026-10-22</p>
-<p>论文研究移动零售车辆的停留与行驶安排，把顾客到达、商品新鲜度和等待时间纳入路径决策。作者用连续近似与渐近界分析收益和服务负荷的权衡，为流动零售运营提供建模思路。模型计算结果不等同于已经验证的现实经营增益。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%90%E8%90%A5%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：运营管理">运营管理</a> · <a class="tag-link" href="?q=%E8%B7%AF%E5%BE%84%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：路径优化">路径优化</a></p>
-<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1287-mnsc-2023-04259">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.04259" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>盈利公告后的价格漂移，债券与股票有何不同？</h3>
-<p class="catalog-citation">Nozawa, Y.; Qiu, Y.; Xiong, Y. (2026). Disagreement and Bond PEAD. Management Science.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-22</p>
-<p class="catalog-meta">期次日期：2026-10-22</p>
-<p>论文结合公司债交易数据和债权股权模型，研究盈利公告后的价格漂移。债券样本中，交易较活跃的债券漂移更明显，作者也比较信用违约互换与股票表现，并用投资者分歧和证券收益结构解释差异。跨资产比较不能概括为所有股票都不存在公告后漂移。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E7%9B%88%E5%88%A9%E5%85%AC%E5%91%8A&amp;show-results=1" title="全站搜索：盈利公告">盈利公告</a></p>
-<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1287-mnsc-2024-07966">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07966" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>政策会改变关系网络时，怎样学习最优分配？</h3>
-<p class="catalog-citation">Chen, Z.; You, Z. (2026). Policy Learning with Network-Shaping Assignments. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-21 · 收录日期：2026-10-22</p>
-<p class="catalog-meta">期次日期：2026-10-22</p>
-<p>政策分配可能先改变人与人的网络，再影响结果。论文将政策价值写为对分配后网络分布的整合，建立识别条件、插件估计量与遗憾界，并以座位安排和商业群组说明应用。福利改善属于模型预测，依赖网络形成与结果模型，不能视作随机实验已经实现的收益。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：网络干预">网络干预</a></p>
-<p class="catalog-actions"><a href="../issues/20261022/#paper-arxiv-2610-29221">查看本期</a><a href="https://arxiv.org/abs/2610.29221" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 42 页 · 共 411 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 42 页 · 共 417 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -1,0 +1,171 @@
+---
+title: "连享会 · 快讯 | 2026.10.26"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 商品价格为何能预测部分货币汇率？ {#paper-10-1287-mnsc-2024-07249}
+
+<p class="myapa">Jeanneret, A. &amp; Sokolovski, V. (2026). Looking under the hood of commodity currency predictability. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07249" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Looking%20under%20the%20hood%20of%20commodity%20currency%20predictability" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文从市场效率角度重审商品货币的可预测性，发现预测关系主要集中于短期和少数交易较稀疏的货币，并观察投机交易者对商品价格冲击的缓慢调整。作者据此讨论流动性与建仓约束造成的信息消化迟缓。它帮助区分风险补偿和价格调整机制，但不意味着可直接获得扣除成本后的交易收益。
+
+标签：<a class="tag-link" href="?q=%E6%B1%87%E7%8E%87%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：汇率预测">汇率预测</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E6%95%88%E7%8E%87&amp;show-results=1" title="全站搜索：市场效率">市场效率</a>
+
+<small>来源日期：2026-10-23；补录：2026-10-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 分散的土地管制权，如何加剧住房约束？ {#paper-10-1287-mnsc-2025-02844}
+
+<p class="myapa">Favilukis, J. &amp; Song, J. (2026). Why zoning is too restrictive. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.02844" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Why%20zoning%20is%20too%20restrictive" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文建立地方土地使用管制模型：业主关注本地拥堵，却可能忽略管制对都市圈住房可负担性的影响。实证部分以历史市镇分散格局作为工具变量，考察辖区碎片化、管制强度和住房成本的关系。适合把地方激励与区域外溢联系起来理解；工具变量的有效性及模型设定仍是解读结论的前提。
+
+标签：<a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：住房政策">住房政策</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：地方治理">地方治理</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-26</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### DeclareDesign 2.0：研究设计诊断与迁移提示 {#tool-declaredesign-2-0-0}
+
+DeclareDesign 将研究设计组织为模型、目标量、数据策略和回答策略，通过模拟诊断设计表现。2.0.0 以 tidyverse 重写，保留声明语法，但调整 redesign、估计器目标量关联等边界接口；某些旧版静默失效情形现在会报错。升级已有功效与设计模拟脚本时，应按迁移指南逐项检查，不能把成功运行等同于设计有效。安装为 <code>install.packages(&quot;DeclareDesign&quot;)</code>；当前部分 Windows 二进制仍为旧版。
+
+标签：<a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a> · <a class="tag-link" href="?q=%E6%A8%A1%E6%8B%9F%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：模拟诊断">模拟诊断</a>
+
+<small>来源日期：2026-10-25；补录：2026-10-26</small>
+
+<a href="https://cran.r-project.org/package=DeclareDesign" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### tightenBlock：在平衡约束下收紧观察研究分块 {#tool-tightenblock-0-1-8}
+
+tightenBlock 在控制协变量与细致平衡的条件下，将观察研究的原始分块收紧为更小或更少的块，结合最优子集匹配和双准则匹配。官方示例使用酒精消费与 HDL 数据，主函数为 <code>tighten()</code>。它适合在分析前整理比较设计，但不能消除未测量混杂；可选求解器 rrelaxiv 不在 CRAN，也不是使用该包的必需条件。当前 CRAN 版本为 0.1.8，安装为 <code>install.packages(&quot;tightenBlock&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E8%A7%82%E5%AF%9F%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：观察研究">观察研究</a> · <a class="tag-link" href="?q=%E5%AD%90%E9%9B%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：子集匹配">子集匹配</a>
+
+<small>来源日期：2026-10-24；补录：2026-10-26</small>
+
+<a href="https://cran.r-project.org/package=tightenBlock" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 外卖订阅会把消费留在线上，还是带向线下？ {#paper-10-1287-mnsc-2025-00954}
+
+<p class="myapa">Myeong, J., Park, Y., Costello, F.J., Kim, K., &amp; Ahn, J. (2026). From bytes to bites: Examining the online and offline spillover impacts of online food delivery platform subscriptions. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.00954" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=From%20bytes%20to%20bites%3A%20Examining%20the%20online%20and%20offline%20spillover%20impacts%20of%20online%20food%20delivery%20platform%20subscriptions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文利用个人交易数据和双重差分，考察外卖平台订阅对平台之间、线上与线下消费的影响。作者报告订阅后消费向目标平台转移，同时观察到本地线下餐饮及相邻行业活动增加，并讨论品类探索和交通成本机制。该研究提示评估平台订阅时要同时查看跨渠道结果；不能省略平行趋势和样本场景的限制。
+
+标签：<a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：平台经济">平台经济</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E5%A4%96%E6%BA%A2&amp;show-results=1" title="全站搜索：消费外溢">消费外溢</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 竞赛金牌会减少参赛，却增加社区贡献吗？ {#paper-10-1287-mnsc-2024-07419}
+
+<p class="myapa">Liu, S., Zhang, F., Wang, J., &amp; Gao, B. (2026). From winning to giving: The effect of gold medals in crowdsourcing contests. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07419" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=From%20winning%20to%20giving%3A%20The%20effect%20of%20gold%20medals%20in%20crowdsourcing%20contests" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+在机器学习竞赛平台上，作者使用回归不连续设计，发现获得金牌后的用户减少后续参赛，却增加帖子与代码等社区贡献，并讨论需求满足后的目标转移。不同奖牌和参赛经历对应的反应并不相同。适合研究平台激励如何改变参与方式；这里的局部设计不能直接解释所有用户或其他奖励制度。
+
+标签：<a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E4%B8%8D%E8%BF%9E%E7%BB%AD&amp;show-results=1" title="全站搜索：回归不连续">回归不连续</a> · <a class="tag-link" href="?q=%E7%A4%BE%E5%8C%BA%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：社区激励">社区激励</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 信息透明为何可能提高客户留存？ {#paper-10-1287-mnsc-2020-02865}
+
+<p class="myapa">Cheng, Z.(., Li, T., &amp; Pavlou, P.A. (2026). Information transparency, choice confidence, and customer retention: Field and laboratory evidence from markets for credence goods. Management Science. <a href="https://doi.org/10.1287/mnsc.2020.02865" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Information%20transparency%2C%20choice%20confidence%2C%20and%20customer%20retention%3A%20Field%20and%20laboratory%20evidence%20from%20markets%20for%20credence%20goods" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文在质量难以即时验证的信任品市场中，结合汽车保险合同与随机实验，研究获客阶段的信息透明如何影响后续留存。作者强调选择信心这一机制，并区分属性、比较和评价信息。它为理解透明度与客户关系提供了证据；结果依赖信息一致性等场景条件，不能概括为透明披露总会降低流失。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%80%8F%E6%98%8E&amp;show-results=1" title="全站搜索：信息透明">信息透明</a> · <a class="tag-link" href="?q=%E5%AE%A2%E6%88%B7%E7%95%99%E5%AD%98&amp;show-results=1" title="全站搜索：客户留存">客户留存</a>
+
+<small>来源日期：2026-10-22；补录：2026-10-26</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 宏观政策路径：如何把参数不确定性纳入决策？ {#paper-arxiv-2610-27405}
+
+<p class="myapa">Kitagawa, T. &amp; Martinalli, S. (2026). Evidence-based policy choice in macroeconomics. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.27405" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.27405.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Evidence-based%20policy%20choice%20in%20macroeconomics" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+论文把结构 VAR 下的宏观政策路径选择写成统计决策问题，区分逐期意外政策冲击与提前宣布路径的前瞻指引制度，并构造 Bayes 与稳健 Bayes 决策规则。作者讨论参数不确定性下直接代入估计值进行优化的局限，以及一次性路径选择与序贯决策的差异。适合宏观实证与政策分析读者；当前为工作论文，摘要中的风险比较不等于现实政策的一般效果保证。
+
+标签：<a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：宏观政策">宏观政策</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：统计决策">统计决策</a>
+
+<small>来源日期：2026-10-20；补录：2026-10-26</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### samplingVarEst：不等概率抽样的方差估计 {#tool-samplingvarest-1-6}
+
+samplingVarEst 面向不放回、不等概率抽样，提供单阶段与两阶段设计的点估计、联合包含概率近似及多种 Jackknife 方差估计。手册包含 Oaxaca 市镇数据示例，可帮助区分总体量估计和抽样设计带来的不确定性。使用时要确认包含概率及设计假设，不可直接套用独立同分布样本的解释。当前版本 1.6，安装为 <code>install.packages(&quot;samplingVarEst&quot;)</code>；源码安装需要编译环境。
+
+标签：<a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：调查抽样">调查抽样</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：方差估计">方差估计</a>
+
+<small>来源日期：2026-10-25；补录：2026-10-26</small>
+
+<a href="https://cran.r-project.org/package=samplingVarEst" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### CompositionalZADR：处理包含零值的构成数据 {#tool-compositionalzadr-1-1}
+
+构成数据的各部分共享总量约束，零值又使常规对数比处理更困难。CompositionalZADR 提供零调整 Dirichlet 分布的估计、回归、模拟和等高线工具，手册给出含零比例数据的示例。当前版本 1.1；模型并非一般计数模型，使用前仍要核对零值含义与分布假设。安装为 <code>install.packages(&quot;CompositionalZADR&quot;)</code>，源码需要编译环境，部分二进制尚为旧版。
+
+标签：<a class="tag-link" href="?q=%E6%9E%84%E6%88%90%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：构成数据">构成数据</a> · <a class="tag-link" href="?q=Dirichlet%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：Dirichlet回归">Dirichlet回归</a>
+
+<small>来源日期：2026-10-25；补录：2026-10-26</small>
+
+<a href="https://cran.r-project.org/package=CompositionalZADR" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
