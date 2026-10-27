@@ -6,7 +6,11 @@
 
 本机 Quarto 为 1.7.33。Python 使用 Codex bundled runtime 的 3.12.14；PATH 中 WindowsApps/python.exe 是应用别名，不能直接作为已验证的解释器。通过 `load_workspace_dependencies` 解析当前 Python 路径；本次私有配置在 `ops-local/environment.ps1`，每次 PowerShell 会话点入后使用 `$env:PYTHON_EXE`。配置同时设置 QUARTO_PYTHON、UTF-8 和工作区中的外部测试临时目录，不提交个人环境配置。隔离测试禁止输出到生产仓库内部，因此 TEMP/TMP 与 TASK11_TEST_ROOT 必须位于仓库之外。
 
+新电脑接续时须重新检查 Git、Quarto、Python 路径、Pillow、微软雅黑字体、浏览器检查环境、GitHub 写入权限及共享目录；私有运行资料单独迁移，不随公开仓库提交。迁移完成前原机定时任务保持启用，接管验收后协调停用原机，确保每日只有一台机器生产。
+
 ## 每日接续
+
+每日必须同时执行 A-23 至 A-25 三平台交付；具体清单见 [每日工作日志](daily-work-log.md)。即使当天网站已经发布，也须核对当天微博、知乎、小红书三组文件及交付证据，缺失则接续制作。
 
 1. 按 AGENTS 阅读当前规则，明确北京时间目标日期，检查 Git 状态和远程最新期次，先识别已发布、活动运行及中断阶段。
 2. 读取 `ops-local/editorial/state.json`，执行 `scripts/editorial_desk.py plan --date YYYY-MM-DD`。其 build 仍为 shadow，不能跳过既有来源审核或直接切换为生产闸门。
