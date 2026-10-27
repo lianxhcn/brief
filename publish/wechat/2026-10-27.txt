@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.27
+
+📰 01｜论文 · Journal of the Royal Statistical Society Series B: Statistical Methodology：稀疏表示可解释之后，怎样做有效推断？
+论文研究传统旋转后的表示推断问题，提出无偏旋转方法及相应渐近保证。可解释的稀疏表示，仍需单独检查统计推断条件。
+引文：Cui et al. (2026). Beyond vintage rotation: bias-free sparse representation learning with oracle inference. Journal of the Royal Statistical Society Series B: Statistical Methodology.
+主页： https://doi.org/10.1093/jrsssb/qkag133 
+
+📰 02｜论文 · Management Science：进场费为何出现，线性合同为何仍然存在？
+供应商与零售商的多边谈判模型解释进场费及线性合同并存。不同合同各有扭曲，优劣取决于谈判和支付方向。
+引文：Foros, Kind & Shaffer (2026). Bargaining and contract forms in distribution channels: why do slotting fees arise and linear contracts persist?. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.03426 
+
+📦 03｜软件 · R：statcheck 1.6.1：核对论文统计量与 p 值
+1.6.1 改善 PDF 解析与交互报告，可核对统计量和 p 值是否一致。它是报告检查工具，不能替代数据和研究设计审核。
+版本：R / statcheck 1.6.1；发布：2026-10-26
+CRAN： https://cran.r-project.org/package=statcheck 
+
+📦 04｜软件 · R：powerjoin 0.2.0：合并数据时显式检查键与冲突
+该包把连接键、未匹配记录和字段冲突检查纳入数据合并。0.2.0 修复若干模糊连接边界，实体匹配规则仍需自行审核。
+版本：R / powerjoin 0.2.0；发布：2026-10-26
+CRAN： https://cran.r-project.org/package=powerjoin 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261027/ 

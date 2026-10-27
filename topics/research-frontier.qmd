@@ -8,9 +8,57 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 42 页 · 共 417 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>问卷里的“大多数人”，究竟让受访者想到谁？</h3>
+<p class="catalog-citation">Quadlin, N. et al. (2026). What do “most people” believe? Race, gender, and the generalized other. American Sociological Review.</p><p class="catalog-meta">发表日期：2026-10-24 · 收录日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-10-27</p>
+<p>论文通过美国成年人调查实验，比较受访者对“大多数人”及特定种族与性别群体观点的想象。作者发现，许多社会议题上“大多数人”的想象与对白人女性观点的想象更接近，并讨论被感知的温和程度及受访者自身群体的作用。这提示研究者审视规范认知问项的参照对象；结果描述的是对群体观点的感知，不是这些群体实际持有什么观点，也不宜直接推广到其他社会。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%AE%A4%E7%9F%A5&amp;show-results=1" title="全站搜索：社会认知">社会认知</a></p>
+<p class="catalog-actions"><a href="../issues/20261027/#paper-10-1177-00031224261495117">查看本期</a><a href="https://doi.org/10.1177/00031224261495117" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>进场费为何出现，线性合同为何仍然存在？</h3>
+<p class="catalog-citation">Foros, Ø.; Kind, H.J.; Shaffer, G. (2026). Bargaining and contract forms in distribution channels: why do slotting fees arise and linear contracts persist? Management Science.</p><p class="catalog-meta">发表日期：2026-10-23 · 收录日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-10-27</p>
+<p>论文建立供应商分别与竞争零售商谈判的模型，比较线性合同和两部收费合同。两者各有扭曲：线性批发价受谈判力量影响，两部收费下的双边剩余最大化又可能因关系间租金转移偏离整个渠道的最优价格。因此，没有一种合同形式在所有条件下占优；固定支付方向和谈判机制会改变比较结果。适合渠道治理与产业组织研究，这是一项理论解释，不能当作进场费普遍提高福利的实证结论。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B8%A0%E9%81%93%E5%90%88%E5%90%8C&amp;show-results=1" title="全站搜索：渠道合同">渠道合同</a> · <a class="tag-link" href="?q=%E5%A4%9A%E8%BE%B9%E8%B0%88%E5%88%A4&amp;show-results=1" title="全站搜索：多边谈判">多边谈判</a></p>
+<p class="catalog-actions"><a href="../issues/20261027/#paper-10-1287-mnsc-2025-03426">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.03426" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>稀疏表示可解释之后，怎样做有效推断？</h3>
+<p class="catalog-citation">Cui, C. et al. (2026). Beyond vintage rotation: bias-free sparse representation learning with oracle inference. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-10-27</p>
+<p>论文指出，一类传统旋转方法得到的稀疏潜在表示可能带有不可估计的偏差，使置信区间和假设检验面临困难。作者在潜变量表示学习框架内提出无偏旋转方法，并建立与理想可观测潜变量情形相同渐近方差的 oracle 推断性质，同时给出计算框架。适合因子分析和可解释表示研究；这些保证依赖论文的模型与渐近条件，不能直接外推到任意神经网络嵌入。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：表示学习">表示学习</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261027/#paper-10-1093-jrsssb-qkag133">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag133" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>平行趋势可以只约束你关心的分布特征吗？</h3>
+<p class="catalog-citation">Schindl, K. et al. (2026). Parallel trends as a spectrum. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-23 · 收录日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-10-27</p>
+<p>论文在均值 DID 与完整分布 DID 之间构造基于 L 矩的识别限制，分别面向位置、离散程度及更高阶分布特征。研究者可选择目标特征，而不对所有未关注分量施加平行趋势；作者还讨论估计与同时推断，并以 Medicare Part D 后医疗支出分布变化作应用。当前为工作论文，选择分量不等于识别假设自动成立，适用限制仍须与研究问题对应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：分布效应">分布效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261027/#paper-arxiv-2610-31978">查看本期</a><a href="https://arxiv.org/abs/2610.31978" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>存在网络溢出时，如何联合分配有限处理名额？</h3>
+<p class="catalog-citation">Ananth, A. (2026). Optimal treatment assignment rules on networked populations. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-23 · 收录日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-10-27</p>
+<p>论文研究如何利用试点实验，在目标网络中联合分配有限处理名额。全局规则同时考虑个体协变量、网络结构和可行分配，在局部响应、稳定性、支持与重叠等条件下，作者构造运输加权的福利准则及经验福利最大化规则，并分析有限样本遗憾界。当前为工作论文；理论保证与理想规则比较不等于任何现实网络都能达到最优，也不能省略跨人群可迁移性判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：网络溢出">网络溢出</a></p>
+<p class="catalog-actions"><a href="../issues/20261027/#paper-arxiv-2610-32735">查看本期</a><a href="https://arxiv.org/abs/2610.32735" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>合规指标达标，为何不等于组织目标实现？</h3>
+<p class="catalog-citation">Dahiya, S.; Busse, C. (2026). “The minimum wage is the maximum wage”: How goal replacement perpetuates means–ends decoupling. Journal of Management.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-10-27</p>
+<p>论文以全球时尚供应链中的访谈材料研究手段与目标脱节：组织公开以合规证明承诺，内部却可能把目标收缩为可审计的门槛，从而让未达成的社会目标持续存在。作者将这种替代与组织沉默、短缺的工具化联系起来。它有助于反思把可度量合规当作实际成效的研究设计；访谈机制解释不能直接当作所有行业的因果效应估计。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：组织治理">组织治理</a> · <a class="tag-link" href="?q=%E6%8C%87%E6%A0%87%E6%9B%BF%E4%BB%A3&amp;show-results=1" title="全站搜索：指标替代">指标替代</a></p>
+<p class="catalog-actions"><a href="../issues/20261027/#paper-10-1177-01492063261487366">查看本期</a><a href="https://doi.org/10.1177/01492063261487366" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>竞赛金牌会减少参赛，却增加社区贡献吗？</h3>
 <p class="catalog-citation">Liu, S. et al. (2026). From winning to giving: The effect of gold medals in crowdsourcing contests. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
@@ -43,56 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B1%87%E7%8E%87%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：汇率预测">汇率预测</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E6%95%88%E7%8E%87&amp;show-results=1" title="全站搜索：市场效率">市场效率</a></p>
 <p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2024-07249">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07249" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>分散的土地管制权，如何加剧住房约束？</h3>
-<p class="catalog-citation">Favilukis, J.; Song, J. (2026). Why zoning is too restrictive. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>论文建立地方土地使用管制模型：业主关注本地拥堵，却可能忽略管制对都市圈住房可负担性的影响。实证部分以历史市镇分散格局作为工具变量，考察辖区碎片化、管制强度和住房成本的关系。适合把地方激励与区域外溢联系起来理解；工具变量的有效性及模型设定仍是解读结论的前提。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：住房政策">住房政策</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：地方治理">地方治理</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2025-02844">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02844" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>信息透明为何可能提高客户留存？</h3>
-<p class="catalog-citation">Cheng, Z.(.; Li, T.; Pavlou, P.A. (2026). Information transparency, choice confidence, and customer retention: Field and laboratory evidence from markets for credence goods. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>论文在质量难以即时验证的信任品市场中，结合汽车保险合同与随机实验，研究获客阶段的信息透明如何影响后续留存。作者强调选择信心这一机制，并区分属性、比较和评价信息。它为理解透明度与客户关系提供了证据；结果依赖信息一致性等场景条件，不能概括为透明披露总会降低流失。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%80%8F%E6%98%8E&amp;show-results=1" title="全站搜索：信息透明">信息透明</a> · <a class="tag-link" href="?q=%E5%AE%A2%E6%88%B7%E7%95%99%E5%AD%98&amp;show-results=1" title="全站搜索：客户留存">客户留存</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2020-02865">查看本期</a><a href="https://doi.org/10.1287/mnsc.2020.02865" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>联合实验：边收集数据边判断何时停止</h3>
-<p class="catalog-citation">Molitor, D.; Gosciak, J.; Lindon, M. (2026). Anytime-valid inference in conjoint experiments. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-21 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>联合实验常同时关注多个效应，固定样本量未必适合持续到达的数据。论文为可表示成总体 OLS 系数线性对比的目标量构造渐近 e-process、置信序列及 anytime-valid p 值，使监测和依数据停止能够纳入推断框架。它说明普通置信区间反复查看的问题，也为在线调查的样本规划提供思路；渐近保证和适用目标量条件不能省略。当前为工作论文，不把摘要中的模拟节省比例当作普遍效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%94%E5%90%88%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：联合实验">联合实验</a> · <a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：序贯推断">序贯推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-arxiv-2610-28979">查看本期</a><a href="https://arxiv.org/abs/2610.28979" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>绩效指标越准确，留任决策就一定越好吗？</h3>
-<p class="catalog-citation">Rothenberg, N. (2026). Measurement error, manipulation, and the value of short‐term performance in job retention. CAR.</p><p class="catalog-meta">发表日期：2026-10-24 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>当员工可以操纵短期绩效指标时，提高测量精度既有助于识别能力，也可能加强低能力员工的操纵激励。论文构造留任与解雇决策模型，说明指标价值可能随精度非单调变化。适合把绩效管理、测量误差与激励设计联系起来阅读；这是模型中的机制结论，不能直接当作所有组织都应降低考核精度的建议。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8&amp;show-results=1" title="全站搜索：绩效考核">绩效考核</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%93%8D%E7%BA%B5&amp;show-results=1" title="全站搜索：信息操纵">信息操纵</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1111-1911-3846-70096">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>私募股权如何促进非银行贷款？</h3>
-<p class="catalog-citation">Haque, S.; Mayer, S.; Wang, T. (2026). How private equity fuels nonbank lending. RFS.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>论文研究私募股权发起人的监督如何替代银行监督。与其他贷款相比，PE 支持的贷款中牵头银行保留份额较低、非银行持有份额较高；这种替代在发起人参与激励较强时更明显。作者同时考察贷款表现与借款人困境，帮助理解非银行信贷扩张中的信息生产机制；这些证据不意味着所有 PE 参与都能降低信贷风险。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：非银行信贷">非银行信贷</a> · <a class="tag-link" href="?q=%E7%A7%81%E5%8B%9F%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：私募股权">私募股权</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1093-rfs-hhag092">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>奖励“知识枢纽”，为何也可能增加离职？</h3>
-<p class="catalog-citation">Iorio, A.; Soda, G.; Aven, B. (2026). Pay‐for‐prominence: the (un)intended consequences of monetary incentives on employees&#x27; networks and attrition. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>论文将按内部网络重要性提供奖励的制度称为 pay-for-prominence，并用一家跨国公司的现场准实验考察员工连接和离职。货币激励能够推动员工成为更突出的知识连接者，但网络地位上升也伴随更高离职风险。研究提示，短期知识流动与长期网络稳定性需要共同评估；单一企业场景的结果仍有外推边界。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：组织网络">组织网络</a> · <a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1002-smj-70133">查看本期</a><a href="https://doi.org/10.1002/smj.70133" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 42 页 · 共 417 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

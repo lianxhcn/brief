@@ -8,9 +8,41 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 11 页 · 共 103 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 11 页 · 共 107 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>ragR：在 R 中连接文档检索、问答与评估</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>ragR 将文档导入、文本分块、嵌入存储、检索问答和评估组织成 R 流程，包含 R 原生向量存储及问答日志。0.1.1 修复 RAGAS 风格评估 JSON 输出截断的问题。可用于给研究资料建立可检查的问答流程；模型评估分数不能代替人工核对引文与答案，外部 API 调用还需自行配置。安装入口为 <code>install.packages(&quot;ragR&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=RAG&amp;show-results=1" title="全站搜索：RAG">RAG</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-ragr-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=ragR" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>arrow 26：文件接口弃用与分析修复需留意</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>R 接口 arrow 26.0.0 的 NEWS 宣布 <code>read_feather()</code> 与 <code>write_feather()</code> 进入弃用提示，建议使用 IPC 文件接口，并移除早已弃用的 <code>map_batches()</code> 参数。版本还修复 Parquet float16 读取等问题，并加入 Azure Blob Storage 接口。适合处理跨语言列式数据的研究流程；升级前应检查既有脚本，CRAN 源码版本与 Windows 二进制可能暂不同步。安装入口为 <code>install.packages(&quot;arrow&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%97%E5%BC%8F%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：列式数据">列式数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B&amp;show-results=1" title="全站搜索：数据工程">数据工程</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-arrow-26-0-0">查看本期</a><a href="https://cran.r-project.org/package=arrow" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ErrorTracer：自相关预测不确定性的重要修正</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>ErrorTracer 连接回归、贝叶斯先验与预测不确定性分解。1.4.0 修正预测扰动在后验抽样之间循环复用造成的方差膨胀，并把总方差改为实测后验预测方差。维护者建议重新计算旧自相关模型的方差预算、区间、PIT、校准及预测有效期；这项提醒针对其具体实现，不表示所有时间序列模型都有同一问题。安装为 <code>install.packages(&quot;ErrorTracer&quot;)</code>，具体影响见官方 NEWS。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E6%A0%A1%E5%87%86&amp;show-results=1" title="全站搜索：预测校准">预测校准</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：不确定性分解">不确定性分解</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-errortracer-1-4-0">查看本期</a><a href="https://cran.r-project.org/package=ErrorTracer" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>DistLagHet：复杂处理路径下的效应估计</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>CRAN 新包 DistLagHet 提供平行趋势假设下复杂处理设计的效应估计，包含有限滞后、完整动态和滞后交互三类设定，并提供 bootstrap 实现和模拟数据示例。方法依据为 de Chaisemartin 与 D’Haultfoeuille 的研究；不能因为能运行估计就认定平行趋势成立，实际使用前应检查对应模型与处理路径。可通过 <code>install.packages(&quot;DistLagHet&quot;)</code> 获取；发布时部分平台二进制尚未同步，可能需要编译环境。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态处理效应">动态处理效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-distlaghet-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=DistLagHet" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>AdaptiveGlasso：自适应稀疏条件依赖网络估计</h3>
 
@@ -59,40 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%BA%93&amp;show-results=1" title="全站搜索：数据库">数据库</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a></p>
 <p class="catalog-actions"><a href="../issues/20261024/#tool-duckdb-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=duckdb" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>qdfauction：从出价分布走向拍卖结构分析</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>该包提供多类非参数分位数密度估计，并用于第一价格密封拍卖中的私人估值恢复、密度与置信带分析。官方示例使用木材拍卖数据。独立或相关估值、风险中性或厌恶对应不同设定，不能仅凭函数输出忽略结构假设。 安装命令为 <code>install.packages(&quot;qdfauction&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-qdfauction-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=qdfauction" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>fereg：使用 fixest 风格语法估计高维固定效应</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>R 包采用 fixest 风格接口，提供 OLS、IV、Poisson 等估计及多种稳健标准误，底层使用 Rust。当前 CRAN 页面尚无 Windows 二进制包，从源码安装需要 Cargo 与 rustc；速度与结果一致性需用自己的数据另行核对。 安装命令为 <code>install.packages(&quot;fereg&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-fereg-0-4-0">查看本期</a><a href="https://cran.r-project.org/package=fereg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>farr：事件收益计算中的边界值检查</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>会计实证工具包提供事件收益、面板模拟与 DuckDB 数据流程。1.1.1 明确拒绝小于 -1 的收益率，近期更新也处理完全亏损和非交易日公告。复现事件研究时，应同时记录交易日映射、累计窗口和缺失值规则。 安装命令为 <code>install.packages(&quot;farr&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AE%9E%E8%AF%81&amp;show-results=1" title="全站搜索：会计实证">会计实证</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-farr-1-1-1">查看本期</a><a href="https://cran.r-project.org/package=farr" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>eFRED：在 R 中整理宏观经济序列</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>该包封装 FRED API，支持查询序列、来源与标签，并把相关指标整理成面板数据。适合宏观数据收集与更新；下载后的频率、单位和修订版本仍需核对，不能把更新后的序列直接当作历史实时信息集。 安装命令为 <code>install.packages(&quot;eFRED&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96&amp;show-results=1" title="全站搜索：数据获取">数据获取</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-efred-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=eFRED" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 11 页 · 共 103 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 11 页 · 共 107 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

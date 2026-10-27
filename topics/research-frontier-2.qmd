@@ -8,9 +8,57 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 42 页 · 共 417 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>分散的土地管制权，如何加剧住房约束？</h3>
+<p class="catalog-citation">Favilukis, J.; Song, J. (2026). Why zoning is too restrictive. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>论文建立地方土地使用管制模型：业主关注本地拥堵，却可能忽略管制对都市圈住房可负担性的影响。实证部分以历史市镇分散格局作为工具变量，考察辖区碎片化、管制强度和住房成本的关系。适合把地方激励与区域外溢联系起来理解；工具变量的有效性及模型设定仍是解读结论的前提。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：住房政策">住房政策</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：地方治理">地方治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2025-02844">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02844" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>信息透明为何可能提高客户留存？</h3>
+<p class="catalog-citation">Cheng, Z.(.; Li, T.; Pavlou, P.A. (2026). Information transparency, choice confidence, and customer retention: Field and laboratory evidence from markets for credence goods. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>论文在质量难以即时验证的信任品市场中，结合汽车保险合同与随机实验，研究获客阶段的信息透明如何影响后续留存。作者强调选择信心这一机制，并区分属性、比较和评价信息。它为理解透明度与客户关系提供了证据；结果依赖信息一致性等场景条件，不能概括为透明披露总会降低流失。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%80%8F%E6%98%8E&amp;show-results=1" title="全站搜索：信息透明">信息透明</a> · <a class="tag-link" href="?q=%E5%AE%A2%E6%88%B7%E7%95%99%E5%AD%98&amp;show-results=1" title="全站搜索：客户留存">客户留存</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2020-02865">查看本期</a><a href="https://doi.org/10.1287/mnsc.2020.02865" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>联合实验：边收集数据边判断何时停止</h3>
+<p class="catalog-citation">Molitor, D.; Gosciak, J.; Lindon, M. (2026). Anytime-valid inference in conjoint experiments. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-21 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>联合实验常同时关注多个效应，固定样本量未必适合持续到达的数据。论文为可表示成总体 OLS 系数线性对比的目标量构造渐近 e-process、置信序列及 anytime-valid p 值，使监测和依数据停止能够纳入推断框架。它说明普通置信区间反复查看的问题，也为在线调查的样本规划提供思路；渐近保证和适用目标量条件不能省略。当前为工作论文，不把摘要中的模拟节省比例当作普遍效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%94%E5%90%88%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：联合实验">联合实验</a> · <a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：序贯推断">序贯推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-arxiv-2610-28979">查看本期</a><a href="https://arxiv.org/abs/2610.28979" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>绩效指标越准确，留任决策就一定越好吗？</h3>
+<p class="catalog-citation">Rothenberg, N. (2026). Measurement error, manipulation, and the value of short‐term performance in job retention. CAR.</p><p class="catalog-meta">发表日期：2026-10-24 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>当员工可以操纵短期绩效指标时，提高测量精度既有助于识别能力，也可能加强低能力员工的操纵激励。论文构造留任与解雇决策模型，说明指标价值可能随精度非单调变化。适合把绩效管理、测量误差与激励设计联系起来阅读；这是模型中的机制结论，不能直接当作所有组织都应降低考核精度的建议。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8&amp;show-results=1" title="全站搜索：绩效考核">绩效考核</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%93%8D%E7%BA%B5&amp;show-results=1" title="全站搜索：信息操纵">信息操纵</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1111-1911-3846-70096">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>私募股权如何促进非银行贷款？</h3>
+<p class="catalog-citation">Haque, S.; Mayer, S.; Wang, T. (2026). How private equity fuels nonbank lending. RFS.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>论文研究私募股权发起人的监督如何替代银行监督。与其他贷款相比，PE 支持的贷款中牵头银行保留份额较低、非银行持有份额较高；这种替代在发起人参与激励较强时更明显。作者同时考察贷款表现与借款人困境，帮助理解非银行信贷扩张中的信息生产机制；这些证据不意味着所有 PE 参与都能降低信贷风险。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：非银行信贷">非银行信贷</a> · <a class="tag-link" href="?q=%E7%A7%81%E5%8B%9F%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：私募股权">私募股权</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1093-rfs-hhag092">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>奖励“知识枢纽”，为何也可能增加离职？</h3>
+<p class="catalog-citation">Iorio, A.; Soda, G.; Aven, B. (2026). Pay‐for‐prominence: the (un)intended consequences of monetary incentives on employees&#x27; networks and attrition. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>论文将按内部网络重要性提供奖励的制度称为 pay-for-prominence，并用一家跨国公司的现场准实验考察员工连接和离职。货币激励能够推动员工成为更突出的知识连接者，但网络地位上升也伴随更高离职风险。研究提示，短期知识流动与长期网络稳定性需要共同评估；单一企业场景的结果仍有外推边界。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：组织网络">组织网络</a> · <a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1002-smj-70133">查看本期</a><a href="https://doi.org/10.1002/smj.70133" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>合成控制：用几何刻画替代双层优化</h3>
 <p class="catalog-citation">Abadie, A.; Shang, Y. (2026). Synthetic control: An exact geometric formulation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-25</p>
@@ -43,56 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%81%E5%BC%8F%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：流式数据">流式数据</a> · <a class="tag-link" href="?q=%E6%A0%B8%E5%AF%86%E5%BA%A6%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：核密度估计">核密度估计</a></p>
 <p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-biomet-asag065">查看本期</a><a href="https://doi.org/10.1093/biomet/asag065" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>期权隐含信念的波动是否过大？</h3>
-<p class="catalog-citation">Augenblick, N.; Lazarus, E. (2026). Excess Movement in Option‐Implied Beliefs. JF.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-24</p>
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>风险中性概率并不等于投资者的主观概率。论文在随机贴现因子的假设下，推导期权隐含信念合理变动的界限，再用指数期权检查是否越界。该思路允许较灵活的贴现率变化，但结论仍取决于所用界限的条件，不能把价格波动直接当作非理性证据。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%9F%E6%9D%83%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：期权定价">期权定价</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：投资者信念">投资者信念</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1111-jofi-70086">查看本期</a><a href="https://doi.org/10.1111/jofi.70086" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>分期实施政策：对照组取决于你要回答的干预问题</h3>
-<p class="catalog-citation">Lundberg, I.; Xu, Y. (2026). Causal inference in staggered adoption panels: The correct comparison set depends on your intervention. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-22 · 收录日期：2026-10-24</p>
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>暂时阻止某一期的政策采用，与持续禁止采用直到观察结局，是两个不同的因果问题。论文在条件可忽略性或平行趋势下讨论相应比较策略，指出持续禁止的目标需要随时间变化的对照集合和权重。它提醒使用分期 DID、匹配或合成控制的研究者，先明确干预定义，再选择估计方法。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E6%9C%9F%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：分期处理">分期处理</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#paper-arxiv-2610-31537">查看本期</a><a href="https://arxiv.org/abs/2610.31537" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>公共养老金为什么转向另类资产？</h3>
-<p class="catalog-citation">Begenau, J.; Liang, P.; Siriwardane, E. (2026). The Rise of Alternatives. RFS.</p><p class="catalog-meta">发表日期：2026-10-23 · 收录日期：2026-10-24</p>
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>论文研究美国公共养老金减少公开股票配置、增加私募股权和对冲基金投资的现象。作者比较投资回报信念、支出需求、风险偏好及治理等解释，强调投资顾问、同业和历史经验对信念的作用。适合关注机构投资者资产配置的读者；不能将摘要中的解释直接理解为独立识别的因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE&amp;show-results=1" title="全站搜索：资产配置">资产配置</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-rfs-hhag091">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag091" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>信息来源相关性不明时，如何稳健决策？</h3>
-<p class="catalog-citation">De Oliveira, H.; Ishii, Y.; Lin, X. (2026). Robust Aggregation of Correlated Information. REStud.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-24</p>
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>多个信息源未必提供独立证据。论文把来源间相关结构视为未知，研究使最坏情形收益尽可能好的决策规则。在两状态两行动的设定中，只使用最佳来源即可最优；更一般情形按局部决策分配不同来源。这是特定模型下的稳健性结果，不是普遍鼓励忽略其他资料。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%81%9A%E5%90%88&amp;show-results=1" title="全站搜索：信息聚合">信息聚合</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-restud-rdag117">查看本期</a><a href="https://doi.org/10.1093/restud/rdag117" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>药品有条件批准：监管如何兼顾证据与企业激励？</h3>
-<p class="catalog-citation">Xu, C. et al. (2026). Conditional and Lenient Drug Approvals. Management Science.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-23</p>
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>论文建立监管机构与药企的信息不对称模型，讨论初步疗效证据下的有条件批准与后续确认性检验。企业掌握测试成本，监管者权衡消费者福利与测试激励；最优政策可能包含部分批准和不同的最终门槛。这是模型与校准分析，不能直接推导具体药品的安全性判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：监管设计">监管设计</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#paper-10-1287-mnsc-2025-03836">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.03836" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>测试数据出现新类别时，如何估计类别比例？</h3>
-<p class="catalog-citation">Liu, S. et al. (2026). Semiparametric learning from open-set label shift data. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-23</p>
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>论文研究开放集标签漂移：测试样本出现训练数据没有的类别，且既有类别比例发生变化。作者用半参数密度比模型给出识别条件，构造经验似然估计、置信区间与拟合优度检验，并提出 EM 计算方法。新旧类别允许重叠，但仍依赖模型假设；方法不能自动消除文本标签误差。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%87%E7%AD%BE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：标签漂移">标签漂移</a> · <a class="tag-link" href="?q=%E5%8D%8A%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：半参数估计">半参数估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#paper-10-1093-jrsssb-qkag134">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag134" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 42 页 · 共 417 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-42.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
