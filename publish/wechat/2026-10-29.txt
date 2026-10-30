@@ -1,0 +1,23 @@
+📙 连享会 · 快讯 | 2026.10.29
+
+✍️ 01｜新推文：学完 csdid 后如何查找顶刊论文、代码与复现材料
+从方法论文题名出发，区分引用与实际使用，再定位代码、数据和 README。推文给出检索、筛选与复现证据卡的操作路径。
+阅读全文： https://www.lianxh.cn/details/1981.html 
+
+📰 02｜论文 · The Journal of Finance：实验资产市场的经典结果能否复现？
+预注册复现研究重新检验实验资产市场中的一组经典结果，区分获得支持与未获支持的发现，适合讨论统计显著性和证据可靠性。
+引文：HUBER et al. (2026). Do experimental asset market results replicate? high‐powered preregistered replications of 17 key results. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70100 
+
+📰 03｜论文 · Biometrika：未标注数据何时能改善统计推断？
+文章从半参数效率界分析半监督推断，既给出可利用未标注数据的估计思路，也刻画无法提高效率的目标类型。
+引文：Xu, Witten & Shojaie (2026). Semiparametrically efficient semi-supervised statistical inference. Biometrika.
+主页： https://doi.org/10.1093/biomet/asag050 
+
+📦 04｜软件 · R：LLMRpanel：问卷前测先检查模型角色与真人基准的差距
+该包可用语言模型角色做问卷与联合分析前测，并比较选项顺序和真人基准差异。模型角色的回答不能直接替代真人调查样本。
+版本：R / LLMRpanel 0.6.3；发布：2026-10-29
+CRAN： https://cran.r-project.org/package=LLMRpanel 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261029/ 

@@ -8,9 +8,17 @@ title: "新推文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 73 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 74 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>QSM-量化空间模型：4 篇综述和 39 篇论文</h3>
+
+<p class="catalog-meta">期次日期：2026-10-12</p>
+<p>推文以四篇综述为入口，梳理 QSM 从地区间贸易与迁移扩展到城市内部结构、人口异质性和动态调整的研究线索，并提供进一步阅读的论文地图。初学者可先辨认不同模型增加了哪些空间联系，再按自己的研究问题选择阅读路径。它适合搭建文献框架，具体模型和识别条件仍需回到原论文核对。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=QSM&amp;show-results=1" title="全站搜索：QSM">QSM</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB&amp;show-results=1" title="全站搜索：文献阅读">文献阅读</a></p>
+<p class="catalog-actions"><a href="../issues/20261012/#post-1966">查看本期</a><a href="https://www.lianxh.cn/details/1966.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>QSM 的建模视角与思路：六篇经典论文解读</h3>
 
@@ -83,16 +91,8 @@ title: "新推文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a></p>
 <p class="catalog-actions"><a href="../issues/20261004/#post-1955">查看本期</a><a href="https://www.lianxh.cn/details/1955.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>greCAPTCHA：测测作者是否真的懂自己的论文</h3>
-
-<p class="catalog-meta">期次日期：2026-10-03</p>
-<p>文章介绍根据论文及作者贡献声明生成问题、限时作答和形成评分报告的 greCAPTCHA 原型，将事实记忆、研究选择、方法基础和失效条件分开考查。它为课程口试与投稿前自检提供思路。31 人概念验证中的区分能力不能转换为作者身份认证准确率；自动评分仍有争议，不能凭低分认定学术不端。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E6%8C%87%E5%AF%BC&amp;show-results=1" title="全站搜索：论文指导">论文指导</a> · <a class="tag-link" href="?q=%E6%A0%B8%E9%AA%8C%E8%83%BD%E5%8A%9B&amp;show-results=1" title="全站搜索：核验能力">核验能力</a> · <a class="tag-link" href="?q=AI%E5%86%99%E4%BD%9C&amp;show-results=1" title="全站搜索：AI写作">AI写作</a></p>
-<p class="catalog-actions"><a href="../issues/20261003/#post-1951">查看本期</a><a href="https://www.lianxh.cn/details/1951.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 73 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new.html">上一页</a><span aria-current="page">第 2 / 8 页 · 共 74 条</span><a rel="next" href="lianxh-new-3.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

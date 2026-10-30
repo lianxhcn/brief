@@ -8,91 +8,91 @@ title: "新论文 · 第 9 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>匹配以后，置换检验还要考虑什么？</h3>
-<p class="catalog-citation">Pimentel, S. D.; Yu, R. (2026). Re-evaluating the Impact of Hormone Replacement Therapy on Heart Disease Using Match-Adaptive Randomization Inference. JASA.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>观察性研究中的匹配组由处理状态参与构造，置换处理标签时，原有匹配关系也可能改变。论文提出匹配自适应随机化推断，在最优倾向得分匹配之后考虑这一依赖，避免机械套用预先分组随机试验的置换分布。原文以健康研究作示例，这里关注可迁移的推断问题，不提供医疗判断；摘要依据对应作者公开版本。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#paper-10-1080-01621459-2026-2691321">查看本期</a><a href="https://arxiv.org/abs/2403.01330" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>聚类结果的序贯推断：多次查看数据仍怎样控制错误？</h3>
+<p class="catalog-citation">Lindon, Michael (2026). Anytime-Valid Inference in Linear Models with Clustered Outcomes: Exact Multivariate Tests and Cluster-Robust Confidence Sequences. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文将随时有效推断扩展到每个单位具有多个相关结果的线性模型。高斯多元模型下给出精确 e 值和置信序列；一般聚类投影下则得到渐近有效的方法。精确结果与稳健渐近结果依赖不同假设，不能把普通聚类稳健检验直接当成可随时停止的检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：序贯推断">序贯推断</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#arxiv-2610-25613">查看本期</a><a href="https://arxiv.org/abs/2610.25613" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>不同群体的尾部指数是否相同？</h3>
-<p class="catalog-citation">Yang, T. T. (2026). Testing Tail-Index Homogeneity via Exceedance-Covariate Independence. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-14 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>论文把尾部指数同质性转化为标准化对数超额量与协变量之间的渐近独立性问题，使用距离协方差构造置换检验，并讨论局部平衡版本。它避免直接指定尾部异质性的函数形式。适合风险与极端值研究的初筛阅读；阈值选择、样本尾部信息以及检验未拒绝的含义仍需谨慎判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9E%81%E7%AB%AF%E5%80%BC&amp;show-results=1" title="全站搜索：极端值">极端值</a> · <a class="tag-link" href="?q=%E7%BD%AE%E6%8D%A2%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：置换检验">置换检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#arxiv-2610-21019">查看本期</a><a href="https://arxiv.org/abs/2610.21019" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>空气污染暴露：不能只看居住地址</h3>
+<p class="catalog-citation">Shin, H. et al. (2026). A Spatial Interference Approach to Account for Mobility in Air Pollution Studies with Multivariate Continuous Treatments. JASA.</p><p class="catalog-meta">发表日期：2026-10-20 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文把人口流动带来的跨区域污染暴露作为空间干扰问题，结合手机流动信息构造暴露，并用灵活贝叶斯方法估计政策相关效应。仅按居住地赋值可能遗漏真实暴露路径。本期核对 JASA 新发表书目，内容依据作者 arXiv v4 摘要，未核对期刊全文。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：空间溢出">空间溢出</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1080-01621459-2026-2743983">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2743983" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>重复截面数据如何开展伪面板事件研究？</h3>
-<p class="catalog-citation">Kim, D. (2026). Pseudo-Panel Event Studies: Econometric Foundations for Credible Applications. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-12 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>论文讨论用匹配的未处理个体补建处理前结果时的识别条件与偏差。作者把伪面板回归表示为组均值的加权最小二乘，推导分析推断，并研究双重稳健和异质性处理效应扩展。重复截面并不会自动成为可信面板，应用仍须核对匹配及识别假设。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E9%87%8D%E5%A4%8D%E6%88%AA%E9%9D%A2&amp;show-results=1" title="全站搜索：重复截面">重复截面</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#arxiv-2610-16754">查看本期</a><a href="https://arxiv.org/abs/2610.16754" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>无需带宽选择的处理效应异质性检验</h3>
+<p class="catalog-citation">Lu, Haokun; Song, Xiaojun (2026). Tuning-Free Tests for Treatment Effect Heterogeneity via Expectile Processes. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者利用 expectile 处理效应曲线刻画同质性原假设，构造过程函数型检验及乘数 bootstrap，避免密度估计、带宽选择和反复拟合。文中包含协变量调整与节水实验应用。无需调参并不等于无需研究设计和识别条件，工作论文结论仍待进一步检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：处理效应">处理效应</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：异质性检验">异质性检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#arxiv-2610-25986">查看本期</a><a href="https://arxiv.org/abs/2610.25986" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>责任投资集中于少数企业，会产生哪些外部性？</h3>
-<p class="catalog-citation">Bisceglia, M.; Piccolo, A.; Schneemeier, J. (2026). Externalities of Responsible Investments. JF.</p><p class="catalog-meta">发表日期：2026-10-14 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>论文建立模型讨论社会责任投资如何影响企业外部性。资金集中在部分企业可以缓解绿色技术采用中的协调问题，但也可能挤出其他企业的绿色投资并提高绿色产品价格。作者讨论投资者偏好与社会效率之间的偏离；结论来自模型分析，不是对所有 ESG 基金的实证评价。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A3%E4%BB%BB%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：责任投资">责任投资</a> · <a class="tag-link" href="?q=%E7%BB%BF%E8%89%B2%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：绿色投资">绿色投资</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#paper-10-1111-jofi-70082">查看本期</a><a href="https://doi.org/10.1111/jofi.70082" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>报名越方便，后续参与就越多吗？</h3>
+<p class="catalog-citation">Dykstra, H.; O’ Flaherty, S.; Whillans, A. (2026). The Buy-in Effect: When Increasing Initial Effort Encourages Follow-Through. Management Science.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文以拼车平台和线上任务实验研究报名摩擦。增加适度初始投入虽然降低报名人数，却提高后续参与，提醒研究者区分首次采用与持续使用。作者同时分析筛选与意向处理效应，不能仅比较最终报名者来判断政策效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：行为干预">行为干预</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2023-03600">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.03600" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>网约车降价会增加出行，还是只改变交通方式？</h3>
-<p class="catalog-citation">Christensen, P.; Nino, G.; Osman, A. (2026). The Demand for Mobility: Evidence from an Experiment with Uber Riders. JPE.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>研究通过埃及 Uber 用户价格实验考察网约车需求、总出行量以及交通外部成本。作者同时关注不同人群的反应，提醒政策评估区分使用者收益和拥堵等社会成本。JPE 在线发表信息已核验；本简讯依据对应 NBER 工作论文2025年9月修订版摘要，不将该版本的具体数值当作期刊最终结果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E4%BA%A4%E9%80%9A%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：交通经济">交通经济</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#paper-10-1086-743387">查看本期</a><a href="https://doi.org/10.1086/743387" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>企业愿景怎样逐步变成虚假陈述？</h3>
+<p class="catalog-citation">Zuzul, T.; Mohliver, A. C. (2026). Dominant Deceptions: How Future-Oriented Narratives Transform into Deception. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者跟踪新兴行业企业，解释面向未来的愿景如何被转译为具体指标，在进展压力下由“将会实现”变成“已经实现”，最终固化为组织反复传播的错误陈述。研究关注分散、渐进的过程及其支持条件，适合思考组织叙事与治理风险。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%8F%99%E4%BA%8B&amp;show-results=1" title="全站搜索：组织叙事">组织叙事</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：企业治理">企业治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-orsc-2023-18038">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.18038" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>经济安全政策如何影响全球贸易与金融分割？</h3>
-<p class="catalog-citation">Clayton, C.; Maggiori, M.; Schreger, J. (2026). A Theory of Economic Coercion and Fragmentation. JPE.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>论文建立经济胁迫与全球分割的理论框架，讨论贸易和金融联系产生的融合收益为何也可能成为施压渠道。各国减少对外依赖能够提高经济安全，却可能带来协调不足与效率损失。JPE 在线发表信息已核验；本简讯依据作者2026年3月工作论文摘要，未核对期刊最终正文，不转述具体估计数值。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9C%B0%E7%BC%98%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：地缘经济">地缘经济</a> · <a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93&amp;show-results=1" title="全站搜索：国际贸易">国际贸易</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#paper-10-1086-744505">查看本期</a><a href="https://doi.org/10.1086/744505" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>从机器翻译到 ChatGPT：哪些任务更容易被替代？</h3>
+<p class="catalog-citation">Yilmaz, E. D.; Naumovska, I.; Aggarwal, V. A. (2026). AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT. Management Science.</p><p class="catalog-meta">发表日期：2026-10-14 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>作者利用在线翻译市场中两次技术变化，比较常规翻译与需要文化和创意适配的任务。DID 结果显示，Google 神经机器翻译主要影响常规任务，而 ChatGPT 的替代范围更广。结论来自特定平台和时期，不能直接推广为所有知识工作岗位的消失。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2024-06740">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06740" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>对充分统计量取条件期望，如何改进 e 变量？</h3>
-<p class="catalog-citation">De Roos, D. et al. (2026). Rao-Blackwellized e-variables. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>论文把 Rao–Blackwell 思想用于 e 变量：在凹效用下，对充分统计量取条件期望不会降低期望效用。作者由 Jensen 不等式出发讨论扩展形式，并给出线性回归方差检验的应用。该结果依赖相应统计模型与充分性条件，不代表对任意数据处理都能提高检验能力。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a> · <a class="tag-link" href="?q=e%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：e变量">e变量</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#paper-10-1093-biomet-asag061">查看本期</a><a href="https://doi.org/10.1093/biomet/asag061" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>银行财务内控与按揭收入虚报</h3>
+<p class="catalog-citation">Dou, Y.; Wang, D.; Wu, X. (2026). Internal Control over Financial Reporting and Mortgage Fraud. TAR.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>作者将按揭申请收入增长与税务收入增长的差距作为地方层面的虚报指标，研究其与银行财务报告内控缺陷及整改的关系，并利用内控规定调整补充分析。研究连接会计内控与贷款业务风险；复用该指标时，应核对地区收入口径和指标测量误差。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%86%85%E9%83%A8%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：内部控制">内部控制</a> · <a class="tag-link" href="?q=%E6%8C%89%E6%8F%AD%E8%B4%B7%E6%AC%BE&amp;show-results=1" title="全站搜索：按揭贷款">按揭贷款</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2024-0214">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0214" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>同时选择多个地区时，如何反映估计不确定性？</h3>
-<p class="catalog-citation">Petrou-Zeniou, A. (2026). Uncertainty in Compound Decisions. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-11 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>研究讨论根据带噪声的个体效应估计同时作出多项决策时的不确定性。作者把条件均值的一致覆盖与多重检验联系起来，并以识别经济流动性较高的社区为例说明推断用途。该框架帮助区分估计排名与可靠选择，仍需核对效应分布及具体决策目标。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：多重检验">多重检验</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：决策推断">决策推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#arxiv-2610-15672">查看本期</a><a href="https://arxiv.org/abs/2610.15672" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>重抽样检验如何用鞍点近似减少计算？</h3>
+<p class="catalog-citation">Niu, Z. et al. (2026). Saddlepoint approximations for plug-in resampling. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>论文针对固定已拟合干扰参数的插入式重抽样程序，用鞍点近似计算尾部概率，讨论有限样本相对误差界及第一类错误控制。方法要求重抽样统计量具有相应条件独立结构；对大规模条件独立检验有启发，但不能把特定实验中的提速推广到所有 bootstrap。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%8D%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：重抽样">重抽样</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-1093-biomet-asag063">查看本期</a><a href="https://doi.org/10.1093/biomet/asag063" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>动态多项 Logit 面板模型如何消除个体固定效应？</h3>
-<p class="catalog-citation">Dano, K.; Honoré, B. E.; Weidner, M. (2026). Dynamic Panel Multinomial Logit Models. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-12 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>作者构造不依赖个体固定效应的矩条件，为动态多项 Logit 面板模型的 GMM 估计提供基础。方法利用跨期结果置换后的模型概率比，并讨论识别条件及家庭饮料购买应用。结论适用于满足文中结构条件的模型，不能直接推广到任意动态离散选择模型。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#arxiv-2610-17104">查看本期</a><a href="https://arxiv.org/abs/2610.17104" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>证券设计为什么要与信息披露一起考虑？</h3>
+<p class="catalog-citation">Inostroza, N.; Tsoy, A. (2026). Optimal Information and Security Design. RFS.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>作者把证券支付结构与私人信号联合设计，研究流动性冲击后资产所有者向非完全竞争买方出售证券的问题。模型中，资产出售、债务及其他支付结构的相对优势取决于允许怎样设计信号及支付函数限制，不能脱离这些条件概括为某类证券总是最优。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%AF%81%E5%88%B8%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：证券设计">证券设计</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-1093-rfs-hhag093">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>企业雇用移民的差异，如何改变移民政策的福利评估？</h3>
-<p class="catalog-citation">Brinatti, A.; Morales, N. (2026). Firm Heterogeneity and the Impact of Immigration: Evidence from German Establishments. JPE.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-16</p>
-<p class="catalog-meta">期次日期：2026-10-16</p>
-<p>研究利用德国企业数据讨论雇用移民的固定成本与企业规模差异，并在异质性企业模型中分析劳动力重新配置和产品价格调整。忽略企业间移民用工差异，可能改变对本地劳动者福利的判断。JPE 在线发表信息已核验；内容依据作者2025年4月版本摘要，未核对期刊最终正文。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%BB%E6%B0%91&amp;show-results=1" title="全站搜索：移民">移民</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：企业异质性">企业异质性</a></p>
-<p class="catalog-actions"><a href="../issues/20261016/#paper-10-1086-744485">查看本期</a><a href="https://doi.org/10.1086/744485" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>言论保护法律与企业社会责任行为</h3>
+<p class="catalog-citation">Griffin, P. A. et al. (2026). Does Free Speech Law Contribute to Corporate Social Responsibility Behavior? Empirical Evidence. TAR.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
+<p class="catalog-meta">期次日期：2026-10-20</p>
+<p>论文考察美国各州反 SLAPP 法律实施前后，利益相关者批评与企业社会责任活动、披露之间的变化。作者发现更强言论保护伴随更多外部批评和 CSR 活动，提出企业回应负面舆论的解释。采用类似分期政策设计时，仍需核对识别假设和同期制度变化。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：企业社会责任">企业社会责任</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：制度环境">制度环境</a></p>
+<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2023-0659">查看本期</a><a href="https://doi.org/10.2308/tar-2023-0659" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-8.html">上一页</a><span aria-current="page">第 9 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-10.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

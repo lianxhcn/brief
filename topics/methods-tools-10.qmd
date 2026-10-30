@@ -8,91 +8,91 @@ title: "新方法 · 第 10 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-9.html">上一页</a><span aria-current="page">第 10 / 11 页 · 共 107 条</span><a rel="next" href="methods-tools-11.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-9.html">上一页</a><span aria-current="page">第 10 / 12 页 · 共 117 条</span><a rel="next" href="methods-tools-11.html">下一页</a><a href="methods-tools-12.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>minvar：纵向测量不变性检验</h3>
+<h3>interflex 1.4.1：核估计带宽与失败拟合处理修复</h3>
+
+<p class="catalog-meta">期次日期：2026-09-22</p>
+<p>interflex 用于估计和展示条件边际效应。1.4.1 修正自适应带宽的密度归一化方式，并让无法识别或无有效权重的局部拟合给出警告或明确报错，避免填零及无效带宽。安装命令为 <code>install.packages(&quot;interflex&quot;)</code>。固定带宽下结果可能改变，Windows 二进制当时仍为 1.4.0，应核对安装版本；本期依据 NEWS 与手册，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a> · <a class="tag-link" href="?q=%E6%A0%B8%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：核估计">核估计</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260922/#r-interflex-1-4-1">查看本期</a><a href="https://cran.r-project.org/web/packages/interflex/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>deriva 0.2.0：把尚不能判断与未检测到漂移分开</h3>
+
+<p class="catalog-meta">期次日期：2026-09-21</p>
+<p>deriva 用统一接口监测部署后的机器学习模型。0.2.0 将预热阶段的漂移标记统一为 NA，区别于已经开始判断但未发出警报的 FALSE，并增加随机流控制和数据列检查。安装命令为 <code>install.packages(&quot;deriva&quot;)</code>。旧版保存的检测器需重新拟合，部分二进制仍为旧版；升级后应核对版本及下游对缺失标记的处理。本期未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：模型监测">模型监测</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：数据漂移">数据漂移</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260921/#r-deriva-0-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/deriva/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>rupturesRcpp：修复 PELT 变点搜索的提前剪枝</h3>
+
+<p class="catalog-meta">期次日期：2026-09-20</p>
+<p>rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于最短分段长度时，可能过早剔除后续最优候选点的问题。安装命令为 <code>install.packages(&quot;rupturesRcpp&quot;)</code>。使用旧版分析相关数据的读者可按发布说明复查；截至核验时部分 Windows 二进制仍为 1.0.2，需检查实际版本。这里依据维护者说明，尚未独立实测；统计变点也不自动具有因果解释。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%98%E7%82%B9%E6%A3%80%E6%B5%8B&amp;show-results=1" title="全站搜索：变点检测">变点检测</a> · <a class="tag-link" href="?q=PELT&amp;show-results=1" title="全站搜索：PELT">PELT</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260920/#r-rupturesrcpp-1-0-3">查看本期</a><a href="https://cran.r-project.org/web/packages/rupturesRcpp/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>PyMC 6.3.2：修正 Wald 分布计算与采样卡顿</h3>
+
+<p class="catalog-meta">期次日期：2026-09-20</p>
+<p>PyMC 用于贝叶斯概率建模。6.3.2 修正 Wald 分布的均值及初始化参考点中对 alpha 参数的处理，并修复 DEMetropolis 采样器因进度条导致卡住的问题。可用 <code>pip install -U pymc</code> 更新，并在原分析环境核对版本和诊断结果。这里的 Wald 指概率分布，不是 Wald 检验；此条依据官方发布说明，未对修复效果独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：贝叶斯建模">贝叶斯建模</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
+<p class="catalog-actions"><a href="../issues/20260920/#python-pymc-6-3-2">查看本期</a><a href="https://github.com/pymc-devs/pymc/releases/tag/v6.3.2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>prais 1.2.0：修复非同步面板的协方差计算</h3>
+
+<p class="catalog-meta">期次日期：2026-09-19</p>
+<p>prais 用 Prais–Winsten 方法处理回归误差的 AR(1) 相关。1.2.0 修复起始时间不同的面板在协方差计算中的错配，以及重排子样本、缺失值和新数据预测的若干问题，并调整数值计算方式。安装命令为 <code>install.packages(&quot;prais&quot;)</code>。采用旧版处理相关数据的读者应复查结果；截至核验时 Windows 二进制仍为 1.1.4，不能仅凭安装成功认定已升级。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：序列相关">序列相关</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a></p>
+<p class="catalog-actions"><a href="../issues/20260919/#r-prais-1-2-0">查看本期</a><a href="https://cran.r-project.org/web/packages/prais/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>bayesinits：为多条贝叶斯链生成合规初值</h3>
+
+<p class="catalog-meta">期次日期：2026-09-19</p>
+<p>bayesinits 为 <code>bayesmh</code> 生成各链不同且可复现的随机初值，区分无约束、正值、相关系数与单纯形等参数域，并返回可传入各链初始化选项的字符串。安装命令为 <code>ssc install bayesinits</code>。适合减少手工配置多链初值的重复工作；初值满足参数域不等于链已收敛，仍需检查后验采样诊断。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：贝叶斯估计">贝叶斯估计</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%93%BE%E5%88%9D%E5%80%BC&amp;show-results=1" title="全站搜索：多链初值">多链初值</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
+<p class="catalog-actions"><a href="../issues/20260919/#stata-bayesinits-1-3-1">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459889.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>attrition：实验失访后的效应界限</h3>
+
+<p class="catalog-meta">期次日期：2026-09-19</p>
+<p>attrition 首次发布，面向随机实验中的非随机结果缺失，提供最坏情形界限、双重抽样界限、修剪界限及敏感性分析。双重抽样需要对最初未回应者随机抽取一部分进行再次追访；不同界限依赖不同假设。安装命令为 <code>install.packages(&quot;attrition&quot;)</code>。输出应区分识别区间与置信区间；截至核验时 Windows 二进制尚不可用，需确认安装方式。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E5%A4%B1%E8%AE%BF&amp;show-results=1" title="全站搜索：实验失访">实验失访</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260919/#r-attrition-1-0-0">查看本期</a><a href="https://cran.r-project.org/web/packages/attrition/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>tinytable 0.19.0：修正 Quarto 分组表格格式处理</h3>
+
+<p class="catalog-meta">期次日期：2026-09-18</p>
+<p>tinytable 0.19.0 修正 <code>format_tt(quarto = TRUE)</code> 与行分组配合时产生多余 NA 行或格式套到错误单元格的问题，并将相关格式处理扩展到列名、标题、注释和分组标签。安装命令为 <code>install.packages(&quot;tinytable&quot;)</code>。使用 Quarto 输出分组回归表或描述统计表的读者，可重点检查更新前后的表格布局与数值对应关系。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：研究报告">研究报告</a> · <a class="tag-link" href="?q=Quarto&amp;show-results=1" title="全站搜索：Quarto">Quarto</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
+<p class="catalog-actions"><a href="../issues/20260918/#r-tinytable-0-19-0">查看本期</a><a href="https://cran.r-project.org/web/packages/tinytable/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>itdidbounds：处理时间只有区间时的 DID 对比</h3>
+
+<p class="catalog-meta">期次日期：2026-09-18</p>
+<p>itdidbounds 枚举各单位可能的处理日期，计算单位和事件时点层面的变化对比最小值、最大值，再按固定正权重汇总。控制组须确定从未处理或最早可能处理时间晚于目标时点。安装命令为 <code>ssc install itdidbounds</code>。输出描述处理时间不确定性带来的对比范围，不能自动解释为因果效应界限或置信区间。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%97%B6%E9%97%B4&amp;show-results=1" title="全站搜索：处理时间">处理时间</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
+<p class="catalog-actions"><a href="../issues/20260918/#stata-itdidbounds-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459890.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>statsmodels 0.15.0：GLM 边际效应与多变量回归</h3>
 
 <p class="catalog-meta">期次日期：2026-09-17</p>
-<p>minvar 用于宽格式纵向数据的测量不变性分析，按构型、载荷、截距及可选残差约束逐步比较模型，并报告拟合指标及变化。安装命令为 <code>ssc install minvar</code>。命令采用效应编码识别因子，默认使用 mlmv 处理缺失值；在相应缺失数据设定下，SRMR 可能无法提供，阅读结果时应结合识别约束与缺失机制。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E4%B8%8D%E5%8F%98%E6%80%A7&amp;show-results=1" title="全站搜索：测量不变性">测量不变性</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：结构方程">结构方程</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20260917/#stata-minvar-20260829">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459881.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>estimatr 2.0.0：稳健估计接口与固定效应更新</h3>
-
-<p class="catalog-meta">期次日期：2026-09-17</p>
-<p>estimatr 2.0.0 重写了线性回归、工具变量及实验估计的实现，固定效应改用交替投影吸收。Horvitz–Thompson 接口改用 <code>condition_prs</code>，需要检查旧脚本兼容性。安装命令为 <code>install.packages(&quot;estimatr&quot;)</code>；截至核验时 CRAN 的 Windows 二进制仍为 1.0.6，安装后应以 <code>packageVersion(&quot;estimatr&quot;)</code> 确认版本。需要源码安装时请先核对编译环境。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：稳健标准误">稳健标准误</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260917/#r-estimatr-20260916">查看本期</a><a href="https://cran.r-project.org/web/packages/estimatr/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>mvardlurt_multivariate：多变量 ARDL 单位根检验</h3>
-
-<p class="catalog-meta">期次日期：2026-09-16</p>
-<p>该命令实现多变量 ARDL 单位根检验，将协变量的滞后水平及差分项纳入检验框架，提供不同确定性项设定、滞后阶数选择和 bootstrap 临界值。安装命令为 <code>ssc install mvardlurt_multivariate</code>。引入协变量的价值依赖模型和协整条件，不能仅凭加入更多变量就认定检验更可靠。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%95%E4%BD%8D%E6%A0%B9%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：单位根检验">单位根检验</a> · <a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
-<p class="catalog-actions"><a href="../issues/20260916/#stata-mvardlurt-multivariate-20260909">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459887.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>hdcce：高维面板中的共同相关效应估计</h3>
-
-<p class="catalog-meta">期次日期：2026-09-16</p>
-<p>hdcce 面向具有交互固定效应的高维面板，提供线性共同相关效应估计及非线性字典扩展。它将共同因子处理与高维变量选择结合，适合讨论横截面相关、潜在共同冲击和稀疏性假设。安装命令为 <code>install.packages(&quot;hdcce&quot;)</code>。这是 0.1.0 首版，应用时应对照官方说明核对模型假设和推断条件。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：高维面板">高维面板</a> · <a class="tag-link" href="?q=CCE&amp;show-results=1" title="全站搜索：CCE">CCE</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260916/#r-hdcce-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/hdcce/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>ardldml：高维控制变量下的 ARDL 边界检验</h3>
-
-<p class="catalog-meta">期次日期：2026-09-16</p>
-<p>ardldml 将双重机器学习思路用于带高维控制变量的 ARDL 边界检验，提供时间序列交叉拟合、趋势吸收诊断和受限联合 wild bootstrap。它特别关注残差化改变零假设分布的情形，提醒使用者不能直接沿用经典临界值。安装命令为 <code>install.packages(&quot;ardldml&quot;)</code>。首版工具仍应结合原方法论文和模拟结果审慎评估。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260916/#r-ardldml-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/ardldml/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>resultcheck：检查模型结果是否随代码修改而改变</h3>
-
-<p class="catalog-meta">期次日期：2026-09-15</p>
-<p>resultcheck 保存 R 对象的可读快照，比较模型、表格等输出在修改前后的差异。0.3.1 修复引号样式和 <code>max.print</code> 设置导致的假差异，并在序列化后恢复调用者选项。安装命令为 <code>install.packages(&quot;resultcheck&quot;)</code>。此前被截断的基线可能需要人工重审；快照一致只能说明输出稳定，不能证明研究设计或估计方法正确。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：结果检查">结果检查</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260915/#r-resultcheck-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/resultcheck/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>badp：动态面板模型平均更新了结果接口</h3>
-
-<p class="catalog-meta">期次日期：2026-09-15</p>
-<p>badp 用贝叶斯模型平均处理含弱外生解释变量的动态面板。0.7.0 将 <code>best_models()</code> 改为返回独立模型对象，便于提取系数、标准误和 p 值，并将单模型检验改为基于正态近似的 Wald 推断。安装命令为 <code>install.packages(&quot;badp&quot;)</code>。旧代码的参数与结果读取方式需要调整；模型平均仍依赖候选模型、先验及外生性假设。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：贝叶斯模型平均">贝叶斯模型平均</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a></p>
-<p class="catalog-actions"><a href="../issues/20260915/#r-badp-20260915">查看本期</a><a href="https://cran.r-project.org/web/packages/badp/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>calibra：用已知总体总量校准调查权重</h3>
-
-<p class="catalog-meta">期次日期：2026-09-14</p>
-<p>calibra 按 Deville–Särndal 校准思路调整抽样设计权重，使辅助变量的加权总量与已知总体总量匹配。安装命令为 <code>ssc install calibra</code>，支持线性、raking 和 logit 距离；总体总量必须与变量顺序对应。帮助说明线性方法可能产生负权重，事后截断也需重新检查校准残差。本期核验官方帮助，未实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：调查权重">调查权重</a> · <a class="tag-link" href="?q=%E6%A0%A1%E5%87%86%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：校准估计">校准估计</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：抽样调查">抽样调查</a></p>
-<p class="catalog-actions"><a href="../issues/20260914/#stata-calibra-20260911">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459886.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>texpdf：在 Stata 中直接编译 LaTeX 报告</h3>
-
-<p class="catalog-meta">期次日期：2026-09-13</p>
-<p>texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件中，把完整 LaTeX 文档编译为 PDF。安装命令为 <code>ssc install texpdf</code>，基本调用为 <code>texpdf using report.tex</code>。官方帮助说明在 Stata 18/19 下测试；编译时无需系统 TeX 或联网，但可用资源受内置包范围限制，不应假定任意中文模板都兼容。本期核验帮助文档，未做本地运行测试。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90&amp;show-results=1" title="全站搜索：报告生成">报告生成</a> · <a class="tag-link" href="?q=LaTeX&amp;show-results=1" title="全站搜索：LaTeX">LaTeX</a> · <a class="tag-link" href="?q=PDF&amp;show-results=1" title="全站搜索：PDF">PDF</a></p>
-<p class="catalog-actions"><a href="../issues/20260913/#stata-texpdf-20260829">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459880.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>emlink：没有共同 ID 时，怎样做概率数据连接？</h3>
-
-<p class="catalog-meta">期次日期：2026-09-12</p>
-<p>emlink 用 Fellegi–Sunter 模型和无监督 EM，将缺少可靠共同标识的两份数据做概率连接，并区分自动匹配、人工复核和不匹配。安装命令为 <code>ssc install emlink</code>。使用前必须对两份数据采用一致的字符串清洗规则；分块键能减少比较量，也可能漏掉真实匹配，不能直接把输出概率当作已核实身份。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：数据分析">数据分析</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%BF%9E%E6%8E%A5&amp;show-results=1" title="全站搜索：数据连接">数据连接</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：概率匹配">概率匹配</a> · <a class="tag-link" href="?q=EM%E7%AE%97%E6%B3%95&amp;show-results=1" title="全站搜索：EM算法">EM算法</a></p>
-<p class="catalog-actions"><a href="../issues/20260912/#stata-emlink-20260909">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459885.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>statsmodels 0.15.0 增加 GLM 的 <code>get_margeff</code>、多变量线性回归 <code>MultivariateLS</code> 和 Leybourne 平稳性检验，并修复若干时间序列模型问题。可用 <code>pip install statsmodels==0.15.0</code> 安装指定版本。边际效应的计算仍取决于模型形式和变量设定，不能把接口新增等同于识别问题已经解决。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%8F%98%E9%87%8F%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：多变量回归">多变量回归</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a></p>
+<p class="catalog-actions"><a href="../issues/20260917/#python-statsmodels-0150">查看本期</a><a href="https://pypi.org/project/statsmodels/0.15.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-9.html">上一页</a><span aria-current="page">第 10 / 11 页 · 共 107 条</span><a rel="next" href="methods-tools-11.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-9.html">上一页</a><span aria-current="page">第 10 / 12 页 · 共 117 条</span><a rel="next" href="methods-tools-11.html">下一页</a><a href="methods-tools-12.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

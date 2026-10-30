@@ -8,91 +8,91 @@ title: "新论文 · 第 6 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>纵向处理效应中的贝叶斯模型平均</h3>
-<p class="catalog-citation">Adenyo, D. et al. (2026). A Bayesian model averaging approach for estimating longitudinal treatment effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-16 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>作者提出面向纵向处理路径的贝叶斯模型平均方法，估计反事实均值和边际结构模型参数，并通过先验倾向于有效率的调整变量集合。研究讨论变量选择后的推断，包含模拟及药物暴露示例。方法仍依赖纵向因果识别条件，不能用模型平均代替混杂因素的实质判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：纵向因果推断">纵向因果推断</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：模型平均">模型平均</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#arxiv-2610-23578">查看本期</a><a href="https://arxiv.org/abs/2610.23578" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>分散的土地管制权，如何加剧住房约束？</h3>
+<p class="catalog-citation">Favilukis, J.; Song, J. (2026). Why zoning is too restrictive. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>论文建立地方土地使用管制模型：业主关注本地拥堵，却可能忽略管制对都市圈住房可负担性的影响。实证部分以历史市镇分散格局作为工具变量，考察辖区碎片化、管制强度和住房成本的关系。适合把地方激励与区域外溢联系起来理解；工具变量的有效性及模型设定仍是解读结论的前提。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：住房政策">住房政策</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：地方治理">地方治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2025-02844">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02844" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>环保承诺是否对应实际减排？</h3>
-<p class="catalog-citation">Chang, S.; Christensen, H. B.; McKinley, A. (2026). Beyond Greenwashing: Environmental Commitments and Gas Flaring in the African Oil Sector. TAR.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>论文研究石油企业零常规放空燃烧承诺与非洲油田排放的关系，区分运营改进与资产转手，并比较利益相关者压力。作者的证据支持部分承诺伴随实际运营调整；研究启发在于追踪设施层面排放和资产边界，避免仅凭企业声明衡量环保行动。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%89%BF%E8%AF%BA&amp;show-results=1" title="全站搜索：环境承诺">环境承诺</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8E%92%E6%94%BE&amp;show-results=1" title="全站搜索：企业排放">企业排放</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0361">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0361" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>信息透明为何可能提高客户留存？</h3>
+<p class="catalog-citation">Cheng, Z.(.; Li, T.; Pavlou, P.A. (2026). Information transparency, choice confidence, and customer retention: Field and laboratory evidence from markets for credence goods. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
+<p class="catalog-meta">期次日期：2026-10-26</p>
+<p>论文在质量难以即时验证的信任品市场中，结合汽车保险合同与随机实验，研究获客阶段的信息透明如何影响后续留存。作者强调选择信心这一机制，并区分属性、比较和评价信息。它为理解透明度与客户关系提供了证据；结果依赖信息一致性等场景条件，不能概括为透明披露总会降低流失。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%80%8F%E6%98%8E&amp;show-results=1" title="全站搜索：信息透明">信息透明</a> · <a class="tag-link" href="?q=%E5%AE%A2%E6%88%B7%E7%95%99%E5%AD%98&amp;show-results=1" title="全站搜索：客户留存">客户留存</a></p>
+<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2020-02865">查看本期</a><a href="https://doi.org/10.1287/mnsc.2020.02865" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>强调节约投入，会改变员工的预算目标吗？</h3>
-<p class="catalog-citation">Andrassy, J. et al. (2026). Productivity versus Efficiency: The Effect of Incentive Focus on Target Setting in Participative Budgets. TAR.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>研究比较以扩大产出和节约投入为重点的激励设置，关注参与式预算中的风险感知与目标选择。作者报告效率导向激励下目标较低、实现目标更困难的现象，并检验结果不确定性的作用。其结论依赖研究情境，不能直接推出所有效率考核均有害。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a> · <a class="tag-link" href="?q=%E9%A2%84%E7%AE%97%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：预算管理">预算管理</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#paper-10-2308-tar-2025-0493">查看本期</a><a href="https://doi.org/10.2308/tar-2025-0493" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>联合实验：边收集数据边判断何时停止</h3>
+<p class="catalog-citation">Molitor, D.; Gosciak, J.; Lindon, M. (2026). Anytime-valid inference in conjoint experiments. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-21 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>联合实验常同时关注多个效应，固定样本量未必适合持续到达的数据。论文为可表示成总体 OLS 系数线性对比的目标量构造渐近 e-process、置信序列及 anytime-valid p 值，使监测和依数据停止能够纳入推断框架。它说明普通置信区间反复查看的问题，也为在线调查的样本规划提供思路；渐近保证和适用目标量条件不能省略。当前为工作论文，不把摘要中的模拟节省比例当作普遍效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%94%E5%90%88%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：联合实验">联合实验</a> · <a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：序贯推断">序贯推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-arxiv-2610-28979">查看本期</a><a href="https://arxiv.org/abs/2610.28979" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>在线更新相关结构，预测多地区电力需求</h3>
-<p class="catalog-citation">Schulz, C. J. et al. (2026). Online Conditional Vine Copulas: Forecasting Electricity Demand. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-16 · 收录日期：2026-10-20</p>
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>论文用协变量刻画 vine copula 的参数，并以最近观测逐步更新多变量分布预测，减少每次重新拟合全部历史数据的需求。应用关注英国多个地区的电力净需求及随时间变化的依赖关系。它提供分布预测思路，预测表现不等于因果识别，实际使用需核对更新规则和模型适配性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分布预测">分布预测</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：在线估计">在线估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#arxiv-2610-23119">查看本期</a><a href="https://arxiv.org/abs/2610.23119" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>绩效指标越准确，留任决策就一定越好吗？</h3>
+<p class="catalog-citation">Rothenberg, N. (2026). Measurement error, manipulation, and the value of short‐term performance in job retention. CAR.</p><p class="catalog-meta">发表日期：2026-10-24 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>当员工可以操纵短期绩效指标时，提高测量精度既有助于识别能力，也可能加强低能力员工的操纵激励。论文构造留任与解雇决策模型，说明指标价值可能随精度非单调变化。适合把绩效管理、测量误差与激励设计联系起来阅读；这是模型中的机制结论，不能直接当作所有组织都应降低考核精度的建议。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8&amp;show-results=1" title="全站搜索：绩效考核">绩效考核</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%93%8D%E7%BA%B5&amp;show-results=1" title="全站搜索：信息操纵">信息操纵</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1111-1911-3846-70096">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>预测辅助推断中的协方差权重如何校准？</h3>
-<p class="catalog-citation">Chen, Siyuan; Bai, Yang; Zhu, Huichen (2026). Covariance-Calibrated Prediction-Powered Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>这篇工作论文使用未标记样本的预测分数校准 GMM 的协方差权重，并通过谱保护保证目标矩阵正定。作者讨论原协方差与保护后目标的混合权重及有限样本风险。其价值在于将预测信息用于提高参数估计精度，而不是直接把预测值当作真实观测；实际改善依赖设计与预测误差条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-21837">查看本期</a><a href="https://arxiv.org/abs/2610.21837" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>私募股权如何促进非银行贷款？</h3>
+<p class="catalog-citation">Haque, S.; Mayer, S.; Wang, T. (2026). How private equity fuels nonbank lending. RFS.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>论文研究私募股权发起人的监督如何替代银行监督。与其他贷款相比，PE 支持的贷款中牵头银行保留份额较低、非银行持有份额较高；这种替代在发起人参与激励较强时更明显。作者同时考察贷款表现与借款人困境，帮助理解非银行信贷扩张中的信息生产机制；这些证据不意味着所有 PE 参与都能降低信贷风险。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：非银行信贷">非银行信贷</a> · <a class="tag-link" href="?q=%E7%A7%81%E5%8B%9F%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：私募股权">私募股权</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1093-rfs-hhag092">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>面板数据的中介效应如何结合双重机器学习？</h3>
-<p class="catalog-citation">Wu, Peikai; Xiao, Zhiguo (2026). Causal Mediation Analysis for Panel Data with Double/Debiased Machine Learning. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>作者在双向固定效应框架中构造历史相关的直接、间接与总效应，结合一阶差分、交叉拟合和正交矩进行估计。识别依赖给定个体效应的序贯条件独立假设，允许时间不变混杂并不意味着消除了全部时变混杂。应用提示，总效应稳定也可能掩盖直接效应和间接效应分解的敏感性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：中介分析">中介分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-21339">查看本期</a><a href="https://arxiv.org/abs/2610.21339" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>奖励“知识枢纽”，为何也可能增加离职？</h3>
+<p class="catalog-citation">Iorio, A.; Soda, G.; Aven, B. (2026). Pay‐for‐prominence: the (un)intended consequences of monetary incentives on employees&#x27; networks and attrition. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>论文将按内部网络重要性提供奖励的制度称为 pay-for-prominence，并用一家跨国公司的现场准实验考察员工连接和离职。货币激励能够推动员工成为更突出的知识连接者，但网络地位上升也伴随更高离职风险。研究提示，短期知识流动与长期网络稳定性需要共同评估；单一企业场景的结果仍有外推边界。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：组织网络">组织网络</a> · <a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1002-smj-70133">查看本期</a><a href="https://doi.org/10.1002/smj.70133" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>组织网络如何承受冲击并恢复？</h3>
-<p class="catalog-citation">Sytch, M.; Roy, S.; Zhelyazkov, P.I. (2026). Reconceptualizing Network Change: Robustness and Resilience of Interorganizational Networks. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>这篇理论文章区分网络的稳健性与韧性：前者关注冲击刚发生时能否维持集体成果，后者关注较长时期内能否恢复甚至改善。作者建议将分析单位从单个组织的局部关系变化扩展到整体网络，讨论疫情、灾害或伙伴失效怎样重塑合作结构。它提供概念框架，不是已验证的网络风险预测工具。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：组织网络">组织网络</a> · <a class="tag-link" href="?q=%E9%9F%A7%E6%80%A7&amp;show-results=1" title="全站搜索：韧性">韧性</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2024-19624">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19624" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>合成控制：用几何刻画替代双层优化</h3>
+<p class="catalog-citation">Abadie, A.; Shang, Y. (2026). Synthetic control: An exact geometric formulation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-25</p>
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>合成控制常通过非凸双层优化选择预测变量权重矩阵。论文把给定权重矩阵下的估计理解为向捐赠者凸包的投影，并刻画改变权重矩阵时可达到的合成控制集合。在其设定下，可用枚举方法替代原来的双层优化，分别处理凸包内外及对角权重矩阵情形。它讨论的是估计与求解结构，不能替代研究设计中的可比性判断；当前为工作论文，方法说明依据作者摘要。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：优化方法">优化方法</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#paper-arxiv-2610-26576">查看本期</a><a href="https://arxiv.org/abs/2610.26576" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>招聘配额增加了就业，也改善了职业发展吗？</h3>
-<p class="catalog-citation">Nardi, L. et al. (2026). Diversity and/or Inclusion? Evidence from Disability Quota and Inclusion Laws in Brazil. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-12 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>作者利用巴西雇主—雇员匹配数据研究残障就业配额执法强化及后续反歧视立法。论文区分进入就业与在职者发展：新增雇用和就业稳定性改善，并不必然伴随工资差距缩小或晋升加快。这个区分有助于设计政策评价指标，避免只用雇用人数代表全面的包容性改善。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2024-18693">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18693" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>线性 IV 何时不能解释为 LATE？</h3>
+<p class="catalog-citation">Słoczyńki, T. (2026). When Should We (Not) Interpret Linear IV Estimands as LATE? REStud.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>当工具变量的作用随协变量变化，常见线性设定隐含的同质性限制可能带来负权重。论文说明，在较弱单调性条件下，IV 系数未必仍有平均因果效应解释，并讨论交互工具变量设定如何避免这类错设。应用使用审前羁押案例；采用方法前仍需检查识别假设与工具强度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质性效应">异质性效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-restud-rdag116">查看本期</a><a href="https://doi.org/10.1093/restud/rdag116" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>外国企业如何选择专利诉讼代理团队？</h3>
-<p class="catalog-citation">Kim, Y.; Uribe, J.N.; Sytch, M. (2026). Legal Chameleons: Political Ideology, Institutional Histories, and Firms’ Management of Identity Cues. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>论文研究亚洲企业在美国专利诉讼中如何选择外部律师团队，以及这种选择与法院政治倾向和既往裁决记录的关系。作者将代理团队选择视为企业应对不利评价环境的一种策略，并讨论外来者身份的显著性。相关结果属于特定法律制度与样本中的研究发现，不能据此推断个体律师的能力或提供按族裔选人的建议。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AF%89%E8%AE%BC&amp;show-results=1" title="全站搜索：专利诉讼">专利诉讼</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%AD%96%E7%95%A5&amp;show-results=1" title="全站搜索：企业策略">企业策略</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#paper-10-1287-orsc-2024-19400">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19400" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>矩阵因子模型的双向结构可以检验吗？</h3>
+<p class="catalog-citation">Kong, X.; Zhang, L.; Zhang, T. (2026). Testing matrix factor structure via generalized likelihood ratio. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>论文检验高维因子载荷是否具有 Kronecker 结构，从而检查双向矩阵因子模型的结构限制。针对旋转不识别造成的似然展开困难，作者加入识别惩罚并建立检验统计量的渐近结果。读者可以据此区分采用矩阵结构的便利与验证结构的必要性；实际应用仍受高维渐近条件约束。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A9%E9%98%B5%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：矩阵因子模型">矩阵因子模型</a> · <a class="tag-link" href="?q=%E4%BC%BC%E7%84%B6%E6%AF%94%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：似然比检验">似然比检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-biomet-asag066">查看本期</a><a href="https://doi.org/10.1093/biomet/asag066" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>处理状态反复变化时，怎样研究异质性 DID？</h3>
-<p class="catalog-citation">Dukes, Oliver et al. (2026). Difference-in-Differences for Heterogeneous Effects of General Treatment Strategies Accounting for Time-Varying Covariates. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-19</p>
-<p class="catalog-meta">期次日期：2026-10-19</p>
-<p>论文提出边际结构嵌套均值模型，在条件平行趋势假设下研究随时间变化的处理及异质性效应。它将用于调整的协变量与用于刻画效应差异的协变量区分开来，并允许处理状态反复开启与关闭。Medicaid 扩张的应用展示了研究思路；能否使用仍取决于条件平行趋势及动态处理模型设定。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E6%97%B6%E5%8F%98%E5%8D%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：时变协变量">时变协变量</a></p>
-<p class="catalog-actions"><a href="../issues/20261019/#arxiv-2610-22113">查看本期</a><a href="https://arxiv.org/abs/2610.22113" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>流式数据分布变化时，怎样动态选择带宽？</h3>
+<p class="catalog-citation">Lemyre, F.C.; Delaigle, A.; Mao, J. (2026). Blockwise dynamic selection of smoothing parameters for kernel estimators of nonstationary densities of streaming data. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-23 · 收录日期：2026-10-24</p>
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>数据持续到达且旧数据不能反复读取时，传统带宽选择难以直接使用。论文针对非平稳密度的核估计，提出按最新数据块动态选择平滑参数的方法，并用交叉验证性质确定块大小。适用于理解分布漂移下的顺序估计；模拟及天文数据应用并不等于所有经济时间序列上都有效。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%81%E5%BC%8F%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：流式数据">流式数据</a> · <a class="tag-link" href="?q=%E6%A0%B8%E5%AF%86%E5%BA%A6%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：核密度估计">核密度估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-biomet-asag065">查看本期</a><a href="https://doi.org/10.1093/biomet/asag065" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

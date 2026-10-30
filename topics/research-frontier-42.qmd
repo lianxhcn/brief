@@ -8,91 +8,91 @@ title: "新论文 · 第 42 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-41.html">上一页</a><span aria-current="page">第 42 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-43.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-41.html">上一页</a><span aria-current="page">第 42 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-43.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>时间平均与长差分为什么会改变长期关系估计？</h3>
-<p class="catalog-citation">Ng, S.; Gospodinov, N. (2026). Cross-section estimation of long-run relations using time-compressed data. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-08-26 · 收录日期：2026-09-08</p>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文研究把面板压缩为时间均值或长差分后，用横截面估计长期关系的条件。非平稳序列的横截面离散程度可能增强信号，但压缩也会改变噪声，均值回复又会削弱这种优势。可用于理解长期回归的取样与变换选择，不能把时间平均视为消除内生性的通用办法。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：长期关系">长期关系</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：长期关系">长期关系</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-25901">查看本期</a><a href="https://arxiv.org/abs/2608.25901" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>有投票成本时，亲社会动机如何解释参与行为？</h3>
+<p class="catalog-citation">Dan M. Bernhardt et al. (2026). An Empirically-Grounded Theory of Voting Based on Prosocial Motives. NBER Working Paper 35723 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-07 · 收录日期：2026-09-12</p>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文在空间投票模型中加入亲社会动机，联系预期同伴投票、胜选概率与选民对结果的重视程度，解释参与成本存在时的投票行为。作者将均衡预测与既有研究及自建数据比较。适合学习从经验规律约束理论模型，模型拟合并不等同于每个机制都获得独立因果识别。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E7%A5%A8%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：投票行为">投票行为</a> · <a class="tag-link" href="?q=%E4%BA%B2%E7%A4%BE%E4%BC%9A%E5%8A%A8%E6%9C%BA&amp;show-results=1" title="全站搜索：亲社会动机">亲社会动机</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#nber-w35723">查看本期</a><a href="https://www.nber.org/papers/w35723" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>平稳与非平稳变量混在一起，如何提取共同周期？</h3>
-<p class="catalog-citation">Hamilton, J. D.; Ma, X.; Xi, J. (2026). Principal component analysis for a mix of stationary and nonstationary variables. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-08-25 · 收录日期：2026-09-08</p>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文研究混合平稳与非平稳变量的主成分分析，目标是提取共同周期成分，而无需事先逐一判定变量的积分性质。作者用 FRED-MD 数据展示这一思路。阅读时可关注变量预处理如何影响共同因子的含义，以及该方法所需的时间序列条件；它不意味着任何趋势数据都可以直接做普通 PCA。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：主成分分析">主成分分析</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-23732">查看本期</a><a href="https://arxiv.org/abs/2608.23732" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>明知岗位存在伤害，工人为什么仍然留下？</h3>
+<p class="catalog-citation">Giuliani, E.; Spicer, A. (2026). The Double-Failure Trap: Workers’ Sensemaking as Insiders and Victims of Life-Threatening Organizational Wrongdoing. Administrative Science Quarterly.</p><p class="catalog-meta">发表日期：2026-09-03 · 收录日期：2026-09-12</p>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文以意大利 ILVA 钢铁厂为案例，研究工人同时作为组织成员与受害者时如何理解持续的污染伤害。归纳分析指出，谋生依赖和对外部保护失效的感受可能相互强化。适合学习多重身份下的质性机制建构；留在岗位不等于认可危险，也不能由单一案例推出普遍因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A8%E6%80%A7%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：质性研究">质性研究</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E4%B8%8D%E5%BD%93%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：组织不当行为">组织不当行为</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E8%80%85%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：劳动者保护">劳动者保护</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-00018392261468328">查看本期</a><a href="https://journals.sagepub.com/doi/10.1177/00018392261468328" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>动态离散选择与逆强化学习如何对话？</h3>
-<p class="catalog-citation">Rawat, P.; Rust, J. (2026). Dynamic discrete choice and inverse reinforcement learning: Inferring preferences and beliefs from human behavior. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-08-25 · 收录日期：2026-09-08</p>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>综述将经济学中的动态离散选择与机器学习中的逆强化学习放在共同的马尔可夫决策框架下，讨论偏好、信念及行为数据之间的关系。读者可比较 soft Q 与 logit 选择概率在特定条件下的对应，以及两类估计方法如何应对计算负担。拟合行为并不自动解决偏好与信念的分别识别。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：动态离散选择">动态离散选择</a> · <a class="tag-link" href="?q=%E9%80%86%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：逆强化学习">逆强化学习</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#arxiv-2608-24362">查看本期</a><a href="https://arxiv.org/abs/2608.24362" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>实验怎样设计，才能服务后续政策选择？</h3>
+<p class="catalog-citation">Higbee, S. D. (2026). Experimental Design for Policy Choice. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-10 · 收录日期：2026-09-12</p>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>论文让第二轮实验设计直接服务于有约束的福利最大化政策选择，利用第一轮数据安排后续试验。作者以极限实验近似高维动态规划，并在条件现金转移实验中展示应用。重点是根据政策决策目标设计数据收集；其渐近最优性不等于任意有限样本都能获得最优结果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：政策选择">政策选择</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#arxiv-2609-10971">查看本期</a><a href="https://arxiv.org/abs/2609.10971" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>p-hacking 与选择性发表如何共同影响估计</h3>
-<p class="catalog-citation">Cai, Y.; Pernoud, A.; Xu, B. (2026). Does p-hacking mitigate or exacerbate the effects of publication bias? arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-05 · 收录日期：2026-09-07</p>
-<p class="catalog-meta">来源日期：2026-09-05</p>
-<p>论文把研究者反复尝试规格的行为与期刊选择显著结果的机制放在同一框架中，区分快速与缓慢的 p-hacking 情形。两者的互动可能使发表偏差朝不同方向变化，因此单看已发表结果难以推断选择机制。该文研究统计偏差的形成，不能据此把选择性报告当作可取的研究实践。</p>
-<p class="catalog-tags"></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#arxiv-2609-05372">查看历史条目</a><a href="https://arxiv.org/abs/2609.05372" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>匿名招聘会怎样影响基于自报目标的选择？</h3>
+<p class="catalog-citation">Werner, K.; Grundmann, S.; Rockenbach, B. (2026). The Impact of Gender Information on Hiring Decisions Based on Self-Set Performance Targets. Management Science.</p><p class="catalog-meta">发表日期：2026-09-01 · 收录日期：2026-09-12</p>
+<p class="catalog-meta">期次日期：2026-09-12</p>
+<p>在线实验同时改变求职者性别是否可见、未完成自定绩效目标的代价，考察雇主如何解读目标。结果提示，自报目标包含行为差异时，隐藏性别可能改变雇主对目标可信度的判断。适合学习交互实验设计，不能概括为匿名招聘在所有情境下无效。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E5%8C%BF%E5%90%8D%E6%8B%9B%E8%81%98&amp;show-results=1" title="全站搜索：匿名招聘">匿名招聘</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%8A%A5%E7%9B%AE%E6%A0%87&amp;show-results=1" title="全站搜索：自报目标">自报目标</a></p>
+<p class="catalog-actions"><a href="../issues/20260912/#paper-mnsc-2024-07050">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.07050" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>QJE：从历史税册重建美国财富</h3>
-<p class="catalog-citation">Dray, S.; Landais, C.; Stantcheva, S. (2026). Wealth and property taxation in the United States. QJE.</p><p class="catalog-meta">发表日期：2026-09-04 · 收录日期：2026-09-05</p>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>论文结合历史财产税记录与普查估值资料，重建美国州、县和全国的长期财富序列。关键步骤是用评估值与市场值的比例校正税册数据，适合关注财富测量与地区差距的读者；这些差异本身不能解释为财产税的因果效应。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：历史数据测量">历史数据测量</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：公共经济学">公共经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=QJE&amp;show-results=1" title="全站搜索：QJE">QJE</a> · <a class="tag-link" href="?q=Forthcoming&amp;show-results=1" title="全站搜索：Forthcoming">Forthcoming</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#dray-landais-stantcheva-wealth-tax-qje">查看本期</a><a href="https://www.stefanie-stantcheva.com/research/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>连续处理 DID：平均处理效应与剂量响应要分开</h3>
+<p class="catalog-citation">Yu, F. (2026). Two Margins in Difference-in-Differences with a Continuous Treatment. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-08 · 收录日期：2026-09-11</p>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>论文在分期实施、剂量随时间不变的 DID 中，区分实际剂量下的平均处理效应与组内剂量响应斜率。两者需要不同的平行趋势等条件，连续剂量 OLS 系数可能混合这两部分。它给出分别估计与联合推断的思路，提醒研究者不要直接把连续处理回归系数解释成统一的边际因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：连续处理">连续处理</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#arxiv-2609-09488">查看本期</a><a href="https://arxiv.org/abs/2609.09488" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>Empowering Inclusive Work</h3>
-<p class="catalog-citation">Chen, Y. et al. (2026). Empowering inclusive work. NBER Working Paper No. 35372.</p><p class="catalog-meta">发表日期：待核 · 收录日期：2026-09-05</p>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>这篇 NBER 工作论文使用中国外卖平台数据，围绕文字转语音工具上线构建双重差分设计。作者报告，听障或听力受损骑手的配送表现、劳动供给与留任均有改善；阅读时可重点关注辅助技术的识别设计及结果的适用范围。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：平台经济">平台经济</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%85%E5%8A%A9%E6%8A%80%E6%9C%AF&amp;show-results=1" title="全站搜索：辅助技术">辅助技术</a> · <a class="tag-link" href="?q=%E5%8C%85%E5%AE%B9%E6%80%A7%E5%B0%B1%E4%B8%9A&amp;show-results=1" title="全站搜索：包容性就业">包容性就业</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#chen-hoffman-xu-yuan-inclusive-work">查看本期</a><a href="https://doi.org/10.3386/w35372" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>证据何时足够？把继续收集数据的成本纳入检验</h3>
+<p class="catalog-citation">Epanomeritakis, A.; Viviano, D. (2026). When is statistical evidence strong enough? Using hypothesis tests to value data collection. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-08 · 收录日期：2026-09-11</p>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>论文把立即给出政策建议与等待更多证据视为两种决策，在最小最大遗憾框架下让检验水平随新证据的成本和精度变化。作者提出 A-value 衡量推迟决策、继续实验的临界福利成本，作为 p 值的补充；使用时需要明确决策损失与额外数据的获取条件。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：统计检验">统计检验</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86&amp;show-results=1" title="全站搜索：数据收集">数据收集</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：决策分析">决策分析</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#arxiv-2609-09544">查看本期</a><a href="https://arxiv.org/abs/2609.09544" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>AER：企业如何感知不确定性？</h3>
-<p class="catalog-citation">Bachmann, R. et al. (2026). Uncertainty and change: Survey evidence of firms’ subjective beliefs. AER.</p><p class="catalog-meta">发表日期：2026-08 · 收录日期：2026-09-05</p>
-<p class="catalog-meta">期次日期：2026-09-05</p>
-<p>作者利用德国制造业企业面板调查，发现销售增长异常偏低或偏高时，管理者都更感到不确定。论文区分主观不确定性与条件波动率，为企业预期的测量提供参考。PDF 为作者稿，与正式发表版可能存在差异。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：面板调查">面板调查</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%9C%9F%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：预期测量">预期测量</a>；<strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：企业经济学">企业经济学</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：宏观经济学">宏观经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=AER&amp;show-results=1" title="全站搜索：AER">AER</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%BC%8F%E5%8F%91%E8%A1%A8&amp;show-results=1" title="全站搜索：正式发表">正式发表</a></p>
-<p class="catalog-actions"><a href="../issues/20260905/#bachmann-firm-uncertainty-aer">查看本期</a><a href="https://www.aeaweb.org/articles?id=10.1257/aer.20240056" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>MS：随机现场检查如何影响 IPO 报告质量？</h3>
+<p class="catalog-citation">Fan, M.; Guo, K.; Ke, B. (2026). Public Enforcement and Initial Public Offering Reporting Quality in Weak Institutional Environments: Evidence from a Random Experiment in China. Management Science.</p><p class="catalog-meta">发表日期：2026-08-28 · 收录日期：2026-09-11</p>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>论文利用中国 IPO 申请企业的随机现场检查安排，研究主动执法如何筛除可疑财务披露，并影响后续申请者的报告行为。它同时讨论监管的筛选、威慑收益与误拒潜在合格企业的代价。适合借鉴随机监管安排的识别思路，不能只按退出企业数量评价监管效果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：随机检查">随机检查</a> · <a class="tag-link" href="?q=IPO&amp;show-results=1" title="全站搜索：IPO">IPO</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#paper-mnsc-2024-05042">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.05042" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>DID 中如何回答州层面的政策问题</h3>
-<p class="catalog-citation">Austin, N. et al. (2026). Which policy works, and where? Estimation and inference for state-level treatment effects in difference-in-differences. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-02 · 收录日期：2026-09-07</p>
-<p class="catalog-meta">来源日期：2026-09-02</p>
-<p>这篇工作论文讨论如何按地区、时期或政策类型定义 ATT，并将州层面的政策问题与目标参数、估计和推断相对应。可作为解释 DID 异质性结果的阅读材料。</p>
-<p class="catalog-tags"></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#arxiv-2609-01467">查看历史条目</a><a href="https://arxiv.org/abs/2609.01467" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>MS：用签证抽签研究高技能移民的金融业贡献</h3>
+<p class="catalog-citation">Chen, J. et al. (2026). Immigrants in Finance: Evidence from Hedge Funds. Management Science.</p><p class="catalog-meta">发表日期：2026-09-03 · 收录日期：2026-09-11</p>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>论文利用 H-1B 签证随机抽签，考察对冲基金获得高技能移民员工与基金表现之间的关系，并追踪量化技能、投资策略和容量约束等渠道。它提供了用人才供给冲击研究企业表现的思路；结果来自特定金融机构和签证制度，不能当作个人投资建议。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%AD%BE%E8%AF%81%E6%8A%BD%E7%AD%BE&amp;show-results=1" title="全站搜索：签证抽签">签证抽签</a> · <a class="tag-link" href="?q=%E9%AB%98%E6%8A%80%E8%83%BD%E7%A7%BB%E6%B0%91&amp;show-results=1" title="全站搜索：高技能移民">高技能移民</a> · <a class="tag-link" href="?q=%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91&amp;show-results=1" title="全站搜索：对冲基金">对冲基金</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#paper-mnsc-2024-07615">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.07615" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>短面板中的随机系数矩</h3>
-<p class="catalog-citation">Botosaru, I.; Powell, J. L. (2026). Moments of random coefficients in short panels. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-01 · 收录日期：2026-09-07</p>
-<p class="catalog-meta">来源日期：2026-09-01</p>
-<p>这篇工作论文研究短面板中随机系数矩的识别，讨论如何利用面板中的信息刻画个体反应差异。适合关注异质性参数与面板识别条件的读者。</p>
-<p class="catalog-tags"></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#arxiv-2608-31085">查看历史条目</a><a href="https://arxiv.org/abs/2608.31085" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>MS：环境监管不确定时，企业会等待还是创新？</h3>
+<p class="catalog-citation">Wang, J. B. (2026). Waiting or Acting: The Effects of Environmental Regulatory Uncertainty on Green Innovation. Management Science.</p><p class="catalog-meta">发表日期：2026-09-03 · 收录日期：2026-09-11</p>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>论文研究污染企业面对环境监管不确定性时的创新反应，采用环境议题投票的政治极化指标作为工具变量，并结合 2018 年政策提案做 DID 分析。结果支持企业主动增加绿色创新的解释；借鉴时应分别核对工具变量排除限制、政策冲击与平行趋势条件。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：监管不确定性">监管不确定性</a> · <a class="tag-link" href="?q=%E7%BB%BF%E8%89%B2%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：绿色创新">绿色创新</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#paper-mnsc-2024-06051">查看本期</a><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06051" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>短动态空间面板如何同时处理共同冲击？</h3>
-<p class="catalog-citation">Bai, J.; Chen, J. C. (2026). Fixed-T dynamic spatial panel model with common shocks. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-08-24 · 收录日期：2026-09-08</p>
-<p class="catalog-meta">来源日期：2026-08-24</p>
-<p>论文研究大 N、固定 T 的动态空间面板，把空间同时性与交互效应放在同一框架中。作者利用另一种方程组织方式及空间扩展随机载荷设定构造准似然，以处理逐个估计载荷产生的附带参数问题。适合比较空间依赖与共同因子处理方式；相关推断仍依赖论文给出的载荷和误差结构。</p>
-<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：动态面板">动态面板</a></p>
-<p class="catalog-actions"><a href="../history/20260815-20260907/#arxiv-2608-22499">查看历史条目</a><a href="https://arxiv.org/abs/2608.22499" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>JPE：同学的受灾经历，怎样影响自己的学习？</h3>
+<p class="catalog-citation">Tincani, M. M. (2026). Peer Effects and Rank Concerns in the Classroom. JPE.</p><p class="catalog-meta">发表日期：2026-09-03 · 收录日期：2026-09-11</p>
+<p class="catalog-meta">期次日期：2026-09-11</p>
+<p>论文把智利学生行政与调查资料同地震住房损毁程度连接，区分同学平均受灾程度与受灾差异的影响。学校资源调整和学生之间的排名竞争可能分别参与传导；研究用地位竞争模型解释相关现象，提醒同伴效应分析同时考虑学校响应和学生互动。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=%E8%87%AA%E7%84%B6%E7%81%BE%E5%AE%B3&amp;show-results=1" title="全站搜索：自然灾害">自然灾害</a> · <a class="tag-link" href="?q=%E6%8E%92%E5%90%8D%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：排名竞争">排名竞争</a></p>
+<p class="catalog-actions"><a href="../issues/20260911/#paper-742714">查看本期</a><a href="https://www.journals.uchicago.edu/doi/10.1086/742714" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-41.html">上一页</a><span aria-current="page">第 42 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-43.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-41.html">上一页</a><span aria-current="page">第 42 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-43.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

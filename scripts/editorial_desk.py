@@ -5,6 +5,7 @@ from contextlib import contextmanager
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
+from issue_dates import review_date
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = ('lianxh_posts', 'papers', 'tools', 'research_resources', 'conference_calls')
@@ -33,6 +34,30 @@ def identity(item, category='papers'):
         return 'software:'+item.get('ecosystem','unknown').lower()+':'+item.get('name',item['id']).lower()
     if category == 'conference_calls': return 'event:'+item.get('event_id',item['id'])
     return category+':'+item['id']
+
+def publication_moment(issue, publication):
+    """Use actual online evidence for backfills; leave ordinary history unchanged."""
+    if 'backfill' not in issue:
+        return issue['date'], 'historical-issue-date'
+    actual_day = review_date(issue)
+    if publication.get('status') != 'published' or not publication.get('commit'):
+        return None, 'unverified-backfill'
+    if any(publication.get(field) is not None and publication[field] != issue['date'] for field in ('date', 'issue_date')):
+        return None, 'mismatched-issue-proof'
+    for field in ('published_at', 'verified_at'):
+        value = publication.get(field)
+        if not isinstance(value, str):
+            continue
+        try:
+            moment = datetime.fromisoformat(value)
+            if moment.tzinfo is None or moment.astimezone(TZ).date() < actual_day:
+                continue
+            if moment > datetime.now(TZ):
+                continue
+        except ValueError:
+            continue
+        return moment.astimezone(TZ).isoformat(), 'actual-publication' if field == 'published_at' else 'actual-online-verification'
+    return None, 'unverified-backfill'
 
 @contextmanager
 def command_lock(root):
@@ -105,16 +130,24 @@ class Desk:
             if issue.get('status')!='published':continue
             day=issue['date']; proof=self.root/'ops-local/runs'/day/'publication.json'
             publication=read(proof) if proof.exists() else {}
+            published_at, timestamp_basis = publication_moment(issue, publication)
+            candidate_at = review_date(issue).isoformat() if 'backfill' in issue else day
             for category in CATEGORIES:
                 for item in issue.get(category,[]):
                     key=identity(item,category)
-                    self.emit(dict(kind='candidate',at=day,order=0,key=key,candidate=dict(id=item['id'],category=category,payload=item,status='needs-review',first_discovered=item.get('added_date',day),provenance=str(p.relative_to(self.root)))))
-                    self.emit(dict(kind='publication',at=day,order=2,key=key,issue_date=day,website_record=True,live_verified=publication.get('status')=='published',commit=publication.get('commit'),wechat_generated=item.get('priority')=='core' and (self.root/'publish/wechat'/f'{day}.txt').exists(),wechat_sent='unknown'))
+                    self.emit(dict(kind='candidate',at=candidate_at,order=0,key=key,candidate=dict(id=item['id'],category=category,payload=item,status='needs-review',first_discovered=item.get('added_date',candidate_at),provenance=str(p.relative_to(self.root)))))
+                    if published_at is not None:
+                        event = dict(kind='publication',at=published_at,order=2,key=key,issue_date=day,website_record=True,live_verified=publication.get('status')=='published',commit=publication.get('commit'),wechat_generated=item.get('priority')=='core' and (self.root/'publish/wechat'/f'{day}.txt').exists(),wechat_sent='unknown')
+                        if 'backfill' in issue:
+                            event['timestamp_basis'] = timestamp_basis
+                        self.emit(event)
             for category, field in [('journal','journal_checks'),('working-paper','working_paper_checks')]:
                 for row in issue.get('paper_review',{}).get(field,[]):
                     effective=row.get('fallback',row) if row.get('status')=='access-failed' else row
                     # 保留原日期、原候选与原出处；导入旧成功记录不表示重新核验。
-                    self.emit(dict(kind='check',at=effective['checked_at'],source_id=category+':'+slug(row['source']),status=effective['status'],complete=effective['status'] in ('found','no-eligible'),window_start=effective['window_start'],window_end=effective['window_end'],candidate_ids=effective['candidate_ids'],evidence_url=effective['evidence_url'],reason=effective['reason'],provenance='historical-record',original_failure=row if row.get('status')=='access-failed' else None))
+                    # 有界轮查或显式未完成只保留尝试，不能推进整段成功终点。
+                    complete = effective['status'] in ('found','no-eligible') and bool(effective.get('complete',True) and effective.get('exhaustive',True))
+                    self.emit(dict(kind='check',at=effective['checked_at'],source_id=category+':'+slug(row['source']),status=effective['status'],complete=complete,window_start=effective['window_start'],window_end=effective['window_end'],candidate_ids=effective['candidate_ids'],evidence_url=effective['evidence_url'],reason=effective['reason'],provenance='historical-record',original_failure=row if row.get('status')=='access-failed' else None))
         # 未采用候选只从真实缓存元数据导入，绝不直接升为合格。
         for p in sorted((self.root/'ops-local/runs').glob('*/journals/*.json')):
             data=read(p)

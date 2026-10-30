@@ -8,91 +8,91 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>分散的土地管制权，如何加剧住房约束？</h3>
-<p class="catalog-citation">Favilukis, J.; Song, J. (2026). Why zoning is too restrictive. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>论文建立地方土地使用管制模型：业主关注本地拥堵，却可能忽略管制对都市圈住房可负担性的影响。实证部分以历史市镇分散格局作为工具变量，考察辖区碎片化、管制强度和住房成本的关系。适合把地方激励与区域外溢联系起来理解；工具变量的有效性及模型设定仍是解读结论的前提。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：住房政策">住房政策</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：地方治理">地方治理</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2025-02844">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02844" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>经营规模难调整，企业会如何选择杠杆？</h3>
+<p class="catalog-citation">Gu, L.; Hackbarth, D.; Luo, Y. (2026). Inflexibility and leverage. Management Science.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>融资决策可能受企业改变经营规模的能力影响。研究区分收缩与扩张不灵活性，比较其对杠杆差异的解释力，并结合信用供给冲击和工具变量分析讨论企业金融政策。 指标构造和工具变量有效性尚需正文审核；摘要不能保证观察关系在其他行业或制度中成立。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%95%B4%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：调整成本">调整成本</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1287-mnsc-2024-08672">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08672" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>信息透明为何可能提高客户留存？</h3>
-<p class="catalog-citation">Cheng, Z.(.; Li, T.; Pavlou, P.A. (2026). Information transparency, choice confidence, and customer retention: Field and laboratory evidence from markets for credence goods. Management Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-26</p>
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>论文在质量难以即时验证的信任品市场中，结合汽车保险合同与随机实验，研究获客阶段的信息透明如何影响后续留存。作者强调选择信心这一机制，并区分属性、比较和评价信息。它为理解透明度与客户关系提供了证据；结果依赖信息一致性等场景条件，不能概括为透明披露总会降低流失。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%80%8F%E6%98%8E&amp;show-results=1" title="全站搜索：信息透明">信息透明</a> · <a class="tag-link" href="?q=%E5%AE%A2%E6%88%B7%E7%95%99%E5%AD%98&amp;show-results=1" title="全站搜索：客户留存">客户留存</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#paper-10-1287-mnsc-2020-02865">查看本期</a><a href="https://doi.org/10.1287/mnsc.2020.02865" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>研究需求增加后，究竟是谁在响应？</h3>
+<p class="catalog-citation">Lu, J. (2026). Demand for research and the composition of scientific response: intellectual distance, research productivity, and research outcomes. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>科研产出增长的背后可能是研究者构成发生改变。文章利用电动汽车研究需求受到政策推动的情境，分析知识距离和既有科研生产率如何与跨领域响应、成果新颖性、科学影响及后续发明使用联系。 摘要中的政策情境与研究者选择需要正文识别设计支持，不能把知识距离的相关性概括为普遍因果规律。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：科研需求">科研需求</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E8%B7%9D%E7%A6%BB&amp;show-results=1" title="全站搜索：知识距离">知识距离</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1287-orsc-2023-17926">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.17926" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>联合实验：边收集数据边判断何时停止</h3>
-<p class="catalog-citation">Molitor, D.; Gosciak, J.; Lindon, M. (2026). Anytime-valid inference in conjoint experiments. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-21 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>联合实验常同时关注多个效应，固定样本量未必适合持续到达的数据。论文为可表示成总体 OLS 系数线性对比的目标量构造渐近 e-process、置信序列及 anytime-valid p 值，使监测和依数据停止能够纳入推断框架。它说明普通置信区间反复查看的问题，也为在线调查的样本规划提供思路；渐近保证和适用目标量条件不能省略。当前为工作论文，不把摘要中的模拟节省比例当作普遍效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%94%E5%90%88%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：联合实验">联合实验</a> · <a class="tag-link" href="?q=%E5%BA%8F%E8%B4%AF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：序贯推断">序贯推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-arxiv-2610-28979">查看本期</a><a href="https://arxiv.org/abs/2610.28979" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>把战略写成可检查的因果变化理论</h3>
+<p class="catalog-citation">Lazzarini, S. G.; Zenger, T. R.; Felin, T. (2026). Strategy as a theory of change. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>战略方案不仅要描述环境，也要说明为什么特定干预能够推动变化。文章提出把投入、活动与问题解决指标组织为有向图的框架，用可操作指标描述复杂性、多路径、相互依赖和循环，为方案设计与评估提供结构化语言。 有向图在这里表达战略假说；画出箭头并不意味着其因果关系已经获得识别或经验验证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%9B%BE&amp;show-results=1" title="全站搜索：因果图">因果图</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5&amp;show-results=1" title="全站搜索：战略">战略</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：项目评估">项目评估</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1002-smj-70139">查看本期</a><a href="https://doi.org/10.1002/smj.70139" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>绩效指标越准确，留任决策就一定越好吗？</h3>
-<p class="catalog-citation">Rothenberg, N. (2026). Measurement error, manipulation, and the value of short‐term performance in job retention. CAR.</p><p class="catalog-meta">发表日期：2026-10-24 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>当员工可以操纵短期绩效指标时，提高测量精度既有助于识别能力，也可能加强低能力员工的操纵激励。论文构造留任与解雇决策模型，说明指标价值可能随精度非单调变化。适合把绩效管理、测量误差与激励设计联系起来阅读；这是模型中的机制结论，不能直接当作所有组织都应降低考核精度的建议。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8&amp;show-results=1" title="全站搜索：绩效考核">绩效考核</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%93%8D%E7%BA%B5&amp;show-results=1" title="全站搜索：信息操纵">信息操纵</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1111-1911-3846-70096">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>强制披露如何改变同行从股价中学习？</h3>
+<p class="catalog-citation">Kim, J.; Pearson, H.; Twedt, B. (2026). Mandatory disclosure and peer firms&#x27; learning from stock prices. CAR.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>披露增加不必然让所有同行的投资决策更好。文章以强制分部披露为研究情境，比较经济联系和价格学习动机不同的同行企业，并讨论管理者从股价中提取信息这一渠道。 投资与 q 的敏感度属于价格学习的间接证据，不能单独等同于投资效率或充分识别所有信息渠道。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：投资">投资</a> · <a class="tag-link" href="?q=%E4%BB%B7%E6%A0%BC%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：价格学习">价格学习</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1111-1911-3846-70094">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70094" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>私募股权如何促进非银行贷款？</h3>
-<p class="catalog-citation">Haque, S.; Mayer, S.; Wang, T. (2026). How private equity fuels nonbank lending. RFS.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>论文研究私募股权发起人的监督如何替代银行监督。与其他贷款相比，PE 支持的贷款中牵头银行保留份额较低、非银行持有份额较高；这种替代在发起人参与激励较强时更明显。作者同时考察贷款表现与借款人困境，帮助理解非银行信贷扩张中的信息生产机制；这些证据不意味着所有 PE 参与都能降低信贷风险。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E9%93%B6%E8%A1%8C%E4%BF%A1%E8%B4%B7&amp;show-results=1" title="全站搜索：非银行信贷">非银行信贷</a> · <a class="tag-link" href="?q=%E7%A7%81%E5%8B%9F%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：私募股权">私募股权</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1093-rfs-hhag092">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>土地产权转变为何可能出现破坏性竞赛？</h3>
+<p class="catalog-citation">Baker, M. J.; Conning, J. (2026). A model of enclosures: coordination, conflict, and efficiency in the transformation of land property rights. REStud.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>分散的产权选择如何形成截然不同的制度转变路径？模型把人口密度、圈地成本、生产率收益和地方治理能力结合起来，讨论临界转变、产权争夺和低于社会最优的圈地，并提醒单独修复一种扭曲可能产生其他后果。 比较静态依赖模型中的激励和制度设定，不能直接替代具体土地政策的识别与福利评估。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%A7%E6%9D%83&amp;show-results=1" title="全站搜索：产权">产权</a> · <a class="tag-link" href="?q=%E5%8D%9A%E5%BC%88%E8%AE%BA&amp;show-results=1" title="全站搜索：博弈论">博弈论</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E5%8F%98%E8%BF%81&amp;show-results=1" title="全站搜索：制度变迁">制度变迁</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1093-restud-rdag118">查看本期</a><a href="https://doi.org/10.1093/restud/rdag118" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>奖励“知识枢纽”，为何也可能增加离职？</h3>
-<p class="catalog-citation">Iorio, A.; Soda, G.; Aven, B. (2026). Pay‐for‐prominence: the (un)intended consequences of monetary incentives on employees&#x27; networks and attrition. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>论文将按内部网络重要性提供奖励的制度称为 pay-for-prominence，并用一家跨国公司的现场准实验考察员工连接和离职。货币激励能够推动员工成为更突出的知识连接者，但网络地位上升也伴随更高离职风险。研究提示，短期知识流动与长期网络稳定性需要共同评估；单一企业场景的结果仍有外推边界。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：组织网络">组织网络</a> · <a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-10-1002-smj-70133">查看本期</a><a href="https://doi.org/10.1002/smj.70133" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>公司控制权市场为何转向激进股东撮合？</h3>
+<p class="catalog-citation">BURKART, M.; LEE, S.; VOSS, P. (2026). The evolution of the market for corporate control. JF.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>知情大股东为什么不总是自己收购目标公司？文章把直接收购和发起出售放进同一模型，分析选择本身如何传递信息，并说明中介化交易可能缓解非对称信息及集体行动问题。 结果是控制权交易模型的解释机制，不能直接视为对所有激进投资者行为的经验因果检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%8E%A7%E5%88%B6%E6%9D%83&amp;show-results=1" title="全站搜索：公司控制权">公司控制权</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E8%A1%8C%E5%8A%A8%E4%B8%BB%E4%B9%89&amp;show-results=1" title="全站搜索：股东行动主义">股东行动主义</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1111-jofi-70099">查看本期</a><a href="https://doi.org/10.1111/jofi.70099" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>合成控制：用几何刻画替代双层优化</h3>
-<p class="catalog-citation">Abadie, A.; Shang, Y. (2026). Synthetic control: An exact geometric formulation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-25</p>
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>合成控制常通过非凸双层优化选择预测变量权重矩阵。论文把给定权重矩阵下的估计理解为向捐赠者凸包的投影，并刻画改变权重矩阵时可达到的合成控制集合。在其设定下，可用枚举方法替代原来的双层优化，分别处理凸包内外及对角权重矩阵情形。它讨论的是估计与求解结构，不能替代研究设计中的可比性判断；当前为工作论文，方法说明依据作者摘要。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：优化方法">优化方法</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#paper-arxiv-2610-26576">查看本期</a><a href="https://arxiv.org/abs/2610.26576" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>不同 DID 估计量的结果究竟差多少？</h3>
+<p class="catalog-citation">Hull, P. (2026). How different are different differences-in-differences? a large-scale meta-analysis. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-29 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>利用 AI 辅助复现，比较大量分期处理设定中的双向固定效应与现代双重差分估计，检查符号、相关性和精度的差别，并用分层模型区分估计噪声与估计对象差异。研究展示了如何对新计量方法的实际影响进行跨论文的系统评估。 这是入选文献与可复现设定的汇总，不能推出任何具体 TWFE 应用都满足平行趋势，或负权重在所有情境都无关紧要。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=TWFE&amp;show-results=1" title="全站搜索：TWFE">TWFE</a> · <a class="tag-link" href="?q=%E6%96%B9%E6%B3%95%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：方法评估">方法评估</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-arxiv-2610-39995">查看本期</a><a href="https://arxiv.org/abs/2610.39995v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>线性 IV 何时不能解释为 LATE？</h3>
-<p class="catalog-citation">Słoczyńki, T. (2026). When Should We (Not) Interpret Linear IV Estimands as LATE? REStud.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-24</p>
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>当工具变量的作用随协变量变化，常见线性设定隐含的同质性限制可能带来负权重。论文说明，在较弱单调性条件下，IV 系数未必仍有平均因果效应解释，并讨论交互工具变量设定如何避免这类错设。应用使用审前羁押案例；采用方法前仍需检查识别假设与工具强度。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质性效应">异质性效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-restud-rdag116">查看本期</a><a href="https://doi.org/10.1093/restud/rdag116" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>HouseholdBench：LLM 能预测家庭经济行为吗？</h3>
+<p class="catalog-citation">Huang, J. et al. (2026). HouseholdBench: evaluating large language models as predictors of household economic behavior. NBER Working Paper No. 35927 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>将多项美国家庭调查与不同形式的行为预测任务组织成 HouseholdBench，比较闭源模型、开放权重 LLM、行为不变基线和梯度提升树。任务区分一般行为预测与政策环境变化下的反应预测，为评估 LLM 能否刻画家庭经济决策提供统一比较框架。 预测基准的表现不等于因果识别；不能据此把 LLM 输出直接替代真实调查、政策实验或结构识别。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：家庭行为">家庭行为</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：预测评估">预测评估</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-nber-w35927">查看本期</a><a href="https://www.nber.org/papers/w35927" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>矩阵因子模型的双向结构可以检验吗？</h3>
-<p class="catalog-citation">Kong, X.; Zhang, L.; Zhang, T. (2026). Testing matrix factor structure via generalized likelihood ratio. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-24</p>
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>论文检验高维因子载荷是否具有 Kronecker 结构，从而检查双向矩阵因子模型的结构限制。针对旋转不识别造成的似然展开困难，作者加入识别惩罚并建立检验统计量的渐近结果。读者可以据此区分采用矩阵结构的便利与验证结构的必要性；实际应用仍受高维渐近条件约束。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A9%E9%98%B5%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：矩阵因子模型">矩阵因子模型</a> · <a class="tag-link" href="?q=%E4%BC%BC%E7%84%B6%E6%AF%94%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：似然比检验">似然比检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-biomet-asag066">查看本期</a><a href="https://doi.org/10.1093/biomet/asag066" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>CEO 销售激励会怎样传导到供应链？</h3>
+<p class="catalog-citation">Choi, J. (2026). Sales-based CEO incentives and their effect across the supply chain. TAR.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>评价经理人的销售表现，可能影响供应链中其他企业。文章考察销售型奖金指标与库存波动、牛鞭效应之间的关系，并利用薪酬顾问网络联系构造工具变量检验，提供激励合同外溢的应用案例。 摘要不能替代对工具变量排除限制的核查，也不意味着所有销售激励都会产生相同后果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%B1%82%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：管理层激励">管理层激励</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-2308-tar-2024-0591">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0591" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>流式数据分布变化时，怎样动态选择带宽？</h3>
-<p class="catalog-citation">Lemyre, F.C.; Delaigle, A.; Mao, J. (2026). Blockwise dynamic selection of smoothing parameters for kernel estimators of nonstationary densities of streaming data. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-23 · 收录日期：2026-10-24</p>
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>数据持续到达且旧数据不能反复读取时，传统带宽选择难以直接使用。论文针对非平稳密度的核估计，提出按最新数据块动态选择平滑参数的方法，并用交叉验证性质确定块大小。适用于理解分布漂移下的顺序估计；模拟及天文数据应用并不等于所有经济时间序列上都有效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B5%81%E5%BC%8F%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：流式数据">流式数据</a> · <a class="tag-link" href="?q=%E6%A0%B8%E5%AF%86%E5%BA%A6%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：核密度估计">核密度估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#paper-10-1093-biomet-asag065">查看本期</a><a href="https://doi.org/10.1093/biomet/asag065" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>CEO 政治倾向与企业行为：线性刻画是否过于简单？</h3>
+<p class="catalog-citation">Appels, M.; Kowalzick, M.; Woywode, M. (2026). A moral foundations perspective on CEO political ideology. Journal of Management.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>把政治倾向放进一条从自由到保守的线性刻度，可能遗漏不同价值关切。文章用道德基础理论重审 CEO 战略行为的解释，并在企业领导人样本中比较线性与 U 形关系。 政治倾向与组织行为的关联不等于因果；非线性形式也须结合理论和稳健性检验选择。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：理论测量">理论测量</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1177-01492063261489261">查看本期</a><a href="https://doi.org/10.1177/01492063261489261" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

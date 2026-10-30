@@ -8,91 +8,91 @@ title: "新论文 · 第 15 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-14.html">上一页</a><span aria-current="page">第 15 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-16.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-14.html">上一页</a><span aria-current="page">第 15 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-16.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>固定效应模型怎样做信息矩阵设定检验？</h3>
-<p class="catalog-citation">Schumann, M. (2026). The Panel Information Matrix Test. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-08 · 收录日期：2026-10-10</p>
-<p class="catalog-meta">期次日期：2026-10-10</p>
-<p>论文提出面板信息矩阵检验，把固定效应纳入设定，区分时间不变异质性与函数形式误设。检验使用一阶和二阶似然导数，并讨论面板横截面和时间长度共同增长时的附带参数偏差。模拟比较渐近临界值与参数 bootstrap 的表现。适用于似然模型设定诊断，但短面板与不同增长速度下的偏差不可忽略，不能把参数检验的经验表现直接移用于设定检验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AE%BE%E5%AE%9A&amp;show-results=1" title="全站搜索：模型设定">模型设定</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261010/#arxiv-2610-12350">查看本期</a><a href="https://arxiv.org/abs/2610.12350" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>非线性 GMM 如何随数据到达递推更新？</h3>
+<p class="catalog-citation">Duy Nguyen (2026). An efficient stochastic generalized method of moments estimator for nonlinear moment models. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文研究非线性随机 GMM 的渐近性质，通过递推更新矩条件雅可比、权重矩阵及预条件矩阵，并对迭代结果取平均。理论依赖单调性、矩条件及初始估计等要求；一般非线性情形不能无条件视为全局收敛。适合关注大样本单遍估计和在线过度识别检验的读者。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：在线估计">在线估计</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-12873">查看本期</a><a href="https://arxiv.org/abs/2610.12873" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>加成率上升：静态损失与创新激励怎样比较？</h3>
-<p class="catalog-citation">Cavenaile, L.; Celik, M. A.; Tian, X. (2026). Are Markups Too High? Competition, Strategic Innovation, and Industry Dynamics. REStud.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-10</p>
-<p class="catalog-meta">期次日期：2026-10-10</p>
-<p>ReStud 论文在熊彼特增长框架中同时考虑寡头竞争、企业创新与内生进入退出，将大型企业和竞争性边缘企业放入同一模型。估计后的模型用于分解美国行业结构变化：较高加成率带来静态福利损失，也可能经利润机会改变创新激励。结论依赖模型机制和估计参数，不能直接据此认定市场集中总是有利；值得借鉴的是把静态与动态福利分别核算。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8A%BF%E5%8A%9B&amp;show-results=1" title="全站搜索：市场势力">市场势力</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a></p>
-<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1093-restud-rdag110">查看本期</a><a href="https://doi.org/10.1093/restud/rdag110" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>银行专业化如何影响抛补利率平价？</h3>
+<p class="catalog-citation">Moskowitz, T. J. et al. (2026). Risk, Specialization, and Covered‐Interest Parity. JF.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文利用银行外汇衍生品敞口研究金融中介的风险分担。作者发现，外汇掉期业务中的对冲并不总与期限匹配，机构会专注于熟悉的风险市场。研究将跨市场的抛补利率平价偏离与中介专业化联系起来，为理解套利边界和风险溢价提供了新的观察角度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B1%87%E7%8E%87&amp;show-results=1" title="全站搜索：汇率">汇率</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：金融中介">金融中介</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%88%86%E6%8B%85&amp;show-results=1" title="全站搜索：风险分担">风险分担</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1111-jofi-70095">查看本期</a><a href="https://doi.org/10.1111/jofi.70095" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>企业多一笔现金，会增加多少雇佣？</h3>
-<p class="catalog-citation">Melcangi, D. (2026). The Marginal Propensity to Hire. REStud.</p><p class="catalog-meta">发表日期：2026-10-06 · 收录日期：2026-10-10</p>
-<p class="catalog-meta">期次日期：2026-10-10</p>
-<p>ReStud 论文利用英国商业房产税重估造成的税负变化，研究企业现金流如何转化为雇佣支出。相似地段、相似房产的企业面对不同税额调整，为比较提供了制度背景；小企业和高杠杆企业反应更强。作者再用结果约束含企业异质性与金融摩擦的一般均衡模型。可借鉴税制细节与模型衔接的思路，具体效应能否外推仍取决于制度与样本。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：现金流">现金流</a> · <a class="tag-link" href="?q=%E8%9E%8D%E8%B5%84%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：融资约束">融资约束</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E9%9B%87%E4%BD%A3&amp;show-results=1" title="全站搜索：企业雇佣">企业雇佣</a></p>
-<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1093-restud-rdag111">查看本期</a><a href="https://doi.org/10.1093/restud/rdag111" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>求职建议推广后，效果为何可能减弱？</h3>
+<p class="catalog-citation">Altmann, S. et al. (2026). The Direct and Indirect Effects of Online Job Search Advice. REStud.</p><p class="catalog-meta">发表日期：2026-10-12 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文在丹麦公共就业服务平台开展两阶段随机实验，改变地区内获得职位信息和职业建议的求职者比例。摘要报告，小范围提供建议时就业与收入改善，覆盖面扩大后收益减弱；作者将这一变化与推荐职业中的竞争拥挤联系起来。政策扩围评估需要同时考虑直接效果与求职者之间的溢出。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：劳动经济学">劳动经济学</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E6%BA%A2%E5%87%BA%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：溢出效应">溢出效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1093-restud-rdag112">查看本期</a><a href="https://doi.org/10.1093/restud/rdag112" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>业绩指引在哪里发布，也是一种披露选择</h3>
-<p class="catalog-citation">Chattopadhyay, A.; Reiter, N.; Sethuraman, M. (2026). Choosing the Stage: The Strategic Role of Disclosure Venues in Guidance Revisions. CAR.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-10</p>
-<p class="catalog-meta">期次日期：2026-10-10</p>
-<p>CAR 论文比较独立公告、电话会议、投资者会议等不同场合的业绩指引修订。研究发现，披露场合与修订方向、幅度、诉讼风险及分析师分歧相关，文本语气和市场回应也不同。可借鉴之处是把披露渠道纳入变量构造，避免将所有公告混作同一种信息事件。经理人会主动选择场合，因此渠道差异不宜未经处理就解释为渠道的因果效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E6%8C%87%E5%BC%95&amp;show-results=1" title="全站搜索：业绩指引">业绩指引</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1111-1911-3846-70088">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70088" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>检查报告同时展示优点，会促进审计创新吗？</h3>
+<p class="catalog-citation">Kang, Y. J.; Piercey, M. D. (2026). Would a Balanced PCAOB Inspection Approach Increase Auditors&#x27; Use of Innovative Audit Procedures? CAR.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文比较只报告审计缺陷的 PCAOB 检查方式与同时披露优点、缺点的平衡方式。摘要显示，在重大错报风险适中的情境下，后者使审计人员更加考虑创新程序的潜在有效性，并在计划中优先安排此类程序。结论具有情境边界，不能直接推断所有检查改革都会提高实际审计质量。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：审计">审计</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：监管">监管</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1111-1911-3846-70091">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70091" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>ESG 投资回报中有多少来自资金流入？</h3>
-<p class="catalog-citation">BECK, P. V. D. (2026). Flow‐Driven ESG Returns. JF.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-10</p>
-<p class="catalog-meta">期次日期：2026-10-10</p>
-<p>JF 论文使用交易数据估计 ESG 股票与其他股票之间的替代弹性，进而分析流向 ESG 组合的资金如何影响价格及历史回报。研究将机构资金需求与资产基本面变化区分，强调已实现收益可能包含持续流入造成的价格压力。阅读时应把流量驱动回报与长期预期收益分开；历史样本中的分解结果不能直接作为未来超额收益的预测。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ESG&amp;show-results=1" title="全站搜索：ESG">ESG</a> · <a class="tag-link" href="?q=%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：资金流">资金流</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
-<p class="catalog-actions"><a href="../issues/20261010/#paper-10-1111-jofi-70083">查看本期</a><a href="https://doi.org/10.1111/jofi.70083" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>提高披露要求，是否足以让养老金资产更透明？</h3>
+<p class="catalog-citation">Anantharaman, D.; Chuk, E.; Xia, T. S. (2026). So similar, yet so different: comparing the US GAAP and IFRS experience at eliciting greater transparency on pension asset disclosures. Review of Accounting Studies.</p><p class="catalog-meta">发表日期：2026-10-10 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文比较 US GAAP 和 IFRS 对养老金资产披露的两次改革。两者都提高披露要求，但 IFRS 同时取消预期收益率这一计量要素，US GAAP 则保留。作者报告 IFRS 下透明度改善更明显，强调披露规则需要结合管理层的计量与报告激励分析，不能仅比较规定文本的详尽程度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99&amp;show-results=1" title="全站搜索：会计准则">会计准则</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1007-s11142-026-09992-x">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09992-x" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>聚类数据中的预测辅助推断，标准误该怎么算？</h3>
-<p class="catalog-citation">Broska, D.; Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-07 · 收录日期：2026-10-09</p>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>将机器预测与少量人工标签结合时，同一群组内的观测通常并不独立。论文提出 Cluster-Robust PPI++，允许独立群组内部任意相关，并处理同一群组同时含已标注与未标注样本的情形。作者给出闭式标准误和按群组结构调节的权重。它与文本标注后推断直接相关，但有效性仍依赖群组之间独立等条件；不能把逐行随机抽样产生的标准误直接沿用。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#arxiv-2610-09601">查看本期</a><a href="https://arxiv.org/abs/2610.09601" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>把高频尾部信息纳入 VaR 与 ES 预测</h3>
+<p class="catalog-citation">Keisuke Sasaki; Yasuhiro Omori (2026). Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文将日内收益构造的已实现分位数和预期短缺纳入条件 expectile 的动态与测量方程，用于联合预测 VaR 和 ES。参数通过 MCMC 估计，并以数值实验和美国股票收益作比较。这里介绍的是预测框架；摘要中的表现描述不等于对其他市场或样本的独立验证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：高频数据">高频数据</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-13446">查看本期</a><a href="https://arxiv.org/abs/2610.13446" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>职业怀疑能在进入会计行业前培养吗？</h3>
-<p class="catalog-citation">Blay, A. D.; Fennema, M. G.; McAllister, M. (2026). Opportunities for Enhancing Professional Skepticism Prior to Entering the Accounting Profession. CAR.</p><p class="catalog-meta">发表日期：2026-09-29 · 收录日期：2026-10-09</p>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>CAR 论文通过纵向研究追踪学生职业怀疑、课程表现及职业选择。初始怀疑水平与会计审计课程和首次考试表现相关，但低水平学生可通过持续努力弥补；审计教学后的变化也因初始水平而异。这为因材施教提供线索：人格测量可辅助诊断训练需求，不能简单作为淘汰学生的标准。摘要证据支持分组差异和关联，尚不足以把所有变化归因于教学。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：审计教育">审计教育</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E6%80%80%E7%96%91&amp;show-results=1" title="全站搜索：职业怀疑">职业怀疑</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：纵向研究">纵向研究</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1111-1911-3846-70083">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70083" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>技能与投入互补，为何低技能儿童仍可能获得更高边际回报？</h3>
+<p class="catalog-citation">Liam Puknys (2026). Early Investment Snowballs for Low-Skill Children: Average Marginal Returns and the Dynamics of Skill Formation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>工作论文区分固定其他投入时的弹性与对投入联合分布取平均后的边际回报，并重新分析儿童技能形成模型。两种统计对象的差异可以解释部分看似矛盾的结论。作者也指出，控制母亲永久收入后，当期收入无法提供预期的投资变动信息，因此提醒将估计作描述性解释。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a> · <a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：边际效应">边际效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#arxiv-2610-12509">查看本期</a><a href="https://arxiv.org/abs/2610.12509" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>网络中一组节点的成员结构相似吗？</h3>
-<p class="catalog-citation">Fan, J. et al. (2026). SIMPLE-RC: Group network inference with NonSharp nulls and weak signals. The Annals of Statistics.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-09</p>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>Annals of Statistics 论文提出 SIMPLE-RC，将节点对成员结构完全相同的检验扩展为一组节点近似相似的复合原假设。方法用随机配对降低各个检验之间的相关性，并讨论弱信号与节点度异质性下的渐近分布。对研究企业网络或群体结构的读者，它提供了带不确定性量化的比较思路；采用时仍需核对网络模型和相似性阈值，不能把检验结果等同于因果关系。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：网络推断">网络推断</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a> · <a class="tag-link" href="?q=%E5%BC%B1%E4%BF%A1%E5%8F%B7&amp;show-results=1" title="全站搜索：弱信号">弱信号</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1214-26-aos2655">查看本期</a><a href="https://doi.org/10.1214/26-aos2655" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>债券问询函与关联投资者：信息约束怎样发挥作用？</h3>
+<p class="catalog-citation">Ding, Y. et al. (2026). Comment Letters, Connected Investors, and Corporate Bond Issuance. Management Science.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-14</p>
+<p class="catalog-meta">期次日期：2026-10-14</p>
+<p>论文使用中国公司债发行数据，考察监管问询函与发行结果及投资者参与的关系。摘要报告，问询更常针对信息不透明企业；与发行人有既有业务关系的金融机构在相关发行中参与更多。作者讨论私人信息和关系收益的作用，提示评估信息监管时还需关注投资者与发行人的联系。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA%E5%88%B8&amp;show-results=1" title="全站搜索：公司债券">公司债券</a> · <a class="tag-link" href="?q=%E9%97%AE%E8%AF%A2%E5%87%BD&amp;show-results=1" title="全站搜索：问询函">问询函</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
+<p class="catalog-actions"><a href="../issues/20261014/#paper-10-1287-mnsc-2024-07607">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07607" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>气候指数怎样聚合，才与宏观动态相匹配？</h3>
-<p class="catalog-citation">Barrette, C.; Goulet Coulombe, P.; Reinicke, T. (2026). Building Macroeconomically Relevant Climate Indices via the Assemblage VAR. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-07 · 收录日期：2026-10-09</p>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>论文提出 Assemblage VAR，将非负聚合权重与 VAR 参数联合估计，让观测到的宏观动态参与气候指数构造。两种版本分别调整具体分项和横截面分布位置的权重；美国气候数据应用显示，聚合方式会影响估计出的冲击响应。研究提醒实证作者检查固定权重指数的敏感性。由结果变量参与指数选择，也更需要明确样本使用与结构识别假设，不能仅凭响应较大断言因果关系更强。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=VAR&amp;show-results=1" title="全站搜索：VAR">VAR</a> · <a class="tag-link" href="?q=%E6%8C%87%E6%95%B0%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：指数构造">指数构造</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#arxiv-2610-10043">查看本期</a><a href="https://arxiv.org/abs/2610.10043" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>面板分位数回归如何处理内生解释变量？</h3>
+<p class="catalog-citation">Antonio F. Galvao; Ulrich Hounyo; Jiahao Lin (2026). GMM for Panel Data Quantile Regression. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-09 · 收录日期：2026-10-13</p>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>论文把分位数矩条件平滑化，并通过个体分位数限制消去个体效应，使面板分位数模型可以用 GMM 算法实现。理论允许一定的时间依赖和内生解释变量，但依赖面板两个维度共同增长等条件。适合关注异质性动态反应的研究者，不能将大样本结论直接用于任意短面板。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#arxiv-2610-12824">查看本期</a><a href="https://arxiv.org/abs/2610.12824" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>多机构数据不集中，怎样联合估计精度矩阵？</h3>
-<p class="catalog-citation">Sun, Y.; Xia, Y. (2026). Optimal integrative estimation for distributed precision matrices with heterogeneity adjustment. The Annals of Statistics.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-09</p>
-<p class="catalog-meta">期次日期：2026-10-09</p>
-<p>Annals of Statistics 论文研究多来源分布异质、原始数据难以集中时的精度矩阵联合估计。HEAT 方法先调整异质性，再聚合与阈值化；迭代版本通过多轮通信修正高阶误差。论文给出相应损失下的收敛率与下界，并以模拟和数据应用检查表现。可用于理解跨机构统计汇总，但通信节省不等于自动满足隐私保护要求，精度矩阵也不能直接解释为因果网络。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%BC%8F%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：分布式估计">分布式估计</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a> · <a class="tag-link" href="?q=%E7%B2%BE%E5%BA%A6%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：精度矩阵">精度矩阵</a></p>
-<p class="catalog-actions"><a href="../issues/20261009/#paper-10-1214-26-aos2620">查看本期</a><a href="https://doi.org/10.1214/26-aos2620" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>老同事一起转入新团队，个人与团队收益相同吗？</h3>
+<p class="catalog-citation">Zhao, E.Y.; Shea, C.; Li, S. (2026). Colleagues that work together move together: How co-moving among newcomers affects individual and team performance. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-13</p>
+<p class="catalog-meta">期次日期：2026-10-13</p>
+<p>论文利用职业篮球档案数据并辅以访谈，研究来自同一旧团队的成员共同转入新团队。既有协作经验可能帮助个人发挥，却也可能妨碍新团队整合，体现不同层次结果之间的取舍。适合借鉴个人与团队层面的联合分析；体育场景结论推广到企业团队仍需验证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：团队流动">团队流动</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BB%A9%E6%95%88&amp;show-results=1" title="全站搜索：组织绩效">组织绩效</a> · <a class="tag-link" href="?q=%E5%8D%8F%E4%BD%9C%E7%BB%8F%E9%AA%8C&amp;show-results=1" title="全站搜索：协作经验">协作经验</a></p>
+<p class="catalog-actions"><a href="../issues/20261013/#paper-10-1287-orsc-2024-18867">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18867" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-14.html">上一页</a><span aria-current="page">第 15 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-16.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-14.html">上一页</a><span aria-current="page">第 15 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-16.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

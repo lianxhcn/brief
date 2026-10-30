@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.30
+
+📰 01｜论文 · The Journal of Finance：公司控制权市场为何转向激进股东撮合？
+理论模型比较知情大股东直接收购与推动其他买方收购两种方式，解释股东行动主义和私募股权交易之间的联系。
+引文：BURKART, LEE & VOSS (2026). The evolution of the market for corporate control. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70099 
+
+📰 02｜论文 · Strategic Management Journal：把战略写成可检查的因果变化理论
+文章用有向图表达从投入、行动到目标结果的假设链条，并讨论复杂性、相互依赖和循环等结构属性如何影响战略实施与评估。
+引文：Lazzarini, Zenger & Felin (2026). Strategy as a theory of change. Strategic Management Journal.
+主页： https://doi.org/10.1002/smj.70139 
+
+📦 03｜软件 · R：contdid：连续剂量与分期实施的 DiD
+该包估计连续剂量、分期实施下的 DiD，并区分剂量效应与响应斜率。当前仍为 alpha，数据结构和识别条件需要逐项核对。
+版本：R / contdid 0.1.2；发布：2026-10-30
+CRAN： https://cran.r-project.org/package=contdid 
+
+📦 04｜软件 · R：rd2dnet：按路网距离研究边界两侧的效应
+该包用路网距离组织边界断点比较，支持通行时间和自定义成本。距离度量会改变邻域，不能替代边界设计与样本支持检查。
+版本：R / rd2dnet 0.1.0；发布：2026-10-28
+CRAN： https://cran.r-project.org/package=rd2dnet 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261030/ 

@@ -4,6 +4,7 @@ import hashlib
 from pathlib import Path
 from website_citations import bibliography_metadata, arxiv_pdf
 from trial_selection import identities
+from issue_dates import review_date
 
 CATEGORIES = ('lianxh_posts', 'papers', 'tools', 'research_resources', 'conference_calls')
 DISCOVERY = ('posts', 'papers', 'software', 'conferences')
@@ -113,6 +114,10 @@ def check_website(issue, root=None):
                     errors.append(item['id'] + ': arXiv PDF 缺失或编号不一致')
             except ValueError as exc: errors.append(item['id'] + ': ' + str(exc))
         if category == 'conference_calls':
-            errors += conference_errors(item, issue.get('revised_date', issue['date']), history)
+            try:
+                evaluated_on = review_date(issue).isoformat()
+            except (TypeError, ValueError):
+                evaluated_on = issue['date']  # 具体日期冲突由共享编辑闸门报告。
+            errors += conference_errors(item, evaluated_on, history)
             if item.get('status')=='closed': errors.append(item['id']+': 已结束征稿不进入日常可行动信息')
     return errors

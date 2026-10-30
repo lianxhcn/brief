@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.31
+
+📰 01｜论文 · Journal of the Royal Statistical Society Series B: Statistical Methodology：网络双边数据的 QAP 置换检验需要怎样的统计量？
+文章为双边数据中的 QAP 及多元回归 QAP 建立抽样与置换分布理论，强调适当学生化统计量对不同零假设的重要性。
+引文：Shi & Ding (2026). Asymptotic theory of the quadratic assignment procedure for dyadic data analysis. Journal of the Royal Statistical Society Series B: Statistical Methodology.
+主页： https://doi.org/10.1093/jrsssb/qkag136 
+
+📰 02｜论文 · Management Science：用 OLS 与 LASSO 估计高维定价核
+文章把因子空间中的定价核估计写成带 LASSO 正则化的回归问题，讨论因子冗余、高维降维及样本外评价。
+引文：Luo, Zhou & Zhou (2026). Estimating the pricing kernel: a simple regression-based dimension-reduction approach. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.03608 
+
+📦 03｜软件 · Python：forecastpanel：比较面板预测中的异质性与估计误差
+该包统一比较个体、合并、固定效应与组合面板预测。多步路径需要未来变量情景；包作者的复现说明不等于本轮已验证其结果。
+版本：Python / forecastpanel 0.1.1；发布：2026-10-31
+PyPI： https://pypi.org/project/forecastpanel/ 
+
+📦 04｜软件 · R：GAS：用条件分布得分更新时变参数
+GAS 通过分布得分更新时变参数，可做密度预测与风险回测。采用前要核对分布设定、优化结果及源码编译条件。
+版本：R / GAS 0.4.3；发布：2026-10-30
+CRAN： https://cran.r-project.org/package=GAS 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261031/ 

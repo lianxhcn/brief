@@ -8,91 +8,91 @@ title: "新论文 · 第 8 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>实验样本与行政记录匹配不唯一，还能估计处理效应吗？</h3>
-<p class="catalog-citation">Ferman, B.; Finamor, L. (2026). Randomized Experiments with Ambiguous Record Linkage. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-10 · 收录日期：2026-10-18</p>
-<p class="catalog-meta">期次日期：2026-10-18</p>
-<p>实验对象与行政数据使用粗略标识符匹配时，一个人可能对应多个候选结果。论文在真实结果包含于候选集合等条件下，构造无需先确定唯一匹配、也不依赖结果模型的样本平均处理效应估计量，并讨论随机化推断。回归调整和重加权用于改善精度；匹配模糊带来的精度损失仍须评估，不能理解为匹配质量不再重要。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E8%AE%B0%E5%BD%95%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：记录匹配">记录匹配</a></p>
-<p class="catalog-actions"><a href="../issues/20261018/#arxiv-2610-15063">查看本期</a><a href="https://arxiv.org/abs/2610.15063" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>盈利公告后的价格漂移，债券与股票有何不同？</h3>
+<p class="catalog-citation">Nozawa, Y.; Qiu, Y.; Xiong, Y. (2026). Disagreement and Bond PEAD. Management Science.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>论文结合公司债交易数据和债权股权模型，研究盈利公告后的价格漂移。债券样本中，交易较活跃的债券漂移更明显，作者也比较信用违约互换与股票表现，并用投资者分歧和证券收益结构解释差异。跨资产比较不能概括为所有股票都不存在公告后漂移。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E7%9B%88%E5%88%A9%E5%85%AC%E5%91%8A&amp;show-results=1" title="全站搜索：盈利公告">盈利公告</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1287-mnsc-2024-07966">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07966" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>同事被列为诉讼被告，会改变审计师行为吗？</h3>
-<p class="catalog-citation">Christensen, B. E.; Lundstrom, N. G.; Newton, N. J. (2026). Could That Happen to Me? Auditor Response When Colleagues Are Named in Lawsuits. CAR.</p><p class="catalog-meta">发表日期：2026-10-13 · 收录日期：2026-10-18</p>
-<p class="catalog-meta">期次日期：2026-10-18</p>
-<p>论文比较审计合伙人与事务所共同被诉、以及仅事务所被诉的情形，关注同一办公室内未被起诉合伙人的反应。摘要报告，前一种情形下，其他合伙人对现有客户的审计质量和收费提高，客户选择也更谨慎。研究将个人声誉与诉讼风险传导落实到同事关系，适合关注审计行为和组织内部外溢的读者。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：审计质量">审计质量</a> · <a class="tag-link" href="?q=%E8%AF%89%E8%AE%BC%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：诉讼风险">诉讼风险</a></p>
-<p class="catalog-actions"><a href="../issues/20261018/#paper-10-1111-1911-3846-70093">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>政策会改变关系网络时，怎样学习最优分配？</h3>
+<p class="catalog-citation">Chen, Z.; You, Z. (2026). Policy Learning with Network-Shaping Assignments. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-21 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>政策分配可能先改变人与人的网络，再影响结果。论文将政策价值写为对分配后网络分布的整合，建立识别条件、插件估计量与遗憾界，并以座位安排和商业群组说明应用。福利改善属于模型预测，依赖网络形成与结果模型，不能视作随机实验已经实现的收益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：网络干预">网络干预</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-arxiv-2610-29221">查看本期</a><a href="https://arxiv.org/abs/2610.29221" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>自回归工具变量下的短面板随机化推断</h3>
-<p class="catalog-citation">Picchetti, P. (2026). Randomization Inference for Dynamic Causal Effects in Short Panels with Autoregressive Instruments. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-13 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>论文讨论个体多、时期少且处理内生的面板，在工具变量的创新满足随机分配条件时构造动态效应检验。未知持续性同时影响目标加权效应和随机化分布，作者对候选持续性参数的 p 值取上确界，并分别研究强原假设与弱原假设。该思路依赖明确的工具分配机制，不是对任意持久性工具变量通用的检验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%AD%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：短面板">短面板</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#arxiv-2610-19075">查看本期</a><a href="https://arxiv.org/abs/2610.19075" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>投资者的政治倾向与企业气候行动</h3>
+<p class="catalog-citation">Liu, C.; Shi, W. (2026). Investors&#x27; ideology and corporate symbolic and substantive climate actions. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>论文以 Russell 3000 公司为样本，区分企业的象征性与实质性气候行动。作者发现，投资者政治捐款所反映的倾向与企业气候表态之间的关系随时期变化，而实质行动还与投资者持续性、持股特征和公司治理有关。政治倾向的代理指标及相关性边界值得细读。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E8%A1%8C%E5%8A%A8&amp;show-results=1" title="全站搜索：气候行动">气候行动</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1002-smj-70137">查看本期</a><a href="https://doi.org/10.1002/smj.70137" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>空间数据监测该使用哪个地理尺度？</h3>
-<p class="catalog-citation">Yang, K.; Qiu, P. (2026). Multiscale Spatio-Temporal Data Monitoring Using Forward Elimination and Scale Information Criterion. JASA.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>同一时空过程可以按州、县或更细区域观察，单一地理尺度可能遗漏异常。作者先在不同尺度识别异常区域，再用尺度信息准则选择当前监测尺度并构造控制图统计量；前向剔除用于减少搜索负担。适合关注区域数据与动态异常监测的读者。摘要依据作者公开稿，方法性能未作独立复现，异常检测也不等于政策效应识别。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%97%B6%E7%A9%BA%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：时空数据">时空数据</a> · <a class="tag-link" href="?q=%E5%BC%82%E5%B8%B8%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：异常监测">异常监测</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#paper-10-1080-01621459-2026-2742473">查看本期</a><a href="https://users.phhp.ufl.edu/pqiu/research/YangQ26.pdf" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>小额奖励能持续促进捐赠吗？</h3>
+<p class="catalog-citation">Bruers, S.; Ooghe, E.; Schokkaert, E. (2026). The Effect of Small Quasi-Cash Rewards on Prosocial Behavior: The Case of Voluntary Plasma Donations. Management Science.</p><p class="catalog-meta">发表日期：2026-10-12 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>论文在比利时红十字会中心开展随机现场实验，比较奖励提醒与额外优惠券对血浆捐赠的影响。提醒的效果随重复而减弱，额外奖励在实施期间有效，撤去后效果消失，并伴随对全血捐赠的挤出。评估激励需要同时考察持续性与对其他行为的替代。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：行为激励">行为激励</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1287-mnsc-2024-08081">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08081" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>稀疏网络中，节点特征如何解释连接差异？</h3>
-<p class="catalog-citation">Gao, Z. et al. (2026). Popularity Regression-Based Latent Space Model for Large-Scale Sparse Network Analysis. JASA.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>论文研究含节点特征的受欢迎程度回归潜空间模型。作者分别利用节点度数等一阶信息，以及互惠性、传递性等高阶网络结构构造估计量，并讨论不同估计量的收敛性质。该框架有助于理解大规模稀疏网络中的连接异质性；引用网络的预测示例属于模型应用，不能据此作网络因果效应解释。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：网络分析">网络分析</a> · <a class="tag-link" href="?q=%E6%BD%9C%E7%A9%BA%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：潜空间模型">潜空间模型</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#paper-10-1080-01621459-2026-2744404">查看本期</a><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2744404" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>客户遭遇网络攻击后，审计师怎样调整人才需求？</h3>
+<p class="catalog-citation">Li, B. et al. (2026). Auditors&#x27; Response to Clients&#x27; Cyber Breaches: A Human‐Capital Perspective. CAR.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>论文利用网络招聘信息，考察审计事务所办公室面对客户网络安全事件时的用人反应。研究发现，相关办公室增加网络安全专业人员需求，反应随客户关系和信息泄露类型变化；网络安全人力投入也与高风险客户市场份额的维持有关。这是摘要报告的经验关系，不应直接解释为招聘的因果收益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：审计">审计</a> · <a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8&amp;show-results=1" title="全站搜索：网络安全">网络安全</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1111-1911-3846-70092">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70092" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>移民流入与美国工会的形成</h3>
-<p class="catalog-citation">Medici, C. (2026). Closing Ranks: Organized Labor and Immigration. JPE.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>作者将历史档案整理为美国县级工会数据，研究移民流入与工会形成的关系，并采用 shift-share 工具变量讨论劳动供给冲击。研究把劳动力竞争与劳动者组织化联系起来，适合关注移民、劳动制度及历史数据的读者。这里依据作者公开稿摘要介绍研究设计，期刊在线信息另据出版社登记，不把档案相关性直接解释为普遍规律。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%BB%E6%B0%91&amp;show-results=1" title="全站搜索：移民">移民</a> · <a class="tag-link" href="?q=%E5%B7%A5%E4%BC%9A&amp;show-results=1" title="全站搜索：工会">工会</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#paper-10-1086-744504">查看本期</a><a href="https://carlomedici.github.io/home/CarloMedici_JMP.pdf" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>公司发行股票与回购股票，为何并不对称？</h3>
+<p class="catalog-citation">Bond, P.; Yuan, Y.; Zhong, H. (2026). Share Issues vs. Share Repurchases. Management Science.</p><p class="catalog-meta">发表日期：2026-10-21 · 收录日期：2026-10-22</p>
+<p class="catalog-meta">期次日期：2026-10-22</p>
+<p>论文用企业比投资者掌握更多信息的理论框架，比较发行与回购决策。模型解释不同发行方式与公开市场回购的差异，并指出回购偏离最优的方向取决于企业重视长期价值还是短期股价。结论依赖模型假设，不能直接当作企业回购的政策判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：公司金融">公司金融</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a></p>
+<p class="catalog-actions"><a href="../issues/20261022/#paper-10-1287-mnsc-2025-03301">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.03301" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>相关抽样下，如何为 SGD 估计标准误？</h3>
-<p class="catalog-citation">Roy, A.; Balasubramanian, K. (2026). Online covariance estimation for stochastic gradient descent under Markovian sampling. JASA.</p><p class="catalog-meta">发表日期：2026-10-14 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>随机梯度下降所用数据未必独立。论文研究马尔可夫抽样下的在线重叠批均值协方差估计，区分状态相关与状态无关的抽样机制，并以线性、Logit 回归展示置信区间构造。它帮助读者区分优化算法收敛与估计不确定性。摘要来自对应 arXiv 作者版本，不能直接将独立样本公式套用于相关数据。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D&amp;show-results=1" title="全站搜索：随机梯度下降">随机梯度下降</a> · <a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：相关数据">相关数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#paper-10-1080-01621459-2026-2743842">查看本期</a><a href="https://arxiv.org/abs/2308.01481" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>高持续性面板局部投影：偏差校正后如何计算标准误？</h3>
+<p class="catalog-citation">Dhaene, Geert; Juodis, Arturas (2026). Almost Uniform Bias Correction for Persistent Panel Local Projections. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-19 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文研究含自回归控制变量的面板局部投影，允许目标变量和控制变量具有较强持续性。理论分析支持半面板 jackknife 在超出平稳情形时的偏差修正性质，同时强调标准误必须反映校正带来的抽样不确定性，不能直接沿用未经调整的标准误。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%81%8F%E5%B7%AE%E6%A0%A1%E6%AD%A3&amp;show-results=1" title="全站搜索：偏差校正">偏差校正</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#arxiv-2610-26427">查看本期</a><a href="https://arxiv.org/abs/2610.26427" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>机器学习预测值作因变量，如何处理生成误差？</h3>
-<p class="catalog-citation">Escanciano, J. C.; Puerta-Cuartas, A. (2026). Locally Robust Inference with Outcomes Predicted by Machine Learning. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-15 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>论文关注把机器学习生成的结果变量继续用于计量估计的情形，构造三步局部稳健 GMM 框架，将前两步估计的影响纳入去偏矩条件。它把预测准确性与后续参数推断区分开来，适用于生成指标、代理结果等研究设计。这里介绍工作论文摘要中的方法思路；有效性依赖识别及正则条件，不能靠预测精度自动保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：生成变量">生成变量</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#arxiv-2610-21756">查看本期</a><a href="https://arxiv.org/abs/2610.21756" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>遏制利润转移的税制，会推动海外实体投资吗？</h3>
+<p class="catalog-citation">Huang, J.; Osswald, B.; Wilson, R. J. (2026). The Effect of Global Intangible Low-Taxed Income Tax on U.S. Multinational Companies’ Cross-Border Tangible Investments. TAR.</p><p class="catalog-meta">发表日期：2026-10-07 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文研究美国 GILTI 税制对跨国企业实体投资的影响。作者根据公开财务报表构建事前识别策略，发现企业增加海外有形投资，但未发现国内有形投资显著下降，并考察境内外创新变化。研究提示，限制利润转移的税收规则可能同时改变真实投资激励。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E7%A8%8E%E6%94%B6&amp;show-results=1" title="全站搜索：国际税收">国际税收</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%9B%BD%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：跨国企业">跨国企业</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-2308-tar-2024-0158">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0158" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>多数投票得到的标签一定更好吗？</h3>
-<p class="catalog-citation">Cheng, C.; Asi, H.; Duchi, J. (2026). How many labelers do you have? A closer look at gold-standard labels. JASA.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>同一对象的多个标签通常先被合并成一个金标准标签。作者用理论模型比较合并标签与保留逐个标注的信息，指出两种处理方式在稳健性和收敛速度上存在条件性的权衡。对文本标注和机器学习数据建设，启发是同时保存标注者与原始标签。摘要依据对应 arXiv 作者版本；期刊在线日期依据出版社元数据，不能把旧工作论文首次发布日期当作本次期刊日期。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：数据标注">数据标注</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#paper-10-1080-01621459-2026-2744433">查看本期</a><a href="https://arxiv.org/abs/2206.12041" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>远程协作怎样形成心理安全感？</h3>
+<p class="catalog-citation">Conzon, V. M. (2026). Repatterning Interactions in Remote Work Environments: Bolstering Psychological Safety Through Mutually Humanizing Self-Disclosure. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-08 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>基于专业服务组织从线下转向远程工作的纵向质性资料，作者提出成员相互自我披露、增进对彼此生活处境的理解，进而增强心理安全感的过程模型。相关协作实践兼顾任务协调和时间地点灵活性。这是机制性解释，不能直接视为远程办公的平均因果效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC&amp;show-results=1" title="全站搜索：远程办公">远程办公</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：组织行为">组织行为</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-orsc-2024-19818">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19818" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>厚尾误差下的高维回归推断</h3>
-<p class="catalog-citation">Zhang, Y. et al. (2026). Partial Gini Covariance-based Robust Inference for High-dimensional Linear Models with Heavy-tailed Errors. JASA.</p><p class="catalog-meta">发表日期：2026-10-09 · 收录日期：2026-10-17</p>
-<p class="catalog-meta">期次日期：2026-10-17</p>
-<p>论文以偏 Gini 协方差构造高维线性回归推断，处理厚尾、可能不对称的随机误差。方法避免直接估计误差密度，并讨论单个系数与系数组的检验。适合把稳健估计与统计推断分开理解的读者；本文仅介绍摘要所述框架，具体矩条件、维度限制和有限样本表现须结合原文判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：高维回归">高维回归</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：稳健推断">稳健推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261017/#paper-10-1080-01621459-2026-2744399">查看本期</a><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2744399" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>运输监测更精准，食品浪费一定更少吗？</h3>
+<p class="catalog-citation">Lu, T. (2026). Shipment Monitoring, Allocation, and the Impact on Food Waste. Management Science.</p><p class="catalog-meta">发表日期：2026-10-15 · 收录日期：2026-10-21</p>
+<p class="catalog-meta">期次日期：2026-10-21</p>
+<p>论文建立采购与两地市场分配模型，分析监测鲜活产品状态后如何按剩余保质期安排运输。监测可改善分配效率，却也可能诱发更多采购，使浪费总量上升。浪费率下降与浪费总量下降应分别评估，结论依赖模型中的采购和运输条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E9%A3%9F%E5%93%81%E6%B5%AA%E8%B4%B9&amp;show-results=1" title="全站搜索：食品浪费">食品浪费</a></p>
+<p class="catalog-actions"><a href="../issues/20261021/#paper-10-1287-mnsc-2024-07382">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07382" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-7.html">上一页</a><span aria-current="page">第 8 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-9.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

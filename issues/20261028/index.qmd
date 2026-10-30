@@ -1,0 +1,223 @@
+---
+title: "连享会 · 快讯 | 2026.10.28"
+body-classes: issue-page
+toc-depth: 3
+---
+
+<small class="backfill-note">本期于 2026-10-31 补录。</small>
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 用 AI 开展大规模定性访谈 {#paper-10-1093-restud-rdag114}
+
+<p class="myapa">Geiecke, F. &amp; Jaravel, X. (2026). Conversations at scale: robust AI-led interviews. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag114" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Conversations%20at%20scale%3A%20robust%20AI-led%20interviews" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+如何在保留开放式回答的同时扩大访谈规模？文章提出包括语音形式在内的 AI 访谈方案，并通过人类专家比较和受访者质量指标评估稳健性。应用涉及决策因素、政治态度、主观状态和政策心理模型，适合作为定量问卷之外的研究设计参考。 摘要支持访谈测量与探索用途，不能据此把 AI 回答质量等同于因果识别或所有人群中的测量有效性。
+
+标签：<a class="tag-link" href="?q=AI%20%E8%AE%BF%E8%B0%88&amp;show-results=1" title="全站搜索：AI 访谈">AI 访谈</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：测量">测量</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 控制混杂变量后，如何比较两组分布？ {#paper-10-1093-biomet-asag062}
+
+<p class="myapa">Lee, S., Cha, S., &amp; Kim, I. (2026). General frameworks for conditional two-sample testing. Biometrika. <a href="https://doi.org/10.1093/biomet/asag062" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=General%20frameworks%20for%20conditional%20two-sample%20testing" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+两组样本的分布不同，可能只是协变量构成不同。文章针对控制混杂变量后的条件分布比较，先说明无充分假设时的检验难度，再给出条件独立检验转换与密度比估计两条路径，并以分类和核方法展示实现思路。 条件分布比较不自动构成因果效应识别；有效性、功效与密度比估计仍依赖各框架的假设。
+
+标签：<a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：条件检验">条件检验</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：协变量">协变量</a> · <a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：分布比较">分布比较</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### causalfrag：敏感性指标一致，不等于独立证据 {#tool-causalfrag-0-2-1}
+
+causalfrag 在 OLS 模型标准误下，用 <code>crosswalk()</code> 对照由同一 t 统计量和残差自由度计算的稳健性值、ITCV 与替换比例，解释不同指标为何常给出相近判断。这种一致性部分来自共享输入，不能当作多种方法独立支持因果结论。官方文档已弃用将指标重复合成单一分数的做法。安装为 <code>install.packages(&quot;causalfrag&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E6%9C%AA%E8%A7%82%E6%B5%8B%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：未观测混杂">未观测混杂</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+<a href="https://cran.r-project.org/package=causalfrag" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### LeaveOutKSS：给雇员—企业效应方差分解做留出校正 {#tool-leaveoutkss-0-1-1}
+
+LeaveOutKSS 将 KSS 留出方差分量估计整理为 R 工作流：先筛选流动网络的连通样本，再对雇员效应、企业效应及其协方差做杠杆值偏差校正，支持控制变量和随机近似。它适合匹配雇员—企业面板，不能把估计出的固定效应直接当作无误差真值；剪枝也会改变分析样本。安装为 <code>install.packages(&quot;LeaveOutKSS&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：双向固定效应">双向固定效应</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：方差分解">方差分解</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+<a href="https://cran.r-project.org/package=LeaveOutKSS" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 供应中断时，企业为什么可能主动惜售？ {#paper-10-1093-restud-rdag119}
+
+<p class="myapa">Häfner, S. &amp; Taylor, C. R. (2026). Price gouging and the monopoly option. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag119" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Price%20gouging%20and%20the%20monopoly%20option" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+供应中断不仅减少现有供给，还可能改变企业等待竞争者耗尽库存的动机。文章用动态寡头模型分析这一垄断机会，并比较价格上限、政府储备与企业储备要求对价格、库存和福利的影响。 结论是特定动态市场模型的比较静态，政策判断还要核对实际市场结构和储备成本。
+
+标签：<a class="tag-link" href="?q=%E5%AF%A1%E5%A4%B4%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：寡头竞争">寡头竞争</a> · <a class="tag-link" href="?q=%E5%BA%93%E5%AD%98&amp;show-results=1" title="全站搜索：库存">库存</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 谁主动参加金融教育，谁从中受益？ {#paper-10-1287-mnsc-2024-08268}
+
+<p class="myapa">Gemmo, I., Michaud, P. C., &amp; Mitchell, O. S. (2026). Selection into financial education and effects on portfolio choice. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.08268" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Selection%20into%20financial%20education%20and%20effects%20on%20portfolio%20choice" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+金融教育的平均效果可能同时反映课程作用与参加者的自我选择。文章直接测量参与支付意愿，并使用带激励的投资组合任务构造与风险偏好相适应的决策质量指标，比较不同参与意愿人群的收益。 摘要讨论特定投资技能与实验任务，不能直接推断所有金融教育项目或真实长期投资收益。
+
+标签：<a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：金融教育">金融教育</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：样本选择">样本选择</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：项目评估">项目评估</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 数据外推技术会把科研引向哪里？ {#paper-10-1287-mnsc-2023-04115}
+
+<p class="myapa">Kim, S. (2026). Navigating the rugged data landscape: the impact of data-extrapolation technologies on knowledge production. Management Science. <a href="https://doi.org/10.1287/mnsc.2023.04115" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Navigating%20the%20rugged%20data%20landscape%3A%20the%20impact%20of%20data-extrapolation%20technologies%20on%20knowledge%20production" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+数据外推工具的适用范围往往受既有数据分布约束。文章利用技术出现前不同研究领域的数据可得性差异，分析技术可以使用与不能使用的领域如何产生不同的科研响应，并区分研究数量、方法严谨性和后续知识贡献。 结论来自结构生物学技术情境，不能直接概括为所有 AI 工具的科研效应；识别细节需要正文核对。
+
+标签：<a class="tag-link" href="?q=%E7%A7%91%E5%AD%A6%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：科学计量">科学计量</a> · <a class="tag-link" href="?q=AI%20%E4%B8%8E%E7%A7%91%E7%A0%94&amp;show-results=1" title="全站搜索：AI 与科研">AI 与科研</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E5%BE%97%E6%80%A7&amp;show-results=1" title="全站搜索：数据可得性">数据可得性</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 审计合伙人的非审计业务持股与审计质量 {#paper-10-2308-tar-2025-0720}
+
+<p class="myapa">Lennox, C. S., Qi, Z., &amp; Wu, X. (2026). Audit quality and audit partner ownership of non-audit businesses: evidence from China. The Accounting Review, 1-27. <a href="https://doi.org/10.2308/tar-2025-0720" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Audit%20quality%20and%20audit%20partner%20ownership%20of%20non-audit%20businesses%3A%20evidence%20from%20China" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+评价审计独立性时，服务收入之外的股权利益也可能重要。研究在可观察合伙人跨业务持股的中国情境中，分析非审计业务所有权与审计调整的关系，并讨论合伙人层面及事务所层面的利益联系。 使用专有数据，不能据摘要声称公开可复现；观察到的关系及替代解释须结合正文识别设计判断。
+
+标签：<a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%8B%AC%E7%AB%8B%E6%80%A7&amp;show-results=1" title="全站搜索：审计独立性">审计独立性</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E4%B8%AD%E5%9B%BD%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：中国数据">中国数据</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 招聘筛选器会降低成本，还是转移成本？ {#paper-10-1287-orsc-2024-19407}
+
+<p class="myapa">Barach, M. A. (2026). Filtering the labor pool: how digitalization redistributes hiring costs. Organization Science. <a href="https://doi.org/10.1287/orsc.2024.19407" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Filtering%20the%20labor%20pool%3A%20how%20digitalization%20redistributes%20hiring%20costs" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+数字筛选器可能减少初筛工作，却使招聘者集中追逐带有相似可见信号的求职者。文章结合在线市场随机现场实验与机器学习质量代理，区分搜索筛选阶段和发出录用通知阶段，说明成本可能在招聘流程内重新分配。 机器学习质量代理不能等同于完整劳动生产率，部分录用结果在摘要中仅表述为提示性证据。
+
+标签：<a class="tag-link" href="?q=%E6%8B%9B%E8%81%98&amp;show-results=1" title="全站搜索：招聘">招聘</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%B9%B3%E5%8F%B0&amp;show-results=1" title="全站搜索：数字平台">数字平台</a>
+
+<small>来源日期：2026-10-21；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 信息不占优的分析师如何应对竞争？ {#paper-10-2308-tar-2025-0183}
+
+<p class="myapa">Peyravan, L., Rountree, B., &amp; Sivaramakrishnan, K. (2026). Balancing act: how unaffiliated analysts navigate private information disadvantages. The Accounting Review, 1-25. <a href="https://doi.org/10.2308/tar-2025-0183" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Balancing%20act%3A%20how%20unaffiliated%20analysts%20navigate%20private%20information%20disadvantages" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+面对其他分析师的私人信息优势，跟随预测与增加公开信息搜集是两种不同响应。文章利用银团贷款中的分析师与贷款机构关系，结合预测行为和 SEC EDGAR 日志，讨论信息获取、研究精力分配及预测信息含量之间的联系。 机构关联和访问日志属于代理变量；摘要不能替代对识别假设及信息获取测量误差的审查。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88&amp;show-results=1" title="全站搜索：分析师">分析师</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86&amp;show-results=1" title="全站搜索：信息搜集">信息搜集</a> · <a class="tag-link" href="?q=EDGAR&amp;show-results=1" title="全站搜索：EDGAR">EDGAR</a>
+
+<small>来源日期：2026-10-20；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 合成控制的设定选择会怎样改变就业效应估计？ {#paper-nber-w35931}
+
+<p class="myapa">Clemens, J., Edwards, O., Meer, J., &amp; Nguyen, J. D. (2026). We just created more than 1,000 synthetic controls to study California&#x27;s $20 fast food minimum wage. NBER Working Paper No. 35931. <a href="https://doi.org/10.3386/w35931" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=We%20just%20created%20more%20than%201%2C000%20synthetic%20controls%20to%20study%20California%27s%20%2420%20fast%20food%20minimum%20wage" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+研究者围绕同一最低工资政策构造大量可辩护的合成控制设定，比较设定变化如何影响就业效应估计，再与较透明的双重差分结果对照。文章把研究者自由度与反事实拟合放在同一框架下检查，适合用于设计敏感性分析和解释稳健性结果。 这是特定政策案例的设定敏感性研究；不能概括为所有合成控制应用都不可靠，也不能由处理前拟合直接推断识别成立。
+
+标签：<a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%80%85%E8%87%AA%E7%94%B1%E5%BA%A6&amp;show-results=1" title="全站搜索：研究者自由度">研究者自由度</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### AI 辅助计量理论推导：一个方法示例 {#paper-arxiv-2610-35831}
+
+<p class="myapa">Andrews, I. &amp; Mikusheva, A. (2026). AI in econometric theory: an example. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.35831" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.35831.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=AI%20in%20econometric%20theory%3A%20an%20example" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+以弱工具变量下两阶段最小二乘的可容许性问题为例，记录 LLM 参与计量理论研究的过程，并讨论这一研究方式可能对领域产生的影响。文章把具体理论问题与研究过程放在一起，适合用于讨论 AI 辅助推导时的核查和责任分工。 官方摘要主要说明研究主题与写作过程，没有呈现完整证明；不能把这个案当作 LLM 能独立可靠完成理论研究的证据。
+
+标签：<a class="tag-link" href="?q=AI%20%E8%BE%85%E5%8A%A9%E7%A7%91%E7%A0%94&amp;show-results=1" title="全站搜索：AI 辅助科研">AI 辅助科研</a> · <a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E7%90%86%E8%AE%BA&amp;show-results=1" title="全站搜索：计量理论">计量理论</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### RobustMediate：连续处理的中介效应与敏感性诊断 {#tool-robustmediate-0-3-0}
+
+RobustMediate 对连续处理用 g-computation 估计自然直接、间接效应，并提供剂量曲线、聚类 bootstrap 和平衡诊断。文档另用中介—结果模型误差相关参数及偏 R 平方衡量敏感性。误差相关分析仅适用于特定线性模型，交互或变换项可能使其跳过；诊断输出不能替代中介识别假设。安装为 <code>install.packages(&quot;RobustMediate&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+<a href="https://cran.r-project.org/package=RobustMediate" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

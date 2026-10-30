@@ -3,6 +3,7 @@ from lianxh_exclusions import screen_post, normalized_url
 from datetime import date, datetime, timedelta, timezone
 import re
 from urllib.parse import urlsplit
+from issue_dates import issue_date_errors, review_date
 
 CST = timezone(timedelta(hours=8), 'Asia/Shanghai')
 IMPORTANT = {'correction', 'retraction', 'results-fix', 'postponement', 'cancellation'}
@@ -132,8 +133,15 @@ def assess(item, category, history, as_of):
     return sorted(set(errors))
 
 def selection_errors(issue, history, as_of):
-    errors = []
-    if evaluation(as_of).date().isoformat() != issue.get('date'):
+    errors = issue_date_errors(issue)
+    actual_day = evaluation(as_of).date()
+    if 'backfill' in issue:
+        try:
+            if actual_day != review_date(issue):
+                errors.append('补刊 Asia/Shanghai as-of 须与实际 prepared_date 一致')
+        except (TypeError, ValueError):
+            pass  # issue_date_errors 已记录非法补刊元数据。
+    elif actual_day.isoformat() != issue.get('date'):
         errors.append('issue 日期与 Asia/Shanghai as-of 不一致')
     categories = ('lianxh_posts','papers','tools','research_resources','conference_calls')
     seen = set()

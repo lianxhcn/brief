@@ -13,6 +13,7 @@ from website_tags import tag_links
 from website_citations import website_citation, external_link
 from website_content import CATEGORY_LABELS, public_summary, inline_code
 from website_promotions import render_promotion
+from issue_dates import review_date
 
 
 def escape(value: object) -> str:
@@ -77,6 +78,8 @@ def render_page(issue: dict) -> str:
     lines.extend(['---', ''])
     if not public:
         lines.extend([f"测试状态：{issue['status'].upper()}", ''])
+    if 'backfill' in issue:
+        lines.extend([f'<small class="backfill-note">本期于 {review_date(issue).isoformat()} 补录。</small>', ''])
     if issue.get('short_issue'): lines.extend(['本期不足 10 条：' + escape(issue['short_issue']['reason']), ''])
     lines.extend(render_section(issue, 'core', '本期重点'))
     lines.extend(render_section(issue, 'extended', '延伸阅读'))

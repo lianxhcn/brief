@@ -1,143 +1,37 @@
-{
-  "project_title": "连享会快讯2026-10-17",
-  "repository_mode": "single",
-  "recommendation": "single",
-  "decision_reason": "沿用独立网站、版本和维护周期，score=4；不新建仓库",
-  "confidence": "high",
-  "local_root": "G:/codex_project/github_lianxh",
-  "project_path": "G:/codex_project/github_lianxh/lianxh-group-briefs",
-  "work_scope": "当期10条内容、微信短版、索引和分类分页；同步课程海报及过期公开课入口；保护已有治理文档及私有平台材料。",
-  "repository_name": "brief",
-  "remote_owner": "lianxhcn",
-  "remote_url": "https://github.com/lianxhcn/brief.git",
-  "visibility": "public",
-  "license": "pending",
-  "github_pages": {
-    "required": true,
-    "source": "既有 main push -> deploy-pages.yml",
-    "expected_url": "https://lianxhcn.github.io/brief/"
-  },
-  "preflight": {
-    "readme_required": true,
-    "ignore_checked": true,
-    "sensitive_content_checked": true,
-    "large_files_checked": true,
-    "minimal_verification": "本地完整回归、当期手机桌面检查、共享交付；部署后验证匹配提交及线上首页/期次/搜索。"
-  },
-  "approval": {
-    "create_remote": false,
-    "commit": true,
-    "push": true,
-    "deploy": true,
-    "source": "每日发布自动化已明确授权限定提交、推送及Pages部署。",
-    "validity": "2026-10-17 日常发布"
-  },
-  "files": [
-    "archive.qmd",
-    "config/promotions.json",
-    "config/website-content.json",
-    "content/issues/2026-10-17.json",
-    "history/20260815-20260907/index.qmd",
-    "index.qmd",
-    "issues/20260904/index.qmd",
-    "issues/20260905/index.qmd",
-    "issues/20260908/index.qmd",
-    "issues/20260909/index.qmd",
-    "issues/20260910/index.qmd",
-    "issues/20260911/index.qmd",
-    "issues/20260912/index.qmd",
-    "issues/20260913/index.qmd",
-    "issues/20260914/index.qmd",
-    "issues/20260915/index.qmd",
-    "issues/20260916/index.qmd",
-    "issues/20260917/index.qmd",
-    "issues/20260918/index.qmd",
-    "issues/20260919/index.qmd",
-    "issues/20260920/index.qmd",
-    "issues/20260921/index.qmd",
-    "issues/20260922/index.qmd",
-    "issues/20260923/index.qmd",
-    "issues/20260924/index.qmd",
-    "issues/20260925/index.qmd",
-    "issues/20260926/index.qmd",
-    "issues/20260927/index.qmd",
-    "issues/20260928/index.qmd",
-    "issues/20260929/index.qmd",
-    "issues/20260930/index.qmd",
-    "issues/20261001/index.qmd",
-    "issues/20261002/index.qmd",
-    "issues/20261003/index.qmd",
-    "issues/20261004/index.qmd",
-    "issues/20261005/index.qmd",
-    "issues/20261006/index.qmd",
-    "issues/20261007/index.qmd",
-    "issues/20261008/index.qmd",
-    "issues/20261009/index.qmd",
-    "issues/20261010/index.qmd",
-    "issues/20261011/index.qmd",
-    "issues/20261012/index.qmd",
-    "issues/20261013/index.qmd",
-    "issues/20261014/index.qmd",
-    "issues/20261015/index.qmd",
-    "issues/20261016/index.qmd",
-    "issues/20261017/index.qmd",
-    "publish/wechat/2026-10-17.txt",
-    "repo-plan.yml",
-    "topics/academic-updates-2.qmd",
-    "topics/academic-updates-3.qmd",
-    "topics/academic-updates.qmd",
-    "topics/index.qmd",
-    "topics/lianxh-new-2.qmd",
-    "topics/lianxh-new-3.qmd",
-    "topics/lianxh-new-4.qmd",
-    "topics/lianxh-new-5.qmd",
-    "topics/lianxh-new-6.qmd",
-    "topics/lianxh-new-7.qmd",
-    "topics/lianxh-new.qmd",
-    "topics/methods-tools-2.qmd",
-    "topics/methods-tools-3.qmd",
-    "topics/methods-tools-4.qmd",
-    "topics/methods-tools-5.qmd",
-    "topics/methods-tools-6.qmd",
-    "topics/methods-tools-7.qmd",
-    "topics/methods-tools-8.qmd",
-    "topics/methods-tools.qmd",
-    "topics/research-frontier-10.qmd",
-    "topics/research-frontier-11.qmd",
-    "topics/research-frontier-12.qmd",
-    "topics/research-frontier-13.qmd",
-    "topics/research-frontier-14.qmd",
-    "topics/research-frontier-15.qmd",
-    "topics/research-frontier-16.qmd",
-    "topics/research-frontier-17.qmd",
-    "topics/research-frontier-18.qmd",
-    "topics/research-frontier-19.qmd",
-    "topics/research-frontier-2.qmd",
-    "topics/research-frontier-20.qmd",
-    "topics/research-frontier-21.qmd",
-    "topics/research-frontier-22.qmd",
-    "topics/research-frontier-23.qmd",
-    "topics/research-frontier-24.qmd",
-    "topics/research-frontier-25.qmd",
-    "topics/research-frontier-26.qmd",
-    "topics/research-frontier-27.qmd",
-    "topics/research-frontier-28.qmd",
-    "topics/research-frontier-29.qmd",
-    "topics/research-frontier-3.qmd",
-    "topics/research-frontier-30.qmd",
-    "topics/research-frontier-31.qmd",
-    "topics/research-frontier-32.qmd",
-    "topics/research-frontier-33.qmd",
-    "topics/research-frontier-34.qmd",
-    "topics/research-frontier-35.qmd",
-    "topics/research-frontier-36.qmd",
-    "topics/research-frontier-4.qmd",
-    "topics/research-frontier-5.qmd",
-    "topics/research-frontier-6.qmd",
-    "topics/research-frontier-7.qmd",
-    "topics/research-frontier-8.qmd",
-    "topics/research-frontier-9.qmd",
-    "topics/research-frontier.qmd",
-    "scripts/test_website_final_review.py"
-  ]
-}
+task: notebook-recovery-and-backfill-20261031
+repository_mode: single
+mode_reason: continue existing independent public website and version history
+confidence: high
+local_path: D:/github_lianxh/brief
+repository: lianxhcn/brief
+remote: https://github.com/lianxhcn/brief.git
+branch: main
+expected_base: 456f2ec859a9c318434bdb2f18c92b219bd5e5e9
+visibility: public
+license: unchanged
+pages: existing GitHub Actions deployment
+public_url: https://lianxhcn.github.io/brief/
+authorization: explicit user approval for commit, push, Pages and shared file copies
+work_scope:
+  - scripts/: explicit backfill date handling, rendering, delivery and tests
+  - content/issues/2026-10-28.json through 2026-10-31.json
+  - issues/20261028/ through issues/20261031/
+  - publish/wechat/: four reviewed editions
+  - config/website-content.json: reviewed summary fingerprints
+  - index.qmd, archive.qmd, topics/: generated indices and pagination
+  - docs/decision-log.md and docs/automation-rules.md: one-time backfill scope
+  - repo-plan.yml
+excluded:
+  - ops-local/, logs/, .venv/, _site/, .quarto/
+  - private candidates, original evidence, third-party PDFs and credentials
+  - shared paths and personal distribution configuration
+publication_rules:
+  - content dates and actual verification/publication times remain distinct
+  - old different shared drafts are preserved with explicit revision names
+  - no scheduler activation or automatic platform sending
+  - tests, full build and browser review precede remote update
+git_actions:
+  - verify local and remote main and preserve concurrent changes
+  - stage only the final reviewed explicit file manifest
+  - create one meaningful commit and advance main without force
+  - verify the exact commit Pages run and live routes/search

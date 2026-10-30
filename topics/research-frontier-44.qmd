@@ -1,0 +1,98 @@
+---
+title: "新论文 · 第 44 页"
+---
+
+<!-- 此文件由 scripts/build_catalog_pages.py 从真实 published 期次生成。 -->
+
+<p class="catalog-intro"></p>
+
+<p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
+
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-43.html">上一页</a><span aria-current="page">第 44 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-45.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
+
+<div class="catalog-grid">
+<article class="catalog-card">
+<h3>A/B 测试显著以后，是否就该上线？</h3>
+<p class="catalog-citation">Farrell, M. H.; Korganbekova, M.; Misra, S. (2026). Robust A/B Decisions. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-07 · 收录日期：2026-09-10</p>
+<p class="catalog-meta">期次日期：2026-09-10</p>
+<p>论文区分实验样本中的均值检验与未来部署环境中的经济决策，对实验结果附近的分布加入模糊性惩罚，形成保守的上线规则。它将对实验外推的信任程度明确为一个参数，并用广告实验资料评估决策。适合讨论上线收益与分布变化，不能据此将所有显著性检验视为无用。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：计量方法">计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=A%2FB%20%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：A/B 测试">A/B 测试</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：稳健决策">稳健决策</a> · <a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：分布变化">分布变化</a></p>
+<p class="catalog-actions"><a href="../issues/20260910/#arxiv-2609-07633">查看本期</a><a href="https://arxiv.org/abs/2609.07633" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>配对实验中的二元结果如何做随机化推断？</h3>
+<p class="catalog-citation">Wilson, B. (2026). Randomization Inference for Matched Pairs with Binary Outcomes. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-03 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文针对二元结果的配对研究构造平均处理效应置信集，以配对内随机分配为依据，讨论如何利用解析的最不利配置简化检验。框架也延伸到 Rosenbaum 敏感性分析，帮助研究者区分随机实验推断与观察性匹配仍需承担的隐藏偏差假设。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%85%8D%E5%AF%B9%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：配对实验">配对实验</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#arxiv-2609-03227">查看本期</a><a href="https://arxiv.org/abs/2609.03227" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>网络有溢出时，实验结果能迁移到另一种分配政策吗？</h3>
+<p class="catalog-citation">Loomba, S.; Eckles, D. (2026). Off-policy causal estimation in networks. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-02 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文研究存在网络干扰时，如何用现有实验估计另一种处理分配政策下的因果量。作者利用假定的干扰结构构造迁移权重，分析政策变化、结构错设与权重方差之间的联系，并讨论保守方差估计。可用于理解提高干预覆盖率后，直接沿用原实验效应为何需要额外条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#arxiv-2609-02756">查看本期</a><a href="https://arxiv.org/abs/2609.02756" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>同样金额的补贴，现金和实物的消费反应相同吗？</h3>
+<p class="catalog-citation">Bonomo, T.; Ruffini, K. J.; Schanzenbach, D. W. (2026). Is a Dollar a Dollar? How Transfer Design Shapes Household Spending. NBER Working Paper 35698 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-08-28 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文将四类面向低收入家庭的转移支付与高频购物数据结合，在统一 DID 和事件研究框架下比较现金、实物以及一次性、持续性发放。它强调政策形式与支付频率也是研究设计的一部分；短期食品商店支出反应不能直接代表总消费或长期福利。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BD%AC%E7%A7%BB%E6%94%AF%E4%BB%98&amp;show-results=1" title="全站搜索：转移支付">转移支付</a> · <a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E6%B6%88%E8%B4%B9&amp;show-results=1" title="全站搜索：家庭消费">家庭消费</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#nber-w35698">查看本期</a><a href="https://www.nber.org/papers/w35698" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>RFS：长期利率如何通过寿险机构影响信用利差？</h3>
+<p class="catalog-citation">Li, Z. (2026). Long Rates, Life Insurers, and Credit Spreads. RFS.</p><p class="catalog-meta">发表日期：2026-08-31 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文研究寿险机构资产负债久期错配带来的传导渠道，结合债券收益率与基于期限的持有差异检验风险承担和组合调整。该框架有助于解释不同机构持仓下信用利差反应为何不同，使用时须核对期限错配方向和识别条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AF%BF%E9%99%A9%E6%9C%BA%E6%9E%84&amp;show-results=1" title="全站搜索：寿险机构">寿险机构</a> · <a class="tag-link" href="?q=%E4%B9%85%E6%9C%9F%E9%94%99%E9%85%8D&amp;show-results=1" title="全站搜索：久期错配">久期错配</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E5%88%A9%E5%B7%AE&amp;show-results=1" title="全站搜索：信用利差">信用利差</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag079">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag079/8777198" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>RFS：稳定币价格更稳定，为何仍可能发生挤兑？</h3>
+<p class="catalog-citation">Ma, Y.; Zeng, Y.; Zhang, A. L. (2026). Stablecoin Runs and the Centralization of Arbitrage. RFS.</p><p class="catalog-meta">发表日期：2026-09-03 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文结合稳定币赎回与套利集中度研究，分析发行人面临的权衡：套利效率提高有助于二级市场价格稳定，却也可能降低卖出冲击并增强挤兑动机。适合区分价格偏离与流动性风险，不能仅凭锚定价格稳定判断体系安全。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E5%B8%81&amp;show-results=1" title="全站搜索：稳定币">稳定币</a> · <a class="tag-link" href="?q=%E5%A5%97%E5%88%A9&amp;show-results=1" title="全站搜索：套利">套利</a> · <a class="tag-link" href="?q=%E6%8C%A4%E5%85%91&amp;show-results=1" title="全站搜索：挤兑">挤兑</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag072">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag072/8782924" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>RFS：ETF 资金流为何更追逐过去业绩？</h3>
+<p class="catalog-citation">Dannhauser, C.; Pontiff, J. (2026). Flow. RFS.</p><p class="catalog-meta">发表日期：2026-09-01 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文比较主动基金、指数基金与 ETF 的资金流对业绩的敏感性，并考察机构持有、从众及模型组合管理的作用。它提示被动投资工具也可能伴随主动择时行为；资金流和过去收益的关系不等于未来收益可预测。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=ETF&amp;show-results=1" title="全站搜索：ETF">ETF</a> · <a class="tag-link" href="?q=%E5%9F%BA%E9%87%91%E8%B5%84%E9%87%91%E6%B5%81&amp;show-results=1" title="全站搜索：基金资金流">基金资金流</a> · <a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-hhag080">查看本期</a><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag080/8778553" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>REStud：匹配有效率，为什么仍可能不稳定？</h3>
+<p class="catalog-citation">Agranov, M. et al. (2026). Paying to Match: Decentralized Markets with Information Frictions. REStud.</p><p class="catalog-meta">发表日期：2026-08-25 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文在带转移支付的一对一匹配实验中改变信息条件和剩余结构，区分配置效率与匹配稳定性。结果提示达成有效匹配并不保证支付安排能阻止重新配对；适合匹配市场教学与实验设计，不能把实验结论直接推广到所有现实市场。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：匹配市场">匹配市场</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：信息摩擦">信息摩擦</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：实验经济学">实验经济学</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-rdag094">查看本期</a><a href="https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag094/8770289" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>JF：公告时间由企业选择，收益率会怎样变化？</h3>
+<p class="catalog-citation">Back, K. et al. (2026). Discretionary Announcement Timing and Stock Returns. JF.</p><p class="catalog-meta">发表日期：2026-09-03 · 收录日期：2026-09-09</p>
+<p class="catalog-meta">期次日期：2026-09-09</p>
+<p>论文把企业自主选择信息披露时点纳入资产定价模型，解释公告前漂移、公告日跳跃与条件风险溢价之间的关系，并提供盈余公告时点的经验证据。适合提醒事件研究重视公告时点内生性；平均公告收益不能直接当作异常收益或投资策略。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
+<p class="catalog-actions"><a href="../issues/20260909/#paper-jofi-70073">查看本期</a><a href="https://onlinelibrary.wiley.com/doi/10.1111/jofi.70073" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>非参数双向异质性：代理变量何时能区分潜在类型？</h3>
+<p class="catalog-citation">Freeman, H.; Kristensen, D. (2026). Nonparametric identification of two-way unobserved heterogeneity. arXiv (working paper) (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-08-27 · 收录日期：2026-09-08</p>
+<p class="catalog-meta">期次日期：2026-09-08</p>
+<p>论文用双变量回归函数的奇异值分解构造潜在类型的代理变量，研究这些代理是否能够一一对应于双向未观测异质性。在把产生相同条件响应的类型归为等价类后，作者进一步给出有限个主导特征函数实现识别的条件。重点是识别所需的单射性，不能将其理解为任意少量因子都能控制所有异质性。</p>
+<p class="catalog-tags"><strong>方法：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：非参数识别">非参数识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：双向异质性">双向异质性</a></p>
+<p class="catalog-actions"><a href="../issues/20260908/#arxiv-2608-27155">查看本期</a><a href="https://arxiv.org/abs/2608.27155" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+</div>
+
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-43.html">上一页</a><span aria-current="page">第 44 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-45.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

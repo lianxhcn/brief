@@ -8,91 +8,91 @@ title: "新论文 · 第 24 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-23.html">上一页</a><span aria-current="page">第 24 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-25.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-23.html">上一页</a><span aria-current="page">第 24 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-25.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>品牌商代工自有品牌，会改变零售商的模仿策略吗？</h3>
-<p class="catalog-citation">Hou, Y. (2026). Accommodation in the vertical supply chain: Implications of manufacturer dual tracking. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-09-22 · 收录日期：2026-09-29</p>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>论文研究早餐谷物市场中一家品牌制造商同时向零售商供应品牌产品和自有品牌产品的变化。作者发现，零售商对直接模仿该制造商品牌的产品减少了推出和广告投入，并据此讨论纵向关系变化与议价能力。它提示研究者将代工关系、产品组合和竞争行为共同纳入分析，而非把自有品牌扩张仅理解为价格竞争。证据来自特定行业与关系变化，机制和结论外推仍需结合具体市场结构。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%9C%89%E5%93%81%E7%89%8C&amp;show-results=1" title="全站搜索：自有品牌">自有品牌</a> · <a class="tag-link" href="?q=%E8%AE%AE%E4%BB%B7%E8%83%BD%E5%8A%9B&amp;show-results=1" title="全站搜索：议价能力">议价能力</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#paper-smj-70123">查看本期</a><a href="https://doi.org/10.1002/smj.70123" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>用熵正则化最优传输计算部分识别界限</h3>
+<p class="catalog-citation">Costa, Bruno N.; Gunsilius, Florian F. (2026). Partial identification with entropy regularized optimal transport. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-30 · 收录日期：2026-10-04</p>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>工作论文将部分识别中的优化问题写成路径空间上的最优传输，再通过熵惩罚得到可用 Sinkhorn 迭代求解的多边际问题。作者讨论正则化值向锐界限的收敛、插件估计和近似界限的推断，并以需求估计展示应用。正则化带来的计算便利与界限近似误差需要同时评估，不能把有惩罚的数值结果直接当作未正则化的精确锐界限。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#arxiv-2609-40156">查看本期</a><a href="https://arxiv.org/abs/2609.40156" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>吉利数字如何影响金融市场定价？</h3>
-<p class="catalog-citation">Chang, J.; Du, H. (2026). Superstition Everywhere. Management Science.</p><p class="catalog-meta">发表日期：2026-09-23 · 收录日期：2026-09-29</p>
-<p class="catalog-meta">期次日期：2026-09-29</p>
-<p>论文比较中国股票、债券、外汇和商品期货市场中价格尾数的分布，考察数字偏好与市场参与者特征的关系。作者区分较成熟投资者面对模糊性时的锚定行为，以及非成熟投资者的过度乐观，并发现数字偏好与系统性误定价并非在所有市场同时出现。研究启发在于把行为模式、投资者结构和价格偏离分开考察；仅观察到某种尾数更常见，不能直接推出可获利的交易策略。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：行为金融">行为金融</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：数字偏好">数字偏好</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a></p>
-<p class="catalog-actions"><a href="../issues/20260929/#paper-mnsc-2025-01449">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.01449" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>灾后众筹能公平弥补家庭损失吗？</h3>
+<p class="catalog-citation">COOKSON, J. A.; GALLAGHER, E. A.; MULDER, P. (2026). Money to Burn: Crowdfunding Wildfire Recovery. JF.</p><p class="catalog-meta">发表日期：2026-09-29 · 收录日期：2026-10-04</p>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>论文将重大山火后的 GoFundMe 筹款活动与房产损失、家庭信用记录匹配，研究哪些家庭能发起众筹、获得捐款。作者在控制房产损失后仍观察到收入差异，并考察捐赠网络、异地联系、朋友倡议和社会压力渠道。研究提示社会资本可能影响非正式救济分配；这些匹配与机制证据不能说明所有灾害众筹都有相同效果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%81%BE%E5%AE%B3%E6%95%91%E6%B5%8E&amp;show-results=1" title="全站搜索：灾害救济">灾害救济</a> · <a class="tag-link" href="?q=%E4%BC%97%E7%AD%B9&amp;show-results=1" title="全站搜索：众筹">众筹</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：社会资本">社会资本</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70094">查看本期</a><a href="https://doi.org/10.1111/jofi.70094" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>预期信用损失披露，会改变对管理层的事后评价吗？</h3>
-<p class="catalog-citation">Koonce, L. et al. (2026). How Do Forward‐Looking Estimates of Credit Losses Affect the Judgments of Financial Statement Users? CAR.</p><p class="catalog-meta">发表日期：2026-09-22 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>预期信用损失模型把未来信用风险纳入当期估计，与基于已发生损失的会计模型有不同的信息时点。论文通过三项实验研究，提前预警是否降低实际损失发生后的意外感，进而缓和报表使用者的事后偏见及对贷款决策质量的负面评价。它为披露研究提供了信息时点、惊讶程度与责任归因之间的机制路径；这些实验结论不等同于预期信用损失模型在所有场景下都更准确。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E6%8D%9F%E5%A4%B1&amp;show-results=1" title="全站搜索：信用损失">信用损失</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BA%8B%E5%90%8E%E5%81%8F%E8%A7%81&amp;show-results=1" title="全站搜索：事后偏见">事后偏见</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#paper-1911-3846-70090">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70090" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>政治环境如何影响投资者对社会责任议案的投票？</h3>
+<p class="catalog-citation">GORMLEY, T. A.; JHA, M.; WANG, M. (2026). The Politicization of Social Responsibility. JF.</p><p class="catalog-meta">发表日期：2026-09-30 · 收录日期：2026-10-04</p>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>论文研究机构投资者对环境与社会议案的支持，比较企业总部所在州的政治领导、补贴和税收优惠环境，并考察同一州领导变化后的投票差异。作者将这些变化与议案对股东价值的含义联系起来。读者可借鉴企业政治环境与投票行为的匹配方式，但不能把政党差异简单视为机构偏好的纯粹变化。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E6%8A%95%E7%A5%A8&amp;show-results=1" title="全站搜索：股东投票">股东投票</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：社会责任">社会责任</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#paper-jofi-70093">查看本期</a><a href="https://doi.org/10.1111/jofi.70093" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>生成式搜索怎样改变消费者的提问与选择？</h3>
-<p class="catalog-citation">Zheng, S. et al. (2026). Generative Search: Evidence from a Large-Scale Field Experiment. Management Science.</p><p class="catalog-meta">发表日期：2026-09-24 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>论文利用美团平台的现场实验，研究搜索结果前展示生成式回答如何影响购买及后续搜索行为。作者把关注点前移到问题表述：用户可以先用自然语言表达需求，再形成关键词，随后缩小探索范围并集中评价相关商家。摘要所列证据有助于研究 AI 如何改变信息搜寻过程；其中机制解释与实验直接识别的总体处理效应需区分，结果也不能直接外推为学术检索准确性或研究质量提升。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8F%E6%90%9C%E7%B4%A2&amp;show-results=1" title="全站搜索：生成式搜索">生成式搜索</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：消费者行为">消费者行为</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#paper-mnsc-2025-02458">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02458" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>全球升温的死亡影响，为什么不限于当地高温？</h3>
+<p class="catalog-citation">Adrien Bilal; Diego R. Känzig; Krzysztof Lisiecki (2026). Global Temperature and Global Mortality. NBER Working Paper No. 35832 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-28 · 收录日期：2026-10-04</p>
+<p class="catalog-meta">期次日期：2026-10-04</p>
+<p>工作论文区分全球温度变化与当地直接热暴露对死亡率的影响，利用自然温度波动，并结合外部收入与死亡率估计考察宏观经济渠道。作者把死亡与经济活动纳入增长模型，讨论适应和碳社会成本。其贡献是将直接健康冲击与经济间接渠道放在同一框架下比较；损害函数和福利计算依赖识别、外部参数及模型设定，不能将模型输出当作不变常数。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=%E6%AD%BB%E4%BA%A1%E7%8E%87&amp;show-results=1" title="全站搜索：死亡率">死亡率</a> · <a class="tag-link" href="?q=%E7%A2%B3%E7%A4%BE%E4%BC%9A%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：碳社会成本">碳社会成本</a></p>
+<p class="catalog-actions"><a href="../issues/20261004/#nber-w35832">查看本期</a><a href="https://www.nber.org/papers/w35832" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>昂贵变量只测一部分样本，怎样利用其余观测？</h3>
-<p class="catalog-citation">Zhou, Q.; Wong, K. Y. (2026). An optimal two-step estimation approach for two-phase studies. Biometrika.</p><p class="catalog-meta">发表日期：2026-09-23 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>两阶段抽样中，结果变量和廉价协变量覆盖大样本，昂贵协变量只在第二阶段的子样本中测量。论文先利用完整观测估计，再用全样本中廉价信息形成的更新项提高效率，并讨论工作模型错设下的性质。作者给出核方法和多个工作模型的联合更新方案。对调查与行政数据研究的启发是保留第一阶段信息，但实际适用仍需检查抽样机制、缺失结构及估计条件，不能把任何缺失数据都直接视为两阶段抽样。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%A4%E9%98%B6%E6%AE%B5%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：两阶段抽样">两阶段抽样</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a> · <a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E6%95%88%E7%8E%87&amp;show-results=1" title="全站搜索：估计效率">估计效率</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#paper-asag057">查看本期</a><a href="https://doi.org/10.1093/biomet/asag057" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>隐私保护会改变保险赔付与谈判结果吗？</h3>
+<p class="catalog-citation">Einav, L. et al. (2026). Does Privacy Matter? Evidence from a Legal Reform. Management Science.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-03</p>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>论文利用以色列人身伤害诉讼裁判匿名化改革，将受影响的人身伤害赔付与未受影响的财产损害赔付进行双重差分比较。作者报告改革后赔付提高，并将其解释为当事人为避免健康与收入信息公开所承担的隐私成本。将这一变化解释为隐私价值，仍依赖对照组可比性及改革没有同时改变其他赔付机制等条件。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E8%B5%94%E4%BB%98&amp;show-results=1" title="全站搜索：保险赔付">保险赔付</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#paper-mnsc-2025-00107">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.00107" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>工资差距扩大，会削弱集体谈判吗？</h3>
-<p class="catalog-citation">Biasi, B. et al. (2026). How Does Wage Inequality Affect the Labor Movement? QJE.</p><p class="catalog-meta">发表日期：2026-09-25 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>研究结合三种设计：面向工会组织者的情景实验、扩大威斯康星州教师工资差距的政策变化，以及编剧罢工期间的信息干预。作者发现，不平等可能通过成员支持与组织策略影响工会力量：个人议价能力较强的劳动者更倾向单独谈判，组织者则可能转向较小且更同质的谈判单位。三类证据可用于比较机制的一致性，但各自的人群、处理和识别条件不同，不宜合并成对所有行业统一的因果效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E4%B8%8D%E5%B9%B3%E7%AD%89&amp;show-results=1" title="全站搜索：工资不平等">工资不平等</a> · <a class="tag-link" href="?q=%E9%9B%86%E4%BD%93%E8%B0%88%E5%88%A4&amp;show-results=1" title="全站搜索：集体谈判">集体谈判</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#paper-qjag046">查看本期</a><a href="https://doi.org/10.1093/qje/qjag046" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>银行在加息时管理的是市值风险还是账面资本？</h3>
+<p class="catalog-citation">Granja, J. et al. (2026). Book Value Risk Management of Banks: Limited Hedging, HTM Accounting, and Rising Interest Rates. JAR.</p><p class="catalog-meta">发表日期：2026-09-29 · 收录日期：2026-10-03</p>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>论文使用美国银行监管报表与 SEC 数据，研究 2022 年加息期间的利率风险对冲和持有至到期会计分类。作者记录到有限的衍生品对冲与证券向 HTM 分类迁移，并以模型解释资本约束、挤兑风险和会计处理的权衡。账面资本受到保护不等于经济风险消失；横截面关联及机制模型也不能自动解释为会计选择的因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：银行风险">银行风险</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：会计分类">会计分类</a> · <a class="tag-link" href="?q=%E5%88%A9%E7%8E%87%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：利率风险">利率风险</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#paper-1475-679x-70090">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70090" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>存在未观测混杂时，前门识别怎样结合机器学习？</h3>
-<p class="catalog-citation">Guo, A.; Benkeser, D.; Nabi, R. (2026). Flexible nonparametric inference for causal effects under the front-door model. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-09-23 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>论文在前门识别假设下，为平均处理效应和处理组平均处理效应构造一步估计量与目标最小损失估计量，允许灵活估计干扰参数；部分参数化方式无需直接估计中介变量密度。研究还讨论广义独立约束的检验及其对估计效率的作用。应用价值在于区分识别与估计：机器学习改善的是函数拟合，前门方案仍依赖中介完整传递处理效应等结构性假设，诊断检验也不能证明所有不可检验假设成立。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%89%8D%E9%97%A8%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：前门识别">前门识别</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#paper-qkag122">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag122" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>跨国银行监管能同时改善信贷供给与风险承担吗？</h3>
+<p class="catalog-citation">ALTAVILLA, C. et al. (2026). Supranational Banking Supervision, Credit Supply, and Risk‐Taking: European Evidence from Multi‐Country Credit Registers. JF.</p><p class="catalog-meta">发表日期：2026-09-30 · 收录日期：2026-10-03</p>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>论文结合多国信贷登记数据与银行由国家监管转向超国家监管的制度变化，比较信贷供给及借款企业风险。作者发现信贷扩张集中于金融压力较大的国家，而对高风险僵尸企业的贷款减少，并考察国家制度、监管激励及银行外部融资渠道。结论取决于欧洲这一制度背景，不能推广为监管层级上移必然改善所有银行的放贷。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：银行监管">银行监管</a> · <a class="tag-link" href="?q=%E4%BF%A1%E8%B4%B7%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：信贷供给">信贷供给</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%89%BF%E6%8B%85&amp;show-results=1" title="全站搜索：风险承担">风险承担</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#paper-jofi-70091">查看本期</a><a href="https://doi.org/10.1111/jofi.70091" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>因果森林里的协变量平衡，能用核方法改善吗？</h3>
-<p class="catalog-citation">Gliszczyńska-Schroeder, Karolina (2026). Kernel Balancing in Tree-based Methods. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-24 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>工作论文把核平衡权重引入因果森林与 X-Learner，研究在非线性处理效应和重叠较弱时如何改善条件平均处理效应估计。作者使用模拟及半模拟 IHDP 数据比较权重与估计表现。可借鉴之处是同时检查协变量平衡和异质效应，而非仅比较预测误差；有限样本平衡改善不能恢复不存在的共同支持，也不能消除未观测混杂。本文为未同行评审的工作论文，本期依据官方摘要介绍。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%B8%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：核平衡">核平衡</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%A3%AE%E6%9E%97&amp;show-results=1" title="全站搜索：因果森林">因果森林</a> · <a class="tag-link" href="?q=%E6%95%88%E5%BA%94%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：效应异质性">效应异质性</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#arxiv-2609-29440">查看本期</a><a href="https://arxiv.org/abs/2609.29440" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>看处理前趋势挑选控制组后，DID 区间怎样计算？</h3>
+<p class="catalog-citation">Nakano, Ryoya; Hoshino, Takahiro (2026). Inference after data-driven control-unit selection in difference-in-differences with estimated covariance. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-01 · 收录日期：2026-10-03</p>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>工作论文将控制组筛选纳入 DID 的选择后推断，允许用同一微观样本估计协方差、选择控制组并估计处理效应。作者在固定地区数与时期数的框架中建立覆盖性质，并讨论不同样本量、分期处理和事件时间置信带。该方法处理筛选引入的推断问题；平行趋势及其他识别条件仍需成立，不能由选择后区间替代识别论证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%90%8E%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：选择后推断">选择后推断</a> · <a class="tag-link" href="?q=%E6%8E%A7%E5%88%B6%E7%BB%84%E7%AD%9B%E9%80%89&amp;show-results=1" title="全站搜索：控制组筛选">控制组筛选</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#arxiv-2610-01464">查看本期</a><a href="https://arxiv.org/abs/2610.01464" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>反复参加调查，会给固定效应与事件研究带来什么偏差？</h3>
-<p class="catalog-citation">Okubo, Shoki (2026). Panel Conditioning in Fixed-Effects Models: Identification and Bias Propagation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-24 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>受访者的回答可能随参加调查的次数变化。论文在时期、进入队列与调查持续期的加性模型下，研究错位进入的面板能够识别哪些调查参与效应，以及未识别部分如何传导到常用回归。作者讨论样本支持、规范化和持续期控制，并说明事件时间与调查持续期重合时可能产生没有提前反应的表观前趋势。结论依赖模型及秩条件，不能据此将任意前趋势都归为调查效应；本期仅阅读工作论文摘要。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：调查效应">调查效应</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#arxiv-2609-28871">查看本期</a><a href="https://arxiv.org/abs/2609.28871" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>多模态信息怎样融合，并给出不确定性范围？</h3>
+<p class="catalog-citation">Liang, Z.; Qu, A.; Shahbaba, B. (2026). Meta Fusion: a unified framework for multimodal fusion with adaptive mutual learning. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-03</p>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>Meta Fusion 将早期、中间和后期融合纳入统一框架，通过不同潜在表示组合构成模型组，再以软信息共享实现相互学习。论文讨论泛化误差及不确定性量化，用疾病识别和神经解码展示预测应用。经管读者可借鉴多源数据整合思路，但预测覆盖保证有适用条件，不能据此认定融合后的变量满足因果识别要求。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%9A%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：多模态学习">多模态学习</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E9%87%8F%E5%8C%96&amp;show-results=1" title="全站搜索：不确定性量化">不确定性量化</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#paper-qkag129">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag129" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>去郊区学校上学，能改变城市学生的长期机会吗？</h3>
-<p class="catalog-citation">Setren, E. (2026). Busing to Opportunity? The Impacts of the METCO Voluntary School Desegregation Program on Urban Students of Color. QJE.</p><p class="catalog-meta">发表日期：2026-09-26 · 收录日期：2026-09-28</p>
-<p class="catalog-meta">期次日期：2026-09-28</p>
-<p>论文研究波士顿 METCO 自愿学校融合项目：将有色人种学生送往收入更高、白人占比较高的郊区学校。作者比较获得与未获得入学邀请的申请者，利用候补名单优先规则构造两阶段最小二乘估计，并结合出生和申请资料控制背景差异。摘要报告教育表现、升学及成年收入的改善，提示学校质量、同伴与升学规范可能共同作用。识别依赖邀请规则及工具变量假设，不能将结论直接推广到任意跨区择校政策。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%9C%BA%E4%BC%9A&amp;show-results=1" title="全站搜索：教育机会">教育机会</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：长期效应">长期效应</a></p>
-<p class="catalog-actions"><a href="../issues/20260928/#paper-qjag043">查看本期</a><a href="https://doi.org/10.1093/qje/qjag043" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>AI 学到的表示，什么时候可以作为因果分析的控制变量？</h3>
+<p class="catalog-citation">Fernandez, Andres Aradillas et al. (2026). Pragmatic DML with AI-Learned Representations. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-01 · 收录日期：2026-10-03</p>
+<p class="catalog-meta">期次日期：2026-10-03</p>
+<p>工作论文分析用文本、图像学习表示后开展因果推断的条件，将目标参数偏差与结果回归和权重表示的两种近似误差相联系。交叉拟合 DML 可对表示依赖的目标推断；要覆盖原始因果参数，还需控制表示误差。论文进一步讨论分折学习、表示聚合及敏感性区间，不能把嵌入向量加入回归就视为混杂已经消除。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：表示学习">表示学习</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261003/#arxiv-2610-01935">查看本期</a><a href="https://arxiv.org/abs/2610.01935" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-23.html">上一页</a><span aria-current="page">第 24 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-25.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-23.html">上一页</a><span aria-current="page">第 24 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-25.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

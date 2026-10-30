@@ -8,91 +8,91 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 11 页 · 共 107 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 12 页 · 共 117 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-12.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>statcheck 1.6.1：核对论文统计量与 p 值</h3>
+<h3>forecastpanel：比较面板预测中的异质性与估计误差</h3>
 
-<p class="catalog-meta">期次日期：2026-10-27</p>
-<p>statcheck 按 APA 格式识别检验统计量和自由度，重算 p 值并标记报告中的不一致。1.6.1 改用 pdftools 转换 PDF，重写交互式报告，并改善部分字符与双栏读取；旧参数 outputFileName 改为 outputFile。它适合投稿前或文献整理中的机械一致性筛查，但无法证明研究结论、模型假设或数据有效，解析提示仍需人工复核。安装为 <code>install.packages(&quot;statcheck&quot;)</code>；当前部分 Windows 二进制仍为旧版。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：统计报告">统计报告</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%A0%B8%E5%AF%B9&amp;show-results=1" title="全站搜索：结果核对">结果核对</a></p>
-<p class="catalog-actions"><a href="../issues/20261027/#tool-statcheck-1-6-1">查看本期</a><a href="https://cran.r-project.org/package=statcheck" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>forecastpanel 将个体回归、合并回归、固定效应、经验贝叶斯及组合预测放进统一接口，并提供滚动评估与预测误差比较，适合研究参数异质性和短时间维度下的估计噪声。多步预测仍依赖未来解释变量情景；文档中的 bootstrap 区间不覆盖跨个体冲击相关性。作者报告的复现结果未由本轮独立检验。安装为 <code>pip install forecastpanel</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：面板预测">面板预测</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：预测组合">预测组合</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#tool-forecastpanel-0-1-1">查看本期</a><a href="https://pypi.org/project/forecastpanel/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>powerjoin 0.2.0：合并数据时显式检查键与冲突</h3>
+<h3>GAS：用条件分布得分更新时变参数</h3>
 
-<p class="catalog-meta">期次日期：2026-10-27</p>
-<p>powerjoin 扩展 dplyr 和 fuzzyjoin 的合并流程，可检查键、未匹配记录及同名字段冲突。0.2.0 增加缺失值比较辅助操作符，并修复混合等值与非等值模糊条件、条件返回 NA 等边界情形，适合多表清洗时把潜在问题显式暴露。匹配规则仍由分析者定义，软件检查不能保证实体对应正确。安装为 <code>install.packages(&quot;powerjoin&quot;)</code>；当前部分 Windows 二进制仍为旧版。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%90%88%E5%B9%B6&amp;show-results=1" title="全站搜索：数据合并">数据合并</a> · <a class="tag-link" href="?q=%E8%B4%A8%E9%87%8F%E6%A3%80%E6%9F%A5&amp;show-results=1" title="全站搜索：质量检查">质量检查</a></p>
-<p class="catalog-actions"><a href="../issues/20261027/#tool-powerjoin-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=powerjoin" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>GAS 用条件分布的得分更新时变位置、尺度或形状参数，提供单变量与多变量模型的最大似然估计、过滤和密度预测，也可回测 VaR 与 ES。官方手册给出滚动预测和密度评分示例，适合在点预测之外检查分布表现；模型仍依赖分布、动态设定和数值优化。当前 CRAN 未列预编译二进制，源码需要编译。安装为 <code>install.packages(&quot;GAS&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BE%97%E5%88%86%E9%A9%B1%E5%8A%A8%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：得分驱动模型">得分驱动模型</a> · <a class="tag-link" href="?q=%E5%AF%86%E5%BA%A6%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：密度预测">密度预测</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#tool-gas-0-4-3">查看本期</a><a href="https://cran.r-project.org/package=GAS" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>adlaplace：自动微分支持的 Laplace 近似</h3>
+<h3>CERFIT：按处理效应差异生长交互树森林</h3>
 
-<p class="catalog-meta">期次日期：2026-10-27</p>
-<p>adlaplace 为分层模型和潜在高斯模型提供 Laplace 近似最大似然计算，公式接口可组织观测分布、固定效应与随机项。0.7.5 增加集成 Wiener 过程预测标准差及相应先验辅助接口。文档包含负二项随机效应等示例；采用前要判断模型与近似是否适合数据，不能把自动求导等同于近似无误。安装为 <code>install.packages(&quot;adlaplace&quot;)</code>，源码需编译环境与 OpenMP，部分二进制尚为旧版。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%BD%9C%E5%8F%98%E9%87%8F%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：潜变量模型">潜变量模型</a> · <a class="tag-link" href="?q=%E8%87%AA%E5%8A%A8%E5%BE%AE%E5%88%86&amp;show-results=1" title="全站搜索：自动微分">自动微分</a></p>
-<p class="catalog-actions"><a href="../issues/20261027/#tool-adlaplace-0-7-5">查看本期</a><a href="https://cran.r-project.org/package=adlaplace" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>CERFIT 用子组处理效应异质性选择树的分裂，组织个体化处理效应预测与变量重要性分析，支持二元、多值、有序及连续处理。官方示例展示观测研究的拟合、预测和最小深度输出；异质性图或变量重要性不能直接解释为作用机制，观测研究仍需论证混杂调整与重叠条件。安装为 <code>install.packages(&quot;CERFIT&quot;)</code>；当前二进制可能落后于源码版本。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质处理效应">异质处理效应</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E6%A0%91&amp;show-results=1" title="全站搜索：交互树">交互树</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#tool-cerfit-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=CERFIT" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>LARF：二元处理与二元工具变量的局部响应</h3>
+<h3>rd2dnet：按路网距离研究边界两侧的效应</h3>
 
-<p class="catalog-meta">期次日期：2026-10-27</p>
-<p>LARF 实现二元内生处理与二元工具变量下的局部平均响应函数估计，结果变量可为二元或连续变量。手册以 401(k) 数据说明工具变量诱导概率、伪权重和第二步响应函数的衔接，并区分最小二乘、最大似然与边际效应输出。当前 CRAN 版本为 1.5，发行日期不等于方法首次提出。使用仍需论证工具变量的相关性、排除限制与单调性等条件。安装为 <code>install.packages(&quot;LARF&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：处理效应">处理效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261027/#tool-larf-1-5">查看本期</a><a href="https://cran.r-project.org/package=LARF" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>rd2dnet 将边界断点设计扩展到街道路网，以有符号网络距离和沿边界偏移构造局部比较，支持长度、通行时间及自定义边成本。文档提供局部多项式、稳健偏差校正和一致置信带示例。距离度量会改变邻域和目标，路网建好并不自动保证边界两侧可比，仍须检查支持范围与设计条件。安装为 <code>install.packages(&quot;rd2dnet&quot;)</code>，源码需要编译。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E7%95%8C%E6%96%AD%E7%82%B9&amp;show-results=1" title="全站搜索：边界断点">边界断点</a> · <a class="tag-link" href="?q=%E8%B7%AF%E7%BD%91%E8%B7%9D%E7%A6%BB&amp;show-results=1" title="全站搜索：路网距离">路网距离</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#tool-rd2dnet-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=rd2dnet" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>tightenBlock：在平衡约束下收紧观察研究分块</h3>
+<h3>contdid：连续剂量与分期实施的 DiD</h3>
 
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>tightenBlock 在控制协变量与细致平衡的条件下，将观察研究的原始分块收紧为更小或更少的块，结合最优子集匹配和双准则匹配。官方示例使用酒精消费与 HDL 数据，主函数为 <code>tighten()</code>。它适合在分析前整理比较设计，但不能消除未测量混杂；可选求解器 rrelaxiv 不在 CRAN，也不是使用该包的必需条件。当前 CRAN 版本为 0.1.8，安装为 <code>install.packages(&quot;tightenBlock&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%A7%82%E5%AF%9F%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：观察研究">观察研究</a> · <a class="tag-link" href="?q=%E5%AD%90%E9%9B%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：子集匹配">子集匹配</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#tool-tightenblock-0-1-8">查看本期</a><a href="https://cran.r-project.org/package=tightenBlock" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>contdid 针对连续处理与分期实施，分别组织剂量对应的处理效应、因果响应和事件研究，再汇总到总体效应。剂量水平与斜率参数有不同解释，仍需匹配相应平行趋势条件。官方将当前 API 列为 alpha，剂量须时间不变，非平衡面板、时变剂量和协变量尚不支持；源码与二进制版本也可能不同。安装为 <code>install.packages(&quot;contdid&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：连续处理">连续处理</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#tool-contdid-0-1-2">查看本期</a><a href="https://cran.r-project.org/package=contdid" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>samplingVarEst：不等概率抽样的方差估计</h3>
+<h3>PanelSelect 2.0：统一样本选择模型接口</h3>
 
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>samplingVarEst 面向不放回、不等概率抽样，提供单阶段与两阶段设计的点估计、联合包含概率近似及多种 Jackknife 方差估计。手册包含 Oaxaca 市镇数据示例，可帮助区分总体量估计和抽样设计带来的不确定性。使用时要确认包含概率及设计假设，不可直接套用独立同分布样本的解释。当前版本 1.6，安装为 <code>install.packages(&quot;samplingVarEst&quot;)</code>；源码安装需要编译环境。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：调查抽样">调查抽样</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：方差估计">方差估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#tool-samplingvarest-1-6">查看本期</a><a href="https://cran.r-project.org/package=samplingVarEst" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-29</p>
+<p>PanelSelect 2.0 用 <code>panel_select()</code> 统一连续、二元和计数结果的样本选择模型，并提供标准的系数、预测与协方差接口。旧版调用的方程顺序、初值和标准误默认值均有变化，迁移时应从原始数据重估并检查数值积分精度。该版要求 R 4.5，CRAN 页面另有检查问题提示。安装为 <code>install.packages(&quot;PanelSelect&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：样本选择">样本选择</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：面板模型">面板模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261029/#tool-panelselect-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=PanelSelect" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>DeclareDesign 2.0：研究设计诊断与迁移提示</h3>
+<h3>LLMRpanel：问卷前测先检查模型角色与真人基准的差距</h3>
 
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>DeclareDesign 将研究设计组织为模型、目标量、数据策略和回答策略，通过模拟诊断设计表现。2.0.0 以 tidyverse 重写，保留声明语法，但调整 redesign、估计器目标量关联等边界接口；某些旧版静默失效情形现在会报错。升级已有功效与设计模拟脚本时，应按迁移指南逐项检查，不能把成功运行等同于设计有效。安装为 <code>install.packages(&quot;DeclareDesign&quot;)</code>；当前部分 Windows 二进制仍为旧版。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a> · <a class="tag-link" href="?q=%E6%A8%A1%E6%8B%9F%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：模拟诊断">模拟诊断</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#tool-declaredesign-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=DeclareDesign" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-29</p>
+<p>LLMRpanel 把问卷和实验材料交给语言模型角色面板，记录选项顺序、执行失败和回答匹配情况，并可与用户提供的真人调查比例比较。联合分析使用实际分配给各角色的属性组合估计，适合排查题目和设计问题。角色回答描述的是特定模型与提示设定，不能直接当作人群分布或真人样本。安装为 <code>install.packages(&quot;LLMRpanel&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%97%AE%E5%8D%B7%E5%89%8D%E6%B5%8B&amp;show-results=1" title="全站搜索：问卷前测">问卷前测</a> · <a class="tag-link" href="?q=%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：语言模型">语言模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261029/#tool-llmrpanel-0-6-3">查看本期</a><a href="https://cran.r-project.org/package=LLMRpanel" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>CompositionalZADR：处理包含零值的构成数据</h3>
+<h3>causalfrag：敏感性指标一致，不等于独立证据</h3>
 
-<p class="catalog-meta">期次日期：2026-10-26</p>
-<p>构成数据的各部分共享总量约束，零值又使常规对数比处理更困难。CompositionalZADR 提供零调整 Dirichlet 分布的估计、回归、模拟和等高线工具，手册给出含零比例数据的示例。当前版本 1.1；模型并非一般计数模型，使用前仍要核对零值含义与分布假设。安装为 <code>install.packages(&quot;CompositionalZADR&quot;)</code>，源码需要编译环境，部分二进制尚为旧版。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9E%84%E6%88%90%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：构成数据">构成数据</a> · <a class="tag-link" href="?q=Dirichlet%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：Dirichlet回归">Dirichlet回归</a></p>
-<p class="catalog-actions"><a href="../issues/20261026/#tool-compositionalzadr-1-1">查看本期</a><a href="https://cran.r-project.org/package=CompositionalZADR" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-28</p>
+<p>causalfrag 在 OLS 模型标准误下，用 <code>crosswalk()</code> 对照由同一 t 统计量和残差自由度计算的稳健性值、ITCV 与替换比例，解释不同指标为何常给出相近判断。这种一致性部分来自共享输入，不能当作多种方法独立支持因果结论。官方文档已弃用将指标重复合成单一分数的做法。安装为 <code>install.packages(&quot;causalfrag&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E6%9C%AA%E8%A7%82%E6%B5%8B%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：未观测混杂">未观测混杂</a></p>
+<p class="catalog-actions"><a href="../issues/20261028/#tool-causalfrag-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=causalfrag" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>whichdidshouldiuse：先判断面板属于哪类 DID 设计</h3>
+<h3>RobustMediate：连续处理的中介效应与敏感性诊断</h3>
 
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>新 SSC 命令读取面板数据，将设计分为 CLA、SAD、HAD、SFSD 或 OTHER，并提示相应估计方法及教材章节。它只做设计分类，不执行估计，也不提供固定效应、权重或标准误选项。可在选择 DID 估计器前作设计梳理；研究者仍需核对政策赋值、处理路径和识别假设。安装入口为 <code>ssc install whichdidshouldiuse</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#tool-whichdidshouldiuse-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459944.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-28</p>
+<p>RobustMediate 对连续处理用 g-computation 估计自然直接、间接效应，并提供剂量曲线、聚类 bootstrap 和平衡诊断。文档另用中介—结果模型误差相关参数及偏 R 平方衡量敏感性。误差相关分析仅适用于特定线性模型，交互或变换项可能使其跳过；诊断输出不能替代中介识别假设。安装为 <code>install.packages(&quot;RobustMediate&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261028/#tool-robustmediate-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=RobustMediate" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>stratifyR：分层抽样加入有限总体与全查层选项</h3>
+<h3>LeaveOutKSS：给雇员—企业效应方差分解做留出校正</h3>
 
-<p class="catalog-meta">期次日期：2026-10-25</p>
-<p>stratifyR 为单变量总体的最优分层与 Neyman 分配提供求解器。2.0-4 为精确动态规划加入有限总体修正和顶层全查选项，面向企业或农场调查中少数大型单位的情形，并报告对应方差与分配诊断。官方 NEWS 的版本日期为 10 月 24 日，CRAN 上架为 10 月 25 日；新选项用于数据型精确求解，不能与成本约束模式组合。安装为 <code>install.packages(&quot;stratifyR&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B1%82%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：分层抽样">分层抽样</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：抽样设计">抽样设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261025/#tool-stratifyr-2-0-4">查看本期</a><a href="https://cran.r-project.org/package=stratifyR" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p class="catalog-meta">期次日期：2026-10-28</p>
+<p>LeaveOutKSS 将 KSS 留出方差分量估计整理为 R 工作流：先筛选流动网络的连通样本，再对雇员效应、企业效应及其协方差做杠杆值偏差校正，支持控制变量和随机近似。它适合匹配雇员—企业面板，不能把估计出的固定效应直接当作无误差真值；剪枝也会改变分析样本。安装为 <code>install.packages(&quot;LeaveOutKSS&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：双向固定效应">双向固定效应</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：方差分解">方差分解</a></p>
+<p class="catalog-actions"><a href="../issues/20261028/#tool-leaveoutkss-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=LeaveOutKSS" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 11 页 · 共 107 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-11.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 12 页 · 共 117 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-12.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

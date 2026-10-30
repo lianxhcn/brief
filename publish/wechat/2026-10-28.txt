@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.10.28
+
+📰 01｜论文 · Review of Economic Studies：用 AI 开展大规模定性访谈
+研究提出 AI 主持的定性访谈方法，并与人类访谈者和受访者质量评价比较，讨论其在测量、提出假说和机制探索中的用途。
+引文：Geiecke & Jaravel (2026). Conversations at scale: robust AI-led interviews. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag114 
+
+📰 02｜论文 · Biometrika：控制混杂变量后，如何比较两组分布？
+文章研究条件双样本检验，提出连接条件独立检验与密度比加权比较的两类框架，同时说明有效检验需要怎样的分布假设。
+引文：Lee, Cha & Kim (2026). General frameworks for conditional two-sample testing. Biometrika.
+主页： https://doi.org/10.1093/biomet/asag062 
+
+📦 03｜软件 · R：causalfrag：敏感性指标一致，不等于独立证据
+该包在 OLS 模型标准误下对照由同一 t 统计量和自由度计算的敏感性指标。指标一致可能来自共享输入，并非独立因果证据。
+版本：R / causalfrag 0.2.1；发布：2026-10-27
+CRAN： https://cran.r-project.org/package=causalfrag 
+
+📦 04｜软件 · R：LeaveOutKSS：给雇员—企业效应方差分解做留出校正
+该包为雇员—企业双向固定效应模型提供留出方差分解与杠杆值校正。采用前须检查连通样本，并记录剪枝带来的样本变化。
+版本：R / LeaveOutKSS 0.1.1；发布：2026-10-27
+CRAN： https://cran.r-project.org/package=LeaveOutKSS 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261028/ 

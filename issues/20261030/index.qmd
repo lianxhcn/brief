@@ -1,0 +1,207 @@
+---
+title: "连享会 · 快讯 | 2026.10.30"
+body-classes: issue-page
+toc-depth: 3
+---
+
+<small class="backfill-note">本期于 2026-10-31 补录。</small>
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 公司控制权市场为何转向激进股东撮合？ {#paper-10-1111-jofi-70099}
+
+<p class="myapa">BURKART, M., LEE, S., &amp; VOSS, P. (2026). The evolution of the market for corporate control. The Journal of Finance. <a href="https://doi.org/10.1111/jofi.70099" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20evolution%20of%20the%20market%20for%20corporate%20control" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+知情大股东为什么不总是自己收购目标公司？文章把直接收购和发起出售放进同一模型，分析选择本身如何传递信息，并说明中介化交易可能缓解非对称信息及集体行动问题。 结果是控制权交易模型的解释机制，不能直接视为对所有激进投资者行为的经验因果检验。
+
+标签：<a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%8E%A7%E5%88%B6%E6%9D%83&amp;show-results=1" title="全站搜索：公司控制权">公司控制权</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E8%A1%8C%E5%8A%A8%E4%B8%BB%E4%B9%89&amp;show-results=1" title="全站搜索：股东行动主义">股东行动主义</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a>
+
+<small>来源日期：2026-10-30；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 把战略写成可检查的因果变化理论 {#paper-10-1002-smj-70139}
+
+<p class="myapa">Lazzarini, S. G., Zenger, T. R., &amp; Felin, T. (2026). Strategy as a theory of change. Strategic Management Journal. <a href="https://doi.org/10.1002/smj.70139" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Strategy%20as%20a%20theory%20of%20change" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+战略方案不仅要描述环境，也要说明为什么特定干预能够推动变化。文章提出把投入、活动与问题解决指标组织为有向图的框架，用可操作指标描述复杂性、多路径、相互依赖和循环，为方案设计与评估提供结构化语言。 有向图在这里表达战略假说；画出箭头并不意味着其因果关系已经获得识别或经验验证。
+
+标签：<a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%9B%BE&amp;show-results=1" title="全站搜索：因果图">因果图</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5&amp;show-results=1" title="全站搜索：战略">战略</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：项目评估">项目评估</a>
+
+<small>来源日期：2026-10-30；补录：2026-10-31</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### contdid：连续剂量与分期实施的 DiD {#tool-contdid-0-1-2}
+
+contdid 针对连续处理与分期实施，分别组织剂量对应的处理效应、因果响应和事件研究，再汇总到总体效应。剂量水平与斜率参数有不同解释，仍需匹配相应平行趋势条件。官方将当前 API 列为 alpha，剂量须时间不变，非平衡面板、时变剂量和协变量尚不支持；源码与二进制版本也可能不同。安装为 <code>install.packages(&quot;contdid&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：连续处理">连续处理</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a>
+
+<small>来源日期：2026-10-30；补录：2026-10-31</small>
+
+<a href="https://cran.r-project.org/package=contdid" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### rd2dnet：按路网距离研究边界两侧的效应 {#tool-rd2dnet-0-1-0}
+
+rd2dnet 将边界断点设计扩展到街道路网，以有符号网络距离和沿边界偏移构造局部比较，支持长度、通行时间及自定义边成本。文档提供局部多项式、稳健偏差校正和一致置信带示例。距离度量会改变邻域和目标，路网建好并不自动保证边界两侧可比，仍须检查支持范围与设计条件。安装为 <code>install.packages(&quot;rd2dnet&quot;)</code>，源码需要编译。
+
+标签：<a class="tag-link" href="?q=%E8%BE%B9%E7%95%8C%E6%96%AD%E7%82%B9&amp;show-results=1" title="全站搜索：边界断点">边界断点</a> · <a class="tag-link" href="?q=%E8%B7%AF%E7%BD%91%E8%B7%9D%E7%A6%BB&amp;show-results=1" title="全站搜索：路网距离">路网距离</a>
+
+<small>来源日期：2026-10-28；补录：2026-10-31</small>
+
+<a href="https://cran.r-project.org/package=rd2dnet" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 土地产权转变为何可能出现破坏性竞赛？ {#paper-10-1093-restud-rdag118}
+
+<p class="myapa">Baker, M. J. &amp; Conning, J. (2026). A model of enclosures: coordination, conflict, and efficiency in the transformation of land property rights. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag118" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=A%20model%20of%20enclosures%3A%20coordination%2C%20conflict%2C%20and%20efficiency%20in%20the%20transformation%20of%20land%20property%20rights" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+分散的产权选择如何形成截然不同的制度转变路径？模型把人口密度、圈地成本、生产率收益和地方治理能力结合起来，讨论临界转变、产权争夺和低于社会最优的圈地，并提醒单独修复一种扭曲可能产生其他后果。 比较静态依赖模型中的激励和制度设定，不能直接替代具体土地政策的识别与福利评估。
+
+标签：<a class="tag-link" href="?q=%E4%BA%A7%E6%9D%83&amp;show-results=1" title="全站搜索：产权">产权</a> · <a class="tag-link" href="?q=%E5%8D%9A%E5%BC%88%E8%AE%BA&amp;show-results=1" title="全站搜索：博弈论">博弈论</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E5%8F%98%E8%BF%81&amp;show-results=1" title="全站搜索：制度变迁">制度变迁</a>
+
+<small>来源日期：2026-10-30；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 研究需求增加后，究竟是谁在响应？ {#paper-10-1287-orsc-2023-17926}
+
+<p class="myapa">Lu, J. (2026). Demand for research and the composition of scientific response: intellectual distance, research productivity, and research outcomes. Organization Science. <a href="https://doi.org/10.1287/orsc.2023.17926" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Demand%20for%20research%20and%20the%20composition%20of%20scientific%20response%3A%20intellectual%20distance%2C%20research%20productivity%2C%20and%20research%20outcomes" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+科研产出增长的背后可能是研究者构成发生改变。文章利用电动汽车研究需求受到政策推动的情境，分析知识距离和既有科研生产率如何与跨领域响应、成果新颖性、科学影响及后续发明使用联系。 摘要中的政策情境与研究者选择需要正文识别设计支持，不能把知识距离的相关性概括为普遍因果规律。
+
+标签：<a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：科研需求">科研需求</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E8%B7%9D%E7%A6%BB&amp;show-results=1" title="全站搜索：知识距离">知识距离</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a>
+
+<small>来源日期：2026-10-30；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 强制披露如何改变同行从股价中学习？ {#paper-10-1111-1911-3846-70094}
+
+<p class="myapa">Kim, J., Pearson, H., &amp; Twedt, B. (2026). Mandatory disclosure and peer firms&#x27; learning from stock prices. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70094" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Mandatory%20disclosure%20and%20peer%20firms%27%20learning%20from%20stock%20prices" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+披露增加不必然让所有同行的投资决策更好。文章以强制分部披露为研究情境，比较经济联系和价格学习动机不同的同行企业，并讨论管理者从股价中提取信息这一渠道。 投资与 q 的敏感度属于价格学习的间接证据，不能单独等同于投资效率或充分识别所有信息渠道。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：投资">投资</a> · <a class="tag-link" href="?q=%E4%BB%B7%E6%A0%BC%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：价格学习">价格学习</a>
+
+<small>来源日期：2026-10-30；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 经营规模难调整，企业会如何选择杠杆？ {#paper-10-1287-mnsc-2024-08672}
+
+<p class="myapa">Gu, L., Hackbarth, D., &amp; Luo, Y. (2026). Inflexibility and leverage. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.08672" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Inflexibility%20and%20leverage" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+融资决策可能受企业改变经营规模的能力影响。研究区分收缩与扩张不灵活性，比较其对杠杆差异的解释力，并结合信用供给冲击和工具变量分析讨论企业金融政策。 指标构造和工具变量有效性尚需正文审核；摘要不能保证观察关系在其他行业或制度中成立。
+
+标签：<a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%95%B4%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：调整成本">调整成本</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
+
+<small>来源日期：2026-10-29；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### CEO 销售激励会怎样传导到供应链？ {#paper-10-2308-tar-2024-0591}
+
+<p class="myapa">Choi, J. (2026). Sales-based CEO incentives and their effect across the supply chain. The Accounting Review, 1-27. <a href="https://doi.org/10.2308/tar-2024-0591" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Sales-based%20CEO%20incentives%20and%20their%20effect%20across%20the%20supply%20chain" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+评价经理人的销售表现，可能影响供应链中其他企业。文章考察销售型奖金指标与库存波动、牛鞭效应之间的关系，并利用薪酬顾问网络联系构造工具变量检验，提供激励合同外溢的应用案例。 摘要不能替代对工具变量排除限制的核查，也不意味着所有销售激励都会产生相同后果。
+
+标签：<a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%B1%82%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：管理层激励">管理层激励</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### CEO 政治倾向与企业行为：线性刻画是否过于简单？ {#paper-10-1177-01492063261489261}
+
+<p class="myapa">Appels, M., Kowalzick, M., &amp; Woywode, M. (2026). A moral foundations perspective on CEO political ideology. Journal of Management. <a href="https://doi.org/10.1177/01492063261489261" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=A%20moral%20foundations%20perspective%20on%20CEO%20political%20ideology" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+把政治倾向放进一条从自由到保守的线性刻度，可能遗漏不同价值关切。文章用道德基础理论重审 CEO 战略行为的解释，并在企业领导人样本中比较线性与 U 形关系。 政治倾向与组织行为的关联不等于因果；非线性形式也须结合理论和稳健性检验选择。
+
+标签：<a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：理论测量">理论测量</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a>
+
+<small>来源日期：2026-10-29；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### HouseholdBench：LLM 能预测家庭经济行为吗？ {#paper-nber-w35927}
+
+<p class="myapa">Huang, J., Ferreras Garrucho, D., Xie, Y., Yuan, W. M., Mei, Q., Lian, C., &amp; Hazell, J. (2026). HouseholdBench: evaluating large language models as predictors of household economic behavior. NBER Working Paper No. 35927. <a href="https://doi.org/10.3386/w35927" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=HouseholdBench%3A%20evaluating%20large%20language%20models%20as%20predictors%20of%20household%20economic%20behavior" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+将多项美国家庭调查与不同形式的行为预测任务组织成 HouseholdBench，比较闭源模型、开放权重 LLM、行为不变基线和梯度提升树。任务区分一般行为预测与政策环境变化下的反应预测，为评估 LLM 能否刻画家庭经济决策提供统一比较框架。 预测基准的表现不等于因果识别；不能据此把 LLM 输出直接替代真实调查、政策实验或结构识别。
+
+标签：<a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：家庭行为">家庭行为</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：预测评估">预测评估</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 不同 DID 估计量的结果究竟差多少？ {#paper-arxiv-2610-39995}
+
+<p class="myapa">Hull, P. (2026). How different are different differences-in-differences? a large-scale meta-analysis. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.39995" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.39995.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=How%20different%20are%20different%20differences-in-differences%3F%20a%20large-scale%20meta-analysis" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+利用 AI 辅助复现，比较大量分期处理设定中的双向固定效应与现代双重差分估计，检查符号、相关性和精度的差别，并用分层模型区分估计噪声与估计对象差异。研究展示了如何对新计量方法的实际影响进行跨论文的系统评估。 这是入选文献与可复现设定的汇总，不能推出任何具体 TWFE 应用都满足平行趋势，或负权重在所有情境都无关紧要。
+
+标签：<a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=TWFE&amp;show-results=1" title="全站搜索：TWFE">TWFE</a> · <a class="tag-link" href="?q=%E6%96%B9%E6%B3%95%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：方法评估">方法评估</a>
+
+<small>来源日期：2026-10-29；补录：2026-10-31</small>
+
+
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

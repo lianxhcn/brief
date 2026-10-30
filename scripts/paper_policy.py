@@ -3,6 +3,7 @@ import json
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
+from issue_dates import review_date
 
 POLICY = json.loads((Path(__file__).resolve().parents[1] / 'config/paper-policy.json').read_text(encoding='utf-8-sig'))
 
@@ -62,7 +63,7 @@ def paper_policy_errors(issue):
     if str(issue.get('date', '')) < POLICY['effective_date'] and issue.get('paper_policy_version') != 1:
         return []
     try:
-        today = date.fromisoformat(issue.get('revision_date') or issue.get('date', ''))
+        today = review_date(issue)
     except (ValueError, TypeError):
         return ['C-23: 缺少有效期次日期。']
     review = issue.get('paper_review')

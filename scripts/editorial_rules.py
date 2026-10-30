@@ -2,6 +2,7 @@
 from datetime import date
 from urllib.parse import urlparse
 from paper_policy import paper_policy_errors
+from issue_dates import issue_date_errors, review_date
 
 CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources", "conference_calls")
 
@@ -24,7 +25,7 @@ def core_items(issue):
 
 def check_editorial(issue):
     """只检验结构和已记录的证据字段，不能代替人工核验来源。"""
-    errors = paper_policy_errors(issue)
+    errors = issue_date_errors(issue) + paper_policy_errors(issue)
     if not uses_v2(issue):
         return errors
     entries = core_items(issue)
@@ -62,7 +63,8 @@ def check_editorial(issue):
             try:
                 value = item[field]
                 when = date.fromisoformat(value + "-01" if len(value) == 7 else value)
-                if when > date.fromisoformat(issue.get('revised_date', issue['date']) if field=='retrieved_date' else issue['date']):
+                limit = review_date(issue) if field == 'retrieved_date' else date.fromisoformat(issue['date'])
+                if when > limit:
                     errors.append(f"{label}: {field} 晚于本期日期。")
             except (TypeError, ValueError):
                 errors.append(f"{label}: {field} 日期格式不合法。")

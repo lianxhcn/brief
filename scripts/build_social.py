@@ -9,6 +9,8 @@ from datetime import datetime, timezone, timedelta
 from PIL import Image, ImageDraw, ImageFont
 from website_citations import bibliography_metadata, format_myapa
 from site_config import detail_url
+from issue_dates import review_date
+from card_text_layout import wrap_text
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -21,19 +23,9 @@ def text(path, value):
     path.write_text(value.rstrip() + '\n', encoding='utf-8')
 
 def wrap(value, font, width):
-    lines = []
-    for paragraph in value.split('\n'):
-        line = ''
-        for char in paragraph:
-            if font.getlength(line + char) > width:
-                lines.append(line)
-                line = char
-            else:
-                line += char
-        lines.append(line)
-    return lines
+    return wrap_text(value, font, width)
 
-def card(path, title, body, source, date, number):
+def card(path, title, body, source, date, number, prepared_date=None):
     im = Image.new('RGB', (1080, 1440), '#f7f3ea')
     d = ImageDraw.Draw(im)
     fontpath = 'C:/Windows/Fonts/msyh.ttc'
@@ -41,7 +33,10 @@ def card(path, title, body, source, date, number):
     small = ImageFont.truetype(fontpath, 27)
     d.rectangle((0, 0, 1080, 18), fill='#247568')
     d.text((76, 64), '连享会 · 研究与方法', font=small, fill='#247568')
-    d.text((76, 116), date.replace('-', '.') + f'  /  {number:02d}', font=small, fill='#5f6865')
+    dateline = date.replace('-', '.') + f'  /  {number:02d}'
+    if prepared_date:
+        dateline += '  ·  ' + prepared_date.replace('-', '.') + ' 补录'
+    d.text((76, 116), dateline, font=small, fill='#5f6865')
     titlefont = ImageFont.truetype(boldpath, 55)
     titlelines = wrap(title, titlefont, 928)
     y = 220
@@ -81,6 +76,11 @@ def build(date, output):
     labels = {'papers':'论文', 'tools':'工具', 'research_resources':'研究资源', 'lianxh_posts':'连享会', 'conference_calls':'会议'}
     weibo = [issue['title'], '> <' + detail_url(issue) + '>']
     zhihu = [f'# {issue["title"]}', f'本期整理 {len(entries)} 条研究与工具资料，保留原始来源和方法适用边界。']
+    prepared_date = review_date(issue).isoformat() if 'backfill' in issue else None
+    backfill_note = ('本期内容所属日期为 ' + date + '，于 ' + prepared_date + ' 补录。') if prepared_date else None
+    if backfill_note:
+        weibo.insert(1, backfill_note)
+        zhihu.insert(1, backfill_note)
     for category, item in entries:
         url = item.get('source_url') or item.get('homepage_url') or item.get('url')
         if not url:
@@ -117,6 +117,8 @@ def build(date, output):
     folder.mkdir(parents=True)
     cards = [{'title':'今日研究与方法', 'body':'\n\n'.join(i['title'] for i in chosen), 'source':'研究方法 · 论文发现 · 实用工具', 'label':'导读'}]
     post = [f'# 研究方法与工具札记 | {date.replace("-", ".")}', '从本期快讯中精选几条研究问题与实用工具，保留结论的适用边界。']
+    if backfill_note:
+        post.insert(1, backfill_note)
     sources = ['# 编辑核对来源', '仅供编辑核对，不上传为小红书正文或卡片。']
     for item in chosen:
         b = item.get('bibliography', {})
@@ -129,7 +131,7 @@ def build(date, output):
     dump(folder/'selection.json', {'issue_date':date, 'count':len(chosen), 'selected_ids':[i['id'] for i in chosen], 'category_counts':{c:sum(category_by_id[i['id']] == c for i in chosen) for c in labels}, 'rule':'论文与工具优先、core优先；不足时从其余已审核条目补充，记录实际构成；无虚构语义评分', 'review':'核对正式期次说明及适用边界；卡片须目视检查'})
     dump(folder/'card-text.json', cards)
     for n, value in enumerate(cards):
-        card(folder/('cover.png' if n == 0 else f'item-{n:02d}.png'), value['title'], value['body'], value['source'], date, n)
+        card(folder/('cover.png' if n == 0 else f'item-{n:02d}.png'), value['title'], value['body'], value['source'], date, n, prepared_date)
     files = [paths[0], paths[1]] + sorted(folder.iterdir())
     manifest = {'date':date, 'generated_at':datetime.now(timezone(timedelta(hours=8))).isoformat(), 'source_sha256':hashlib.sha256(issuepath.read_bytes()).hexdigest(), 'status':'generated-awaiting-visual-review', 'platform_posted':False, 'files':[{'path':str(p.relative_to(output)), 'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in files]}
     dump(ROOT/'ops-local/runs'/date/'social-package.json', manifest)

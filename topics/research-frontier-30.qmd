@@ -8,91 +8,93 @@ title: "新论文 · 第 30 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-29.html">上一页</a><span aria-current="page">第 30 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-31.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-29.html">上一页</a><span aria-current="page">第 30 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-31.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>只匹配前两阶矩，Knockoffs 还能控制误发现率吗？</h3>
-<p class="catalog-citation">Fan, Y. et al. (2026). Asymptotic FDR Control with Model-X Knockoffs: Is Moments Matching Sufficient? JASA.</p><p class="catalog-meta">发表日期：2026-09-10 · 收录日期：2026-09-22</p>
-<p class="catalog-meta">期次日期：2026-09-22</p>
-<p>论文研究协变量分布未知时，近似 Model-X Knockoffs 的误发现率控制。作者把严格的分布交换性转为对统计量的三个条件，并证明特定两阶矩统计量配合 Gaussian Knockoffs 时可得到渐近 FDR 控制。结论为常用近似生成方法提供条件性理论依据；它不是任意统计量下的有限样本保证，也不意味着变量筛选后可以直接作因果解释。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：统计学">统计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%98%E9%87%8F%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：变量选择">变量选择</a> · <a class="tag-link" href="?q=%E8%AF%AF%E5%8F%91%E7%8E%B0%E7%8E%87&amp;show-results=1" title="全站搜索：误发现率">误发现率</a> · <a class="tag-link" href="?q=Knockoffs&amp;show-results=1" title="全站搜索：Knockoffs">Knockoffs</a></p>
-<p class="catalog-actions"><a href="../issues/20260922/#paper-01621459-2026-2731642">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2731642" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>配额机制：小样本和分布估错时，决策误差有多大？</h3>
+<p class="catalog-citation">Ball, I.; Kattwinkel, D. (2026). Quota Mechanisms: Finite-Sample Optimality and Robustness. JPE.</p><p class="catalog-meta">发表日期：2026-09-17 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>评分比例等配额把多个决策联系起来，促使掌握私人信息的人在不同对象之间权衡。论文用最优传输方法刻画有限个决策时的误差界，并分析设计者估错类型分布时的敏感性与参与者信念的影响。最优性比较限定于论文设定和无转移支付机制；它为配额设计提供理论判断依据，不等于任何场景都应采用固定比例。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E9%85%8D%E9%A2%9D%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：配额机制">配额机制</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-742716">查看本期</a><a href="https://doi.org/10.1086/742716" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>信用违约互换的拍卖设计，怎样影响保险赔付？</h3>
-<p class="catalog-citation">Richert, E. (2026). Quantity Commitments in Multiunit Auctions: Evidence from Credit Event Auctions. JPE.</p><p class="catalog-meta">发表日期：2026-09-18 · 收录日期：2026-09-22</p>
-<p class="catalog-meta">期次日期：2026-09-22</p>
-<p>论文研究信用事件拍卖：交易商先承诺买卖数量，再通过多单位拍卖形成同时影响债券交易和 CDS 赔付的价格。作者建立并估计结构模型，区分跨轮学习、数量承诺与既有 CDS 头寸带来的策略激励，再比较替代拍卖机制。这里依据作者主页摘要介绍机制，期刊上线日期单列；反事实结果依赖模型，不能直接视为制度改革的实际成效。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：拍卖机制">拍卖机制</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E8%BF%9D%E7%BA%A6%E4%BA%92%E6%8D%A2&amp;show-results=1" title="全站搜索：信用违约互换">信用违约互换</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
-<p class="catalog-actions"><a href="../issues/20260922/#paper-744119">查看本期</a><a href="https://doi.org/10.1086/744119" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>财报口径受限时，分析师如何通过提问获得信息？</h3>
+<p class="catalog-citation">Ashraf, M. et al. (2026). Users&#x27; Solicitation of Disclosure When Accounting Standards Restrict Managers&#x27; Discretion Over Financial Reporting: Evidence From Conference Calls. CAR.</p><p class="catalog-meta">发表日期：2026-09-18 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>论文研究会计准则对管理层报告裁量的限制，与业绩说明会中账户相关提问的联系。分析师提出具体账户问题后，管理层更可能在当前回答及下一季度介绍中披露相应信息，回答情况也与预测质量相关。它把披露看成管理者与信息使用者的动态互动，适合研究文本提问与披露供给；本期依据摘要，不把相关性当作提问的净因果效果。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E8%AF%B4%E6%98%8E%E4%BC%9A&amp;show-results=1" title="全站搜索：业绩说明会">业绩说明会</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分析师预测">分析师预测</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-1911-3846-70089">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70089" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>非随机缺失的面板，能用合成最近邻补全吗？</h3>
-<p class="catalog-citation">Agarwal, A. et al. (2026). Synthetic Nearest Neighbors: Extending Synthetic Controls for Matrix Completion with Missing Not at Random Data. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-11 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>工作论文把合成控制的局部比较思路用于非随机缺失的矩阵补全，允许不同目标拥有不同的可用观测结构。作者提出合成最近邻估计量，讨论逐元素误差、均值恢复和异方差条件下的推断。适合思考非规则面板中的缺失数据；方法仍需结构与局部信息条件，不能据此认为任意非随机缺失都可恢复。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%9F%A9%E9%98%B5%E8%A1%A5%E5%85%A8&amp;show-results=1" title="全站搜索：矩阵补全">矩阵补全</a> · <a class="tag-link" href="?q=%E9%9D%9E%E9%9A%8F%E6%9C%BA%E7%BC%BA%E5%A4%B1&amp;show-results=1" title="全站搜索：非随机缺失">非随机缺失</a> · <a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#arxiv-2609-13586">查看本期</a><a href="https://arxiv.org/abs/2609.13586" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>教育财政改革的个人收益，能否转化为宏观增长？</h3>
+<p class="catalog-citation">C. Kirabo Jackson (2026). The Macroeconomic Returns to School Finance Reforms: Micro-Calibrated Predictions Meet Causal Evidence. NBER Working Paper 35755 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-14 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>论文将教育财政改革对个人收入的微观估计，与受影响出生队列逐步进入劳动力市场的过程结合，预测州级人均劳动收入的长期路径，再用美国各州改革时点开展事件研究。结果支持教育投入的收益可能经过较长滞后才反映在宏观产出中。微观校准与宏观识别各有假设，长期预测不能视为已完整观察到的政策回报。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%B4%A2%E6%94%BF&amp;show-results=1" title="全站搜索：教育财政">教育财政</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：宏观增长">宏观增长</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#nber-w35755">查看本期</a><a href="https://www.nber.org/papers/w35755" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>隐私法规如何改变企业的数据与算力投入？</h3>
-<p class="catalog-citation">Demirer, M. et al. (2026). Data, Privacy Laws and Firm Production: Evidence from the GDPR. JPE.</p><p class="catalog-meta">发表日期：2026-09-18 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文利用全球云服务商的企业使用数据，以双重差分研究 GDPR 对数据存储和处理需求的影响，再估计包含数据与计算投入的生产函数。作者公开摘要指出，两类投入具有互补性，数据成本变化与整体生产成本变化应分别衡量。适合研究数字投入与监管成本；识别与结构估计各有条件，本文仅依据作者发布的论文摘要，不对个人隐私收益作完整福利评价。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：隐私监管">隐私监管</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E6%8A%95%E5%85%A5&amp;show-results=1" title="全站搜索：数字投入">数字投入</a> · <a class="tag-link" href="?q=%E7%94%9F%E4%BA%A7%E5%87%BD%E6%95%B0&amp;show-results=1" title="全站搜索：生产函数">生产函数</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-744118">查看本期</a><a href="https://doi.org/10.1086/744118" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>投资者关系转到线上，信息收益会持续吗？</h3>
+<p class="catalog-citation">Down, A. K.; Reiter, N.; Wahid, A. S. (2026). The Virtual Pivot: Adaptive Investor Relations in the Face of Disruption. CAR.</p><p class="catalog-meta">发表日期：2026-09-15 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>作者整理 2019—2024 年投资者关系活动，观察疫情冲击下企业何时转向线上沟通，以及后续资本市场表现。数字准备度和董事会构成与较早、持续采用线上形式相关；信息收益更集中于高度不确定时期，而可见度收益在环境稳定后仍存在。研究提供沟通适应能力的测量思路；不能将自选择的线上活动直接解释为市场表现变化的唯一原因。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AD%A6&amp;show-results=1" title="全站搜索：会计学">会计学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：投资者关系">投资者关系</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%8C%96&amp;show-results=1" title="全站搜索：数字化">数字化</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：信息环境">信息环境</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-1911-3846-70080">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70080" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>财经报道增多，是否意味着企业有更多好消息？</h3>
-<p class="catalog-citation">Liu, B.; Niessner, M.; So, E. C. (2026). Bad News Bearers: The Negative Tilt of the Financial Press. Management Science.</p><p class="catalog-meta">发表日期：2026-09-18 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文考察财经媒体是否更倾向报道负面事件，并比较报道量、后续企业基本面与市场反应。作者发现，更多报道能够预测后续较差的基本面，负面报道也会吸引注意力；报道选择本身可能包含信息。对新闻情绪指标研究的启发是同时考虑报道数量、情绪与选择过程，不能把这些预测关系直接解释为媒体导致企业经营恶化。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A2%E7%BB%8F%E5%AA%92%E4%BD%93&amp;show-results=1" title="全站搜索：财经媒体">财经媒体</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：投资者注意力">投资者注意力</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2023-00580">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.00580" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>同一人反复经历冲击，事件研究该如何分解效应？</h3>
+<p class="catalog-citation">Keiller, Agnes Norris (2026). First as Tragedy? Second as What? Estimating Dynamic Effects of Recurrent Events. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-24 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>处理事件可重复发生且影响持续时，总处理路径效应与每次事件的独立贡献不是同一参数。这篇工作论文说明，分离各次事件效应需要额外假设，并对事件效应增长施加类似条件平行趋势的限制，提出顺序插补估计量。方法允许效应随可观测事件强度变化。它适用于理解失业、灾害等重复冲击，不能只把普通事件研究多放几个虚拟变量就视为有效识别。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%87%8D%E5%A4%8D%E4%BA%8B%E4%BB%B6&amp;show-results=1" title="全站搜索：重复事件">重复事件</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E6%8F%92%E8%A1%A5&amp;show-results=1" title="全站搜索：顺序插补">顺序插补</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#arxiv-2609-30007">查看本期</a><a href="https://arxiv.org/abs/2609.30007" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>碳价格怎样改变亚马孙的保护与再造林选择？</h3>
-<p class="catalog-citation">Assunção, J. et al. (2026). Carbon Prices, Forest Conservation and Reforestation in the Brazilian Amazon. JPE.</p><p class="catalog-meta">发表日期：2026-09-18 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文建立空间动态土地配置模型，比较养牛、森林保护和再造林，并纳入牛价波动及地区生产率不确定性。作者公开稿表明，碳定价会改变土地用途选择，使森林管理成为减排的重要补充。这里依据作者 2026 年 3 月公开稿介绍机制，期刊上线日期另列；模型推演有参数与政策设定边界，不能当作已经实现的减排效果。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%A2%B3%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：碳定价">碳定价</a> · <a class="tag-link" href="?q=%E6%A3%AE%E6%9E%97%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：森林保护">森林保护</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：动态模型">动态模型</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-744117">查看本期</a><a href="https://doi.org/10.1086/744117" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>创投跨行业投资：扩张路径是否比覆盖范围更重要？</h3>
+<p class="catalog-citation">Li, D.; Jensen, M. (2026). Drifting to the top? The effects of category erraticism on status mobility in the U.S. venture capital industry. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-09-18 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>研究区分创投机构覆盖行业的广度与跨行业路径的连贯性，使用美国创投机构长期数据考察地位变化。缺乏连贯性的转向与外界对承诺和能力的担忧相关，也与向上地位流动受限相联系，高地位和经验丰富机构面临的期待更强。可借鉴之处是把投资轨迹而非静态行业数量作为解释变量；研究不意味着所有跨行业扩张都会受损。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：风险投资">风险投资</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%BD%A8%E8%BF%B9&amp;show-results=1" title="全站搜索：投资轨迹">投资轨迹</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%9C%B0%E4%BD%8D&amp;show-results=1" title="全站搜索：组织地位">组织地位</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-smj-70130">查看本期</a><a href="https://doi.org/10.1002/smj.70130" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>按降雨指数补贴农户，金额越高保护越好吗？</h3>
-<p class="catalog-citation">Lu, K.; Song, J.; Zhang, C. (2026). Index-Based Yield Protection for Smallholder Farmers. Management Science.</p><p class="catalog-meta">发表日期：2026-09-18 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文研究无法低成本逐户核实产量时，政府如何依据降雨等指数设计产量保护补贴。指数与实际收成不一致会产生基差风险，模型中提高补贴可能反而增加收入波动；最优补贴与指数精度之间也未必单调。适合讨论农业风险管理和政策测量误差，结论依赖模型条件，不能直接套用为各地区统一补贴标准。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%86%9C%E4%B8%9A%E4%BF%9D%E9%99%A9&amp;show-results=1" title="全站搜索：农业保险">农业保险</a> · <a class="tag-link" href="?q=%E5%9F%BA%E5%B7%AE%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：基差风险">基差风险</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：政策设计">政策设计</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2024-05008">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.05008" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>保险监管竞争：保费降低的代价由谁承担？</h3>
+<p class="catalog-citation">Tang, J. (2026). Regulatory Competition in the US Life Insurance Industry. JPE.</p><p class="catalog-meta">发表日期：2026-09-15 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>美国各州可通过降低资本要求吸引寿险公司，但相关成本可能由其他州分担。论文结合州监管行为、保险公司响应和保险供给，建立定量模型评估这种竞争。模型中，资本要求下降既提高违约风险，也通过较低保费提高消费者剩余，净总剩余则下降。研究适合用于理解监管外部性；福利比较依赖模型与制度环境，不宜直接外推。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：保险监管">保险监管</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E8%A6%81%E6%B1%82&amp;show-results=1" title="全站搜索：资本要求">资本要求</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：监管竞争">监管竞争</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-742725">查看本期</a><a href="https://doi.org/10.1086/742725" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>如何把消费者搜索理论放进 Transformer 模型？</h3>
-<p class="catalog-citation">Song, Y.; Sun, T. (2026). Sequential Search Transformer: A Deep Structural Econometric Model. Management Science.</p><p class="catalog-meta">发表日期：2026-09-16 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>论文提出顺序搜索 Transformer，将消费者逐步搜索、更新效用认知和停止购买的经济决策结构嵌入可训练模型，并用电商点击流数据研究搜索与购买行为。作者讨论参数识别及产品推荐的政策实验。对研究者的启发是明确预测模块如何连接行为机制；模型内的政策比较仍依赖识别条件，预测更准不等于已获得实验意义的因果效应。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：经济学">经济学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：结构计量">结构计量</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E6%90%9C%E7%B4%A2&amp;show-results=1" title="全站搜索：消费者搜索">消费者搜索</a> · <a class="tag-link" href="?q=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：深度学习">深度学习</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#paper-mnsc-2024-04540">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.04540" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>事业部独立核算，如何关联女性高管的晋升机会？</h3>
+<p class="catalog-citation">Du, T.; Tsolmon, U. (2026). Firm divisionalization and the gender gap in
+                    CEO
+                    promotion. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-09-16 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>研究利用美国企业经理人的纵向数据，考察组织结构与内部 CEO 晋升的性别差距。事业部承担独立损益责任时，经理人的贡献更容易归属和比较；女性晋升与这类结构、既往损益管理经验及相对部门绩效之间存在关联。论文提示绩效信息的可比性值得纳入组织研究，但观察性结果不能直接解释为组织改制的因果效应。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%AD%A6&amp;show-results=1" title="全站搜索：管理学">管理学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：组织结构">组织结构</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%AE%A1%E6%99%8B%E5%8D%87&amp;show-results=1" title="全站搜索：高管晋升">高管晋升</a> · <a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：性别差距">性别差距</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#paper-smj-70128">查看本期</a><a href="https://doi.org/10.1002/smj.70128" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>RDD 置信区间怎样兼顾覆盖率与长度？</h3>
-<p class="catalog-citation">Ghosh, A.; Imbens, G.; Wager, S. (2026). PLRD: Partially Linear Regression Discontinuity Inference. NBER Working Paper 35699 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-07 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>工作论文提出部分线性断点回归估计量 PLRD，给出大样本理论，并使用依照真实应用校准的模拟比较估计误差及区间表现。其方法评估还使用生成模型构造接近原数据的模拟情境。读者可以借鉴对替代估计方法的比较设计；文中模拟表现不代表所有断点、样本量和函数形状下都必然更优。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%BD%AE%E4%BF%A1%E5%8C%BA%E9%97%B4&amp;show-results=1" title="全站搜索：置信区间">置信区间</a> · <a class="tag-link" href="?q=%E6%A8%A1%E6%8B%9F%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：模拟设计">模拟设计</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#nber-w35699">查看本期</a><a href="https://www.nber.org/papers/w35699" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>RDD 的分位数效应，为什么不能照搬线性协变量调整？</h3>
+<p class="catalog-citation">Ma, Jun; Sasaki, Yuya; Yu, Zhengfei (2026). Generic Covariate Adjustment for Regression Discontinuity Designs. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-24 · 收录日期：2026-09-26</p>
+<p class="catalog-meta">期次日期：2026-09-26</p>
+<p>工作论文指出，回归式协变量调整的理论依据未必适用于分位数等非线性目标参数。作者在断点回归和断点斜率设计的一般框架中，提出熵平衡重加权方法，分析一致性和效率改善。它提醒应用者先确认目标参数，再选择调整方式；论文中的效率优势受识别与正则条件约束，不能把结果变显著作为选择方法的标准。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%86%B5%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：熵平衡">熵平衡</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：协变量调整">协变量调整</a></p>
+<p class="catalog-actions"><a href="../issues/20260926/#arxiv-2609-29249">查看本期</a><a href="https://arxiv.org/abs/2609.29249" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>AI 生成变量之后，怎样保证测量与推断可信？</h3>
-<p class="catalog-citation">Dell, M.; Rambachan, A. (2026). The Measurement Revolution? Credible Measurement and Inference in the Age of AI. NBER Working Paper 35744 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-09-14 · 收录日期：2026-09-21</p>
-<p class="catalog-meta">期次日期：2026-09-21</p>
-<p>工作论文区分 AI 进入测量流程的三个环节：发现、概念定义与观测，并讨论每一环节需要怎样的验证。可扩展的测量变多以后，关键问题转向如何选择、评估和校准这些变量。作者强调明确评价标准与适当的验证样本，也讨论缺少随机验证样本时的处理边界；不能把模型输出直接视为无误差数据。</p>
-<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=AI%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：AI测量">AI测量</a> · <a class="tag-link" href="?q=%E9%AA%8C%E8%AF%81%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：验证样本">验证样本</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a></p>
-<p class="catalog-actions"><a href="../issues/20260921/#nber-w35744">查看本期</a><a href="https://www.nber.org/papers/w35744" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<h3>限制平均生存时间：观察窗口能否由数据决定？</h3>
+<p class="catalog-citation">Sun, J.; Schaubel, D. E.; Tchetgen, E. J. T. (2026). Beyond Fixed Restriction Time: Adaptive Restricted Mean Survival Time Methods in Clinical Trials. Biometrika.</p><p class="catalog-meta">发表日期：2026-09-22 · 收录日期：2026-09-25</p>
+<p class="catalog-meta">期次日期：2026-09-25</p>
+<p>限制平均生存时间把给定窗口内的无事件时间汇总为可解释的处理收益，但窗口过短可能遗漏后期变化，过长又可能降低精度。论文提出在效应大小与估计精度之间权衡的自适应窗口选择，并把选择引入的不确定性纳入推断；还处理零假设下的非正则问题。方法有助于理解数据驱动调参后的推断，临床应用结论不在本期独立验证。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E4%B8%8E%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：统计与计量方法">统计与计量方法</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：生存分析">生存分析</a> · <a class="tag-link" href="?q=%E8%87%AA%E9%80%82%E5%BA%94%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：自适应推断">自适应推断</a> · <a class="tag-link" href="?q=%E7%AA%97%E5%8F%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：窗口选择">窗口选择</a></p>
+<p class="catalog-actions"><a href="../issues/20260925/#paper-asag056">查看本期</a><a href="https://doi.org/10.1093/biomet/asag056" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-29.html">上一页</a><span aria-current="page">第 30 / 43 页 · 共 423 条</span><a rel="next" href="research-frontier-31.html">下一页</a><a href="research-frontier-43.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-29.html">上一页</a><span aria-current="page">第 30 / 47 页 · 共 463 条</span><a rel="next" href="research-frontier-31.html">下一页</a><a href="research-frontier-47.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="aic-2026" data-course-start="2026-10-17" data-course-end="2026-10-31" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1900.html" target="_blank" rel="noopener noreferrer">AI-Agent 数据分析专题</a><span class="course-dates">10/17、10/24、10/31</span></li><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
