@@ -1,0 +1,209 @@
+---
+title: "连享会 · 快讯 | 2026.11.01"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 相关需求冲击如何进入资产定价？ {#paper-10-1093-rfs-hhag094}
+
+<p class="myapa">Kim, B. (2026). Correlated demand shocks and asset pricing. The Review of Financial Studies. <a href="https://doi.org/10.1093/rfs/hhag094" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Correlated%20demand%20shocks%20and%20asset%20pricing" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+当机构投资者追逐相同基准时，超越指数的激励可能使交易需求同时变化。文章把这种相关需求冲击放进资产定价机制，并用指数成分调整的准实验提供经验支持，讨论其与市场风险暴露、风险溢价及企业投资的联系。 准实验的有效性、替代机制和外推仍需正文核查，不能仅凭需求共振推断个股的因果效应。
+
+标签：<a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：需求冲击">需求冲击</a>
+
+<small>来源日期：2026-10-28；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 养老金资金缺口压力如何影响投资风险？ {#paper-10-1287-mnsc-2025-02928}
+
+<p class="myapa">Ioannidou, V., Pinto, R., &amp; Wang, Z. (2026). Corporate pension risk-taking in a low interest rate environment. Management Science. <a href="https://doi.org/10.1287/mnsc.2025.02928" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Corporate%20pension%20risk-taking%20in%20a%20low%20interest%20rate%20environment" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+资金缺口会给企业养老金带来怎样的风险承担激励？文章利用调整折现率计算、暂时缓解缴费压力的监管改革，比较接受不同减压幅度的计划如何调整股票和较安全资产配置，并讨论计划状态及发起企业财务约束的差异。 结论对应特定监管改革和美国确定给付养老金；不能概括为任意放松监管都会降低风险。
+
+标签：<a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE&amp;show-results=1" title="全站搜索：资产配置">资产配置</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E6%94%B9%E9%9D%A9&amp;show-results=1" title="全站搜索：监管改革">监管改革</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### paneltests 1.0.8：面板诊断中的推断修正 {#tool-paneltests-1-0-8}
+
+paneltests 集中提供斜率同质性、截面相关和面板协整诊断。1.0.8 修正协整检验 p 值尾部、Swamy 中心估计量及缺失/共线处理，适合复查旧脚本。检验不拒绝不能证明模型设定或因果识别有效，稳健 Wald 检验仍需关注小样本风险。Windows 二进制暂为 1.0.6，须核对安装版本。安装为 <code>install.packages(&quot;paneltests&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：面板诊断">面板诊断</a> · <a class="tag-link" href="?q=%E6%8E%A8%E6%96%AD%E4%BF%AE%E6%AD%A3&amp;show-results=1" title="全站搜索：推断修正">推断修正</a>
+
+<small>来源日期：2026-10-31；补录：2026-11-01</small>
+
+<a href="https://cran.r-project.org/package=paneltests" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### diffindiff：组织 DiD 数据、估计与诊断流程 {#tool-diffindiff-2-5-9}
+
+diffindiff 将处理组、对照组、研究窗口与处理时段整理为分析对象，并连接 DiD 估计和效果图。2.5.9 修正 pandas 绘图列名、拟合指标零分母及模型失败时访问反事实结果的问题。支持分期处理不意味着自动解决异质性下的 TWFE 比较问题，平行趋势检验也不能证明识别假设。安装为 <code>pip install diffindiff</code>。
+
+标签：<a class="tag-link" href="?q=DiD&amp;show-results=1" title="全站搜索：DiD">DiD</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E6%B5%81%E7%A8%8B&amp;show-results=1" title="全站搜索：分析流程">分析流程</a>
+
+<small>来源日期：2026-10-31；补录：2026-11-01</small>
+
+<a href="https://pypi.org/project/diffindiff/" target="_blank" rel="noopener noreferrer">PyPI</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 非欧几里得响应的回归，怎样检验偏效应？ {#paper-10-1093-biomet-asag064}
+
+<p class="myapa">Xu, H. &amp; Li, H. (2026). Test of partial effects for Fréchet regression on Bures-Wasserstein manifolds. Biometrika. <a href="https://doi.org/10.1093/biomet/asag064" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Test%20of%20partial%20effects%20for%20Fr%C3%A9chet%20regression%20on%20Bures-Wasserstein%20manifolds" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+响应变量具有非欧几里得结构时，常规回归的检验方法未必能直接照搬。文章针对 Bures–Wasserstein 流形的 Fréchet 回归提出偏效应检验，给出渐近有效性和一致性论证，并以模拟及单细胞数据中的基因共表达结构说明应用。 适用性依赖指定流形、回归模型与渐近条件；统计偏效应不能直接解释为因果效应。
+
+标签：<a class="tag-link" href="?q=%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：非欧几里得数据">非欧几里得数据</a> · <a class="tag-link" href="?q=Fr%C3%A9chet%20%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：Fréchet 回归">Fréchet 回归</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 群体讨论怎样形成可执行的创新方案？ {#paper-10-1287-orsc-2024-19136}
+
+<p class="myapa">Biscaro, C., Malhotra, A., &amp; Majchrzak, A. (2026). Action-oriented narratives. How innovation emerges from crowd discussions. Organization Science. <a href="https://doi.org/10.1287/orsc.2024.19136" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Action-oriented%20narratives.%20How%20innovation%20emerges%20from%20crowd%20discussions" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+群体怎样把开放讨论变成可执行方案？文章分析围绕新西兰本土动植物保护的群体讨论，比较产生创新与未产生创新的对话如何组织资源、约束、目标和责任主体，并提出行动导向叙事这一解释框架。 这是特定开放讨论场景的分析，不能仅凭叙事结构就认定其必然造成创新，也不能直接推广到所有团队。
+
+标签：<a class="tag-link" href="?q=%E7%BE%A4%E4%BD%93%E8%AE%A8%E8%AE%BA&amp;show-results=1" title="全站搜索：群体讨论">群体讨论</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a> · <a class="tag-link" href="?q=%E5%AE%9A%E6%80%A7%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：定性研究">定性研究</a>
+
+<small>来源日期：2026-10-19；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 用分数阶导数推导边际密度 {#paper-10-1093-biomet-asag069}
+
+<p class="myapa">Li, S. Y., van Dyk, D. A., &amp; Autenrieth, M. (2026). Using fractional derivatives to derive marginal densities. Biometrika. <a href="https://doi.org/10.1093/biomet/asag069" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Using%20fractional%20derivatives%20to%20derive%20marginal%20densities" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+边际化常需要处理难以解析计算的积分。文章提出利用矩母函数的分数阶导数推导边际密度的思路，并解释相关概率与统计含义。 方法仍要求特定似然形式以及先验矩母函数的存在、有限性和相应光滑性，不适用于任意模型。
+
+标签：<a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E5%AF%86%E5%BA%A6&amp;show-results=1" title="全站搜索：边际密度">边际密度</a> · <a class="tag-link" href="?q=%E7%9F%A9%E6%AF%8D%E5%87%BD%E6%95%B0&amp;show-results=1" title="全站搜索：矩母函数">矩母函数</a> · <a class="tag-link" href="?q=%E8%A7%A3%E6%9E%90%E6%8E%A8%E5%AF%BC&amp;show-results=1" title="全站搜索：解析推导">解析推导</a>
+
+<small>来源日期：2026-10-27；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 企业怎样回应激进对冲基金的公开质疑？ {#paper-10-1177-01492063261479303}
+
+<p class="myapa">Brauer, M., Mertens, M. J., &amp; Vandepoele, L. (2026). Winning at defense by playing offense: Discrediting by target firms in activist hedge fund campaigns. Journal of Management. <a href="https://doi.org/10.1177/01492063261479303" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Winning%20at%20defense%20by%20playing%20offense%3A%20Discrediting%20by%20target%20firms%20in%20activist%20hedge%20fund%20campaigns" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+受到激进对冲基金公开质疑时，企业回应的对象和时机可能同样重要。文章区分针对基金声誉和针对其具体主张的两类反驳，并以公开回应信的内容分析讨论两者组合及时间差与行动结果之间的关系。 内容分析中的关联不能直接证明反驳策略的因果效果；企业与基金的选择及未观察差异仍须审查。
+
+标签：<a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E8%A1%8C%E5%8A%A8%E4%B8%BB%E4%B9%89&amp;show-results=1" title="全站搜索：股东行动主义">股东行动主义</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a>
+
+<small>来源日期：2026-10-28；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 生成式 AI 竞争：消费者需求证据 {#paper-nber-w35953}
+
+<p class="myapa">Egan, M. L., Russel, D., Shi, C., &amp; Yao, V. (2026). Competition in generative AI: Evidence from consumer demand. NBER Working Paper No. 35953. <a href="https://doi.org/10.3386/w35953" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Competition%20in%20generative%20AI%3A%20Evidence%20from%20consumer%20demand" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+利用信用卡与借记卡交易数据研究付费生成式 AI 服务的采用、同时订阅与用户切换，再估计服务需求和供给的结构模型，讨论替代性、转换成本与定价能力。文章把实际交易模式与模型分析结合，为研究新兴数字市场的竞争提供思路。 样本主要反映美国付费服务消费者，结构模型中的竞争压力与定价结果不等于对全球市场、免费服务或未来模型质量的保证。
+
+标签：<a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8F%20AI&amp;show-results=1" title="全站搜索：生成式 AI">生成式 AI</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：需求估计">需求估计</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：市场竞争">市场竞争</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 借助历史实验库推断长期处理效应 {#paper-arxiv-2610-36352}
+
+<p class="myapa">Hartog, W., Lei, L., Rahurkar, M., Sahni, N., &amp; Tang, Y. (2026). Many hands make light work: Long-term effect inference for the experiment reservoir. arXiv. <a href="https://doi.org/10.48550/arXiv.2610.36352" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.36352.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Many%20hands%20make%20light%20work%3A%20Long-term%20effect%20inference%20for%20the%20experiment%20reservoir" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+短期实验如何回答长期效果问题？文章提出 Experiment Reservoir Surrogate，利用历史长期实验库直接预测目标实验的长期平均处理效应，并匹配相似实验以放宽跨实验可比性要求。方法只需按期汇总数据，作者在 DoorDash 实验库中展示应用。 仍需要合适的历史实验和外推依据；不能由短期指标关联自动推出长期因果效果。
+
+标签：<a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：长期效应">长期效应</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E4%BB%A3%E7%90%86%E6%8C%87%E6%A0%87&amp;show-results=1" title="全站搜索：代理指标">代理指标</a>
+
+<small>来源日期：2026-10-26；补录：2026-10-31</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### spicy 0.14.0：统计表、回归表与代码本 {#tool-spicy-0-14-0}
+
+spicy 将描述统计、分组比较和回归结果整理为可导出的表格。0.14.0 新增多选题表和代码本交付，并改变分类百分比的默认分母、自动检验选择及机器输出字段。迁移旧脚本时应复核缺失值、分母和列名，不能只比版式；多选题接口仍为实验性。Windows 二进制暂为 0.13.0。安装为 <code>install.packages(&quot;spicy&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E8%A1%A8&amp;show-results=1" title="全站搜索：统计表">统计表</a> · <a class="tag-link" href="?q=%E6%8A%A5%E5%91%8A%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：报告输出">报告输出</a>
+
+<small>来源日期：2026-10-31；补录：2026-11-01</small>
+
+<a href="https://cran.r-project.org/package=spicy" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 2027 中国经济学年会春季论坛：12 月 1 日投稿截止 {#conf-china-economics-annual-spring-2027}
+
+**投稿截止：2026-12-01**
+
+会议：2027-01-15 至 2027-01-17 · 中国大陆·昆明，云南财经大学 (云南省昆明市五华区龙泉路237号)
+
+费用：官方通知明确会议不收取费用；交通、住宿费用自理。
+
+中国经济学年会主办、云南财经大学经济学院承办的春季论坛，将于 2027 年 1 月 15–17 日在昆明举行。征文覆盖世界经济与贸易、金融与宏观、数字经济、发展与资源环境、区域与边疆经济五个领域，12 月 1 日 24 时截止。通知明确会议不收费，交通住宿自理，原则上不接收已正式发表论文。系统栏与正文的开放日记载不同，今天均在投稿窗口内；本轮未登录验证提交功能。
+
+标签：<a class="tag-link" href="?q=%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：征稿">征稿</a> · <a class="tag-link" href="?q=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%B9%B4%E4%BC%9A&amp;show-results=1" title="全站搜索：中国经济学年会">中国经济学年会</a>
+
+<a href="https://cea.pku-nsd.com/eventDetail?eventId=48" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

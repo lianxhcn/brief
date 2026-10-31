@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.11.01
+
+📰 01｜论文 · The Review of Financial Studies：相关需求冲击如何进入资产定价？
+文章研究机构投资者追逐相同基准时产生的相关需求，讨论其如何与市场风险暴露、风险溢价和企业投资相联系。
+引文：Kim (2026). Correlated demand shocks and asset pricing. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag094 
+
+📰 02｜论文 · Management Science：养老金资金缺口压力如何影响投资风险？
+研究利用美国企业确定给付养老金的监管减压情境，考察资金缺口压力与股票配置、风险承担之间的联系。
+引文：Ioannidou, Pinto & Wang (2026). Corporate pension risk-taking in a low interest rate environment. Management Science.
+主页： https://doi.org/10.1287/mnsc.2025.02928 
+
+📦 03｜软件 · R：paneltests 1.0.8：面板诊断中的推断修正
+1.0.8 修正多项面板诊断的推断和数据处理问题，适合复查旧脚本。前置检验不拒绝不能证明模型有效；须核对实际安装版本。
+版本：R / paneltests 1.0.8；发布：2026-10-31
+CRAN： https://cran.r-project.org/package=paneltests 
+
+📦 04｜软件 · Python：diffindiff：组织 DiD 数据、估计与诊断流程
+该库连接 DiD 数据整理、估计和绘图，2.5.9 修复绘图与失败模型处理问题。分期处理和趋势检验功能不等于识别条件自动成立。
+版本：Python / diffindiff 2.5.9；发布：2026-10-31
+PyPI： https://pypi.org/project/diffindiff/ 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261101/ 

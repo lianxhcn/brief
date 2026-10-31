@@ -1,0 +1,1704 @@
+{
+  "editorial_version": 2,
+  "website_version": 3,
+  "paper_policy_version": 1,
+  "issue_type": "daily",
+  "issue_id": "brief-20261101",
+  "date": "2026-11-01",
+  "title": "连享会 · 快讯 | 2026.11.01",
+  "status": "published",
+  "retrieved_date": "2026-11-01",
+  "lianxh_posts": [],
+  "papers": [
+    {
+      "id": "paper-10-1093-rfs-hhag094",
+      "title": "相关需求冲击如何进入资产定价？",
+      "priority": "core",
+      "published_date": "2026-10-28",
+      "retrieved_date": "2026-10-31",
+      "verification_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://doi.org/10.1093/rfs/hhag094",
+      "page_note": "当机构投资者追逐相同基准时，超越指数的激励可能使交易需求同时变化。文章把这种相关需求冲击放进资产定价机制，并用指数成分调整的准实验提供经验支持，讨论其与市场风险暴露、风险溢价及企业投资的联系。 准实验的有效性、替代机制和外推仍需正文核查，不能仅凭需求共振推断个股的因果效应。",
+      "wechat_summary": "文章研究机构投资者追逐相同基准时产生的相关需求，讨论其如何与市场风险暴露、风险溢价和企业投资相联系。",
+      "publication_status": "published",
+      "journal": "The Review of Financial Studies",
+      "field": "金融学",
+      "source_date_basis": "出版社存入 Crossref 的 published-online 完整日期；2026-10-31 实际取回，2026-11-01 缓存审读。未把审读日或补卷期日改作首发日。",
+      "doi_url": "https://doi.org/10.1093/rfs/hhag094",
+      "homepage_url": "https://doi.org/10.1093/rfs/hhag094",
+      "evidence_level": "publisher-deposited-original-abstract",
+      "version_read": "2026-10-31 保存的出版社原始摘要与 online-first 元数据，2026-11-01 复核复用；未读全文、下载 PDF 或复现",
+      "citation": "Kim, B. (2026). Correlated demand shocks and asset pricing. The Review of Financial Studies.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "资产定价",
+          "机构投资者",
+          "需求冲击"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "publication_evidence_url": "https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag094/9003911",
+      "bibliography": {
+        "authors": [
+          "Kim, B."
+        ],
+        "year": 2026,
+        "title": "Correlated demand shocks and asset pricing",
+        "source": "The Review of Financial Studies",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1093/rfs/hhag094",
+        "homepage_url": "https://doi.org/10.1093/rfs/hhag094"
+      }
+    },
+    {
+      "id": "paper-10-1287-mnsc-2025-02928",
+      "title": "养老金资金缺口压力如何影响投资风险？",
+      "priority": "core",
+      "published_date": "2026-10-26",
+      "retrieved_date": "2026-10-31",
+      "verification_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.02928",
+      "page_note": "资金缺口会给企业养老金带来怎样的风险承担激励？文章利用调整折现率计算、暂时缓解缴费压力的监管改革，比较接受不同减压幅度的计划如何调整股票和较安全资产配置，并讨论计划状态及发起企业财务约束的差异。 结论对应特定监管改革和美国确定给付养老金；不能概括为任意放松监管都会降低风险。",
+      "wechat_summary": "研究利用美国企业确定给付养老金的监管减压情境，考察资金缺口压力与股票配置、风险承担之间的联系。",
+      "publication_status": "published",
+      "journal": "Management Science",
+      "field": "金融学",
+      "source_date_basis": "出版社存入 Crossref 的 published-online 完整日期；2026-10-31 实际取回，2026-11-01 缓存审读。未把审读日或补卷期日改作首发日。",
+      "doi_url": "https://doi.org/10.1287/mnsc.2025.02928",
+      "homepage_url": "https://doi.org/10.1287/mnsc.2025.02928",
+      "evidence_level": "publisher-deposited-original-abstract",
+      "version_read": "2026-10-31 保存的出版社原始摘要与 online-first 元数据，2026-11-01 复核复用；未读全文、下载 PDF 或复现",
+      "citation": "Ioannidou, V.; Pinto, R.; Wang, Z. (2026). Corporate pension risk-taking in a low interest rate environment. Management Science.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "养老金",
+          "资产配置",
+          "监管改革"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "publication_evidence_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02928",
+      "bibliography": {
+        "authors": [
+          "Ioannidou, V.",
+          "Pinto, R.",
+          "Wang, Z."
+        ],
+        "year": 2026,
+        "title": "Corporate pension risk-taking in a low interest rate environment",
+        "source": "Management Science",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1287/mnsc.2025.02928",
+        "homepage_url": "https://doi.org/10.1287/mnsc.2025.02928"
+      }
+    },
+    {
+      "id": "paper-10-1093-biomet-asag064",
+      "title": "非欧几里得响应的回归，怎样检验偏效应？",
+      "priority": "extended",
+      "published_date": "2026-10-27",
+      "retrieved_date": "2026-10-31",
+      "verification_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://doi.org/10.1093/biomet/asag064",
+      "page_note": "响应变量具有非欧几里得结构时，常规回归的检验方法未必能直接照搬。文章针对 Bures–Wasserstein 流形的 Fréchet 回归提出偏效应检验，给出渐近有效性和一致性论证，并以模拟及单细胞数据中的基因共表达结构说明应用。 适用性依赖指定流形、回归模型与渐近条件；统计偏效应不能直接解释为因果效应。",
+      "wechat_summary": "文章在 Bures–Wasserstein 流形的 Fréchet 回归中提出偏效应检验，并用模拟及单细胞数据说明其统计应用。",
+      "publication_status": "published",
+      "journal": "Biometrika",
+      "field": "统计学",
+      "source_date_basis": "出版社存入 Crossref 的 published-online 完整日期；2026-10-31 实际取回，2026-11-01 缓存审读。未把审读日或补卷期日改作首发日。",
+      "doi_url": "https://doi.org/10.1093/biomet/asag064",
+      "homepage_url": "https://doi.org/10.1093/biomet/asag064",
+      "evidence_level": "publisher-deposited-original-abstract",
+      "version_read": "2026-10-31 保存的出版社原始摘要与 online-first 元数据，2026-11-01 复核复用；未读全文、下载 PDF 或复现",
+      "citation": "Xu, H.; Li, H. (2026). Test of partial effects for Fréchet regression on Bures-Wasserstein manifolds. Biometrika.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "非欧几里得数据",
+          "Fréchet 回归",
+          "假设检验"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "publication_evidence_url": "https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asag064/9002862",
+      "bibliography": {
+        "authors": [
+          "Xu, H.",
+          "Li, H."
+        ],
+        "year": 2026,
+        "title": "Test of partial effects for Fréchet regression on Bures-Wasserstein manifolds",
+        "source": "Biometrika",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1093/biomet/asag064",
+        "homepage_url": "https://doi.org/10.1093/biomet/asag064"
+      }
+    },
+    {
+      "id": "paper-10-1287-orsc-2024-19136",
+      "title": "群体讨论怎样形成可执行的创新方案？",
+      "priority": "extended",
+      "published_date": "2026-10-19",
+      "retrieved_date": "2026-10-31",
+      "verification_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://doi.org/10.1287/orsc.2024.19136",
+      "page_note": "群体怎样把开放讨论变成可执行方案？文章分析围绕新西兰本土动植物保护的群体讨论，比较产生创新与未产生创新的对话如何组织资源、约束、目标和责任主体，并提出行动导向叙事这一解释框架。 这是特定开放讨论场景的分析，不能仅凭叙事结构就认定其必然造成创新，也不能直接推广到所有团队。",
+      "wechat_summary": "研究分析开放式群体讨论，比较产生创新方案和未产生方案的对话如何组织资源、目标及责任主体。",
+      "publication_status": "published",
+      "journal": "Organization Science",
+      "field": "管理学",
+      "source_date_basis": "出版社存入 Crossref 的 published-online 完整日期；2026-10-31 实际取回，2026-11-01 缓存审读。未把审读日或补卷期日改作首发日。",
+      "doi_url": "https://doi.org/10.1287/orsc.2024.19136",
+      "homepage_url": "https://doi.org/10.1287/orsc.2024.19136",
+      "evidence_level": "publisher-deposited-original-abstract",
+      "version_read": "2026-10-31 保存的出版社原始摘要与 online-first 元数据，2026-11-01 复核复用；未读全文、下载 PDF 或复现",
+      "citation": "Biscaro, C.; Malhotra, A.; Majchrzak, A. (2026). Action-oriented narratives. How innovation emerges from crowd discussions. Organization Science.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "群体讨论",
+          "创新",
+          "定性研究"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "publication_evidence_url": "https://pubsonline.informs.org/doi/10.1287/orsc.2024.19136",
+      "bibliography": {
+        "authors": [
+          "Biscaro, C.",
+          "Malhotra, A.",
+          "Majchrzak, A."
+        ],
+        "year": 2026,
+        "title": "Action-oriented narratives. How innovation emerges from crowd discussions",
+        "source": "Organization Science",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1287/orsc.2024.19136",
+        "homepage_url": "https://doi.org/10.1287/orsc.2024.19136"
+      }
+    },
+    {
+      "id": "paper-10-1093-biomet-asag069",
+      "title": "用分数阶导数推导边际密度",
+      "priority": "extended",
+      "published_date": "2026-10-27",
+      "retrieved_date": "2026-10-31",
+      "verification_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://doi.org/10.1093/biomet/asag069",
+      "page_note": "边际化常需要处理难以解析计算的积分。文章提出利用矩母函数的分数阶导数推导边际密度的思路，并解释相关概率与统计含义。 方法仍要求特定似然形式以及先验矩母函数的存在、有限性和相应光滑性，不适用于任意模型。",
+      "wechat_summary": "文章利用矩母函数的分数阶导数推导边际密度，说明其对似然形式和先验矩母函数的条件。",
+      "publication_status": "published",
+      "journal": "Biometrika",
+      "field": "统计学",
+      "source_date_basis": "出版社存入 Crossref 的 published-online 完整日期；2026-10-31 实际取回，2026-11-01 缓存审读。未把审读日或补卷期日改作首发日。",
+      "doi_url": "https://doi.org/10.1093/biomet/asag069",
+      "homepage_url": "https://doi.org/10.1093/biomet/asag069",
+      "evidence_level": "publisher-deposited-original-abstract",
+      "version_read": "2026-10-31 保存的出版社原始摘要与 online-first 元数据，2026-11-01 复核复用；未读全文、下载 PDF 或复现",
+      "citation": "Li, S. Y.; van Dyk, D. A.; Autenrieth, M. (2026). Using fractional derivatives to derive marginal densities. Biometrika.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "边际密度",
+          "矩母函数",
+          "解析推导"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "publication_evidence_url": "https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asag069/9002860",
+      "bibliography": {
+        "authors": [
+          "Li, S. Y.",
+          "van Dyk, D. A.",
+          "Autenrieth, M."
+        ],
+        "year": 2026,
+        "title": "Using fractional derivatives to derive marginal densities",
+        "source": "Biometrika",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1093/biomet/asag069",
+        "homepage_url": "https://doi.org/10.1093/biomet/asag069"
+      }
+    },
+    {
+      "id": "paper-10-1177-01492063261479303",
+      "title": "企业怎样回应激进对冲基金的公开质疑？",
+      "priority": "extended",
+      "published_date": "2026-10-28",
+      "retrieved_date": "2026-10-31",
+      "verification_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://doi.org/10.1177/01492063261479303",
+      "page_note": "受到激进对冲基金公开质疑时，企业回应的对象和时机可能同样重要。文章区分针对基金声誉和针对其具体主张的两类反驳，并以公开回应信的内容分析讨论两者组合及时间差与行动结果之间的关系。 内容分析中的关联不能直接证明反驳策略的因果效果；企业与基金的选择及未观察差异仍须审查。",
+      "wechat_summary": "文章区分针对信息来源与针对主张内容的反驳，利用公开回应信分析其与激进基金行动结果及回应时机的联系。",
+      "publication_status": "published",
+      "journal": "Journal of Management",
+      "field": "管理学",
+      "source_date_basis": "出版社存入 Crossref 的 published-online 完整日期；2026-10-31 实际取回，2026-11-01 缓存审读。未把审读日或补卷期日改作首发日。",
+      "doi_url": "https://doi.org/10.1177/01492063261479303",
+      "homepage_url": "https://doi.org/10.1177/01492063261479303",
+      "evidence_level": "publisher-deposited-original-abstract",
+      "version_read": "2026-10-31 保存的出版社原始摘要与 online-first 元数据，2026-11-01 复核复用；未读全文、下载 PDF 或复现",
+      "citation": "Brauer, M.; Mertens, M. J.; Vandepoele, L. (2026). Winning at defense by playing offense: Discrediting by target firms in activist hedge fund campaigns. Journal of Management.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "股东行动主义",
+          "文本分析",
+          "公司治理"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "publication_evidence_url": "https://journals.sagepub.com/doi/10.1177/01492063261479303",
+      "bibliography": {
+        "authors": [
+          "Brauer, M.",
+          "Mertens, M. J.",
+          "Vandepoele, L."
+        ],
+        "year": 2026,
+        "title": "Winning at defense by playing offense: Discrediting by target firms in activist hedge fund campaigns",
+        "source": "Journal of Management",
+        "publication_status": "published",
+        "doi_url": "https://doi.org/10.1177/01492063261479303",
+        "homepage_url": "https://doi.org/10.1177/01492063261479303"
+      }
+    },
+    {
+      "id": "paper-nber-w35953",
+      "title": "生成式 AI 竞争：消费者需求证据",
+      "priority": "extended",
+      "published_date": "2026-10-26",
+      "retrieved_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://www.nber.org/papers/w35953",
+      "page_note": "利用信用卡与借记卡交易数据研究付费生成式 AI 服务的采用、同时订阅与用户切换，再估计服务需求和供给的结构模型，讨论替代性、转换成本与定价能力。文章把实际交易模式与模型分析结合，为研究新兴数字市场的竞争提供思路。 样本主要反映美国付费服务消费者，结构模型中的竞争压力与定价结果不等于对全球市场、免费服务或未来模型质量的保证。",
+      "wechat_summary": "付费用户如何选择与切换生成式 AI 服务？交易证据结合需求模型，讨论替代性和定价能力。",
+      "publication_status": "working-paper",
+      "journal": "NBER Working Paper No. 35953",
+      "field": "经济学",
+      "source_date_basis": "Official publication/submission metadata; date retained during November1 directed abstract refresh",
+      "doi_url": "https://doi.org/10.3386/w35953",
+      "homepage_url": "https://www.nber.org/papers/w35953",
+      "evidence_level": "official-original-abstract",
+      "version_read": "NBER working paper; official abstract",
+      "citation": "Egan, M. L.; Russel, D.; Shi, C.; Yao, V. (2026). Competition in generative AI: Evidence from consumer demand. NBER Working Paper No. 35953.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "生成式 AI",
+          "需求估计",
+          "市场竞争"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "working_paper_source": "NBER",
+      "bibliography": {
+        "authors": [
+          "Egan, M. L.",
+          "Russel, D.",
+          "Shi, C.",
+          "Yao, V."
+        ],
+        "year": 2026,
+        "title": "Competition in generative AI: Evidence from consumer demand",
+        "source": "NBER Working Paper No. 35953",
+        "publication_status": "working-paper",
+        "doi_url": "https://doi.org/10.3386/w35953",
+        "homepage_url": "https://www.nber.org/papers/w35953"
+      }
+    },
+    {
+      "id": "paper-arxiv-2610-36352",
+      "title": "借助历史实验库推断长期处理效应",
+      "priority": "extended",
+      "published_date": "2026-10-26",
+      "retrieved_date": "2026-11-01",
+      "added_date": "2026-10-31",
+      "source_url": "https://arxiv.org/abs/2610.36352v1",
+      "page_note": "短期实验如何回答长期效果问题？文章提出 Experiment Reservoir Surrogate，利用历史长期实验库直接预测目标实验的长期平均处理效应，并匹配相似实验以放宽跨实验可比性要求。方法只需按期汇总数据，作者在 DoorDash 实验库中展示应用。 仍需要合适的历史实验和外推依据；不能由短期指标关联自动推出长期因果效果。",
+      "wechat_summary": "利用历史长期实验和短期汇总指标辅助长期效应推断，关键是相似实验的信息与可比性。",
+      "publication_status": "working-paper",
+      "journal": "arXiv",
+      "field": "计量经济学",
+      "source_date_basis": "Official publication/submission metadata; date retained during November1 directed abstract refresh",
+      "doi_url": "https://doi.org/10.48550/arXiv.2610.36352",
+      "homepage_url": "https://arxiv.org/abs/2610.36352v1",
+      "evidence_level": "official-original-abstract",
+      "version_read": "v1",
+      "citation": "Hartog, W.; Lei, L.; Rahurkar, M.; Sahni, N.; Tang, Y. (2026). Many hands make light work: Long-term effect inference for the experiment reservoir. arXiv.",
+      "catalog": {
+        "section": "research-frontier",
+        "tags": [
+          "长期效应",
+          "随机实验",
+          "代理指标"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": []
+      },
+      "working_paper_source": "arXiv",
+      "bibliography": {
+        "authors": [
+          "Hartog, W.",
+          "Lei, L.",
+          "Rahurkar, M.",
+          "Sahni, N.",
+          "Tang, Y."
+        ],
+        "year": 2026,
+        "title": "Many hands make light work: Long-term effect inference for the experiment reservoir",
+        "source": "arXiv",
+        "publication_status": "working-paper",
+        "doi_url": "https://doi.org/10.48550/arXiv.2610.36352",
+        "homepage_url": "https://arxiv.org/abs/2610.36352v1",
+        "arxiv_id": "2610.36352",
+        "pdf": {
+          "url": "https://arxiv.org/pdf/2610.36352.pdf",
+          "source_url": "https://arxiv.org/abs/2610.36352v1",
+          "retrieved_date": "2026-11-01",
+          "version": "v1",
+          "basis": "constructed from confirmed arXiv identifier; not downloaded"
+        }
+      },
+      "arxiv_id": "2610.36352",
+      "pdf_url": "https://arxiv.org/pdf/2610.36352.pdf",
+      "pdf_version": "v1"
+    }
+  ],
+  "tools": [
+    {
+      "id": "tool-paneltests-1-0-8",
+      "title": "paneltests 1.0.8：面板诊断中的推断修正",
+      "priority": "core",
+      "published_date": "2026-10-31",
+      "release_date": "2026-10-31",
+      "retrieved_date": "2026-11-01",
+      "added_date": "2026-11-01",
+      "source_url": "https://cran.r-project.org/package=paneltests",
+      "page_note": "paneltests 集中提供斜率同质性、截面相关和面板协整诊断。1.0.8 修正协整检验 p 值尾部、Swamy 中心估计量及缺失/共线处理，适合复查旧脚本。检验不拒绝不能证明模型设定或因果识别有效，稳健 Wald 检验仍需关注小样本风险。Windows 二进制暂为 1.0.6，须核对安装版本。安装为 `install.packages(\"paneltests\")`。",
+      "wechat_summary": "1.0.8 修正多项面板诊断的推断和数据处理问题，适合复查旧脚本。前置检验不拒绝不能证明模型有效；须核对实际安装版本。",
+      "name": "paneltests",
+      "ecosystem": "R",
+      "version": "1.0.8",
+      "url": "https://cran.r-project.org/package=paneltests",
+      "homepage_url": "https://cran.r-project.org/package=paneltests",
+      "project_id": "software:r:paneltests",
+      "source_date_basis": "CRAN DESCRIPTION Date/Publication：2026-10-31T06:50:08+00:00，按北京时间为2026-10-31；不是文档构建日或发现日。",
+      "installation_command": "install.packages(\"paneltests\")",
+      "tested": false,
+      "software_tested": false,
+      "catalog": {
+        "section": "methods-tools",
+        "tags": [
+          "面板诊断",
+          "推断修正"
+        ],
+        "software": [
+          "R"
+        ],
+        "methods": [],
+        "fields": []
+      },
+      "review": {
+        "source_id": "software:r-cran",
+        "source_url": "https://cran.r-project.org/package=paneltests",
+        "installation_url": "https://cran.r-project.org/package=paneltests",
+        "release_url": "https://cran.r-project.org/package=paneltests",
+        "example_url": "https://cran.r-project.org/web/packages/paneltests/refman/paneltests.html",
+        "known_issues_url": "https://cran.r-project.org/web/packages/paneltests/news/news.html",
+        "verified_at": "2026-11-01T07:25:29.970086+08:00",
+        "version_read": "paneltests 1.0.8 官方发行元数据与当前文档",
+        "date_basis": "CRAN DESCRIPTION Date/Publication：2026-10-31T06:50:08+00:00，按北京时间为2026-10-31；不是文档构建日或发现日。",
+        "evidence_locator": "发行元数据、官方用途说明、文档示例与版本变更段",
+        "identity_evidence": "核对原始项目、维护者、生态、包名与版本，长期state与公开期次无同项目既有发布",
+        "identity_status": "resolved",
+        "evidence_level": "release-notes",
+        "version_matches": true,
+        "human_review": "not-performed",
+        "detailed_claims": false,
+        "effective_date": "2026-10-31",
+        "update_event": "paneltests 1.0.8发行",
+        "change_evidence": "官方1.0.8 NEWS列出Pedroni/Kao的p值尾部、Swamy中心估计量与缺失/共线/短面板处理修正；稳健Wald的小样本尺寸风险仍在文档明确披露。",
+        "software_tested": false,
+        "reason": "只读官方发行信息、说明与最小示例；未安装、运行或验证计量结果。",
+        "agent_review": "approved",
+        "agent_reviewed_at": "2026-11-01T07:31:15.563665+08:00",
+        "reviewed_by": "Codex independent source and editorial review"
+      }
+    },
+    {
+      "id": "tool-diffindiff-2-5-9",
+      "title": "diffindiff：组织 DiD 数据、估计与诊断流程",
+      "priority": "core",
+      "published_date": "2026-10-31",
+      "release_date": "2026-10-31",
+      "retrieved_date": "2026-11-01",
+      "added_date": "2026-11-01",
+      "source_url": "https://pypi.org/project/diffindiff/",
+      "page_note": "diffindiff 将处理组、对照组、研究窗口与处理时段整理为分析对象，并连接 DiD 估计和效果图。2.5.9 修正 pandas 绘图列名、拟合指标零分母及模型失败时访问反事实结果的问题。支持分期处理不意味着自动解决异质性下的 TWFE 比较问题，平行趋势检验也不能证明识别假设。安装为 `pip install diffindiff`。",
+      "wechat_summary": "该库连接 DiD 数据整理、估计和绘图，2.5.9 修复绘图与失败模型处理问题。分期处理和趋势检验功能不等于识别条件自动成立。",
+      "name": "diffindiff",
+      "ecosystem": "Python",
+      "version": "2.5.9",
+      "url": "https://pypi.org/project/diffindiff/",
+      "homepage_url": "https://github.com/geowieland/diffindiff_official",
+      "project_id": "software:python:diffindiff",
+      "source_date_basis": "PyPI最早发行文件上传时刻：2026-10-30T20:33:13.736882+00:00，按北京时间为2026-10-31；不是文档构建日或发现日。",
+      "installation_command": "pip install diffindiff",
+      "tested": false,
+      "software_tested": false,
+      "catalog": {
+        "section": "methods-tools",
+        "tags": [
+          "DiD",
+          "分析流程"
+        ],
+        "software": [
+          "Python"
+        ],
+        "methods": [],
+        "fields": []
+      },
+      "review": {
+        "source_id": "software:python-pypi",
+        "source_url": "https://pypi.org/project/diffindiff/",
+        "installation_url": "https://pypi.org/project/diffindiff/",
+        "release_url": "https://pypi.org/project/diffindiff/",
+        "example_url": "https://pypi.org/project/diffindiff/",
+        "known_issues_url": "https://github.com/geowieland/diffindiff_official/issues",
+        "verified_at": "2026-11-01T07:25:29.970086+08:00",
+        "version_read": "diffindiff 2.5.9 官方发行元数据与当前文档",
+        "date_basis": "PyPI最早发行文件上传时刻：2026-10-30T20:33:13.736882+00:00，按北京时间为2026-10-31；不是文档构建日或发现日。",
+        "evidence_locator": "发行元数据、官方用途说明、文档示例与版本变更段",
+        "identity_evidence": "核对原始项目、维护者、生态、包名与版本，长期state与公开期次无同项目既有发布",
+        "identity_status": "resolved",
+        "evidence_level": "release-notes",
+        "version_matches": true,
+        "human_review": "not-performed",
+        "detailed_claims": false,
+        "effective_date": "2026-10-31",
+        "update_event": "diffindiff 2.5.9发行",
+        "change_evidence": "官方PyPI README的What's new(v2.5.9)列出pandas兼容绘图、R-squared分母检查和模型失败/不可用时的反事实访问修正；未把支持staggered adoption解释为所有异质性稳健DiD方法。",
+        "software_tested": false,
+        "reason": "只读官方发行信息、说明与最小示例；未安装、运行或验证计量结果。",
+        "agent_review": "approved",
+        "agent_reviewed_at": "2026-11-01T07:31:15.563665+08:00",
+        "reviewed_by": "Codex independent source and editorial review"
+      }
+    },
+    {
+      "id": "tool-spicy-0-14-0",
+      "title": "spicy 0.14.0：统计表、回归表与代码本",
+      "priority": "extended",
+      "published_date": "2026-10-31",
+      "release_date": "2026-10-31",
+      "retrieved_date": "2026-11-01",
+      "added_date": "2026-11-01",
+      "source_url": "https://cran.r-project.org/package=spicy",
+      "page_note": "spicy 将描述统计、分组比较和回归结果整理为可导出的表格。0.14.0 新增多选题表和代码本交付，并改变分类百分比的默认分母、自动检验选择及机器输出字段。迁移旧脚本时应复核缺失值、分母和列名，不能只比版式；多选题接口仍为实验性。Windows 二进制暂为 0.13.0。安装为 `install.packages(\"spicy\")`。",
+      "wechat_summary": "0.14.0 扩展多选题表与代码本输出，也改变百分比分母和字段名。迁移旧报告须核对数值口径，不能只检查排版。",
+      "name": "spicy",
+      "ecosystem": "R",
+      "version": "0.14.0",
+      "url": "https://cran.r-project.org/package=spicy",
+      "homepage_url": "https://amaltawfik.github.io/spicy/",
+      "project_id": "software:r:spicy",
+      "source_date_basis": "CRAN DESCRIPTION Date/Publication：2026-10-31T08:10:10+00:00，按北京时间为2026-10-31；不是文档构建日或发现日。",
+      "installation_command": "install.packages(\"spicy\")",
+      "tested": false,
+      "software_tested": false,
+      "catalog": {
+        "section": "methods-tools",
+        "tags": [
+          "统计表",
+          "报告输出"
+        ],
+        "software": [
+          "R"
+        ],
+        "methods": [],
+        "fields": []
+      },
+      "review": {
+        "source_id": "software:r-cran",
+        "source_url": "https://cran.r-project.org/package=spicy",
+        "installation_url": "https://cran.r-project.org/package=spicy",
+        "release_url": "https://cran.r-project.org/package=spicy",
+        "example_url": "https://cran.r-project.org/web/packages/spicy/readme/README.html",
+        "known_issues_url": "https://github.com/amaltawfik/spicy/issues",
+        "verified_at": "2026-11-01T07:25:29.970086+08:00",
+        "version_read": "spicy 0.14.0 官方发行元数据与当前文档",
+        "date_basis": "CRAN DESCRIPTION Date/Publication：2026-10-31T08:10:10+00:00，按北京时间为2026-10-31；不是文档构建日或发现日。",
+        "evidence_locator": "发行元数据、官方用途说明、文档示例与版本变更段",
+        "identity_evidence": "核对原始项目、维护者、生态、包名与版本，长期state与公开期次无同项目既有发布",
+        "identity_status": "resolved",
+        "evidence_level": "release-notes",
+        "version_matches": true,
+        "human_review": "not-performed",
+        "detailed_claims": false,
+        "effective_date": "2026-10-31",
+        "update_event": "spicy 0.14.0发行",
+        "change_evidence": "官方0.14.0 NEWS新增table_multiresponse及code_book交付，列明百分比按observed为默认、自动检验规则、标签和machine-output字段的breaking changes；多选题接口仍experimental。",
+        "software_tested": false,
+        "reason": "只读官方发行信息、说明与最小示例；未安装、运行或验证计量结果。",
+        "agent_review": "approved",
+        "agent_reviewed_at": "2026-11-01T07:31:15.563665+08:00",
+        "reviewed_by": "Codex independent source and editorial review"
+      }
+    }
+  ],
+  "research_resources": [],
+  "conference_calls": [
+    {
+      "id": "conf-china-economics-annual-spring-2027",
+      "event_id": "china-economics-annual-spring-2027",
+      "title": "2027 中国经济学年会春季论坛：12 月 1 日投稿截止",
+      "priority": "extended",
+      "retrieved_date": "2026-11-01",
+      "first_discovered_date": "2026-10-31",
+      "source_date_status": "unknown",
+      "source_date_basis": "官方当届通知未单列公告发布日期。系统投稿开放字段10月26日、正文开通日11月1日及图片目录日期均不等于公告首发；不虚填published_date，也不套用历史补录added_date。",
+      "source_url": "https://cea.pku-nsd.com/eventDetail?eventId=48",
+      "official_url": "https://cea.pku-nsd.com/eventDetail?eventId=48",
+      "url": "https://cea.pku-nsd.com/eventDetail?eventId=48",
+      "organizer_or_journal": "中国经济学年会",
+      "host": "云南财经大学经济学院",
+      "topic": "世界经济与国际贸易、金融经济与宏观经济、数字经济与数字贸易、发展经济学与资源环境经济、区域经济发展与边疆经济学",
+      "event_date": "2027-01-15",
+      "event_end_date": "2027-01-17",
+      "deadline": "2026-12-01",
+      "deadline_kind": "submission",
+      "location": "中国大陆·昆明，云南财经大学 (云南省昆明市五华区龙泉路237号)",
+      "location_region": "mainland-china",
+      "location_evidence_url": "https://cea.pku-nsd.com/eventDetail?eventId=48",
+      "fee_note": "官方通知明确会议不收取费用；交通、住宿费用自理。",
+      "status": "open",
+      "reminder": false,
+      "page_note": "中国经济学年会主办、云南财经大学经济学院承办的春季论坛，将于 2027 年 1 月 15–17 日在昆明举行。征文覆盖世界经济与贸易、金融与宏观、数字经济、发展与资源环境、区域与边疆经济五个领域，12 月 1 日 24 时截止。通知明确会议不收费，交通住宿自理，原则上不接收已正式发表论文。系统栏与正文的开放日记载不同，今天均在投稿窗口内；本轮未登录验证提交功能。",
+      "wechat_summary": "昆明举办，12 月 1 日投稿截止；官方通知会议不收费，交通住宿自理。须按五个征文领域投稿，原则上不接收已正式发表论文。",
+      "catalog": {
+        "section": "academic-updates",
+        "tags": [
+          "征稿",
+          "中国经济学年会"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": [
+          "经济学"
+        ]
+      },
+      "review": {
+        "source_id": "conference:cfrn",
+        "source_url": "https://cea.pku-nsd.com/eventDetail?eventId=48",
+        "version_read": "中国经济学年会投稿系统eventId48当届通知正文与系统信息，11月1日读取",
+        "date_basis": "effective_date仅表示11月1日核验投稿仍在有效窗口，不冒充公告发布日期；公告日unknown。",
+        "effective_date": "2026-11-01",
+        "verified_at": "2026-11-01T07:25:29.970086+08:00",
+        "evidence_locator": "会议详情、投稿开放字段、正文一至三节 (投稿形式、格式、注意事项)",
+        "identity_evidence": "当届官方系统明确中文主办方中国经济学年会、云南财经大学经济学院承办与昆明地点；不与海外同缩写CEA协会混同。长期候选未见同届已发布。",
+        "identity_status": "resolved",
+        "evidence_level": "official-page",
+        "version_matches": true,
+        "human_review": "not-performed",
+        "detailed_claims": false,
+        "reason": "昨日CFRN线索暂缓，今日取得当届主办方完整通知后补核；按有效截止与大陆主会场择优，不为数量凑会议。",
+        "agent_review": "approved",
+        "agent_reviewed_at": "2026-11-01T07:31:15.563665+08:00",
+        "reviewed_by": "Codex independent source and editorial review"
+      },
+      "event_end": "2027-01-17"
+    }
+  ],
+  "paper_review": {
+    "journal_checks": [
+      {
+        "source_id": "journal:academy-of-management-journal",
+        "source": "Academy of Management Journal",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0001-4273/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\academy-of-management-journal.json",
+        "candidate_ids": [
+          "paper-10-5465-amj-2025-0366"
+        ],
+        "reason": "Live Crossref online-date query; 1/1 rows retrieved; 1 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 1,
+        "total_results": 1,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:academy-of-management-review",
+        "source": "Academy of Management Review",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0363-7425/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\academy-of-management-review.json",
+        "candidate_ids": [
+          "paper-10-5465-amr-2023-0182",
+          "paper-10-5465-amr-2025-0873",
+          "paper-10-5465-amr-2026-0377"
+        ],
+        "reason": "Live Crossref online-date query; 3/3 rows retrieved; 3 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 3,
+        "total_results": 3,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:administrative-science-quarterly",
+        "source": "Administrative Science Quarterly",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0001-8392/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\administrative-science-quarterly.json",
+        "candidate_ids": [
+          "paper-10-1177-00018392261495943",
+          "paper-10-1177-00018392261498050",
+          "paper-10-1177-00018392261500415"
+        ],
+        "reason": "Live Crossref online-date query; 3/3 rows retrieved; 3 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 3,
+        "total_results": 3,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:american-economic-review",
+        "source": "American Economic Review",
+        "status": "no-eligible",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0002-8282/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\american-economic-review.json",
+        "candidate_ids": [],
+        "reason": "Live Crossref online-date query; 0/0 rows retrieved; 0 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 0,
+        "total_results": 0,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:american-journal-of-sociology",
+        "source": "American Journal of Sociology",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0002-9602/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\american-journal-of-sociology.json",
+        "candidate_ids": [
+          "paper-10-1086-744321"
+        ],
+        "reason": "Live Crossref online-date query; 1/1 rows retrieved; 1 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 1,
+        "total_results": 1,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:american-sociological-review",
+        "source": "American Sociological Review",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0003-1224/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\american-sociological-review.json",
+        "candidate_ids": [
+          "paper-10-1177-00031224261489790",
+          "paper-10-1177-00031224261486015",
+          "paper-10-1177-00031224261489725"
+        ],
+        "reason": "Live Crossref online-date query; 4/4 rows retrieved; 3 unposted metadata candidates; exclusions={'already-published-key-or-title': 1}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 4,
+        "total_results": 4,
+        "excluded_counts": {
+          "already-published-key-or-title": 1
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:annals-of-statistics",
+        "source": "Annals of Statistics",
+        "status": "no-eligible",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0090-5364/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\annals-of-statistics.json",
+        "candidate_ids": [],
+        "reason": "Live Crossref online-date query; 0/0 rows retrieved; 0 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 0,
+        "total_results": 0,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:biometrika",
+        "source": "Biometrika",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0006-3444/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\biometrika.json",
+        "candidate_ids": [
+          "paper-10-1093-biomet-asag062",
+          "paper-10-1093-biomet-asag069",
+          "paper-10-1093-biomet-asag050",
+          "paper-10-1093-biomet-asag064"
+        ],
+        "reason": "Live Crossref online-date query; 8/8 rows retrieved; 4 unposted metadata candidates; exclusions={'already-published-key-or-title': 4}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 8,
+        "total_results": 8,
+        "excluded_counts": {
+          "already-published-key-or-title": 4
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:contemporary-accounting-research",
+        "source": "Contemporary Accounting Research",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0823-9150/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\contemporary-accounting-research.json",
+        "candidate_ids": [
+          "paper-10-1111-1911-3846-70095",
+          "paper-10-1111-1911-3846-70094",
+          "paper-10-1111-1911-3846-70098"
+        ],
+        "reason": "Live Crossref online-date query; 5/5 rows retrieved; 3 unposted metadata candidates; exclusions={'already-published-key-or-title': 2}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 5,
+        "total_results": 5,
+        "excluded_counts": {
+          "already-published-key-or-title": 2
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:econometrica",
+        "source": "Econometrica",
+        "status": "no-eligible",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0012-9682/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\econometrica.json",
+        "candidate_ids": [],
+        "reason": "Live Crossref online-date query; 0/0 rows retrieved; 0 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 0,
+        "total_results": 0,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-accounting-and-economics",
+        "source": "Journal of Accounting and Economics",
+        "status": "access-failed",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0165-4101/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "candidate_ids": [],
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "complete": false,
+        "fallback": {
+          "source_id": "journal:journal-of-accounting-and-economics",
+          "source": "Journal of Accounting and Economics",
+          "status": "no-eligible",
+          "checked_at": "2026-10-31",
+          "window_start": "2026-10-14",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article%2Cissn%3A0165-4101&rows=200",
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-accounting-and-economics-fallback-global.json",
+          "candidate_ids": [],
+          "reason": "Live Crossref online-date query; 0/0 rows retrieved; 0 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+          "complete": true,
+          "fetched_count": 0,
+          "total_results": 0,
+          "excluded_counts": {}
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-accounting-research",
+        "source": "Journal of Accounting Research",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0021-8456/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-accounting-research.json",
+        "candidate_ids": [
+          "paper-10-1111-1475-679x-70093",
+          "paper-10-1111-1475-679x-70092",
+          "paper-10-1111-1475-679x-70091"
+        ],
+        "reason": "Live Crossref online-date query; 3/3 rows retrieved; 3 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 3,
+        "total_results": 3,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-finance",
+        "source": "Journal of Finance",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0022-1082/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-finance.json",
+        "candidate_ids": [
+          "paper-10-1111-jofi-70100",
+          "paper-10-1111-jofi-70099"
+        ],
+        "reason": "Live Crossref online-date query; 4/4 rows retrieved; 2 unposted metadata candidates; exclusions={'already-published-key-or-title': 2}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 4,
+        "total_results": 4,
+        "excluded_counts": {
+          "already-published-key-or-title": 2
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-financial-economics",
+        "source": "Journal of Financial Economics",
+        "status": "no-eligible",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0304-405X/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-financial-economics.json",
+        "candidate_ids": [],
+        "reason": "Live Crossref online-date query; 0/0 rows retrieved; 0 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 0,
+        "total_results": 0,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-management",
+        "source": "Journal of Management",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0149-2063/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-management.json",
+        "candidate_ids": [
+          "paper-10-1177-01492063261489261",
+          "paper-10-1177-01492063261492636",
+          "paper-10-1177-01492063261479303"
+        ],
+        "reason": "Live Crossref online-date query; 4/4 rows retrieved; 3 unposted metadata candidates; exclusions={'already-published-key-or-title': 1}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 4,
+        "total_results": 4,
+        "excluded_counts": {
+          "already-published-key-or-title": 1
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-political-economy",
+        "source": "Journal of Political Economy",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0022-3808/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-political-economy.json",
+        "candidate_ids": [
+          "paper-10-1086-743388",
+          "paper-10-1086-744576",
+          "paper-10-1086-743333",
+          "paper-10-1086-744577",
+          "paper-10-1086-743331",
+          "paper-10-1086-743389"
+        ],
+        "reason": "Live Crossref online-date query; 8/8 rows retrieved; 6 unposted metadata candidates; exclusions={'already-published-key-or-title': 2}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 8,
+        "total_results": 8,
+        "excluded_counts": {
+          "already-published-key-or-title": 2
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-the-american-statistical-association",
+        "source": "Journal of the American Statistical Association",
+        "status": "access-failed",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0162-1459/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "candidate_ids": [],
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "complete": false,
+        "fallback": {
+          "source_id": "journal:journal-of-the-american-statistical-association",
+          "source": "Journal of the American Statistical Association",
+          "status": "found",
+          "checked_at": "2026-10-31",
+          "window_start": "2026-10-14",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article%2Cissn%3A0162-1459&rows=200",
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-the-american-statistical-association-fallback-global.json",
+          "candidate_ids": [
+            "paper-10-1080-01621459-2026-2742483",
+            "paper-10-1080-01621459-2026-2751234",
+            "paper-10-1080-01621459-2026-2749128",
+            "paper-10-1080-01621459-2026-2755097",
+            "paper-10-1080-01621459-2026-2754151",
+            "paper-10-1080-01621459-2026-2747635",
+            "paper-10-1080-01621459-2026-2750273",
+            "paper-10-1080-01621459-2026-2751737",
+            "paper-10-1080-01621459-2026-2749694",
+            "paper-10-1080-01621459-2026-2749698",
+            "paper-10-1080-01621459-2026-2743752"
+          ],
+          "reason": "Live Crossref online-date query; 15/15 rows retrieved; 11 unposted metadata candidates; exclusions={'already-published-key-or-title': 4}. Abstract/date checks and editorial selection remain separate.",
+          "complete": true,
+          "fetched_count": 15,
+          "total_results": 15,
+          "excluded_counts": {
+            "already-published-key-or-title": 4
+          }
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:journal-of-the-royal-statistical-society-series-b",
+        "source": "Journal of the Royal Statistical Society, Series B",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/1369-7412/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\journal-of-the-royal-statistical-society-series-b.json",
+        "candidate_ids": [
+          "paper-10-1093-jrsssb-qkag137",
+          "paper-10-1093-jrsssb-qkag136",
+          "paper-10-1093-jrsssb-qkag135"
+        ],
+        "reason": "Live Crossref online-date query; 6/6 rows retrieved; 3 unposted metadata candidates; exclusions={'already-published-key-or-title': 3}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 6,
+        "total_results": 6,
+        "excluded_counts": {
+          "already-published-key-or-title": 3
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:management-science",
+        "source": "Management Science",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0025-1909/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\management-science.json",
+        "candidate_ids": [
+          "paper-10-1287-mnsc-2025-04854",
+          "paper-10-1287-mnsc-2024-08268",
+          "paper-10-1287-mnsc-2025-03608",
+          "paper-10-1287-mnsc-2025-01218",
+          "paper-10-1287-mnsc-2023-02703",
+          "paper-10-1287-mnsc-2024-07082",
+          "paper-10-1287-mnsc-2024-08463",
+          "paper-10-1287-mnsc-2025-00714",
+          "paper-10-1287-mnsc-2025-02928",
+          "paper-10-1287-mnsc-2023-04115",
+          "paper-10-1287-mnsc-2024-08672"
+        ],
+        "reason": "Live Crossref online-date query; 27/27 rows retrieved; 11 unposted metadata candidates; exclusions={'already-published-key-or-title': 16}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 27,
+        "total_results": 27,
+        "excluded_counts": {
+          "already-published-key-or-title": 16
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:organization-science",
+        "source": "Organization Science",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/1047-7039/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\organization-science.json",
+        "candidate_ids": [
+          "paper-10-1287-orsc-2024-18859",
+          "paper-10-1287-orsc-2024-19136",
+          "paper-10-1287-orsc-2026-ed-v37-n6",
+          "paper-10-1287-orsc-2024-19407",
+          "paper-10-1287-orsc-2023-17926"
+        ],
+        "reason": "Live Crossref online-date query; 5/5 rows retrieved; 5 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 5,
+        "total_results": 5,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:quarterly-journal-of-economics",
+        "source": "Quarterly Journal of Economics",
+        "status": "no-eligible",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0033-5533/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\quarterly-journal-of-economics.json",
+        "candidate_ids": [],
+        "reason": "Live Crossref online-date query; 2/2 rows retrieved; 0 unposted metadata candidates; exclusions={'already-published-key-or-title': 2}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 2,
+        "total_results": 2,
+        "excluded_counts": {
+          "already-published-key-or-title": 2
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:review-of-accounting-studies",
+        "source": "Review of Accounting Studies",
+        "status": "access-failed",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/1380-6653/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "candidate_ids": [],
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "complete": false,
+        "fallback": {
+          "source_id": "journal:review-of-accounting-studies",
+          "source": "Review of Accounting Studies",
+          "status": "no-eligible",
+          "checked_at": "2026-10-31",
+          "window_start": "2026-10-14",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article%2Cissn%3A1380-6653&rows=200",
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\review-of-accounting-studies-fallback-global.json",
+          "candidate_ids": [],
+          "reason": "Live Crossref online-date query; 0/0 rows retrieved; 0 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+          "complete": true,
+          "fetched_count": 0,
+          "total_results": 0,
+          "excluded_counts": {}
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:review-of-economic-studies",
+        "source": "Review of Economic Studies",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0034-6527/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\review-of-economic-studies.json",
+        "candidate_ids": [
+          "paper-10-1093-restud-rdag114",
+          "paper-10-1093-restud-rdag119",
+          "paper-10-1093-restud-rdag118"
+        ],
+        "reason": "Live Crossref online-date query; 5/5 rows retrieved; 3 unposted metadata candidates; exclusions={'already-published-key-or-title': 2}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 5,
+        "total_results": 5,
+        "excluded_counts": {
+          "already-published-key-or-title": 2
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:review-of-financial-studies",
+        "source": "Review of Financial Studies",
+        "status": "access-failed",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0893-9454/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "candidate_ids": [],
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "complete": false,
+        "fallback": {
+          "source_id": "journal:review-of-financial-studies",
+          "source": "Review of Financial Studies",
+          "status": "found",
+          "checked_at": "2026-10-31",
+          "window_start": "2026-10-14",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article%2Cissn%3A0893-9454&rows=200",
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\review-of-financial-studies-fallback-global.json",
+          "candidate_ids": [
+            "paper-10-1093-rfs-hhag094"
+          ],
+          "reason": "Live Crossref online-date query; 4/4 rows retrieved; 1 unposted metadata candidates; exclusions={'already-published-key-or-title': 3}. Abstract/date checks and editorial selection remain separate.",
+          "complete": true,
+          "fetched_count": 4,
+          "total_results": 4,
+          "excluded_counts": {
+            "already-published-key-or-title": 3
+          }
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:social-forces",
+        "source": "Social Forces",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0037-7732/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\social-forces.json",
+        "candidate_ids": [
+          "paper-10-1093-sf-soag152",
+          "paper-10-1093-sf-soag153",
+          "paper-10-1093-sf-soag149",
+          "paper-10-1093-sf-soag160",
+          "paper-10-1093-sf-soag151",
+          "paper-10-1093-sf-soag150",
+          "paper-10-1093-sf-soag156",
+          "paper-10-1093-sf-soag154",
+          "paper-10-1093-sf-soag155",
+          "paper-10-1093-sf-soag159"
+        ],
+        "reason": "Live Crossref online-date query; 10/10 rows retrieved; 10 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 10,
+        "total_results": 10,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:statistical-science",
+        "source": "Statistical Science",
+        "status": "no-eligible",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0883-4237/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\statistical-science.json",
+        "candidate_ids": [],
+        "reason": "Live Crossref online-date query; 0/0 rows retrieved; 0 unposted metadata candidates; exclusions={}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 0,
+        "total_results": 0,
+        "excluded_counts": {},
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:strategic-management-journal",
+        "source": "Strategic Management Journal",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0143-2095/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\strategic-management-journal.json",
+        "candidate_ids": [
+          "paper-10-1002-smj-70139"
+        ],
+        "reason": "Live Crossref online-date query; 4/4 rows retrieved; 1 unposted metadata candidates; exclusions={'already-published-key-or-title': 3}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 4,
+        "total_results": 4,
+        "excluded_counts": {
+          "already-published-key-or-title": 3
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      },
+      {
+        "source_id": "journal:the-accounting-review",
+        "source": "The Accounting Review",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "window_start": "2026-10-14",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://api.crossref.org/journals/0001-4826/works?filter=from-online-pub-date%3A2026-10-14%2Cuntil-online-pub-date%3A2026-10-31%2Ctype%3Ajournal-article&rows=1000",
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\raw-crossref\\the-accounting-review.json",
+        "candidate_ids": [
+          "paper-10-2308-tar-2024-0576",
+          "paper-10-2308-tar-2025-0183",
+          "paper-10-2308-tar-2024-0836",
+          "paper-10-2308-tar-2025-0720",
+          "paper-10-2308-tar-2024-0048",
+          "paper-10-2308-tar-2023-0105",
+          "paper-10-2308-tar-2024-0063",
+          "paper-10-2308-tar-2024-0559",
+          "paper-10-2308-tar-2024-0591"
+        ],
+        "reason": "Live Crossref online-date query; 13/13 rows retrieved; 9 unposted metadata candidates; exclusions={'already-published-key-or-title': 4}. Abstract/date checks and editorial selection remain separate.",
+        "complete": true,
+        "fetched_count": 13,
+        "total_results": 13,
+        "excluded_counts": {
+          "already-published-key-or-title": 4
+        },
+        "reuse_note": "2026-11-01 复用2026-10-31真实检查，checked_at/window均保持原样；candidate_ids是原轮候选，不等于今日全部仍未发布。",
+        "reused_on": "2026-11-01"
+      }
+    ],
+    "working_paper_checks": [
+      {
+        "source": "NBER",
+        "source_id": "workingpaper:nber",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+        "window_start": "2026-10-16",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://www.nber.org/rss/new.xml",
+        "candidate_ids": [
+          "paper-nber-w35931",
+          "paper-nber-w35947",
+          "paper-nber-w35927",
+          "paper-nber-w35949"
+        ],
+        "reason": "Live RSS 35 items; official latest-100 listing and 13 complete official paper pages inspected. Four unduplicated, relevant October-26 papers curated; no claim that all 100 abstracts were read.",
+        "complete": false,
+        "exhaustive": false,
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\nber-rss.xml",
+        "supporting_evidence": [
+          "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\nber-api-window.json",
+          "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\detail-requests.json"
+        ],
+        "original_complete_flag": true,
+        "bounded_check_completed": true,
+        "reused_on": "2026-11-01",
+        "reuse_age_days": 1,
+        "last_success_may_advance": false,
+        "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+      },
+      {
+        "source": "arXiv",
+        "source_id": "workingpaper:arxiv",
+        "status": "access-failed",
+        "checked_at": "2026-10-31",
+        "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+        "window_start": "2026-10-16",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://export.arxiv.org/api/query",
+        "candidate_ids": [],
+        "reason": "Local HTTPS API failed certificate verification. Official arXiv monthly listing and abstract pages were read through live Firecrawl fallback without disabling certificate verification.",
+        "complete": false,
+        "exhaustive": false,
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\source-requests.json",
+        "fallback": {
+          "source": "arXiv",
+          "source_id": "workingpaper:arxiv",
+          "status": "found",
+          "checked_at": "2026-10-31",
+          "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+          "window_start": "2026-10-16",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://arxiv.org/list/econ.EM/2026-10?show=1000",
+          "candidate_ids": [
+            "paper-arxiv-2610-35831",
+            "paper-arxiv-2610-37049",
+            "paper-arxiv-2610-39995",
+            "paper-arxiv-2610-38665"
+          ],
+          "reason": "Official October econ.EM monthly listing contains 131 entries; recent dated listing and seven complete abstract/version pages screened. Previously published 2610.31978 and 2610.31537 excluded. Four candidates retained with version and announcement-date limits.",
+          "complete": false,
+          "exhaustive": false,
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\arxiv-month.json",
+          "original_complete_flag": true,
+          "bounded_check_completed": true,
+          "reused_on": "2026-11-01",
+          "reuse_age_days": 1,
+          "last_success_may_advance": false,
+          "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+        },
+        "original_complete_flag": true,
+        "bounded_check_completed": true,
+        "reused_on": "2026-11-01",
+        "reuse_age_days": 1,
+        "last_success_may_advance": false,
+        "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+      },
+      {
+        "source": "CEPR",
+        "source_id": "workingpaper:cepr",
+        "status": "access-failed",
+        "checked_at": "2026-10-31",
+        "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+        "window_start": "2026-10-16",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://cepr.org/publications/discussion-papers",
+        "candidate_ids": [],
+        "reason": "Direct official catalogue GET returned 403; live Firecrawl official catalogue and pages 1–4 succeeded.",
+        "complete": false,
+        "exhaustive": false,
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\source-requests.json",
+        "fallback": {
+          "source": "CEPR",
+          "source_id": "workingpaper:cepr",
+          "status": "found",
+          "checked_at": "2026-10-31",
+          "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+          "window_start": "2026-10-16",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://cepr.org/publications/discussion-papers",
+          "candidate_ids": [
+            "screened-cepr-dp22103",
+            "screened-cepr-dp22105"
+          ],
+          "reason": "Official catalogue pages 0–4 cover displayed dates through October 16. DP22103 fevc duplicates NBER w35948; DP22105 poverty-program meta-analysis matches World Bank WPS11494. Complete abstracts read; kept as real compared alternatives, not counted again.",
+          "complete": false,
+          "exhaustive": false,
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\firecrawl-cepr.json",
+          "original_complete_flag": true,
+          "bounded_check_completed": true,
+          "reused_on": "2026-11-01",
+          "reuse_age_days": 1,
+          "last_success_may_advance": false,
+          "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+        },
+        "original_complete_flag": true,
+        "bounded_check_completed": true,
+        "reused_on": "2026-11-01",
+        "reuse_age_days": 1,
+        "last_success_may_advance": false,
+        "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+      },
+      {
+        "source": "IZA",
+        "source_id": "workingpaper:iza",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+        "window_start": "2026-10-16",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://www.iza.org/publications/dp",
+        "candidate_ids": [
+          "screened-iza-18999",
+          "screened-iza-19003",
+          "screened-iza-19013"
+        ],
+        "reason": "Live latest listing and 20 official paper pages inspected. October candidates include AI task expansion, refugee-child place effects and childhood neighbors. Official pages expose only month-level publication dates; exact first-day availability remains unknown, so none is assigned to a backdated issue.",
+        "complete": false,
+        "exhaustive": false,
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\iza-list.html",
+        "date_precision_limitation": "month-only; first-day and 14-day eligibility not established for those candidates",
+        "original_complete_flag": true,
+        "bounded_check_completed": true,
+        "reused_on": "2026-11-01",
+        "reuse_age_days": 1,
+        "last_success_may_advance": false,
+        "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+      },
+      {
+        "source": "IMF",
+        "source_id": "workingpaper:imf",
+        "status": "access-failed",
+        "checked_at": "2026-10-31",
+        "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+        "window_start": "2026-10-16",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://www.imf.org/en/publications/wp",
+        "candidate_ids": [],
+        "reason": "Direct official list returned 403; the Crossref alternative request encountered TLS EOF. Live official catalogue and the Global Fiscal Actions page succeeded through Firecrawl.",
+        "complete": false,
+        "exhaustive": false,
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\source-requests.json",
+        "fallback": {
+          "source": "IMF",
+          "source_id": "workingpaper:imf",
+          "status": "found",
+          "checked_at": "2026-10-31",
+          "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+          "window_start": "2026-10-16",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://www.imf.org/en/publications/wp",
+          "candidate_ids": [
+            "screened-imf-2026-221"
+          ],
+          "reason": "Official latest catalogue lists October 18–23 working papers. Global Fiscal Actions 2026/221 has a complete official abstract and October-23 date; retained as a compared data-paper alternative, not selected in the final eight. Pagination initially loaded incompletely, then current list loaded; no claim of all-series exhaustive coverage.",
+          "complete": false,
+          "exhaustive": false,
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\firecrawl-imf.json",
+          "original_complete_flag": true,
+          "bounded_check_completed": true,
+          "reused_on": "2026-11-01",
+          "reuse_age_days": 1,
+          "last_success_may_advance": false,
+          "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+        },
+        "original_complete_flag": true,
+        "bounded_check_completed": true,
+        "reused_on": "2026-11-01",
+        "reuse_age_days": 1,
+        "last_success_may_advance": false,
+        "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+      },
+      {
+        "source": "World Bank",
+        "source_id": "workingpaper:world-bank",
+        "status": "found",
+        "checked_at": "2026-10-31",
+        "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+        "window_start": "2026-10-16",
+        "window_end": "2026-10-31",
+        "evidence_url": "https://documents.worldbank.org/en/publication/documents-reports/documentlist?colti=Policy%20Research%20Working%20Paper",
+        "candidate_ids": [
+          "screened-wb-wps11494"
+        ],
+        "reason": "Live official document catalogue examined to October 14; working-paper series and report numbers checked. WPS11494 has October-30 date, official PDF and matching CEPR complete abstract. API empty parameter response was inconclusive and was not treated as zero eligible papers.",
+        "complete": false,
+        "exhaustive": false,
+        "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\firecrawl-worldbank.json",
+        "initial_attempt": {
+          "status": "inconclusive-empty-api-response",
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\worldbank-api.json",
+          "adopted_as_no_eligible": false
+        },
+        "fallback": {
+          "source": "World Bank",
+          "source_id": "workingpaper:world-bank",
+          "status": "found",
+          "checked_at": "2026-10-31",
+          "checked_at_iso": "2026-10-31T01:39:26.463638+08:00",
+          "window_start": "2026-10-16",
+          "window_end": "2026-10-31",
+          "evidence_url": "https://documents.worldbank.org/en/publication/documents-reports/documentlist?colti=Policy%20Research%20Working%20Paper",
+          "candidate_ids": [
+            "screened-wb-wps11494"
+          ],
+          "reason": "Live official document catalogue examined to October 14; working-paper series and report numbers checked. WPS11494 has October-30 date, official PDF and matching CEPR complete abstract. API empty parameter response was inconclusive and was not treated as zero eligible papers.",
+          "complete": false,
+          "exhaustive": false,
+          "evidence_path": "ops-local\\runs\\backfill-20261031\\research\\workingpapers\\raw\\wb-WPS11494.json",
+          "original_complete_flag": true,
+          "bounded_check_completed": true,
+          "reused_on": "2026-11-01",
+          "reuse_age_days": 1,
+          "last_success_may_advance": false,
+          "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+        },
+        "original_complete_flag": true,
+        "bounded_check_completed": true,
+        "reused_on": "2026-11-01",
+        "reuse_age_days": 1,
+        "last_success_may_advance": false,
+        "reuse_note": "Reused October31 bounded source check; dates/window/status/evidence/candidate IDs retained. Today only selected-paper pages were refreshed."
+      }
+    ],
+    "reviewed_by": "Codex source review",
+    "reviewed_at": "2026-11-01",
+    "selection_reason": "复用10月31日仍有效的28刊原始摘要及来源检查，比较17个未发布近期候选；两篇TAR因online与更早print/issued日期冲突暂缓，改用已独立复核的两篇备选，不以字段选择掩盖最早公开日期歧义。工作论文比较6个线索并在11月1日取回两篇官方摘要，首次观察保留10月31日。期刊取回日保留10月31日，今日缓存审读另记。",
+    "selection_decisions": [
+      {
+        "paper_id": "paper-10-1093-rfs-hhag094",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      },
+      {
+        "paper_id": "paper-10-1287-mnsc-2025-02928",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      },
+      {
+        "paper_id": "paper-10-1093-biomet-asag064",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      },
+      {
+        "paper_id": "paper-10-1287-orsc-2024-19136",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      },
+      {
+        "paper_id": "paper-10-1093-biomet-asag069",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      },
+      {
+        "paper_id": "paper-10-1177-01492063261479303",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      },
+      {
+        "paper_id": "paper-nber-w35953",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      },
+      {
+        "paper_id": "paper-arxiv-2610-36352",
+        "decision": "selected",
+        "reason": "近期、长期未发布；原始摘要与元数据可核对，方法和外推边界单独说明。"
+      }
+    ],
+    "source_balance_review": {
+      "reason": "两篇工作论文分别来自NBER和arXiv；六个系列检查按10月31日原日期及有界范围复用，不声称今日全量检查。",
+      "reviewed_by": "Codex source review",
+      "compared_sources": [
+        "NBER",
+        "arXiv",
+        "CEPR",
+        "IZA",
+        "IMF",
+        "World Bank"
+      ]
+    }
+  },
+  "discovery": [
+    {
+      "category": "posts",
+      "source_url": "https://www.lianxh.cn/blogs/all.html",
+      "query": "当日全部推文列表，自10月31日真实覆盖后增量核查，并与长期正式短版/候选池去重",
+      "checked_at": "2026-11-01",
+      "window_start": "2026-10-31",
+      "window_end": "2026-11-01",
+      "status": "no-eligible",
+      "candidate_count": 0,
+      "eligible_count": 0,
+      "adopted_count": 0,
+      "candidate_ids": [],
+      "reason": "今日列表最新研究推文仍为1981(10月29日)，已在10月29日补刊采用；之后未见新研究推文。17常驻、1979/1980助教招聘通知预先排除，不据置顶未来日期制造新稿；历史未知覆盖不关闭。",
+      "checked_at_iso": "2026-11-01T07:25:29.970086+08:00"
+    },
+    {
+      "category": "papers",
+      "source_url": "https://api.crossref.org",
+      "query": "复用有效期刊原始摘要与逐刊检查，比较未发布期刊及工作论文；两篇工作论文今日定向取回官方摘要",
+      "checked_at": "2026-11-01",
+      "window_start": "2026-10-18",
+      "window_end": "2026-11-01",
+      "status": "found",
+      "candidate_count": 23,
+      "eligible_count": 8,
+      "adopted_count": 8,
+      "candidate_ids": [
+        "paper-10-1093-rfs-hhag094",
+        "paper-10-1287-mnsc-2025-02928",
+        "paper-10-1093-biomet-asag064",
+        "paper-10-1287-orsc-2024-19136",
+        "paper-10-1093-biomet-asag069",
+        "paper-10-1177-01492063261479303",
+        "paper-nber-w35953",
+        "paper-arxiv-2610-36352"
+      ],
+      "reason": "17个期刊摘要候选与6个工作论文线索比较，本轮通过完整来源及日期复核的6期刊+2工作论文入选。2篇TAR原拟采用条目因更早print/issued日期歧义暂缓，改用原有两备选；原始字段不变。初始86元数据中的已发、缺摘要与过期项分开排除，不把缓存日改成今日。"
+    },
+    {
+      "category": "software",
+      "source_url": "https://cran.r-project.org/web/packages/available_packages_by_date.html",
+      "query": "CRAN近期索引定向筛选、PyPI RSS与DiD相关包发行JSON、SSC最新列表和rangematch帮助/源码，另读Stata Journal当期目录",
+      "checked_at": "2026-11-01",
+      "window_start": "2026-10-18",
+      "window_end": "2026-11-01",
+      "status": "found",
+      "candidate_count": 8,
+      "eligible_count": 3,
+      "adopted_count": 3,
+      "candidate_ids": [
+        "tool-paneltests-1-0-8",
+        "tool-diffindiff-2-5-9",
+        "tool-spicy-0-14-0"
+      ],
+      "reason": "CRAN初筛得93行未发相关元数据，详细读取R4/Python3/Stata1的发行资料并静态比较，采用paneltests/diffindiff/spicy。Stata来源、Python RSS与定向检查均留证，但无生态入选硬配额；rangematch留作已读未采用线索。HTTPS帮助访问失败保留官方HTTP替代，不安装或实测，不声明生态全覆盖。",
+      "checked_at_iso": "2026-11-01T07:25:29.970086+08:00"
+    },
+    {
+      "category": "conferences",
+      "source_url": "https://www.cfrn.com.cn/hyxx/index.html",
+      "query": "当日CFRN可见列表及厦大、经研网、上财长期入口；定向复核昨日暂缓的中国经济学年会春季论坛官方当届系统",
+      "checked_at": "2026-11-01",
+      "window_start": "2026-10-31",
+      "window_end": "2026-11-01",
+      "status": "found",
+      "candidate_count": 5,
+      "eligible_count": 1,
+      "adopted_count": 1,
+      "candidate_ids": [
+        "conf-china-economics-annual-spring-2027"
+      ],
+      "reason": "可见五项中三项为已发重复；春季论坛已取得中国经济学年会当届官方通知并核对昆明主会场、领域、截止与费用，可行动且择优采用。Desert Finance仍未完成独立主办方核验，不采用。不把有限列表当整类全覆盖；会议公告首发日明确unknown。",
+      "checked_at_iso": "2026-11-01T07:25:29.970086+08:00"
+    }
+  ]
+}

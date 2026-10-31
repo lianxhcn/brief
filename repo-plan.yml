@@ -1,37 +1,25 @@
-task: notebook-recovery-and-backfill-20261031
+task: daily-brief-20261101
 repository_mode: single
-mode_reason: continue existing independent public website and version history
-confidence: high
 local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
-remote: https://github.com/lianxhcn/brief.git
 branch: main
-expected_base: 456f2ec859a9c318434bdb2f18c92b219bd5e5e9
-visibility: public
-license: unchanged
-pages: existing GitHub Actions deployment
-public_url: https://lianxhcn.github.io/brief/
-authorization: explicit user approval for commit, push, Pages and shared file copies
+expected_base: 2693c16af3a1d7b448956d6b9d28c21557783dd6
+authorization: daily production and Pages publication under D-20261031-02
 work_scope:
-  - scripts/: explicit backfill date handling, rendering, delivery and tests
-  - content/issues/2026-10-28.json through 2026-10-31.json
-  - issues/20261028/ through issues/20261031/
-  - publish/wechat/: four reviewed editions
-  - config/website-content.json: reviewed summary fingerprints
+  - content/issues/2026-11-01.json
+  - issues/20261101/index.qmd
+  - publish/wechat/2026-11-01.txt
+  - config/website-content.json
   - index.qmd, archive.qmd, topics/: generated indices and pagination
-  - docs/decision-log.md and docs/automation-rules.md: one-time backfill scope
+  - issues/*/index.qmd: only automatic expiry of approved course promotion blocks in existing pages
+  - history/*/index.qmd: only the same automatic course-promotion expiry
   - repo-plan.yml
 excluded:
   - ops-local/, logs/, .venv/, _site/, .quarto/
-  - private candidates, original evidence, third-party PDFs and credentials
-  - shared paths and personal distribution configuration
+  - private source evidence, candidates, personal paths and credentials
 publication_rules:
-  - content dates and actual verification/publication times remain distinct
-  - old different shared drafts are preserved with explicit revision names
-  - no scheduler activation or automatic platform sending
-  - tests, full build and browser review precede remote update
-git_actions:
-  - verify local and remote main and preserve concurrent changes
-  - stage only the final reviewed explicit file manifest
-  - create one meaningful commit and advance main without force
-  - verify the exact commit Pages run and live routes/search
+  - quality checks, independent review and local browser verification before push
+  - exact commit Pages success and live date/search verification before online completion
+  - shared file copies after website completion; no account posting
+  - only the existing daily 07:15 heartbeat; no extra interval schedule
+  - historical fact JSON and released WeChat bytes remain unchanged
