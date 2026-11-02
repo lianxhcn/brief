@@ -1,0 +1,22 @@
+📙 连享会 · 快讯 | 2026.11.02
+
+✍️ 01｜新推文：给你的 AI-Agent 配上一套 Stata Skills
+把 Stata 的缺失值、样本和日志检查整理为可调用的 Skill，并用工资回归串起任务交付。仍需本机 Stata 与依赖，不能把安装当作运行成功。
+阅读全文： https://www.lianxh.cn/details/1982.html 
+
+✍️ 02｜新推文：跑完 csdid 后画事件研究图，基期为啥不是 -1 期？
+事件研究图的拐点也可能来自处理前后参照不对称。推文比较 csdid 等默认构造及 long2；图形调整不替代平行趋势与识别核验。
+阅读全文： https://www.lianxh.cn/details/1983.html 
+
+📰 03｜论文 · American Sociological Review：育儿后的有酬劳动分工：家庭政策与伴侣资源
+文章从夫妻双方出发，比较家庭政策与相对资源如何共同关联育儿后的劳动分工；政策长度与托育条件需要分别看待。
+引文：Dunatchik & Gonalons-Pons (2026). Incentivizing equality? How work-family policies affect parenthood penalties in 27 countries. American Sociological Review.
+主页： https://doi.org/10.1177/00031224261489790 
+
+📦 04｜命令 · Stata：rangematch：按时间窗口与区间重叠匹配数据
+按日期窗口或区间重叠整理记录，可先统计匹配规模。须留意一对多结果和默认开放的缺失边界，匹配本身不提供因果识别。
+版本：Stata / rangematch 1.0.0；发布：2026-10-30
+主页： https://ideas.repec.org/c/boc/bocode/s459962.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261102/ 

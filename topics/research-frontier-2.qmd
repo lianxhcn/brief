@@ -8,9 +8,57 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 48 页 · 共 471 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-48.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 48 页 · 共 477 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-48.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>生成式 AI 竞争：消费者需求证据</h3>
+<p class="catalog-citation">Egan, M. L. et al. (2026). Competition in generative AI: Evidence from consumer demand. NBER Working Paper No. 35953 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-01</p>
+<p>利用信用卡与借记卡交易数据研究付费生成式 AI 服务的采用、同时订阅与用户切换，再估计服务需求和供给的结构模型，讨论替代性、转换成本与定价能力。文章把实际交易模式与模型分析结合，为研究新兴数字市场的竞争提供思路。 样本主要反映美国付费服务消费者，结构模型中的竞争压力与定价结果不等于对全球市场、免费服务或未来模型质量的保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8F%20AI&amp;show-results=1" title="全站搜索：生成式 AI">生成式 AI</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：需求估计">需求估计</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：市场竞争">市场竞争</a></p>
+<p class="catalog-actions"><a href="../issues/20261101/#paper-nber-w35953">查看本期</a><a href="https://www.nber.org/papers/w35953" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>养老金资金缺口压力如何影响投资风险？</h3>
+<p class="catalog-citation">Ioannidou, V.; Pinto, R.; Wang, Z. (2026). Corporate pension risk-taking in a low interest rate environment. Management Science.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-01</p>
+<p>资金缺口会给企业养老金带来怎样的风险承担激励？文章利用调整折现率计算、暂时缓解缴费压力的监管改革，比较接受不同减压幅度的计划如何调整股票和较安全资产配置，并讨论计划状态及发起企业财务约束的差异。 结论对应特定监管改革和美国确定给付养老金；不能概括为任意放松监管都会降低风险。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%BB%E8%80%81%E9%87%91&amp;show-results=1" title="全站搜索：养老金">养老金</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE&amp;show-results=1" title="全站搜索：资产配置">资产配置</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E6%94%B9%E9%9D%A9&amp;show-results=1" title="全站搜索：监管改革">监管改革</a></p>
+<p class="catalog-actions"><a href="../issues/20261101/#paper-10-1287-mnsc-2025-02928">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.02928" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>借助历史实验库推断长期处理效应</h3>
+<p class="catalog-citation">Hartog, W. et al. (2026). Many hands make light work: Long-term effect inference for the experiment reservoir. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-01</p>
+<p>短期实验如何回答长期效果问题？文章提出 Experiment Reservoir Surrogate，利用历史长期实验库直接预测目标实验的长期平均处理效应，并匹配相似实验以放宽跨实验可比性要求。方法只需按期汇总数据，作者在 DoorDash 实验库中展示应用。 仍需要合适的历史实验和外推依据；不能由短期指标关联自动推出长期因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：长期效应">长期效应</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E4%BB%A3%E7%90%86%E6%8C%87%E6%A0%87&amp;show-results=1" title="全站搜索：代理指标">代理指标</a></p>
+<p class="catalog-actions"><a href="../issues/20261101/#paper-arxiv-2610-36352">查看本期</a><a href="https://arxiv.org/abs/2610.36352v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>企业怎样回应激进对冲基金的公开质疑？</h3>
+<p class="catalog-citation">Brauer, M.; Mertens, M. J.; Vandepoele, L. (2026). Winning at defense by playing offense: Discrediting by target firms in activist hedge fund campaigns. Journal of Management.</p><p class="catalog-meta">发表日期：2026-10-28 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-01</p>
+<p>受到激进对冲基金公开质疑时，企业回应的对象和时机可能同样重要。文章区分针对基金声誉和针对其具体主张的两类反驳，并以公开回应信的内容分析讨论两者组合及时间差与行动结果之间的关系。 内容分析中的关联不能直接证明反驳策略的因果效果；企业与基金的选择及未观察差异仍须审查。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E8%A1%8C%E5%8A%A8%E4%B8%BB%E4%B9%89&amp;show-results=1" title="全站搜索：股东行动主义">股东行动主义</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261101/#paper-10-1177-01492063261479303">查看本期</a><a href="https://doi.org/10.1177/01492063261479303" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>网络双边数据的 QAP 置换检验需要怎样的统计量？</h3>
+<p class="catalog-citation">Shi, L.; Ding, P. (2026). Asymptotic theory of the quadratic assignment procedure for dyadic data analysis. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-10-27 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>关系数据中的矩阵置换检验很常见，其有效性却不能只凭置换操作判断。文章分别推导典型统计量的抽样分布和 QAP 置换分布，区分强、弱零假设，说明为什么应对统计量作适当学生化。 渐近有效性不等于任意网络数据、任意统计量都可直接置换；具体双边模型与零假设须对应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E8%BE%B9%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：双边数据">双边数据</a> · <a class="tag-link" href="?q=QAP&amp;show-results=1" title="全站搜索：QAP">QAP</a> · <a class="tag-link" href="?q=%E7%BD%AE%E6%8D%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：置换推断">置换推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1093-jrsssb-qkag136">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag136" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>竞争对手沉寂后，其他企业如何行动？</h3>
+<p class="catalog-citation">Chen, T. et al. (2026). Competitive dormancy in interfirm rivalry: consequences for rival actions. Journal of Management.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>企业没有行动也可能向竞争者传递信息。研究结合期望违背理论和竞争动态，使用企业日度行动记录，考察异常休眠与对手后续行动之间的联系及其条件差异。 从行动日志定义的休眠不同于真实战略意图；摘要不足以排除所有共同市场冲击。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%AB%9E%E4%BA%89%E5%8A%A8%E6%80%81&amp;show-results=1" title="全站搜索：竞争动态">竞争动态</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：行为数据">行为数据</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%88%98%E7%95%A5&amp;show-results=1" title="全站搜索：组织战略">组织战略</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1177-01492063261492636">查看本期</a><a href="https://doi.org/10.1177/01492063261492636" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>社会保险执行与企业污染：政策目标之间的张力</h3>
 <p class="catalog-citation">Li, Y.; Qin, Y.; Wang, W. (2026). From employer responsibility to environmental irresponsibility: unintended impacts of social insurance law on pollution emissions. Management Science.</p><p class="catalog-meta">发表日期：2026-10-28 · 收录日期：2026-10-31</p>
@@ -43,56 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%B1%82%E9%A2%84%E6%9C%9F&amp;show-results=1" title="全站搜索：管理层预期">管理层预期</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：宏观预测">宏观预测</a></p>
 <p class="catalog-actions"><a href="../issues/20261031/#paper-nber-w35949">查看本期</a><a href="https://www.nber.org/papers/w35949" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>散户交易平台如何改变股票需求？</h3>
-<p class="catalog-citation">van der Beck, P.; Cohen, C.; Jaunin, C. (2026). The equity market implications of the retail investment boom. Management Science.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>散户财富占比不大，是否意味着其定价影响也小？研究估计投资者类型特定的需求曲线，并分解平台增长期间的股票收益变化，讨论需求弹性、股票特征偏好和注意力代理之间的联系。 结论依赖结构需求模型与注意力代理，不是对所有散户或未来市场阶段的预测；本轮未重估模型。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：资产需求">资产需求</a> · <a class="tag-link" href="?q=%E6%95%A3%E6%88%B7%E4%BA%A4%E6%98%93&amp;show-results=1" title="全站搜索：散户交易">散户交易</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：注意力">注意力</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1287-mnsc-2025-04854">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.04854" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>审计监管反馈会影响商誉减值决策吗？</h3>
-<p class="catalog-citation">Bills, K. L.; Hogan, C. E.; Puccia, J. E. (2026). Do PCAOB inspection deficiencies related to management review controls affect financial reporting decisions? evidence from goodwill impairments. CAR.</p><p class="catalog-meta">发表日期：2026-10-27 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>监管检查的影响可能从审计程序延伸到企业财务报告。文章以商誉减值为情境，区分缺陷的重复性及精度相关内容，分析管理层复核控制的改进渠道如何与报告结果联系。 摘要中的关系不能单独证明所有检查缺陷都产生因果效应；监管选择与客户差异仍需正文设计处理。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：审计监管">审计监管</a> · <a class="tag-link" href="?q=%E5%86%85%E9%83%A8%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：内部控制">内部控制</a> · <a class="tag-link" href="?q=%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC&amp;show-results=1" title="全站搜索：商誉减值">商誉减值</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1111-1911-3846-70098">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70098" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>大面板固定效应模型的分位数方法</h3>
-<p class="catalog-citation">Arellano, M.; Higgins, A.; Weidner, M. (2026). Quantile methods in large panels with fixed effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-28 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>研究包含个体固定效应的大规模面板分位数回归及工具变量分位数回归，刻画时间维度有限时的偏误，并比较不同删样本 Jackknife 校正的偏差与方差取舍。文章说明非光滑分位数目标下，直接照搬常规删一法未必能得到所需校正和推断。 结论依赖静态可加固定效应和双维渐近框架；不能把特定校正直接推广为所有短面板情形的保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%88%86%E4%BD%8D%E6%95%B0&amp;show-results=1" title="全站搜索：面板分位数">面板分位数</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E5%81%8F%E8%AF%AF%E6%A0%A1%E6%AD%A3&amp;show-results=1" title="全站搜索：偏误校正">偏误校正</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#paper-arxiv-2610-38665">查看本期</a><a href="https://arxiv.org/abs/2610.38665v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>只知道估值范围时，如何设计稳健拍卖？</h3>
-<p class="catalog-citation">Anunrojwong, J.; Balseiro, S. R.; Besbes, O. (2026). Robust auction design with support information. Management Science.</p><p class="catalog-meta">发表日期：2026-10-28 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>拍卖设计者通常难以准确知道买方估值分布。文章在仅知估值范围的条件下统一分析后悔值和收入比率目标，并刻画不同信息范围对应的最优机制，说明标准最高价分配并不总是最稳健选择。 结论建立在特定估值独立性或正相关分布类别及激励约束上，不能直接搬用到任意拍卖环境。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：稳健优化">稳健优化</a> · <a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1287-mnsc-2023-02703">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.02703" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>经营规模难调整，企业会如何选择杠杆？</h3>
-<p class="catalog-citation">Gu, L.; Hackbarth, D.; Luo, Y. (2026). Inflexibility and leverage. Management Science.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>融资决策可能受企业改变经营规模的能力影响。研究区分收缩与扩张不灵活性，比较其对杠杆差异的解释力，并结合信用供给冲击和工具变量分析讨论企业金融政策。 指标构造和工具变量有效性尚需正文审核；摘要不能保证观察关系在其他行业或制度中成立。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%95%B4%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：调整成本">调整成本</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1287-mnsc-2024-08672">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08672" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>研究需求增加后，究竟是谁在响应？</h3>
-<p class="catalog-citation">Lu, J. (2026). Demand for research and the composition of scientific response: intellectual distance, research productivity, and research outcomes. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>科研产出增长的背后可能是研究者构成发生改变。文章利用电动汽车研究需求受到政策推动的情境，分析知识距离和既有科研生产率如何与跨领域响应、成果新颖性、科学影响及后续发明使用联系。 摘要中的政策情境与研究者选择需要正文识别设计支持，不能把知识距离的相关性概括为普遍因果规律。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：科研需求">科研需求</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E8%B7%9D%E7%A6%BB&amp;show-results=1" title="全站搜索：知识距离">知识距离</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1287-orsc-2023-17926">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.17926" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 48 页 · 共 471 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-48.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 48 页 · 共 477 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-48.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

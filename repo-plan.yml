@@ -1,25 +1,24 @@
-task: daily-brief-20261101
+task: daily-brief-20261102
 repository_mode: single
 local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
 branch: main
-expected_base: 2693c16af3a1d7b448956d6b9d28c21557783dd6
+expected_base: cb2ad728e69f88a559ef78868fb889c29f82ea88
 authorization: daily production and Pages publication under D-20261031-02
 work_scope:
-  - content/issues/2026-11-01.json
-  - issues/20261101/index.qmd
-  - publish/wechat/2026-11-01.txt
+  - content/issues/2026-11-02.json
+  - issues/20261102/index.qmd
+  - publish/wechat/2026-11-02.txt
   - config/website-content.json
-  - index.qmd, archive.qmd, topics/: generated indices and pagination
-  - issues/*/index.qmd: only automatic expiry of approved course promotion blocks in existing pages
-  - history/*/index.qmd: only the same automatic course-promotion expiry
+  - index.qmd, archive.qmd, topics/: generated current reader indices and pagination
+  - issues/*/index.qmd, history/*/index.qmd: only normal expiry of approved course promotion blocks if any
   - repo-plan.yml
 excluded:
   - ops-local/, logs/, .venv/, _site/, .quarto/
-  - private source evidence, candidates, personal paths and credentials
+  - private source snapshots, candidate proposals, personal delivery paths and credentials
 publication_rules:
-  - quality checks, independent review and local browser verification before push
-  - exact commit Pages success and live date/search verification before online completion
-  - shared file copies after website completion; no account posting
-  - only the existing daily 07:15 heartbeat; no extra interval schedule
-  - historical fact JSON and released WeChat bytes remain unchanged
+  - independent editorial approval, exact date validation, isolated render and desktop/mobile checks before push
+  - exact-commit Pages success and live home/date/search evidence before online completion
+  - published website followed by reviewed four-channel file delivery; no account sending or posting
+  - retain the sole daily 07:15 heartbeat; no new interval schedule or repeated rejected frequency request
+  - preserve historical content, released TXT, editorial event bytes and existing shared originals
