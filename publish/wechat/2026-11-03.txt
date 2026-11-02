@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.11.03
+
+📰 01｜论文 · American Sociological Review：公共文化符号怎样影响官员对多样性的判断？
+研究随机变化公共节庆展示内容，并结合开放式回答分析官员判断，为调查实验与文本解释提供一个应用案例。
+引文：Adler et al. (2026). Simply a sign of the season? Christmas trees as cultural ciphers in local government management of diversity. American Sociological Review.
+主页： https://doi.org/10.1177/00031224261486015 
+
+📰 02｜论文 · arXiv：机器学习生成离散标签后，GMM 推断怎样去偏？
+预测得到的离散标签也有误差。文章研究将标签代入 GMM 后的推断，提出先平滑类型指示函数再作正交化处理；使用仍需满足正则条件。
+引文：Yang (2026). Valid GMM inference with non-parametrically generated discrete type. arXiv.
+主页： https://arxiv.org/abs/2610.42052v1 
+
+📦 03｜命令 · Stata：tabtools：统一整理与导出 Stata 结果表
+把描述统计、交叉表与回归结果统一导出为论文表格。Excel 输出按文本写入，后续计算须另取数值并核对样本；需要 Stata 17，本轮未实测。
+版本：Stata / tabtools 1.0.0；发布：2026-10-30
+主页： https://ideas.repec.org/c/boc/bocode/s460003.html 
+
+📦 04｜软件 · R：staggeredGMM：用 GMM 联合估计交错处理效应
+用合格的两组两期比较联合估计交错处理效应。0.2.0 修正编码与缺失处理；检验针对无条件平行趋势，不因加入协变量就成为条件平行趋势检验。
+版本：R / staggeredGMM 0.2.0；发布：2026-11-02
+CRAN： https://cran.r-project.org/package=staggeredGMM 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261103/ 

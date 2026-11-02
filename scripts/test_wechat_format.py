@@ -127,6 +127,24 @@ class WechatTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 short_authors(authors)
 
+    def test_author_suffix_preserves_metadata_and_full_citation(self):
+        issue = sample()
+        paper = issue['papers'][0]
+        authors = ['Adler, G. J., Jr.', 'Mayrl, D.', 'Plutzer, E.', 'Coley, J. S.']
+        paper['bibliography']['authors'] = authors
+        paper['citation'] = '; '.join(authors) + ' (2026). Paper. AER.'
+        before = copy.deepcopy(issue)
+        self.assert_valid(issue)
+        self.assertIn('引文：Adler et al. (2026).', render_daily(issue))
+        self.assertIn('Adler, G. J., Jr.', website_citation(paper))
+        self.assertEqual(issue, before)
+        for suffix in ('Jr.', 'Sr.', 'II', 'III', 'IV'):
+            with self.subTest(suffix=suffix):
+                self.assertEqual(short_authors(['Smith-Jones, A., ' + suffix]), 'Smith-Jones')
+        for author in ('Adler, G. J., PhD', 'Adler, G. J., Jr., Other', 'Adler, Jr.'):
+            with self.subTest(author=author), self.assertRaises(ValueError):
+                short_authors([author])
+
     def test_source_prefix_and_labels(self):
         issue = sample()
         self.assertIn('📰 02｜论文 · AER：论文测试', render_daily(issue))

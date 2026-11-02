@@ -8,9 +8,25 @@ title: "新方法 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 122 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 124 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>DistLagHet：复杂处理路径下的效应估计</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>CRAN 新包 DistLagHet 提供平行趋势假设下复杂处理设计的效应估计，包含有限滞后、完整动态和滞后交互三类设定，并提供 bootstrap 实现和模拟数据示例。方法依据为 de Chaisemartin 与 D’Haultfoeuille 的研究；不能因为能运行估计就认定平行趋势成立，实际使用前应检查对应模型与处理路径。可通过 <code>install.packages(&quot;DistLagHet&quot;)</code> 获取；发布时部分平台二进制尚未同步，可能需要编译环境。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF&amp;show-results=1" title="全站搜索：平行趋势">平行趋势</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态处理效应">动态处理效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-distlaghet-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=DistLagHet" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AdaptiveGlasso：自适应稀疏条件依赖网络估计</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>CRAN 首发 AdaptiveGlasso 将 ridge 稳定化、交叉验证、初始 graphical lasso 和边特异性惩罚结合，用于稀疏精度矩阵及条件依赖网络估计。输出包括精度、协方差、邻接和自适应权重矩阵，提供模拟示例。它适合探索高维变量关系，网络边不自动具有因果含义；初发版本仍应结合样本特征和稳定性分析使用。安装为 <code>install.packages(&quot;AdaptiveGlasso&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%BE%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：图模型">图模型</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96&amp;show-results=1" title="全站搜索：正则化">正则化</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-adaptiveglasso-1-0-0">查看本期</a><a href="https://cran.r-project.org/package=AdaptiveGlasso" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>tvGarchKF：用状态空间方法估计时变波动</h3>
 
@@ -75,24 +91,8 @@ title: "新方法 · 第 4 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%A1%E5%AE%9E%E8%AF%81&amp;show-results=1" title="全站搜索：会计实证">会计实证</a></p>
 <p class="catalog-actions"><a href="../issues/20261023/#tool-farr-1-1-1">查看本期</a><a href="https://cran.r-project.org/package=farr" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>eFRED：在 R 中整理宏观经济序列</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>该包封装 FRED API，支持查询序列、来源与标签，并把相关指标整理成面板数据。适合宏观数据收集与更新；下载后的频率、单位和修订版本仍需核对，不能把更新后的序列直接当作历史实时信息集。 安装命令为 <code>install.packages(&quot;eFRED&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96&amp;show-results=1" title="全站搜索：数据获取">数据获取</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-efred-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=eFRED" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>DRDID 1.4.0：检查预处理与加权 bootstrap 的变化</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>新版修订面板缺失值处理、公式变量提取及 IPT 求解核验，并调整加权 bootstrap 的分母一致性。既有研究升级后应比较样本与区间变化；双重稳健仍依赖识别假设及至少一个辅助模型设定正确。 安装命令为 <code>install.packages(&quot;DRDID&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-drdid-1-4-0">查看本期</a><a href="https://cran.r-project.org/package=DRDID" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 122 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 124 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

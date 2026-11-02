@@ -74,8 +74,10 @@ def short_authors(authors):
         raise ValueError('BLOCKED: 缺少有序作者 metadata')
     names = []
     for author in authors:
-        # 仅接受明确的 APA 倒置姓名；复姓、连字符原样保留。
-        match = re.fullmatch(r'([^,\n]+),\s*(?:[^\W\d_]\.\s*[- ]?\s*)+', author) if isinstance(author, str) else None
+        # 仅接受明确的 APA 倒置姓名；短引文省略代际后缀，原 metadata 不变。
+        pattern = (r'([^,\n]+),\s*(?:[^\W\d_]\.\s*[- ]?\s*)+'
+                   r'(?:,\s*(?:Jr\.|Sr\.|II|III|IV))?')
+        match = re.fullmatch(pattern, author) if isinstance(author, str) else None
         if not match:
             raise ValueError(f'BLOCKED: 无法安全生成作者短名：{author!r}')
         names.append(match.group(1).strip())
