@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.11.04
+
+📰 01｜论文 · The Journal of Finance：美元资产的汇率对冲，怎样传导为本国国债卖压？
+研究讨论美元资产、外汇对冲保证金与本国国债卖压之间的联系，提示汇率对冲之外还需关注危机中的流动性需求。
+引文：Czech et al. (2026). Unintended consequences of holding dollar assets. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70097 
+
+📰 02｜论文 · The Review of Financial Studies：市盈率差异怎样分解为收益与盈利增长预期？
+研究用专业预测区分市盈率中的收益预期与盈利增长预期，再讨论学习模型如何解释横截面差异和动态变化。
+引文：Delao, Han & Myers (2026). The cross-section of subjective expectations: Understanding prices and anomalies. The Review of Financial Studies.
+主页： https://doi.org/10.1093/rfs/hhag095 
+
+📰 03｜论文 · arXiv：控制变量测得太晚，会掩盖前趋势吗？
+协变量虽在处理前测量，也可能晚于最早的安慰剂窗口。文章讨论这种时间安排如何掩盖前趋势，以及有更早协变量观测时的诊断思路。
+引文：Arora (2026). When covariates mask pre-trends. arXiv.
+主页： https://arxiv.org/abs/2611.03079v1 
+
+📦 04｜命令 · Stata：ctools 1.2.4：Stata 并行工具的兼容性更新
+用 C 插件处理数据和回归，1.2.4 更新命令兼容性与边界处理。部分语法和数值行为仍有差异，应先在副本核对，不能直接替换已有估计脚本。
+版本：Stata / ctools 1.2.4；发布：2026-11-04
+GitHub： https://github.com/mdroste/stata-ctools/releases/tag/v1.2.4 
+
+📦 05｜软件 · R：regsensitivity：回归结论对遗漏变量有多敏感？
+把遗漏变量分析整理为系数识别集和结论突破点，0.3.0 改善结果读取与汇总。结论仍取决于参数、协变量和方法假设，突破点不是 p 值。
+版本：R / regsensitivity 0.3.0；发布：2026-11-03
+CRAN： https://cran.r-project.org/package=regsensitivity 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261104/ 

@@ -8,9 +8,41 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 13 页 · 共 124 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 13 页 · 共 128 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>regsensitivity：回归结论对遗漏变量有多敏感？</h3>
+
+<p class="catalog-meta">期次日期：2026-11-04</p>
+<p>regsensitivity 为线性回归的遗漏变量偏误提供系数识别集、结论突破点及绘图。0.3.0 新增结果读取接口，区分简短输出与完整汇总，并调整协方差矩阵奇异时的数值处理，便于整理敏感性结果。识别集取决于敏感度参数、比较协变量与方法假设；突破点不是 p 值，也不能证明所有混杂已被控制。Windows 二进制仍为 0.2.0，安装后须查版本。本轮只读官方资料与示例，未实测或复现论文。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a></p>
+<p class="catalog-actions"><a href="../issues/20261104/#tool-regsensitivity-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=regsensitivity" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>pkgtransfer：为新电脑整理 Stata 扩展包安装来源</h3>
+
+<p class="catalog-meta">期次日期：2026-11-04</p>
+<p>pkgtransfer 读取 PLUS 目录的 stata.trk，为已安装扩展包生成在线安装脚本，或整理离线安装脚本与 ZIP，适合换电脑时盘点依赖。它迁移的是安装来源，不是精确版本快照；仅处理跟踪文件中的包，不能替代数据、许可证与完整环境归档。download(local) 仍可能联网读取平台描述或插件。restore 会改写本机跟踪文件并先备份，执行前须理解范围。本轮只核对帮助和来源身份，未实际迁移。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：Stata 环境">Stata 环境</a> · <a class="tag-link" href="?q=%E6%89%A9%E5%B1%95%E5%8C%85%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：扩展包迁移">扩展包迁移</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a></p>
+<p class="catalog-actions"><a href="../issues/20261104/#tool-pkgtransfer-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459961.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>diff-diff 4.0：升级前先核对 DiD 结果接口</h3>
+
+<p class="catalog-meta">期次日期：2026-11-04</p>
+<p>diff-diff 把多种 DiD 估计、事件研究与诊断整理为 Python 接口。4.0 统一主要结果字段，并把多个估计量的聚合移到拟合后的 results.aggregate()；旧参数、部分结果属性及旧交错三重差分对象不再兼容。适合正在迁移分析或报告脚本的读者，升级前应按具体估计量核对变更，保留旧环境与结果。接口统一不代表识别假设或推断自动有效；前趋势不显著也不能证明平行趋势。本轮未安装、实测或验证作者跨软件一致性。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%8E%A5%E5%8F%A3&amp;show-results=1" title="全站搜索：结果接口">结果接口</a></p>
+<p class="catalog-actions"><a href="../issues/20261104/#tool-diff-diff-4-0-0">查看本期</a><a href="https://pypi.org/project/diff-diff/4.0.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ctools 1.2.4：Stata 并行工具的兼容性更新</h3>
+
+<p class="catalog-meta">期次日期：2026-11-04</p>
+<p>ctools 用 C 插件提供排序、合并、固定效应回归等命令。1.2.4 扩展重抽样、IV/PPML 后估计与分位数诊断，并修复部分文件格式边界，适合先在副本中核对大数据工作流。需要 Stata 14.1 及匹配平台插件，更新后须重启。它并非所有原命令的等价替换：creghdfe 只支持单维聚类，部分语法、求解器和数值结果可能不同。作者的倍速与测试结果未由本轮验证，不能直接据此替换已有估计脚本。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E5%B7%A5%E5%85%B7&amp;show-results=1" title="全站搜索：Stata 工具">Stata 工具</a> · <a class="tag-link" href="?q=%E5%85%BC%E5%AE%B9%E6%80%A7&amp;show-results=1" title="全站搜索：兼容性">兼容性</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：大数据处理">大数据处理</a></p>
+<p class="catalog-actions"><a href="../issues/20261104/#tool-ctools-1-2-4">查看本期</a><a href="https://github.com/mdroste/stata-ctools/releases/tag/v1.2.4" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>tabtools：统一整理与导出 Stata 结果表</h3>
 
@@ -59,40 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：面板诊断">面板诊断</a> · <a class="tag-link" href="?q=%E6%8E%A8%E6%96%AD%E4%BF%AE%E6%AD%A3&amp;show-results=1" title="全站搜索：推断修正">推断修正</a></p>
 <p class="catalog-actions"><a href="../issues/20261101/#tool-paneltests-1-0-8">查看本期</a><a href="https://cran.r-project.org/package=paneltests" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>diffindiff：组织 DiD 数据、估计与诊断流程</h3>
-
-<p class="catalog-meta">期次日期：2026-11-01</p>
-<p>diffindiff 将处理组、对照组、研究窗口与处理时段整理为分析对象，并连接 DiD 估计和效果图。2.5.9 修正 pandas 绘图列名、拟合指标零分母及模型失败时访问反事实结果的问题。支持分期处理不意味着自动解决异质性下的 TWFE 比较问题，平行趋势检验也不能证明识别假设。安装为 <code>pip install diffindiff</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=DiD&amp;show-results=1" title="全站搜索：DiD">DiD</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E6%B5%81%E7%A8%8B&amp;show-results=1" title="全站搜索：分析流程">分析流程</a></p>
-<p class="catalog-actions"><a href="../issues/20261101/#tool-diffindiff-2-5-9">查看本期</a><a href="https://pypi.org/project/diffindiff/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>forecastpanel：比较面板预测中的异质性与估计误差</h3>
-
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>forecastpanel 将个体回归、合并回归、固定效应、经验贝叶斯及组合预测放进统一接口，并提供滚动评估与预测误差比较，适合研究参数异质性和短时间维度下的估计噪声。多步预测仍依赖未来解释变量情景；文档中的 bootstrap 区间不覆盖跨个体冲击相关性。作者报告的复现结果未由本轮独立检验。安装为 <code>pip install forecastpanel</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：面板预测">面板预测</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：预测组合">预测组合</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#tool-forecastpanel-0-1-1">查看本期</a><a href="https://pypi.org/project/forecastpanel/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>GAS：用条件分布得分更新时变参数</h3>
-
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>GAS 用条件分布的得分更新时变位置、尺度或形状参数，提供单变量与多变量模型的最大似然估计、过滤和密度预测，也可回测 VaR 与 ES。官方手册给出滚动预测和密度评分示例，适合在点预测之外检查分布表现；模型仍依赖分布、动态设定和数值优化。当前 CRAN 未列预编译二进制，源码需要编译。安装为 <code>install.packages(&quot;GAS&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BE%97%E5%88%86%E9%A9%B1%E5%8A%A8%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：得分驱动模型">得分驱动模型</a> · <a class="tag-link" href="?q=%E5%AF%86%E5%BA%A6%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：密度预测">密度预测</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#tool-gas-0-4-3">查看本期</a><a href="https://cran.r-project.org/package=GAS" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>CERFIT：按处理效应差异生长交互树森林</h3>
-
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>CERFIT 用子组处理效应异质性选择树的分裂，组织个体化处理效应预测与变量重要性分析，支持二元、多值、有序及连续处理。官方示例展示观测研究的拟合、预测和最小深度输出；异质性图或变量重要性不能直接解释为作用机制，观测研究仍需论证混杂调整与重叠条件。安装为 <code>install.packages(&quot;CERFIT&quot;)</code>；当前二进制可能落后于源码版本。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质处理效应">异质处理效应</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E6%A0%91&amp;show-results=1" title="全站搜索：交互树">交互树</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#tool-cerfit-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=CERFIT" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 13 页 · 共 124 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 13 页 · 共 128 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

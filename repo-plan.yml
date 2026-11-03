@@ -1,16 +1,14 @@
-task: daily-brief-20261103
+task: daily-brief-20261104
 repository_mode: single
 local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
 branch: main
-expected_base: c44e941636960bfd86d8749a8355d6d4a68f081d
+expected_base: 61fb630c02f54e839c163f1c0e3b50b2e2f0bc92
 authorization: daily production and Pages publication under D-20261031-02
 work_scope:
-  - content/issues/2026-11-03.json
-  - issues/20261103/index.qmd
-  - publish/wechat/2026-11-03.txt
-  - scripts/wechat_format.py: accept explicit APA generational suffixes without changing author metadata
-  - scripts/test_wechat_format.py: regression for original suffix metadata, full website citation and safe short citation
+  - content/issues/2026-11-04.json
+  - issues/20261104/index.qmd
+  - publish/wechat/2026-11-04.txt
   - config/website-content.json
   - index.qmd, archive.qmd, topics/: generated current reader indices and pagination
   - issues/*/index.qmd, history/*/index.qmd: only normal expiry of approved course promotion blocks if any
