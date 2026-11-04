@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.11.05
+
+📰 01｜论文 · QJE：学校封存手机之后，使用、纪律和成绩怎样变化？
+研究结合美国学校采购、调查与行政记录，比较手机封存袋对使用行为、纪律和学习结果的影响，提示减少使用不必然带来平均成绩提升。
+引文：Allcott et al. (2026). The effects of school phone bans: National evidence from lockable pouches. QJE.
+主页： https://doi.org/10.1093/qje/qjag050 
+
+📰 02｜论文 · The Journal of Finance：知情卖空是否特别集中于家族企业？
+这篇再检验使用更完整的卖空数据及不同家族企业定义，讨论原有结论是否依赖样本和口径，适合关注金融实证与复现的读者。
+引文：Akbas, Huang & Meschke (2026). Is informed short selling concentrated in family firms? Evidence from a reinvestigation. The Journal of Finance.
+主页： https://doi.org/10.1111/jofi.70098 
+
+📰 03｜论文 · arXiv：完整案例回归：删去缺失样本后，还能估计总体效应吗？
+文章用因果图与加权条件讨论删去缺失样本后，完整案例回归何时仍可估计总体效应。仅凭缺失机制的 MAR 分类，并不足以保证目标效应识别。
+引文：Lin & Liu (2026). When listwise deletion works: Causal diagrams and complete-case regression. arXiv.
+主页： https://arxiv.org/abs/2611.04366v1 
+
+📦 04｜软件 · R：SCMs：用规格曲线检查合成控制的设定敏感性
+把合成控制的多种设定整理为规格曲线。0.1.1 修复影响结果的处理与推断问题，旧分析须复核；比较设定不能自动证明因果，本轮未实测。
+版本：R / SCMs 0.1.1；发布：2026-11-05
+CRAN： https://cran.r-project.org/package=SCMs 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261105/ 

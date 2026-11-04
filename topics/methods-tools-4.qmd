@@ -8,9 +8,17 @@ title: "新方法 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 128 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 129 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>whichdidshouldiuse：先判断面板属于哪类 DID 设计</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>新 SSC 命令读取面板数据，将设计分为 CLA、SAD、HAD、SFSD 或 OTHER，并提示相应估计方法及教材章节。它只做设计分类，不执行估计，也不提供固定效应、权重或标准误选项。可在选择 DID 估计器前作设计梳理；研究者仍需核对政策赋值、处理路径和识别假设。安装入口为 <code>ssc install whichdidshouldiuse</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-whichdidshouldiuse-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459944.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>stratifyR：分层抽样加入有限总体与全查层选项</h3>
 
@@ -83,16 +91,8 @@ title: "新方法 · 第 4 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B7%B7%E5%90%88%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：混合模型">混合模型</a> · <a class="tag-link" href="?q=%E5%B1%82%E7%BA%A7%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：层级数据">层级数据</a></p>
 <p class="catalog-actions"><a href="../issues/20261024/#tool-lme4-2-1-0">查看本期</a><a href="https://cran.r-project.org/package=lme4" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>highs：在 R 中调用优化求解器</h3>
-
-<p class="catalog-meta">期次日期：2026-10-24</p>
-<p>R 包 highs 提供 HiGHS 求解接口，手册包含线性规划、混合整数线性规划与二次规划示例，可用于资源配置或匹配问题中的优化步骤。求解器只处理给定的目标与约束，模型设定和数据合理性仍需研究者检查；不同问题类型的支持范围应以文档为准。 安装命令为 <code>install.packages(&quot;highs&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%98%E5%8C%96%E6%B1%82%E8%A7%A3&amp;show-results=1" title="全站搜索：优化求解">优化求解</a> · <a class="tag-link" href="?q=%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92&amp;show-results=1" title="全站搜索：整数规划">整数规划</a></p>
-<p class="catalog-actions"><a href="../issues/20261024/#tool-highs-1-15-1-1">查看本期</a><a href="https://cran.r-project.org/package=highs" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 128 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-3.html">上一页</a><span aria-current="page">第 4 / 13 页 · 共 129 条</span><a rel="next" href="methods-tools-5.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

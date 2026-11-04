@@ -8,9 +8,17 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 13 页 · 共 128 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 13 页 · 共 129 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>paneltests 1.0.8：面板诊断中的推断修正</h3>
+
+<p class="catalog-meta">期次日期：2026-11-01</p>
+<p>paneltests 集中提供斜率同质性、截面相关和面板协整诊断。1.0.8 修正协整检验 p 值尾部、Swamy 中心估计量及缺失/共线处理，适合复查旧脚本。检验不拒绝不能证明模型设定或因果识别有效，稳健 Wald 检验仍需关注小样本风险。Windows 二进制暂为 1.0.6，须核对安装版本。安装为 <code>install.packages(&quot;paneltests&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：面板诊断">面板诊断</a> · <a class="tag-link" href="?q=%E6%8E%A8%E6%96%AD%E4%BF%AE%E6%AD%A3&amp;show-results=1" title="全站搜索：推断修正">推断修正</a></p>
+<p class="catalog-actions"><a href="../issues/20261101/#tool-paneltests-1-0-8">查看本期</a><a href="https://cran.r-project.org/package=paneltests" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>diffindiff：组织 DiD 数据、估计与诊断流程</h3>
 
@@ -83,16 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E6%9C%AA%E8%A7%82%E6%B5%8B%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：未观测混杂">未观测混杂</a></p>
 <p class="catalog-actions"><a href="../issues/20261028/#tool-causalfrag-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=causalfrag" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>RobustMediate：连续处理的中介效应与敏感性诊断</h3>
-
-<p class="catalog-meta">期次日期：2026-10-28</p>
-<p>RobustMediate 对连续处理用 g-computation 估计自然直接、间接效应，并提供剂量曲线、聚类 bootstrap 和平衡诊断。文档另用中介—结果模型误差相关参数及偏 R 平方衡量敏感性。误差相关分析仅适用于特定线性模型，交互或变换项可能使其跳过；诊断输出不能替代中介识别假设。安装为 <code>install.packages(&quot;RobustMediate&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：中介效应">中介效应</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261028/#tool-robustmediate-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=RobustMediate" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 13 页 · 共 128 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 13 页 · 共 129 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

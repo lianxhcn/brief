@@ -1,24 +1,24 @@
-task: daily-brief-20261104
+task: daily-brief-20261105
 repository_mode: single
 local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
 branch: main
-expected_base: 61fb630c02f54e839c163f1c0e3b50b2e2f0bc92
+expected_base: 72603c6ca380f06c57773f806a6fa7e105e93650
 authorization: daily production and Pages publication under D-20261031-02
 work_scope:
-  - content/issues/2026-11-04.json
-  - issues/20261104/index.qmd
-  - publish/wechat/2026-11-04.txt
+  - content/issues/2026-11-05.json
+  - issues/20261105/index.qmd
+  - publish/wechat/2026-11-05.txt
   - config/website-content.json
-  - index.qmd, archive.qmd, topics/: generated current reader indices and pagination
-  - issues/*/index.qmd, history/*/index.qmd: only normal expiry of approved course promotion blocks if any
+  - index.qmd, archive.qmd, topics/: generated reader indices and pagination
+  - issues/*/index.qmd, history/*/index.qmd: only normal approved course expiry if any
   - repo-plan.yml
 excluded:
   - ops-local/, logs/, .venv/, _site/, .quarto/
-  - private source snapshots, candidate proposals, personal delivery paths and credentials
+  - private source snapshots, proposals, personal delivery paths and credentials
 publication_rules:
-  - independent editorial approval, exact date validation, isolated render and desktop/mobile checks before push
-  - exact-commit Pages success and live home/date/search evidence before online completion
-  - published website followed by reviewed four-channel file delivery; no account sending or posting
-  - retain the sole daily 07:15 heartbeat; no new interval schedule or repeated rejected frequency request
-  - preserve historical content, released TXT, editorial event bytes and existing shared originals
+  - independent editorial approval, exact-date validation and isolated desktop/mobile acceptance before push
+  - exact-commit Pages success and live home/date/search proof before online completion
+  - reviewed four-channel file delivery after website proof; no account login, sending or posting
+  - keep the sole daily 07:15 heartbeat; no new timer or rejected frequency retry
+  - preserve historical content, TXT, event bytes, existing shared originals and unknowns
