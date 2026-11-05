@@ -1,0 +1,28 @@
+📙 连享会 · 快讯 | 2026.11.06
+
+✍️ 01｜新推文：QSM 入门与 Stata 实操：用 ABRS-toolkit 理解就业、工资与租金的关系
+用简化空间均衡模型和 Stata 图形解释就业、工资、租金怎样共同调整。文章区分地区比值与实际人数、教学反事实与真实政策评估，适合 QSM 入门。
+阅读全文： https://www.lianxh.cn/details/1984.html 
+
+📰 02｜论文 · QJE：工会岗位的工资溢价，来自生产率差异还是租金分享？
+研究用加拿大雇主—雇员匹配数据分解工会岗位工资溢价，比较生产率差异、劳动者异质性和租金分享各自的解释。
+引文：Beauregard et al. (2026). Why do union jobs pay more? New evidence from matched employer-employee data. QJE.
+主页： https://doi.org/10.1093/qje/qjag054 
+
+📰 03｜论文 · The Accounting Review：建立公共审计监督机构后，跨境投资怎样变化？
+研究用双重差分考察公共审计监督机构与外国证券组合投资，讨论审计质量和制度环境为何影响估计结果。
+引文：Blann, Lamoreaux & Larson (2026). National audit oversight and foreign investment. The Accounting Review.
+主页： https://doi.org/10.2308/tar-2024-0320 
+
+📰 04｜论文 · arXiv：多个 AI 代理变量作控制，回归到底估计什么？
+同一个潜在控制变量可以产生多个 AI 代理，但纳入回归、提取因子或构造工具变量，未必估计同一个对象。文章比较各方法的目标及所需条件，不能把代理数量增加当作内生性已解决。
+引文：Christensen & Vebman (2026). Regression with many generated controls. arXiv.
+主页： https://arxiv.org/abs/2611.06855v1 
+
+📦 05｜软件 · R：evalHTE：为排序子群体构造统一置信带
+面向完全随机试验，为预设或独立训练的排序规则构造子群体统一置信带；还需随机抽样假设，不自动校正多模型选择。本轮未实测。
+版本：R / evalHTE 0.3.0；发布：2026-11-05
+CRAN： https://cran.r-project.org/package=evalHTE 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261106/ 

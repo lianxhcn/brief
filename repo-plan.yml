@@ -1,14 +1,14 @@
-task: daily-brief-20261105
+task: daily-brief-20261106
 repository_mode: single
 local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
 branch: main
-expected_base: 72603c6ca380f06c57773f806a6fa7e105e93650
+expected_base: 7c0ebf88e0b37f9bcc33b33090663cd53e34d72d
 authorization: daily production and Pages publication under D-20261031-02
 work_scope:
-  - content/issues/2026-11-05.json
-  - issues/20261105/index.qmd
-  - publish/wechat/2026-11-05.txt
+  - content/issues/2026-11-06.json
+  - issues/20261106/index.qmd
+  - publish/wechat/2026-11-06.txt
   - config/website-content.json
   - index.qmd, archive.qmd, topics/: generated reader indices and pagination
   - issues/*/index.qmd, history/*/index.qmd: only normal approved course expiry if any

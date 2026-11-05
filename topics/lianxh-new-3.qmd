@@ -8,9 +8,17 @@ title: "新推文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 8 页 · 共 76 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 8 页 · 共 77 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>Stata 调用大模型：用 `catllm` 完成文本分类与主题发现</h3>
+
+<p class="catalog-meta">期次日期：2026-10-05</p>
+<p>文章介绍在 Stata 中调用 catllm，将预先定义的分类规则用于文本编码，并从文本中提取候选主题，再由研究者整理分类表。示例强调类别定义、纳入排除条件和多标签规则，需要 Stata、Python 后端及模型服务配合。少量模拟文本演示说明操作流程，不能证明分类准确率；将模型标签用于回归前，还需人工抽样核验和评估测量误差。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：大语言模型">大语言模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261005/#post-1957">查看本期</a><a href="https://www.lianxh.cn/details/1957.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>别急着做 DID（上）：先把政策背景搞清楚</h3>
 
@@ -83,16 +91,8 @@ title: "新推文 · 第 3 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=DSL&amp;show-results=1" title="全站搜索：DSL">DSL</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a> · <a class="tag-link" href="?q=%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%95%8F%E6%84%9F%E6%80%A7&amp;show-results=1" title="全站搜索：提示词敏感性">提示词敏感性</a></p>
 <p class="catalog-actions"><a href="../issues/20260930/#post-1946">查看本期</a><a href="https://www.lianxh.cn/details/1946.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>LLM 文本标注不再写长答案：Jev 直接返回分类、评分和判断概率</h3>
-
-<p class="catalog-meta">期次日期：2026-09-30</p>
-<p>文章介绍 Jev 将文本判断直接输出为类别、评分和概率的接口，比较它与自由文本生成及普通模型结构化输出的差别。重点讨论概率在不同提问形式之间未必一致、排序表现不等于校准良好，以及本地标签对阈值选择的作用。模型输出仍需在自己的类别定义与文本分布上验证，不能把返回概率视为研究变量已通过效度检验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Jev&amp;show-results=1" title="全站搜索：Jev">Jev</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：文本分类">文本分类</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E6%A0%A1%E5%87%86&amp;show-results=1" title="全站搜索：概率校准">概率校准</a></p>
-<p class="catalog-actions"><a href="../issues/20260930/#post-1947">查看本期</a><a href="https://www.lianxh.cn/details/1947.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 8 页 · 共 76 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="lianxh-new.html">首页</a><a rel="prev" href="lianxh-new-2.html">上一页</a><span aria-current="page">第 3 / 8 页 · 共 77 条</span><a rel="next" href="lianxh-new-4.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -8,91 +8,91 @@ title: "新论文 · 第 7 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 51 页 · 共 501 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-51.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 52 页 · 共 511 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-52.html">末页</a></nav>
 
 <div class="catalog-grid">
 <article class="catalog-card">
-<h3>线上劳动任务采用竞赛还是合同？</h3>
-<p class="catalog-citation">Chan, J. et al. (2026). Contest or contract: assessing the effectiveness of contests in online labor markets. Management Science.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
+<h3>把战略写成可检查的因果变化理论</h3>
+<p class="catalog-citation">Lazzarini, S. G.; Zenger, T. R.; Felin, T. (2026). Strategy as a theory of change. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>战略方案不仅要描述环境，也要说明为什么特定干预能够推动变化。文章提出把投入、活动与问题解决指标组织为有向图的框架，用可操作指标描述复杂性、多路径、相互依赖和循环，为方案设计与评估提供结构化语言。 有向图在这里表达战略假说；画出箭头并不意味着其因果关系已经获得识别或经验验证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%9B%BE&amp;show-results=1" title="全站搜索：因果图">因果图</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5&amp;show-results=1" title="全站搜索：战略">战略</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：项目评估">项目评估</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1002-smj-70139">查看本期</a><a href="https://doi.org/10.1002/smj.70139" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>强制披露如何改变同行从股价中学习？</h3>
+<p class="catalog-citation">Kim, J.; Pearson, H.; Twedt, B. (2026). Mandatory disclosure and peer firms&#x27; learning from stock prices. CAR.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>披露增加不必然让所有同行的投资决策更好。文章以强制分部披露为研究情境，比较经济联系和价格学习动机不同的同行企业，并讨论管理者从股价中提取信息这一渠道。 投资与 q 的敏感度属于价格学习的间接证据，不能单独等同于投资效率或充分识别所有信息渠道。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：投资">投资</a> · <a class="tag-link" href="?q=%E4%BB%B7%E6%A0%BC%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：价格学习">价格学习</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1111-1911-3846-70094">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70094" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>土地产权转变为何可能出现破坏性竞赛？</h3>
+<p class="catalog-citation">Baker, M. J.; Conning, J. (2026). A model of enclosures: coordination, conflict, and efficiency in the transformation of land property rights. REStud.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>分散的产权选择如何形成截然不同的制度转变路径？模型把人口密度、圈地成本、生产率收益和地方治理能力结合起来，讨论临界转变、产权争夺和低于社会最优的圈地，并提醒单独修复一种扭曲可能产生其他后果。 比较静态依赖模型中的激励和制度设定，不能直接替代具体土地政策的识别与福利评估。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%A7%E6%9D%83&amp;show-results=1" title="全站搜索：产权">产权</a> · <a class="tag-link" href="?q=%E5%8D%9A%E5%BC%88%E8%AE%BA&amp;show-results=1" title="全站搜索：博弈论">博弈论</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E5%8F%98%E8%BF%81&amp;show-results=1" title="全站搜索：制度变迁">制度变迁</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1093-restud-rdag118">查看本期</a><a href="https://doi.org/10.1093/restud/rdag118" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>公司控制权市场为何转向激进股东撮合？</h3>
+<p class="catalog-citation">BURKART, M.; LEE, S.; VOSS, P. (2026). The evolution of the market for corporate control. JF.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>知情大股东为什么不总是自己收购目标公司？文章把直接收购和发起出售放进同一模型，分析选择本身如何传递信息，并说明中介化交易可能缓解非对称信息及集体行动问题。 结果是控制权交易模型的解释机制，不能直接视为对所有激进投资者行为的经验因果检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%8E%A7%E5%88%B6%E6%9D%83&amp;show-results=1" title="全站搜索：公司控制权">公司控制权</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E8%A1%8C%E5%8A%A8%E4%B8%BB%E4%B9%89&amp;show-results=1" title="全站搜索：股东行动主义">股东行动主义</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1111-jofi-70099">查看本期</a><a href="https://doi.org/10.1111/jofi.70099" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>不同 DID 估计量的结果究竟差多少？</h3>
+<p class="catalog-citation">Hull, P. (2026). How different are different differences-in-differences? a large-scale meta-analysis. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-29 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>利用 AI 辅助复现，比较大量分期处理设定中的双向固定效应与现代双重差分估计，检查符号、相关性和精度的差别，并用分层模型区分估计噪声与估计对象差异。研究展示了如何对新计量方法的实际影响进行跨论文的系统评估。 这是入选文献与可复现设定的汇总，不能推出任何具体 TWFE 应用都满足平行趋势，或负权重在所有情境都无关紧要。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=TWFE&amp;show-results=1" title="全站搜索：TWFE">TWFE</a> · <a class="tag-link" href="?q=%E6%96%B9%E6%B3%95%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：方法评估">方法评估</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-arxiv-2610-39995">查看本期</a><a href="https://arxiv.org/abs/2610.39995v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>HouseholdBench：LLM 能预测家庭经济行为吗？</h3>
+<p class="catalog-citation">Huang, J. et al. (2026). HouseholdBench: evaluating large language models as predictors of household economic behavior. NBER Working Paper No. 35927 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>将多项美国家庭调查与不同形式的行为预测任务组织成 HouseholdBench，比较闭源模型、开放权重 LLM、行为不变基线和梯度提升树。任务区分一般行为预测与政策环境变化下的反应预测，为评估 LLM 能否刻画家庭经济决策提供统一比较框架。 预测基准的表现不等于因果识别；不能据此把 LLM 输出直接替代真实调查、政策实验或结构识别。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：家庭行为">家庭行为</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：预测评估">预测评估</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-nber-w35927">查看本期</a><a href="https://www.nber.org/papers/w35927" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>CEO 销售激励会怎样传导到供应链？</h3>
+<p class="catalog-citation">Choi, J. (2026). Sales-based CEO incentives and their effect across the supply chain. TAR.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>评价经理人的销售表现，可能影响供应链中其他企业。文章考察销售型奖金指标与库存波动、牛鞭效应之间的关系，并利用薪酬顾问网络联系构造工具变量检验，提供激励合同外溢的应用案例。 摘要不能替代对工具变量排除限制的核查，也不意味着所有销售激励都会产生相同后果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%B1%82%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：管理层激励">管理层激励</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-2308-tar-2024-0591">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0591" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>CEO 政治倾向与企业行为：线性刻画是否过于简单？</h3>
+<p class="catalog-citation">Appels, M.; Kowalzick, M.; Woywode, M. (2026). A moral foundations perspective on CEO political ideology. Journal of Management.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>把政治倾向放进一条从自由到保守的线性刻度，可能遗漏不同价值关切。文章用道德基础理论重审 CEO 战略行为的解释，并在企业领导人样本中比较线性与 U 形关系。 政治倾向与组织行为的关联不等于因果；非线性形式也须结合理论和稳健性检验选择。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：理论测量">理论测量</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1177-01492063261489261">查看本期</a><a href="https://doi.org/10.1177/01492063261489261" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>面对面销售中，顾客接近行为如何影响性别差异？</h3>
+<p class="catalog-citation">Delecourt, S.; Doering, L.; Ng, O. (2026). Women’s approachability premium in sales: a field experiment among microentrepreneurs. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-22 · 收录日期：2026-10-31</p>
 <p class="catalog-meta">期次日期：2026-10-29</p>
-<p>同样预算下，向多人征集方案是否一定优于与特定劳动者签约？研究利用线上劳动市场数据比较两类安排，并结合文本与图像分析考察公开提交、模仿和竞争强度如何与工作质量联系。 摘要结论针对高不确定性的设计任务，不能推广到所有外包劳动；因果解释需要正文中的具体经验策略。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E5%8A%B3%E5%8A%A8&amp;show-results=1" title="全站搜索：平台劳动">平台劳动</a> · <a class="tag-link" href="?q=%E6%BF%80%E5%8A%B1%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：激励设计">激励设计</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E4%B8%8E%E5%9B%BE%E5%83%8F%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本与图像分析">文本与图像分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1287-mnsc-2024-07082">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07082" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>微型创业的销售差异不仅来自资源约束，也可能从顾客是否愿意开始交谈产生。文章让实验卖家经营相同的新设微型企业并遵循标准互动程序，区分顾客接近、议价与销售表现，为研究性别和市场互动提供设计案例。 结果针对实验设定与当地市场互动，不意味着现实中女性创业者总体不存在结构性劣势。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%80%A7%E5%88%AB&amp;show-results=1" title="全站搜索：性别">性别</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E5%BE%AE%E5%9E%8B%E5%88%9B%E4%B8%9A&amp;show-results=1" title="全站搜索：微型创业">微型创业</a></p>
+<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1287-orsc-2024-18859">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18859" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
-<h3>用 LLM 检查函数形式敏感性</h3>
-<p class="catalog-citation">Andrews, I.; Essig Aberg, S. C.; Shapiro, J. M. (2026). An LLM workflow for functional form sensitivity analysis. NBER Working Paper No. 35947 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-26 · 收录日期：2026-10-31</p>
+<h3>谁来复核工作，如何反馈才有效？</h3>
+<p class="catalog-citation">Bross, A.; Sommerfeldt, R. D. (2026). Whose job is it, anyway? the effect of the review process on employee performance. CAR.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
 <p class="catalog-meta">期次日期：2026-10-29</p>
-<p>提出由 LLM 辅助的函数形式敏感性工作流：在保持模型拟合约束的条件下，寻找能够改变目标估计值的替代函数形式。流程先尝试解析解，再使用尊重拟合约束的数值路径，并以医疗保险中的逆向选择福利成本为例说明样本内敏感性的可验证下界。 可验证下界不等于全局精确敏感性，也不证明模型的识别假设成立；本轮只核对官方摘要，未复现求解器或应用结果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E5%87%BD%E6%95%B0%E5%BD%A2%E5%BC%8F&amp;show-results=1" title="全站搜索：函数形式">函数形式</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-nber-w35947">查看本期</a><a href="https://www.nber.org/papers/w35947" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>未标注数据何时能改善统计推断？</h3>
-<p class="catalog-citation">Xu, Z.; Witten, D.; Shojaie, A. (2026). Semiparametrically efficient semi-supervised statistical inference. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>拥有大量未标注数据并不保证推断更精确。文章用半参数效率理论研究标注比例为正及趋近于零的情形，刻画未标注数据何时有用，并讨论把黑箱预测接入推断的估计量及其渐近方差性质。 效率结论以模型、目标参数和渐近条件为前提；黑箱预测的使用不能自动消除偏差或替代识别。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：半监督学习">半监督学习</a> · <a class="tag-link" href="?q=%E5%8D%8A%E5%8F%82%E6%95%B0%E6%95%88%E7%8E%87&amp;show-results=1" title="全站搜索：半参数效率">半参数效率</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1093-biomet-asag050">查看本期</a><a href="https://doi.org/10.1093/biomet/asag050" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>愿意竞争与愿意不当竞争，需要分开测量</h3>
-<p class="catalog-citation">Buser, T.; Sangi, S. (2026). Willingness to compete in dirty competitions. Management Science.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>竞争偏好量表是否混合了不同含义？研究先在实验中测量参与不当竞争及进入可能遭遇不当行为的竞赛的意愿，再构造调查问题，分析这种偏好与职业位置、部门选择和心理感受之间的联系。 调查关系不能直接解释为竞争偏好造成职业结果；量表是否适合其他文化和组织仍需验证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：行为测量">行为测量</a> · <a class="tag-link" href="?q=%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：竞争">竞争</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E4%B8%8E%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：实验与调查">实验与调查</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1287-mnsc-2025-01218">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.01218" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>实验资产市场的经典结果能否复现？</h3>
-<p class="catalog-citation">HUBER, C. et al. (2026). Do experimental asset market results replicate? high‐powered preregistered replications of 17 key results. JF.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>经典实验结论是否能在更充分检验中站得住脚？文章开展预注册的实验资产市场复现，对情绪、自我控制、性别、经验和认知技能等既有发现分别评估。它提供了讨论复现、统计功效与证据累积的金融学实例。 未能复现不等于证明原效应恒为零；结论对应本研究检验的具体命题和实验情境。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：复现">复现</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：实验金融">实验金融</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%8A%9F%E6%95%88&amp;show-results=1" title="全站搜索：统计功效">统计功效</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1111-jofi-70100">查看本期</a><a href="https://doi.org/10.1111/jofi.70100" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>多期处理前数据如何区分直接效应与溢出效应？</h3>
-<p class="catalog-citation">Huber, M. (2026). Identifying and disentangling direct and spillover effects using multiple pre-treatment periods. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-27 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>在处理存在溢出时，通常的未处理比较组也可能受影响。文章利用多个处理前时期，结合无预期、趋势外推、暴露共同支持及相应同质性条件，分别识别直接效应和溢出效应，并构造双重稳健与正交表达式以纳入高维协变量。 分离效应仍依赖正确的反事实趋势外推与暴露条件，并非没有干净对照组就自动识别；本轮依据的是 10 月 29 日 v2 摘要。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%BA%A2%E5%87%BA%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：溢出效应">溢出效应</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：面板因果推断">面板因果推断</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-arxiv-2610-37049">查看本期</a><a href="https://arxiv.org/abs/2610.37049v2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>分析师报告如何讨论气候问题？</h3>
-<p class="catalog-citation">Chan, J. (2026). Analysts’ perspectives on climate change: an examination of analyst reports. TAR.</p><p class="catalog-meta">发表日期：2026-10-28 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>气候信息是否进入分析师的常规研究？文章分析高暴露行业报告中的气候相关讨论及子主题，并考察它们与短期盈利预测、长期增长预测和目标价格的关系。数据说明还涉及 LLM 分类清单与人工可核对的记录。 相关讨论与预测变化的关系不自动表示气候文本造成定价变化；分类模型准确率须另行验证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：气候金融">气候金融</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：分析师报告">分析师报告</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-2308-tar-2023-0105">查看本期</a><a href="https://doi.org/10.2308/tar-2023-0105" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>信息更贵，价格就一定更不充分吗？</h3>
-<p class="catalog-citation">Ou-Yang, H.; Wu, W.; Zhang, X. (2026). Multitype information acquisition in a strategic trading model. Management Science.</p><p class="catalog-meta">发表日期：2026-10-29 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>不同类型交易者的搜集行为会相互影响。文章在多维不确定性的战略交易模型中分析均衡多重性与非对称均衡，并提出信息成本上升时价格信息含量仍可能增加的理论机制。 这是模型中的可能性与可检验预测，不能直接当作真实市场中普遍存在的因果规律。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96&amp;show-results=1" title="全站搜索：信息获取">信息获取</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：多重均衡">多重均衡</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1287-mnsc-2024-08463">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08463" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>谁主动参加金融教育，谁从中受益？</h3>
-<p class="catalog-citation">Gemmo, I.; Michaud, P. C.; Mitchell, O. S. (2026). Selection into financial education and effects on portfolio choice. Management Science.</p><p class="catalog-meta">发表日期：2026-10-27 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-28</p>
-<p>金融教育的平均效果可能同时反映课程作用与参加者的自我选择。文章直接测量参与支付意愿，并使用带激励的投资组合任务构造与风险偏好相适应的决策质量指标，比较不同参与意愿人群的收益。 摘要讨论特定投资技能与实验任务，不能直接推断所有金融教育项目或真实长期投资收益。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：金融教育">金融教育</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：样本选择">样本选择</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：项目评估">项目评估</a></p>
-<p class="catalog-actions"><a href="../issues/20261028/#paper-10-1287-mnsc-2024-08268">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08268" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>用 AI 开展大规模定性访谈</h3>
-<p class="catalog-citation">Geiecke, F.; Jaravel, X. (2026). Conversations at scale: robust AI-led interviews. REStud.</p><p class="catalog-meta">发表日期：2026-10-27 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-10-28</p>
-<p>如何在保留开放式回答的同时扩大访谈规模？文章提出包括语音形式在内的 AI 访谈方案，并通过人类专家比较和受访者质量指标评估稳健性。应用涉及决策因素、政治态度、主观状态和政策心理模型，适合作为定量问卷之外的研究设计参考。 摘要支持访谈测量与探索用途，不能据此把 AI 回答质量等同于因果识别或所有人群中的测量有效性。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20%E8%AE%BF%E8%B0%88&amp;show-results=1" title="全站搜索：AI 访谈">AI 访谈</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：测量">测量</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：研究设计">研究设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261028/#paper-10-1093-restud-rdag114">查看本期</a><a href="https://doi.org/10.1093/restud/rdag114" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>复核既可能改善工作质量，也可能让员工依赖他人纠错。文章通过实验区分上级与同事复核，以及高层次指导与具体纠错信息，比较不同组合如何与责任感、团队联系和工作表现共同变化。 结果来自具体实验任务；不能仅凭复核者级别决定所有组织的最优反馈制度。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E4%BD%9C%E5%A4%8D%E6%A0%B8&amp;show-results=1" title="全站搜索：工作复核">工作复核</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：实验">实验</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：组织控制">组织控制</a></p>
+<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1111-1911-3846-70095">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70095" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 51 页 · 共 501 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-51.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-6.html">上一页</a><span aria-current="page">第 7 / 52 页 · 共 511 条</span><a rel="next" href="research-frontier-8.html">下一页</a><a href="research-frontier-52.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
