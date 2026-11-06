@@ -8,9 +8,25 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 77 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 8 页 · 共 79 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>AI 辅助调取微观数据库：以 IPUMS 为例</h3>
+
+<p class="catalog-meta">期次日期：2026-11-07</p>
+<p>文章以 IPUMS MEPS 为例，将变量选择、提取 JSON、任务轮询、下载、Stata 读入和样本核查串成可留档流程，并给出让 AI 分步起草的提示词。账号认证、合集注册与 API key 是不同环节，不能把有密钥理解为获得所有数据权限。变量的适用人群、年份覆盖、特殊码及权重仍须查官方说明，负收入也不能一律当缺失。个体数据与密钥须按许可保密。本轮只读原文，未登录、取数或复现作者统计。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=IPUMS&amp;show-results=1" title="全站搜索：IPUMS">IPUMS</a> · <a class="tag-link" href="?q=AI%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI 工作流">AI 工作流</a> · <a class="tag-link" href="?q=%E5%BE%AE%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：微观数据">微观数据</a></p>
+<p class="catalog-actions"><a href="../issues/20261107/#lianxh-1985">查看本期</a><a href="https://www.lianxh.cn/details/1985.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 辅助清洗微观数据库：以 CHIP 为例</h3>
+
+<p class="catalog-meta">期次日期：2026-11-07</p>
+<p>文章用 CHIP 多轮清洗案例，把目标变量、问卷编码、跨期映射、分模块 do 文件和逐变量核查分开，强调先审映射表再生成代码。它用主键转换、缺失传播和多选拼接码说明，脚本能运行不等于数据口径正确。有损映射、收入单位和跨期可比性需研究者裁决，不能由 AI 自动补齐；作者的统计与处理方案只对应其材料。原始个体数据须按授权使用，本轮只读原文，未取得数据或实跑。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=CHIP&amp;show-results=1" title="全站搜索：CHIP">CHIP</a> · <a class="tag-link" href="?q=%E8%B7%A8%E6%9C%9F%E6%98%A0%E5%B0%84&amp;show-results=1" title="全站搜索：跨期映射">跨期映射</a> · <a class="tag-link" href="?q=AI%20%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：AI 数据清洗">AI 数据清洗</a></p>
+<p class="catalog-actions"><a href="../issues/20261107/#lianxh-1986">查看本期</a><a href="https://www.lianxh.cn/details/1986.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>QSM 入门与 Stata 实操：用 ABRS-toolkit 理解就业、工资与租金的关系</h3>
 
@@ -75,24 +91,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：统计建模">统计建模</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：线性回归">线性回归</a></p>
 <p class="catalog-actions"><a href="../issues/20261020/#lianxh-1973">查看本期</a><a href="https://www.lianxh.cn/details/1973.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>用大白话绘制科研图：scipilot-figure-skill</h3>
-
-<p class="catalog-meta">期次日期：2026-10-18</p>
-<p>文章以五幅世界银行数据图为例，演示在 Codex 中安装 scipilot-figure-skill、检查 Python 与中文字体，再用自然语言完成取数、绘图和返修。重点是按实际展示尺寸检查图例、刻度与样本口径，并在调整样式时保留数据和统计设定。AI 生成的图形仍需核对指标、样本与解释。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE&amp;show-results=1" title="全站搜索：科研绘图">科研绘图</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=AI-Agent&amp;show-results=1" title="全站搜索：AI-Agent">AI-Agent</a></p>
-<p class="catalog-actions"><a href="../issues/20261018/#lianxh-1972">查看本期</a><a href="https://www.lianxh.cn/details/1972.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>HANK、OLG、BLP：家庭差异、世代交叠与市场结构</h3>
-
-<p class="catalog-meta">期次日期：2026-10-14</p>
-<p>推文分别用货币政策、养老金与差异化产品市场解释 HANK、OLG 和 BLP：家庭异质性、世代交叠与需求估计各解决不同问题。这些模型名称不处于同一分类层级，阅读时应区分经济环境、行为关系和估计框架，避免把缩写当作可直接替换的模型菜单。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：政策分析">政策分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261014/#post-1971">查看本期</a><a href="https://www.lianxh.cn/details/1971.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 77 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 8 页 · 共 79 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-8.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

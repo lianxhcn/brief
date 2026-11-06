@@ -8,9 +8,25 @@ title: "新方法 · 第 5 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 13 页 · 共 130 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 14 页 · 共 132 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>tvGarchKF：用状态空间方法估计时变波动</h3>
+
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>该包允许 GARCH(1,1) 参数随时间逐步变化，通过状态空间表示与 Kalman 滤波开展估计和预测。手册给出模拟及自动平滑选择示例。读者应先判断时变参数设定是否符合数据特征，避免仅凭灵活性选择模型。 安装命令为 <code>install.packages(&quot;tvGarchKF&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%B3%A2%E5%8A%A8%E7%8E%87&amp;show-results=1" title="全站搜索：波动率">波动率</a> · <a class="tag-link" href="?q=%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4&amp;show-results=1" title="全站搜索：状态空间">状态空间</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#tool-tvgarchkf-1-0-1">查看本期</a><a href="https://cran.r-project.org/package=tvGarchKF" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>oolong：给自动文本分析加入人工验证</h3>
+
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>该 R 包提供词侵入、主题侵入及人工金标准等验证流程，帮助检查主题模型或词典分析结果是否具有可解释性。新版已登上 CRAN。人工验证可以揭示自动测量的问题，但不能代替变量构造与后续回归识别判断。 安装命令为 <code>install.packages(&quot;oolong&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：人工验证">人工验证</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#tool-oolong-0-7-1">查看本期</a><a href="https://cran.r-project.org/package=oolong" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>lme4 更新：线性与广义线性混合模型</h3>
 
@@ -75,24 +91,8 @@ title: "新方法 · 第 5 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a></p>
 <p class="catalog-actions"><a href="../issues/20261023/#tool-drdid-1-4-0">查看本期</a><a href="https://cran.r-project.org/package=DRDID" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>BsplineQuantReg：带形状约束的分位数回归</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>该包以 B 样条拟合分位数曲线，并在指定阶数下加入单调性或凸性约束。适合将明确的形状限制纳入估计与原型演示；约束应来自研究问题，且需检查样条阶数和求解器。当前版本要求 R 4.5.0 或以上。 安装命令为 <code>install.packages(&quot;BsplineQuantReg&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E5%BD%A2%E7%8A%B6%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：形状约束">形状约束</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-bsplinequantreg-0-2-6">查看本期</a><a href="https://cran.r-project.org/package=BsplineQuantReg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>stargazer2：为现代计量模型生成回归表</h3>
-
-<p class="catalog-meta">期次日期：2026-10-22</p>
-<p>R 包 stargazer2 延续熟悉的表格接口，支持 lm、glm 以及 fixest、plm、alpaca 等模型对象，可输出 LaTeX、文本与 HTML。安装命令为 <code>install.packages(&quot;stargazer2&quot;)</code>。Windows 二进制与源码版本可能不同，输出后仍应核对标准误、固定效应标记和样本量；本期未独立实测。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%A1%A8&amp;show-results=1" title="全站搜索：回归表">回归表</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：结果输出">结果输出</a></p>
-<p class="catalog-actions"><a href="../issues/20261022/#tool-stargazer2-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=stargazer2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 13 页 · 共 130 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-13.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 14 页 · 共 132 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

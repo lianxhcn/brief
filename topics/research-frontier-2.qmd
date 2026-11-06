@@ -8,9 +8,65 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 52 页 · 共 511 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-52.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 52 页 · 共 518 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-52.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>建立公共审计监督机构后，跨境投资怎样变化？</h3>
+<p class="catalog-citation">Blann, J. J.; Lamoreaux, P. T.; Larson, B. J. (2026). National audit oversight and foreign investment. TAR.</p><p class="catalog-meta">发表日期：2026-11-01 · 收录日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-06</p>
+<p>文章以双重差分比较国家建立公共审计监督机构前后的外国证券组合投资 (FPI) 变化，并讨论审计质量改善与既有制度环境的差异。摘要报告的正向估计为理解监管经济后果提供线索。机构建立时点、同时发生的改革、平行趋势和投资口径仍需正文核查，不能把跨国平均估计视为任何国家设立机构都会实现的收益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%9B%91%E7%9D%A3&amp;show-results=1" title="全站搜索：审计监督">审计监督</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%A2%83%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：跨境投资">跨境投资</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261106/#paper-10-2308-tar-2024-0320">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0320" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>工会岗位的工资溢价，来自生产率差异还是租金分享？</h3>
+<p class="catalog-citation">Beauregard, P.-L. et al. (2026). Why do union jobs pay more? New evidence from matched employer-employee data. QJE.</p><p class="catalog-meta">发表日期：2026-11-05 · 收录日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-06</p>
+<p>文章使用加拿大匹配雇主—雇员数据，以 AKM 双向固定效应框架控制劳动者异质性，并将工会与非工会企业的工资差异同劳动生产率和租金分享联系起来。扩展分析还允许工会影响不可观测劳动者特征的回报，比较不同模型口径下对工资差异的解释。它提供了区分劳动者排序、企业生产率与工资议价的实证案例；租金分享的解释依赖分解设定，固定效应本身不能消除工会状态的全部选择，不能把条件工资差异直接当作随机组建工会的因果效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E4%BC%9A%E5%B7%A5%E8%B5%84&amp;show-results=1" title="全站搜索：工会工资">工会工资</a> · <a class="tag-link" href="?q=%E9%9B%87%E4%B8%BB%E9%9B%87%E5%91%98%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：雇主雇员匹配">雇主雇员匹配</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：双向固定效应">双向固定效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261106/#paper-10-1093-qje-qjag054">查看本期</a><a href="https://doi.org/10.1093/qje/qjag054" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>多维结果的因果检验：处理信息是否还藏在结果中？</h3>
+<p class="catalog-citation">Athey, S.; Nareklishvili, M.; Spiess, J. (2026). Debiased conditional independence tests for causal effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03 · 收录日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-06</p>
+<p>面对多维甚至高维结果，文章比较仅凭协变量与同时使用结果变量时，对处理分配的预测能力，以此构造条件独立检验。摘要介绍了条件随机化、双重残差化和基于增广逆概率加权矩的三条路线；其中倾向得分已知时的有限样本控制，有明确的设定条件。条件独立能否用于解释因果效应，还需研究设计和相应识别假设支持。本轮只核官方摘要，不把作者模拟中的功效比较写为普遍优越性，也未运行检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E7%8B%AC%E7%AB%8B%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：条件独立检验">条件独立检验</a> · <a class="tag-link" href="?q=%E5%A4%9A%E7%BB%B4%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：多维结果">多维结果</a> · <a class="tag-link" href="?q=%E5%8E%BB%E5%81%8F%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：去偏推断">去偏推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261106/#paper-arxiv-2611-05608">查看本期</a><a href="https://arxiv.org/abs/2611.05608v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>多少人不满足假设，会改变研究结论？</h3>
+<p class="catalog-citation">Palomba, F. (2026). Sensitivity analysis in population shares. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03 · 收录日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-06</p>
+<p>研究通常要对潜在结果或潜在变量的分布作出假设。文章把敏感性参数解释为可不满足这些假设的人口占比，研究该占比变化时目标量可能落入的界限，并用有限维优化计算。摘要还讨论界限的估计与大样本性质，并区分模型假设偏离带来的不确定性和抽样不确定性。应用涉及有流失的随机实验、结构模型反事实和公式工具变量；这不是自动识别真实违约人群的程序。本轮只核摘要，未验证锐界证明、运行优化或核验软件包。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E5%81%8F%E7%A6%BB&amp;show-results=1" title="全站搜索：假设偏离">假设偏离</a></p>
+<p class="catalog-actions"><a href="../issues/20261106/#paper-arxiv-2611-05584">查看本期</a><a href="https://arxiv.org/abs/2611.05584v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>多个 AI 代理变量作控制，回归到底估计什么？</h3>
+<p class="catalog-citation">Christensen, T.; Vebman, D. (2026). Regression with many generated controls. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-04 · 收录日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-06</p>
+<p>若足以控制内生性的变量无法直接观测，研究者可能用不同 AI 或机器学习方法生成多个代理。文章在一个明确模型中比较直接纳入这些代理、提取因子和采用工具变量等做法，区分它们各自指向的估计对象及恢复目标参数所需的条件。它把代理变量足够丰富时的识别问题与具体估计方式联系起来，不意味着多生成几列 AI 变量就能自动消除内生性。本轮依据官方摘要，未核正文、验证条件或复现估计结果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E6%8E%A7%E5%88%B6%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：生成控制变量">生成控制变量</a> · <a class="tag-link" href="?q=%E5%86%85%E7%94%9F%E6%80%A7&amp;show-results=1" title="全站搜索：内生性">内生性</a> · <a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：AI辅助测量">AI辅助测量</a></p>
+<p class="catalog-actions"><a href="../issues/20261106/#paper-arxiv-2611-06855">查看本期</a><a href="https://arxiv.org/abs/2611.06855v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>同行采用 IFRS，会改变未采用企业的信息环境吗？</h3>
+<p class="catalog-citation">Liu, M.; Xu, W.; Zhang, R. X. (2026). The cost of regulatory inaction: Evidence from IFRS nonadoption. TAR.</p><p class="catalog-meta">发表日期：2026-11-01 · 收录日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-06</p>
+<p>文章研究外国同行采用 IFRS 时，未采用国家企业的信息环境与市场流动性怎样变化，并考察共同机构投资者、分析师及执法改革等差异。摘要提出信息生产资源可能向新制度企业重新配置的解释。相邻制度改革、跨国可比性和信息中介选择仍需正文核查，不能仅凭摘要将所有流动性变化归因于未采用 IFRS。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=IFRS&amp;show-results=1" title="全站搜索：IFRS">IFRS</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：信息环境">信息环境</a> · <a class="tag-link" href="?q=%E6%B5%81%E5%8A%A8%E6%80%A7&amp;show-results=1" title="全站搜索：流动性">流动性</a></p>
+<p class="catalog-actions"><a href="../issues/20261106/#paper-10-2308-tar-2023-0304">查看本期</a><a href="https://doi.org/10.2308/tar-2023-0304" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>中国音乐品味的分层能用单一高低文化划分吗？</h3>
+<p class="catalog-citation">Li, G. C. (2026). Music divisions and cultural hierarchy in China: How transnational, political, and historical forces shape symbolic boundaries. Social Forces.</p><p class="catalog-meta">发表日期：2026-11-03 · 收录日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-06</p>
+<p>文章用多维项目反应理论识别中国音乐品味的潜在分组，再以回归分析考察其社会分层。摘要强调来源地区、历史声望、代际和流行程度共同构成的多维差异，难以由单一高低文化或杂食者分类概括。潜在类型依赖测量与模型设定，回归关联不能单独识别国家、全球流动或历史因素的因果作用。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9F%B3%E4%B9%90%E5%93%81%E5%91%B3&amp;show-results=1" title="全站搜索：音乐品味">音乐品味</a> · <a class="tag-link" href="?q=%E5%A4%9A%E7%BB%B4%E9%A1%B9%E7%9B%AE%E5%8F%8D%E5%BA%94&amp;show-results=1" title="全站搜索：多维项目反应">多维项目反应</a> · <a class="tag-link" href="?q=%E6%96%87%E5%8C%96%E5%88%86%E5%B1%82&amp;show-results=1" title="全站搜索：文化分层">文化分层</a></p>
+<p class="catalog-actions"><a href="../issues/20261106/#paper-10-1093-sf-soag158">查看本期</a><a href="https://doi.org/10.1093/sf/soag158" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>预测评估中的未来信息泄漏：从 Elliptic++ 基准说起</h3>
 <p class="catalog-citation">Liang, R.; Trimborn, S.; van Giersbergen, N. (2026). Revisiting Elliptic++ for Bitcoin forensics: Feature reconstruction and leakage-resistant evaluation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-02 · 收录日期：2026-11-05</p>
@@ -35,64 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%96%E7%A9%BA&amp;show-results=1" title="全站搜索：卖空">卖空</a> · <a class="tag-link" href="?q=%E5%AE%B6%E6%97%8F%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：家族企业">家族企业</a> · <a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：复现研究">复现研究</a></p>
 <p class="catalog-actions"><a href="../issues/20261105/#paper-10-1111-jofi-70098">查看本期</a><a href="https://doi.org/10.1111/jofi.70098" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>投资者对环境事件的反应，是否取决于财务重要性？</h3>
-<p class="catalog-citation">Kofford, S. D.; Lewis, B. W.; Melancon, M. (2026). Materiality and investor reaction to environmental corporate social responsibility: A replication and extension of Flammer (2013). Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-05</p>
-<p>文章复现并扩展 Flammer (2013) 的环境企业社会责任事件研究，将样本延长至 2019 年，并加入事件对企业财务的重要性分类。摘要报告，环保与环境损害事件的市场反应及长期变化主要集中在具有财务重要性的事件，相关区分在正式标准建立前已出现。它为理解复现、扩展样本和构念分类提供了具体案例；事件窗口、同时发生的消息和重要性编码仍需正文核查，市场反应也不能直接等同于环境政策的社会福利效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：环境责任">环境责任</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E4%B8%8E%E6%89%A9%E5%B1%95&amp;show-results=1" title="全站搜索：复现与扩展">复现与扩展</a></p>
-<p class="catalog-actions"><a href="../issues/20261105/#paper-10-1002-smj-70135">查看本期</a><a href="https://doi.org/10.1002/smj.70135" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>成为父母之后，中国职工的管理权怎样变化？</h3>
-<p class="catalog-citation">Cai, M. (2026). Workplace authority in China: Gender, parenthood, and work sectors. Social Forces.</p><p class="catalog-meta">发表日期：2026-11-03 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-05</p>
-<p>文章使用 2010–2022 年中国家庭追踪调查，考察成为父母前后个人获得监督管理权的变化，并区分国有与私营部门。摘要中的固定效应结果显示，女性成为母亲后获得管理权的概率下降，男性总体变化不明显；母职惩罚主要集中在私营部门，父职溢价只在国有部门出现。这提示工资之外还应关注组织内的权力资源。这里描述的是给定模型下的个人内部关联；生育时点选择、职业流动及随时间变化的混杂仍需正文核查，不能把固定效应结果直接解释为生育的因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%8C%E5%9C%BA%E7%AE%A1%E7%90%86%E6%9D%83&amp;show-results=1" title="全站搜索：职场管理权">职场管理权</a> · <a class="tag-link" href="?q=%E7%88%B6%E6%AF%8D%E8%BA%AB%E4%BB%BD&amp;show-results=1" title="全站搜索：父母身份">父母身份</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261105/#paper-10-1093-sf-soag157">查看本期</a><a href="https://doi.org/10.1093/sf/soag157" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>怎样为有界均值检验选择最坏情形下的 e-value？</h3>
-<p class="catalog-citation">Arnold, S.; Clerico, E. (2026). Optimal e-values for testing the mean of a bounded random variable against a composite alternative. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-03 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-05</p>
-<p>文章研究有界随机变量均值的检验，分别在 GROW 与 REGROW 准则下推导最坏情形增长率最优的 e-value，并刻画最难区分的备择。摘要特别比较两种准则：某些例子中，REGROW 能给出有信息的选择，而 GROW 可能退化为平凡解。对序贯推断读者，重点是先说明优化目标与备择集合再谈最优；具体有效性条件、构造和例子的推导仍需正文核查，不能理解为对任意数据都最有检验力。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=e-value&amp;show-results=1" title="全站搜索：e-value">e-value</a> · <a class="tag-link" href="?q=%E6%9C%89%E7%95%8C%E5%9D%87%E5%80%BC&amp;show-results=1" title="全站搜索：有界均值">有界均值</a> · <a class="tag-link" href="?q=%E5%A4%8D%E5%90%88%E5%A4%87%E6%8B%A9&amp;show-results=1" title="全站搜索：复合备择">复合备择</a></p>
-<p class="catalog-actions"><a href="../issues/20261105/#paper-10-1093-biomet-asag070">查看本期</a><a href="https://doi.org/10.1093/biomet/asag070" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>完整案例回归：删去缺失样本后，还能估计总体效应吗？</h3>
-<p class="catalog-citation">Lin, W.; Liu, S. (2026). When listwise deletion works: Causal diagrams and complete-case regression. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-05</p>
-<p>删除有缺失值的样本后，还能估计总体平均处理效应吗？文章把缺失指示放进因果图，分别检查调整集合与协变量内比较如何汇总。恒定效应与异质效应的要求不同，后者还需条件效应可向总体迁移，并按总体协变量分布加权。它是在完整观测时既有回归本来有效的前提下讨论完整案例推断，不能仅凭满足 MAR 或画出因果图就认定删除缺失样本后仍无偏。本轮只核官方摘要，未核验文献比例或模拟结果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%9B%BE&amp;show-results=1" title="全站搜索：因果图">因果图</a> · <a class="tag-link" href="?q=%E6%80%BB%E4%BD%93%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：总体效应">总体效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261105/#paper-arxiv-2611-04366">查看本期</a><a href="https://arxiv.org/abs/2611.04366v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>学校封存手机之后，使用、纪律和成绩怎样变化？</h3>
-<p class="catalog-citation">Allcott, H. et al. (2026). The effects of school phone bans: National evidence from lockable pouches. QJE.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-05</p>
-<p>文章将美国学校的可锁手机袋采购记录与教师调查、GPS 活动、标准化成绩和学校行政记录结合，用错位实施的双重差分比较采用前后的变化。摘要报告手机使用减少，但总体考试成绩变化接近零，纪律与主观幸福感的变化还随实施年限及学段而异。这提供了区分行为变化、适应过程和学习结果的政策评估案例；平行趋势、采用选择及不同实施批次的估计细节仍需正文核查，不能把一种手机袋措施推广为所有禁手机政策的效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：教育政策">教育政策</a> · <a class="tag-link" href="?q=%E6%89%8B%E6%9C%BA%E9%99%90%E5%88%B6&amp;show-results=1" title="全站搜索：手机限制">手机限制</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20261105/#paper-10-1093-qje-qjag050">查看本期</a><a href="https://doi.org/10.1093/qje/qjag050" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>先检验干扰、再选模型，后续推断怎样处理选择？</h3>
-<p class="catalog-citation">Yanagi, T. (2026). Selective randomization inference for interference. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-02 · 收录日期：2026-11-04</p>
-<p class="catalog-meta">期次日期：2026-11-05</p>
-<p>研究者常先检验处理是否存在溢出，再决定采用哪种模型或检验哪个效应。文章指出，若后续选择依赖同一数据的预检验结果，通常的推断可能忽略这一步选择；它提出在选择事件条件下开展两阶段随机化推断。拒绝无溢出与未拒绝无溢出的分支，分别针对预设暴露映射下的效应对比或无直接效应进行检验。结论要结合随机化设计、预设映射及各分支假设理解，不代表预检验已经证明无干扰。本轮只核摘要，未运行检验或复现模拟。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E6%80%A7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：选择性推断">选择性推断</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：随机化检验">随机化检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261105/#paper-arxiv-2611-02443">查看本期</a><a href="https://arxiv.org/abs/2611.02443v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>美元资产的汇率对冲，怎样传导为本国国债卖压？</h3>
-<p class="catalog-citation">Czech, R. et al. (2026). Unintended consequences of holding dollar assets. JF.</p><p class="catalog-meta">发表日期：2026-11-02 · 收录日期：2026-11-04</p>
-<p class="catalog-meta">期次日期：2026-11-04</p>
-<p>文章提出一个跨市场传导机制：非美国机构持有美元资产并用远期外汇对冲，危机中美元升值可能触发对冲头寸追加保证金，促使机构出售本国安全资产筹集现金。研究结合疫情危机中英国机构与国债交易的证据，讨论美元敞口与汇率对冲为何仍可能带来流动性压力。机构敞口、交易选择和危机共同冲击仍需正文核查，不能据摘要把所有国债收益率变动都归因于美元资产，或推断对冲必然放大风险。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B1%87%E7%8E%87%E5%AF%B9%E5%86%B2&amp;show-results=1" title="全站搜索：汇率对冲">汇率对冲</a> · <a class="tag-link" href="?q=%E4%BF%9D%E8%AF%81%E9%87%91&amp;show-results=1" title="全站搜索：保证金">保证金</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%B8%82%E5%9C%BA%E6%B5%81%E5%8A%A8%E6%80%A7&amp;show-results=1" title="全站搜索：跨市场流动性">跨市场流动性</a></p>
-<p class="catalog-actions"><a href="../issues/20261104/#paper-10-1111-jofi-70097">查看本期</a><a href="https://doi.org/10.1111/jofi.70097" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 52 页 · 共 511 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-52.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 52 页 · 共 518 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-52.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

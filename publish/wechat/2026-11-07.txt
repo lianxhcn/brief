@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.11.07
+
+✍️ 01｜新推文：AI 辅助调取微观数据库：以 IPUMS 为例
+把 IPUMS 提取定义、下载和 Stata 核查串成可留档流程。AI 可起草脚本，合集权限、变量口径、特殊码与权重仍需研究者核对，本轮未登录取数。
+阅读全文： https://www.lianxh.cn/details/1985.html 
+
+✍️ 02｜新推文：AI 辅助清洗微观数据库：以 CHIP 为例
+用 CHIP 多轮案例演示先核问卷和跨期映射、再生成 Stata 清洗代码。主键、缺失和单位仍需人工对账，有损映射不能自动裁决；本轮未取数或实跑。
+阅读全文： https://www.lianxh.cn/details/1986.html 
+
+📰 03｜论文 · Biometrika：无岭惩罚时，probit 回归的目标函数能否保持足够曲率？
+研究刻画 probit 似然在特定设计下的强对数凹性，说明目标函数的曲率控制怎样依赖设计结构和维数比例。
+引文：Chak, Rico & Zanella (2026). Strong log-concavity in probit regression. Biometrika.
+主页： https://doi.org/10.1093/biomet/asag072 
+
+📰 04｜论文 · arXiv：面板 DML：换了函数形式，识别问题就解决了吗？
+面板数据做组内变换或一阶差分后，DML 的设定和识别限制仍需分别核对。文章以银行监管为例，提醒两组均受政策影响时，估计的是差异暴露效应。
+引文：Habibnia, Maasoumi & Shah (2026). Double machine learning for panel data: Identification, specification, and a bank regulation effect. arXiv.
+主页： https://arxiv.org/abs/2611.07249v1 
+
+📦 05｜软件 · R：causalMed：用 g 公式分析纵向中介与总效应
+用参数 g 公式分析纵向中介与总效应，兼顾受早期暴露影响的混杂。中介模块限定二元暴露；自然效应与干预效应须分开，时间顺序与识别假设仍需核对，本轮未实测。
+版本：R / causalMed 0.1.3；发布：2026-11-06
+CRAN： https://cran.r-project.org/package=causalMed 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261107/ 
