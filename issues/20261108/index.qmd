@@ -1,0 +1,189 @@
+---
+title: "连享会 · 快讯 | 2026.11.08"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### Transformer 算法原理：手绘图详解 {#lianxh-1987}
+
+文章按经典 Transformer 编码器—解码器的计算顺序，用手绘图和小维度示例串起词嵌入、位置编码、Q/K/V、多头注意力、两类掩码、残差与归一化，最后区分训练并行和推理逐词生成。适合想把模块名称对到矩阵形状的读者。文中也说明 GPT 类模型去掉交叉注意力，不能把完整译码结构当作所有大模型的固定架构。位置外推和长序列开销仍需分别考虑；本轮仅读正文与图注，未逐图复算或训练模型。
+
+标签：<a class="tag-link" href="?q=Transformer&amp;show-results=1" title="全站搜索：Transformer">Transformer</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：自注意力">自注意力</a> · <a class="tag-link" href="?q=%E6%9E%B6%E6%9E%84%E8%BE%B9%E7%95%8C&amp;show-results=1" title="全站搜索：架构边界">架构边界</a>
+
+<small>来源日期：2026-11-07；补录：2026-11-08</small>
+
+<a href="https://www.lianxh.cn/details/1987.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 大模型时代：大厂还需要经济学家吗？ {#lianxh-1988}
+
+文章从经济学家的因果识别、指标与市场设计训练出发，讨论大模型怎样改变业界研究对象和工作流程。新旧文献对照串起 AI 市场、智能体交易、实验干扰与人机协作，为关注数据科学和策略岗位的读者提供问题清单。职业建议属于作者的综述判断，不等同于已核实的当前招聘全景；语言模型模拟也不能替代真实实验。本轮只读原文，未复核文中岗位统计、引文数值或运行 AI 实证。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%81%8C%E4%B8%9A&amp;show-results=1" title="全站搜索：经济学职业">经济学职业</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：因果判断">因果判断</a> · <a class="tag-link" href="?q=AI%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI 工作流">AI 工作流</a>
+
+<small>来源日期：2026-11-07；补录：2026-11-08</small>
+
+<a href="https://www.lianxh.cn/details/1988.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 分配目标怎样进入 HANK 模型的最优政策规则？ {#paper-10-1093-restud-rdag069}
+
+<p class="myapa">McKay, A. &amp; Wolf, C. K. (2026). Optimal policy rules in HANK. Review of Economic Studies. <a href="https://doi.org/10.1093/restud/rdag069" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Optimal%20policy%20rules%20in%20HANK" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+文章在包含名义刚性和异质性家庭的经济周期模型中，比较短期名义利率与定额 (lump-sum) 转移支付的最优政策规则。作者先分析针对总量指标的传统双重目标，再加入分配目标，说明政策工具对消费不平等的影响如何进入规则。其价值在于区分总量稳定与分配目标、货币工具与财政转移的作用；这些结论是特定模型条件下的理论推导，不能解释为现实政策效果的实测，也不能据摘要断言货币政策在所有经济体中的分配作用都很小。
+
+标签：<a class="tag-link" href="?q=HANK&amp;show-results=1" title="全站搜索：HANK">HANK</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：最优政策">最优政策</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E4%B8%8D%E5%B9%B3%E7%AD%89&amp;show-results=1" title="全站搜索：消费不平等">消费不平等</a>
+
+<small>来源日期：2026-11-07；补录：2026-11-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 生成式 AI 的销售价值，怎样按具体工作流评估？ {#paper-10-1287-mnsc-2026-00623}
+
+<p class="myapa">Fang, L., Yuan, Z., Zhang, K., Donati, D., &amp; Sarvary, M. (2026). Generative artificial intelligence and sales productivity: Field experiments in online retail. Management Science. <a href="https://doi.org/10.1287/mnsc.2026.00623" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Generative%20artificial%20intelligence%20and%20sales%20productivity%3A%20Field%20experiments%20in%20online%20retail" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+文章在 2023–2024 年的跨境在线零售平台多种业务工作流中开展随机现场实验，考察生成式 AI 的短期销售表现，并结合转化率、购物金额、退货、评分与消费者经验比较结果。研究把客服、商品匹配、广告和卖家服务等具体应用放在现有业务基准下评价，提示不能用一个统一效果概括 AI 采用。实验单位、随机化与多工作流比较的细节仍需正文核查；平台、使用场景与观察期限制了外推，不能将短期销售变化等同于长期利润、普遍生产率收益或所有消费者都会受益。
+
+标签：<a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8F%20AI&amp;show-results=1" title="全站搜索：生成式 AI">生成式 AI</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E4%B8%9A%E5%8A%A1%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：业务评价">业务评价</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 单个大网络做回归：组合数量不等于有效样本量 {#paper-arxiv-2611-07240}
+
+<p class="myapa">Ding, W. (2026). Nonparametric subgraph regression. arXiv. <a href="https://arxiv.org/abs/2611.07240v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.07240.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Nonparametric%20subgraph%20regression" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+网络中由若干个体组成的子群可以产生一个观测结果，例如一组节点是否形成特定子图。文章研究这类结果的核回归估计：共享个体的组合可能相关，不相交组合则假设独立，二元关系回归是其中的特例。方法讨论方差、收敛与推断，并强调组合总数会高估有效信息量。结论依赖上述网络依赖结构，不能把所有重叠组合当作独立样本。本轮只读官方摘要，未核证明、带宽实现或有限样本表现。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：非参数回归">非参数回归</a> · <a class="tag-link" href="?q=%E6%9C%89%E6%95%88%E6%A0%B7%E6%9C%AC%E9%87%8F&amp;show-results=1" title="全站搜索：有效样本量">有效样本量</a>
+
+<small>来源日期：2026-11-04；补录：2026-11-07</small>
+
+
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 人口阈值分类：先分清规模差异与数据修订 {#paper-wb-wps11497}
+
+<p class="myapa">Han, B. (2026). Population thresholds and classification stability: Evidence from the World Bank’s Small States classification rule. World Bank Policy Research Working Paper No. 11497. <a href="https://doi.org/10.1596/1813-9450-11497" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Population%20thresholds%20and%20classification%20stability%3A%20Evidence%20from%20the%20World%20Bank%E2%80%99s%20Small%20States%20classification%20rule" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+人口规模阈值既涉及分类依据，也涉及数据修订后的执行规则。文章结合跨国比较与人口估计的实时版本数据，分别检查宏观特征是否在既定阈值处出现断点，以及分类变动来自人口变化还是历史数据修订；并比较带有持续期要求的实施规则。这里的阈值诊断和规则设计不能直接解释为断点回归的因果识别。本轮依据 World Bank 官方原摘要，未核阈值检验、概率估计或数值结果。
+
+标签：<a class="tag-link" href="?q=%E9%98%88%E5%80%BC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：阈值分类">阈值分类</a> · <a class="tag-link" href="?q=%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：实时数据">实时数据</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E4%BF%AE%E8%AE%A2&amp;show-results=1" title="全站搜索：人口修订">人口修订</a>
+
+<small>来源日期：2026-11-03；补录：2026-11-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### IMFNow：把实时 GDP 预测中的约束放进同一流程 {#paper-imf-2026-240}
+
+<p class="myapa">Abdel-Latif, H., Centorrino, S., &amp; Dovi, M.-S. (2026). IMFNow: The IMF nowcasting framework in R. IMF Working Paper No. 2026/240. <a href="https://doi.org/10.5089/9798229065092.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=IMFNow%3A%20The%20IMF%20nowcasting%20framework%20in%20R" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+短而嘈杂的样本、不同发布日期、非平稳变量与模型选择，会同时影响实时 GDP 预测。文章介绍 IMFNow 的 R 框架，把机器学习和时间序列方法、依赖样本的交叉验证、平稳性处理、模型筛选及预测区间放进同一流程，并区分快速更新与重新调参。官方摘要还介绍了样本外评估和解释工具。这是一篇工作论文层面的框架介绍；本轮未安装软件、核对发行版本或实测预测与区间覆盖，也不把结果写成普遍优于其他工具。
+
+标签：<a class="tag-link" href="?q=%E5%AE%9E%E6%97%B6%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：实时预测">实时预测</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：不确定性">不确定性</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 股债协方差变号：冲击大小与传导方向要分开 {#paper-cepr-dp22151}
+
+<p class="myapa">Adrian, T. &amp; Schneider, A. (2026). The stock--bond covariance puzzle. CEPR Discussion Paper No. 22151. <a href="https://cepr.org/publications/dp22151" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20stock--bond%20covariance%20puzzle" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+股债收益的协方差变号，既可能来自两类冲击相对波动的变化，也可能来自冲击传导方向的变化。文章利用股票与债券波动随时间变化的差异，区分这两种机制，并要求解释协方差的理论同时解释冲击对两个市场的响应。识别依赖其时变波动框架；摘要中的市场响应不是本轮复现，也不能据此保证某种资产组合持续分散风险。本轮读取 CEPR 官方英文原摘要及收录日期，未核全文或数值估计。
+
+标签：<a class="tag-link" href="?q=%E8%82%A1%E5%80%BA%E8%81%94%E5%8A%A8&amp;show-results=1" title="全站搜索：股债联动">股债联动</a> · <a class="tag-link" href="?q=%E5%BC%82%E6%96%B9%E5%B7%AE%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：异方差识别">异方差识别</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：金融计量">金融计量</a>
+
+<small>来源日期：2026-11-07；补录：2026-11-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### WTP 空间换了写法，也换了模型吗？ {#paper-arxiv-2611-07698}
+
+<p class="myapa">Hess, S. (2026). Willingness-to-pay space and preference space: A unified treatment of equivalence, heterogeneity and interpretation. arXiv. <a href="https://arxiv.org/abs/2611.07698v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.07698.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Willingness-to-pay%20space%20and%20preference%20space%3A%20A%20unified%20treatment%20of%20equivalence%2C%20heterogeneity%20and%20interpretation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+选择模型写在支付意愿空间或偏好空间，并不自动形成两个不同模型。文章围绕参数化等价条件整理两种写法：非随机系数下可以等价；成本敏感性异质或存在非线性时，支付意愿仍需按边际效用之比解释；随机异质下还要核对两种写法隐含的分布是否一致。独立性约束也不是中性选择。本轮只核官方原摘要，不把某种参数化写成拟合或解释上的普遍改进，未核证明或估计实现。
+
+标签：<a class="tag-link" href="?q=%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：离散选择">离散选择</a> · <a class="tag-link" href="?q=%E6%94%AF%E4%BB%98%E6%84%8F%E6%84%BF&amp;show-results=1" title="全站搜索：支付意愿">支付意愿</a> · <a class="tag-link" href="?q=%E5%8F%82%E6%95%B0%E5%8C%96&amp;show-results=1" title="全站搜索：参数化">参数化</a>
+
+<small>来源日期：2026-11-05；补录：2026-11-07</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 资源按地区还是按家庭分配？先做样本外需求诊断 {#paper-wb-wps11498}
+
+<p class="myapa">Schwantje, T., Jafino, B. A., Triyana, M., &amp; Kazi, S. (2026). Voices of the coast: Spatial versus household heterogeneity in adaptation needs in Bangladesh. World Bank Policy Research Working Paper No. 11498. <a href="https://doi.org/10.1596/1813-9450-11498" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Voices%20of%20the%20coast%3A%20Spatial%20versus%20household%20heterogeneity%20in%20adaptation%20needs%20in%20Bangladesh" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+资源配置采用地区筛选还是家庭筛选，取决于需求主要在地区间变化，还是在同一社区的家庭间变化。文章比较地区、家庭与混合模型的样本外预测，用孟加拉国沿海家庭调查讨论不同适应需求的空间和家庭异质性，并权衡排除误差与筛查成本。依据是自报需求的预测诊断，不等于识别干预的因果效果，也不能把某一地区样本的筛查规则直接推广。本轮只核官方原摘要，未验证预测精度或成本收益数值。
+
+标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：政策瞄准">政策瞄准</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E9%80%82%E5%BA%94%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：适应需求">适应需求</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-08</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 季度预测模型：怎样把校准推进到贝叶斯估计？ {#paper-imf-2026-241}
+
+<p class="myapa">González Gómez, A. &amp; Prada Sarmiento, J. D. (2026). From calibration to estimation: A modern Bayesian framework for quarterly projection models. IMF Working Paper No. 2026/241. <a href="https://doi.org/10.5089/9798229065016.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=From%20calibration%20to%20estimation%3A%20A%20modern%20Bayesian%20framework%20for%20quarterly%20projection%20models" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+中央银行常用的季度预测模型，做完整贝叶斯估计时会遇到理性预期求解与冲击方差先验等计算问题。文章组合保结构的倍增算法、自动微分和 No-U-Turn Sampler，并在先验校准中使用扰动平滑的 EM 步骤，以巴西开放经济模型展示估计与预测。该工作流依赖具体模型、先验和计算设定，摘要中的稳定性与比较结果不是本轮实测。本轮未核算法推导、代码或预测表现。
+
+标签：<a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：贝叶斯估计">贝叶斯估计</a> · <a class="tag-link" href="?q=%E5%AD%A3%E5%BA%A6%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：季度预测模型">季度预测模型</a> · <a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-08</small>
+
+
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

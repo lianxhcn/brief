@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.11.08
+
+✍️ 01｜新推文：Transformer 算法原理：手绘图详解
+从词嵌入走到 Q/K/V、掩码与逐词生成，用图解串清矩阵形状。教程区分经典编码器—解码器和 GPT 结构，本轮未复算例子或训练模型。
+阅读全文： https://www.lianxh.cn/details/1987.html 
+
+✍️ 02｜新推文：大模型时代：大厂还需要经济学家吗？
+用因果识别、市场设计和 AI 工作流讨论经济学训练的业界用途。职业判断须结合具体岗位，语言模型模拟不替代真实实验；本轮未复核招聘统计。
+阅读全文： https://www.lianxh.cn/details/1988.html 
+
+📰 03｜论文 · Review of Economic Studies：分配目标怎样进入 HANK 模型的最优政策规则？
+研究在异质性家庭模型中，将总量稳定与分配目标放在同一框架下，比较利率和转移支付的最优规则及其条件。
+引文：McKay & Wolf (2026). Optimal policy rules in HANK. Review of Economic Studies.
+主页： https://doi.org/10.1093/restud/rdag069 
+
+📰 04｜论文 · Management Science：生成式 AI 的销售价值，怎样按具体工作流评估？
+研究用在线零售平台的随机现场实验，比较生成式 AI 在不同工作流中的短期表现，并同时关注转化、购物金额和售后指标。
+引文：Fang et al. (2026). Generative artificial intelligence and sales productivity: Field experiments in online retail. Management Science.
+主页： https://doi.org/10.1287/mnsc.2026.00623 
+
+📰 05｜论文 · arXiv：单个大网络做回归：组合数量不等于有效样本量
+网络观测可以很多，但共享节点会带来相关性。文章研究子图结果的非参数回归，提醒组合数量不能直接当作有效样本量。
+引文：Ding (2026). Nonparametric subgraph regression. arXiv.
+主页： https://arxiv.org/abs/2611.07240v1 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261108/ 
