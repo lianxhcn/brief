@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.11.09
+
+📰 01｜论文 · JPE：意见分歧下，安全空间如何兼具庇护与隔离作用？
+以理论框架讨论人们面对价值判断分歧时，为何调整行为或转向立场相近的安全空间，并区分其庇护作用与公共参与、社交网络的代价。
+引文：Tirole (2026). Safe spaces: Shelters or tribes?. JPE.
+主页： https://www.journals.uchicago.edu/doi/abs/10.1086/743388 
+
+📰 02｜论文 · arXiv：拥挤会反过来改变选择时，政策福利怎样评估？
+干预一个拥挤选项，可能把需求转移到别处并改变选择排序。文章讨论均衡反馈下的福利识别，提醒局部改善不自动意味着总体受益。
+引文：Bhattacharya & Makiranta (2026). Discrete choice under congestion: Equilibrium and welfare. arXiv.
+主页： https://arxiv.org/abs/2611.07787v1 
+
+📦 03｜命令 · Stata：mmwsmed：用中介概率比权重分解自然效应
+用中介概率比权重分解自然直接与间接效应，支持处理—中介交互。仍须核查混杂、重叠和权重模型；非参数选项仅单个二元或有序分类中介，本轮未实测。
+版本：Stata / mmwsmed 1.0.0；发布：2026-11-07
+主页： https://ideas.repec.org/c/boc/bocode/s460014.html 
+
+📦 04｜命令 · Stata：slidegraph：用透明度生成版面稳定的分步展示图
+按颜色透明度生成累积或聚焦式图层，减少分步展示的坐标轴与图例跳动。相同颜色标识不能独立切换，仍须逐帧检查；本轮未运行成图。
+版本：Stata / slidegraph 1.3.0；发布：2026-11-07
+主页： https://ideas.repec.org/c/boc/bocode/s460013.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261109/ 

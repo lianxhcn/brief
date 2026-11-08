@@ -1,0 +1,159 @@
+---
+title: "连享会 · 快讯 | 2026.11.09"
+body-classes: issue-page
+toc-depth: 3
+---
+
+本期不足 10 条：近期经核验且未重复的合格内容较少，本期保留9条；未以普通测试更新、重复研究或待核会议补足数量。
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 意见分歧下，安全空间如何兼具庇护与隔离作用？ {#paper-10-1086-743388}
+
+<p class="myapa">Tirole, J. (2026). Safe spaces: Shelters or tribes? Journal of Political Economy. <a href="https://doi.org/10.1086/743388" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Safe%20spaces%3A%20Shelters%20or%20tribes%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+文章为围绕分歧性议题的社会行为建立理论框架。当人们担心别人对是非的判断与自己不同，可能调整行为，也可能加入由相近立场者组成的安全空间；后一选择伴随减少公共空间参与、社交网络更封闭的代价。论文据此讨论安全空间作为庇护所与群体归属场所的双重角色及社会后果。它为研究社会规范、身份选择与公共互动提供机制问题；以上是理论框架，不是对现实社群的因果测量，摘要也不足以判定各种安全空间的净福利效果。
+
+标签：<a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%A7%84%E8%8C%83&amp;show-results=1" title="全站搜索：社会规范">社会规范</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a> · <a class="tag-link" href="?q=%E7%BE%A4%E4%BD%93%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：群体选择">群体选择</a>
+
+<small>来源日期：2026-10-27；补录：2026-11-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 拥挤会反过来改变选择时，政策福利怎样评估？ {#paper-arxiv-2611-07787}
+
+<p class="myapa">Bhattacharya, D. &amp; Makiranta, M. (2026). Discrete choice under congestion: Equilibrium and welfare. arXiv. <a href="https://arxiv.org/abs/2611.07787v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.07787.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Discrete%20choice%20under%20congestion%3A%20Equilibrium%20and%20welfare" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+一项选择越受欢迎，可能越拥挤，从而改变个人收益，也把干预影响传到其他选项。文章研究这类内生拥挤下的均衡与福利，并在线性指标结构中讨论如何用微观选择数据识别效用差异和部分干预的福利效果；不是所有干预都可识别。招生案例说明偏好排序与均衡反馈需要同时处理，不能把局部减拥挤直接等同于总体福利改善。本轮只核官方摘要，未核均衡证明、反事实计算或具体数值。
+
+标签：<a class="tag-link" href="?q=%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：离散选择">离散选择</a> · <a class="tag-link" href="?q=%E6%8B%A5%E6%8C%A4%E5%A4%96%E9%83%A8%E6%80%A7&amp;show-results=1" title="全站搜索：拥挤外部性">拥挤外部性</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：福利识别">福利识别</a>
+
+<small>来源日期：2026-11-05；补录：2026-11-09</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### mmwsmed：用中介概率比权重分解自然效应 {#tool-mmwsmed-1-0-0}
+
+mmwsmed 1.0.0 用中介概率比加权，把处理总效应分解为自然直接与间接效应，可容许处理与中介交互，并提供单中介及平行、序列双中介接口。结果变量无需预设分布，不代表中介或处理权重无需建模，更不等于已解决未测混杂。非参数分层选项仅适用于单个二元或有序分类中介 (<code>logit</code>/<code>probit</code>/<code>ologit</code>)；连续处理另用核平滑 GPS。须核对时序、无未测混杂、重叠和模型设定，极端权重下稳健与 bootstrap 标准误均可能不可靠；分层权重等另外情形手册建议 bootstrap，仍须核对重叠与权重诊断。本轮完整读 help，未安装或核验数值。
+
+标签：<a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：因果中介">因果中介</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E6%AF%94%E5%8A%A0%E6%9D%83&amp;show-results=1" title="全站搜索：概率比加权">概率比加权</a> · <a class="tag-link" href="?q=%E6%9D%83%E9%87%8D%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：权重诊断">权重诊断</a>
+
+<small>来源日期：2026-11-07；补录：2026-11-09</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s460014.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+::: {.brief-entry}
+
+#### slidegraph：用透明度生成版面稳定的分步展示图 {#tool-slidegraph-1-3-0}
+
+slidegraph 1.3.0 按颜色标识控制图层透明度，在每帧保留全部数据系列，减少逐页删去系列造成的坐标轴和图例位置跳动。可用累积出现或聚焦、淡化、隐藏三状态模式，同时输出论文整图、演示帧和 Beamer 叠放代码；PowerPoint 可使用导出的图，并非已验证的原生动画接口。相同颜色字符串的图层不能独立切换，需用不同标识；RGB 格式、导出结果和实际版面仍须逐帧复核。Stata 15 起可用，本轮仅读官方 help 与示例，未运行或目视成图。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E6%AD%A5%E5%9B%BE%E5%BD%A2&amp;show-results=1" title="全站搜索：分步图形">分步图形</a> · <a class="tag-link" href="?q=%E9%80%8F%E6%98%8E%E5%BA%A6&amp;show-results=1" title="全站搜索：透明度">透明度</a> · <a class="tag-link" href="?q=%E5%AD%A6%E6%9C%AF%E6%BC%94%E7%A4%BA&amp;show-results=1" title="全站搜索：学术演示">学术演示</a>
+
+<small>来源日期：2026-11-07；补录：2026-11-09</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s460013.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 通胀预期来自不同来源，怎样构造一致的期限结构？ {#paper-imf-2026-242}
+
+<p class="myapa">Carriere-Swallow, Y., Lu, J., &amp; Teoh, K. (2026). A flexible composite term structure of inflation expectations. IMF Working Paper No. 2026/242. <a href="https://doi.org/10.5089/9798229064262.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=A%20flexible%20composite%20term%20structure%20of%20inflation%20expectations" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+调查和市场指标的频率、期限与历史预测准确性不同，直接拼接可能混淆预期变化与测量误差。文章扩展动态 Nelson–Siegel 状态空间模型，加入固定预测事件只随新信息修订的一致性限制，并按各来源历史预测表现校准测量误差方差，形成覆盖不同期限的综合预期曲线。日本案例用于展示框架，不意味着任何市场指标都可无条件替代调查。本轮复核官方原摘要缓存，未核模型识别、误差校准或预测效果数值。
+
+标签：<a class="tag-link" href="?q=%E9%80%9A%E8%83%80%E9%A2%84%E6%9C%9F&amp;show-results=1" title="全站搜索：通胀预期">通胀预期</a> · <a class="tag-link" href="?q=%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4&amp;show-results=1" title="全站搜索：状态空间">状态空间</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 家庭风险与银行资本：政策瞄准需要同时看两端 {#paper-imf-2026-243}
+
+<p class="myapa">Barbieri, C., Moyà Porcel, R., &amp; Valderrama, L. (2026). Household vulnerability, bank solvency, and policy design in the Middle East war. IMF Working Paper No. 2026/243. <a href="https://doi.org/10.5089/9798229064088.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Household%20vulnerability%2C%20bank%20solvency%2C%20and%20policy%20design%20in%20the%20Middle%20East%20war" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+同一种宏观冲击，可能同时影响家庭偿债、银行损失和消费。文章把家庭资产负债表与银行数据连接起来，引入生活成本调整的债务偿付指标，并在持续冲突情景中比较转移支付与利率缓解政策的不同目标。它提示减少家庭困难、保护银行资本和维持消费未必指向同一种瞄准规则。预测比较和反事实情景依赖数据、校准及模型假设，不是已经观察到的战争损失或政策因果效果。本轮只复核官方摘要缓存，未核违约阈值、损失数值或压力测试实现。
+
+标签：<a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E5%BE%AE%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：家庭微观数据">家庭微观数据</a> · <a class="tag-link" href="?q=%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：压力测试">压力测试</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：政策瞄准">政策瞄准</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 临时生产瓶颈下，货币政策还要考虑退出后的价格调整 {#paper-imf-2026-244}
+
+<p class="myapa">Ozhan, G. K., Sander, N., Wende, S., &amp; Yang, S. (2026). Monetary policy under network-level bottlenecks. IMF Working Paper No. 2026/244. <a href="https://doi.org/10.5089/9798229065931.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Monetary%20policy%20under%20network-level%20bottlenecks" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+临时行业瓶颈会改变当期通胀与产出的权衡，也可能让相对价格在约束消退后仍需调整。文章在包含生产网络、价格黏性和地区联系的模型中，研究货币政策如何平衡约束期的稳定与退出后的价格修正，并比较网络传播和跨地区协调。结论来自特定校准与反事实设定，不能把模型中的紧缩效果概括为所有供给冲击下的政策规律。本轮只复核官方摘要缓存，未核参数、脉冲响应或政策比较数值。
+
+标签：<a class="tag-link" href="?q=%E7%94%9F%E4%BA%A7%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：生产网络">生产网络</a> · <a class="tag-link" href="?q=%E4%BE%9B%E7%BB%99%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：供给约束">供给约束</a> · <a class="tag-link" href="?q=%E8%B7%A8%E6%9C%9F%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：跨期政策">跨期政策</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 财政规则与独立财政委员会：互补关系需要怎样的证据？ {#paper-imf-2026-233}
+
+<p class="myapa">Beetsma, R. M. W. J., Lam, W. R., Leonards, E., Poplawski Ribeiro, M., &amp; Solovyeva, A. (2026). On the role and effectiveness of fiscal rules and independent fiscal councils. IMF Working Paper No. 2026/233. <a href="https://doi.org/10.5089/9798229063388.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=On%20the%20role%20and%20effectiveness%20of%20fiscal%20rules%20and%20independent%20fiscal%20councils" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+财政规则与独立财政委员会常分步建立，二者不必承担相同作用。文章先用理论框架讨论规则强度、委员会及其互动，再用更新的 IMF 制度数据比较财政赤字、预测偏差与预测准确性。摘要给出的是随样本和制度设计变化的提示性经验关系，不能把规则更强或设立委员会直接解释为已识别的因果改善。本轮只复核官方摘要缓存，未核识别、制度编码或数值结果。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：财政规则">财政规则</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：制度设计">制度设计</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：预测偏差">预测偏差</a>
+
+<small>来源日期：2026-10-30；补录：2026-11-09</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 地缘碎片化怎样传到公共债务？识别与动态响应要分开看 {#paper-imf-2026-239}
+
+<p class="myapa">Furceri, D., Poplawski Ribeiro, M., &amp; Prifti, E. (2026). Divide and indebt: How geoeconomic fragmentation affects public debt and macro-fiscal stability. IMF Working Paper No. 2026/239. <a href="https://doi.org/10.5089/9798229063265.001" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Divide%20and%20indebt%3A%20How%20geoeconomic%20fragmentation%20affects%20public%20debt%20and%20macro-fiscal%20stability" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+文章把地缘碎片化指标用于结构面板 VAR，并通过局部投影追踪公共债务、财政余额和融资条件的动态变化，同时比较不同国家群体。其研究流程区分冲击识别、传导渠道与异质性响应，可供跨国宏观应用参考。但结构冲击的识别限制、指标含义和跨国可比性仍需正文核查，不能仅凭摘要把模型冲击当作任意地缘事件的已证因果效果。本轮只复核官方摘要缓存，未核债务变化数值、尾部风险或模型实现。
+
+标签：<a class="tag-link" href="?q=%E5%9C%B0%E7%BC%98%E7%A2%8E%E7%89%87%E5%8C%96&amp;show-results=1" title="全站搜索：地缘碎片化">地缘碎片化</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BFSVAR&amp;show-results=1" title="全站搜索：面板SVAR">面板SVAR</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a>
+
+<small>来源日期：2026-11-06；补录：2026-11-09</small>
+
+
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

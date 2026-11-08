@@ -8,9 +8,25 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 132 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 134 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>tabtools：统一整理与导出 Stata 结果表</h3>
+
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>tabtools 把描述统计、交叉表和回归结果整理为样式一致的表格，可导出 Excel、Markdown 与 CSV，并设置会话内的字体、边框和输出位置，适合减少论文表格的重复排版。需要 Stata 17。须注意 Excel 单元格按文本写入，即使显示为数字也不能直接用于数值计算、排序或作图；应另取数值结果并核对样本与标签。安装为 <code>ssc install tabtools</code>。本轮只读帮助与源码头，未安装或实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：结果输出">结果输出</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E8%A1%A8%E6%A0%BC&amp;show-results=1" title="全站搜索：论文表格">论文表格</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#tool-tabtools-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460003.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>staggeredGMM：用 GMM 联合估计交错处理效应</h3>
+
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>staggeredGMM 汇集合格的两组两期比较，估计交错处理的组别—时间平均效应，并提供多种协方差加权。0.2.0 修正未处理组编码与观测期 0 冲突、整组基线协变量缺失的处理。其过度识别检验针对无条件平行趋势与无预期；即使估计时加入协变量，也不检验条件平行趋势，不能据不拒绝就认定识别成立。Windows 二进制仍为 0.1.0，安装后须查版本。本轮未实测。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%A4%E9%94%99%20DID&amp;show-results=1" title="全站搜索：交错 DID">交错 DID</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：平行趋势检验">平行趋势检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#tool-staggeredgmm-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=staggeredGMM" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>rangematch：按时间窗口与区间重叠匹配数据</h3>
 
@@ -75,24 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质处理效应">异质处理效应</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E6%A0%91&amp;show-results=1" title="全站搜索：交互树">交互树</a></p>
 <p class="catalog-actions"><a href="../issues/20261031/#tool-cerfit-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=CERFIT" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>rd2dnet：按路网距离研究边界两侧的效应</h3>
-
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>rd2dnet 将边界断点设计扩展到街道路网，以有符号网络距离和沿边界偏移构造局部比较，支持长度、通行时间及自定义边成本。文档提供局部多项式、稳健偏差校正和一致置信带示例。距离度量会改变邻域和目标，路网建好并不自动保证边界两侧可比，仍须检查支持范围与设计条件。安装为 <code>install.packages(&quot;rd2dnet&quot;)</code>，源码需要编译。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E7%95%8C%E6%96%AD%E7%82%B9&amp;show-results=1" title="全站搜索：边界断点">边界断点</a> · <a class="tag-link" href="?q=%E8%B7%AF%E7%BD%91%E8%B7%9D%E7%A6%BB&amp;show-results=1" title="全站搜索：路网距离">路网距离</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#tool-rd2dnet-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=rd2dnet" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>contdid：连续剂量与分期实施的 DiD</h3>
-
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>contdid 针对连续处理与分期实施，分别组织剂量对应的处理效应、因果响应和事件研究，再汇总到总体效应。剂量水平与斜率参数有不同解释，仍需匹配相应平行趋势条件。官方将当前 API 列为 alpha，剂量须时间不变，非平衡面板、时变剂量和协变量尚不支持；源码与二进制版本也可能不同。安装为 <code>install.packages(&quot;contdid&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：连续处理">连续处理</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#tool-contdid-0-1-2">查看本期</a><a href="https://cran.r-project.org/package=contdid" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 132 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 134 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

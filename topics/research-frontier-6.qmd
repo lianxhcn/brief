@@ -8,9 +8,65 @@ title: "新论文 · 第 6 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 53 页 · 共 527 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-53.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 54 页 · 共 534 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-54.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>生育变化为何需要区分队列、宗教背景与婚姻状态？</h3>
+<p class="catalog-citation">Uecker, J. E.; Peterson, R. S. (2026). Religion and early fertility in the United States: Changes during the second demographic transition. Social Forces.</p><p class="catalog-meta">发表日期：2026-10-24 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>文章使用美国家庭增长调查，通过生命表和离散时间事件史模型，比较不同出生队列、宗教背景下婚内与非婚首次生育的时点。把总生育变化拆成不同类型，有助于理解总体差异为何会随群体构成改变。宗教背景不是随机处理，队列比较仍可能受到选择、测量与人口结构差异影响；条件关联不能直接视为宗教背景的因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E5%91%BD%E8%A1%A8&amp;show-results=1" title="全站搜索：生命表">生命表</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E5%8F%B2%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：事件史模型">事件史模型</a> · <a class="tag-link" href="?q=%E9%98%9F%E5%88%97%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：队列比较">队列比较</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#paper-10-1093-sf-soag152">查看本期</a><a href="https://doi.org/10.1093/sf/soag152" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>条件参数推断何时可以不用交叉拟合？</h3>
+<p class="catalog-citation">Juergens, J. R. (2026). Orthogonal inference for conditional Z-estimation without cross-fitting: A distributional nearest-neighbor approach. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-28 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>使用全样本拟合辅助函数可以保留调整信息，也会使拟合分数与评价观测相互依赖。文章以分布近邻 (DNN) 局部化恰好识别的条件矩方程，研究使用全样本预测时的点态推断，并讨论固定预测分数的 jackknife 协方差估计。结论需要局部设计、正交性、预测精度及定量删除稳定性等条件；这不是所有机器学习估计都能取消交叉拟合的通用保证，本轮只核对官方摘要。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%AD%A3%E4%BA%A4%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：正交推断">正交推断</a> · <a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E6%8B%9F%E5%90%88&amp;show-results=1" title="全站搜索：交叉拟合">交叉拟合</a> · <a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E5%8F%82%E6%95%B0&amp;show-results=1" title="全站搜索：条件参数">条件参数</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#paper-arxiv-2610-38965">查看本期</a><a href="https://arxiv.org/abs/2610.38965v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>机器学习生成离散标签后，GMM 推断怎样去偏？</h3>
+<p class="catalog-citation">Yang, T. (2026). Valid GMM inference with non-parametrically generated discrete type. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-30 · 收录日期：2026-11-03</p>
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>用机器学习预测人群类型、处理状态等离散标签后，再把标签直接代入矩条件，第一阶段误差可能带来推断问题。标签的跳变使常规偏差修正项难以直接定义。文章提出先对离散类型指示函数作平滑，再构造 Neyman 正交得分和去偏估计量，并在正则条件下讨论渐近推断。平滑参数和第一阶段误差仍会影响结果，不能把预测标签视为无误差观测；本轮只核对官方摘要，未读全文或复现。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E6%A0%87%E7%AD%BE&amp;show-results=1" title="全站搜索：生成标签">生成标签</a> · <a class="tag-link" href="?q=GMM%20%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：GMM 推断">GMM 推断</a> · <a class="tag-link" href="?q=%E6%AD%A3%E4%BA%A4%E5%8C%96&amp;show-results=1" title="全站搜索：正交化">正交化</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#paper-arxiv-2610-42052">查看本期</a><a href="https://arxiv.org/abs/2610.42052v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>政策环境怎样进入经济压力与心理健康分析？</h3>
+<p class="catalog-citation">Donnelly, R. et al. (2026). Structuralizing the stress process: States as contextual determinants of stress and mental health. Social Forces.</p><p class="catalog-meta">发表日期：2026-10-20 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>文章把美国住户脉搏调查、行为风险因素监测数据与州政策环境连接，区分经济压力暴露、政策背景及压力同心理健康关联的变化，并讨论年龄差异。它提醒研究者把情境变量、关联的调节及中介叙述分别处理。州政策之间的共变、样本选择和未观测因素仍需正文核查；观察到的关联和中介分解不等于已经识别了政策的因果效果或因果机制。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%83%85%E5%A2%83%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：情境变量">情境变量</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8E%8B%E5%8A%9B&amp;show-results=1" title="全站搜索：经济压力">经济压力</a> · <a class="tag-link" href="?q=%E8%B0%83%E8%8A%82%E4%B8%8E%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：调节与中介">调节与中介</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#paper-10-1093-sf-soag151">查看本期</a><a href="https://doi.org/10.1093/sf/soag151" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>学校停课后，家庭补习投入怎样改变教育差距？</h3>
+<p class="catalog-citation">Kang, H.; Kang, T.; Kim, S. (2026). Mitigating school closures: Parental responses and tutoring vouchers. Journal of Applied Econometrics.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-11-02</p>
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>文章利用校级停课天数的准实验差异，连接行政记录与调查数据，分析家庭补习投入和教育结果如何一同变化；随后用学校教育与家庭补习共同生产成绩的模型评估补习券反事实。它提醒政策分析同时考虑家庭的替代性投资及资源差异。准实验有效性与补习券模拟均依赖识别和模型设定，反事实评估不等于补习券已在现实中取得同样效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%8A%95%E5%85%A5&amp;show-results=1" title="全站搜索：教育投入">教育投入</a> · <a class="tag-link" href="?q=%E5%87%86%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：准实验">准实验</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：政策反事实">政策反事实</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#paper-10-1002-jae-70096">查看本期</a><a href="https://doi.org/10.1002/jae.70096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>公共文化符号怎样影响官员对多样性的判断？</h3>
+<p class="catalog-citation">Adler, G. J., Jr. et al. (2026). Simply a sign of the season? Christmas trees as cultural ciphers in local government management of diversity. American Sociological Review.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>文章对地方政府官员实施调查实验，随机变化政府场地节庆展示的内容，并结合开放式问卷回答，考察文化符号怎样影响对宗教多样性管理的判断。它把实验中的展示方案与人们赋予符号的不同含义联系起来，可作为调查实验与开放文本解释相结合的应用案例。实验测量的是官员对给定展示的偏好和解释，不能直接推出真实政府采纳行为或公共治理的长期效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a> · <a class="tag-link" href="?q=%E5%BC%80%E6%94%BE%E5%BC%8F%E5%9B%9E%E7%AD%94&amp;show-results=1" title="全站搜索：开放式回答">开放式回答</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公共治理">公共治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#paper-10-1177-00031224261486015">查看本期</a><a href="https://doi.org/10.1177/00031224261486015" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>临时就业与失业，对家庭形成的联系有何不同？</h3>
+<p class="catalog-citation">Inanc, H. (2026). Nonstandard work, nonstandard lives? Temporary employment, unemployment, and family transitions. Social Forces.</p><p class="catalog-meta">发表日期：2026-10-16 · 收录日期：2026-10-31</p>
+<p class="catalog-meta">期次日期：2026-11-03</p>
+<p>文章利用英国住户面板，以离散时间事件史分析比较临时就业与失业同婚姻、同居、生育和关系稳定性的联系，并按教育、性别及伴侣关系类型区分。它提示劳动市场分析不能只用是否就业概括工作不确定性。就业状态选择、随时间变化的家庭条件和未观测差异仍需正文核查，不能把事件史模型中的条件关联直接解释为稳定就业的普遍因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B0%B1%E4%B8%9A%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：就业不确定性">就业不确定性</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E5%8F%B2%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：事件史分析">事件史分析</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E8%BD%AC%E5%8F%98&amp;show-results=1" title="全站搜索：家庭转变">家庭转变</a></p>
+<p class="catalog-actions"><a href="../issues/20261103/#paper-10-1093-sf-soag149">查看本期</a><a href="https://doi.org/10.1093/sf/soag149" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>育儿后的有酬劳动分工：家庭政策与伴侣资源</h3>
 <p class="catalog-citation">Dunatchik, A.; Gonalons-Pons, P. (2026). Incentivizing equality? How work-family policies affect parenthood penalties in 27 countries. American Sociological Review.</p><p class="catalog-meta">发表日期：2026-10-26 · 收录日期：2026-10-31</p>
@@ -35,64 +91,8 @@ title: "新论文 · 第 6 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：平均处理效应">平均处理效应</a></p>
 <p class="catalog-actions"><a href="../issues/20261102/#paper-arxiv-2610-33254">查看本期</a><a href="https://arxiv.org/abs/2610.33254v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>工作迁移后的伴侣幸福感：收入议价之外</h3>
-<p class="catalog-citation">Hofmann, E. et al. (2026). Beyond economic bargaining power? Work-related internal migration and subjective well-being in couples. Social Forces.</p><p class="catalog-meta">发表日期：2026-10-28 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-11-02</p>
-<p>文章利用德国社会经济面板，在个人与伴侣两个层面考察工作相关国内迁移后的生活满意度，并比较女性收入占家庭劳动收入比重变化下的差异。它把收入以外的效用维度纳入迁移决策，也提示夫妻双方的变化不必一致。固定效应不能自动消除迁移选择与随时间变化的遗漏因素，摘要中的迁移前后差异不宜直接解释为一般因果效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：面板固定效应">面板固定效应</a> · <a class="tag-link" href="?q=%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：迁移">迁移</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：家庭决策">家庭决策</a></p>
-<p class="catalog-actions"><a href="../issues/20261102/#paper-10-1093-sf-soag153">查看本期</a><a href="https://doi.org/10.1093/sf/soag153" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>公民身份的经济回报，是否因移民处境而不同？</h3>
-<p class="catalog-citation">Catron, P.; Hoffmann, N. I.; Li, M. (2026). Who benefits from citizenship? Varying effects of naturalization decisions in the early-twentieth-century United States. American Sociological Review.</p><p class="catalog-meta">发表日期：2026-10-30 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-11-02</p>
-<p>文章把20世纪初纽约的入籍申请记录与随后多期人口普查连接，比较完成入籍者与已启动但未完成程序者的职业地位，并考察不同初始处境下的差异。它提供了把行政记录链接与回报异质性相结合的历史案例。记录链接质量、完成入籍的选择及当时制度环境仍需正文核查，不能把组间差异直接当作当代移民政策的普遍因果效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE%E9%93%BE%E6%8E%A5&amp;show-results=1" title="全站搜索：历史数据链接">历史数据链接</a> · <a class="tag-link" href="?q=%E7%A7%BB%E6%B0%91&amp;show-results=1" title="全站搜索：移民">移民</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a></p>
-<p class="catalog-actions"><a href="../issues/20261102/#paper-10-1177-00031224261489725">查看本期</a><a href="https://doi.org/10.1177/00031224261489725" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>个体退出怎样累积为组织成员流失？</h3>
-<p class="catalog-citation">Carlberg Larsson, E.; Hedström, P. (2026). Leaving together: Social influence and church decline. Social Forces.</p><p class="catalog-meta">发表日期：2026-10-20 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-11-02</p>
-<p>文章利用瑞典全人口登记数据，以动态匹配样本设计考察接触退出者与个体退出的联系，再依据估计结果校准主体模拟，将微观互动连接到总体成员变化。研究区分社会嵌入程度，可作为匹配设计与模拟衔接的阅读案例。匹配对未观测共同冲击的处理和模拟校准条件需正文核查；具体宗教组织中的机制不能直接外推到企业客户流失或所有社会网络。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：动态匹配">动态匹配</a> · <a class="tag-link" href="?q=%E4%B8%BB%E4%BD%93%E6%A8%A1%E6%8B%9F&amp;show-results=1" title="全站搜索：主体模拟">主体模拟</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E5%BD%B1%E5%93%8D&amp;show-results=1" title="全站搜索：社会影响">社会影响</a></p>
-<p class="catalog-actions"><a href="../issues/20261102/#paper-10-1093-sf-soag150">查看本期</a><a href="https://doi.org/10.1093/sf/soag150" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>非欧几里得响应的回归，怎样检验偏效应？</h3>
-<p class="catalog-citation">Xu, H.; Li, H. (2026). Test of partial effects for Fréchet regression on Bures-Wasserstein manifolds. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-27 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-11-01</p>
-<p>响应变量具有非欧几里得结构时，常规回归的检验方法未必能直接照搬。文章针对 Bures–Wasserstein 流形的 Fréchet 回归提出偏效应检验，给出渐近有效性和一致性论证，并以模拟及单细胞数据中的基因共表达结构说明应用。 适用性依赖指定流形、回归模型与渐近条件；统计偏效应不能直接解释为因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：非欧几里得数据">非欧几里得数据</a> · <a class="tag-link" href="?q=Fr%C3%A9chet%20%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：Fréchet 回归">Fréchet 回归</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261101/#paper-10-1093-biomet-asag064">查看本期</a><a href="https://doi.org/10.1093/biomet/asag064" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>群体讨论怎样形成可执行的创新方案？</h3>
-<p class="catalog-citation">Biscaro, C.; Malhotra, A.; Majchrzak, A. (2026). Action-oriented narratives. How innovation emerges from crowd discussions. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-19 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-11-01</p>
-<p>群体怎样把开放讨论变成可执行方案？文章分析围绕新西兰本土动植物保护的群体讨论，比较产生创新与未产生创新的对话如何组织资源、约束、目标和责任主体，并提出行动导向叙事这一解释框架。 这是特定开放讨论场景的分析，不能仅凭叙事结构就认定其必然造成创新，也不能直接推广到所有团队。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BE%A4%E4%BD%93%E8%AE%A8%E8%AE%BA&amp;show-results=1" title="全站搜索：群体讨论">群体讨论</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a> · <a class="tag-link" href="?q=%E5%AE%9A%E6%80%A7%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：定性研究">定性研究</a></p>
-<p class="catalog-actions"><a href="../issues/20261101/#paper-10-1287-orsc-2024-19136">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.19136" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>相关需求冲击如何进入资产定价？</h3>
-<p class="catalog-citation">Kim, B. (2026). Correlated demand shocks and asset pricing. RFS.</p><p class="catalog-meta">发表日期：2026-10-28 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-11-01</p>
-<p>当机构投资者追逐相同基准时，超越指数的激励可能使交易需求同时变化。文章把这种相关需求冲击放进资产定价机制，并用指数成分调整的准实验提供经验支持，讨论其与市场风险暴露、风险溢价及企业投资的联系。 准实验的有效性、替代机制和外推仍需正文核查，不能仅凭需求共振推断个股的因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85&amp;show-results=1" title="全站搜索：机构投资者">机构投资者</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：需求冲击">需求冲击</a></p>
-<p class="catalog-actions"><a href="../issues/20261101/#paper-10-1093-rfs-hhag094">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag094" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>用分数阶导数推导边际密度</h3>
-<p class="catalog-citation">Li, S. Y.; van Dyk, D. A.; Autenrieth, M. (2026). Using fractional derivatives to derive marginal densities. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-27 · 收录日期：2026-10-31</p>
-<p class="catalog-meta">期次日期：2026-11-01</p>
-<p>边际化常需要处理难以解析计算的积分。文章提出利用矩母函数的分数阶导数推导边际密度的思路，并解释相关概率与统计含义。 方法仍要求特定似然形式以及先验矩母函数的存在、有限性和相应光滑性，不适用于任意模型。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BE%B9%E9%99%85%E5%AF%86%E5%BA%A6&amp;show-results=1" title="全站搜索：边际密度">边际密度</a> · <a class="tag-link" href="?q=%E7%9F%A9%E6%AF%8D%E5%87%BD%E6%95%B0&amp;show-results=1" title="全站搜索：矩母函数">矩母函数</a> · <a class="tag-link" href="?q=%E8%A7%A3%E6%9E%90%E6%8E%A8%E5%AF%BC&amp;show-results=1" title="全站搜索：解析推导">解析推导</a></p>
-<p class="catalog-actions"><a href="../issues/20261101/#paper-10-1093-biomet-asag069">查看本期</a><a href="https://doi.org/10.1093/biomet/asag069" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 53 页 · 共 527 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-53.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-5.html">上一页</a><span aria-current="page">第 6 / 54 页 · 共 534 条</span><a rel="next" href="research-frontier-7.html">下一页</a><a href="research-frontier-54.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

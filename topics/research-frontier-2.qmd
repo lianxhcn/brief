@@ -8,9 +8,65 @@ title: "新论文 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 53 页 · 共 527 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-53.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 54 页 · 共 534 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-54.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>季度预测模型：怎样把校准推进到贝叶斯估计？</h3>
+<p class="catalog-citation">González Gómez, A.; Prada Sarmiento, J. D. (2026). From calibration to estimation: A modern Bayesian framework for quarterly projection models. IMF Working Paper No. 2026/241 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06 · 收录日期：2026-11-08</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>中央银行常用的季度预测模型，做完整贝叶斯估计时会遇到理性预期求解与冲击方差先验等计算问题。文章组合保结构的倍增算法、自动微分和 No-U-Turn Sampler，并在先验校准中使用扰动平滑的 EM 步骤，以巴西开放经济模型展示估计与预测。该工作流依赖具体模型、先验和计算设定，摘要中的稳定性与比较结果不是本轮实测。本轮未核算法推导、代码或预测表现。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：贝叶斯估计">贝叶斯估计</a> · <a class="tag-link" href="?q=%E5%AD%A3%E5%BA%A6%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：季度预测模型">季度预测模型</a> · <a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-imf-2026-241">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/241/001.2026.issue-241-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>单个大网络做回归：组合数量不等于有效样本量</h3>
+<p class="catalog-citation">Ding, W. (2026). Nonparametric subgraph regression. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-04 · 收录日期：2026-11-07</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>网络中由若干个体组成的子群可以产生一个观测结果，例如一组节点是否形成特定子图。文章研究这类结果的核回归估计：共享个体的组合可能相关，不相交组合则假设独立，二元关系回归是其中的特例。方法讨论方差、收敛与推断，并强调组合总数会高估有效信息量。结论依赖上述网络依赖结构，不能把所有重叠组合当作独立样本。本轮只读官方摘要，未核证明、带宽实现或有限样本表现。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：非参数回归">非参数回归</a> · <a class="tag-link" href="?q=%E6%9C%89%E6%95%88%E6%A0%B7%E6%9C%AC%E9%87%8F&amp;show-results=1" title="全站搜索：有效样本量">有效样本量</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-arxiv-2611-07240">查看本期</a><a href="https://arxiv.org/abs/2611.07240v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>分配目标怎样进入 HANK 模型的最优政策规则？</h3>
+<p class="catalog-citation">McKay, A.; Wolf, C. K. (2026). Optimal policy rules in HANK. REStud.</p><p class="catalog-meta">发表日期：2026-11-07 · 收录日期：2026-11-08</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>文章在包含名义刚性和异质性家庭的经济周期模型中，比较短期名义利率与定额 (lump-sum) 转移支付的最优政策规则。作者先分析针对总量指标的传统双重目标，再加入分配目标，说明政策工具对消费不平等的影响如何进入规则。其价值在于区分总量稳定与分配目标、货币工具与财政转移的作用；这些结论是特定模型条件下的理论推导，不能解释为现实政策效果的实测，也不能据摘要断言货币政策在所有经济体中的分配作用都很小。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=HANK&amp;show-results=1" title="全站搜索：HANK">HANK</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：最优政策">最优政策</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E4%B8%8D%E5%B9%B3%E7%AD%89&amp;show-results=1" title="全站搜索：消费不平等">消费不平等</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-10-1093-restud-rdag069">查看本期</a><a href="https://doi.org/10.1093/restud/rdag069" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>人口阈值分类：先分清规模差异与数据修订</h3>
+<p class="catalog-citation">Han, B. (2026). Population thresholds and classification stability: Evidence from the World Bank’s Small States classification rule. World Bank Policy Research Working Paper No. 11497 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03 · 收录日期：2026-11-08</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>人口规模阈值既涉及分类依据，也涉及数据修订后的执行规则。文章结合跨国比较与人口估计的实时版本数据，分别检查宏观特征是否在既定阈值处出现断点，以及分类变动来自人口变化还是历史数据修订；并比较带有持续期要求的实施规则。这里的阈值诊断和规则设计不能直接解释为断点回归的因果识别。本轮依据 World Bank 官方原摘要，未核阈值检验、概率估计或数值结果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%98%88%E5%80%BC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：阈值分类">阈值分类</a> · <a class="tag-link" href="?q=%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：实时数据">实时数据</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E4%BF%AE%E8%AE%A2&amp;show-results=1" title="全站搜索：人口修订">人口修订</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-wb-wps11497">查看本期</a><a href="https://documents.worldbank.org/curated/en/099913211032626714" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>WTP 空间换了写法，也换了模型吗？</h3>
+<p class="catalog-citation">Hess, S. (2026). Willingness-to-pay space and preference space: A unified treatment of equivalence, heterogeneity and interpretation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05 · 收录日期：2026-11-07</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>选择模型写在支付意愿空间或偏好空间，并不自动形成两个不同模型。文章围绕参数化等价条件整理两种写法：非随机系数下可以等价；成本敏感性异质或存在非线性时，支付意愿仍需按边际效用之比解释；随机异质下还要核对两种写法隐含的分布是否一致。独立性约束也不是中性选择。本轮只核官方原摘要，不把某种参数化写成拟合或解释上的普遍改进，未核证明或估计实现。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：离散选择">离散选择</a> · <a class="tag-link" href="?q=%E6%94%AF%E4%BB%98%E6%84%8F%E6%84%BF&amp;show-results=1" title="全站搜索：支付意愿">支付意愿</a> · <a class="tag-link" href="?q=%E5%8F%82%E6%95%B0%E5%8C%96&amp;show-results=1" title="全站搜索：参数化">参数化</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-arxiv-2611-07698">查看本期</a><a href="https://arxiv.org/abs/2611.07698v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>IMFNow：把实时 GDP 预测中的约束放进同一流程</h3>
+<p class="catalog-citation">Abdel-Latif, H.; Centorrino, S.; Dovi, M.-S. (2026). IMFNow: The IMF nowcasting framework in R. IMF Working Paper No. 2026/240 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06 · 收录日期：2026-11-08</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>短而嘈杂的样本、不同发布日期、非平稳变量与模型选择，会同时影响实时 GDP 预测。文章介绍 IMFNow 的 R 框架，把机器学习和时间序列方法、依赖样本的交叉验证、平稳性处理、模型筛选及预测区间放进同一流程，并区分快速更新与重新调参。官方摘要还介绍了样本外评估和解释工具。这是一篇工作论文层面的框架介绍；本轮未安装软件、核对发行版本或实测预测与区间覆盖，也不把结果写成普遍优于其他工具。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E6%97%B6%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：实时预测">实时预测</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：不确定性">不确定性</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-imf-2026-240">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/240/001.2026.issue-240-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>面板 DML：换了函数形式，识别问题就解决了吗？</h3>
+<p class="catalog-citation">Habibnia, A.; Maasoumi, E.; Shah, G. (2026). Double machine learning for panel data: Identification, specification, and a bank regulation effect. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-04 · 收录日期：2026-11-07</p>
+<p class="catalog-meta">期次日期：2026-11-07</p>
+<p>文章讨论面板双重机器学习的稳健性与因果解释，在共同处理时点的设定下区分识别条件和干扰项限制，并分别研究特定组内变换与一阶差分得分的表示。银行监管例子提醒，资产规模分组、此前增长与倾向得分权重会影响估计；两组银行都获得监管放松，因此对应差异暴露效应。函数形式更灵活不等于识别条件自动成立，也不能把变换后直接套机器学习当作通用修复。本轮只核官方摘要，未核正文推导、模拟或监管效应数值。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BFDML&amp;show-results=1" title="全站搜索：面板DML">面板DML</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AE%BE%E5%AE%9A&amp;show-results=1" title="全站搜索：模型设定">模型设定</a> · <a class="tag-link" href="?q=%E5%B7%AE%E5%BC%82%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：差异暴露">差异暴露</a></p>
+<p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-07249">查看本期</a><a href="https://arxiv.org/abs/2611.07249v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>非线性数据怎样形成逐层兼容的低维分解？</h3>
 <p class="catalog-citation">Su, J.; Yao, Z. (2026). Principal decomposition with nested submanifolds. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-06 · 收录日期：2026-11-07</p>
@@ -35,64 +91,8 @@ title: "新论文 · 第 2 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%89%E9%99%90%E8%80%83%E8%99%91%E9%9B%86%E5%90%88&amp;show-results=1" title="全站搜索：有限考虑集合">有限考虑集合</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：福利识别">福利识别</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：需求分析">需求分析</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-07774">查看本期</a><a href="https://arxiv.org/abs/2611.07774v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>时间序列 attention 预测：patch 长度该怎样选？</h3>
-<p class="catalog-citation">Chen, J.; Chen, L.; Wang, W. (2026). Patch attention wisely: Understanding patch length in attention-based forecasting. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05 · 收录日期：2026-11-07</p>
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>注意力时间序列模型常把连续观测组成 patch，长度会同时影响模型表示与估计。文章在线性状态空间模型中分解预测系数矩阵，区分预测动态与滤波动态，并据此讨论时间相关下的长度选择准则。较远预测期内某个分量占优，并不一般推出秩一表示；预测结构、注意力头数、样本量和长期相关都参与权衡。理论结果有其模型条件，不能直接保证某个固定长度适合所有 Transformer。本轮只核原摘要，未核推导或运行预测比较。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：时间序列预测">时间序列预测</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：注意力模型">注意力模型</a> · <a class="tag-link" href="?q=patch%E9%95%BF%E5%BA%A6&amp;show-results=1" title="全站搜索：patch长度">patch长度</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-08160">查看本期</a><a href="https://arxiv.org/abs/2611.08160v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>无岭惩罚时，probit 回归的目标函数能否保持足够曲率？</h3>
-<p class="catalog-citation">Chak, M.; Rico, Z. F.; Zanella, G. (2026). Strong log-concavity in probit regression. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-05 · 收录日期：2026-11-07</p>
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>文章研究 probit 回归似然的强对数凹性，先刻画固定设计下的非渐近条件，再分析样本量与协变量维数同比增长的随机设计情形。摘要讨论在维数比例足够小等条件下，目标函数的条件数怎样得到控制，为理解未加岭惩罚的 probit 优化问题提供理论线索。这里的性质依赖设计与渐近条件，不能概括为所有 probit 模型都强对数凹，也不等于本项目已验证优化速度或实证推断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=probit%20%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：probit 回归">probit 回归</a> · <a class="tag-link" href="?q=%E5%BC%BA%E5%AF%B9%E6%95%B0%E5%87%B9&amp;show-results=1" title="全站搜索：强对数凹">强对数凹</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：高维优化">高维优化</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#paper-10-1093-biomet-asag072">查看本期</a><a href="https://doi.org/10.1093/biomet/asag072" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>PanelGP：在因子模型中联合预测收益与风险</h3>
-<p class="catalog-citation">Ruglioni, A.; Filipovic, D. (2026). PanelGP: A probabilistic factor model for asset-return panels. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-02 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>PanelGP 将公司特征与因子载荷、经济状态与预期因子分别联系起来，并用高斯过程表达非线性关系，尝试在一个条件因子模型中联合预测收益与协方差。文章采用稀疏变分推断处理大型资产面板。资产配置表现与风险校准取决于样本、核函数、推断和交易成本设定，不能据摘要保证投资收益；摘要也提示预测方差过于压缩。本轮未核正文、复现或把作者回测当作本轮实测。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：条件因子模型">条件因子模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E6%96%AF%E8%BF%87%E7%A8%8B&amp;show-results=1" title="全站搜索：高斯过程">高斯过程</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-04040">查看本期</a><a href="https://arxiv.org/abs/2611.04040v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>连续时间马尔可夫模型怎样纳入非线性协变量？</h3>
-<p class="catalog-citation">Monti, F. et al. (2026). Nonparametric modelling of continuous-time Markov chains with scalable exact and approximate gradients. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-11-04 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-06</p>
-<p>文章用高斯过程表示连续时间马尔可夫链转移速率与协变量的非线性联系，并为 Hamiltonian Monte Carlo 构造可扩展的精确与近似梯度。摘要以系统发育和地理传播推断为例，讨论状态空间扩大时的计算负担。是否适合经济状态转移问题仍需核对观测结构、速率模型和先验，不能将特定模型的加速结论推广到所有马尔可夫过程。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E6%97%B6%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：连续时间模型">连续时间模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E6%96%AF%E8%BF%87%E7%A8%8B&amp;show-results=1" title="全站搜索：高斯过程">高斯过程</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E8%AE%A1%E7%AE%97&amp;show-results=1" title="全站搜索：贝叶斯计算">贝叶斯计算</a></p>
-<p class="catalog-actions"><a href="../issues/20261106/#paper-10-1093-jrsssb-qkag138">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag138" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>组织的创新试点，怎样影响后续采用？</h3>
-<p class="catalog-citation">Karp, R. (2026). Crossing the design–use divide: How organizations select innovations to adopt. Administrative Science Quarterly.</p><p class="catalog-meta">发表日期：2026-11-01 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-06</p>
-<p>文章通过两年民族志研究，观察创业者向潜在采用组织试行 AI 创新时，评审委员会怎样设置范围、分配责任和解释目标。摘要描述支持者与反对者主导的试点可能产生不同的测试及实施阻力，提示试点本身受到组织选择过程影响。研究提供过程解释，不能把特定组织中的观察推广为支持者必然妨碍创新或反对者必然改善实施的因果定律。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：创新采用">创新采用</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E6%B0%91%E6%97%8F%E5%BF%97&amp;show-results=1" title="全站搜索：民族志">民族志</a></p>
-<p class="catalog-actions"><a href="../issues/20261106/#paper-10-1177-00018392261493079">查看本期</a><a href="https://doi.org/10.1177/00018392261493079" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>相同职业着装，为何可能获得不同招聘回报？</h3>
-<p class="catalog-citation">Yang, T. et al. (2026). Looking the part? How candidates’ race and attire shape employers’ hiring decisions in a low-wage labor market. Administrative Science Quarterly.</p><p class="catalog-meta">发表日期：2026-11-03 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-06</p>
-<p>文章结合零工招聘平台申请记录与改变同一候选人着装的预注册实验，比较职业着装对不同族群招聘结果的影响。摘要报告职业着装整体有利，但其回报及专业性感知的联系在族群之间不同，并考察岗位接触顾客程度。平台观察资料、实验效应和中介分析的解释条件各不相同，不能把感知中介结果当作不依赖假设的普遍因果机制。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98&amp;show-results=1" title="全站搜索：招聘">招聘</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E7%9D%80%E8%A3%85&amp;show-results=1" title="全站搜索：职业着装">职业着装</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：实验">实验</a></p>
-<p class="catalog-actions"><a href="../issues/20261106/#paper-10-1177-00018392261493033">查看本期</a><a href="https://doi.org/10.1177/00018392261493033" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>建立公共审计监督机构后，跨境投资怎样变化？</h3>
-<p class="catalog-citation">Blann, J. J.; Lamoreaux, P. T.; Larson, B. J. (2026). National audit oversight and foreign investment. TAR.</p><p class="catalog-meta">发表日期：2026-11-01 · 收录日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-06</p>
-<p>文章以双重差分比较国家建立公共审计监督机构前后的外国证券组合投资 (FPI) 变化，并讨论审计质量改善与既有制度环境的差异。摘要报告的正向估计为理解监管经济后果提供线索。机构建立时点、同时发生的改革、平行趋势和投资口径仍需正文核查，不能把跨国平均估计视为任何国家设立机构都会实现的收益。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%9B%91%E7%9D%A3&amp;show-results=1" title="全站搜索：审计监督">审计监督</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%A2%83%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：跨境投资">跨境投资</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20261106/#paper-10-2308-tar-2024-0320">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0320" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 53 页 · 共 527 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-53.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier.html">上一页</a><span aria-current="page">第 2 / 54 页 · 共 534 条</span><a rel="next" href="research-frontier-3.html">下一页</a><a href="research-frontier-54.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
