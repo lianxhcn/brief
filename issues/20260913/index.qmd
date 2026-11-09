@@ -18,7 +18,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%BB%B7%E4%BF%A1%E6%81%AF&amp;show-results=1" title="全站搜索：股价信息">股价信息</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E8%82%A1%E6%9D%83&amp;show-results=1" title="全站搜索：双重股权">双重股权</a>
 
-<small>来源日期：2026-09-03；补录：2026-09-13</small>
+<small>来源日期：2026-09-03</small>
 
 
 
@@ -34,7 +34,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a> · <a class="tag-link" href="?q=%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：迁移学习">迁移学习</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%A8%80%E7%96%8F&amp;show-results=1" title="全站搜索：组稀疏">组稀疏</a>
 
-<small>来源日期：2026-09-01；补录：2026-09-13</small>
+<small>来源日期：2026-09-01</small>
 
 
 
@@ -46,11 +46,11 @@ toc-depth: 3
 
 #### texpdf：在 Stata 中直接编译 LaTeX 报告 {#stata-texpdf-20260829}
 
-texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件中，把完整 LaTeX 文档编译为 PDF。安装命令为 <code>ssc install texpdf</code>，基本调用为 <code>texpdf using report.tex</code>。官方帮助说明在 Stata 18/19 下测试；编译时无需系统 TeX 或联网，但可用资源受内置包范围限制，不应假定任意中文模板都兼容。本期核验帮助文档，未做本地运行测试。
+texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件中，把完整 LaTeX 文档编译为 PDF。安装命令为 <code>ssc install texpdf</code>，基本调用为 <code>texpdf using report.tex</code>。官方帮助说明在 Stata 18/19 下测试；编译时无需系统 TeX 或联网，但可用资源受内置包范围限制，不应假定任意中文模板都兼容。
 
 标签：<a class="tag-link" href="?q=%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90&amp;show-results=1" title="全站搜索：报告生成">报告生成</a> · <a class="tag-link" href="?q=LaTeX&amp;show-results=1" title="全站搜索：LaTeX">LaTeX</a> · <a class="tag-link" href="?q=PDF&amp;show-results=1" title="全站搜索：PDF">PDF</a>
 
-<small>来源日期：2026-08-29；补录：2026-09-13</small>
+<small>来源日期：2026-08-29</small>
 
 <a href="https://ideas.repec.org/c/boc/bocode/s459880.html" target="_blank" rel="noopener noreferrer">官方文档</a>
 
@@ -72,7 +72,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：公司金融">公司金融</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
 
-<small>来源日期：2026-09-04；补录：2026-09-13</small>
+<small>来源日期：2026-09-04</small>
 
 <a href="https://finance.xmu.edu.cn/info/1017/78984.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
 
@@ -92,7 +92,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB&amp;show-results=1" title="全站搜索：社会责任">社会责任</a> · <a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E5%8F%8D%E9%A6%88&amp;show-results=1" title="全站搜索：绩效反馈">绩效反馈</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a>
 
-<small>来源日期：2026-09-08；补录：2026-09-13</small>
+<small>来源日期：2026-09-08</small>
 
 
 
@@ -108,7 +108,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：库存管理">库存管理</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：在线学习">在线学习</a> · <a class="tag-link" href="?q=%E6%88%AA%E5%B0%BE%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：截尾数据">截尾数据</a>
 
-<small>来源日期：2026-09-03；补录：2026-09-13</small>
+<small>来源日期：2026-09-03</small>
 
 
 
@@ -124,7 +124,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E9%9D%9E%E5%B9%B3%E7%A8%B3%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：非平稳需求">非平稳需求</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：非参数学习">非参数学习</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%BA%90%E9%85%8D%E7%BD%AE&amp;show-results=1" title="全站搜索：资源配置">资源配置</a>
 
-<small>来源日期：2026-09-03；补录：2026-09-13</small>
+<small>来源日期：2026-09-03</small>
 
 
 
@@ -140,7 +140,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%9C%AC&amp;show-results=1" title="全站搜索：人力资本">人力资本</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%AD%98%E7%BB%AD&amp;show-results=1" title="全站搜索：企业存续">企业存续</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：纵向数据">纵向数据</a>
 
-<small>来源日期：2026-08-31；补录：2026-09-13</small>
+<small>来源日期：2026-08-31</small>
 
 
 
@@ -156,7 +156,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E7%9F%AD%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：短期效应">短期效应</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a>
 
-<small>来源日期：2026-09-08；补录：2026-09-13</small>
+<small>来源日期：2026-09-08</small>
 
 
 
@@ -172,7 +172,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a> · <a class="tag-link" href="?q=%E5%B8%82%E5%9C%BA%E5%8F%AF%E8%BE%BE%E6%80%A7&amp;show-results=1" title="全站搜索：市场可达性">市场可达性</a> · <a class="tag-link" href="?q=%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD&amp;show-results=1" title="全站搜索：基础设施">基础设施</a>
 
-<small>来源日期：2026-09-07；补录：2026-09-13</small>
+<small>来源日期：2026-09-07</small>
 
 
 
@@ -194,7 +194,7 @@ texpdf 将内置 Tectonic 引擎及受支持的 TeX 资源封装在 Stata 插件
 
 标签：<a class="tag-link" href="?q=%E4%BA%A7%E4%B8%9A%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：产业经济学">产业经济学</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AE%BA%E5%9D%9B&amp;show-results=1" title="全站搜索：研究生论坛">研究生论坛</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a>
 
-<small>来源日期：2026-05-13；补录：2026-09-13</small>
+<small>来源日期：2026-05-13</small>
 
 <a href="https://szjj.jxufe.edu.cn/news-show-2650.html" target="_blank" rel="noopener noreferrer">官方通知</a>
 

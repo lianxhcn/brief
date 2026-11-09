@@ -13,15 +13,15 @@ title: "新论文 · 第 3 页"
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>时间序列 attention 预测：patch 长度该怎样选？</h3>
-<p class="catalog-citation">Chen, J.; Chen, L.; Wang, W. (2026). Patch attention wisely: Understanding patch length in attention-based forecasting. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05 · 收录日期：2026-11-07</p>
+<p class="catalog-citation">Chen, J.; Chen, L.; Wang, W. (2026). Patch attention wisely: Understanding patch length in attention-based forecasting. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
 <p class="catalog-meta">期次日期：2026-11-07</p>
-<p>注意力时间序列模型常把连续观测组成 patch，长度会同时影响模型表示与估计。文章在线性状态空间模型中分解预测系数矩阵，区分预测动态与滤波动态，并据此讨论时间相关下的长度选择准则。较远预测期内某个分量占优，并不一般推出秩一表示；预测结构、注意力头数、样本量和长期相关都参与权衡。理论结果有其模型条件，不能直接保证某个固定长度适合所有 Transformer。本轮只核原摘要，未核推导或运行预测比较。</p>
+<p>注意力时间序列模型常把连续观测组成 patch，长度会同时影响模型表示与估计。文章在线性状态空间模型中分解预测系数矩阵，区分预测动态与滤波动态，并据此讨论时间相关下的长度选择准则。较远预测期内某个分量占优，并不一般推出秩一表示；预测结构、注意力头数、样本量和长期相关都参与权衡。理论结果有其模型条件，不能直接保证某个固定长度适合所有 Transformer。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：时间序列预测">时间序列预测</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：注意力模型">注意力模型</a> · <a class="tag-link" href="?q=patch%E9%95%BF%E5%BA%A6&amp;show-results=1" title="全站搜索：patch长度">patch长度</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-08160">查看本期</a><a href="https://arxiv.org/abs/2611.08160v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>无岭惩罚时，probit 回归的目标函数能否保持足够曲率？</h3>
-<p class="catalog-citation">Chak, M.; Rico, Z. F.; Zanella, G. (2026). Strong log-concavity in probit regression. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-05 · 收录日期：2026-11-07</p>
+<p class="catalog-citation">Chak, M.; Rico, Z. F.; Zanella, G. (2026). Strong log-concavity in probit regression. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-05</p>
 <p class="catalog-meta">期次日期：2026-11-07</p>
 <p>文章研究 probit 回归似然的强对数凹性，先刻画固定设计下的非渐近条件，再分析样本量与协变量维数同比增长的随机设计情形。摘要讨论在维数比例足够小等条件下，目标函数的条件数怎样得到控制，为理解未加岭惩罚的 probit 优化问题提供理论线索。这里的性质依赖设计与渐近条件，不能概括为所有 probit 模型都强对数凹，也不等于本项目已验证优化速度或实证推断。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=probit%20%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：probit 回归">probit 回归</a> · <a class="tag-link" href="?q=%E5%BC%BA%E5%AF%B9%E6%95%B0%E5%87%B9&amp;show-results=1" title="全站搜索：强对数凹">强对数凹</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：高维优化">高维优化</a></p>
@@ -29,15 +29,15 @@ title: "新论文 · 第 3 页"
 </article>
 <article class="catalog-card">
 <h3>PanelGP：在因子模型中联合预测收益与风险</h3>
-<p class="catalog-citation">Ruglioni, A.; Filipovic, D. (2026). PanelGP: A probabilistic factor model for asset-return panels. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-02 · 收录日期：2026-11-05</p>
+<p class="catalog-citation">Ruglioni, A.; Filipovic, D. (2026). PanelGP: A probabilistic factor model for asset-return panels. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-02</p>
 <p class="catalog-meta">期次日期：2026-11-07</p>
-<p>PanelGP 将公司特征与因子载荷、经济状态与预期因子分别联系起来，并用高斯过程表达非线性关系，尝试在一个条件因子模型中联合预测收益与协方差。文章采用稀疏变分推断处理大型资产面板。资产配置表现与风险校准取决于样本、核函数、推断和交易成本设定，不能据摘要保证投资收益；摘要也提示预测方差过于压缩。本轮未核正文、复现或把作者回测当作本轮实测。</p>
+<p>PanelGP 将公司特征与因子载荷、经济状态与预期因子分别联系起来，并用高斯过程表达非线性关系，尝试在一个条件因子模型中联合预测收益与协方差。文章采用稀疏变分推断处理大型资产面板。资产配置表现与风险校准取决于样本、核函数、推断和交易成本设定，不能据摘要保证投资收益；摘要也提示预测方差过于压缩。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：条件因子模型">条件因子模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E6%96%AF%E8%BF%87%E7%A8%8B&amp;show-results=1" title="全站搜索：高斯过程">高斯过程</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：风险预测">风险预测</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-04040">查看本期</a><a href="https://arxiv.org/abs/2611.04040v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>连续时间马尔可夫模型怎样纳入非线性协变量？</h3>
-<p class="catalog-citation">Monti, F. et al. (2026). Nonparametric modelling of continuous-time Markov chains with scalable exact and approximate gradients. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-11-04 · 收录日期：2026-11-05</p>
+<p class="catalog-citation">Monti, F. et al. (2026). Nonparametric modelling of continuous-time Markov chains with scalable exact and approximate gradients. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-11-04</p>
 <p class="catalog-meta">期次日期：2026-11-06</p>
 <p>文章用高斯过程表示连续时间马尔可夫链转移速率与协变量的非线性联系，并为 Hamiltonian Monte Carlo 构造可扩展的精确与近似梯度。摘要以系统发育和地理传播推断为例，讨论状态空间扩大时的计算负担。是否适合经济状态转移问题仍需核对观测结构、速率模型和先验，不能将特定模型的加速结论推广到所有马尔可夫过程。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%BF%9E%E7%BB%AD%E6%97%B6%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：连续时间模型">连续时间模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E6%96%AF%E8%BF%87%E7%A8%8B&amp;show-results=1" title="全站搜索：高斯过程">高斯过程</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E8%AE%A1%E7%AE%97&amp;show-results=1" title="全站搜索：贝叶斯计算">贝叶斯计算</a></p>
@@ -45,7 +45,7 @@ title: "新论文 · 第 3 页"
 </article>
 <article class="catalog-card">
 <h3>组织的创新试点，怎样影响后续采用？</h3>
-<p class="catalog-citation">Karp, R. (2026). Crossing the design–use divide: How organizations select innovations to adopt. Administrative Science Quarterly.</p><p class="catalog-meta">发表日期：2026-11-01 · 收录日期：2026-11-05</p>
+<p class="catalog-citation">Karp, R. (2026). Crossing the design–use divide: How organizations select innovations to adopt. Administrative Science Quarterly.</p><p class="catalog-meta">发表日期：2026-11-01</p>
 <p class="catalog-meta">期次日期：2026-11-06</p>
 <p>文章通过两年民族志研究，观察创业者向潜在采用组织试行 AI 创新时，评审委员会怎样设置范围、分配责任和解释目标。摘要描述支持者与反对者主导的试点可能产生不同的测试及实施阻力，提示试点本身受到组织选择过程影响。研究提供过程解释，不能把特定组织中的观察推广为支持者必然妨碍创新或反对者必然改善实施的因果定律。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E9%87%87%E7%94%A8&amp;show-results=1" title="全站搜索：创新采用">创新采用</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E6%B0%91%E6%97%8F%E5%BF%97&amp;show-results=1" title="全站搜索：民族志">民族志</a></p>
@@ -53,7 +53,7 @@ title: "新论文 · 第 3 页"
 </article>
 <article class="catalog-card">
 <h3>相同职业着装，为何可能获得不同招聘回报？</h3>
-<p class="catalog-citation">Yang, T. et al. (2026). Looking the part? How candidates’ race and attire shape employers’ hiring decisions in a low-wage labor market. Administrative Science Quarterly.</p><p class="catalog-meta">发表日期：2026-11-03 · 收录日期：2026-11-05</p>
+<p class="catalog-citation">Yang, T. et al. (2026). Looking the part? How candidates’ race and attire shape employers’ hiring decisions in a low-wage labor market. Administrative Science Quarterly.</p><p class="catalog-meta">发表日期：2026-11-03</p>
 <p class="catalog-meta">期次日期：2026-11-06</p>
 <p>文章结合零工招聘平台申请记录与改变同一候选人着装的预注册实验，比较职业着装对不同族群招聘结果的影响。摘要报告职业着装整体有利，但其回报及专业性感知的联系在族群之间不同，并考察岗位接触顾客程度。平台观察资料、实验效应和中介分析的解释条件各不相同，不能把感知中介结果当作不依赖假设的普遍因果机制。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%9B%E8%81%98&amp;show-results=1" title="全站搜索：招聘">招聘</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E7%9D%80%E8%A3%85&amp;show-results=1" title="全站搜索：职业着装">职业着装</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：实验">实验</a></p>
@@ -61,7 +61,7 @@ title: "新论文 · 第 3 页"
 </article>
 <article class="catalog-card">
 <h3>建立公共审计监督机构后，跨境投资怎样变化？</h3>
-<p class="catalog-citation">Blann, J. J.; Lamoreaux, P. T.; Larson, B. J. (2026). National audit oversight and foreign investment. TAR.</p><p class="catalog-meta">发表日期：2026-11-01 · 收录日期：2026-11-05</p>
+<p class="catalog-citation">Blann, J. J.; Lamoreaux, P. T.; Larson, B. J. (2026). National audit oversight and foreign investment. TAR.</p><p class="catalog-meta">发表日期：2026-11-01</p>
 <p class="catalog-meta">期次日期：2026-11-06</p>
 <p>文章以双重差分比较国家建立公共审计监督机构前后的外国证券组合投资 (FPI) 变化，并讨论审计质量改善与既有制度环境的差异。摘要报告的正向估计为理解监管经济后果提供线索。机构建立时点、同时发生的改革、平行趋势和投资口径仍需正文核查，不能把跨国平均估计视为任何国家设立机构都会实现的收益。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%9B%91%E7%9D%A3&amp;show-results=1" title="全站搜索：审计监督">审计监督</a> · <a class="tag-link" href="?q=%E8%B7%A8%E5%A2%83%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：跨境投资">跨境投资</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
@@ -69,7 +69,7 @@ title: "新论文 · 第 3 页"
 </article>
 <article class="catalog-card">
 <h3>工会岗位的工资溢价，来自生产率差异还是租金分享？</h3>
-<p class="catalog-citation">Beauregard, P.-L. et al. (2026). Why do union jobs pay more? New evidence from matched employer-employee data. QJE.</p><p class="catalog-meta">发表日期：2026-11-05 · 收录日期：2026-11-06</p>
+<p class="catalog-citation">Beauregard, P.-L. et al. (2026). Why do union jobs pay more? New evidence from matched employer-employee data. QJE.</p><p class="catalog-meta">发表日期：2026-11-05</p>
 <p class="catalog-meta">期次日期：2026-11-06</p>
 <p>文章使用加拿大匹配雇主—雇员数据，以 AKM 双向固定效应框架控制劳动者异质性，并将工会与非工会企业的工资差异同劳动生产率和租金分享联系起来。扩展分析还允许工会影响不可观测劳动者特征的回报，比较不同模型口径下对工资差异的解释。它提供了区分劳动者排序、企业生产率与工资议价的实证案例；租金分享的解释依赖分解设定，固定效应本身不能消除工会状态的全部选择，不能把条件工资差异直接当作随机组建工会的因果效应。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E4%BC%9A%E5%B7%A5%E8%B5%84&amp;show-results=1" title="全站搜索：工会工资">工会工资</a> · <a class="tag-link" href="?q=%E9%9B%87%E4%B8%BB%E9%9B%87%E5%91%98%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：雇主雇员匹配">雇主雇员匹配</a> · <a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：双向固定效应">双向固定效应</a></p>
@@ -77,17 +77,17 @@ title: "新论文 · 第 3 页"
 </article>
 <article class="catalog-card">
 <h3>多维结果的因果检验：处理信息是否还藏在结果中？</h3>
-<p class="catalog-citation">Athey, S.; Nareklishvili, M.; Spiess, J. (2026). Debiased conditional independence tests for causal effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03 · 收录日期：2026-11-06</p>
+<p class="catalog-citation">Athey, S.; Nareklishvili, M.; Spiess, J. (2026). Debiased conditional independence tests for causal effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03</p>
 <p class="catalog-meta">期次日期：2026-11-06</p>
-<p>面对多维甚至高维结果，文章比较仅凭协变量与同时使用结果变量时，对处理分配的预测能力，以此构造条件独立检验。摘要介绍了条件随机化、双重残差化和基于增广逆概率加权矩的三条路线；其中倾向得分已知时的有限样本控制，有明确的设定条件。条件独立能否用于解释因果效应，还需研究设计和相应识别假设支持。本轮只核官方摘要，不把作者模拟中的功效比较写为普遍优越性，也未运行检验。</p>
+<p>面对多维甚至高维结果，文章比较仅凭协变量与同时使用结果变量时，对处理分配的预测能力，以此构造条件独立检验。摘要介绍了条件随机化、双重残差化和基于增广逆概率加权矩的三条路线；其中倾向得分已知时的有限样本控制，有明确的设定条件。条件独立能否用于解释因果效应，还需研究设计和相应识别假设支持。作者模拟中的功效比较有特定设定条件，不能视为普遍优越性。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E7%8B%AC%E7%AB%8B%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：条件独立检验">条件独立检验</a> · <a class="tag-link" href="?q=%E5%A4%9A%E7%BB%B4%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：多维结果">多维结果</a> · <a class="tag-link" href="?q=%E5%8E%BB%E5%81%8F%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：去偏推断">去偏推断</a></p>
 <p class="catalog-actions"><a href="../issues/20261106/#paper-arxiv-2611-05608">查看本期</a><a href="https://arxiv.org/abs/2611.05608v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
 <article class="catalog-card">
 <h3>多少人不满足假设，会改变研究结论？</h3>
-<p class="catalog-citation">Palomba, F. (2026). Sensitivity analysis in population shares. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03 · 收录日期：2026-11-06</p>
+<p class="catalog-citation">Palomba, F. (2026). Sensitivity analysis in population shares. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03</p>
 <p class="catalog-meta">期次日期：2026-11-06</p>
-<p>研究通常要对潜在结果或潜在变量的分布作出假设。文章把敏感性参数解释为可不满足这些假设的人口占比，研究该占比变化时目标量可能落入的界限，并用有限维优化计算。摘要还讨论界限的估计与大样本性质，并区分模型假设偏离带来的不确定性和抽样不确定性。应用涉及有流失的随机实验、结构模型反事实和公式工具变量；这不是自动识别真实违约人群的程序。本轮只核摘要，未验证锐界证明、运行优化或核验软件包。</p>
+<p>研究通常要对潜在结果或潜在变量的分布作出假设。文章把敏感性参数解释为可不满足这些假设的人口占比，研究该占比变化时目标量可能落入的界限，并用有限维优化计算。摘要还讨论界限的估计与大样本性质，并区分模型假设偏离带来的不确定性和抽样不确定性。应用涉及有流失的随机实验、结构模型反事实和公式工具变量；这不是自动识别真实违约人群的程序。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E5%81%8F%E7%A6%BB&amp;show-results=1" title="全站搜索：假设偏离">假设偏离</a></p>
 <p class="catalog-actions"><a href="../issues/20261106/#paper-arxiv-2611-05584">查看本期</a><a href="https://arxiv.org/abs/2611.05584v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>

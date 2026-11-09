@@ -18,7 +18,7 @@ Management Science 论文研究参与者随机到达、等待多方匹配的决�
 
 标签：<a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：动态匹配">动态匹配</a> · <a class="tag-link" href="?q=%E5%8E%9F%E5%A7%8B%E5%AF%B9%E5%81%B6&amp;show-results=1" title="全站搜索：原始对偶">原始对偶</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：在线决策">在线决策</a>
 
-<small>来源日期：2026-09-30；补录：2026-10-09</small>
+<small>来源日期：2026-09-30</small>
 
 
 
@@ -34,7 +34,7 @@ SMJ 论文把问题从既有关系如何帮助融资，转向路演本身如何�
 
 标签：<a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：创业融资">创业融资</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社会网络">社会网络</a> · <a class="tag-link" href="?q=%E8%B7%AF%E6%BC%94&amp;show-results=1" title="全站搜索：路演">路演</a>
 
-<small>来源日期：2026-10-01；补录：2026-10-09</small>
+<small>来源日期：2026-10-01</small>
 
 
 
@@ -50,7 +50,7 @@ CAR 论文通过纵向研究追踪学生职业怀疑、课程表现及职业选�
 
 标签：<a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：审计教育">审计教育</a> · <a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E6%80%80%E7%96%91&amp;show-results=1" title="全站搜索：职业怀疑">职业怀疑</a> · <a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：纵向研究">纵向研究</a>
 
-<small>来源日期：2026-09-29；补录：2026-10-09</small>
+<small>来源日期：2026-09-29</small>
 
 
 
@@ -66,7 +66,7 @@ CAR 论文通过纵向研究追踪学生职业怀疑、课程表现及职业选�
 
 标签：<a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%BE%85%E5%8A%A9%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：预测辅助推断">预测辅助推断</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%A0%87%E5%87%86%E8%AF%AF&amp;show-results=1" title="全站搜索：聚类标准误">聚类标准误</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a>
 
-<small>来源日期：2026-10-07；补录：2026-10-09</small>
+<small>来源日期：2026-10-07</small>
 
 
 
@@ -78,11 +78,11 @@ CAR 论文通过纵向研究追踪学生职业怀疑、课程表现及职业选�
 
 #### caples：把 A/B/n 测试设计与结果检查连起来 {#r-caples-0-1-0}
 
-R 包 caples 提供转化率 A/B/n 测试的样本量设计和结果汇总，支持不等比例分流、多处理组校正与样本比例失配检查。官方示例先用 <code>caples_design()</code> 制定计划，再用 <code>caples_test()</code> 比较转化率并报告区间。CRAN 已发布 0.1.0，可用 <code>install.packages(&quot;caples&quot;)</code> 安装。输出能辅助解释实验，但不能替代随机化与样本独立性检查；本轮未独立实测。
+R 包 caples 提供转化率 A/B/n 测试的样本量设计和结果汇总，支持不等比例分流、多处理组校正与样本比例失配检查。官方示例先用 <code>caples_design()</code> 制定计划，再用 <code>caples_test()</code> 比较转化率并报告区间。CRAN 已发布 0.1.0，可用 <code>install.packages(&quot;caples&quot;)</code> 安装。输出能辅助解释实验，但不能替代随机化与样本独立性检查。
 
 标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%A4%9A%E9%87%8D%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：多重检验">多重检验</a>
 
-<small>来源日期：2026-10-08；补录：2026-10-09</small>
+<small>来源日期：2026-10-08</small>
 
 <a href="https://cran.r-project.org/web/packages/caples/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 
@@ -102,7 +102,7 @@ Journal of Management 论文将利益相关者对企业的情境预期纳入诉�
 
 标签：<a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%A3%B0%E8%AA%89&amp;show-results=1" title="全站搜索：企业声誉">企业声誉</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AF%89%E8%AE%BC&amp;show-results=1" title="全站搜索：专利诉讼">专利诉讼</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：战略管理">战略管理</a>
 
-<small>来源日期：2026-09-30；补录：2026-10-09</small>
+<small>来源日期：2026-09-30</small>
 
 
 
@@ -118,7 +118,7 @@ Annals of Statistics 论文提出 SIMPLE-RC，将节点对成员结构完全相�
 
 标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：网络推断">网络推断</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a> · <a class="tag-link" href="?q=%E5%BC%B1%E4%BF%A1%E5%8F%B7&amp;show-results=1" title="全站搜索：弱信号">弱信号</a>
 
-<small>来源日期：2026-10-01；补录：2026-10-09</small>
+<small>来源日期：2026-10-01</small>
 
 
 
@@ -134,7 +134,7 @@ Annals of Statistics 论文研究多来源分布异质、原始数据难以集�
 
 标签：<a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%BC%8F%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：分布式估计">分布式估计</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a> · <a class="tag-link" href="?q=%E7%B2%BE%E5%BA%A6%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：精度矩阵">精度矩阵</a>
 
-<small>来源日期：2026-10-01；补录：2026-10-09</small>
+<small>来源日期：2026-10-01</small>
 
 
 
@@ -150,7 +150,7 @@ Annals of Statistics 论文研究多来源分布异质、原始数据难以集�
 
 标签：<a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：需求估计">需求估计</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：贝叶斯方法">贝叶斯方法</a> · <a class="tag-link" href="?q=%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：变分推断">变分推断</a>
 
-<small>来源日期：2026-10-06；补录：2026-10-09</small>
+<small>来源日期：2026-10-06</small>
 
 
 
@@ -166,7 +166,7 @@ Annals of Statistics 论文研究多来源分布异质、原始数据难以集�
 
 标签：<a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：气候经济学">气候经济学</a> · <a class="tag-link" href="?q=VAR&amp;show-results=1" title="全站搜索：VAR">VAR</a> · <a class="tag-link" href="?q=%E6%8C%87%E6%95%B0%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：指数构造">指数构造</a>
 
-<small>来源日期：2026-10-07；补录：2026-10-09</small>
+<small>来源日期：2026-10-07</small>
 
 
 
@@ -178,11 +178,11 @@ Annals of Statistics 论文研究多来源分布异质、原始数据难以集�
 
 #### effectcheck：检查论文中的统计数字是否一致 {#r-effectcheck-0-7-17}
 
-R 包 effectcheck 从已经提取的结果文本中识别统计量、效应量与区间，重新计算可核对的部分，并记录设计不明确时采用的假设。入口为 <code>check_text()</code>，当前版本不承担 PDF 文本提取。CRAN 更新到 0.7.17，但作者明确说明仍在开发且尚未充分验证，检查结果须独立复核；一致性异常也不能直接证明研究不当。可用 <code>install.packages(&quot;effectcheck&quot;)</code> 安装，本轮未独立实测。
+R 包 effectcheck 从已经提取的结果文本中识别统计量、效应量与区间，重新计算可核对的部分，并记录设计不明确时采用的假设。入口为 <code>check_text()</code>，当前版本不承担 PDF 文本提取。CRAN 更新到 0.7.17，但作者明确说明仍在开发且尚未充分验证，检查结果须独立复核；一致性异常也不能直接证明研究不当。可用 <code>install.packages(&quot;effectcheck&quot;)</code> 安装。
 
 标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：统计报告">统计报告</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E6%A0%B8&amp;show-results=1" title="全站搜索：研究复核">研究复核</a>
 
-<small>来源日期：2026-10-08；补录：2026-10-09</small>
+<small>来源日期：2026-10-08</small>
 
 <a href="https://cran.r-project.org/web/packages/effectcheck/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 
@@ -192,11 +192,11 @@ R 包 effectcheck 从已经提取的结果文本中识别统计量、效应量�
 
 #### heterogeneouspeereffects：区分组内与组间同伴效应 {#r-heterogeneouspeereffects-0-1-0}
 
-R 包 heterogeneouspeereffects 实现异质同伴效应的两步 GMM，区分直接处理效应、组内及组间溢出，并提供交叉拟合的半参数设定。官方提供模拟示例和两种识别情形的说明。CRAN 0.1.0 可用 <code>install.packages(&quot;heterogeneouspeereffects&quot;)</code> 安装；README 的 GitHub 安装示例仍含占位账号，使用时应以 CRAN 和手册为准。本轮未独立实测，采用前需核对处理资格与群组身份的识别条件。
+R 包 heterogeneouspeereffects 实现异质同伴效应的两步 GMM，区分直接处理效应、组内及组间溢出，并提供交叉拟合的半参数设定。官方提供模拟示例和两种识别情形的说明。CRAN 0.1.0 可用 <code>install.packages(&quot;heterogeneouspeereffects&quot;)</code> 安装；README 的 GitHub 安装示例仍含占位账号，使用时应以 CRAN 和手册为准。采用前需核对处理资格与群组身份的识别条件。
 
 标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E5%90%8C%E4%BC%B4%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：同伴效应">同伴效应</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a>
 
-<small>来源日期：2026-10-08；补录：2026-10-09</small>
+<small>来源日期：2026-10-08</small>
 
 <a href="https://cran.r-project.org/web/packages/heterogeneouspeereffects/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 

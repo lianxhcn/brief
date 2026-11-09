@@ -122,7 +122,7 @@ class BackfillDateTests(unittest.TestCase):
         issue.pop('backfill')
         self.assertTrue(paper_policy_errors(issue))  # Ordinary 9/10 cannot use future checks.
 
-    def test_readers_see_actual_backfill_note_not_internal_revision(self):
+    def test_readers_hide_work_notes_without_changing_backfill_metadata(self):
         issue = backfill_fixture()
         issue.update(status='published', revision_note='INTERNAL-NOT-FOR-READERS')
         # 只检查期次日期说明；不伪造已审核条目或绕过读者摘要指纹。
@@ -130,7 +130,9 @@ class BackfillDateTests(unittest.TestCase):
         with patch('render_issue_pages.render_promotion', return_value=''):
             page = render_page(issue)
         self.assertIn('连享会 · 快讯 | 2026.09.05', page)
-        self.assertIn('本期于 2026-09-08 补录。', page)
+        self.assertNotIn('backfill-note', page)
+        self.assertNotIn('补录', page)
+        self.assertEqual(issue['backfill']['prepared_date'], '2026-09-08')
         self.assertNotIn('INTERNAL-NOT-FOR-READERS', page)
 
     def test_ordinary_issue_does_not_gain_a_backfill_note(self):

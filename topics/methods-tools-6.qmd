@@ -15,7 +15,7 @@ title: "新方法 · 第 6 页"
 <h3>eFRED：在 R 中整理宏观经济序列</h3>
 
 <p class="catalog-meta">期次日期：2026-10-23</p>
-<p>该包封装 FRED API，支持查询序列、来源与标签，并把相关指标整理成面板数据。适合宏观数据收集与更新；下载后的频率、单位和修订版本仍需核对，不能把更新后的序列直接当作历史实时信息集。 安装命令为 <code>install.packages(&quot;eFRED&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p>该包封装 FRED API，支持查询序列、来源与标签，并把相关指标整理成面板数据。适合宏观数据收集与更新；下载后的频率、单位和修订版本仍需核对，不能把更新后的序列直接当作历史实时信息集。 安装命令为 <code>install.packages(&quot;eFRED&quot;)</code>。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96&amp;show-results=1" title="全站搜索：数据获取">数据获取</a></p>
 <p class="catalog-actions"><a href="../issues/20261023/#tool-efred-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=eFRED" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -23,7 +23,7 @@ title: "新方法 · 第 6 页"
 <h3>DRDID 1.4.0：检查预处理与加权 bootstrap 的变化</h3>
 
 <p class="catalog-meta">期次日期：2026-10-23</p>
-<p>新版修订面板缺失值处理、公式变量提取及 IPT 求解核验，并调整加权 bootstrap 的分母一致性。既有研究升级后应比较样本与区间变化；双重稳健仍依赖识别假设及至少一个辅助模型设定正确。 安装命令为 <code>install.packages(&quot;DRDID&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p>新版修订面板缺失值处理、公式变量提取及 IPT 求解核验，并调整加权 bootstrap 的分母一致性。既有研究升级后应比较样本与区间变化；双重稳健仍依赖识别假设及至少一个辅助模型设定正确。 安装命令为 <code>install.packages(&quot;DRDID&quot;)</code>。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a></p>
 <p class="catalog-actions"><a href="../issues/20261023/#tool-drdid-1-4-0">查看本期</a><a href="https://cran.r-project.org/package=DRDID" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -31,7 +31,7 @@ title: "新方法 · 第 6 页"
 <h3>BsplineQuantReg：带形状约束的分位数回归</h3>
 
 <p class="catalog-meta">期次日期：2026-10-23</p>
-<p>该包以 B 样条拟合分位数曲线，并在指定阶数下加入单调性或凸性约束。适合将明确的形状限制纳入估计与原型演示；约束应来自研究问题，且需检查样条阶数和求解器。当前版本要求 R 4.5.0 或以上。 安装命令为 <code>install.packages(&quot;BsplineQuantReg&quot;)</code>。本期核验官方文档与示例，未独立实测。</p>
+<p>该包以 B 样条拟合分位数曲线，并在指定阶数下加入单调性或凸性约束。适合将明确的形状限制纳入估计与原型演示；约束应来自研究问题，且需检查样条阶数和求解器。当前版本要求 R 4.5.0 或以上。 安装命令为 <code>install.packages(&quot;BsplineQuantReg&quot;)</code>。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：分位数回归">分位数回归</a> · <a class="tag-link" href="?q=%E5%BD%A2%E7%8A%B6%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：形状约束">形状约束</a></p>
 <p class="catalog-actions"><a href="../issues/20261023/#tool-bsplinequantreg-0-2-6">查看本期</a><a href="https://cran.r-project.org/package=BsplineQuantReg" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -39,7 +39,7 @@ title: "新方法 · 第 6 页"
 <h3>stargazer2：为现代计量模型生成回归表</h3>
 
 <p class="catalog-meta">期次日期：2026-10-22</p>
-<p>R 包 stargazer2 延续熟悉的表格接口，支持 lm、glm 以及 fixest、plm、alpaca 等模型对象，可输出 LaTeX、文本与 HTML。安装命令为 <code>install.packages(&quot;stargazer2&quot;)</code>。Windows 二进制与源码版本可能不同，输出后仍应核对标准误、固定效应标记和样本量；本期未独立实测。</p>
+<p>R 包 stargazer2 延续熟悉的表格接口，支持 lm、glm 以及 fixest、plm、alpaca 等模型对象，可输出 LaTeX、文本与 HTML。安装命令为 <code>install.packages(&quot;stargazer2&quot;)</code>。Windows 二进制与源码版本可能不同，输出后仍应核对标准误、固定效应标记和样本量。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%A1%A8&amp;show-results=1" title="全站搜索：回归表">回归表</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：结果输出">结果输出</a></p>
 <p class="catalog-actions"><a href="../issues/20261022/#tool-stargazer2-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=stargazer2" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -47,7 +47,7 @@ title: "新方法 · 第 6 页"
 <h3>flexMatch：为堆叠 DID 构造匹配样本</h3>
 
 <p class="catalog-meta">期次日期：2026-10-22</p>
-<p>R 包 flexMatch 将候选处理组和对照组筛选、截面匹配与事件时间堆叠串联起来，并提供平衡诊断。安装命令为 <code>install.packages(&quot;flexMatch&quot;)</code>。干净窗口与协变量平衡不能证明平行趋势，重复处理的残留效应也需另行判断。本期核验官方示例，未独立实测。</p>
+<p>R 包 flexMatch 将候选处理组和对照组筛选、截面匹配与事件时间堆叠串联起来，并提供平衡诊断。安装命令为 <code>install.packages(&quot;flexMatch&quot;)</code>。干净窗口与协变量平衡不能证明平行趋势，重复处理的残留效应也需另行判断。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%A0%86%E5%8F%A0DID&amp;show-results=1" title="全站搜索：堆叠DID">堆叠DID</a> · <a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a></p>
 <p class="catalog-actions"><a href="../issues/20261022/#tool-flexmatch-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=flexMatch" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -55,7 +55,7 @@ title: "新方法 · 第 6 页"
 <h3>ifo：在 R 中获取德国企业景气调查时间序列</h3>
 
 <p class="catalog-meta">期次日期：2026-10-21</p>
-<p>R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 <code>install.packages(&quot;ifo&quot;)</code> 安装，官方示例以 <code>ifo_business()</code> 获取景气、现状与预期指标。CRAN 源码更新至 0.3.1，部分二进制仍为 0.3.0，安装后应核对版本。本期检查文档，未独立实测。</p>
+<p>R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 <code>install.packages(&quot;ifo&quot;)</code> 安装，官方示例以 <code>ifo_business()</code> 获取景气、现状与预期指标。CRAN 源码更新至 0.3.1，部分二进制仍为 0.3.0，安装后应核对版本。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0&amp;show-results=1" title="全站搜索：景气指数">景气指数</a></p>
 <p class="catalog-actions"><a href="../issues/20261021/#tool-ifo-0-3-1">查看本期</a><a href="https://cran.r-project.org/package=ifo" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -63,7 +63,7 @@ title: "新方法 · 第 6 页"
 <h3>gtregression：从回归模型到论文表格</h3>
 
 <p class="catalog-meta">期次日期：2026-10-21</p>
-<p>R 包 gtregression 整合回归、诊断、森林图和 Word 等格式导出。1.2.0 增加风险差、NNT 与更多模型支持；官方示例用 <code>uni_reg()</code>、<code>multi_reg()</code> 和 <code>merge_tables()</code> 组织结果。安装命令为 <code>install.packages(&quot;gtregression&quot;)</code>。格式化输出不能替代模型诊断与因果识别，本期未独立实测。</p>
+<p>R 包 gtregression 整合回归、诊断、森林图和 Word 等格式导出。1.2.0 增加风险差、NNT 与更多模型支持；官方示例用 <code>uni_reg()</code>、<code>multi_reg()</code> 和 <code>merge_tables()</code> 组织结果。安装命令为 <code>install.packages(&quot;gtregression&quot;)</code>。格式化输出不能替代模型诊断与因果识别。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：回归输出">回归输出</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：结果可视化">结果可视化</a></p>
 <p class="catalog-actions"><a href="../issues/20261021/#tool-gtregression-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=gtregression" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -71,7 +71,7 @@ title: "新方法 · 第 6 页"
 <h3>scf：美国消费者金融调查的加权与多重插补分析</h3>
 
 <p class="catalog-meta">期次日期：2026-10-20</p>
-<p>R 包 scf 将美国消费者金融调查的多重插补数据与重复权重组织起来，提供加权描述统计、回归与图表接口。可用 <code>install.packages(&quot;scf&quot;)</code> 安装，参考 <code>scf_download(2022)</code> 下载示例。CRAN 源码版本为 1.2.0，部分二进制包仍为旧版，安装后应检查版本；本期核对了文档，未独立运行。</p>
+<p>R 包 scf 将美国消费者金融调查的多重插补数据与重复权重组织起来，提供加权描述统计、回归与图表接口。可用 <code>install.packages(&quot;scf&quot;)</code> 安装，参考 <code>scf_download(2022)</code> 下载示例。CRAN 源码版本为 1.2.0，部分二进制包仍为旧版，安装后应检查版本。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：家庭金融">家庭金融</a> · <a class="tag-link" href="?q=%E5%A4%8D%E6%9D%82%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：复杂抽样">复杂抽样</a></p>
 <p class="catalog-actions"><a href="../issues/20261020/#tool-scf-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=scf" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -79,7 +79,7 @@ title: "新方法 · 第 6 页"
 <h3>censusindia：印度人口普查与历史地理数据</h3>
 
 <p class="catalog-meta">期次日期：2026-10-19</p>
-<p>R 包 censusindia 提供印度历次人口普查表、州与地区边界，以及人口预测数据。可用 <code>install.packages(&quot;censusindia&quot;)</code> 安装，通过 <code>get_census(2011, &quot;state&quot;)</code> 查询州级数据。边界及较大表格首次使用时下载并缓存；历史边界变化与预测数据的性质需要单独核对。本期核验了官方说明与示例，未独立运行。</p>
+<p>R 包 censusindia 提供印度历次人口普查表、州与地区边界，以及人口预测数据。可用 <code>install.packages(&quot;censusindia&quot;)</code> 安装，通过 <code>get_census(2011, &quot;state&quot;)</code> 查询州级数据。边界及较大表格首次使用时下载并缓存；历史边界变化与预测数据的性质需要单独核对。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E6%99%AE%E6%9F%A5&amp;show-results=1" title="全站搜索：人口普查">人口普查</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：空间数据">空间数据</a></p>
 <p class="catalog-actions"><a href="../issues/20261019/#tool-censusindia-0-2-1">查看本期</a><a href="https://cran.r-project.org/package=censusindia" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>

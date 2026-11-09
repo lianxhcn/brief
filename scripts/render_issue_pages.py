@@ -48,7 +48,9 @@ def render_item(item: dict, category: str, public: bool = True, preview: bool = 
     tags = item.get('catalog', {}).get('tags', [])
     if tags: lines.extend(['标签：' + tag_links(tags), ''])
     if show_dates and item.get('added_date'):
-        lines.extend(['<small>来源日期：' + escape(item.get('published_date', item.get('release_date', 'unknown'))) + '；补录：' + escape(item['added_date']) + '</small>', ''])
+        source_date = item.get('published_date') or item.get('release_date')
+        if source_date and source_date != 'unknown':
+            lines.extend(['<small>来源日期：' + escape(source_date) + '</small>', ''])
     lines.extend([' · '.join(item_links(item, category)), '', ':::', ''])
     return lines
 
@@ -78,8 +80,8 @@ def render_page(issue: dict) -> str:
     lines.extend(['---', ''])
     if not public:
         lines.extend([f"测试状态：{issue['status'].upper()}", ''])
-    if 'backfill' in issue:
-        lines.extend([f'<small class="backfill-note">本期于 {review_date(issue).isoformat()} 补录。</small>', ''])
+        if 'backfill' in issue:
+            lines.extend([f'<small class="backfill-note">本期于 {review_date(issue).isoformat()} 补录。</small>', ''])
     lines.extend(render_section(issue, 'core', '本期重点'))
     lines.extend(render_section(issue, 'extended', '延伸阅读'))
     if public:

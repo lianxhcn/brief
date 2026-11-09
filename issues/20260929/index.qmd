@@ -16,7 +16,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=LLM%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：LLM标注">LLM标注</a> · <a class="tag-link" href="?q=%E6%9E%84%E5%BF%B5%E6%95%88%E5%BA%A6&amp;show-results=1" title="全站搜索：构念效度">构念效度</a> · <a class="tag-link" href="?q=%E7%BC%96%E7%A0%81%E6%89%8B%E5%86%8C&amp;show-results=1" title="全站搜索：编码手册">编码手册</a>
 
-<small>来源日期：2026-09-28；补录：2026-09-29</small>
+<small>来源日期：2026-09-28</small>
 
 <a href="https://www.lianxh.cn/details/1943.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
 
@@ -30,7 +30,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=Sphinx&amp;show-results=1" title="全站搜索：Sphinx">Sphinx</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a> · <a class="tag-link" href="?q=%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3&amp;show-results=1" title="全站搜索：项目文档">项目文档</a>
 
-<small>来源日期：2026-09-28；补录：2026-09-29</small>
+<small>来源日期：2026-09-28</small>
 
 <a href="https://www.lianxh.cn/details/1944.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
 
@@ -48,7 +48,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：行为金融">行为金融</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：数字偏好">数字偏好</a> · <a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a>
 
-<small>来源日期：2026-09-23；补录：2026-09-29</small>
+<small>来源日期：2026-09-23</small>
 
 
 
@@ -64,7 +64,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E8%A1%8C%E6%94%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：行政数据">行政数据</a> · <a class="tag-link" href="?q=%E6%96%B9%E5%B7%AE%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：方差分解">方差分解</a> · <a class="tag-link" href="?q=%E7%BB%A9%E6%95%88%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：绩效评价">绩效评价</a>
 
-<small>来源日期：2026-09-25；补录：2026-09-29</small>
+<small>来源日期：2026-09-25</small>
 
 
 
@@ -76,11 +76,11 @@ toc-depth: 3
 
 #### ardlverse 2.0.2：修复影响估计结果的滞后与区间错误 {#r-ardlverse-2-0-2}
 
-CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计算中的滞后对齐问题，并修正面板 NARDL 自助法置信区间与系数匹配错误。使用这些函数的研究者应核对版本并重新检查受影响结果。安装命令为 <code>install.packages(&quot;ardlverse&quot;)</code>；本次查询时 Windows 二进制仍为 2.0.0，不能仅凭重新安装就认定已更新。官方 README 的部分调用仍沿用旧接口，应以当前帮助文件为准。本期核对发行、NEWS、示例和问题列表，未独立运行或证明所有估计正确。
+CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计算中的滞后对齐问题，并修正面板 NARDL 自助法置信区间与系数匹配错误。使用这些函数的研究者应核对版本并重新检查受影响结果。安装命令为 <code>install.packages(&quot;ardlverse&quot;)</code>；当时 Windows 二进制仍为 2.0.0，不能仅凭重新安装就认定已更新。官方 README 的部分调用仍沿用旧接口，应以当前帮助文件为准。
 
 标签：<a class="tag-link" href="?q=ARDL&amp;show-results=1" title="全站搜索：ARDL">ARDL</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：版本修复">版本修复</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
 
-<small>来源日期：2026-09-28；补录：2026-09-29</small>
+<small>来源日期：2026-09-28</small>
 
 <a href="https://cran.r-project.org/web/packages/ardlverse/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 
@@ -100,7 +100,7 @@ CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计�
 
 标签：<a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%9C%89%E5%93%81%E7%89%8C&amp;show-results=1" title="全站搜索：自有品牌">自有品牌</a> · <a class="tag-link" href="?q=%E8%AE%AE%E4%BB%B7%E8%83%BD%E5%8A%9B&amp;show-results=1" title="全站搜索：议价能力">议价能力</a>
 
-<small>来源日期：2026-09-22；补录：2026-09-29</small>
+<small>来源日期：2026-09-22</small>
 
 
 
@@ -116,7 +116,7 @@ CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计�
 
 标签：<a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%9C%B0%E4%BD%8D&amp;show-results=1" title="全站搜索：组织地位">组织地位</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：动态模型">动态模型</a> · <a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：团队研究">团队研究</a>
 
-<small>来源日期：2026-09-25；补录：2026-09-29</small>
+<small>来源日期：2026-09-25</small>
 
 
 
@@ -132,7 +132,7 @@ CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计�
 
 标签：<a class="tag-link" href="?q=%E5%9B%A2%E9%98%9F%E5%A4%B1%E8%B4%A5&amp;show-results=1" title="全站搜索：团队失败">团队失败</a> · <a class="tag-link" href="?q=%E5%9C%B0%E4%BD%8D%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：地位差距">地位差距</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B3%A8%E5%86%8C%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：预注册实验">预注册实验</a>
 
-<small>来源日期：2026-09-17；补录：2026-09-29</small>
+<small>来源日期：2026-09-17</small>
 
 
 
@@ -148,7 +148,7 @@ CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计�
 
 标签：<a class="tag-link" href="?q=%E8%B5%84%E5%8E%86%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：资历匹配">资历匹配</a> · <a class="tag-link" href="?q=%E4%BB%A3%E9%99%85%E5%8D%8F%E4%BD%9C&amp;show-results=1" title="全站搜索：代际协作">代际协作</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E8%B0%83%E6%9F%A5&amp;show-results=1" title="全站搜索：现场调查">现场调查</a>
 
-<small>来源日期：2026-09-21；补录：2026-09-29</small>
+<small>来源日期：2026-09-21</small>
 
 
 
@@ -164,7 +164,7 @@ CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计�
 
 标签：<a class="tag-link" href="?q=%E9%87%8E%E7%94%9F%E8%87%AA%E5%8A%A9%E6%B3%95&amp;show-results=1" title="全站搜索：野生自助法">野生自助法</a> · <a class="tag-link" href="?q=%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：序列相关">序列相关</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a>
 
-<small>来源日期：2026-09-26；补录：2026-09-29</small>
+<small>来源日期：2026-09-26</small>
 
 
 
@@ -180,7 +180,7 @@ CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计�
 
 标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%A3%AE%E6%9E%97&amp;show-results=1" title="全站搜索：因果森林">因果森林</a> · <a class="tag-link" href="?q=%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%9C%8D%E4%BB%8E&amp;show-results=1" title="全站搜索：不完全服从">不完全服从</a>
 
-<small>来源日期：2026-09-24；补录：2026-09-29</small>
+<small>来源日期：2026-09-24</small>
 
 
 
@@ -196,7 +196,7 @@ CRAN 的 2.0.2 更新修复滚动、增广、多阈值及面板 NARDL 部分计�
 
 标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%BA%A2%E5%87%BA&amp;show-results=1" title="全站搜索：网络溢出">网络溢出</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：时间固定效应">时间固定效应</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a>
 
-<small>来源日期：2026-09-28；补录：2026-09-29</small>
+<small>来源日期：2026-09-28</small>
 
 
 

@@ -18,7 +18,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：保险监管">保险监管</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E8%A6%81%E6%B1%82&amp;show-results=1" title="全站搜索：资本要求">资本要求</a> · <a class="tag-link" href="?q=%E7%9B%91%E7%AE%A1%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：监管竞争">监管竞争</a>
 
-<small>来源日期：2026-09-15；补录：2026-09-26</small>
+<small>来源日期：2026-09-15</small>
 
 
 
@@ -34,7 +34,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E9%85%8D%E9%A2%9D%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：配额机制">配额机制</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E4%BC%A0%E8%BE%93&amp;show-results=1" title="全站搜索：最优传输">最优传输</a>
 
-<small>来源日期：2026-09-17；补录：2026-09-26</small>
+<small>来源日期：2026-09-17</small>
 
 
 
@@ -46,11 +46,11 @@ toc-depth: 3
 
 #### dsge 1.2.0：在 R 中导入 Dynare 模型文件 {#r-dsge-1-2-0}
 
-新版加入 <code>read_dynare()</code>，可把支持的 Dynare 模型文件转为 R 中的模型对象，继续求解、估计和模拟；官方说明不需另装 Dynare、MATLAB 或 Octave。安装命令为 <code>install.packages(&quot;dsge&quot;)</code>。本期核对 CRAN 与 NEWS，重点是 9 月新增的导入功能，其他功能可能早已存在。模型语法支持和转换结果仍需逐项核验，Windows 二进制当前可能滞后；未独立实测。
+新版加入 <code>read_dynare()</code>，可把支持的 Dynare 模型文件转为 R 中的模型对象，继续求解、估计和模拟；官方说明不需另装 Dynare、MATLAB 或 Octave。安装命令为 <code>install.packages(&quot;dsge&quot;)</code>。9 月新增了导入功能，其他功能可能早已存在。模型语法支持和转换结果仍需逐项核验，Windows 二进制当前可能滞后。
 
 标签：<a class="tag-link" href="?q=DSGE&amp;show-results=1" title="全站搜索：DSGE">DSGE</a> · <a class="tag-link" href="?q=Dynare&amp;show-results=1" title="全站搜索：Dynare">Dynare</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
 
-<small>来源日期：2026-09-25；补录：2026-09-26</small>
+<small>来源日期：2026-09-25</small>
 
 <a href="https://cran.r-project.org/web/packages/dsge/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 
@@ -72,7 +72,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：组织结构">组织结构</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%AE%A1%E6%99%8B%E5%8D%87&amp;show-results=1" title="全站搜索：高管晋升">高管晋升</a> · <a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：性别差距">性别差距</a>
 
-<small>来源日期：2026-09-16；补录：2026-09-26</small>
+<small>来源日期：2026-09-16</small>
 
 
 
@@ -84,11 +84,11 @@ toc-depth: 3
 
 <p class="myapa">Ashraf, M., De Franco, G., Small, R. C., &amp; Young, S. (2026). Users&#x27; Solicitation of Disclosure When Accounting Standards Restrict Managers&#x27; Discretion Over Financial Reporting: Evidence From Conference Calls. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70089" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Users%27%20Solicitation%20of%20Disclosure%20When%20Accounting%20Standards%20Restrict%20Managers%27%20Discretion%20Over%20Financial%20Reporting%3A%20Evidence%20From%20Conference%20Calls" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-论文研究会计准则对管理层报告裁量的限制，与业绩说明会中账户相关提问的联系。分析师提出具体账户问题后，管理层更可能在当前回答及下一季度介绍中披露相应信息，回答情况也与预测质量相关。它把披露看成管理者与信息使用者的动态互动，适合研究文本提问与披露供给；本期依据摘要，不把相关性当作提问的净因果效果。
+论文研究会计准则对管理层报告裁量的限制，与业绩说明会中账户相关提问的联系。分析师提出具体账户问题后，管理层更可能在当前回答及下一季度介绍中披露相应信息，回答情况也与预测质量相关。它把披露看成管理者与信息使用者的动态互动，适合研究文本提问与披露供给；不把相关性当作提问的净因果效果。
 
 标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%B8%9A%E7%BB%A9%E8%AF%B4%E6%98%8E%E4%BC%9A&amp;show-results=1" title="全站搜索：业绩说明会">业绩说明会</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E5%B8%88%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：分析师预测">分析师预测</a>
 
-<small>来源日期：2026-09-18；补录：2026-09-26</small>
+<small>来源日期：2026-09-18</small>
 
 
 
@@ -104,7 +104,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：风险投资">风险投资</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%BD%A8%E8%BF%B9&amp;show-results=1" title="全站搜索：投资轨迹">投资轨迹</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E5%9C%B0%E4%BD%8D&amp;show-results=1" title="全站搜索：组织地位">组织地位</a>
 
-<small>来源日期：2026-09-18；补录：2026-09-26</small>
+<small>来源日期：2026-09-18</small>
 
 
 
@@ -120,7 +120,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E5%85%B3%E7%B3%BB&amp;show-results=1" title="全站搜索：投资者关系">投资者关系</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%AD%97%E5%8C%96&amp;show-results=1" title="全站搜索：数字化">数字化</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：信息环境">信息环境</a>
 
-<small>来源日期：2026-09-15；补录：2026-09-26</small>
+<small>来源日期：2026-09-15</small>
 
 
 
@@ -136,7 +136,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E9%87%8D%E5%A4%8D%E4%BA%8B%E4%BB%B6&amp;show-results=1" title="全站搜索：重复事件">重复事件</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E6%8F%92%E8%A1%A5&amp;show-results=1" title="全站搜索：顺序插补">顺序插补</a>
 
-<small>来源日期：2026-09-24；补录：2026-09-26</small>
+<small>来源日期：2026-09-24</small>
 
 
 
@@ -152,7 +152,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E7%86%B5%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：熵平衡">熵平衡</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：协变量调整">协变量调整</a>
 
-<small>来源日期：2026-09-24；补录：2026-09-26</small>
+<small>来源日期：2026-09-24</small>
 
 
 
@@ -168,7 +168,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%B4%A2%E6%94%BF&amp;show-results=1" title="全站搜索：教育财政">教育财政</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E5%A2%9E%E9%95%BF&amp;show-results=1" title="全站搜索：宏观增长">宏观增长</a> · <a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a>
 
-<small>来源日期：2026-09-14；补录：2026-09-26</small>
+<small>来源日期：2026-09-14</small>
 
 
 
@@ -180,11 +180,11 @@ toc-depth: 3
 
 #### causalweight 1.1.6：因果加权与双重机器学习工具 {#r-causalweight-1-1-6}
 
-CRAN 于 9 月 25 日发布 1.1.6。包内涵盖逆概率加权、双重稳健估计和双重机器学习，例如 <code>ATETDML()</code> 用交叉拟合估计二元处理的 ATET，并提供倾向得分修剪和聚类推断选项。安装命令为 <code>install.packages(&quot;causalweight&quot;)</code>。这些方法仍要求相应识别假设与重叠条件；本期核对当前手册和示例，未将既有功能称为本次新增，也未独立实测。
+CRAN 于 9 月 25 日发布 1.1.6。包内涵盖逆概率加权、双重稳健估计和双重机器学习，例如 <code>ATETDML()</code> 用交叉拟合估计二元处理的 ATET，并提供倾向得分修剪和聚类推断选项。安装命令为 <code>install.packages(&quot;causalweight&quot;)</code>。这些方法仍要求相应识别假设与重叠条件；这些接口并非均为本版新增功能。
 
 标签：<a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
 
-<small>来源日期：2026-09-25；补录：2026-09-26</small>
+<small>来源日期：2026-09-25</small>
 
 <a href="https://cran.r-project.org/web/packages/causalweight/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 

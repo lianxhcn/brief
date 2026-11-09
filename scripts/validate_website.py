@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from build_catalog_pages import public_issues, entries, catalog_outputs, PAGE_SIZE
-from website_content import INTERNAL_PHRASES
+from website_content import reader_text_errors
 from site_config import ROOT, date_compact, issue_title
 
 class Links(HTMLParser):
@@ -84,13 +84,13 @@ def validate(output):
             if resolve(row)['title'] not in text: errors.append(route + ': 搜索缺历史条目 ' + resolve(row)['id'])
     for path in public:
         visible = ' '.join(VisibleText(path.read_text(encoding='utf-8')).parts)
-        for phrase in (*INTERNAL_PHRASES, '该页面内容'):
-            if phrase in visible:
-                errors.append(f'{path.name}: 公开可见文本含 {phrase}')
+        for phrase in reader_text_errors(visible):
+            errors.append(f'{path.relative_to(output)}: 公开可见文本含 {phrase}')
+        if '该页面内容' in visible:
+            errors.append(f'{path.name}: 公开可见文本含 该页面内容')
     for record in search:
-        for phrase in INTERNAL_PHRASES:
-            if phrase in record.get('text', ''):
-                errors.append(f'搜索摘要含内部文案 {phrase}')
+        for phrase in reader_text_errors(record.get('title', '') + ' ' + record.get('text', '')):
+            errors.append(f'搜索摘要含内部文案 {phrase}')
         if re.search(r'<(?:p|div|a)\b|\]\(https?://', record.get('text', '')):
             errors.append('搜索摘要含原始标记')
     for path in public:

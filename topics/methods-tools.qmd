@@ -15,7 +15,7 @@ title: "新方法"
 <h3>slidegraph：用透明度生成版面稳定的分步展示图</h3>
 
 <p class="catalog-meta">期次日期：2026-11-09</p>
-<p>slidegraph 1.3.0 按颜色标识控制图层透明度，在每帧保留全部数据系列，减少逐页删去系列造成的坐标轴和图例位置跳动。可用累积出现或聚焦、淡化、隐藏三状态模式，同时输出论文整图、演示帧和 Beamer 叠放代码；PowerPoint 可使用导出的图，并非已验证的原生动画接口。相同颜色字符串的图层不能独立切换，需用不同标识；RGB 格式、导出结果和实际版面仍须逐帧复核。Stata 15 起可用，本轮仅读官方 help 与示例，未运行或目视成图。</p>
+<p>slidegraph 1.3.0 按颜色标识控制图层透明度，在每帧保留全部数据系列，减少逐页删去系列造成的坐标轴和图例位置跳动。可用累积出现或聚焦、淡化、隐藏三状态模式，同时输出论文整图、演示帧和 Beamer 叠放代码；PowerPoint 可使用导出的图，并非已验证的原生动画接口。相同颜色字符串的图层不能独立切换，需用不同标识；RGB 格式、导出结果和实际版面仍须逐帧复核。Stata 15 起可用。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E6%AD%A5%E5%9B%BE%E5%BD%A2&amp;show-results=1" title="全站搜索：分步图形">分步图形</a> · <a class="tag-link" href="?q=%E9%80%8F%E6%98%8E%E5%BA%A6&amp;show-results=1" title="全站搜索：透明度">透明度</a> · <a class="tag-link" href="?q=%E5%AD%A6%E6%9C%AF%E6%BC%94%E7%A4%BA&amp;show-results=1" title="全站搜索：学术演示">学术演示</a></p>
 <p class="catalog-actions"><a href="../issues/20261109/#tool-slidegraph-1-3-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460013.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -23,7 +23,7 @@ title: "新方法"
 <h3>mmwsmed：用中介概率比权重分解自然效应</h3>
 
 <p class="catalog-meta">期次日期：2026-11-09</p>
-<p>mmwsmed 1.0.0 用中介概率比加权，把处理总效应分解为自然直接与间接效应，可容许处理与中介交互，并提供单中介及平行、序列双中介接口。结果变量无需预设分布，不代表中介或处理权重无需建模，更不等于已解决未测混杂。非参数分层选项仅适用于单个二元或有序分类中介 (<code>logit</code>/<code>probit</code>/<code>ologit</code>)；连续处理另用核平滑 GPS。须核对时序、无未测混杂、重叠和模型设定，极端权重下稳健与 bootstrap 标准误均可能不可靠；分层权重等另外情形手册建议 bootstrap，仍须核对重叠与权重诊断。本轮完整读 help，未安装或核验数值。</p>
+<p>mmwsmed 1.0.0 用中介概率比加权，把处理总效应分解为自然直接与间接效应，可容许处理与中介交互，并提供单中介及平行、序列双中介接口。结果变量无需预设分布，不代表中介或处理权重无需建模，更不等于已解决未测混杂。非参数分层选项仅适用于单个二元或有序分类中介 (<code>logit</code>/<code>probit</code>/<code>ologit</code>)；连续处理另用核平滑 GPS。须核对时序、无未测混杂、重叠和模型设定，极端权重下稳健与 bootstrap 标准误均可能不可靠；分层权重等另外情形手册建议 bootstrap，仍须核对重叠与权重诊断。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：因果中介">因果中介</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E6%AF%94%E5%8A%A0%E6%9D%83&amp;show-results=1" title="全站搜索：概率比加权">概率比加权</a> · <a class="tag-link" href="?q=%E6%9D%83%E9%87%8D%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：权重诊断">权重诊断</a></p>
 <p class="catalog-actions"><a href="../issues/20261109/#tool-mmwsmed-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460014.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -31,7 +31,7 @@ title: "新方法"
 <h3>mpshock：可追溯的货币政策相关序列与版本更新</h3>
 
 <p class="catalog-meta">期次日期：2026-11-07</p>
-<p>mpshock 汇集美、英、澳的政策冲击、央行信息冲击和影子利率，提供来源元数据与日期、频率处理函数。0.1.2 将 JK 两序列延至 2026 年 9 月、UKMPD 延至 4 月；因因子重估，JK 历史值也修订，不能只追加新月份。各序列的单位、符号和识别方法不同，信息冲击及影子利率不等于外生政策冲击。应保存数据版本；Windows 现行发行版二进制仍为 0.1.1，本轮未逐值核对或估计政策效果。</p>
+<p>mpshock 汇集美、英、澳的政策冲击、央行信息冲击和影子利率，提供来源元数据与日期、频率处理函数。0.1.2 将 JK 两序列延至 2026 年 9 月、UKMPD 延至 4 月；因因子重估，JK 历史值也修订，不能只追加新月份。各序列的单位、符号和识别方法不同，信息冲击及影子利率不等于外生政策冲击。应保存数据版本；Windows 现行发行版二进制仍为 0.1.1。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E5%86%B2%E5%87%BB%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：冲击序列">冲击序列</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E7%89%88%E6%9C%AC&amp;show-results=1" title="全站搜索：数据版本">数据版本</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#tool-mpshock-0-1-2">查看本期</a><a href="https://cran.r-project.org/package=mpshock" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -39,7 +39,7 @@ title: "新方法"
 <h3>causalMed：用 g 公式分析纵向中介与总效应</h3>
 
 <p class="catalog-meta">期次日期：2026-11-07</p>
-<p>causalMed 0.1.3 首次进入 CRAN，用参数 g 公式分析纵向暴露、中介和时变混杂，也可估计静态或动态干预的总效应。中介模块的暴露须为二元。干预型直接与间接效应之和不必等于自然总效应，中介比例的分母须核清。自然效应解释还需额外跨世界假设，不能因软件允许受暴露影响的混杂就认定已识别。时序、一致性、正值性、无未测混杂及模型设定仍需核对；本轮仅读文档和示例，未安装或复现。</p>
+<p>causalMed 0.1.3 首次进入 CRAN，用参数 g 公式分析纵向暴露、中介和时变混杂，也可估计静态或动态干预的总效应。中介模块的暴露须为二元。干预型直接与间接效应之和不必等于自然总效应，中介比例的分母须核清。自然效应解释还需额外跨世界假设，不能因软件允许受暴露影响的混杂就认定已识别。时序、一致性、正值性、无未测混杂及模型设定仍需核对。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：纵向中介">纵向中介</a> · <a class="tag-link" href="?q=g%20%E5%85%AC%E5%BC%8F&amp;show-results=1" title="全站搜索：g 公式">g 公式</a> · <a class="tag-link" href="?q=%E6%97%B6%E5%8F%98%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：时变混杂">时变混杂</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#tool-causalmed-0-1-3">查看本期</a><a href="https://cran.r-project.org/package=causalMed" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -47,7 +47,7 @@ title: "新方法"
 <h3>evalHTE：为排序子群体构造统一置信带</h3>
 
 <p class="catalog-meta">期次日期：2026-11-06</p>
-<p>evalHTE 在随机抽样、完全随机分配下，为按得分排序的子群体构造统一置信带。0.3.0 修订 URATE 的方差与高斯校准，统一摘要和绘图界限，并仅在得分完全相同时随机排序。保证只涵盖一条规则与一个结果内的子群体大小选择，不校正多模型选择；得分须预设或由独立训练样本拟合，统一带不支持交叉验证得分。Windows 二进制仍为 0.2.0，源码 0.3.0 需编译；安装后须查版本，本轮未实测。</p>
+<p>evalHTE 在随机抽样、完全随机分配下，为按得分排序的子群体构造统一置信带。0.3.0 修订 URATE 的方差与高斯校准，统一摘要和绘图界限，并仅在得分完全相同时随机排序。保证只涵盖一条规则与一个结果内的子群体大小选择，不校正多模型选择；得分须预设或由独立训练样本拟合，统一带不支持交叉验证得分。Windows 二进制仍为 0.2.0，源码 0.3.0 需编译；安装后须查版本。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质性效应">异质性效应</a> · <a class="tag-link" href="?q=%E7%BB%9F%E4%B8%80%E7%BD%AE%E4%BF%A1%E5%B8%A6&amp;show-results=1" title="全站搜索：统一置信带">统一置信带</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：随机试验">随机试验</a></p>
 <p class="catalog-actions"><a href="../issues/20261106/#tool-evalhte-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=evalHTE" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -55,7 +55,7 @@ title: "新方法"
 <h3>SCMs：用规格曲线检查合成控制的设定敏感性</h3>
 
 <p class="catalog-meta">期次日期：2026-11-05</p>
-<p>SCMs 将协变量构造、供体约束、权重和偏差修正放进合成控制规格曲线，便于检查结果对实现选择的敏感性。0.1.1 修复协变量静默丢弃、部分供体在安慰剂分布中被遗漏及双侧 p 值排序，并把默认推断改为双侧，旧分析须复核。规格曲线和 SHAP 不会自动证明反事实可信或识别政策因果。需 R 4.1、CVXR 1.9 及求解器依赖，当前暂无 Windows 二进制；本轮未安装或实测。</p>
+<p>SCMs 将协变量构造、供体约束、权重和偏差修正放进合成控制规格曲线，便于检查结果对实现选择的敏感性。0.1.1 修复协变量静默丢弃、部分供体在安慰剂分布中被遗漏及双侧 p 值排序，并把默认推断改为双侧，旧分析须复核。规格曲线和 SHAP 不会自动证明反事实可信或识别政策因果。需 R 4.1、CVXR 1.9 及求解器依赖，当前暂无 Windows 二进制。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E8%A7%84%E6%A0%BC%E6%9B%B2%E7%BA%BF&amp;show-results=1" title="全站搜索：规格曲线">规格曲线</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
 <p class="catalog-actions"><a href="../issues/20261105/#tool-scms-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=SCMs" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -63,7 +63,7 @@ title: "新方法"
 <h3>regsensitivity：回归结论对遗漏变量有多敏感？</h3>
 
 <p class="catalog-meta">期次日期：2026-11-04</p>
-<p>regsensitivity 为线性回归的遗漏变量偏误提供系数识别集、结论突破点及绘图。0.3.0 新增结果读取接口，区分简短输出与完整汇总，并调整协方差矩阵奇异时的数值处理，便于整理敏感性结果。识别集取决于敏感度参数、比较协变量与方法假设；突破点不是 p 值，也不能证明所有混杂已被控制。Windows 二进制仍为 0.2.0，安装后须查版本。本轮只读官方资料与示例，未实测或复现论文。</p>
+<p>regsensitivity 为线性回归的遗漏变量偏误提供系数识别集、结论突破点及绘图。0.3.0 新增结果读取接口，区分简短输出与完整汇总，并调整协方差矩阵奇异时的数值处理，便于整理敏感性结果。识别集取决于敏感度参数、比较协变量与方法假设；突破点不是 p 值，也不能证明所有混杂已被控制。Windows 二进制仍为 0.2.0，安装后须查版本。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a></p>
 <p class="catalog-actions"><a href="../issues/20261104/#tool-regsensitivity-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=regsensitivity" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -71,7 +71,7 @@ title: "新方法"
 <h3>pkgtransfer：为新电脑整理 Stata 扩展包安装来源</h3>
 
 <p class="catalog-meta">期次日期：2026-11-04</p>
-<p>pkgtransfer 读取 PLUS 目录的 stata.trk，为已安装扩展包生成在线安装脚本，或整理离线安装脚本与 ZIP，适合换电脑时盘点依赖。它迁移的是安装来源，不是精确版本快照；仅处理跟踪文件中的包，不能替代数据、许可证与完整环境归档。download(local) 仍可能联网读取平台描述或插件。restore 会改写本机跟踪文件并先备份，执行前须理解范围。本轮只核对帮助和来源身份，未实际迁移。</p>
+<p>pkgtransfer 读取 PLUS 目录的 stata.trk，为已安装扩展包生成在线安装脚本，或整理离线安装脚本与 ZIP，适合换电脑时盘点依赖。它迁移的是安装来源，不是精确版本快照；仅处理跟踪文件中的包，不能替代数据、许可证与完整环境归档。download(local) 仍可能联网读取平台描述或插件。restore 会改写本机跟踪文件并先备份，执行前须理解范围。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：Stata 环境">Stata 环境</a> · <a class="tag-link" href="?q=%E6%89%A9%E5%B1%95%E5%8C%85%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：扩展包迁移">扩展包迁移</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a></p>
 <p class="catalog-actions"><a href="../issues/20261104/#tool-pkgtransfer-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459961.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -79,7 +79,7 @@ title: "新方法"
 <h3>diff-diff 4.0：升级前先核对 DiD 结果接口</h3>
 
 <p class="catalog-meta">期次日期：2026-11-04</p>
-<p>diff-diff 把多种 DiD 估计、事件研究与诊断整理为 Python 接口。4.0 统一主要结果字段，并把多个估计量的聚合移到拟合后的 results.aggregate()；旧参数、部分结果属性及旧交错三重差分对象不再兼容。适合正在迁移分析或报告脚本的读者，升级前应按具体估计量核对变更，保留旧环境与结果。接口统一不代表识别假设或推断自动有效；前趋势不显著也不能证明平行趋势。本轮未安装、实测或验证作者跨软件一致性。</p>
+<p>diff-diff 把多种 DiD 估计、事件研究与诊断整理为 Python 接口。4.0 统一主要结果字段，并把多个估计量的聚合移到拟合后的 results.aggregate()；旧参数、部分结果属性及旧交错三重差分对象不再兼容。适合正在迁移分析或报告脚本的读者，升级前应按具体估计量核对变更，保留旧环境与结果。接口统一不代表识别假设或推断自动有效；前趋势不显著也不能证明平行趋势。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%8E%A5%E5%8F%A3&amp;show-results=1" title="全站搜索：结果接口">结果接口</a></p>
 <p class="catalog-actions"><a href="../issues/20261104/#tool-diff-diff-4-0-0">查看本期</a><a href="https://pypi.org/project/diff-diff/4.0.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -87,7 +87,7 @@ title: "新方法"
 <h3>ctools 1.2.4：Stata 并行工具的兼容性更新</h3>
 
 <p class="catalog-meta">期次日期：2026-11-04</p>
-<p>ctools 用 C 插件提供排序、合并、固定效应回归等命令。1.2.4 扩展重抽样、IV/PPML 后估计与分位数诊断，并修复部分文件格式边界，适合先在副本中核对大数据工作流。需要 Stata 14.1 及匹配平台插件，更新后须重启。它并非所有原命令的等价替换：creghdfe 只支持单维聚类，部分语法、求解器和数值结果可能不同。作者的倍速与测试结果未由本轮验证，不能直接据此替换已有估计脚本。</p>
+<p>ctools 用 C 插件提供排序、合并、固定效应回归等命令。1.2.4 扩展重抽样、IV/PPML 后估计与分位数诊断，并修复部分文件格式边界，适合先在副本中核对大数据工作流。需要 Stata 14.1 及匹配平台插件，更新后须重启。它并非所有原命令的等价替换：creghdfe 只支持单维聚类，部分语法、求解器和数值结果可能不同。作者报告的倍速与测试结果仍须结合具体数据核对，不能直接据此替换已有估计脚本。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E5%B7%A5%E5%85%B7&amp;show-results=1" title="全站搜索：Stata 工具">Stata 工具</a> · <a class="tag-link" href="?q=%E5%85%BC%E5%AE%B9%E6%80%A7&amp;show-results=1" title="全站搜索：兼容性">兼容性</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：大数据处理">大数据处理</a></p>
 <p class="catalog-actions"><a href="../issues/20261104/#tool-ctools-1-2-4">查看本期</a><a href="https://github.com/mdroste/stata-ctools/releases/tag/v1.2.4" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>

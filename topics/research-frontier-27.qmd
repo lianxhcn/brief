@@ -13,7 +13,7 @@ title: "新论文 · 第 27 页"
 <div class="catalog-grid">
 <article class="catalog-card">
 <h3>多机构数据不集中，怎样联合估计精度矩阵？</h3>
-<p class="catalog-citation">Sun, Y.; Xia, Y. (2026). Optimal integrative estimation for distributed precision matrices with heterogeneity adjustment. The Annals of Statistics.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-09</p>
+<p class="catalog-citation">Sun, Y.; Xia, Y. (2026). Optimal integrative estimation for distributed precision matrices with heterogeneity adjustment. The Annals of Statistics.</p><p class="catalog-meta">发表日期：2026-10-01</p>
 <p class="catalog-meta">期次日期：2026-10-09</p>
 <p>Annals of Statistics 论文研究多来源分布异质、原始数据难以集中时的精度矩阵联合估计。HEAT 方法先调整异质性，再聚合与阈值化；迭代版本通过多轮通信修正高阶误差。论文给出相应损失下的收敛率与下界，并以模拟和数据应用检查表现。可用于理解跨机构统计汇总，但通信节省不等于自动满足隐私保护要求，精度矩阵也不能直接解释为因果网络。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E5%BC%8F%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：分布式估计">分布式估计</a> · <a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：异质性">异质性</a> · <a class="tag-link" href="?q=%E7%B2%BE%E5%BA%A6%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：精度矩阵">精度矩阵</a></p>
@@ -21,7 +21,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>多品类需求估计：预测精度与计算成本如何权衡？</h3>
-<p class="catalog-citation">Schmidt, A. B. (2026). Bayesian Machine Learning Methods For Large Scale Demand Estimation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-09</p>
+<p class="catalog-citation">Schmidt, A. B. (2026). Bayesian Machine Learning Methods For Large Scale Demand Estimation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06</p>
 <p class="catalog-meta">期次日期：2026-10-09</p>
 <p>论文比较潜在因子模型与混合 logit 模型，并分别采用 MCMC 与变分推断估计，结合模拟和超市扫描数据讨论多品类需求。研究中潜在因子模型可利用跨品类信息，变分推断以一定预测精度换取更短运行时间。读者可借鉴其模型与计算方案分开比较的思路；结论限于论文设定，较好的预测表现并不自动保证价格内生性已经处理。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：需求估计">需求估计</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：贝叶斯方法">贝叶斯方法</a> · <a class="tag-link" href="?q=%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：变分推断">变分推断</a></p>
@@ -29,7 +29,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>到达率未知时，怎样安排多方动态匹配？</h3>
-<p class="catalog-citation">Wei, Y.; Xu, J.; Yu, S. H. (2026). Constant Regret Primal-Dual Policy for Multiway Dynamic Matching. Management Science.</p><p class="catalog-meta">发表日期：2026-09-30 · 收录日期：2026-10-09</p>
+<p class="catalog-citation">Wei, Y.; Xu, J.; Yu, S. H. (2026). Constant Regret Primal-Dual Policy for Multiway Dynamic Matching. Management Science.</p><p class="catalog-meta">发表日期：2026-09-30</p>
 <p class="catalog-meta">期次日期：2026-10-09</p>
 <p>Management Science 论文研究参与者随机到达、等待多方匹配的决策问题。作者提出原始对偶策略，估计对偶解并为未来到达者安排匹配，不要求预先知道到达率，也不把匹配限制在一个固定最优基内。在论文模型条件下，策略具有常数遗憾界。适合关注平台撮合与在线运营的读者；理论保证依赖指定随机到达模型，不能直接推及任意平台环境。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：动态匹配">动态匹配</a> · <a class="tag-link" href="?q=%E5%8E%9F%E5%A7%8B%E5%AF%B9%E5%81%B6&amp;show-results=1" title="全站搜索：原始对偶">原始对偶</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：在线决策">在线决策</a></p>
@@ -37,7 +37,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>创业路演如何同时获得资金与投资者关系？</h3>
-<p class="catalog-citation">Leibel, E.; Falchetti, D.; O&#x27;Mahony, S. (2026). When money isn&#x27;t everything: Identifying stage‐based patterns of entrepreneurial resource acquisition. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-09</p>
+<p class="catalog-citation">Leibel, E.; Falchetti, D.; O&#x27;Mahony, S. (2026). When money isn&#x27;t everything: Identifying stage‐based patterns of entrepreneurial resource acquisition. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-01</p>
 <p class="catalog-meta">期次日期：2026-10-09</p>
 <p>SMJ 论文把问题从既有关系如何帮助融资，转向路演本身如何建立新关系。研究分析 Slow Money 社群中社会创业者向影响力投资者的展示，发现与企业阶段相匹配的表达方式和资源获取有关：较成熟企业强调财务过程，初创企业强调社会协作，分别对应不同资源。可借鉴之处是将资金与关系分开测量，并考虑企业阶段；摘要中的关系不能直接解释为改变路演话术的因果效果。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：创业融资">创业融资</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：社会网络">社会网络</a> · <a class="tag-link" href="?q=%E8%B7%AF%E6%BC%94&amp;show-results=1" title="全站搜索：路演">路演</a></p>
@@ -45,7 +45,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>企业创新声誉为何与专利诉讼和解有关？</h3>
-<p class="catalog-citation">Li, F. et al. (2026). To Settle or Not to Settle: Defending Firm Reputation in Litigation Response. Journal of Management.</p><p class="catalog-meta">发表日期：2026-09-30 · 收录日期：2026-10-09</p>
+<p class="catalog-citation">Li, F. et al. (2026). To Settle or Not to Settle: Defending Firm Reputation in Litigation Response. Journal of Management.</p><p class="catalog-meta">发表日期：2026-09-30</p>
 <p class="catalog-meta">期次日期：2026-10-09</p>
 <p>Journal of Management 论文将利益相关者对企业的情境预期纳入诉讼回应分析。作者发现，创新声誉较高的企业在专利诉讼中和解的可能性较低，这一关系随行业创新强度和原告类型变化。研究提示，和解决策除法律与经济成本外，还涉及声誉管理。实证使用时需区分声誉的选择机制与诉讼后的声誉变化，摘要中的关联不能直接作为因果效应。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%A3%B0%E8%AA%89&amp;show-results=1" title="全站搜索：企业声誉">企业声誉</a> · <a class="tag-link" href="?q=%E4%B8%93%E5%88%A9%E8%AF%89%E8%AE%BC&amp;show-results=1" title="全站搜索：专利诉讼">专利诉讼</a> · <a class="tag-link" href="?q=%E6%88%98%E7%95%A5%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：战略管理">战略管理</a></p>
@@ -53,7 +53,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>非策略性说谎者之间，怎样识别真实信息？</h3>
-<p class="catalog-citation">Glazer, J.; Rubinstein, A. (2026). Truth Elicitation in a Nonstrategic Environment. AER.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-08</p>
+<p class="catalog-citation">Glazer, J.; Rubinstein, A. (2026). Truth Elicitation in a Nonstrategic Environment. AER.</p><p class="catalog-meta">发表日期：2026-10-01</p>
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>AER 理论论文研究奖项分配中的信息甄别：当事人知道谁应获奖，但按给定的作弊程序报告状态。委托人通过设计描述获奖条件的文本，在双方陈述矛盾时利用单向作弊原则识别说谎者。该结果依赖非策略行为及作弊程序已知等设定，为问卷和信息诱导提供思考线索，不应直接套用于能够调整策略的真实受访者。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a></p>
@@ -61,7 +61,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>联合申请专利，企业为何可能少披露研发信息？</h3>
-<p class="catalog-citation">Lee, C.; Xiang, Z. (2026). Collaborative Innovation and R&amp;amp;D Disclosures: Evidence From Co‐Patents. CAR.</p><p class="catalog-meta">发表日期：2026-09-29 · 收录日期：2026-10-08</p>
+<p class="catalog-citation">Lee, C.; Xiang, Z. (2026). Collaborative Innovation and R&amp;amp;D Disclosures: Evidence From Co‐Patents. CAR.</p><p class="catalog-meta">发表日期：2026-09-29</p>
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>Contemporary Accounting Research 论文将美国上市公司的联合专利与年报研发叙述联系起来，发现共同持有专利较多的企业往往披露较少研发信息；与大学合作时，关系又可能转为正向。研究强调合作伙伴的信息外部性与对外展示能力的动机，提醒读者解释文本披露指标时考虑合作结构。这些结果属于论文报告的关联证据，不能直接解释为联合专利的因果效应。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%90%88%E4%BD%9C%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：合作创新">合作创新</a> · <a class="tag-link" href="?q=%E7%A0%94%E5%8F%91%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：研发披露">研发披露</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E4%B8%93%E5%88%A9&amp;show-results=1" title="全站搜索：联合专利">联合专利</a></p>
@@ -69,7 +69,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>空间混杂存在时，回归斜率何时仍可一致估计？</h3>
-<p class="catalog-citation">Datta, A.; Stein, M.L. (2026). Infill consistent estimability of the regression slope between Gaussian random fields under spatial confounding. The Annals of Statistics.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-08</p>
+<p class="catalog-citation">Datta, A.; Stein, M.L. (2026). Infill consistent estimability of the regression slope between Gaussian random fields under spatial confounding. The Annals of Statistics.</p><p class="catalog-meta">发表日期：2026-10-01</p>
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>The Annals of Statistics 论文研究高斯随机场之间的回归：未观测空间过程同时影响暴露与结果时，斜率能否一致估计？作者在固定区域逐渐加密采样的框架下，以过程平滑度和频谱尾部关系刻画可估计条件，并讨论局部差分估计。对空间实证研究，关键启发是先检查识别所依赖的空间尺度，不能认为增加观测点或换一个空间回归命令就足以消除混杂。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%87%B4%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：一致估计">一致估计</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：局部差分">局部差分</a></p>
@@ -77,7 +77,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>礼品卡带来多少新增消费？用数据融合处理缺失的处理状态</h3>
-<p class="catalog-citation">Whitehouse, J. et al. (2026). Measuring Gift Card Program Incrementality via Causal Data Fusion. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06 · 收录日期：2026-10-08</p>
+<p class="catalog-citation">Whitehouse, J. et al. (2026). Measuring Gift Card Program Incrementality via Causal Data Fusion. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-06</p>
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>礼品卡往往只有在消费时才被观测到，直接比较持卡与未持卡顾客会面临处理状态缺失。工作论文将大规模观察数据与另一群体的小规模实验结合，在条件相对处理效应可迁移的假设下估计新增收入，并以平台礼品卡为应用。它提供利用少量实验补充业务数据的思路，但跨群体迁移条件需要实质论证，不能把数据拼接自动视为识别。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a></p>
@@ -85,7 +85,7 @@ title: "新论文 · 第 27 页"
 </article>
 <article class="catalog-card">
 <h3>政府如何协调多个独立主体完成共同任务？</h3>
-<p class="catalog-citation">Adner, R. (2026). Government as orchestrator: Ecosystem transformation at scale and speed. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-01 · 收录日期：2026-10-08</p>
+<p class="catalog-citation">Adner, R. (2026). Government as orchestrator: Ecosystem transformation at scale and speed. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-01</p>
 <p class="catalog-meta">期次日期：2026-10-08</p>
 <p>Strategic Management Journal 论文以美国疫苗开发计划 Operation Warp Speed 为分析对象，讨论政府如何协调相互依赖的公共与私人主体。文章关注专门协调机构的设计、外部合作与内部组织调整之间的联系，以及协调能力对任务范围的约束。这是一项围绕案例展开的组织战略分析，可用于形成机制假说，不能直接外推为所有政府主导项目的因果规律。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E7%94%9F%E6%80%81&amp;show-results=1" title="全站搜索：创新生态">创新生态</a> · <a class="tag-link" href="?q=%E6%94%BF%E5%BA%9C%E5%8D%8F%E8%B0%83&amp;show-results=1" title="全站搜索：政府协调">政府协调</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%88%98%E7%95%A5&amp;show-results=1" title="全站搜索：组织战略">组织战略</a></p>

@@ -14,11 +14,11 @@ toc-depth: 3
 
 <p class="myapa">Medici, C. (2026). Closing Ranks: Organized Labor and Immigration. Journal of Political Economy. <a href="https://doi.org/10.1086/744504" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Closing%20Ranks%3A%20Organized%20Labor%20and%20Immigration" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-作者将历史档案整理为美国县级工会数据，研究移民流入与工会形成的关系，并采用 shift-share 工具变量讨论劳动供给冲击。研究把劳动力竞争与劳动者组织化联系起来，适合关注移民、劳动制度及历史数据的读者。这里依据作者公开稿摘要介绍研究设计，期刊在线信息另据出版社登记，不把档案相关性直接解释为普遍规律。
+作者将历史档案整理为美国县级工会数据，研究移民流入与工会形成的关系，并采用 shift-share 工具变量讨论劳动供给冲击。研究把劳动力竞争与劳动者组织化联系起来，适合关注移民、劳动制度及历史数据的读者。上述研究设计来自作者公开稿摘要；档案相关性不能直接解释为普遍规律。
 
 标签：<a class="tag-link" href="?q=%E7%A7%BB%E6%B0%91&amp;show-results=1" title="全站搜索：移民">移民</a> · <a class="tag-link" href="?q=%E5%B7%A5%E4%BC%9A&amp;show-results=1" title="全站搜索：工会">工会</a>
 
-<small>来源日期：2026-10-15；补录：2026-10-17</small>
+<small>来源日期：2026-10-15</small>
 
 
 
@@ -34,7 +34,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：网络分析">网络分析</a> · <a class="tag-link" href="?q=%E6%BD%9C%E7%A9%BA%E9%97%B4%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：潜空间模型">潜空间模型</a>
 
-<small>来源日期：2026-10-15；补录：2026-10-17</small>
+<small>来源日期：2026-10-15</small>
 
 
 
@@ -50,7 +50,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：高维回归">高维回归</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：稳健推断">稳健推断</a>
 
-<small>来源日期：2026-10-09；补录：2026-10-17</small>
+<small>来源日期：2026-10-09</small>
 
 
 
@@ -66,11 +66,11 @@ toc-depth: 3
 
 <p class="myapa">Cheng, C., Asi, H., &amp; Duchi, J. (2026). How many labelers do you have? A closer look at gold-standard labels. Journal of the American Statistical Association. <a href="https://doi.org/10.1080/01621459.2026.2744433" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=How%20many%20labelers%20do%20you%20have%3F%20A%20closer%20look%20at%20gold-standard%20labels" target="_blank" rel="noopener noreferrer">Google</a></p>
 
-同一对象的多个标签通常先被合并成一个金标准标签。作者用理论模型比较合并标签与保留逐个标注的信息，指出两种处理方式在稳健性和收敛速度上存在条件性的权衡。对文本标注和机器学习数据建设，启发是同时保存标注者与原始标签。摘要依据对应 arXiv 作者版本；期刊在线日期依据出版社元数据，不能把旧工作论文首次发布日期当作本次期刊日期。
+同一对象的多个标签通常先被合并成一个金标准标签。作者用理论模型比较合并标签与保留逐个标注的信息，指出两种处理方式在稳健性和收敛速度上存在条件性的权衡。对文本标注和机器学习数据建设，启发是同时保存标注者与原始标签。上述内容对应 arXiv 作者版本；期刊在线日期来自出版社元数据，不能以旧工作论文的首次发布日期替代。
 
 标签：<a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：数据标注">数据标注</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a>
 
-<small>来源日期：2026-10-09；补录：2026-10-17</small>
+<small>来源日期：2026-10-09</small>
 
 
 
@@ -86,7 +86,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D&amp;show-results=1" title="全站搜索：随机梯度下降">随机梯度下降</a> · <a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：相关数据">相关数据</a>
 
-<small>来源日期：2026-10-14；补录：2026-10-17</small>
+<small>来源日期：2026-10-14</small>
 
 
 
@@ -102,7 +102,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a>
 
-<small>来源日期：2026-10-08；补录：2026-10-17</small>
+<small>来源日期：2026-10-08</small>
 
 
 
@@ -118,7 +118,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E6%97%B6%E7%A9%BA%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：时空数据">时空数据</a> · <a class="tag-link" href="?q=%E5%BC%82%E5%B8%B8%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：异常监测">异常监测</a>
 
-<small>来源日期：2026-10-16；补录：2026-10-17</small>
+<small>来源日期：2026-10-16</small>
 
 
 
@@ -134,7 +134,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：生成变量">生成变量</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a>
 
-<small>来源日期：2026-10-15；补录：2026-10-17</small>
+<small>来源日期：2026-10-15</small>
 
 
 
@@ -150,7 +150,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E6%9E%81%E7%AB%AF%E5%80%BC&amp;show-results=1" title="全站搜索：极端值">极端值</a> · <a class="tag-link" href="?q=%E7%BD%AE%E6%8D%A2%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：置换检验">置换检验</a>
 
-<small>来源日期：2026-10-14；补录：2026-10-17</small>
+<small>来源日期：2026-10-14</small>
 
 
 
@@ -166,7 +166,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E7%9F%AD%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：短面板">短面板</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
 
-<small>来源日期：2026-10-13；补录：2026-10-17</small>
+<small>来源日期：2026-10-13</small>
 
 
 

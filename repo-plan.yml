@@ -1,24 +1,164 @@
-task: hide-public-short-issue-notice-20261109
+task: reader-content-cleanup-20261109
 repository_mode: single
 local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
 branch: main
-expected_base: 9316ae1118f5db2e4eb4dad976d2dee10576d00c
-authorization: User requested removal of editorial shortage notices from the published website; existing project publication authorization applies.
+expected_base: 7499347cdf6a73042704b6feba766f93ff694f19
+authorization: User requested all reader pages be cleaned of internal editorial and development notes; existing website publication authorization applies.
 work_scope:
+  - config/website-content.json
+  - docs/automation-rules.md
   - docs/content-rules.md
-  - docs/ui-rules.md
   - docs/decision-log.md
-  - scripts/render_issue_pages.py
-  - scripts/test_site_revision.py
+  - docs/ui-rules.md
+  - history/20260815-20260907/index.qmd
+  - issues/20260905/index.qmd
+  - issues/20260908/index.qmd
+  - issues/20260909/index.qmd
+  - issues/20260910/index.qmd
+  - issues/20260911/index.qmd
+  - issues/20260912/index.qmd
+  - issues/20260913/index.qmd
+  - issues/20260914/index.qmd
+  - issues/20260915/index.qmd
+  - issues/20260916/index.qmd
+  - issues/20260917/index.qmd
+  - issues/20260918/index.qmd
+  - issues/20260919/index.qmd
+  - issues/20260920/index.qmd
+  - issues/20260921/index.qmd
+  - issues/20260922/index.qmd
+  - issues/20260923/index.qmd
+  - issues/20260924/index.qmd
+  - issues/20260925/index.qmd
+  - issues/20260926/index.qmd
+  - issues/20260927/index.qmd
+  - issues/20260928/index.qmd
+  - issues/20260929/index.qmd
+  - issues/20260930/index.qmd
+  - issues/20261001/index.qmd
+  - issues/20261002/index.qmd
+  - issues/20261003/index.qmd
+  - issues/20261004/index.qmd
+  - issues/20261005/index.qmd
+  - issues/20261006/index.qmd
+  - issues/20261007/index.qmd
+  - issues/20261008/index.qmd
+  - issues/20261009/index.qmd
+  - issues/20261010/index.qmd
+  - issues/20261011/index.qmd
+  - issues/20261012/index.qmd
+  - issues/20261013/index.qmd
+  - issues/20261014/index.qmd
+  - issues/20261015/index.qmd
+  - issues/20261016/index.qmd
+  - issues/20261017/index.qmd
+  - issues/20261018/index.qmd
+  - issues/20261019/index.qmd
+  - issues/20261020/index.qmd
+  - issues/20261021/index.qmd
+  - issues/20261022/index.qmd
+  - issues/20261023/index.qmd
+  - issues/20261024/index.qmd
+  - issues/20261025/index.qmd
+  - issues/20261026/index.qmd
+  - issues/20261027/index.qmd
+  - issues/20261028/index.qmd
+  - issues/20261029/index.qmd
+  - issues/20261030/index.qmd
+  - issues/20261031/index.qmd
+  - issues/20261101/index.qmd
+  - issues/20261102/index.qmd
+  - issues/20261103/index.qmd
+  - issues/20261104/index.qmd
+  - issues/20261105/index.qmd
+  - issues/20261106/index.qmd
+  - issues/20261107/index.qmd
+  - issues/20261108/index.qmd
   - issues/20261109/index.qmd
   - repo-plan.yml
+  - scripts/public_history.py
+  - scripts/render_issue_pages.py
+  - scripts/test_backfill.py
+  - scripts/test_catalog_citations.py
+  - scripts/test_reader_hygiene.py
+  - scripts/validate_website.py
+  - scripts/website_citations.py
+  - scripts/website_content.py
+  - topics/academic-updates.qmd
+  - topics/lianxh-new-4.qmd
+  - topics/lianxh-new.qmd
+  - topics/methods-tools-10.qmd
+  - topics/methods-tools-11.qmd
+  - topics/methods-tools-12.qmd
+  - topics/methods-tools-13.qmd
+  - topics/methods-tools-14.qmd
+  - topics/methods-tools-2.qmd
+  - topics/methods-tools-5.qmd
+  - topics/methods-tools-6.qmd
+  - topics/methods-tools-7.qmd
+  - topics/methods-tools-8.qmd
+  - topics/methods-tools-9.qmd
+  - topics/methods-tools.qmd
+  - topics/research-frontier-10.qmd
+  - topics/research-frontier-11.qmd
+  - topics/research-frontier-12.qmd
+  - topics/research-frontier-13.qmd
+  - topics/research-frontier-14.qmd
+  - topics/research-frontier-15.qmd
+  - topics/research-frontier-16.qmd
+  - topics/research-frontier-17.qmd
+  - topics/research-frontier-18.qmd
+  - topics/research-frontier-19.qmd
+  - topics/research-frontier-2.qmd
+  - topics/research-frontier-20.qmd
+  - topics/research-frontier-21.qmd
+  - topics/research-frontier-22.qmd
+  - topics/research-frontier-23.qmd
+  - topics/research-frontier-24.qmd
+  - topics/research-frontier-25.qmd
+  - topics/research-frontier-26.qmd
+  - topics/research-frontier-27.qmd
+  - topics/research-frontier-28.qmd
+  - topics/research-frontier-29.qmd
+  - topics/research-frontier-3.qmd
+  - topics/research-frontier-30.qmd
+  - topics/research-frontier-31.qmd
+  - topics/research-frontier-32.qmd
+  - topics/research-frontier-33.qmd
+  - topics/research-frontier-34.qmd
+  - topics/research-frontier-35.qmd
+  - topics/research-frontier-36.qmd
+  - topics/research-frontier-37.qmd
+  - topics/research-frontier-38.qmd
+  - topics/research-frontier-39.qmd
+  - topics/research-frontier-4.qmd
+  - topics/research-frontier-40.qmd
+  - topics/research-frontier-41.qmd
+  - topics/research-frontier-42.qmd
+  - topics/research-frontier-43.qmd
+  - topics/research-frontier-44.qmd
+  - topics/research-frontier-45.qmd
+  - topics/research-frontier-46.qmd
+  - topics/research-frontier-47.qmd
+  - topics/research-frontier-48.qmd
+  - topics/research-frontier-49.qmd
+  - topics/research-frontier-5.qmd
+  - topics/research-frontier-50.qmd
+  - topics/research-frontier-51.qmd
+  - topics/research-frontier-52.qmd
+  - topics/research-frontier-53.qmd
+  - topics/research-frontier-54.qmd
+  - topics/research-frontier-6.qmd
+  - topics/research-frontier-7.qmd
+  - topics/research-frontier-8.qmd
+  - topics/research-frontier-9.qmd
+  - topics/research-frontier.qmd
 publication_rules:
-  - Keep shortage evidence and quality checks; omit editorial notices from reader pages and search snippets.
-  - Preserve formal issue JSON, reviewed drafts, TXT, editorial events, and shared files.
-  - Validate externally and review desktop/mobile before controlled commit and push.
-  - Verify exact-commit Pages and live page, homepage, and search index.
-  - Website presentation revision only; no new issue, collection, delivery, or scheduler change.
+  - D-20261109-02; preserve source facts, original dates, evidence and necessary reader limits.
+  - Remove maintenance prose from generated pages and search, not with CSS or search-index surgery.
+  - Reviewed per-ID summary edits and deterministic template changes only.
+  - Validate all formal pages and external render, then verify exact-commit Pages and live site.
+  - No new daily issue, collection, shared delivery, posting or schedule change.
 excluded:
-  - ops-local/, logs/, .venv/, _site/, .quarto/
-  - private evidence, configuration, personal paths and credentials
+  - ops-local/, logs/, .venv/, _site/, .quarto/, credentials and personal paths

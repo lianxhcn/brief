@@ -17,8 +17,10 @@ class CitationCards(unittest.TestCase):
         self.assertIn('JF.',four)
     def test_dates_do_not_invent_precision(self):
         partial=self.render(['A'],published_date='2026-10')
-        self.assertIn('发表日期：2026-10 · 收录日期：2026-10-15',partial)
-        self.assertIn('发表日期：待核',self.render(['A']))
+        self.assertIn('发表日期：2026-10',partial)
+        self.assertNotIn('2026-10-15',partial)
+        self.assertNotIn('发表日期',self.render(['A']))
+        self.assertNotIn('发表日期',self.render(['A'],published_date='unknown'))
     def test_working_paper_and_escaping(self):
         m=dict(authors=['<A>'],year=2026,title='Title & method',source='NBER')
         with patch('website_citations.bibliography_metadata',return_value=m):
@@ -26,7 +28,7 @@ class CitationCards(unittest.TestCase):
         self.assertIn('Working paper',text)
         self.assertIn('提交/版本日期',text)
         self.assertIn('&lt;A&gt;',text)
-        self.assertIn('收录日期：待核',text)
+        self.assertNotIn('收录日期',text)
     def test_history_and_daily_use_same_metadata(self):
         e=dict(id='test',date='2026-09-01',title='中文标题',note='摘要',catalog=dict(tags=[],software=[],methods=[],fields=[]),paper_metadata='<p>verified citation</p>')
         self.assertIn('verified citation',card(e))

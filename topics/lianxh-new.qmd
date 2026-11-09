@@ -15,7 +15,7 @@ title: "新推文"
 <h3>大模型时代：大厂还需要经济学家吗？</h3>
 
 <p class="catalog-meta">期次日期：2026-11-08</p>
-<p>文章从经济学家的因果识别、指标与市场设计训练出发，讨论大模型怎样改变业界研究对象和工作流程。新旧文献对照串起 AI 市场、智能体交易、实验干扰与人机协作，为关注数据科学和策略岗位的读者提供问题清单。职业建议属于作者的综述判断，不等同于已核实的当前招聘全景；语言模型模拟也不能替代真实实验。本轮只读原文，未复核文中岗位统计、引文数值或运行 AI 实证。</p>
+<p>文章从经济学家的因果识别、指标与市场设计训练出发，讨论大模型怎样改变业界研究对象和工作流程。新旧文献对照串起 AI 市场、智能体交易、实验干扰与人机协作，为关注数据科学和策略岗位的读者提供问题清单。职业建议属于作者的综述判断，不等同于已核实的当前招聘全景；语言模型模拟也不能替代真实实验。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%81%8C%E4%B8%9A&amp;show-results=1" title="全站搜索：经济学职业">经济学职业</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：因果判断">因果判断</a> · <a class="tag-link" href="?q=AI%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI 工作流">AI 工作流</a></p>
 <p class="catalog-actions"><a href="../issues/20261108/#lianxh-1988">查看本期</a><a href="https://www.lianxh.cn/details/1988.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -23,7 +23,7 @@ title: "新推文"
 <h3>Transformer 算法原理：手绘图详解</h3>
 
 <p class="catalog-meta">期次日期：2026-11-08</p>
-<p>文章按经典 Transformer 编码器—解码器的计算顺序，用手绘图和小维度示例串起词嵌入、位置编码、Q/K/V、多头注意力、两类掩码、残差与归一化，最后区分训练并行和推理逐词生成。适合想把模块名称对到矩阵形状的读者。文中也说明 GPT 类模型去掉交叉注意力，不能把完整译码结构当作所有大模型的固定架构。位置外推和长序列开销仍需分别考虑；本轮仅读正文与图注，未逐图复算或训练模型。</p>
+<p>文章按经典 Transformer 编码器—解码器的计算顺序，用手绘图和小维度示例串起词嵌入、位置编码、Q/K/V、多头注意力、两类掩码、残差与归一化，最后区分训练并行和推理逐词生成。适合想把模块名称对到矩阵形状的读者。文中也说明 GPT 类模型去掉交叉注意力，不能把完整译码结构当作所有大模型的固定架构。位置外推和长序列开销仍需分别考虑。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Transformer&amp;show-results=1" title="全站搜索：Transformer">Transformer</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：自注意力">自注意力</a> · <a class="tag-link" href="?q=%E6%9E%B6%E6%9E%84%E8%BE%B9%E7%95%8C&amp;show-results=1" title="全站搜索：架构边界">架构边界</a></p>
 <p class="catalog-actions"><a href="../issues/20261108/#lianxh-1987">查看本期</a><a href="https://www.lianxh.cn/details/1987.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -31,7 +31,7 @@ title: "新推文"
 <h3>AI 辅助调取微观数据库：以 IPUMS 为例</h3>
 
 <p class="catalog-meta">期次日期：2026-11-07</p>
-<p>文章以 IPUMS MEPS 为例，将变量选择、提取 JSON、任务轮询、下载、Stata 读入和样本核查串成可留档流程，并给出让 AI 分步起草的提示词。账号认证、合集注册与 API key 是不同环节，不能把有密钥理解为获得所有数据权限。变量的适用人群、年份覆盖、特殊码及权重仍须查官方说明，负收入也不能一律当缺失。个体数据与密钥须按许可保密。本轮只读原文，未登录、取数或复现作者统计。</p>
+<p>文章以 IPUMS MEPS 为例，将变量选择、提取 JSON、任务轮询、下载、Stata 读入和样本核查串成可留档流程，并给出让 AI 分步起草的提示词。账号认证、合集注册与 API key 是不同环节，不能把有密钥理解为获得所有数据权限。变量的适用人群、年份覆盖、特殊码及权重仍须查官方说明，负收入也不能一律当缺失。个体数据与密钥须按许可保密。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=IPUMS&amp;show-results=1" title="全站搜索：IPUMS">IPUMS</a> · <a class="tag-link" href="?q=AI%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI 工作流">AI 工作流</a> · <a class="tag-link" href="?q=%E5%BE%AE%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：微观数据">微观数据</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#lianxh-1985">查看本期</a><a href="https://www.lianxh.cn/details/1985.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -39,7 +39,7 @@ title: "新推文"
 <h3>AI 辅助清洗微观数据库：以 CHIP 为例</h3>
 
 <p class="catalog-meta">期次日期：2026-11-07</p>
-<p>文章用 CHIP 多轮清洗案例，把目标变量、问卷编码、跨期映射、分模块 do 文件和逐变量核查分开，强调先审映射表再生成代码。它用主键转换、缺失传播和多选拼接码说明，脚本能运行不等于数据口径正确。有损映射、收入单位和跨期可比性需研究者裁决，不能由 AI 自动补齐；作者的统计与处理方案只对应其材料。原始个体数据须按授权使用，本轮只读原文，未取得数据或实跑。</p>
+<p>文章用 CHIP 多轮清洗案例，把目标变量、问卷编码、跨期映射、分模块 do 文件和逐变量核查分开，强调先审映射表再生成代码。它用主键转换、缺失传播和多选拼接码说明，脚本能运行不等于数据口径正确。有损映射、收入单位和跨期可比性需研究者裁决，不能由 AI 自动补齐；作者的统计与处理方案只对应其材料。原始个体数据须按授权使用。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=CHIP&amp;show-results=1" title="全站搜索：CHIP">CHIP</a> · <a class="tag-link" href="?q=%E8%B7%A8%E6%9C%9F%E6%98%A0%E5%B0%84&amp;show-results=1" title="全站搜索：跨期映射">跨期映射</a> · <a class="tag-link" href="?q=AI%20%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：AI 数据清洗">AI 数据清洗</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#lianxh-1986">查看本期</a><a href="https://www.lianxh.cn/details/1986.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -47,7 +47,7 @@ title: "新推文"
 <h3>QSM 入门与 Stata 实操：用 ABRS-toolkit 理解就业、工资与租金的关系</h3>
 
 <p class="catalog-meta">期次日期：2026-11-06</p>
-<p>文章借助 ABRS-toolkit 的简化空间均衡模型，串起居民区位选择、企业劳动需求和住房供给，并用 Stata 操作与四面板图比较生活质量变化后的就业、工资和租金。重点是区分外生设定、结构参数与内生结果，以及地区间比值和实际人数变化。适合 QSM 入门，但教学模型不估计真实城市参数，也不直接给出现实政策的因果效果。运行 ABRS 会清空内存数据，练习前应保存；本轮仅读原文，未安装或运行。</p>
+<p>文章借助 ABRS-toolkit 的简化空间均衡模型，串起居民区位选择、企业劳动需求和住房供给，并用 Stata 操作与四面板图比较生活质量变化后的就业、工资和租金。重点是区分外生设定、结构参数与内生结果，以及地区间比值和实际人数变化。适合 QSM 入门，但教学模型不估计真实城市参数，也不直接给出现实政策的因果效果。运行 ABRS 会清空内存数据，练习前应保存。</p>
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=QSM&amp;show-results=1" title="全站搜索：QSM">QSM</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
 <p class="catalog-actions"><a href="../issues/20261106/#lianxh-1984">查看本期</a><a href="https://www.lianxh.cn/details/1984.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -55,7 +55,7 @@ title: "新推文"
 <h3>跑完 csdid 后画事件研究图，基期为啥不是 -1 期？</h3>
 
 <p class="catalog-meta">期次日期：2026-11-02</p>
-<p>不同 DiD 估计量的处理前后系数可能采用不同参照，图中的拐点或跳跃未必代表处理效应。文章借助非交错处理的说明性模拟，比较 TWFE、csdid 和插补法的构造，并介绍 long2 及分开展示检验与效应的思路。讨论针对参照与视觉解读；换选项或前趋势不显著都不能证明平行趋势成立，交错处理的聚合与识别仍需另行核对。本轮未运行文中模拟。</p>
+<p>不同 DiD 估计量的处理前后系数可能采用不同参照，图中的拐点或跳跃未必代表处理效应。文章借助非交错处理的说明性模拟，比较 TWFE、csdid 和插补法的构造，并介绍 long2 及分开展示检验与效应的思路。讨论针对参照与视觉解读；换选项或前趋势不显著都不能证明平行趋势成立，交错处理的聚合与识别仍需另行核对。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E5%A4%9A%E6%9C%9F%20DID&amp;show-results=1" title="全站搜索：多期 DID">多期 DID</a> · <a class="tag-link" href="?q=%E5%8F%82%E7%85%A7%E6%9C%9F&amp;show-results=1" title="全站搜索：参照期">参照期</a></p>
 <p class="catalog-actions"><a href="../issues/20261102/#lianxh-1983">查看本期</a><a href="https://www.lianxh.cn/details/1983.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -63,7 +63,7 @@ title: "新推文"
 <h3>给你的 AI-Agent 配上一套 Stata Skills</h3>
 
 <p class="catalog-meta">期次日期：2026-11-02</p>
-<p>文章介绍社区 Stata Skill 在数据管理、回归、绘图和结果输出中的用法，并用工资回归示例说明如何固定样本、保留日志及区分相关与因果。适合把反复使用的检查规则交给 Agent 查阅。Skill 仍依赖可用的 Stata、执行工具、数据与扩展命令；安装技能不等于命令已安装或任务已运行，文中示例也不是技能效果的对照实验。本轮未安装或实测该项目。</p>
+<p>文章介绍社区 Stata Skill 在数据管理、回归、绘图和结果输出中的用法，并用工资回归示例说明如何固定样本、保留日志及区分相关与因果。适合把反复使用的检查规则交给 Agent 查阅。Skill 仍依赖可用的 Stata、执行工具、数据与扩展命令；安装技能不等于命令已安装或任务已运行，文中示例也不是技能效果的对照实验。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=Agent%20Skills&amp;show-results=1" title="全站搜索：Agent Skills">Agent Skills</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：研究工作流">研究工作流</a></p>
 <p class="catalog-actions"><a href="../issues/20261102/#lianxh-1982">查看本期</a><a href="https://www.lianxh.cn/details/1982.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>

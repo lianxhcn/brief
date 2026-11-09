@@ -18,7 +18,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：动态融资">动态融资</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E4%B8%80%E8%87%B4%E6%80%A7&amp;show-results=1" title="全站搜索：时间一致性">时间一致性</a>
 
-<small>来源日期：2026-09-18；补录：2026-09-20</small>
+<small>来源日期：2026-09-18</small>
 
 
 
@@ -34,7 +34,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：能源转型">能源转型</a> · <a class="tag-link" href="?q=%E7%9F%B3%E6%B2%B9%E4%BE%9B%E7%BB%99&amp;show-results=1" title="全站搜索：石油供给">石油供给</a> · <a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：投资决策">投资决策</a>
 
-<small>来源日期：2026-09-16；补录：2026-09-20</small>
+<small>来源日期：2026-09-16</small>
 
 
 
@@ -46,11 +46,11 @@ toc-depth: 3
 
 #### rupturesRcpp：修复 PELT 变点搜索的提前剪枝 {#r-rupturesrcpp-1-0-3}
 
-rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于最短分段长度时，可能过早剔除后续最优候选点的问题。安装命令为 <code>install.packages(&quot;rupturesRcpp&quot;)</code>。使用旧版分析相关数据的读者可按发布说明复查；截至核验时部分 Windows 二进制仍为 1.0.2，需检查实际版本。这里依据维护者说明，尚未独立实测；统计变点也不自动具有因果解释。
+rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于最短分段长度时，可能过早剔除后续最优候选点的问题。安装命令为 <code>install.packages(&quot;rupturesRcpp&quot;)</code>。使用旧版分析相关数据的读者可按发布说明复查；当时部分 Windows 二进制仍为 1.0.2，需检查实际版本。统计变点也不自动具有因果解释。
 
 标签：<a class="tag-link" href="?q=%E5%8F%98%E7%82%B9%E6%A3%80%E6%B5%8B&amp;show-results=1" title="全站搜索：变点检测">变点检测</a> · <a class="tag-link" href="?q=PELT&amp;show-results=1" title="全站搜索：PELT">PELT</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
 
-<small>来源日期：2026-09-18；补录：2026-09-20</small>
+<small>来源日期：2026-09-18</small>
 
 <a href="https://cran.r-project.org/web/packages/rupturesRcpp/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 
@@ -90,7 +90,7 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 标签：<a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E8%80%81%E9%BE%84%E5%8C%96&amp;show-results=1" title="全站搜索：人口老龄化">人口老龄化</a> · <a class="tag-link" href="?q=%E8%B4%A2%E5%AF%8C%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：财富分布">财富分布</a> · <a class="tag-link" href="?q=%E5%85%A8%E7%90%83%E5%A4%B1%E8%A1%A1&amp;show-results=1" title="全站搜索：全球失衡">全球失衡</a>
 
-<small>来源日期：2026-09-16；补录：2026-09-20</small>
+<small>来源日期：2026-09-16</small>
 
 
 
@@ -106,7 +106,7 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 标签：<a class="tag-link" href="?q=%E8%BF%87%E5%8F%82%E6%95%B0%E5%8C%96&amp;show-results=1" title="全站搜索：过参数化">过参数化</a> · <a class="tag-link" href="?q=%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：线性回归">线性回归</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
 
-<small>来源日期：2026-09-17；补录：2026-09-20</small>
+<small>来源日期：2026-09-17</small>
 
 
 
@@ -122,7 +122,7 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 标签：<a class="tag-link" href="?q=%E5%BC%A0%E9%87%8F%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：张量时间序列">张量时间序列</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E7%BB%9F%E8%AE%A1&amp;show-results=1" title="全站搜索：高维统计">高维统计</a>
 
-<small>来源日期：2026-09-17；补录：2026-09-20</small>
+<small>来源日期：2026-09-17</small>
 
 
 
@@ -138,7 +138,7 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 标签：<a class="tag-link" href="?q=%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：联邦学习">联邦学习</a> · <a class="tag-link" href="?q=%E5%87%BD%E6%95%B0%E5%9E%8B%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：函数型数据">函数型数据</a> · <a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a>
 
-<small>来源日期：2026-09-08；补录：2026-09-20</small>
+<small>来源日期：2026-09-08</small>
 
 
 
@@ -154,7 +154,7 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：算法稳定性">算法稳定性</a> · <a class="tag-link" href="?q=%E6%8A%BD%E6%A0%B7%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：抽样风险">抽样风险</a>
 
-<small>来源日期：2026-09-16；补录：2026-09-20</small>
+<small>来源日期：2026-09-16</small>
 
 
 
@@ -170,7 +170,7 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 标签：<a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E9%87%8F%E6%B1%87%E6%80%BB&amp;show-results=1" title="全站搜索：估计量汇总">估计量汇总</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%9D%87&amp;show-results=1" title="全站搜索：模型平均">模型平均</a> · <a class="tag-link" href="?q=%E6%9D%83%E9%87%8D%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：权重估计">权重估计</a>
 
-<small>来源日期：2026-09-16；补录：2026-09-20</small>
+<small>来源日期：2026-09-16</small>
 
 
 
@@ -186,7 +186,7 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 标签：<a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：保形推断">保形推断</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：风险控制">风险控制</a>
 
-<small>来源日期：2026-09-15；补录：2026-09-20</small>
+<small>来源日期：2026-09-15</small>
 
 
 
@@ -198,11 +198,11 @@ rupturesRcpp 提供离线变点检测。1.0.3 修复 PELT 在候选间隔小于�
 
 #### PyMC 6.3.2：修正 Wald 分布计算与采样卡顿 {#python-pymc-6-3-2}
 
-PyMC 用于贝叶斯概率建模。6.3.2 修正 Wald 分布的均值及初始化参考点中对 alpha 参数的处理，并修复 DEMetropolis 采样器因进度条导致卡住的问题。可用 <code>pip install -U pymc</code> 更新，并在原分析环境核对版本和诊断结果。这里的 Wald 指概率分布，不是 Wald 检验；此条依据官方发布说明，未对修复效果独立实测。
+PyMC 用于贝叶斯概率建模。6.3.2 修正 Wald 分布的均值及初始化参考点中对 alpha 参数的处理，并修复 DEMetropolis 采样器因进度条导致卡住的问题。可用 <code>pip install -U pymc</code> 更新，并在原分析环境核对版本和诊断结果。这里的 Wald 指概率分布，不是 Wald 检验。
 
 标签：<a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%BB%BA%E6%A8%A1&amp;show-results=1" title="全站搜索：贝叶斯建模">贝叶斯建模</a> · <a class="tag-link" href="?q=%E8%BD%AF%E4%BB%B6%E4%BF%AE%E5%A4%8D&amp;show-results=1" title="全站搜索：软件修复">软件修复</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>
 
-<small>来源日期：2026-09-08；补录：2026-09-20</small>
+<small>来源日期：2026-09-08</small>
 
 <a href="https://github.com/pymc-devs/pymc/releases/tag/v6.3.2" target="_blank" rel="noopener noreferrer">官方文档</a>
 

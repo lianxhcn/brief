@@ -18,7 +18,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E6%9D%83&amp;show-results=1" title="全站搜索：决策权">决策权</a> · <a class="tag-link" href="?q=%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：库存管理">库存管理</a>
 
-<small>来源日期：2026-09-28；补录：2026-10-01</small>
+<small>来源日期：2026-09-28</small>
 
 
 
@@ -34,7 +34,7 @@ toc-depth: 3
 
 标签：<a class="tag-link" href="?q=%E7%94%A8%E6%88%B7%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：用户创新">用户创新</a> · <a class="tag-link" href="?q=%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：产品设计">产品设计</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9D%97%E5%8C%96&amp;show-results=1" title="全站搜索：模块化">模块化</a>
 
-<small>来源日期：2026-09-27；补录：2026-10-01</small>
+<small>来源日期：2026-09-27</small>
 
 
 
@@ -46,11 +46,11 @@ toc-depth: 3
 
 #### puremacro 4.3：宏观结构求解与关税福利计算更新 {#python-puremacro-4-3-0}
 
-Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检查、贸易核算及基于支出函数的福利度量。新核算和 Hicksian 福利指标需要显式启用，不能仅升级版本就假定旧脚本自动切换；求解失败也不应被当作有效政策收益。安装为 <code>pip install puremacro==4.3.0</code>。维护者披露该版仍有 11 项既存测试失败及临时处理建议。本期核对发行说明、示例与已知问题，未独立复现，不将维护方测试结果视为普遍正确性证明。
+Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检查、贸易核算及基于支出函数的福利度量。新核算和 Hicksian 福利指标需要显式启用，不能仅升级版本就假定旧脚本自动切换；求解失败也不应被当作有效政策收益。安装为 <code>pip install puremacro==4.3.0</code>。维护者披露该版仍有 11 项既存测试失败及临时处理建议。维护方测试结果并非普遍正确性的证明。
 
 标签：<a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：宏观模型">宏观模型</a> · <a class="tag-link" href="?q=%E8%B4%B8%E6%98%93%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：贸易政策">贸易政策</a> · <a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>
 
-<small>来源日期：2026-09-20；补录：2026-10-01</small>
+<small>来源日期：2026-09-20</small>
 
 <a href="https://pypi.org/project/puremacro/4.3.0/" target="_blank" rel="noopener noreferrer">PyPI</a>
 
@@ -90,7 +90,7 @@ Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检
 
 标签：<a class="tag-link" href="?q=%E5%90%88%E4%BD%9C%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：合作创新">合作创新</a> · <a class="tag-link" href="?q=%E5%88%A9%E7%9B%8A%E7%9B%B8%E5%85%B3%E8%80%85&amp;show-results=1" title="全站搜索：利益相关者">利益相关者</a> · <a class="tag-link" href="?q=%E5%90%88%E6%B3%95%E6%80%A7&amp;show-results=1" title="全站搜索：合法性">合法性</a>
 
-<small>来源日期：2026-09-18；补录：2026-10-01</small>
+<small>来源日期：2026-09-18</small>
 
 
 
@@ -106,7 +106,7 @@ Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检
 
 标签：<a class="tag-link" href="?q=%E7%82%B9%E8%BF%87%E7%A8%8B&amp;show-results=1" title="全站搜索：点过程">点过程</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96&amp;show-results=1" title="全站搜索：正则化">正则化</a> · <a class="tag-link" href="?q=%E9%A2%91%E5%9F%9F%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：频域分析">频域分析</a>
 
-<small>来源日期：2026-09-25；补录：2026-10-01</small>
+<small>来源日期：2026-09-25</small>
 
 
 
@@ -122,7 +122,7 @@ Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检
 
 标签：<a class="tag-link" href="?q=%E9%A2%86%E5%AF%BC%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：领导行为">领导行为</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a> · <a class="tag-link" href="?q=%E8%BE%B9%E7%95%8C%E6%9D%A1%E4%BB%B6&amp;show-results=1" title="全站搜索：边界条件">边界条件</a>
 
-<small>来源日期：2026-09-22；补录：2026-10-01</small>
+<small>来源日期：2026-09-22</small>
 
 
 
@@ -138,7 +138,7 @@ Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检
 
 标签：<a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E5%B7%AE%E8%B7%9D&amp;show-results=1" title="全站搜索：工资差距">工资差距</a>
 
-<small>来源日期：2026-09-29；补录：2026-10-01</small>
+<small>来源日期：2026-09-29</small>
 
 
 
@@ -154,7 +154,7 @@ Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检
 
 标签：<a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%80%BC%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：数值优化">数值优化</a>
 
-<small>来源日期：2026-09-29；补录：2026-10-01</small>
+<small>来源日期：2026-09-29</small>
 
 
 
@@ -170,7 +170,7 @@ Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检
 
 标签：<a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E9%A2%84%E6%9C%9F&amp;show-results=1" title="全站搜索：主观预期">主观预期</a> · <a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a>
 
-<small>来源日期：2026-09-28；补录：2026-10-01</small>
+<small>来源日期：2026-09-28</small>
 
 
 
@@ -182,11 +182,11 @@ Python 包覆盖宏观估计与结构模型，4.3 更新重点是结构求解检
 
 #### polle 1.6.5：动态政策学习的终止事件修正 {#r-polle-1-6-5}
 
-R 包用于学习和评价多阶段处理规则。1.6.5 修正最终结果缺失时早期终止事件的处理，以及警告发生后未保留拟合模型的问题；同时移除 SuperLearner 依赖，并明确 OWL 求解器参数。安装为 <code>install.packages(&quot;polle&quot;)</code>。使用旧流程时应检查依赖、删失处理和求解器设置；双重稳健性仍依赖相应识别与模型条件。本期核对官方帮助、示例和更新说明，未独立运行。
+R 包用于学习和评价多阶段处理规则。1.6.5 修正最终结果缺失时早期终止事件的处理，以及警告发生后未保留拟合模型的问题；同时移除 SuperLearner 依赖，并明确 OWL 求解器参数。安装为 <code>install.packages(&quot;polle&quot;)</code>。使用旧流程时应检查依赖、删失处理和求解器设置；双重稳健性仍依赖相应识别与模型条件。
 
 标签：<a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：政策学习">政策学习</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5&amp;show-results=1" title="全站搜索：双重稳健">双重稳健</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
 
-<small>来源日期：2026-09-30；补录：2026-10-01</small>
+<small>来源日期：2026-09-30</small>
 
 <a href="https://cran.r-project.org/web/packages/polle/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 
@@ -196,11 +196,11 @@ R 包用于学习和评价多阶段处理规则。1.6.5 修正最终结果缺失
 
 #### confoundvis 0.2.0：从回归模型生成混杂敏感性图 {#r-confoundvis-0-2-0}
 
-0.2.0 新增从 <code>lm</code> 拟合直接计算部分 R 平方敏感性路径和影响阈值的接口，提供协变量参照、稳健性临界点及文字报告，并接收 sensemakr、konfound 与 EValue 的结果。安装为 <code>install.packages(&quot;confoundvis&quot;)</code>。这些图表描述假设混杂强度下的结果变化，不能证明未观测混杂不存在；不同框架的强度尺度也不能直接混用。已核对官方示例与 NEWS，未独立运行。
+0.2.0 新增从 <code>lm</code> 拟合直接计算部分 R 平方敏感性路径和影响阈值的接口，提供协变量参照、稳健性临界点及文字报告，并接收 sensemakr、konfound 与 EValue 的结果。安装为 <code>install.packages(&quot;confoundvis&quot;)</code>。这些图表描述假设混杂强度下的结果变化，不能证明未观测混杂不存在；不同框架的强度尺度也不能直接混用。
 
 标签：<a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>
 
-<small>来源日期：2026-09-30；补录：2026-10-01</small>
+<small>来源日期：2026-09-30</small>
 
 <a href="https://cran.r-project.org/web/packages/confoundvis/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 

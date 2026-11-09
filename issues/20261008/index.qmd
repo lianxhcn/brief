@@ -18,7 +18,7 @@ AER 理论论文研究奖项分配中的信息甄别：当事人知道谁应获�
 
 标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a>
 
-<small>来源日期：2026-10-01；补录：2026-10-08</small>
+<small>来源日期：2026-10-01</small>
 
 
 
@@ -34,7 +34,7 @@ Management Science 论文用博弈模型研究平台向服务商出售客户线�
 
 标签：<a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：平台经济">平台经济</a> · <a class="tag-link" href="?q=%E5%8F%8C%E8%BE%B9%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：双边市场">双边市场</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a>
 
-<small>来源日期：2026-10-05；补录：2026-10-08</small>
+<small>来源日期：2026-10-05</small>
 
 
 
@@ -50,7 +50,7 @@ Contemporary Accounting Research 论文将美国上市公司的联合专利与�
 
 标签：<a class="tag-link" href="?q=%E5%90%88%E4%BD%9C%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：合作创新">合作创新</a> · <a class="tag-link" href="?q=%E7%A0%94%E5%8F%91%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：研发披露">研发披露</a> · <a class="tag-link" href="?q=%E8%81%94%E5%90%88%E4%B8%93%E5%88%A9&amp;show-results=1" title="全站搜索：联合专利">联合专利</a>
 
-<small>来源日期：2026-09-29；补录：2026-10-08</small>
+<small>来源日期：2026-09-29</small>
 
 
 
@@ -62,11 +62,11 @@ Contemporary Accounting Research 论文将美国上市公司的联合专利与�
 
 #### rcsplot：样条曲线的估计样本与绘图区间要一致 {#stata-rcsplot-1-0}
 
-Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。安装为 <code>ssc install rcsplot</code>，要求 Stata 16 及以上。默认先按暴露变量第 1–99 百分位截尾，再用同一区间估计和绘图，并区分总体与非线性检验。使用前应明确截尾改变了哪个样本，不能把曲线形状直接当作因果关系；官方帮助含可运行例子，本轮未独立实测。
+Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poisson 和 Cox 模型。安装为 <code>ssc install rcsplot</code>，要求 Stata 16 及以上。默认先按暴露变量第 1–99 百分位截尾，再用同一区间估计和绘图，并区分总体与非线性检验。使用前应明确截尾改变了哪个样本，不能把曲线形状直接当作因果关系；官方帮助含可运行例子。
 
 标签：<a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=%E9%99%90%E5%88%B6%E6%80%A7%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;show-results=1" title="全站搜索：限制性三次样条">限制性三次样条</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a>
 
-<small>来源日期：2026-10-04；补录：2026-10-08</small>
+<small>来源日期：2026-10-04</small>
 
 <a href="https://ideas.repec.org/c/boc/bocode/s459920.html" target="_blank" rel="noopener noreferrer">官方文档</a>
 
@@ -76,11 +76,11 @@ Stata 命令拟合并绘制限制性三次样条，可用于线性、logit、Poi
 
 #### spaci 0.2.0：同时考虑空间混杂与邻近干扰 {#r-spaci-0-2-0}
 
-R 包提供 iDAPS 匹配和 recoverU+ 估计，用于同时存在空间混杂与邻近处理干扰的观察数据。0.2.0 新增空间 HAC 方差、空间区块 bootstrap 和条件随机化检验。安装为 <code>install.packages(&quot;spaci&quot;)</code>；官网提供模拟数据示例。点估计、暴露映射和空间相关推断各有假设，默认独立同分布标准误不能直接照搬。本轮核验文档与版本，未独立实测；部分 Windows 二进制仍显示旧版，安装后须核对版本。
+R 包提供 iDAPS 匹配和 recoverU+ 估计，用于同时存在空间混杂与邻近处理干扰的观察数据。0.2.0 新增空间 HAC 方差、空间区块 bootstrap 和条件随机化检验。安装为 <code>install.packages(&quot;spaci&quot;)</code>；官网提供模拟数据示例。点估计、暴露映射和空间相关推断各有假设，默认独立同分布标准误不能直接照搬。部分 Windows 二进制仍显示旧版，安装后须核对版本。
 
 标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a>
 
-<small>来源日期：2026-10-07；补录：2026-10-08</small>
+<small>来源日期：2026-10-07</small>
 
 <a href="https://cran.r-project.org/web/packages/spaci/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 
@@ -100,7 +100,7 @@ The Annals of Statistics 论文从潜在结果和随机分配机制出发分析�
 
 标签：<a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：随机化推断">随机化推断</a> · <a class="tag-link" href="?q=%E5%BB%B6%E7%BB%AD%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：延续效应">延续效应</a>
 
-<small>来源日期：2026-10-01；补录：2026-10-08</small>
+<small>来源日期：2026-10-01</small>
 
 
 
@@ -116,7 +116,7 @@ The Annals of Statistics 论文研究高斯随机场之间的回归：未观测�
 
 标签：<a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：空间混杂">空间混杂</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%87%B4%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：一致估计">一致估计</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：局部差分">局部差分</a>
 
-<small>来源日期：2026-10-01；补录：2026-10-08</small>
+<small>来源日期：2026-10-01</small>
 
 
 
@@ -132,7 +132,7 @@ Strategic Management Journal 论文以美国疫苗开发计划 Operation Warp Sp
 
 标签：<a class="tag-link" href="?q=%E5%88%9B%E6%96%B0%E7%94%9F%E6%80%81&amp;show-results=1" title="全站搜索：创新生态">创新生态</a> · <a class="tag-link" href="?q=%E6%94%BF%E5%BA%9C%E5%8D%8F%E8%B0%83&amp;show-results=1" title="全站搜索：政府协调">政府协调</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%88%98%E7%95%A5&amp;show-results=1" title="全站搜索：组织战略">组织战略</a>
 
-<small>来源日期：2026-10-01；补录：2026-10-08</small>
+<small>来源日期：2026-10-01</small>
 
 
 
@@ -148,7 +148,7 @@ Strategic Management Journal 论文以美国疫苗开发计划 Operation Warp Sp
 
 标签：<a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：缺失数据">缺失数据</a>
 
-<small>来源日期：2026-10-06；补录：2026-10-08</small>
+<small>来源日期：2026-10-06</small>
 
 
 
@@ -164,7 +164,7 @@ Strategic Management Journal 论文以美国疫苗开发计划 Operation Warp Sp
 
 标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：网络实验">网络实验</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a>
 
-<small>来源日期：2026-10-05；补录：2026-10-08</small>
+<small>来源日期：2026-10-05</small>
 
 
 
@@ -180,7 +180,7 @@ CEPR 工作论文区分 PPML 点估计的一致性条件与常规推断所需条
 
 标签：<a class="tag-link" href="?q=PPML&amp;show-results=1" title="全站搜索：PPML">PPML</a> · <a class="tag-link" href="?q=%E5%8E%9A%E5%B0%BE%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：厚尾分布">厚尾分布</a> · <a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统计推断">统计推断</a>
 
-<small>来源日期：2026-09-29；补录：2026-10-08</small>
+<small>来源日期：2026-09-29</small>
 
 
 
@@ -192,11 +192,11 @@ CEPR 工作论文区分 PPML 点估计的一致性条件与常规推断所需条
 
 #### SeqExpMatch 停止维护：顺序实验项目需留意迁移 {#r-seqexpmatch-0-1-1-1}
 
-CRAN 的 0.1.1.1 版本已明确将 SeqExpMatch 标为停止维护，并建议转向 EDI。旧包用于顺序两组实验的随机分配、即时匹配和相应推断。已有复现项目宜先保留锁定环境、记录原函数与随机种子，再独立测试迁移结果；不要为了追新直接替换正在使用的设计。可用 <code>packageVersion(&quot;SeqExpMatch&quot;)</code> 核对版本。本条是维护状态提醒，不是新方法或性能认证，本轮未独立实测。
+CRAN 的 0.1.1.1 版本已明确将 SeqExpMatch 标为停止维护，并建议转向 EDI。旧包用于顺序两组实验的随机分配、即时匹配和相应推断。已有复现项目宜先保留锁定环境、记录原函数与随机种子，再独立测试迁移结果；不要为了追新直接替换正在使用的设计。可用 <code>packageVersion(&quot;SeqExpMatch&quot;)</code> 核对版本。
 
 标签：<a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E9%A1%BA%E5%BA%8F%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：顺序实验">顺序实验</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a>
 
-<small>来源日期：2026-10-07；补录：2026-10-08</small>
+<small>来源日期：2026-10-07</small>
 
 <a href="https://cran.r-project.org/web/packages/SeqExpMatch/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
 

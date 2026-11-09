@@ -52,13 +52,13 @@ def render_collection(data):
     for key,label in LABELS.items():
         n=sum(r['category']==key for r in data['entries'])
         lines.append(f'- [{label} ({n} 条)](#{key})')
-    lines += ['', '合计 '+str(len(data['entries']))+' 条。同一成果在栏目索引中仅计一次。','']
+    lines += ['', '合计 '+str(len(data['entries']))+' 条。','']
     for key,label in LABELS.items():
         lines += [f'## {label} {{#{key}}}', '']
         for row in data['entries']:
             if row['category'] != key:continue
             item=resolve(row)
-            lines += ['来源日期：'+row['source_date']+'；收录日期：'+row['added_date'],'']
+            lines += ['来源日期：'+row['source_date'],'']
             lines += render_item(item,key,True,heading_level=3,show_dates=False)
     from website_promotions import render_promotion
     lines += [render_promotion(),'']

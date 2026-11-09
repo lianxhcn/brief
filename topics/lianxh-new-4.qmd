@@ -23,7 +23,7 @@ title: "新推文 · 第 4 页"
 <h3>Stata新命令tvpreg：时变参数回归分析</h3>
 
 <p class="catalog-meta">期次日期：2026-10-02</p>
-<p>文章介绍时变参数回归命令 <code>tvpreg</code>，将固定系数扩展为随时间变化的参数路径，并结合 TVP-VAR、局部投影、工具变量与弱工具变量场景解释语法和图形输出。读者可据此区分参数不稳定与离散结构突变，了解 <code>tvpplot</code> 和 <code>predict</code> 的用法。应用仍需核对时间序列设定、工具变量有效性及所用模型的条件；本期阅读推文，未重新运行随文示例。</p>
+<p>文章介绍时变参数回归命令 <code>tvpreg</code>，将固定系数扩展为随时间变化的参数路径，并结合 TVP-VAR、局部投影、工具变量与弱工具变量场景解释语法和图形输出。读者可据此区分参数不稳定与离散结构突变，了解 <code>tvpplot</code> 和 <code>predict</code> 的用法。应用仍需核对时间序列设定、工具变量有效性及所用模型的条件。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=tvpreg&amp;show-results=1" title="全站搜索：tvpreg">tvpreg</a> · <a class="tag-link" href="?q=%E6%97%B6%E5%8F%98%E5%8F%82%E6%95%B0&amp;show-results=1" title="全站搜索：时变参数">时变参数</a> · <a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a></p>
 <p class="catalog-actions"><a href="../issues/20261002/#post-1949">查看本期</a><a href="https://www.lianxh.cn/details/1949.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
@@ -87,7 +87,7 @@ title: "新推文 · 第 4 页"
 <h3>87% 未违约与 13% 违约：投研 AI 的判断会相同吗？</h3>
 
 <p class="catalog-meta">期次日期：2026-09-24</p>
-<p>文章以经济含义相同的正负表述为对照，介绍投研 Agent 的表述敏感性压力测试。测试需冻结模型、工具和数据环境，重复运行并比较评分、决策翻转及证据搜索路径，同时用同一表述的波动作为基线。文中示意数字不代表本期实测；稳定性检查也不能替代对数据、识别方法和投资结论的人工审核。</p>
+<p>文章以经济含义相同的正负表述为对照，介绍投研 Agent 的表述敏感性压力测试。测试需冻结模型、工具和数据环境，重复运行并比较评分、决策翻转及证据搜索路径，同时用同一表述的波动作为基线。文中示意数字不能作为实测结果；稳定性检查也不能替代对数据、识别方法和投资结论的人工审核。</p>
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E7%A0%94%20Agent&amp;show-results=1" title="全站搜索：投研 Agent">投研 Agent</a> · <a class="tag-link" href="?q=%E8%A1%A8%E8%BF%B0%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：表述偏差">表述偏差</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a></p>
 <p class="catalog-actions"><a href="../issues/20260924/#post-1939">查看本期</a><a href="https://www.lianxh.cn/details/1939.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>

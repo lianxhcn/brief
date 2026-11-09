@@ -104,8 +104,9 @@ def catalog_citation(item, added_date=None):
     title = m['title'].rstrip()
     text = f"{names} ({m['year']}). {title}" + ('' if title.endswith(('.', '?', '!')) else '.') + f' {source}.'
     # 原字段是什么精度就展示什么精度，缺失不拿收录日兜底。
-    source_date = item.get('published_date') or item.get('release_date') or '待核'
+    source_date = item.get('published_date') or item.get('release_date')
     label = '提交/版本日期' if working else '发表日期'
-    collected = added_date or item.get('added_date') or '待核'
+    date_line = ('<p class="catalog-meta">' + html.escape(f'{label}：{source_date}') + '</p>'
+                 if source_date and source_date != 'unknown' else '')
     return ('<p class="catalog-citation">' + html.escape(text) + '</p>'
-            + '<p class="catalog-meta">' + html.escape(f'{label}：{source_date} · 收录日期：{collected}') + '</p>')
+            + date_line)
