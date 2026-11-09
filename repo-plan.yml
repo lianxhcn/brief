@@ -1,25 +1,24 @@
-task: daily-brief-20261109
+task: hide-public-short-issue-notice-20261109
 repository_mode: single
 local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
 branch: main
-expected_base: a8f46774b627046fe8880fe933343a71aa81cc49
-authorization: daily production and Pages publication under D-20261031-02
+expected_base: 9316ae1118f5db2e4eb4dad976d2dee10576d00c
+authorization: User requested removal of editorial shortage notices from the published website; existing project publication authorization applies.
 work_scope:
-  - content/issues/2026-11-09.json
+  - docs/content-rules.md
+  - docs/ui-rules.md
+  - docs/decision-log.md
+  - scripts/render_issue_pages.py
+  - scripts/test_site_revision.py
   - issues/20261109/index.qmd
-  - publish/wechat/2026-11-09.txt
-  - content/reviewed-drafts/2026-11-09.json # C-09 public-fact draft, only for a short issue
-  - config/website-content.json
-  - index.qmd, archive.qmd, topics/: generated reader indices and pagination
-  - issues/*/index.qmd, history/*/index.qmd: only normal approved course expiry if any
   - repo-plan.yml
+publication_rules:
+  - Keep shortage evidence and quality checks; omit editorial notices from reader pages and search snippets.
+  - Preserve formal issue JSON, reviewed drafts, TXT, editorial events, and shared files.
+  - Validate externally and review desktop/mobile before controlled commit and push.
+  - Verify exact-commit Pages and live page, homepage, and search index.
+  - Website presentation revision only; no new issue, collection, delivery, or scheduler change.
 excluded:
   - ops-local/, logs/, .venv/, _site/, .quarto/
-  - private source snapshots, proposals, personal delivery paths and credentials
-publication_rules:
-  - independent editorial approval, exact-date validation and isolated desktop/mobile acceptance before push
-  - exact-commit Pages success and live home/date/search proof before online completion
-  - reviewed four-channel file delivery after website proof; no account login, sending or posting
-  - keep the sole daily 07:15 heartbeat; no new timer or rejected frequency retry
-  - preserve historical content, TXT, event bytes, existing shared originals and unknowns
+  - private evidence, configuration, personal paths and credentials

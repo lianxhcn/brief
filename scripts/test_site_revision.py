@@ -46,6 +46,21 @@ class SiteRevisionTests(unittest.TestCase):
             self.assertEqual(check_website(i,d),[])
             i['discovery']=[r for r in i['discovery'] if r['category']!='software']
             self.assertTrue(check_website(i,d))
+    def test_short_issue_keeps_facts_without_public_editorial_notice(self):
+        from render_issue_pages import render_page
+        data=issue()
+        data['short_issue']=dict(reason='内部选稿原因，不进入读者页面',
+                                 actual_count=4,searched_sufficiently=True)
+        before=copy.deepcopy(data)
+        page=render_page(data)
+        self.assertNotIn('本期不足',page)
+        self.assertNotIn(data['short_issue']['reason'],page)
+        self.assertIn('## 本期重点',page)
+        self.assertIn('## 延伸阅读',page)
+        for category in ('lianxh_posts','papers','tools','research_resources','conference_calls'):
+            for item in data.get(category,[]):
+                self.assertIn(item['id'],page)
+        self.assertEqual(data,before)
     def test_total_upper_and_duplicate(self):
         i=issue();i['papers']+=copy.deepcopy(i['papers'])
         errors=check_website(i)
