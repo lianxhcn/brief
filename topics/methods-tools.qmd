@@ -8,9 +8,25 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 14 页 · 共 134 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>causaldef 0.3.0：策略后悔界修正与代理诊断的边界</h3>
+
+<p class="catalog-meta">期次日期：2026-11-10</p>
+<p>causaldef 把重叠、负对照和敏感性诊断连接到决策损失。维护者在 0.3.0 公告中修正策略后悔界的常数及相关有限样本、速率接口，旧版界值需重新检查。关键是区分理论实验缺陷与可计算的 PS-TV 代理：后者主要反映估计倾向得分下的重叠和平衡，不能据低分认定没有未测混杂，代入理论界也只是附加假设下的启发式计算。多方法比较后默认取最小代理值还会乐观，宜预先指定方法。部分 README 示例输出仍沿用旧常数，应以 0.3.0 手册和版本代码为准；部分平台二进制仍为旧版，安装后应核对版本；0.3.0 源码可用 <code>install.packages(&quot;causaldef&quot;, type = &quot;source&quot;)</code> 获取。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：因果诊断">因果诊断</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E6%8D%9F%E5%A4%B1&amp;show-results=1" title="全站搜索：决策损失">决策损失</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E4%BF%AE%E6%AD%A3&amp;show-results=1" title="全站搜索：版本修正">版本修正</a></p>
+<p class="catalog-actions"><a href="../issues/20261110/#tool-causaldef-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=causaldef" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>Stata fereg 0.5.3：高维固定效应与 PPML 恢复修订</h3>
+
+<p class="catalog-meta">期次日期：2026-11-10</p>
+<p>Johannes Schmieder 的 fereg 为 Stata 提供高维固定效应 OLS/WLS 与配套 feppml，使用同套原生 Rust 插件。0.5.3 调整 PPML 保存分类固定效应时的有界 MAP、CG 恢复流程，保持原数值验收与迭代预算；不意味着所有模型都会加速。使用需 Stata 15 起，宜锁定维护者 v0.5.3 标签并在新会话安装、自检。Windows 并行读数限合格的 Stata/MP 19 GUI 条件，加载期间 Break 可能延迟或不可用；其他 Windows 主机用串行读取。该项目与 Leo Liu 的同名 R/多语言 fereg 并非同一原始引擎，同名 Stata 命令切勿混装；性能应结合具体平台和设计判断。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：高维固定效应">高维固定效应</a> · <a class="tag-link" href="?q=PPML&amp;show-results=1" title="全站搜索：PPML">PPML</a> · <a class="tag-link" href="?q=%E5%8E%9F%E7%94%9F%E6%8F%92%E4%BB%B6&amp;show-results=1" title="全站搜索：原生插件">原生插件</a></p>
+<p class="catalog-actions"><a href="../issues/20261110/#tool-stata-fereg-0-5-3">查看本期</a><a href="https://github.com/johannes-schmieder/fereg/releases/tag/v0.5.3" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>slidegraph：用透明度生成版面稳定的分步展示图</h3>
 
@@ -75,24 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：Stata 环境">Stata 环境</a> · <a class="tag-link" href="?q=%E6%89%A9%E5%B1%95%E5%8C%85%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：扩展包迁移">扩展包迁移</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a></p>
 <p class="catalog-actions"><a href="../issues/20261104/#tool-pkgtransfer-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459961.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>diff-diff 4.0：升级前先核对 DiD 结果接口</h3>
-
-<p class="catalog-meta">期次日期：2026-11-04</p>
-<p>diff-diff 把多种 DiD 估计、事件研究与诊断整理为 Python 接口。4.0 统一主要结果字段，并把多个估计量的聚合移到拟合后的 results.aggregate()；旧参数、部分结果属性及旧交错三重差分对象不再兼容。适合正在迁移分析或报告脚本的读者，升级前应按具体估计量核对变更，保留旧环境与结果。接口统一不代表识别假设或推断自动有效；前趋势不显著也不能证明平行趋势。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=DID&amp;show-results=1" title="全站搜索：DID">DID</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：版本迁移">版本迁移</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%8E%A5%E5%8F%A3&amp;show-results=1" title="全站搜索：结果接口">结果接口</a></p>
-<p class="catalog-actions"><a href="../issues/20261104/#tool-diff-diff-4-0-0">查看本期</a><a href="https://pypi.org/project/diff-diff/4.0.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>ctools 1.2.4：Stata 并行工具的兼容性更新</h3>
-
-<p class="catalog-meta">期次日期：2026-11-04</p>
-<p>ctools 用 C 插件提供排序、合并、固定效应回归等命令。1.2.4 扩展重抽样、IV/PPML 后估计与分位数诊断，并修复部分文件格式边界，适合先在副本中核对大数据工作流。需要 Stata 14.1 及匹配平台插件，更新后须重启。它并非所有原命令的等价替换：creghdfe 只支持单维聚类，部分语法、求解器和数值结果可能不同。作者报告的倍速与测试结果仍须结合具体数据核对，不能直接据此替换已有估计脚本。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E5%B7%A5%E5%85%B7&amp;show-results=1" title="全站搜索：Stata 工具">Stata 工具</a> · <a class="tag-link" href="?q=%E5%85%BC%E5%AE%B9%E6%80%A7&amp;show-results=1" title="全站搜索：兼容性">兼容性</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：大数据处理">大数据处理</a></p>
-<p class="catalog-actions"><a href="../issues/20261104/#tool-ctools-1-2-4">查看本期</a><a href="https://github.com/mdroste/stata-ctools/releases/tag/v1.2.4" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 14 页 · 共 134 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

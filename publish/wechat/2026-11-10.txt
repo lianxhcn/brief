@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.11.10
+
+📰 01｜论文 · Journal of Accounting Research：保护公共参与的反 SLAPP 法规如何影响企业污染治理？
+用双重差分考察反 SLAPP 法规对公众监督和企业有毒排放的影响，并区分治理改进与减产、排放转移。可借鉴法律制度与非正式监督相结合的研究设计。
+引文：Chen, Chen & Sun (2026). The anti-SLAPP statutes and corporate environmental policies. Journal of Accounting Research.
+主页： https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70095 
+
+📰 02｜论文 · Journal of the American Statistical Association：检验阴性设计如何对未测混杂开展敏感性分析？
+针对检验阴性设计，比较不同识别假设下的因果优势比，并结合两类未测混杂敏感性分析形成效应界限。目标子总体、敏感参数和异质性限制须明确。
+引文：Kundu et al. (2026). Sensitivity analysis for the test-negative design. Journal of the American Statistical Association, forthcoming.
+主页： https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2754151 
+
+📰 03｜论文 · arXiv：AI 代理执行到哪一步，额外核查或纠正才有价值？
+用轨迹内随机干预数据评估何时验证或纠正 AI 代理，关注最终结果而非静态基准分数。干预效果随状态变化，不能直接外推为通用安全保证。
+引文：Sawarni et al. (2026). Knowing when to intervene: Causal evaluation of AI agents. arXiv.
+主页： https://arxiv.org/abs/2611.09792v1 
+
+📦 04｜软件 · R：causaldef 0.3.0：策略后悔界修正与代理诊断的边界
+维护者修正策略后悔界的计算常数，旧版界值需重新检查。PS-TV 只是重叠与平衡代理，不证明无混杂；部分 README 示例仍是旧输出，应核对 0.3.0 版本。
+版本：R / causaldef 0.3.0；发布：2026-11-09
+CRAN： https://cran.r-project.org/package=causaldef 
+
+📦 05｜命令 · Stata：Stata fereg 0.5.3：高维固定效应与 PPML 恢复修订
+为 Stata 提供高维固定效应与 PPML；0.5.3 修订保存分类效应的恢复流程。应锁定 Schmieder 的标签安装，并核对 Windows 加载限制，勿与 Leo Liu 的同名项目混装。
+版本：Stata / fereg 0.5.3；发布：2026-11-07
+GitHub： https://github.com/johannes-schmieder/fereg/releases/tag/v0.5.3 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261110/ 
