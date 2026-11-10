@@ -1,0 +1,22 @@
+📙 连享会 · 快讯 | 2026.11.11
+
+✍️ 01｜新推文：FinanceDatabase：全球金融产品目录的检索与覆盖核验
+用固定快照说明怎样核对金融产品目录的覆盖与字段质量，再检索多市场代码和 ETF 候选。记录条数不等于公司或产品数，目录也不提供实时行情。
+阅读全文： https://www.lianxh.cn/details/1989.html 
+
+✍️ 02｜新推文：用 Astra 建一条产线：一句话要求怎样变成每分钟 12 个红瓶
+从配比计算、施工排错到验收断言，展示人与 AI 怎样分段协作，并给出科研任务说明卡。结论限于有工具、资料和人参与的短时游戏案例，不证明科研效果或通用智能。
+阅读全文： https://www.lianxh.cn/details/1990.html 
+
+📰 03｜论文 · Quarterly Journal of Economics：保险公司脆弱性如何把气候风险传导到按揭市场？
+将按揭与保险数据连接起来，研究脆弱保险公司、评级规则与贷款风险转移如何共同影响灾后违约。可借鉴跨市场风险传导的研究思路，解释仍依赖自然实验及当地制度条件。
+引文：Sastry, Sen & Tenekedjieva (2026). When insurers exit: Climate losses, fragile insurers, and mortgage markets. Quarterly Journal of Economics, forthcoming.
+主页： https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjag053/9027753 
+
+📦 04｜软件 · R：hmmTMB 2.0.0：平滑参数修正与隐状态预测
+2.0.0 修正多平滑项下可能影响平滑参数的计算，并加入未来状态与观测分布的预测接口。含高斯场时默认带状近似需检查带宽；Windows 当前二进制仍旧版，源码安装需要编译工具。
+版本：R / hmmTMB 2.0.0；发布：2026-11-10
+CRAN： https://cran.r-project.org/package=hmmTMB 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261111/ 

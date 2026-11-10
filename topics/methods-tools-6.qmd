@@ -8,9 +8,17 @@ title: "新方法 · 第 6 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>qdfauction：从出价分布走向拍卖结构分析</h3>
+
+<p class="catalog-meta">期次日期：2026-10-23</p>
+<p>该包提供多类非参数分位数密度估计，并用于第一价格密封拍卖中的私人估值恢复、密度与置信带分析。官方示例使用木材拍卖数据。独立或相关估值、风险中性或厌恶对应不同设定，不能仅凭函数输出忽略结构假设。 安装命令为 <code>install.packages(&quot;qdfauction&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261023/#tool-qdfauction-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=qdfauction" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>fereg：使用 fixest 风格语法估计高维固定效应</h3>
 
@@ -83,16 +91,8 @@ title: "新方法 · 第 6 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：回归输出">回归输出</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：结果可视化">结果可视化</a></p>
 <p class="catalog-actions"><a href="../issues/20261021/#tool-gtregression-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=gtregression" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>scf：美国消费者金融调查的加权与多重插补分析</h3>
-
-<p class="catalog-meta">期次日期：2026-10-20</p>
-<p>R 包 scf 将美国消费者金融调查的多重插补数据与重复权重组织起来，提供加权描述统计、回归与图表接口。可用 <code>install.packages(&quot;scf&quot;)</code> 安装，参考 <code>scf_download(2022)</code> 下载示例。CRAN 源码版本为 1.2.0，部分二进制包仍为旧版，安装后应检查版本。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：家庭金融">家庭金融</a> · <a class="tag-link" href="?q=%E5%A4%8D%E6%9D%82%E6%8A%BD%E6%A0%B7&amp;show-results=1" title="全站搜索：复杂抽样">复杂抽样</a></p>
-<p class="catalog-actions"><a href="../issues/20261020/#tool-scf-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=scf" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

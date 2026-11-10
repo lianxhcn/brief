@@ -8,9 +8,25 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 81 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 83 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>用 Astra 建一条产线：一句话要求怎样变成每分钟 12 个红瓶</h3>
+
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>文章以 Astra 在《异星工厂》中建设产线的协作记录，说明怎样把目标拆成配比与资源约束、安排脚本执行、根据物流故障修改方案，再把错误加入验收断言，并提供科研小任务的说明卡。案例有预置资料、操作接口、模组及人持续参与，结果仅支持作者所述短时测试；模型版本、起始库存与各工具贡献未分离，不能由此推断长期稳定性、通用智能层级或科研任务效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%20Agent&amp;show-results=1" title="全站搜索：AI Agent">AI Agent</a> · <a class="tag-link" href="?q=%E4%BB%BB%E5%8A%A1%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：任务分解">任务分解</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E9%AA%8C%E6%94%B6&amp;show-results=1" title="全站搜索：结果验收">结果验收</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#lianxh-1990">查看本期</a><a href="https://www.lianxh.cn/details/1990.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>FinanceDatabase：全球金融产品目录的检索与覆盖核验</h3>
+
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>文章以 FinanceDatabase 2.5.1 的固定快照，演示如何用外部 A 股名单核对目录覆盖、区分证券类别与字段缺失，再检索多市场代码和中国相关 ETF。覆盖率依赖名单与样本日，库标未退市不等于交易所确认的当前状态；名称、ISIN、挂牌记录与公司或产品数量也不能互换。它提供产品目录及核查线索，行情和财报时间序列需另找来源，关键词命中仍须核对投资范围与重复挂牌。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：金融数据">金融数据</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E8%A6%86%E7%9B%96&amp;show-results=1" title="全站搜索：样本覆盖">样本覆盖</a> · <a class="tag-link" href="?q=%E8%AF%81%E5%88%B8%E8%BA%AB%E4%BB%BD&amp;show-results=1" title="全站搜索：证券身份">证券身份</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#lianxh-1989">查看本期</a><a href="https://www.lianxh.cn/details/1989.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>大模型时代：大厂还需要经济学家吗？</h3>
 
@@ -75,24 +91,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%9A%E6%9C%9F%20DID&amp;show-results=1" title="全站搜索：多期 DID">多期 DID</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2&amp;show-results=1" title="全站搜索：文献检索">文献检索</a> · <a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E6%9D%90%E6%96%99&amp;show-results=1" title="全站搜索：复现材料">复现材料</a></p>
 <p class="catalog-actions"><a href="../issues/20261029/#lianxh-1981">查看本期</a><a href="https://www.lianxh.cn/details/1981.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>Lieflat-Charts：让 AI 画图保持统一风格的 Skill</h3>
-
-<p class="catalog-meta">期次日期：2026-10-22</p>
-<p>推文介绍模板驱动的绘图 Skill，用金砖五国人均 GDP 演示黑白论文图、彩色论文图和报告图的转换。可按图型编号统一样式，再调整配色和版面；图型是否合适、数据单位与结论是否匹配，仍须人工核对。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：数据可视化">数据可视化</a> · <a class="tag-link" href="?q=Agent%20Skill&amp;show-results=1" title="全站搜索：Agent Skill">Agent Skill</a></p>
-<p class="catalog-actions"><a href="../issues/20261022/#lianxh-1975">查看本期</a><a href="https://www.lianxh.cn/details/1975.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>LLM 文本标注：准确率很高，回归结论就可靠吗？</h3>
-
-<p class="catalog-meta">期次日期：2026-10-22</p>
-<p>推文用教学反例说明：相同准确率甚至相同混淆矩阵，仍可能对应方向相反的回归系数。文章给出独立人工验证、分组误判检查和固定样本的提示词敏感性分析，并介绍 DSL 校正的条件；附无需调用 API 的 Python 示例。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：人工验证">人工验证</a></p>
-<p class="catalog-actions"><a href="../issues/20261022/#lianxh-1976">查看本期</a><a href="https://www.lianxh.cn/details/1976.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 81 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 83 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -8,9 +8,17 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>pkgtransfer：为新电脑整理 Stata 扩展包安装来源</h3>
+
+<p class="catalog-meta">期次日期：2026-11-04</p>
+<p>pkgtransfer 读取 PLUS 目录的 stata.trk，为已安装扩展包生成在线安装脚本，或整理离线安装脚本与 ZIP，适合换电脑时盘点依赖。它迁移的是安装来源，不是精确版本快照；仅处理跟踪文件中的包，不能替代数据、许可证与完整环境归档。download(local) 仍可能联网读取平台描述或插件。restore 会改写本机跟踪文件并先备份，执行前须理解范围。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：Stata 环境">Stata 环境</a> · <a class="tag-link" href="?q=%E6%89%A9%E5%B1%95%E5%8C%85%E8%BF%81%E7%A7%BB&amp;show-results=1" title="全站搜索：扩展包迁移">扩展包迁移</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%A4%8D%E7%8E%B0&amp;show-results=1" title="全站搜索：研究复现">研究复现</a></p>
+<p class="catalog-actions"><a href="../issues/20261104/#tool-pkgtransfer-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459961.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>diff-diff 4.0：升级前先核对 DiD 结果接口</h3>
 
@@ -83,16 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=DiD&amp;show-results=1" title="全站搜索：DiD">DiD</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E6%B5%81%E7%A8%8B&amp;show-results=1" title="全站搜索：分析流程">分析流程</a></p>
 <p class="catalog-actions"><a href="../issues/20261101/#tool-diffindiff-2-5-9">查看本期</a><a href="https://pypi.org/project/diffindiff/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>forecastpanel：比较面板预测中的异质性与估计误差</h3>
-
-<p class="catalog-meta">期次日期：2026-10-31</p>
-<p>forecastpanel 将个体回归、合并回归、固定效应、经验贝叶斯及组合预测放进统一接口，并提供滚动评估与预测误差比较，适合研究参数异质性和短时间维度下的估计噪声。多步预测仍依赖未来解释变量情景；文档中的 bootstrap 区间不覆盖跨个体冲击相关性。复现表现为作者报告，使用时应结合自身数据检验。安装为 <code>pip install forecastpanel</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：面板预测">面板预测</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E7%BB%84%E5%90%88&amp;show-results=1" title="全站搜索：预测组合">预测组合</a></p>
-<p class="catalog-actions"><a href="../issues/20261031/#tool-forecastpanel-0-1-1">查看本期</a><a href="https://pypi.org/project/forecastpanel/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

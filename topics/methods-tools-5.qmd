@@ -8,9 +8,17 @@ title: "新方法 · 第 5 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>ragR：在 R 中连接文档检索、问答与评估</h3>
+
+<p class="catalog-meta">期次日期：2026-10-25</p>
+<p>ragR 将文档导入、文本分块、嵌入存储、检索问答和评估组织成 R 流程，包含 R 原生向量存储及问答日志。0.1.1 修复 RAGAS 风格评估 JSON 输出截断的问题。可用于给研究资料建立可检查的问答流程；模型评估分数不能代替人工核对引文与答案，外部 API 调用还需自行配置。安装入口为 <code>install.packages(&quot;ragR&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=RAG&amp;show-results=1" title="全站搜索：RAG">RAG</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：文本分析">文本分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261025/#tool-ragr-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=ragR" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>arrow 26：文件接口弃用与分析修复需留意</h3>
 
@@ -83,16 +91,8 @@ title: "新方法 · 第 5 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%BA%93&amp;show-results=1" title="全站搜索：数据库">数据库</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a></p>
 <p class="catalog-actions"><a href="../issues/20261024/#tool-duckdb-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=duckdb" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>qdfauction：从出价分布走向拍卖结构分析</h3>
-
-<p class="catalog-meta">期次日期：2026-10-23</p>
-<p>该包提供多类非参数分位数密度估计，并用于第一价格密封拍卖中的私人估值恢复、密度与置信带分析。官方示例使用木材拍卖数据。独立或相关估值、风险中性或厌恶对应不同设定，不能仅凭函数输出忽略结构假设。 安装命令为 <code>install.packages(&quot;qdfauction&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：结构估计">结构估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261023/#tool-qdfauction-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=qdfauction" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 14 页 · 共 136 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-4.html">上一页</a><span aria-current="page">第 5 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-6.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

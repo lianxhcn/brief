@@ -8,9 +8,65 @@ title: "新论文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 55 页 · 共 544 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-55.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>意见分歧下，安全空间如何兼具庇护与隔离作用？</h3>
+<p class="catalog-citation">Tirole, J. (2026). Safe spaces: Shelters or tribes? JPE.</p><p class="catalog-meta">发表日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>文章为围绕分歧性议题的社会行为建立理论框架。当人们担心别人对是非的判断与自己不同，可能调整行为，也可能加入由相近立场者组成的安全空间；后一选择伴随减少公共空间参与、社交网络更封闭的代价。论文据此讨论安全空间作为庇护所与群体归属场所的双重角色及社会后果。它为研究社会规范、身份选择与公共互动提供机制问题；以上是理论框架，不是对现实社群的因果测量，摘要也不足以判定各种安全空间的净福利效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E8%A7%84%E8%8C%83&amp;show-results=1" title="全站搜索：社会规范">社会规范</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a> · <a class="tag-link" href="?q=%E7%BE%A4%E4%BD%93%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：群体选择">群体选择</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#paper-10-1086-743388">查看本期</a><a href="https://doi.org/10.1086/743388" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>家庭风险与银行资本：政策瞄准需要同时看两端</h3>
+<p class="catalog-citation">Barbieri, C.; Moyà Porcel, R.; Valderrama, L. (2026). Household vulnerability, bank solvency, and policy design in the Middle East war. IMF Working Paper No. 2026/243 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>同一种宏观冲击，可能同时影响家庭偿债、银行损失和消费。文章把家庭资产负债表与银行数据连接起来，引入生活成本调整的债务偿付指标，并在持续冲突情景中比较转移支付与利率缓解政策的不同目标。它提示减少家庭困难、保护银行资本和维持消费未必指向同一种瞄准规则。预测比较和反事实情景依赖数据、校准及模型假设，不是已经观察到的战争损失或政策因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E5%BE%AE%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：家庭微观数据">家庭微观数据</a> · <a class="tag-link" href="?q=%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：压力测试">压力测试</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：政策瞄准">政策瞄准</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#paper-imf-2026-243">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/243/001.2026.issue-243-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>地缘碎片化怎样传到公共债务？识别与动态响应要分开看</h3>
+<p class="catalog-citation">Furceri, D.; Poplawski Ribeiro, M.; Prifti, E. (2026). Divide and indebt: How geoeconomic fragmentation affects public debt and macro-fiscal stability. IMF Working Paper No. 2026/239 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>文章把地缘碎片化指标用于结构面板 VAR，并通过局部投影追踪公共债务、财政余额和融资条件的动态变化，同时比较不同国家群体。其研究流程区分冲击识别、传导渠道与异质性响应，可供跨国宏观应用参考。但结构冲击的识别限制、指标含义和跨国可比性仍需正文核查，不能仅凭摘要把模型冲击当作任意地缘事件的已证因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9C%B0%E7%BC%98%E7%A2%8E%E7%89%87%E5%8C%96&amp;show-results=1" title="全站搜索：地缘碎片化">地缘碎片化</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BFSVAR&amp;show-results=1" title="全站搜索：面板SVAR">面板SVAR</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#paper-imf-2026-239">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/239/001.2026.issue-239-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>临时生产瓶颈下，货币政策还要考虑退出后的价格调整</h3>
+<p class="catalog-citation">Ozhan, G. K. et al. (2026). Monetary policy under network-level bottlenecks. IMF Working Paper No. 2026/244 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>临时行业瓶颈会改变当期通胀与产出的权衡，也可能让相对价格在约束消退后仍需调整。文章在包含生产网络、价格黏性和地区联系的模型中，研究货币政策如何平衡约束期的稳定与退出后的价格修正，并比较网络传播和跨地区协调。结论来自特定校准与反事实设定，不能把模型中的紧缩效果概括为所有供给冲击下的政策规律。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E4%BA%A7%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：生产网络">生产网络</a> · <a class="tag-link" href="?q=%E4%BE%9B%E7%BB%99%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：供给约束">供给约束</a> · <a class="tag-link" href="?q=%E8%B7%A8%E6%9C%9F%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：跨期政策">跨期政策</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#paper-imf-2026-244">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/244/001.2026.issue-244-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>资源按地区还是按家庭分配？先做样本外需求诊断</h3>
+<p class="catalog-citation">Schwantje, T. et al. (2026). Voices of the coast: Spatial versus household heterogeneity in adaptation needs in Bangladesh. World Bank Policy Research Working Paper No. 11498 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>资源配置采用地区筛选还是家庭筛选，取决于需求主要在地区间变化，还是在同一社区的家庭间变化。文章比较地区、家庭与混合模型的样本外预测，用孟加拉国沿海家庭调查讨论不同适应需求的空间和家庭异质性，并权衡排除误差与筛查成本。依据是自报需求的预测诊断，不等于识别干预的因果效果，也不能把某一地区样本的筛查规则直接推广。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：政策瞄准">政策瞄准</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E9%80%82%E5%BA%94%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：适应需求">适应需求</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-wb-wps11498">查看本期</a><a href="https://documents.worldbank.org/curated/en/099607311062625210" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>股债协方差变号：冲击大小与传导方向要分开</h3>
+<p class="catalog-citation">Adrian, T.; Schneider, A. (2026). The stock--bond covariance puzzle. CEPR Discussion Paper No. 22151 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-07</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>股债收益的协方差变号，既可能来自两类冲击相对波动的变化，也可能来自冲击传导方向的变化。文章利用股票与债券波动随时间变化的差异，区分这两种机制，并要求解释协方差的理论同时解释冲击对两个市场的响应。识别依赖其时变波动框架；文章报告的市场响应不能保证某种资产组合持续分散风险。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%82%A1%E5%80%BA%E8%81%94%E5%8A%A8&amp;show-results=1" title="全站搜索：股债联动">股债联动</a> · <a class="tag-link" href="?q=%E5%BC%82%E6%96%B9%E5%B7%AE%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：异方差识别">异方差识别</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：金融计量">金融计量</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-cepr-dp22151">查看本期</a><a href="https://cepr.org/publications/dp22151" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>生成式 AI 的销售价值，怎样按具体工作流评估？</h3>
+<p class="catalog-citation">Fang, L. et al. (2026). Generative artificial intelligence and sales productivity: Field experiments in online retail. Management Science.</p><p class="catalog-meta">发表日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-08</p>
+<p>文章在 2023–2024 年的跨境在线零售平台多种业务工作流中开展随机现场实验，考察生成式 AI 的短期销售表现，并结合转化率、购物金额、退货、评分与消费者经验比较结果。研究把客服、商品匹配、广告和卖家服务等具体应用放在现有业务基准下评价，提示不能用一个统一效果概括 AI 采用。实验单位、随机化与多工作流比较的细节仍需正文核查；平台、使用场景与观察期限制了外推，不能将短期销售变化等同于长期利润、普遍生产率收益或所有消费者都会受益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8F%20AI&amp;show-results=1" title="全站搜索：生成式 AI">生成式 AI</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E4%B8%9A%E5%8A%A1%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：业务评价">业务评价</a></p>
+<p class="catalog-actions"><a href="../issues/20261108/#paper-10-1287-mnsc-2026-00623">查看本期</a><a href="https://doi.org/10.1287/mnsc.2026.00623" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>季度预测模型：怎样把校准推进到贝叶斯估计？</h3>
 <p class="catalog-citation">González Gómez, A.; Prada Sarmiento, J. D. (2026). From calibration to estimation: A modern Bayesian framework for quarterly projection models. IMF Working Paper No. 2026/241 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
@@ -35,64 +91,8 @@ title: "新论文 · 第 3 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=HANK&amp;show-results=1" title="全站搜索：HANK">HANK</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：最优政策">最优政策</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E4%B8%8D%E5%B9%B3%E7%AD%89&amp;show-results=1" title="全站搜索：消费不平等">消费不平等</a></p>
 <p class="catalog-actions"><a href="../issues/20261108/#paper-10-1093-restud-rdag069">查看本期</a><a href="https://doi.org/10.1093/restud/rdag069" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>人口阈值分类：先分清规模差异与数据修订</h3>
-<p class="catalog-citation">Han, B. (2026). Population thresholds and classification stability: Evidence from the World Bank’s Small States classification rule. World Bank Policy Research Working Paper No. 11497 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>人口规模阈值既涉及分类依据，也涉及数据修订后的执行规则。文章结合跨国比较与人口估计的实时版本数据，分别检查宏观特征是否在既定阈值处出现断点，以及分类变动来自人口变化还是历史数据修订；并比较带有持续期要求的实施规则。这里的阈值诊断和规则设计不能直接解释为断点回归的因果识别。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%98%88%E5%80%BC%E5%88%86%E7%B1%BB&amp;show-results=1" title="全站搜索：阈值分类">阈值分类</a> · <a class="tag-link" href="?q=%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：实时数据">实时数据</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%8F%A3%E4%BF%AE%E8%AE%A2&amp;show-results=1" title="全站搜索：人口修订">人口修订</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-wb-wps11497">查看本期</a><a href="https://documents.worldbank.org/curated/en/099913211032626714" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>WTP 空间换了写法，也换了模型吗？</h3>
-<p class="catalog-citation">Hess, S. (2026). Willingness-to-pay space and preference space: A unified treatment of equivalence, heterogeneity and interpretation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>选择模型写在支付意愿空间或偏好空间，并不自动形成两个不同模型。文章围绕参数化等价条件整理两种写法：非随机系数下可以等价；成本敏感性异质或存在非线性时，支付意愿仍需按边际效用之比解释；随机异质下还要核对两种写法隐含的分布是否一致。独立性约束也不是中性选择。不能将某种参数化视为拟合或解释上的普遍改进。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：离散选择">离散选择</a> · <a class="tag-link" href="?q=%E6%94%AF%E4%BB%98%E6%84%8F%E6%84%BF&amp;show-results=1" title="全站搜索：支付意愿">支付意愿</a> · <a class="tag-link" href="?q=%E5%8F%82%E6%95%B0%E5%8C%96&amp;show-results=1" title="全站搜索：参数化">参数化</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-arxiv-2611-07698">查看本期</a><a href="https://arxiv.org/abs/2611.07698v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>IMFNow：把实时 GDP 预测中的约束放进同一流程</h3>
-<p class="catalog-citation">Abdel-Latif, H.; Centorrino, S.; Dovi, M.-S. (2026). IMFNow: The IMF nowcasting framework in R. IMF Working Paper No. 2026/240 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>短而嘈杂的样本、不同发布日期、非平稳变量与模型选择，会同时影响实时 GDP 预测。文章介绍 IMFNow 的 R 框架，把机器学习和时间序列方法、依赖样本的交叉验证、平稳性处理、模型筛选及预测区间放进同一流程，并区分快速更新与重新调参。官方摘要还介绍了样本外评估和解释工具。这是一篇工作论文层面的框架介绍，不能据此认定其预测表现或区间覆盖普遍优于其他工具。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%9E%E6%97%B6%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：实时预测">实时预测</a> · <a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7&amp;show-results=1" title="全站搜索：不确定性">不确定性</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-imf-2026-240">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/240/001.2026.issue-240-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>面板 DML：换了函数形式，识别问题就解决了吗？</h3>
-<p class="catalog-citation">Habibnia, A.; Maasoumi, E.; Shah, G. (2026). Double machine learning for panel data: Identification, specification, and a bank regulation effect. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-04</p>
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>文章讨论面板双重机器学习的稳健性与因果解释，在共同处理时点的设定下区分识别条件和干扰项限制，并分别研究特定组内变换与一阶差分得分的表示。银行监管例子提醒，资产规模分组、此前增长与倾向得分权重会影响估计；两组银行都获得监管放松，因此对应差异暴露效应。函数形式更灵活不等于识别条件自动成立，也不能把变换后直接套机器学习当作通用修复。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BFDML&amp;show-results=1" title="全站搜索：面板DML">面板DML</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AE%BE%E5%AE%9A&amp;show-results=1" title="全站搜索：模型设定">模型设定</a> · <a class="tag-link" href="?q=%E5%B7%AE%E5%BC%82%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：差异暴露">差异暴露</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-07249">查看本期</a><a href="https://arxiv.org/abs/2611.07249v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>非线性数据怎样形成逐层兼容的低维分解？</h3>
-<p class="catalog-citation">Su, J.; Yao, Z. (2026). Principal decomposition with nested submanifolds. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>文章提出 principal nested submanifolds，利用数据的局部几何结构，把样本投影到维数逐步下降的嵌套光滑子流形上，为主成分分析提供非线性分解思路。摘要以模拟与单细胞 RNA 测序资料说明如何在不同维数之间保留兼容的结构层次，并讨论成分提取与降噪用途。流形拟合、局部几何估计和维数选择仍需正文核查，不能据此断言它在任意数据上优于线性 PCA，或已在经济金融数据中验证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7%E9%99%8D%E7%BB%B4&amp;show-results=1" title="全站搜索：非线性降维">非线性降维</a> · <a class="tag-link" href="?q=%E5%B5%8C%E5%A5%97%E5%AD%90%E6%B5%81%E5%BD%A2&amp;show-results=1" title="全站搜索：嵌套子流形">嵌套子流形</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%87%A0%E4%BD%95&amp;show-results=1" title="全站搜索：局部几何">局部几何</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#paper-10-1093-biomet-asag071">查看本期</a><a href="https://doi.org/10.1093/biomet/asag071" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>自适应策略表现更好，能从日志中审计出原因吗？</h3>
-<p class="catalog-citation">Aldridge, I. (2026). Regret-based characterization, information limits, and the sample complexity of auditing adaptive policies. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-03</p>
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>同一策略表现较好，可能来自平均行动分布，也可能来自随状态调整。文章以采用平均行动分布的开环策略为比较对象，刻画自适应价值与信息使用的联系，并研究仅凭现有策略日志何时能审计这种差异。结论限于文中的有限期马尔可夫决策过程和日志反馈设定；即时成本差异不必等于长期价值差异，某些确定性策略在该观测条件下不可审计，并非所有 AI 系统的价值都能由日志直接识别。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%AD%96%E7%95%A5%E5%AE%A1%E8%AE%A1&amp;show-results=1" title="全站搜索：策略审计">策略审计</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%BD%BF%E7%94%A8&amp;show-results=1" title="全站搜索：信息使用">信息使用</a> · <a class="tag-link" href="?q=%E8%87%AA%E9%80%82%E5%BA%94%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：自适应决策">自适应决策</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-05227">查看本期</a><a href="https://arxiv.org/abs/2611.05227v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>消费者考虑了哪些选项未知，还能评估价格变化的福利吗？</h3>
-<p class="catalog-citation">Bhattacharya, D.; Martin, R. J. (2026). Unobserved consideration and consumer welfare. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>消费者未必考虑所有商品，其考虑集合也可能无法观测。文章区分需求与福利能否识别，以及偏好和考虑机制本身能否识别：在稳定的有限考虑集合下，福利分布可通过结构选择概率表达；集合随价格上升而收缩时，则结合需求和选项流失的界限讨论福利界限。结论依赖集合变化及结构选择设定，不意味着忽略任何注意力限制都不会影响政策评估。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%89%E9%99%90%E8%80%83%E8%99%91%E9%9B%86%E5%90%88&amp;show-results=1" title="全站搜索：有限考虑集合">有限考虑集合</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：福利识别">福利识别</a> · <a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：需求分析">需求分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#paper-arxiv-2611-07774">查看本期</a><a href="https://arxiv.org/abs/2611.07774v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 55 页 · 共 544 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-55.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

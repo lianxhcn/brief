@@ -8,9 +8,65 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 55 页 · 共 544 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-55.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>生育支持政策应优先生育数量，还是家庭福利？</h3>
+<p class="catalog-citation">Wang, H. (2026). Fertility and family leave policies in Germany: Optimal policy design in a dynamic framework. REStud.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>同样的财政预算，怎样在育儿假、托育补贴与税收安排之间配置，取决于政策希望改善什么。论文建立并估计生育与女性劳动供给的生命周期离散选择模型，考察德国育儿假和公共托育改革，再求解预算中性的政策组合。它分别以总体福利或生育为目标，同时约束各教育群体的福利与生育不下降，说明政策排序如何随目标改变。最优组合属于估计模型内的反事实，依赖偏好、行为与财政设定；模型推演的改善不能直接当作尚未实施政策的实际效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：家庭政策">家庭政策</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-restud-rdag124">查看本期</a><a href="https://doi.org/10.1093/restud/rdag124" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>数据不断增加，错误判断为何仍能长期存在？</h3>
+<p class="catalog-citation">Gagnon-Bartsch, T.; Rabin, M.; Schwartzstein, J. (2026). Channeled attention and stable errors. QJE.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>反复接触数据并不保证识别出模型错误，因为人们可能只注意自己原有模型认为相关的信息。论文建立注意力框架，刻画哪些误设会使长期观察仍不足以推翻错误判断，并区分错误排除某种联系与错误加入某种联系的稳定性。它为理解粗分类、经验误解以及旁观者更容易发现错误提供统一机制，也提示研究设计应主动考察被既有模型忽略的信息。结论是特定注意力与学习结构下的理论推演，不等于已估计现实人群的偏差大小，也不是对所有错误都永远稳定的判断。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：注意力">注意力</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%AF%E8%AE%BE&amp;show-results=1" title="全站搜索：模型误设">模型误设</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-qje-qjag055">查看本期</a><a href="https://doi.org/10.1093/qje/qjag055" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>存在干扰时，平均因果效应与政策期望效应有何不同？</h3>
+<p class="catalog-citation">Karwa, V.; Airoldi, E. M.; Rubin, D. B. (2026). Average versus expected causal effects under interference: Modeling assumptions and estimation bottlenecks. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-09</p>
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>处理会影响他人时，选择效应目标与选择分配设计需要一起考虑。文章把干扰邻域、暴露映射和结果模型分层，区分固定处理与暴露条件下的平均因果效应，以及给定分配政策下的期望因果效应，并比较设计是否利用网络结构所带来的估计困难。这个框架帮助研究者分开讨论目标、建模简化与可估计性。结论依赖所设邻域、暴露映射和随机分配机制，不能把特定网络或设计下的性质推广为任意干扰情形的保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E5%AF%B9%E8%B1%A1&amp;show-results=1" title="全站搜索：估计对象">估计对象</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#paper-arxiv-2611-12690">查看本期</a><a href="https://arxiv.org/abs/2611.12690v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>保险公司脆弱性如何把气候风险传导到按揭市场？</h3>
+<p class="catalog-citation">Sastry, P.; Sen, I.; Tenekedjieva, A. M. (2026). When insurers exit: Climate losses, fragile insurers, and mortgage markets. QJE.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>房屋有保险，并不意味着贷款人已把灾害风险转移出去。论文结合佛罗里达州的按揭与保险数据，利用多种自然实验，研究资本和业务分散程度不足的保险公司如何影响灾后按揭违约，并比较贷款留在银行与出售给政府支持机构时的筛选激励。研究把保险质量、第三方评级和贷款风险转移连在一起，提示气候金融分析应同时考察资产风险与保障提供者的偿付能力。结论对应当地保险制度与样本环境，因果解释取决于各项自然实验的识别条件，不能直接推广为所有地区的保险退出效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：气候风险">气候风险</a> · <a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：住房金融">住房金融</a> · <a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：保险监管">保险监管</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-qje-qjag053">查看本期</a><a href="https://doi.org/10.1093/qje/qjag053" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>TaskNet：怎样从工人访谈形成可更新的职业任务表？</h3>
+<p class="catalog-citation">Wang, J. et al. (2026). TaskNet: Building occupational task inventories from worker interviews at scale. NBER Working Paper No. 35987 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>职业描述可能落后于工作中正在发生的任务变化。TaskNet 从工人访谈生成个人任务清单，再标准化并聚合为职业层面的任务目录；评价同时采用领域分析人员评阅和在职者的相关性、重要性评分。文章展示任务口径如何影响 AI 暴露程度等下游分析，为访谈数据整理和职业分类提供研究流程。任务目录的覆盖评价不同于对就业影响的因果评估，职业与样本之外的外推仍需另外依据。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E4%BB%BB%E5%8A%A1&amp;show-results=1" title="全站搜索：职业任务">职业任务</a> · <a class="tag-link" href="?q=%E8%AE%BF%E8%B0%88%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：访谈数据">访谈数据</a> · <a class="tag-link" href="?q=AI%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：AI暴露">AI暴露</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#paper-nber-w35987">查看本期</a><a href="https://www.nber.org/papers/w35987" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>RFS 更正：净资产标签与控制变量的滞后设定</h3>
+<p class="catalog-citation">Ma, S.; Schmidt-Eisenlohr, T. (2026). Correction to: The financial channel of the exchange rate and global trade. RFS.</p><p class="catalog-meta">发表日期：2026-10-30</p>
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>这份更正涉及汇率金融渠道研究的两处实现与解释问题：表 3 原先把净负债 L − A 标作相关敞口，现改为净资产 A − L，并替换对应文字；另纠正部分控制交互中误用同期美元份额、而非滞后份额的代码。作者说明，标签更正不改变表中数字；代码修订的数量影响很小，论文发现、符号、显著性和经济解释保持不变。阅读或复用该研究时，应同时核对敞口方向与变量时点，并区分标签修正和重新估计。结论保持不变属于作者对修订结果的说明，扩展更正和相应代码版本仍应作为复用依据。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%9B%B4%E6%AD%A3&amp;show-results=1" title="全站搜索：研究更正">研究更正</a> · <a class="tag-link" href="?q=%E6%B1%87%E7%8E%87%E4%BC%A0%E5%AF%BC&amp;show-results=1" title="全站搜索：汇率传导">汇率传导</a> · <a class="tag-link" href="?q=%E5%8F%98%E9%87%8F%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：变量构造">变量构造</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-rfs-hhag066">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag066" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>DML 遇到弱工具变量：怎样安排推断与模型诊断？</h3>
+<p class="catalog-citation">Meng, A. (2026). Weak-instrument inference and model diagnostics in double machine learning for linear instrumental variable models. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-07</p>
+<p class="catalog-meta">期次日期：2026-11-11</p>
+<p>工具变量强度不足时，灵活拟合控制项不能自动使常规推断可靠。文章在部分线性工具变量模型中讨论交叉拟合的 Anderson–Rubin 与得分推断，覆盖聚类抽样，并延伸至调查加权目标和折内生成工具。作者给出依赖抽样及辅助函数估计速率条件的渐近有效性结果，将预测残差化与实际工具强度诊断联系起来。预测效果好不等于工具有效，相关渐近结论也不能直接当作任意聚类设计下的有限样本保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：弱工具变量">弱工具变量</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：聚类推断">聚类推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261111/#paper-arxiv-2611-10863">查看本期</a><a href="https://arxiv.org/abs/2611.10863v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>非民主政治竞争下，资源再分配为何取决于群体协调？</h3>
 <p class="catalog-citation">Persico, N. (2026). A theory of redistribution and public good provision under nondemocracy. JPE.</p><p class="catalog-meta">发表日期：2026-10-30</p>
@@ -35,64 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：相关矩阵">相关矩阵</a> · <a class="tag-link" href="?q=%E5%8F%82%E6%95%B0%E5%8C%96&amp;show-results=1" title="全站搜索：参数化">参数化</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%80%BC%E6%9D%A1%E4%BB%B6&amp;show-results=1" title="全站搜索：数值条件">数值条件</a></p>
 <p class="catalog-actions"><a href="../issues/20261110/#paper-arxiv-2611-09790">查看本期</a><a href="https://arxiv.org/abs/2611.09790v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>检验阴性设计如何对未测混杂开展敏感性分析？</h3>
-<p class="catalog-citation">Kundu, S. et al. (2026). Sensitivity analysis for the test-negative design. JASA.</p><p class="catalog-meta">发表日期：2026-10-27</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>检验阴性设计常用于观察数据中的疫苗效果评估，并希望控制接种者与未接种者不同的就医倾向。文章研究偏离理想设计时，在具有良好就医行为的子总体中如何识别因果优势比：分别考虑未测混杂的部分控制，以及混杂同时影响接种与感染，两条路径还可组合，并结合效应异质性限制收紧界限。它提供的是有假设的敏感性分析，不能把采用检验阴性设计直接当作已消除混杂，也不能将子总体结论无条件外推到一般人群。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：因果推断">因果推断</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E6%A3%80%E9%AA%8C%E9%98%B4%E6%80%A7%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：检验阴性设计">检验阴性设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-10-1080-01621459-2026-2754151">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2754151" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>政策效果不显著之后，决策还需要哪些证据？</h3>
-<p class="catalog-citation">Chau, T. et al. (2026). Policy evaluation beyond significance testing: Evidence from Chicago&#x27;s ShotSpotter contract. NBER Working Paper No. 36005 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>政策估计未达到传统显著性门槛时，仍可能包含影响成本收益选择的信息。文章以芝加哥声学枪击检测服务为例，将地理断点估计与贝叶斯分析连接，比较不同先验和统计生命价值设定下的决策依据。重点是从是否拒绝零效应转向效果分布与决策损失，而不是把不显著解释为肯定有效。判断仍依赖地理断点的识别条件、先验约束和价值权衡，不能仅凭统计显著与否决定是否续约。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：政策评估">政策评估</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：贝叶斯决策">贝叶斯决策</a> · <a class="tag-link" href="?q=%E6%88%90%E6%9C%AC%E6%94%B6%E7%9B%8A&amp;show-results=1" title="全站搜索：成本收益">成本收益</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-nber-w36005">查看本期</a><a href="https://www.nber.org/papers/w36005" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>如何用公开财报估计美国跨国公司的利润转移？</h3>
-<p class="catalog-citation">Dyreng, S. D.; Hills, R.; Markle, K. S. (2026). Using financial accounting information to estimate the income shifting of US multinationals. CAR.</p><p class="catalog-meta">发表日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>文章利用公开财务报告构造美国跨国公司向境外转移利润的公司—年度估计，并与宏观数据口径比较。作者强调，国外收入的重复计算会影响总量判断，利润转移也集中于少数企业及无形资产密集行业。它为国际税收研究提供可定位到企业的测量思路，并提示规模门槛与合规负担可能覆盖不同企业。估计依赖会计口径和跨国收入归属，不能把度量差异直接解释为税率变化的因果效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8&amp;show-results=1" title="全站搜索：跨国公司">跨国公司</a> · <a class="tag-link" href="?q=%E5%88%A9%E6%B6%A6%E8%BD%AC%E7%A7%BB&amp;show-results=1" title="全站搜索：利润转移">利润转移</a> · <a class="tag-link" href="?q=%E8%B4%A2%E6%8A%A5%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：财报数据">财报数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-10-1111-1911-3846-70099">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70099" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>党派压力如何改变对美国国会投票极化的解释？</h3>
-<p class="catalog-citation">Canen, N.; Kendall, C.; Trebbi, F. (2026). Political parties as drivers of US polarization: 1927–2018. JPE.</p><p class="catalog-meta">发表日期：2026-10-29</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>文章建立多维投票模型与识别策略，区分议员自身的意识形态偏好和党派压力，并用于分析美国国会 1927–2018 年的投票极化。它提示，若模型没有明确纳入党组织，可能把组织约束误归为议员偏好的变化。该分解依赖结构模型及识别设定，不能把估计贡献直接当作政党压力被随机改变后的因果效应，也不宜推广为所有国家或所有形式的政治极化。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：政治经济学">政治经济学</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E5%85%9A%E6%B4%BE%E6%9E%81%E5%8C%96&amp;show-results=1" title="全站搜索：党派极化">党派极化</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-10-1086-743333">查看本期</a><a href="https://doi.org/10.1086/743333" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>保护公共参与的反 SLAPP 法规如何影响企业污染治理？</h3>
-<p class="catalog-citation">Chen, K. C. W.; Chen, Z.; Sun, C. (2026). The anti-SLAPP statutes and corporate environmental policies. JAR.</p><p class="catalog-meta">发表日期：2026-11-04</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>污染企业可能借策略性诉讼抑制公众监督。反 SLAPP 法规通过快速驳回和诉讼费用回收等安排降低这种威胁。论文采用双重差分设计，考察州级立法、当地公众压力与企业有毒排放的关系，并区分污染治理改进、产出减少和排放转移等渠道。研究提供了把法律保护与非正式监督联系起来的设计；法规实施的可比性、同期政策和平行趋势仍需核对，机制解释不能直接推广为所有公众参与政策的普遍效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：环境治理">环境治理</a> · <a class="tag-link" href="?q=%E5%85%AC%E4%BC%97%E5%8F%82%E4%B8%8E&amp;show-results=1" title="全站搜索：公众参与">公众参与</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-10-1111-1475-679x-70095">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70095" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>RCT 的可信度：检验功效、选择发表与复现资源配置</h3>
-<p class="catalog-citation">Chai, Q.; Lang, K.; Zhong, L. (2026). (In)credible development RCTs: False discoveries, low power, and a solution. NBER Working Paper No. 35999 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>显著结果的可信度不仅取决于是否随机分配，也取决于检验功效和哪些结果被发表。文章汇总发展经济学 RCT 的主要假设检验，用考虑选择发表的经验贝叶斯混合模型讨论误发现与方向功效，再在预算和证据标准约束下研究复现资源配置。它区分原研究扩样、改变显著性门槛和有针对性复现的作用。模型推断依赖选择机制与分布设定，不是对每篇 RCT 真伪的逐一判决；校准结果也不是普遍适用的最优资助规则。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：随机试验">随机试验</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%8F%91%E8%A1%A8&amp;show-results=1" title="全站搜索：选择发表">选择发表</a> · <a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：复现设计">复现设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-nber-w35999">查看本期</a><a href="https://www.nber.org/papers/w35999" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 代理执行到哪一步，额外核查或纠正才有价值？</h3>
-<p class="catalog-citation">Sawarni, A. et al. (2026). Knowing when to intervene: Causal evaluation of AI agents. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>静态基准分数难以回答代理执行到某一步时，额外核查或更昂贵的监督是否值得。文章利用轨迹内随机干预数据，评估验证、筛选等操作对最终结果的动态因果影响，并考虑状态、环境和后续行为对情境化干预策略的作用。相关风险排序可帮助安排审查优先级。因果解释依赖随机干预设计、数据覆盖及策略评估条件，不能把若干基准中的效果直接当作任意部署环境的安全保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E4%BB%A3%E7%90%86&amp;show-results=1" title="全站搜索：AI代理">AI代理</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%9B%A0%E6%9E%9C%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态因果效应">动态因果效应</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：随机干预">随机干预</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-arxiv-2611-09792">查看本期</a><a href="https://arxiv.org/abs/2611.09792v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 55 页 · 共 544 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-55.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

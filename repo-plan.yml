@@ -1,92 +1,27 @@
-task: reader-content-cleanup-20261109
+task: daily-brief-20261111
 repository_mode: single
-local_path: D:/github_lianxh/brief
 repository: lianxhcn/brief
+local_path: D:/github_lianxh/brief
 branch: main
-expected_base: 7499347cdf6a73042704b6feba766f93ff694f19
-authorization: User requested all reader pages be cleaned of internal editorial and development notes; existing website publication authorization applies.
+expected_base: 82a567dacc5b05e8e2251952b4990aac49f9ef58
+authorization: Existing user-authorized daily0715 research, review, controlled push and Pages publication; no account sending or posting.
 work_scope:
+  - archive.qmd
   - config/website-content.json
-  - docs/automation-rules.md
-  - docs/content-rules.md
-  - docs/decision-log.md
-  - docs/ui-rules.md
-  - history/20260815-20260907/index.qmd
-  - issues/20260905/index.qmd
-  - issues/20260908/index.qmd
-  - issues/20260909/index.qmd
-  - issues/20260910/index.qmd
-  - issues/20260911/index.qmd
-  - issues/20260912/index.qmd
-  - issues/20260913/index.qmd
-  - issues/20260914/index.qmd
-  - issues/20260915/index.qmd
-  - issues/20260916/index.qmd
-  - issues/20260917/index.qmd
-  - issues/20260918/index.qmd
-  - issues/20260919/index.qmd
-  - issues/20260920/index.qmd
-  - issues/20260921/index.qmd
-  - issues/20260922/index.qmd
-  - issues/20260923/index.qmd
-  - issues/20260924/index.qmd
-  - issues/20260925/index.qmd
-  - issues/20260926/index.qmd
-  - issues/20260927/index.qmd
-  - issues/20260928/index.qmd
-  - issues/20260929/index.qmd
-  - issues/20260930/index.qmd
-  - issues/20261001/index.qmd
-  - issues/20261002/index.qmd
-  - issues/20261003/index.qmd
-  - issues/20261004/index.qmd
-  - issues/20261005/index.qmd
-  - issues/20261006/index.qmd
-  - issues/20261007/index.qmd
-  - issues/20261008/index.qmd
-  - issues/20261009/index.qmd
-  - issues/20261010/index.qmd
-  - issues/20261011/index.qmd
-  - issues/20261012/index.qmd
-  - issues/20261013/index.qmd
-  - issues/20261014/index.qmd
-  - issues/20261015/index.qmd
-  - issues/20261016/index.qmd
-  - issues/20261017/index.qmd
-  - issues/20261018/index.qmd
-  - issues/20261019/index.qmd
-  - issues/20261020/index.qmd
-  - issues/20261021/index.qmd
-  - issues/20261022/index.qmd
-  - issues/20261023/index.qmd
-  - issues/20261024/index.qmd
-  - issues/20261025/index.qmd
-  - issues/20261026/index.qmd
-  - issues/20261027/index.qmd
-  - issues/20261028/index.qmd
-  - issues/20261029/index.qmd
-  - issues/20261030/index.qmd
-  - issues/20261031/index.qmd
-  - issues/20261101/index.qmd
-  - issues/20261102/index.qmd
-  - issues/20261103/index.qmd
-  - issues/20261104/index.qmd
-  - issues/20261105/index.qmd
-  - issues/20261106/index.qmd
-  - issues/20261107/index.qmd
-  - issues/20261108/index.qmd
-  - issues/20261109/index.qmd
+  - content/issues/2026-11-11.json
+  - index.qmd
+  - issues/20261111/index.qmd
+  - publish/wechat/2026-11-11.txt
   - repo-plan.yml
-  - scripts/public_history.py
-  - scripts/render_issue_pages.py
-  - scripts/test_backfill.py
-  - scripts/test_catalog_citations.py
-  - scripts/test_reader_hygiene.py
-  - scripts/validate_website.py
-  - scripts/website_citations.py
-  - scripts/website_content.py
-  - topics/academic-updates.qmd
+  - topics/index.qmd
+  - topics/lianxh-new-2.qmd
+  - topics/lianxh-new-3.qmd
   - topics/lianxh-new-4.qmd
+  - topics/lianxh-new-5.qmd
+  - topics/lianxh-new-6.qmd
+  - topics/lianxh-new-7.qmd
+  - topics/lianxh-new-8.qmd
+  - topics/lianxh-new-9.qmd
   - topics/lianxh-new.qmd
   - topics/methods-tools-10.qmd
   - topics/methods-tools-11.qmd
@@ -94,6 +29,8 @@ work_scope:
   - topics/methods-tools-13.qmd
   - topics/methods-tools-14.qmd
   - topics/methods-tools-2.qmd
+  - topics/methods-tools-3.qmd
+  - topics/methods-tools-4.qmd
   - topics/methods-tools-5.qmd
   - topics/methods-tools-6.qmd
   - topics/methods-tools-7.qmd
@@ -149,16 +86,12 @@ work_scope:
   - topics/research-frontier-52.qmd
   - topics/research-frontier-53.qmd
   - topics/research-frontier-54.qmd
+  - topics/research-frontier-55.qmd
+  - topics/research-frontier-56.qmd
   - topics/research-frontier-6.qmd
   - topics/research-frontier-7.qmd
   - topics/research-frontier-8.qmd
   - topics/research-frontier-9.qmd
   - topics/research-frontier.qmd
-publication_rules:
-  - D-20261109-02; preserve source facts, original dates, evidence and necessary reader limits.
-  - Remove maintenance prose from generated pages and search, not with CSS or search-index surgery.
-  - Reviewed per-ID summary edits and deterministic template changes only.
-  - Validate all formal pages and external render, then verify exact-commit Pages and live site.
-  - No new daily issue, collection, shared delivery, posting or schedule change.
-excluded:
-  - ops-local/, logs/, .venv/, _site/, .quarto/, credentials and personal paths
+private_materials: Excluded; candidates, raw evidence, logs, environments and shared destinations stay local.
+publication_gate: Independent source and local QA, exact-commit Pages success, live current home/body/search and desktop/mobile checks.
