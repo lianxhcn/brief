@@ -4,7 +4,7 @@ import hashlib
 from pathlib import Path
 from website_citations import bibliography_metadata, arxiv_pdf
 from trial_selection import identities
-from issue_dates import review_date
+from issue_dates import review_date, item_evaluation_as_of, item_evaluation_date, item_website_record_date, website_addition_errors
 from conference_policy import conference_window, conference_publication_errors
 
 CATEGORIES = ('lianxh_posts', 'papers', 'tools', 'research_resources', 'conference_calls')
@@ -59,12 +59,15 @@ def check_website(issue, root=None):
         import json
         for p in (Path(root)/'content/issues').glob('*.json'):
             old=json.loads(p.read_text(encoding='utf-8'))
-            if old.get('status')=='published' and old.get('date','') < issue['date']:
-                history.extend(dict(i,events=[dict(kind='website',date=old['date'],evidence=str(p))]) for i in old.get('conference_calls',[]))
+            if old.get('status')=='published' and not (old.get('issue_id') and old.get('issue_id')==issue.get('issue_id')):
+                for i in old.get('conference_calls',[]):
+                    try:record_day=item_website_record_date(old,i)
+                    except (KeyError,ValueError,TypeError):continue
+                    history.append(dict(i,events=[dict(kind='website',date=record_day,evidence=str(p))]))
     items = [(c, i) for c in CATEGORIES for i in issue.get(c, [])]
     core = sum(i.get('priority') == 'core' for c, i in items)
     extended = sum(i.get('priority') == 'extended' for c, i in items)
-    errors = discovery_errors(issue.get('discovery', []))
+    errors = discovery_errors(issue.get('discovery', [])) + website_addition_errors(issue)
     if not 3 <= core <= 5: errors.append('网页重点须为 3–5 条')
     if extended > 10 or len(items) > 15: errors.append('网页延伸最多 10 条，合计最多 15 条')
     if extended < 5 or len(items) < 10:
@@ -80,12 +83,13 @@ def check_website(issue, root=None):
                 errors.append('保留草稿路径或指纹不一致')
     seen = set()
     for category, item in items:
-        if item.get('added_date'):
+        if item.get('added_date') or item.get('website_addition'):
             for field in ('source_url','retrieved_date','published_date'):
                 if not item.get(field): errors.append(item['id'] + ': 补录缺少 ' + field)
             try:
                 source_day=date.fromisoformat(item.get('release_date') if category=='tools' else item['published_date'])
-                if source_day > date.fromisoformat(issue['date']): errors.append(item['id'] + ': 来源晚于期次，不得倒填')
+                source_limit=item_website_record_date(issue,item) if 'website_addition' in item else issue['date']
+                if source_day > date.fromisoformat(source_limit): errors.append(item['id'] + ': 来源晚于期次，不得倒填')
                 age=(date.fromisoformat(issue['date'])-source_day).days
                 limit=62 if category=='tools' and item.get('ecosystem')=='Stata' and issue['date']=='2026-09-08' else 30
                 if category in {'papers','tools'} and (age > limit or (age>14 and not item.get('omission_reason'))): errors.append(item['id']+': 时效或遗漏理由不合格')
@@ -105,9 +109,12 @@ def check_website(issue, root=None):
             except ValueError as exc: errors.append(item['id'] + ': ' + str(exc))
         if category == 'conference_calls':
             try:
-                evaluated_on = issue.get('as_of') or review_date(issue).isoformat()
-            except (TypeError, ValueError):
+                evaluated_on = item_evaluation_as_of(issue,item)
+                evaluated_day=item_evaluation_date(issue,item)
+                applicable=[row for row in history if date.fromisoformat(row['events'][0]['date'])<=evaluated_day]
+            except (KeyError, TypeError, ValueError):
                 evaluated_on = issue['date']  # 具体日期冲突由共享编辑闸门报告。
-            errors += conference_errors(item, evaluated_on, history)
+                applicable=history
+            errors += conference_errors(item, evaluated_on, applicable)
             if item.get('status')=='closed': errors.append(item['id']+': 已结束征稿不进入日常可行动信息')
     return errors

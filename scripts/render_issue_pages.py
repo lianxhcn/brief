@@ -39,6 +39,8 @@ def render_item(item: dict, category: str, public: bool = True, preview: bool = 
     if category == 'papers' and not public and not preview:
         url = item.get('doi_url') or item.get('homepage_url')
         if url: lines.extend([external_link('Link', url), ''])
+    if item.get('website_addition'):
+        lines.extend(['<small class="website-update">更新：' + escape(item['website_addition']['added_date']) + '</small>', ''])
     if category == 'conference_calls':
         label = '报名截止' if item.get('deadline_kind') == 'registration' else '投稿截止'
         lines.extend([f"**{label}：{escape(item['deadline'])}**", ''])

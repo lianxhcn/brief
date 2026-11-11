@@ -3,7 +3,7 @@ from lianxh_exclusions import screen_post, normalized_url
 from datetime import date, datetime, timedelta, timezone
 import re
 from urllib.parse import urlsplit
-from issue_dates import issue_date_errors, review_date
+from issue_dates import issue_date_errors, review_date, item_evaluation_as_of
 
 CST = timezone(timedelta(hours=8), 'Asia/Shanghai')
 IMPORTANT = {'correction', 'retraction', 'results-fix', 'postponement', 'cancellation'}
@@ -147,7 +147,9 @@ def selection_errors(issue, history, as_of):
     seen = set()
     for category in categories:
         for item in issue.get(category, []):
-            errors += [item.get('id','?') + ': ' + e for e in assess(item, category, history, as_of)]
+            try:item_as_of=item_evaluation_as_of(issue,item,as_of)
+            except (KeyError,TypeError,ValueError):item_as_of=as_of
+            errors += [item.get('id','?') + ': ' + e for e in assess(item, category, history, item_as_of)]
             keys = identities(item)
             if keys & seen: errors.append(item.get('id','?') + ': 同批成果重复')
             seen.update(keys)

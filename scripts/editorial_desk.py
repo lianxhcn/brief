@@ -5,7 +5,7 @@ from contextlib import contextmanager
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
-from issue_dates import review_date
+from issue_dates import review_date, item_evaluation_date
 from conference_policy import conference_window, conference_publication_kind
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,8 +36,11 @@ def identity(item, category='papers'):
     if category == 'conference_calls': return 'event:'+item.get('event_id',item['id'])
     return category+':'+item['id']
 
-def publication_moment(issue, publication):
+def publication_moment(issue, publication, item=None):
     """Use actual online evidence for backfills; leave ordinary history unchanged."""
+    if item and 'website_addition' in item:
+        # 原期次 proof 只证明原页面，不能把后来新增会议倒记为旧日已发布。
+        return None, 'website-addition-needs-separate-publication-proof'
     if 'backfill' not in issue:
         return issue['date'], 'historical-issue-date'
     actual_day = review_date(issue)
@@ -141,12 +144,15 @@ class Desk:
             candidate_at = review_date(issue).isoformat() if 'backfill' in issue else day
             for category in CATEGORIES:
                 for item in issue.get(category,[]):
+                    item_at=item_evaluation_date(issue,item).isoformat() if 'website_addition' in item else candidate_at
+                    item_published_at,item_timestamp_basis=publication_moment(issue,publication,item)
+                    first=item.get('first_discovered_date',item.get('added_date',item_at)) if 'website_addition' in item else item.get('added_date',candidate_at)
                     key=identity(item,category)
-                    self.emit(dict(kind='candidate',at=candidate_at,order=0,key=key,candidate=dict(id=item['id'],category=category,payload=item,status='needs-review',first_discovered=item.get('added_date',candidate_at),provenance=str(p.relative_to(self.root)))))
-                    if published_at is not None:
-                        event = dict(kind='publication',at=published_at,order=2,key=key,issue_date=day,website_record=True,live_verified=publication.get('status')=='published',commit=publication.get('commit'),wechat_generated=item.get('priority')=='core' and (self.root/'publish/wechat'/f'{day}.txt').exists(),wechat_sent='unknown')
+                    self.emit(dict(kind='candidate',at=item_at,order=0,key=key,candidate=dict(id=item['id'],category=category,payload=item,status='needs-review',first_discovered=first,provenance=str(p.relative_to(self.root)))))
+                    if item_published_at is not None:
+                        event = dict(kind='publication',at=item_published_at,order=2,key=key,issue_date=day,website_record=True,live_verified=publication.get('status')=='published',commit=publication.get('commit'),wechat_generated=item.get('priority')=='core' and (self.root/'publish/wechat'/f'{day}.txt').exists(),wechat_sent='unknown')
                         if 'backfill' in issue:
-                            event['timestamp_basis'] = timestamp_basis
+                            event['timestamp_basis'] = item_timestamp_basis
                         self.emit(event)
             for category, field in [('journal','journal_checks'),('working-paper','working_paper_checks')]:
                 for row in issue.get('paper_review',{}).get(field,[]):
@@ -199,7 +205,22 @@ class Desk:
                 facts=[p for p in s['publications'] if p['key']==key]
                 reminded=any(p.get('publication_type')=='deadline-reminder' or p.get('payload_snapshot',{}).get('reminder') is True for p in facts)
                 if not facts or reminded or conference_publication_kind(c['payload'])!='initial' or not (window['actionable'] is True and 0 < window['days_remaining'] <= 5):continue
-                first=min(date.fromisoformat(p.get('issue_date',p['at'][:10])) for p in facts)
+                first_days=[]
+                for fact in facts:
+                    if fact.get('publication_scope')=='website-supplement':
+                        actual_day=None
+                        for field in ('website_first_published_at','at'):
+                            try:
+                                actual=datetime.fromisoformat(fact[field])
+                                if actual.tzinfo is None:continue
+                                actual_day=actual.astimezone(TZ).date();break
+                            except (KeyError,TypeError,ValueError):continue
+                        first_days.append(actual_day)
+                    else:
+                        # 普通旧记录保留原口径；网站补充不能退回承载页日期。
+                        first_days.append(date.fromisoformat(fact.get('issue_date',fact['at'][:10])))
+                if any(day is None for day in first_days):continue
+                first=min(first_days)
                 initial=conference_window(c['payload'],first.isoformat())
                 if initial['days_remaining'] is not None and initial['days_remaining']<=5:continue
                 action='compare-one-reminder'

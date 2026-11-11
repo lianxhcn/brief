@@ -726,7 +726,82 @@
     }
   ],
   "research_resources": [],
-  "conference_calls": [],
+  "conference_calls": [
+    {
+      "id": "conf-cfrn-11593",
+      "event_id": "china-digital-intelligence-finance-annual-2026",
+      "identity_aliases": [
+        "conf-cfrn-11593",
+        "https://www.cfrn.com.cn/hyxx/11593",
+        "https://www.cfrn.com.cn/hyxx/detail/11593.html"
+      ],
+      "title": "首届中国数智金融年会：11 月 15 日投稿截止",
+      "first_discovered_date": "2026-11-02",
+      "deadline": "2026-11-15",
+      "submission_deadline": "2026-11-15",
+      "deadline_kind": "submission",
+      "event_date": "2026-12-05",
+      "event_end_date": "2026-12-06",
+      "reminder": false,
+      "priority": "extended",
+      "published_date": "2026-10-19",
+      "retrieved_date": "2026-11-11",
+      "source_date_status": "verified",
+      "source_url": "https://airi.cufe.edu.cn/info/1012/1273.htm",
+      "official_url": "https://airi.cufe.edu.cn/info/1012/1273.htm",
+      "url": "https://airi.cufe.edu.cn/info/1012/1273.htm",
+      "organizer_or_journal": "中央财经大学金融学院、北京航空航天大学计算机学院、中央财经大学人工智能研究院、新时代金融强国育人共同体、金融人工智能北京市重点实验室",
+      "topic": "人工智能前沿与金融应用",
+      "location": "中国大陆·北京，中央财经大学沙河校区",
+      "location_region": "mainland-china",
+      "location_evidence_url": "https://airi.cufe.edu.cn/info/1012/1273.htm",
+      "fee_note": "通知未列费用，参会费用以主办方后续通知为准。",
+      "fee_status": "unknown-not-stated-in-read-notice",
+      "status": "open",
+      "page_note": "首届中国数智金融年会将于 12 月 5–6 日在中央财经大学沙河校区举行，主题为人工智能前沿与金融应用，涵盖资产定价、大模型与金融预测、风险管理、多智能体决策等方向。征集原创、尚未公开发表的中英文论文，11 月 15 日投稿截止；须提交 PDF 全文与投稿意向表。通知未列参会费用。",
+      "wechat_summary": "面向人工智能与金融交叉研究，12 月 5–6 日在北京中央财经大学沙河校区举行，11 月 15 日投稿截止。接受原创、尚未公开发表的中英文论文，须交 PDF 全文和投稿意向表；通知未列费用。",
+      "catalog": {
+        "section": "academic-updates",
+        "tags": [
+          "会议征稿",
+          "人工智能",
+          "数智金融"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": [
+          "金融学",
+          "人工智能"
+        ]
+      },
+      "review": {
+        "source_id": "conference:cfrn",
+        "source_url": "https://airi.cufe.edu.cn/info/1012/1273.htm",
+        "version_read": "当届官方HTML通知全文；复用上午真实下载，下午完成会议事实及编辑适用性审阅",
+        "date_basis": "published_date为页面公告日，署名日期另存私有证据；effective_date为当前投稿窗口评估日，不冒充首发或首见。",
+        "effective_date": "2026-11-11",
+        "verified_at": "2026-11-11T15:10:44.222659+08:00",
+        "evidence_locator": "会议主题、组织/会址、征文要求、重要日期、费用条款；另核官方通知栏目当前可见条目",
+        "identity_evidence": "当届名称、举办年月、主承办方与CFRN原观察一致；中央会议候选和已发同届身份无匹配。",
+        "identity_status": "resolved",
+        "evidence_level": "official-page",
+        "version_matches": true,
+        "human_review": "not-performed",
+        "detailed_claims": false,
+        "reason": "人工智能方法与资产定价、风险管理、金融预测直接对应本项目金融和数据分析读者；由研究型高校联合组织、论文评议形式明确。新规则下剩4日不自动降级，优先参加下一轮重点比较。",
+        "agent_review": "approved",
+        "agent_reviewed_at": "2026-11-11T15:10:44.222659+08:00",
+        "reviewed_by": "conference_sources / Codex source and editorial review"
+      },
+      "event_end": "2026-12-06",
+      "added_date": "2026-11-11",
+      "website_addition": {
+        "added_date": "2026-11-11",
+        "evaluated_at": "2026-11-11T15:36:14.628710+08:00",
+        "decision_id": "D-20261111-02"
+      }
+    }
+  ],
   "paper_review": {
     "reviewed_on": "2026-11-10",
     "basis": "28 registered journals freshly queried via official Crossref over 2026-10-26 to 2026-11-10; failed primary attempts and bounded fallback preserved. No 11/5 age5 reuse; all completeFalse/no last_success advance.",

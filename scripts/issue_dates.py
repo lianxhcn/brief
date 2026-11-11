@@ -6,6 +6,7 @@ from datetime import date, datetime, timedelta, timezone
 
 CATEGORIES = ('lianxh_posts', 'papers', 'tools', 'research_resources', 'conference_calls')
 CST = timezone(timedelta(hours=8))
+WEBSITE_ADDITION_SCOPE = {'conf-cfrn-11592': '2026-11-08', 'conf-cfrn-11593': '2026-11-10'}
 
 
 def exact_date(value: object) -> date:
@@ -38,6 +39,69 @@ def review_date(issue: dict) -> date:
     return actual_day
 
 
+def item_evaluation_as_of(issue: dict, item: dict, default=None) -> str:
+    """A website-only addition has its own review clock; original items keep theirs."""
+    if 'website_addition' in item:
+        return item['website_addition']['evaluated_at']
+    return default or issue.get('as_of') or review_date(issue).isoformat()
+
+
+def item_website_record_date(issue: dict, item: dict) -> str:
+    """Dated public record, not proof of successful deployment or an online moment."""
+    if 'website_addition' in item:
+        return exact_date(item['website_addition']['added_date']).isoformat()
+    return exact_date(issue['date']).isoformat()
+
+
+def item_evaluation_date(issue: dict, item: dict, default=None) -> date:
+    value=item_evaluation_as_of(issue,item,default)
+    if len(value)==10:return exact_date(value)
+    actual=datetime.fromisoformat(value)
+    if actual.tzinfo is None:raise ValueError('实际评估时刻须带时区')
+    return actual.astimezone(CST).date()
+
+
+def website_addition_errors(issue: dict) -> list[str]:
+    """D-20261111-02 is a two-item exception, never a general backdating mode."""
+    errors=[]
+    for category in CATEGORIES:
+        for item in issue.get(category, []):
+            if 'website_addition' not in item:continue
+            label=item.get('id','<unknown>')
+            addition=item['website_addition']
+            try:
+                if 'backfill' in issue or review_date(issue)!=exact_date(issue.get('date')):
+                    raise ValueError('局部网站补充不得移动整期核验日期或启用整期补刊')
+                if issue.get('as_of'):
+                    original=datetime.fromisoformat(issue['as_of'])
+                    if original.tzinfo is None or original.astimezone(CST).date()!=exact_date(issue['date']):
+                        raise ValueError('局部网站补充不得移动原期次 as_of')
+            except (KeyError,TypeError,ValueError) as exc:
+                errors.append(label+': '+str(exc))
+            if (category!='conference_calls' or item.get('priority')!='extended'
+                    or WEBSITE_ADDITION_SCOPE.get(label)!=issue.get('date')):
+                errors.append(label+': 网站补充超出 D-20261111-02 指定会议、期次或 extended 范围')
+            try:
+                if not isinstance(addition,dict) or addition.get('decision_id')!='D-20261111-02':
+                    raise ValueError('缺少明确决定身份')
+                added=exact_date(addition.get('added_date'))
+                actual=datetime.fromisoformat(addition['evaluated_at'])
+                if actual.tzinfo is None or actual.astimezone(CST).date()!=added:
+                    raise ValueError('实际评估时刻须带时区且与补充日期一致')
+                if added.isoformat()!='2026-11-11' or added<=exact_date(issue.get('date')) or actual>datetime.now(CST):
+                    raise ValueError('补充日期或实际评估时刻不符合本次范围')
+                if not item.get('event_id'):raise ValueError('会议缺少稳定同届身份')
+                if item.get('retrieved_date') and exact_date(item['retrieved_date'])>added:
+                    raise ValueError('核验日期晚于补充日期')
+                verified=item.get('review',{}).get('verified_at')
+                if verified:
+                    checked=datetime.fromisoformat(verified)
+                    if checked.tzinfo is None or checked>actual:raise ValueError('会议核验时刻晚于实际评估或缺少时区')
+            except (KeyError,TypeError,ValueError) as exc:
+                errors.append(label+': 网站补充日期口径：'+str(exc))
+    return errors
+
+
 def issue_date_errors(issue: dict) -> list[str]:
     """Validate backfill facts without changing historical or ordinary issues."""
     try:
@@ -45,9 +109,9 @@ def issue_date_errors(issue: dict) -> list[str]:
         content_day = exact_date(issue.get('date'))
     except (TypeError, ValueError) as exc:
         return ['期次日期口径：' + str(exc)]
+    errors = website_addition_errors(issue)
     if 'backfill' not in issue:
-        return []
-    errors = []
+        return errors
     if issue.get('retrieved_date'):
         try:
             if exact_date(issue['retrieved_date']) > actual_day:

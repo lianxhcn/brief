@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 from site_config import date_compact, detail_url, is_demo_issue
 from editorial_rules import uses_v2, check_editorial, LEGACY_V2_MAX_LINES, LEGACY_V2_MAX_CHARS
 from render_wechat import title_line
+from issue_dates import item_evaluation_as_of, item_evaluation_date, item_website_record_date
 
 DAILY_CATEGORIES = ("lianxh_posts", "papers", "tools", "research_resources")
 ALL_CATEGORIES = DAILY_CATEGORIES + ("conference_calls",)
@@ -225,12 +226,14 @@ def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[
             other_date = date.fromisoformat(other["date"])
         except (KeyError, ValueError):
             continue
-        # 较晚期次的结果修复由其自身验收，不反向使旧期次失效。
+        if other.get('status') == 'published':
+            for previous in other.get('conference_calls', []):
+                try:record_day=item_website_record_date(other,previous)
+                except (KeyError,ValueError,TypeError):continue
+                conference_history.append(dict(previous, events=[dict(kind='website',date=record_day,evidence=str(path))]))
+        # 论文仍按原期次日期验收；补充会议另按条目实际日期筛选历史。
         if other_date > current_date:
             continue
-        if other.get('status') == 'published':
-            conference_history.extend(dict(previous, events=[dict(kind='website',date=other['date'],evidence=str(path))])
-                                      for previous in other.get('conference_calls', []))
         if abs((current_date - other_date).days) > 14:
             continue
         from trial_selection import identities
@@ -250,14 +253,21 @@ def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[
                     errors.append(f"{path}: 14 天内出现相同成果：{item['id']} / {previous['id']}")
     from conference_policy import conference_publication_errors, conference_publication_kind
     for item in issue.get('conference_calls', []):
+        if issue.get('status')=='demo':continue  # DEMO 不产生真实发布语义；schema/隔离检查仍由各入口执行。
         # 已冻结的旧公告没有 event_id，不补造同届身份；新稿和任何提醒/变更仍须稳定身份。
         if (current_date < date(2026,11,12) and issue.get('status')=='published'
                 and source.is_file() and source.resolve().parent==history_dir.resolve()
                 and not issue.get('conference_policy_version')
+                and 'website_addition' not in item
                 and not item.get('event_id') and conference_publication_kind(item)=='initial'):
             continue
-        errors.extend(item['id'] + ': ' + e for e in conference_publication_errors(
-            item, conference_history, issue.get('as_of', issue['date'])))
+        try:
+            as_of=item_evaluation_as_of(issue,item)
+            evaluated_day=item_evaluation_date(issue,item)
+            applicable=[row for row in conference_history if date.fromisoformat(row['events'][0]['date'])<=evaluated_day]
+        except (KeyError,ValueError,TypeError) as exc:
+            errors.append(item['id']+': 网站补充评估日期无效：'+str(exc));continue
+        errors.extend(item['id'] + ': ' + e for e in conference_publication_errors(item,applicable,as_of))
 
 
 def core_urls(issue: dict) -> set[str]:

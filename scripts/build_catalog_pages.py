@@ -57,6 +57,7 @@ def entries(issues: list[dict]) -> list[dict]:
                 collected.append({
                     "paper_metadata": catalog_citation(item, item.get("added_date") or issue["date"]) if category == "papers" else "",
                     "id": item["id"], "date": issue["date"], "title": item["title"], "note": public_summary(item),
+                    **({'website_updated_date':item['website_addition']['added_date']} if item.get('website_addition') else {}),
                     "section": catalog["section"], "catalog": catalog, "original_url": (item.get("url") or item.get("source_url") or item.get("official_url") or item.get("doi_url") or item.get("homepage_url") or ""),
                 })
     for slug, data in collections():
@@ -89,10 +90,11 @@ def card(entry: dict) -> str:
         actions += (f'<a href="{escape(original_url)}" target="_blank" '
                     'rel="noopener noreferrer">阅读原文</a>')
     action_class = ' class="catalog-actions"' if original_url.startswith(('https://', 'http://')) else ''
+    updated = ('\n<p class="catalog-meta website-update">更新：'+escape(entry['website_updated_date'])+'</p>') if entry.get('website_updated_date') else ''
     return f'''<article class="catalog-card">
 <h3>{escape(entry['title'])}</h3>
 {entry.get("paper_metadata", "")}
-<p class="catalog-meta">{date_label}：{escape(entry['date'])}</p>
+<p class="catalog-meta">{date_label}：{escape(entry['date'])}</p>{updated}
 <p>{inline_code(entry['note'])}</p>
 <p class="catalog-tags">{metadata}</p>
 <p{action_class}>{actions}</p>

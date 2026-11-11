@@ -657,7 +657,84 @@
   ],
   "tools": [],
   "research_resources": [],
-  "conference_calls": [],
+  "conference_calls": [
+    {
+      "id": "conf-cfrn-11592",
+      "event_id": "cwea-global-governance-political-economy-2026",
+      "identity_aliases": [
+        "conf-cfrn-11592",
+        "https://www.cfrn.com.cn/hyxx/11592",
+        "https://www.cfrn.com.cn/hyxx/detail/11592.html"
+      ],
+      "title": "全球治理政治经济学论坛 (2026)：11 月 18 日投稿截止",
+      "first_discovered_date": "2026-11-02",
+      "deadline": "2026-11-18",
+      "submission_deadline": "2026-11-18",
+      "deadline_kind": "submission",
+      "event_date": "2026-11-28",
+      "event_end_date": "2026-11-28",
+      "reminder": false,
+      "priority": "extended",
+      "published_date": "2026-09-30",
+      "retrieved_date": "2026-11-11",
+      "source_date_status": "verified",
+      "source_url": "https://ems.nwu.edu.cn/info/1047/11044.htm",
+      "official_url": "https://ems.nwu.edu.cn/info/1047/11044.htm",
+      "url": "https://ems.nwu.edu.cn/info/1047/11044.htm",
+      "organizer_or_journal": "中国世界经济学会",
+      "host": "西北大学经济管理学院",
+      "topic": "高质量共建一带一路与全球治理创新",
+      "location": "中国大陆·陕西西安；西北大学经济管理学院承办，具体会址未列",
+      "location_region": "mainland-china",
+      "location_evidence_url": "https://ems.nwu.edu.cn/info/1047/11044.htm",
+      "fee_note": "通知明确不收取会务费；交通、住宿及其他费用安排未列。",
+      "fee_status": "no-conference-fee-other-costs-unknown",
+      "status": "open",
+      "page_note": "中国世界经济学会全球治理政治经济学论坛 (2026) 将于 11 月 28 日在陕西西安举行，27 日报到，由西北大学经济管理学院承办。征文围绕高质量共建一带一路与全球治理创新，涉及制度型开放、国际规则、人工智能治理、供应链及人民币国际化等方向，11 月 18 日截止。通知明确不收取会务费，具体会址及交通住宿安排未列。",
+      "wechat_summary": "中国世界经济学会主办、西北大学经济管理学院承办，11 月 28 日在西安开会，27 日报到，11 月 18 日投稿截止。关注一带一路、全球治理、国际经贸与人工智能治理等研究；不收取会务费，具体会址及交通住宿安排未列。",
+      "catalog": {
+        "section": "academic-updates",
+        "tags": [
+          "会议征稿",
+          "全球治理",
+          "国际经济"
+        ],
+        "software": [],
+        "methods": [],
+        "fields": [
+          "经济学",
+          "国际经济"
+        ]
+      },
+      "review": {
+        "source_id": "conference:cfrn",
+        "source_url": "https://ems.nwu.edu.cn/info/1047/11044.htm",
+        "version_read": "当届官方HTML通知全文；复用上午真实下载，下午完成会议事实及编辑适用性审阅",
+        "date_basis": "published_date为页面公告日，署名日期另存私有证据；effective_date为当前投稿窗口评估日，不冒充首发或首见。",
+        "effective_date": "2026-11-11",
+        "verified_at": "2026-11-11T15:10:44.222659+08:00",
+        "evidence_locator": "会议主题、组织/会址、征文要求、重要日期、费用条款；另核官方通知栏目当前可见条目",
+        "identity_evidence": "当届名称、举办年月、主承办方与CFRN原观察一致；中央会议候选和已发同届身份无匹配。",
+        "identity_status": "resolved",
+        "evidence_level": "official-page",
+        "version_matches": true,
+        "human_review": "not-performed",
+        "detailed_claims": false,
+        "reason": "重要专业学会的专题学术论坛，国际经济、制度规则、供应链和AI治理均与读者研究方向相关；原公告9月30日不影响当前有效投稿窗口，宜尽早参与下一轮会议优先比较。",
+        "agent_review": "approved",
+        "agent_reviewed_at": "2026-11-11T15:10:44.222659+08:00",
+        "reviewed_by": "conference_sources / Codex source and editorial review"
+      },
+      "registration_date": "2026-11-27",
+      "event_end": "2026-11-28",
+      "added_date": "2026-11-11",
+      "website_addition": {
+        "added_date": "2026-11-11",
+        "evaluated_at": "2026-11-11T15:36:14.628710+08:00",
+        "decision_id": "D-20261111-02"
+      }
+    }
+  ],
   "paper_review": {
     "reviewed_on": "2026-11-08",
     "basis": "复用11/5原28刊10/20–11/5有界成功/替代检查，今日age3；10个今日窄增量+3官方fallback单列，不替代14日覆盖，不推进last_success。",
