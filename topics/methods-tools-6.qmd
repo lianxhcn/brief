@@ -8,9 +8,25 @@ title: "新方法 · 第 6 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 139 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>highs：在 R 中调用优化求解器</h3>
+
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>R 包 highs 提供 HiGHS 求解接口，手册包含线性规划、混合整数线性规划与二次规划示例，可用于资源配置或匹配问题中的优化步骤。求解器只处理给定的目标与约束，模型设定和数据合理性仍需研究者检查；不同问题类型的支持范围应以文档为准。 安装命令为 <code>install.packages(&quot;highs&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%98%E5%8C%96%E6%B1%82%E8%A7%A3&amp;show-results=1" title="全站搜索：优化求解">优化求解</a> · <a class="tag-link" href="?q=%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92&amp;show-results=1" title="全站搜索：整数规划">整数规划</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#tool-highs-1-15-1-1">查看本期</a><a href="https://cran.r-project.org/package=highs" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>duckdb R 接口更新：在本地用 SQL 整理数据</h3>
+
+<p class="catalog-meta">期次日期：2026-10-24</p>
+<p>CRAN 发布 duckdb R 接口 2.0.0，提供嵌入式分析数据库与 DBI 连接。手册示例展示通过数据表与文件接口完成筛选、选择和汇总。适合整理本地多文件数据；此处版本指 R 包，不能混同其他语言接口版本，升级前应检查现有代码兼容性。 安装命令为 <code>install.packages(&quot;duckdb&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E5%BA%93&amp;show-results=1" title="全站搜索：数据库">数据库</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97&amp;show-results=1" title="全站搜索：数据清洗">数据清洗</a></p>
+<p class="catalog-actions"><a href="../issues/20261024/#tool-duckdb-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=duckdb" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>qdfauction：从出价分布走向拍卖结构分析</h3>
 
@@ -75,24 +91,8 @@ title: "新方法 · 第 6 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%A0%86%E5%8F%A0DID&amp;show-results=1" title="全站搜索：堆叠DID">堆叠DID</a> · <a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：匹配">匹配</a></p>
 <p class="catalog-actions"><a href="../issues/20261022/#tool-flexmatch-0-1-0">查看本期</a><a href="https://cran.r-project.org/package=flexMatch" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>ifo：在 R 中获取德国企业景气调查时间序列</h3>
-
-<p class="catalog-meta">期次日期：2026-10-21</p>
-<p>R 包 ifo 提供 ifo 研究所时间序列的下载接口，可用 <code>install.packages(&quot;ifo&quot;)</code> 安装，官方示例以 <code>ifo_business()</code> 获取景气、现状与预期指标。CRAN 源码更新至 0.3.1，部分二进制仍为 0.3.0，安装后应核对版本。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：宏观数据">宏观数据</a> · <a class="tag-link" href="?q=%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0&amp;show-results=1" title="全站搜索：景气指数">景气指数</a></p>
-<p class="catalog-actions"><a href="../issues/20261021/#tool-ifo-0-3-1">查看本期</a><a href="https://cran.r-project.org/package=ifo" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>gtregression：从回归模型到论文表格</h3>
-
-<p class="catalog-meta">期次日期：2026-10-21</p>
-<p>R 包 gtregression 整合回归、诊断、森林图和 Word 等格式导出。1.2.0 增加风险差、NNT 与更多模型支持；官方示例用 <code>uni_reg()</code>、<code>multi_reg()</code> 和 <code>merge_tables()</code> 组织结果。安装命令为 <code>install.packages(&quot;gtregression&quot;)</code>。格式化输出不能替代模型诊断与因果识别。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：回归输出">回归输出</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：结果可视化">结果可视化</a></p>
-<p class="catalog-actions"><a href="../issues/20261021/#tool-gtregression-1-2-0">查看本期</a><a href="https://cran.r-project.org/package=gtregression" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools-5.html">上一页</a><span aria-current="page">第 6 / 14 页 · 共 139 条</span><a rel="next" href="methods-tools-7.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -1,0 +1,30 @@
+📙 连享会 · 快讯 | 2026.11.12
+
+📰 01｜论文 · JPE：优惠录取为何可能削弱高中阶段的努力？
+结合智利优惠录取项目的随机试验与动态结构模型，分析升学机会和学习投入为何可能出现不同变化。政策反事实提示主观信念的重要性，推演结果仍取决于模型设定。
+引文：Tincani, Kosse & Miglino (2026). Beliefs and the incentive effects of preferential college admissions: Evidence from an experiment and a structural model. JPE, forthcoming.
+主页： https://www.journals.uchicago.edu/doi/10.1086/744916 
+PDF (Author Accepted Version)： https://discovery.ucl.ac.uk/id/eprint/10230776/1/Tincani_et_al_2026_Beliefs_and_Preferential_Admissions_accepted.pdf 
+
+📰 02｜论文 · arXiv：面板 DML 如何同时处理高维协变量与潜在交互因子？
+因子增广 DML 将高维协变量调整与两组潜在因子空间结合，并采用按个体三折交叉拟合。适合关注面板混杂控制的读者，推断仍依赖强因子、严格外生性和大样本条件。
+引文：Chen, Ma & Yu (2026). Semiparametric inference in panel data with interactive and high-dimensional confounding. arXiv.
+主页： https://arxiv.org/abs/2611.14385v1 
+
+📦 03｜软件 · Python：Pandera 0.36.0：把文本解析和数据列验证写进同一份规则
+新增派生列与 decisions 接口，可把文本分类、评分和数据验证写在同一份 schema 中。类型合法不等于标签准确；离线模拟提供者仅用于演示，实际标注仍需样本核对。
+版本：Python / pandera 0.36.0；发布：2026-11-10
+PyPI： https://pypi.org/project/pandera/0.36.0/ 
+
+📅 04｜会议征稿：中国工商管理研究年度论坛：11 月 14 日投稿截止
+11 月 14 日截稿，11 月 28 日在广州暨南大学管理学院举行。征集中国管理实践与理论研究，须提交未发表、1.8 万字以上的非匿名 Word 稿；不收会议费，交通住宿自理。
+截止：2026-11-14
+通知： https://jjgl.ajcass.com/CommonBlock/SiteContentDetail?contentID=160192 
+
+📅 05｜会议报名：清华 AI 与资本市场研究会议：11 月 22 日报名截止
+11 月 22 日前申请参会，12 月 21 日在北京清华经管举行，工作语言为英文。聚焦 AI、会计信息与资本市场；须通过主办方审核并收到确认邮件，不是论文征稿，通知未列费用。
+截止：2026-11-22
+通知： https://www.sem.tsinghua.edu.cn/rengongzhinengyuzibenshichangyanjiuhuiyuanwangbaomingtongzhi.pdf 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261112/ 

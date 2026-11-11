@@ -8,9 +8,57 @@ title: "新论文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>保护公共参与的反 SLAPP 法规如何影响企业污染治理？</h3>
+<p class="catalog-citation">Chen, K. C. W.; Chen, Z.; Sun, C. (2026). The anti-SLAPP statutes and corporate environmental policies. JAR.</p><p class="catalog-meta">发表日期：2026-11-04</p>
+<p class="catalog-meta">期次日期：2026-11-10</p>
+<p>污染企业可能借策略性诉讼抑制公众监督。反 SLAPP 法规通过快速驳回和诉讼费用回收等安排降低这种威胁。论文采用双重差分设计，考察州级立法、当地公众压力与企业有毒排放的关系，并区分污染治理改进、产出减少和排放转移等渠道。研究提供了把法律保护与非正式监督联系起来的设计；法规实施的可比性、同期政策和平行趋势仍需核对，机制解释不能直接推广为所有公众参与政策的普遍效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：环境治理">环境治理</a> · <a class="tag-link" href="?q=%E5%85%AC%E4%BC%97%E5%8F%82%E4%B8%8E&amp;show-results=1" title="全站搜索：公众参与">公众参与</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
+<p class="catalog-actions"><a href="../issues/20261110/#paper-10-1111-1475-679x-70095">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70095" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>RCT 的可信度：检验功效、选择发表与复现资源配置</h3>
+<p class="catalog-citation">Chai, Q.; Lang, K.; Zhong, L. (2026). (In)credible development RCTs: False discoveries, low power, and a solution. NBER Working Paper No. 35999 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-10</p>
+<p>显著结果的可信度不仅取决于是否随机分配，也取决于检验功效和哪些结果被发表。文章汇总发展经济学 RCT 的主要假设检验，用考虑选择发表的经验贝叶斯混合模型讨论误发现与方向功效，再在预算和证据标准约束下研究复现资源配置。它区分原研究扩样、改变显著性门槛和有针对性复现的作用。模型推断依赖选择机制与分布设定，不是对每篇 RCT 真伪的逐一判决；校准结果也不是普遍适用的最优资助规则。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：随机试验">随机试验</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%8F%91%E8%A1%A8&amp;show-results=1" title="全站搜索：选择发表">选择发表</a> · <a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：复现设计">复现设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261110/#paper-nber-w35999">查看本期</a><a href="https://www.nber.org/papers/w35999" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 代理执行到哪一步，额外核查或纠正才有价值？</h3>
+<p class="catalog-citation">Sawarni, A. et al. (2026). Knowing when to intervene: Causal evaluation of AI agents. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-10</p>
+<p>静态基准分数难以回答代理执行到某一步时，额外核查或更昂贵的监督是否值得。文章利用轨迹内随机干预数据，评估验证、筛选等操作对最终结果的动态因果影响，并考虑状态、环境和后续行为对情境化干预策略的作用。相关风险排序可帮助安排审查优先级。因果解释依赖随机干预设计、数据覆盖及策略评估条件，不能把若干基准中的效果直接当作任意部署环境的安全保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E4%BB%A3%E7%90%86&amp;show-results=1" title="全站搜索：AI代理">AI代理</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E5%9B%A0%E6%9E%9C%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态因果效应">动态因果效应</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：随机干预">随机干预</a></p>
+<p class="catalog-actions"><a href="../issues/20261110/#paper-arxiv-2611-09792">查看本期</a><a href="https://arxiv.org/abs/2611.09792v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>通胀预期来自不同来源，怎样构造一致的期限结构？</h3>
+<p class="catalog-citation">Carriere-Swallow, Y.; Lu, J.; Teoh, K. (2026). A flexible composite term structure of inflation expectations. IMF Working Paper No. 2026/242 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>调查和市场指标的频率、期限与历史预测准确性不同，直接拼接可能混淆预期变化与测量误差。文章扩展动态 Nelson–Siegel 状态空间模型，加入固定预测事件只随新信息修订的一致性限制，并按各来源历史预测表现校准测量误差方差，形成覆盖不同期限的综合预期曲线。日本案例用于展示框架，不意味着任何市场指标都可无条件替代调查。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%80%9A%E8%83%80%E9%A2%84%E6%9C%9F&amp;show-results=1" title="全站搜索：通胀预期">通胀预期</a> · <a class="tag-link" href="?q=%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4&amp;show-results=1" title="全站搜索：状态空间">状态空间</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#paper-imf-2026-242">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/242/001.2026.issue-242-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>财政规则与独立财政委员会：互补关系需要怎样的证据？</h3>
+<p class="catalog-citation">Beetsma, R. M. W. J. et al. (2026). On the role and effectiveness of fiscal rules and independent fiscal councils. IMF Working Paper No. 2026/233 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-30</p>
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>财政规则与独立财政委员会常分步建立，二者不必承担相同作用。文章先用理论框架讨论规则强度、委员会及其互动，再用更新的 IMF 制度数据比较财政赤字、预测偏差与预测准确性。摘要给出的是随样本和制度设计变化的提示性经验关系，不能把规则更强或设立委员会直接解释为已识别的因果改善。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：财政规则">财政规则</a> · <a class="tag-link" href="?q=%E5%88%B6%E5%BA%A6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：制度设计">制度设计</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E5%81%8F%E5%B7%AE&amp;show-results=1" title="全站搜索：预测偏差">预测偏差</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#paper-imf-2026-233">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/233/001.2026.issue-233-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>拥挤会反过来改变选择时，政策福利怎样评估？</h3>
+<p class="catalog-citation">Bhattacharya, D.; Makiranta, M. (2026). Discrete choice under congestion: Equilibrium and welfare. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>一项选择越受欢迎，可能越拥挤，从而改变个人收益，也把干预影响传到其他选项。文章研究这类内生拥挤下的均衡与福利，并在线性指标结构中讨论如何用微观选择数据识别效用差异和部分干预的福利效果；不是所有干预都可识别。招生案例说明偏好排序与均衡反馈需要同时处理，不能把局部减拥挤直接等同于总体福利改善。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A6%BB%E6%95%A3%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：离散选择">离散选择</a> · <a class="tag-link" href="?q=%E6%8B%A5%E6%8C%A4%E5%A4%96%E9%83%A8%E6%80%A7&amp;show-results=1" title="全站搜索：拥挤外部性">拥挤外部性</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：福利识别">福利识别</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#paper-arxiv-2611-07787">查看本期</a><a href="https://arxiv.org/abs/2611.07787v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>意见分歧下，安全空间如何兼具庇护与隔离作用？</h3>
 <p class="catalog-citation">Tirole, J. (2026). Safe spaces: Shelters or tribes? JPE.</p><p class="catalog-meta">发表日期：2026-10-27</p>
@@ -43,56 +91,8 @@ title: "新论文 · 第 3 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E4%BA%A7%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：生产网络">生产网络</a> · <a class="tag-link" href="?q=%E4%BE%9B%E7%BB%99%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：供给约束">供给约束</a> · <a class="tag-link" href="?q=%E8%B7%A8%E6%9C%9F%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：跨期政策">跨期政策</a></p>
 <p class="catalog-actions"><a href="../issues/20261109/#paper-imf-2026-244">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/244/001.2026.issue-244-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>资源按地区还是按家庭分配？先做样本外需求诊断</h3>
-<p class="catalog-citation">Schwantje, T. et al. (2026). Voices of the coast: Spatial versus household heterogeneity in adaptation needs in Bangladesh. World Bank Policy Research Working Paper No. 11498 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>资源配置采用地区筛选还是家庭筛选，取决于需求主要在地区间变化，还是在同一社区的家庭间变化。文章比较地区、家庭与混合模型的样本外预测，用孟加拉国沿海家庭调查讨论不同适应需求的空间和家庭异质性，并权衡排除误差与筛查成本。依据是自报需求的预测诊断，不等于识别干预的因果效果，也不能把某一地区样本的筛查规则直接推广。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：政策瞄准">政策瞄准</a> · <a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E5%A4%96%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：样本外预测">样本外预测</a> · <a class="tag-link" href="?q=%E9%80%82%E5%BA%94%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：适应需求">适应需求</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-wb-wps11498">查看本期</a><a href="https://documents.worldbank.org/curated/en/099607311062625210" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>股债协方差变号：冲击大小与传导方向要分开</h3>
-<p class="catalog-citation">Adrian, T.; Schneider, A. (2026). The stock--bond covariance puzzle. CEPR Discussion Paper No. 22151 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-07</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>股债收益的协方差变号，既可能来自两类冲击相对波动的变化，也可能来自冲击传导方向的变化。文章利用股票与债券波动随时间变化的差异，区分这两种机制，并要求解释协方差的理论同时解释冲击对两个市场的响应。识别依赖其时变波动框架；文章报告的市场响应不能保证某种资产组合持续分散风险。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%82%A1%E5%80%BA%E8%81%94%E5%8A%A8&amp;show-results=1" title="全站搜索：股债联动">股债联动</a> · <a class="tag-link" href="?q=%E5%BC%82%E6%96%B9%E5%B7%AE%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：异方差识别">异方差识别</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：金融计量">金融计量</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-cepr-dp22151">查看本期</a><a href="https://cepr.org/publications/dp22151" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>生成式 AI 的销售价值，怎样按具体工作流评估？</h3>
-<p class="catalog-citation">Fang, L. et al. (2026). Generative artificial intelligence and sales productivity: Field experiments in online retail. Management Science.</p><p class="catalog-meta">发表日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>文章在 2023–2024 年的跨境在线零售平台多种业务工作流中开展随机现场实验，考察生成式 AI 的短期销售表现，并结合转化率、购物金额、退货、评分与消费者经验比较结果。研究把客服、商品匹配、广告和卖家服务等具体应用放在现有业务基准下评价，提示不能用一个统一效果概括 AI 采用。实验单位、随机化与多工作流比较的细节仍需正文核查；平台、使用场景与观察期限制了外推，不能将短期销售变化等同于长期利润、普遍生产率收益或所有消费者都会受益。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E6%88%90%E5%BC%8F%20AI&amp;show-results=1" title="全站搜索：生成式 AI">生成式 AI</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E4%B8%9A%E5%8A%A1%E8%AF%84%E4%BB%B7&amp;show-results=1" title="全站搜索：业务评价">业务评价</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-10-1287-mnsc-2026-00623">查看本期</a><a href="https://doi.org/10.1287/mnsc.2026.00623" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>季度预测模型：怎样把校准推进到贝叶斯估计？</h3>
-<p class="catalog-citation">González Gómez, A.; Prada Sarmiento, J. D. (2026). From calibration to estimation: A modern Bayesian framework for quarterly projection models. IMF Working Paper No. 2026/241 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>中央银行常用的季度预测模型，做完整贝叶斯估计时会遇到理性预期求解与冲击方差先验等计算问题。文章组合保结构的倍增算法、自动微分和 No-U-Turn Sampler，并在先验校准中使用扰动平滑的 EM 步骤，以巴西开放经济模型展示估计与预测。该工作流依赖具体模型、先验和计算设定，稳定性与比较结果为作者报告。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：贝叶斯估计">贝叶斯估计</a> · <a class="tag-link" href="?q=%E5%AD%A3%E5%BA%A6%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：季度预测模型">季度预测模型</a> · <a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-imf-2026-241">查看本期</a><a href="https://www.elibrary.imf.org/view/journals/001/2026/241/001.2026.issue-241-en.xml" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>单个大网络做回归：组合数量不等于有效样本量</h3>
-<p class="catalog-citation">Ding, W. (2026). Nonparametric subgraph regression. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-04</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>网络中由若干个体组成的子群可以产生一个观测结果，例如一组节点是否形成特定子图。文章研究这类结果的核回归估计：共享个体的组合可能相关，不相交组合则假设独立，二元关系回归是其中的特例。方法讨论方差、收敛与推断，并强调组合总数会高估有效信息量。结论依赖上述网络依赖结构，不能把所有重叠组合当作独立样本。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：网络数据">网络数据</a> · <a class="tag-link" href="?q=%E9%9D%9E%E5%8F%82%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：非参数回归">非参数回归</a> · <a class="tag-link" href="?q=%E6%9C%89%E6%95%88%E6%A0%B7%E6%9C%AC%E9%87%8F&amp;show-results=1" title="全站搜索：有效样本量">有效样本量</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-arxiv-2611-07240">查看本期</a><a href="https://arxiv.org/abs/2611.07240v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>分配目标怎样进入 HANK 模型的最优政策规则？</h3>
-<p class="catalog-citation">McKay, A.; Wolf, C. K. (2026). Optimal policy rules in HANK. REStud.</p><p class="catalog-meta">发表日期：2026-11-07</p>
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>文章在包含名义刚性和异质性家庭的经济周期模型中，比较短期名义利率与定额 (lump-sum) 转移支付的最优政策规则。作者先分析针对总量指标的传统双重目标，再加入分配目标，说明政策工具对消费不平等的影响如何进入规则。其价值在于区分总量稳定与分配目标、货币工具与财政转移的作用；这些结论是特定模型条件下的理论推导，不能解释为现实政策效果的实测，也不能据摘要断言货币政策在所有经济体中的分配作用都很小。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=HANK&amp;show-results=1" title="全站搜索：HANK">HANK</a> · <a class="tag-link" href="?q=%E6%9C%80%E4%BC%98%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：最优政策">最优政策</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E4%B8%8D%E5%B9%B3%E7%AD%89&amp;show-results=1" title="全站搜索：消费不平等">消费不平等</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#paper-10-1093-restud-rdag069">查看本期</a><a href="https://doi.org/10.1093/restud/rdag069" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -45,6 +45,18 @@ def conference():
 
 
 class WechatTests(unittest.TestCase):
+    def test_registration_heading_follows_verified_deadline_kind(self):
+        for kind, label in ((None, '会议征稿'), ('submission', '会议征稿'), ('registration', '会议报名')):
+            with self.subTest(deadline_kind=kind):
+                issue = sample()
+                item = conference()
+                if kind is not None:
+                    item['deadline_kind'] = kind
+                issue['conference_calls'] = [item]
+                rendered = render_daily(issue)
+                self.assertIn('📅 04｜' + label + '：测试征稿', rendered)
+                self.assertFalse(self.validate(issue, rendered))
+
     def validate(self, issue, text=None, legacy=False):
         with tempfile.TemporaryDirectory() as folder:
             p = Path(folder) / (issue['date'] + '.txt')

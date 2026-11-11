@@ -8,9 +8,25 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 139 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>SCMs：用规格曲线检查合成控制的设定敏感性</h3>
+
+<p class="catalog-meta">期次日期：2026-11-05</p>
+<p>SCMs 将协变量构造、供体约束、权重和偏差修正放进合成控制规格曲线，便于检查结果对实现选择的敏感性。0.1.1 修复协变量静默丢弃、部分供体在安慰剂分布中被遗漏及双侧 p 值排序，并把默认推断改为双侧，旧分析须复核。规格曲线和 SHAP 不会自动证明反事实可信或识别政策因果。需 R 4.1、CVXR 1.9 及求解器依赖，当前暂无 Windows 二进制。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E8%A7%84%E6%A0%BC%E6%9B%B2%E7%BA%BF&amp;show-results=1" title="全站搜索：规格曲线">规格曲线</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261105/#tool-scms-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=SCMs" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>regsensitivity：回归结论对遗漏变量有多敏感？</h3>
+
+<p class="catalog-meta">期次日期：2026-11-04</p>
+<p>regsensitivity 为线性回归的遗漏变量偏误提供系数识别集、结论突破点及绘图。0.3.0 新增结果读取接口，区分简短输出与完整汇总，并调整协方差矩阵奇异时的数值处理，便于整理敏感性结果。识别集取决于敏感度参数、比较协变量与方法假设；突破点不是 p 值，也不能证明所有混杂已被控制。Windows 二进制仍为 0.2.0，安装后须查版本。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%81%97%E6%BC%8F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：遗漏变量">遗漏变量</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：回归诊断">回归诊断</a></p>
+<p class="catalog-actions"><a href="../issues/20261104/#tool-regsensitivity-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=regsensitivity" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>pkgtransfer：为新电脑整理 Stata 扩展包安装来源</h3>
 
@@ -75,24 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%9F%E8%AE%A1%E8%A1%A8&amp;show-results=1" title="全站搜索：统计表">统计表</a> · <a class="tag-link" href="?q=%E6%8A%A5%E5%91%8A%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：报告输出">报告输出</a></p>
 <p class="catalog-actions"><a href="../issues/20261101/#tool-spicy-0-14-0">查看本期</a><a href="https://cran.r-project.org/package=spicy" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>paneltests 1.0.8：面板诊断中的推断修正</h3>
-
-<p class="catalog-meta">期次日期：2026-11-01</p>
-<p>paneltests 集中提供斜率同质性、截面相关和面板协整诊断。1.0.8 修正协整检验 p 值尾部、Swamy 中心估计量及缺失/共线处理，适合复查旧脚本。检验不拒绝不能证明模型设定或因果识别有效，稳健 Wald 检验仍需关注小样本风险。Windows 二进制暂为 1.0.6，须核对安装版本。安装为 <code>install.packages(&quot;paneltests&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：面板诊断">面板诊断</a> · <a class="tag-link" href="?q=%E6%8E%A8%E6%96%AD%E4%BF%AE%E6%AD%A3&amp;show-results=1" title="全站搜索：推断修正">推断修正</a></p>
-<p class="catalog-actions"><a href="../issues/20261101/#tool-paneltests-1-0-8">查看本期</a><a href="https://cran.r-project.org/package=paneltests" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>diffindiff：组织 DiD 数据、估计与诊断流程</h3>
-
-<p class="catalog-meta">期次日期：2026-11-01</p>
-<p>diffindiff 将处理组、对照组、研究窗口与处理时段整理为分析对象，并连接 DiD 估计和效果图。2.5.9 修正 pandas 绘图列名、拟合指标零分母及模型失败时访问反事实结果的问题。支持分期处理不意味着自动解决异质性下的 TWFE 比较问题，平行趋势检验也不能证明识别假设。安装为 <code>pip install diffindiff</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=DiD&amp;show-results=1" title="全站搜索：DiD">DiD</a> · <a class="tag-link" href="?q=%E5%88%86%E6%9E%90%E6%B5%81%E7%A8%8B&amp;show-results=1" title="全站搜索：分析流程">分析流程</a></p>
-<p class="catalog-actions"><a href="../issues/20261101/#tool-diffindiff-2-5-9">查看本期</a><a href="https://pypi.org/project/diffindiff/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 137 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 14 页 · 共 139 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

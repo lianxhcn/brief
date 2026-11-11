@@ -56,6 +56,8 @@ def item_heading(category, item, number):
             kind = '命令'
     elif category in ('research_resources', 'conference_calls'):
         source = item.get('source_name', '')
+        if category == 'conference_calls' and item.get('deadline_kind') == 'registration':
+            kind = '会议报名'
     title = single_line(item['title'])
     if source:
         single_line(source)

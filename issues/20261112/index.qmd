@@ -1,0 +1,225 @@
+---
+title: "连享会 · 快讯 | 2026.11.12"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 优惠录取为何可能削弱高中阶段的努力？ {#paper-10-1086-744916}
+
+<p class="myapa">Tincani, M. M., Kosse, F., &amp; Miglino, E. (2026). Beliefs and the incentive effects of preferential college admissions: Evidence from an experiment and a structural model. Journal of Political Economy (forthcoming). <a href="https://doi.org/10.1086/744916" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://discovery.ucl.ac.uk/id/eprint/10230776/1/Tincani_et_al_2026_Beliefs_and_Preferential_Admissions_accepted.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Beliefs%20and%20the%20incentive%20effects%20of%20preferential%20college%20admissions%3A%20Evidence%20from%20an%20experiment%20and%20a%20structural%20model" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+降低大学入学门槛，可能同时改变学生对努力回报的判断。作者录用稿结合智利 PACE 项目的随机试验、行政和调查数据，研究优惠录取对升学与高中阶段努力的影响，再用动态结构模型分析主观信念如何改变政策激励。它将扩大入学机会与维持学习投入分开讨论，提示政策设计还应关注学生对大学持续就读所需努力的认识。经验结论对应当地政策与样本；纠正信念的政策推演依赖结构模型设定，不能直接当作已实施信息干预的效果。
+
+标签：<a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：教育政策">教育政策</a> · <a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：主观信念">主观信念</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a>
+
+<small>来源日期：2026-11-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 面板 DML 如何同时处理高维协变量与潜在交互因子？ {#paper-arxiv-2611-14385}
+
+<p class="myapa">Chen, B., Ma, Y., &amp; Yu, Q. (2026). Semiparametric inference in panel data with interactive and high-dimensional confounding. arXiv. <a href="https://arxiv.org/abs/2611.14385v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.14385.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Semiparametric%20inference%20in%20panel%20data%20with%20interactive%20and%20high-dimensional%20confounding" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+只灵活控制可观测变量，未必能消除面板中的共同潜在冲击。文章提出因子增广 DML：从处理和结果的第一阶段残差估计两组因子空间，结合双重投影与按个体划分的三折交叉拟合，避免因子估计误差中相同训练个体配对带来的影响。其渐近推断依赖固定因子秩、充分强的因子信号、严格外生性及个体数和时期数共同增长等条件。它为面板 DML 提供了一种区分可观测非线性混杂与潜在交互混杂的思路，不能解释为任意小样本或弱因子环境下的保证。
+
+标签：<a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### Pandera 0.36.0：把文本解析和数据列验证写进同一份规则 {#tool-pandera-0-36-0}
+
+Pandera 0.36.0 增加 ParsedField 与 ParsedColumn，可在数据模式中同时声明原始字段、派生字段及其检验；decisions 接口把自由文本转换为类别、分值或是非值，适合组织工单分类、文本标注和后续质量检查。官方教程可用 MockProvider 离线演示，并用 plan 与 stats 查看请求和成本；模拟提供者只返回符合类型的任意结果，不代表语义正确。真实模型的标签仍需人工样本、误差分析和分布检查，类型通过也不等于测量有效。可用 <code>pip install &quot;pandera[pandas,decisions]==0.36.0&quot;</code> 安装相关扩展。
+
+标签：<a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：数据验证">数据验证</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%B4%BE%E7%94%9F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：派生变量">派生变量</a>
+
+<small>来源日期：2026-11-10</small>
+
+<a href="https://pypi.org/project/pandera/0.36.0/" target="_blank" rel="noopener noreferrer">PyPI</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 中国工商管理研究年度论坛：11 月 14 日投稿截止 {#conf-cfrn-11589}
+
+**投稿截止：2026-11-14**
+
+会议：2026-11-28 至 2026-11-28 · 中国大陆·广州，暨南大学管理学院
+
+费用：不收取会议费，交通与住宿自理。
+
+论坛于 11 月 28 日在广州暨南大学管理学院举行，围绕构建中国管理学自主知识体系征集研究，11 月 14 日截稿。稿件须尚未公开发表、1.8 万字以上，以 Word 文档提交至官方通知所列邮箱，且不做匿名处理，首页列明作者信息。会议不收取会议费，交通和住宿自理；通知提醒同期广州酒店房源紧张。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%95%86%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：工商管理">工商管理</a> · <a class="tag-link" href="?q=%E4%B8%AD%E5%9B%BD%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：中国管理研究">中国管理研究</a>
+
+<small>来源日期：2026-10-29</small>
+
+<a href="https://jjgl.ajcass.com/CommonBlock/SiteContentDetail?contentID=160192" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 清华 AI 与资本市场研究会议：11 月 22 日报名截止 {#conf-tsinghua-ai-capital-2026}
+
+**报名截止：2026-11-22**
+
+会议：2026-12-21 至 2026-12-21 · 中国大陆·北京，清华大学经管学院建华楼 508
+
+费用：通知未列参会费用。
+
+会议将于 12 月 21 日在北京清华大学经管学院建华楼 508 举行，面向学术研究者、行业从业者与政策制定者，工作语言为英文。议程涉及算法披露审计、AI 摘要与投资者解释、生成式 AI 资产定价等交叉研究。11 月 22 日前提交参会申请，主办方审核后于 12 月 7 日发送确认邮件，收到邮件才算报名成功。这是参会申请，通知未开放论文投稿，也未列费用；具体议程以当天安排为准。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E6%8A%A5%E5%90%8D&amp;show-results=1" title="全站搜索：会议报名">会议报名</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：资本市场">资本市场</a>
+
+<a href="https://www.sem.tsinghua.edu.cn/rengongzhinengyuzibenshichangyanjiuhuiyuanwangbaomingtongzhi.pdf" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 预期损失回归：优化的对象究竟是哪一段尾部？ {#paper-10-1080-01621459-2026-2750972}
+
+<p class="myapa">Li, Y., Zhang, S., &amp; He, X. (2026). Expected shortfall regression via optimization. Journal of the American Statistical Association. <a href="https://doi.org/10.1080/01621459.2026.2750972" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2602.18865.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Expected%20shortfall%20regression%20via%20optimization" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+预期损失描述分位点之外尾部结果的平均水平，相关回归用于考察协变量与尾部结果的关系。作者 2026 年 2 月公开稿区分运筹学中的 superquantile 回归与统计意义上的预期损失回归，提出线性预期损失回归的优化估计方法，并讨论基于分箱的初始估计和异质性自适应权重。该思路有助于风险研究者先明确估计目标，再选择损失函数。上述方法要点来自作者公开稿；11 月上线期刊版与该公开稿的内容对应程度尚未确认，理论与效率结论均有各自假设和模拟条件。
+
+标签：<a class="tag-link" href="?q=%E9%A2%84%E6%9C%9F%E6%8D%9F%E5%A4%B1&amp;show-results=1" title="全站搜索：预期损失">预期损失</a> · <a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：回归估计">回归估计</a>
+
+<small>来源日期：2026-11-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 面板局部投影 IV：如何分开处理暴露与共同冲击路径？ {#paper-arxiv-2611-14434}
+
+<p class="myapa">Wang, E. &amp; Zhang, R. (2026). Hedging out the HEDGE bias: Identifying dynamic partial-equilibrium effects with panel LP-IV. arXiv. <a href="https://arxiv.org/abs/2611.14434v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.14434.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Hedging%20out%20the%20HEDGE%20bias%3A%20Identifying%20dynamic%20partial-equilibrium%20effects%20with%20panel%20LP-IV" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+用地区或个体对总量政策的不同暴露来估计动态效应时，处理暴露与共同混杂冲击暴露的相关性，以及混杂冲击对处理的反馈，都可能改变估计对象。文章提出 HELP-IV，以暴露加权的冲击代理同时为处理和混杂路径构造工具，比较在混杂路径固定时的部分均衡效应，并讨论多重暴露、前瞻结果和累积乘数。作者以州财政乘数和地区股票财富效应作应用。该框架提示把截面差异搬到宏观模型之前应先明确估计对象，其识别仍依赖相应工具和暴露结构假设。
+
+标签：<a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态效应">动态效应</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### AUC 与 Brier 分数为何会给模型排出不同名次？ {#paper-arxiv-2611-14465}
+
+<p class="myapa">Baranovski, Y. (2026). One curve, different weights: AUC, the Brier score, decision-weighted AUC, and the policy Youden index. arXiv. <a href="https://arxiv.org/abs/2611.14465v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.14465.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=One%20curve%2C%20different%20weights%3A%20AUC%2C%20the%20Brier%20score%2C%20decision-weighted%20AUC%2C%20and%20the%20policy%20Youden%20index" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AUC、Brier 分数和按决策行动概率加权的 AUC，可以从同一条 Youden 曲线在不同阈值处的加权平均来理解；它们的差别在于如何给阈值分配权重。文章据此讨论预测分数与实际行动规则的衔接，并提出固定政策下的 policy Youden index。一个值得保留的区分是：按同一政策评价模型的性质属于该分子指标，不能直接推广给归一化后的加权 AUC 比率。研究提示模型排序应说明评估目标，而不能只报告单一分数。
+
+标签：<a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a> · <a class="tag-link" href="?q=AUC&amp;show-results=1" title="全站搜索：AUC">AUC</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：决策规则">决策规则</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 瞄准贫困家庭之前，需要先明确瞄准什么福利目标 {#paper-nber-w35984}
+
+<p class="myapa">Hanna, R., Breza, E., Olken, B. A., Banerjee, A., Chandrasekhar, A. G., &amp; Moore, G. (2026). Target what? The foundations of poverty targeting. NBER Working Paper No. 35984. <a href="https://doi.org/10.3386/w35984" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Target%20what%3F%20The%20foundations%20of%20poverty%20targeting" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+把低消费家庭视为最需要转移支付的人群，隐含了福利水平与额外一元转移带来的社会收益排序一致。文章在印度尼西亚村庄比较消费、自评福利、社区对福利水平及转移边际价值的排序，并通过随机试验比较不同瞄准机制。它把如何测量贫困与如何选择福利目标分开，说明瞄准规则本身带有规范判断。社区排序不是无条件的福利真值，情境中的试验比较也不能直接决定其他地区的最优规则。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。
+
+标签：<a class="tag-link" href="?q=%E8%B4%AB%E5%9B%B0%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：贫困瞄准">贫困瞄准</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：福利测量">福利测量</a> · <a class="tag-link" href="?q=%E8%A7%84%E8%8C%83%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：规范判断">规范判断</a>
+
+<small>来源日期：2026-11-05</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### fastglm 0.1.4：计数与有序回归的边界修正 {#tool-fastglm-0-1-4}
+
+fastglm 提供广义线性模型、负二项、零截断、hurdle、零膨胀及有序结果的拟合接口，并为相应模型提供偏差缩减、推断或分块读取支持。0.1.4 的维护者说明修复了无预测列的受约束累积链接拟合，以及数据块没有正权重观测时计数模型的底层内存处理，并调整稀疏矩阵映射以兼容新旧 RcppEigen。上述模型功能并非全部在本小版本新增；采用模型仍需检查收敛、秩和适用假设，不能把加速拟合当作识别条件。CRAN 当前 Windows release 二进制仍为 0.1.3，获取 0.1.4 源码可用 <code>install.packages(&quot;fastglm&quot;, type = &quot;source&quot;)</code>，需相应编译工具。
+
+标签：<a class="tag-link" href="?q=%E5%B9%BF%E4%B9%89%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：广义线性模型">广义线性模型</a> · <a class="tag-link" href="?q=%E8%AE%A1%E6%95%B0%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：计数数据">计数数据</a> · <a class="tag-link" href="?q=%E6%9C%89%E5%BA%8F%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：有序回归">有序回归</a>
+
+<small>来源日期：2026-11-11</small>
+
+<a href="https://cran.r-project.org/package=fastglm" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 四川数量经济学交流会暨第十二届博士论坛：11 月 25 日截稿 {#conf-sichuan-quant-doctoral-12-2026}
+
+**投稿截止：2026-11-25**
+
+会议：2026-12-19 至 2026-12-19 · 中国大陆·成都，四川大学商学院
+
+费用：研讨会不收取费用，受邀参会人员交通住宿自理。
+
+会议将于 12 月 19 日在成都四川大学商学院举行，主题为数智时代数量经济学的高质量发展，征集宏观政策、金融风险、绿色发展、决策分析与运筹优化等方向研究。面向四川省中青年学者及各高校经济管理类博士生、硕士生，11 月 25 日投稿截止，接受未公开发表的 Word 或 PDF 稿件，一般不超过 2 万字。论坛设研究生优秀论文评选；研讨会不收费用，受邀参会人员交通住宿自理。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E6%95%B0%E9%87%8F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：数量经济">数量经济</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AE%BA%E5%9D%9B&amp;show-results=1" title="全站搜索：研究生论坛">研究生论坛</a>
+
+<small>来源日期：2026-10-30</small>
+
+<a href="https://stat.swufe.edu.cn/info/2291/33001.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 第十届政府会计 PLUS 研讨会：11 月 30 日投稿截止 {#conf-government-accounting-plus-10-2026}
+
+**投稿截止：2026-11-30**
+
+会议：2026-12-18 至 2026-12-20 · 中国大陆·武汉，具体会址未列
+
+费用：通知未列参会费用。
+
+研讨会拟于 12 月 18–20 日在武汉举行，讨论 AI 时代政府会计的信息生成、决策、治理及知识体系构建，也涵盖地方政府债务、财税改革和数字政府。11 月 30 日前提交未公开发表的中英文 Word 稿件，作者信息单独置于首页。涉及 AI 工具或生成内容须如实说明使用情况，涉及算法研究须提供代码。通知未列具体会址和费用；期刊学术支持及推荐审稿不等于录用保证。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E6%94%BF%E5%BA%9C%E4%BC%9A%E8%AE%A1&amp;show-results=1" title="全站搜索：政府会计">政府会计</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;show-results=1" title="全站搜索：人工智能">人工智能</a>
+
+<small>来源日期：2026-10-23</small>
+
+<a href="https://www.asc.net.cn/News/NewsContent.aspx?NewsID=9D65A2B9-C208-402E-AD7B-59F7CD02549F&amp;PageCode=MENU_BQ" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

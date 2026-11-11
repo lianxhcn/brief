@@ -8,9 +8,57 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>预期损失回归：优化的对象究竟是哪一段尾部？</h3>
+<p class="catalog-citation">Li, Y.; Zhang, S.; He, X. (2026). Expected shortfall regression via optimization. JASA.</p><p class="catalog-meta">发表日期：2026-11-11</p>
+<p class="catalog-meta">期次日期：2026-11-12</p>
+<p>预期损失描述分位点之外尾部结果的平均水平，相关回归用于考察协变量与尾部结果的关系。作者 2026 年 2 月公开稿区分运筹学中的 superquantile 回归与统计意义上的预期损失回归，提出线性预期损失回归的优化估计方法，并讨论基于分箱的初始估计和异质性自适应权重。该思路有助于风险研究者先明确估计目标，再选择损失函数。上述方法要点来自作者公开稿；11 月上线期刊版与该公开稿的内容对应程度尚未确认，理论与效率结论均有各自假设和模拟条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%9C%9F%E6%8D%9F%E5%A4%B1&amp;show-results=1" title="全站搜索：预期损失">预期损失</a> · <a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：回归估计">回归估计</a></p>
+<p class="catalog-actions"><a href="../issues/20261112/#paper-10-1080-01621459-2026-2750972">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2750972" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>面板局部投影 IV：如何分开处理暴露与共同冲击路径？</h3>
+<p class="catalog-citation">Wang, E.; Zhang, R. (2026). Hedging out the HEDGE bias: Identifying dynamic partial-equilibrium effects with panel LP-IV. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-12</p>
+<p>用地区或个体对总量政策的不同暴露来估计动态效应时，处理暴露与共同混杂冲击暴露的相关性，以及混杂冲击对处理的反馈，都可能改变估计对象。文章提出 HELP-IV，以暴露加权的冲击代理同时为处理和混杂路径构造工具，比较在混杂路径固定时的部分均衡效应，并讨论多重暴露、前瞻结果和累积乘数。作者以州财政乘数和地区股票财富效应作应用。该框架提示把截面差异搬到宏观模型之前应先明确估计对象，其识别仍依赖相应工具和暴露结构假设。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态效应">动态效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261112/#paper-arxiv-2611-14434">查看本期</a><a href="https://arxiv.org/abs/2611.14434v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>面板 DML 如何同时处理高维协变量与潜在交互因子？</h3>
+<p class="catalog-citation">Chen, B.; Ma, Y.; Yu, Q. (2026). Semiparametric inference in panel data with interactive and high-dimensional confounding. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-12</p>
+<p>只灵活控制可观测变量，未必能消除面板中的共同潜在冲击。文章提出因子增广 DML：从处理和结果的第一阶段残差估计两组因子空间，结合双重投影与按个体划分的三折交叉拟合，避免因子估计误差中相同训练个体配对带来的影响。其渐近推断依赖固定因子秩、充分强的因子信号、严格外生性及个体数和时期数共同增长等条件。它为面板 DML 提供了一种区分可观测非线性混杂与潜在交互混杂的思路，不能解释为任意小样本或弱因子环境下的保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261112/#paper-arxiv-2611-14385">查看本期</a><a href="https://arxiv.org/abs/2611.14385v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>瞄准贫困家庭之前，需要先明确瞄准什么福利目标</h3>
+<p class="catalog-citation">Hanna, R. et al. (2026). Target what? The foundations of poverty targeting. NBER Working Paper No. 35984 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-12</p>
+<p>把低消费家庭视为最需要转移支付的人群，隐含了福利水平与额外一元转移带来的社会收益排序一致。文章在印度尼西亚村庄比较消费、自评福利、社区对福利水平及转移边际价值的排序，并通过随机试验比较不同瞄准机制。它把如何测量贫困与如何选择福利目标分开，说明瞄准规则本身带有规范判断。社区排序不是无条件的福利真值，情境中的试验比较也不能直接决定其他地区的最优规则。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%AB%E5%9B%B0%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：贫困瞄准">贫困瞄准</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：福利测量">福利测量</a> · <a class="tag-link" href="?q=%E8%A7%84%E8%8C%83%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：规范判断">规范判断</a></p>
+<p class="catalog-actions"><a href="../issues/20261112/#paper-nber-w35984">查看本期</a><a href="https://www.nber.org/papers/w35984" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>优惠录取为何可能削弱高中阶段的努力？</h3>
+<p class="catalog-citation">Tincani, M. M.; Kosse, F.; Miglino, E. (2026). Beliefs and the incentive effects of preferential college admissions: Evidence from an experiment and a structural model. JPE.</p><p class="catalog-meta">发表日期：2026-11-11</p>
+<p class="catalog-meta">期次日期：2026-11-12</p>
+<p>降低大学入学门槛，可能同时改变学生对努力回报的判断。作者录用稿结合智利 PACE 项目的随机试验、行政和调查数据，研究优惠录取对升学与高中阶段努力的影响，再用动态结构模型分析主观信念如何改变政策激励。它将扩大入学机会与维持学习投入分开讨论，提示政策设计还应关注学生对大学持续就读所需努力的认识。经验结论对应当地政策与样本；纠正信念的政策推演依赖结构模型设定，不能直接当作已实施信息干预的效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：教育政策">教育政策</a> · <a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：主观信念">主观信念</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261112/#paper-10-1086-744916">查看本期</a><a href="https://doi.org/10.1086/744916" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AUC 与 Brier 分数为何会给模型排出不同名次？</h3>
+<p class="catalog-citation">Baranovski, Y. (2026). One curve, different weights: AUC, the Brier score, decision-weighted AUC, and the policy Youden index. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-12</p>
+<p>AUC、Brier 分数和按决策行动概率加权的 AUC，可以从同一条 Youden 曲线在不同阈值处的加权平均来理解；它们的差别在于如何给阈值分配权重。文章据此讨论预测分数与实际行动规则的衔接，并提出固定政策下的 policy Youden index。一个值得保留的区分是：按同一政策评价模型的性质属于该分子指标，不能直接推广给归一化后的加权 AUC 比率。研究提示模型排序应说明评估目标，而不能只报告单一分数。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a> · <a class="tag-link" href="?q=AUC&amp;show-results=1" title="全站搜索：AUC">AUC</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：决策规则">决策规则</a></p>
+<p class="catalog-actions"><a href="../issues/20261112/#paper-arxiv-2611-14465">查看本期</a><a href="https://arxiv.org/abs/2611.14465v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>生育支持政策应优先生育数量，还是家庭福利？</h3>
 <p class="catalog-citation">Wang, H. (2026). Fertility and family leave policies in Germany: Optimal policy design in a dynamic framework. REStud.</p><p class="catalog-meta">发表日期：2026-11-10</p>
@@ -43,56 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：气候风险">气候风险</a> · <a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：住房金融">住房金融</a> · <a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：保险监管">保险监管</a></p>
 <p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-qje-qjag053">查看本期</a><a href="https://doi.org/10.1093/qje/qjag053" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>TaskNet：怎样从工人访谈形成可更新的职业任务表？</h3>
-<p class="catalog-citation">Wang, J. et al. (2026). TaskNet: Building occupational task inventories from worker interviews at scale. NBER Working Paper No. 35987 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>职业描述可能落后于工作中正在发生的任务变化。TaskNet 从工人访谈生成个人任务清单，再标准化并聚合为职业层面的任务目录；评价同时采用领域分析人员评阅和在职者的相关性、重要性评分。文章展示任务口径如何影响 AI 暴露程度等下游分析，为访谈数据整理和职业分类提供研究流程。任务目录的覆盖评价不同于对就业影响的因果评估，职业与样本之外的外推仍需另外依据。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%81%8C%E4%B8%9A%E4%BB%BB%E5%8A%A1&amp;show-results=1" title="全站搜索：职业任务">职业任务</a> · <a class="tag-link" href="?q=%E8%AE%BF%E8%B0%88%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：访谈数据">访谈数据</a> · <a class="tag-link" href="?q=AI%E6%9A%B4%E9%9C%B2&amp;show-results=1" title="全站搜索：AI暴露">AI暴露</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#paper-nber-w35987">查看本期</a><a href="https://www.nber.org/papers/w35987" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>RFS 更正：净资产标签与控制变量的滞后设定</h3>
-<p class="catalog-citation">Ma, S.; Schmidt-Eisenlohr, T. (2026). Correction to: The financial channel of the exchange rate and global trade. RFS.</p><p class="catalog-meta">发表日期：2026-10-30</p>
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>这份更正涉及汇率金融渠道研究的两处实现与解释问题：表 3 原先把净负债 L − A 标作相关敞口，现改为净资产 A − L，并替换对应文字；另纠正部分控制交互中误用同期美元份额、而非滞后份额的代码。作者说明，标签更正不改变表中数字；代码修订的数量影响很小，论文发现、符号、显著性和经济解释保持不变。阅读或复用该研究时，应同时核对敞口方向与变量时点，并区分标签修正和重新估计。结论保持不变属于作者对修订结果的说明，扩展更正和相应代码版本仍应作为复用依据。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E6%9B%B4%E6%AD%A3&amp;show-results=1" title="全站搜索：研究更正">研究更正</a> · <a class="tag-link" href="?q=%E6%B1%87%E7%8E%87%E4%BC%A0%E5%AF%BC&amp;show-results=1" title="全站搜索：汇率传导">汇率传导</a> · <a class="tag-link" href="?q=%E5%8F%98%E9%87%8F%E6%9E%84%E9%80%A0&amp;show-results=1" title="全站搜索：变量构造">变量构造</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-rfs-hhag066">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag066" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>DML 遇到弱工具变量：怎样安排推断与模型诊断？</h3>
-<p class="catalog-citation">Meng, A. (2026). Weak-instrument inference and model diagnostics in double machine learning for linear instrumental variable models. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-07</p>
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>工具变量强度不足时，灵活拟合控制项不能自动使常规推断可靠。文章在部分线性工具变量模型中讨论交叉拟合的 Anderson–Rubin 与得分推断，覆盖聚类抽样，并延伸至调查加权目标和折内生成工具。作者给出依赖抽样及辅助函数估计速率条件的渐近有效性结果，将预测残差化与实际工具强度诊断联系起来。预测效果好不等于工具有效，相关渐近结论也不能直接当作任意聚类设计下的有限样本保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：弱工具变量">弱工具变量</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：聚类推断">聚类推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#paper-arxiv-2611-10863">查看本期</a><a href="https://arxiv.org/abs/2611.10863v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>非民主政治竞争下，资源再分配为何取决于群体协调？</h3>
-<p class="catalog-citation">Persico, N. (2026). A theory of redistribution and public good provision under nondemocracy. JPE.</p><p class="catalog-meta">发表日期：2026-10-30</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>论文让两位以掌权为目标的政治人物向公民作出承诺，同时允许政治活动被观察，支持失败一方可能遭到报复。在模型均衡中，公民支持预计获胜者，而非对自己承诺最多者；更能协调行动的群体获得更多资源。它说明，非选举环境下的再分配与公共品供给激励可能不同于投票模型。结论受竞争方式、活动可观测性和报复机制等设定约束，不能当作对所有非民主制度的经验判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：政治经济学">政治经济学</a> · <a class="tag-link" href="?q=%E8%B5%84%E6%BA%90%E5%88%86%E9%85%8D&amp;show-results=1" title="全站搜索：资源分配">资源分配</a> · <a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：理论模型">理论模型</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-10-1086-743332">查看本期</a><a href="https://doi.org/10.1086/743332" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>重尾目标下，温度调整与重要性权重何时改善 MCMC 稳定性？</h3>
-<p class="catalog-citation">Zhou, Q. (2026). Uniform ergodicity and spectral gap of importance-tempered MCMC with heavy-tailed targets. Biometrika.</p><p class="catalog-meta">发表日期：2026-10-26</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>论文通过幂变换调整目标密度，再以重要性权重校正偏差，研究重尾目标下的随机游走 Metropolis 算法。作者把算法联系到连续时间马尔可夫链，在特定多项式尾条件下给出一致遍历的充要条件，并研究谱隙与维数的关系。它把初值敏感性和混合效率联系到可核对的理论条件；这些性质针对指定的链及参数范围，不能推广为任意重尾后验或所有 MCMC 都有相同保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E8%AE%A1%E7%AE%97&amp;show-results=1" title="全站搜索：贝叶斯计算">贝叶斯计算</a> · <a class="tag-link" href="?q=%E9%87%8D%E5%B0%BE%E5%88%86%E5%B8%83&amp;show-results=1" title="全站搜索：重尾分布">重尾分布</a> · <a class="tag-link" href="?q=MCMC&amp;show-results=1" title="全站搜索：MCMC">MCMC</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-10-1093-biomet-asag068">查看本期</a><a href="https://doi.org/10.1093/biomet/asag068" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>相关矩阵怎样转换成便于建模的坐标？</h3>
-<p class="catalog-citation">Archakov, I.; Hansen, P. R. (2026). Box-Cox transformations of correlation matrices. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-06</p>
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>把相关矩阵逐元素当作自由参数会忽略正定约束。文章把原相关系数、矩阵对数的广义 Fisher 变换以及逆相关矩阵的负非对角坐标放进 Box–Cox 参数族，比较可逆性、坐标空间是否无约束、数值条件与高斯抽样下的渐近性质。对选用坐标的研究者，它提示重建矩阵、参数空间和分布近似需要分别判断。可逆并不等于坐标可任意取值，不同统计目标也不意味着同一种变换普遍最优。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%9B%B8%E5%85%B3%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：相关矩阵">相关矩阵</a> · <a class="tag-link" href="?q=%E5%8F%82%E6%95%B0%E5%8C%96&amp;show-results=1" title="全站搜索：参数化">参数化</a> · <a class="tag-link" href="?q=%E6%95%B0%E5%80%BC%E6%9D%A1%E4%BB%B6&amp;show-results=1" title="全站搜索：数值条件">数值条件</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#paper-arxiv-2611-09790">查看本期</a><a href="https://arxiv.org/abs/2611.09790v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

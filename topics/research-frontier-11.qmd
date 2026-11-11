@@ -8,9 +8,57 @@ title: "新论文 · 第 11 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>散户交易平台如何改变股票需求？</h3>
+<p class="catalog-citation">van der Beck, P.; Cohen, C.; Jaunin, C. (2026). The equity market implications of the retail investment boom. Management Science.</p><p class="catalog-meta">发表日期：2026-10-26</p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>散户财富占比不大，是否意味着其定价影响也小？研究估计投资者类型特定的需求曲线，并分解平台增长期间的股票收益变化，讨论需求弹性、股票特征偏好和注意力代理之间的联系。 结论依赖结构需求模型与注意力代理，不是对所有散户或未来市场阶段的预测。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：资产需求">资产需求</a> · <a class="tag-link" href="?q=%E6%95%A3%E6%88%B7%E4%BA%A4%E6%98%93&amp;show-results=1" title="全站搜索：散户交易">散户交易</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：注意力">注意力</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1287-mnsc-2025-04854">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.04854" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>审计监管反馈会影响商誉减值决策吗？</h3>
+<p class="catalog-citation">Bills, K. L.; Hogan, C. E.; Puccia, J. E. (2026). Do PCAOB inspection deficiencies related to management review controls affect financial reporting decisions? evidence from goodwill impairments. CAR.</p><p class="catalog-meta">发表日期：2026-10-27</p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>监管检查的影响可能从审计程序延伸到企业财务报告。文章以商誉减值为情境，区分缺陷的重复性及精度相关内容，分析管理层复核控制的改进渠道如何与报告结果联系。 摘要中的关系不能单独证明所有检查缺陷都产生因果效应；监管选择与客户差异仍需正文设计处理。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：审计监管">审计监管</a> · <a class="tag-link" href="?q=%E5%86%85%E9%83%A8%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：内部控制">内部控制</a> · <a class="tag-link" href="?q=%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC&amp;show-results=1" title="全站搜索：商誉减值">商誉减值</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1111-1911-3846-70098">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70098" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>大面板固定效应模型的分位数方法</h3>
+<p class="catalog-citation">Arellano, M.; Higgins, A.; Weidner, M. (2026). Quantile methods in large panels with fixed effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-28</p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>研究包含个体固定效应的大规模面板分位数回归及工具变量分位数回归，刻画时间维度有限时的偏误，并比较不同删样本 Jackknife 校正的偏差与方差取舍。文章说明非光滑分位数目标下，直接照搬常规删一法未必能得到所需校正和推断。 结论依赖静态可加固定效应和双维渐近框架；不能把特定校正直接推广为所有短面板情形的保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%88%86%E4%BD%8D%E6%95%B0&amp;show-results=1" title="全站搜索：面板分位数">面板分位数</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a> · <a class="tag-link" href="?q=%E5%81%8F%E8%AF%AF%E6%A0%A1%E6%AD%A3&amp;show-results=1" title="全站搜索：偏误校正">偏误校正</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#paper-arxiv-2610-38665">查看本期</a><a href="https://arxiv.org/abs/2610.38665v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>只知道估值范围时，如何设计稳健拍卖？</h3>
+<p class="catalog-citation">Anunrojwong, J.; Balseiro, S. R.; Besbes, O. (2026). Robust auction design with support information. Management Science.</p><p class="catalog-meta">发表日期：2026-10-28</p>
+<p class="catalog-meta">期次日期：2026-10-31</p>
+<p>拍卖设计者通常难以准确知道买方估值分布。文章在仅知估值范围的条件下统一分析后悔值和收入比率目标，并刻画不同信息范围对应的最优机制，说明标准最高价分配并不总是最稳健选择。 结论建立在特定估值独立性或正相关分布类别及激励约束上，不能直接搬用到任意拍卖环境。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：机制设计">机制设计</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：稳健优化">稳健优化</a> · <a class="tag-link" href="?q=%E6%8B%8D%E5%8D%96&amp;show-results=1" title="全站搜索：拍卖">拍卖</a></p>
+<p class="catalog-actions"><a href="../issues/20261031/#paper-10-1287-mnsc-2023-02703">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.02703" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>经营规模难调整，企业会如何选择杠杆？</h3>
+<p class="catalog-citation">Gu, L.; Hackbarth, D.; Luo, Y. (2026). Inflexibility and leverage. Management Science.</p><p class="catalog-meta">发表日期：2026-10-29</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>融资决策可能受企业改变经营规模的能力影响。研究区分收缩与扩张不灵活性，比较其对杠杆差异的解释力，并结合信用供给冲击和工具变量分析讨论企业金融政策。 指标构造和工具变量有效性尚需正文审核；摘要不能保证观察关系在其他行业或制度中成立。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E6%9C%AC%E7%BB%93%E6%9E%84&amp;show-results=1" title="全站搜索：资本结构">资本结构</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%95%B4%E6%88%90%E6%9C%AC&amp;show-results=1" title="全站搜索：调整成本">调整成本</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1287-mnsc-2024-08672">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08672" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>研究需求增加后，究竟是谁在响应？</h3>
+<p class="catalog-citation">Lu, J. (2026). Demand for research and the composition of scientific response: intellectual distance, research productivity, and research outcomes. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-30</p>
+<p class="catalog-meta">期次日期：2026-10-30</p>
+<p>科研产出增长的背后可能是研究者构成发生改变。文章利用电动汽车研究需求受到政策推动的情境，分析知识距离和既有科研生产率如何与跨领域响应、成果新颖性、科学影响及后续发明使用联系。 摘要中的政策情境与研究者选择需要正文识别设计支持，不能把知识距离的相关性概括为普遍因果规律。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A7%91%E7%A0%94%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：科研需求">科研需求</a> · <a class="tag-link" href="?q=%E7%9F%A5%E8%AF%86%E8%B7%9D%E7%A6%BB&amp;show-results=1" title="全站搜索：知识距离">知识距离</a> · <a class="tag-link" href="?q=%E5%88%9B%E6%96%B0&amp;show-results=1" title="全站搜索：创新">创新</a></p>
+<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1287-orsc-2023-17926">查看本期</a><a href="https://doi.org/10.1287/orsc.2023.17926" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>把战略写成可检查的因果变化理论</h3>
 <p class="catalog-citation">Lazzarini, S. G.; Zenger, T. R.; Felin, T. (2026). Strategy as a theory of change. Strategic Management Journal.</p><p class="catalog-meta">发表日期：2026-10-30</p>
@@ -43,56 +91,8 @@ title: "新论文 · 第 11 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%8E%A7%E5%88%B6%E6%9D%83&amp;show-results=1" title="全站搜索：公司控制权">公司控制权</a> · <a class="tag-link" href="?q=%E8%82%A1%E4%B8%9C%E8%A1%8C%E5%8A%A8%E4%B8%BB%E4%B9%89&amp;show-results=1" title="全站搜索：股东行动主义">股东行动主义</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AF%B9%E7%A7%B0&amp;show-results=1" title="全站搜索：信息不对称">信息不对称</a></p>
 <p class="catalog-actions"><a href="../issues/20261030/#paper-10-1111-jofi-70099">查看本期</a><a href="https://doi.org/10.1111/jofi.70099" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>不同 DID 估计量的结果究竟差多少？</h3>
-<p class="catalog-citation">Hull, P. (2026). How different are different differences-in-differences? a large-scale meta-analysis. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-29</p>
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>利用 AI 辅助复现，比较大量分期处理设定中的双向固定效应与现代双重差分估计，检查符号、相关性和精度的差别，并用分层模型区分估计噪声与估计对象差异。研究展示了如何对新计量方法的实际影响进行跨论文的系统评估。 这是入选文献与可复现设定的汇总，不能推出任何具体 TWFE 应用都满足平行趋势，或负权重在所有情境都无关紧要。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=TWFE&amp;show-results=1" title="全站搜索：TWFE">TWFE</a> · <a class="tag-link" href="?q=%E6%96%B9%E6%B3%95%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：方法评估">方法评估</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#paper-arxiv-2610-39995">查看本期</a><a href="https://arxiv.org/abs/2610.39995v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>HouseholdBench：LLM 能预测家庭经济行为吗？</h3>
-<p class="catalog-citation">Huang, J. et al. (2026). HouseholdBench: evaluating large language models as predictors of household economic behavior. NBER Working Paper No. 35927 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-10-26</p>
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>将多项美国家庭调查与不同形式的行为预测任务组织成 HouseholdBench，比较闭源模型、开放权重 LLM、行为不变基线和梯度提升树。任务区分一般行为预测与政策环境变化下的反应预测，为评估 LLM 能否刻画家庭经济决策提供统一比较框架。 预测基准的表现不等于因果识别；不能据此把 LLM 输出直接替代真实调查、政策实验或结构识别。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=LLM&amp;show-results=1" title="全站搜索：LLM">LLM</a> · <a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E8%A1%8C%E4%B8%BA&amp;show-results=1" title="全站搜索：家庭行为">家庭行为</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：预测评估">预测评估</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#paper-nber-w35927">查看本期</a><a href="https://www.nber.org/papers/w35927" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>CEO 销售激励会怎样传导到供应链？</h3>
-<p class="catalog-citation">Choi, J. (2026). Sales-based CEO incentives and their effect across the supply chain. TAR.</p><p class="catalog-meta">发表日期：2026-10-26</p>
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>评价经理人的销售表现，可能影响供应链中其他企业。文章考察销售型奖金指标与库存波动、牛鞭效应之间的关系，并利用薪酬顾问网络联系构造工具变量检验，提供激励合同外溢的应用案例。 摘要不能替代对工具变量排除限制的核查，也不意味着所有销售激励都会产生相同后果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%AE%A1%E7%90%86%E5%B1%82%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：管理层激励">管理层激励</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#paper-10-2308-tar-2024-0591">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0591" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>CEO 政治倾向与企业行为：线性刻画是否过于简单？</h3>
-<p class="catalog-citation">Appels, M.; Kowalzick, M.; Woywode, M. (2026). A moral foundations perspective on CEO political ideology. Journal of Management.</p><p class="catalog-meta">发表日期：2026-10-29</p>
-<p class="catalog-meta">期次日期：2026-10-30</p>
-<p>把政治倾向放进一条从自由到保守的线性刻度，可能遗漏不同价值关切。文章用道德基础理论重审 CEO 战略行为的解释，并在企业领导人样本中比较线性与 U 形关系。 政治倾向与组织行为的关联不等于因果；非线性形式也须结合理论和稳健性检验选择。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%90%86%E8%AE%BA%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：理论测量">理论测量</a> · <a class="tag-link" href="?q=%E9%9D%9E%E7%BA%BF%E6%80%A7&amp;show-results=1" title="全站搜索：非线性">非线性</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：公司治理">公司治理</a></p>
-<p class="catalog-actions"><a href="../issues/20261030/#paper-10-1177-01492063261489261">查看本期</a><a href="https://doi.org/10.1177/01492063261489261" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>面对面销售中，顾客接近行为如何影响性别差异？</h3>
-<p class="catalog-citation">Delecourt, S.; Doering, L.; Ng, O. (2026). Women’s approachability premium in sales: a field experiment among microentrepreneurs. Organization Science.</p><p class="catalog-meta">发表日期：2026-10-22</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>微型创业的销售差异不仅来自资源约束，也可能从顾客是否愿意开始交谈产生。文章让实验卖家经营相同的新设微型企业并遵循标准互动程序，区分顾客接近、议价与销售表现，为研究性别和市场互动提供设计案例。 结果针对实验设定与当地市场互动，不意味着现实中女性创业者总体不存在结构性劣势。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%80%A7%E5%88%AB&amp;show-results=1" title="全站搜索：性别">性别</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E5%BE%AE%E5%9E%8B%E5%88%9B%E4%B8%9A&amp;show-results=1" title="全站搜索：微型创业">微型创业</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1287-orsc-2024-18859">查看本期</a><a href="https://doi.org/10.1287/orsc.2024.18859" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>谁来复核工作，如何反馈才有效？</h3>
-<p class="catalog-citation">Bross, A.; Sommerfeldt, R. D. (2026). Whose job is it, anyway? the effect of the review process on employee performance. CAR.</p><p class="catalog-meta">发表日期：2026-10-29</p>
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>复核既可能改善工作质量，也可能让员工依赖他人纠错。文章通过实验区分上级与同事复核，以及高层次指导与具体纠错信息，比较不同组合如何与责任感、团队联系和工作表现共同变化。 结果来自具体实验任务；不能仅凭复核者级别决定所有组织的最优反馈制度。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E4%BD%9C%E5%A4%8D%E6%A0%B8&amp;show-results=1" title="全站搜索：工作复核">工作复核</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：实验">实验</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：组织控制">组织控制</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#paper-10-1111-1911-3846-70095">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70095" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 56 页 · 共 551 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-10.html">上一页</a><span aria-current="page">第 11 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-12.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -1,28 +1,25 @@
-task: daily-brief-20261111
+task: daily-brief-20261112
 repository_mode: single
 repository: lianxhcn/brief
 local_path: D:/github_lianxh/brief
 branch: main
-expected_base: 82a567dacc5b05e8e2251952b4990aac49f9ef58
-authorization: Existing user-authorized daily0715 research, review, controlled push and Pages publication; no account sending or posting.
+expected_base: 90d891908bcc00eccda0ed9939dbd6dc72fd29cb
+authorization: User-authorized daily0715 review, controlled push and Pages; required registration label correction included; no account sending or posting.
 work_scope:
   - archive.qmd
   - config/website-content.json
-  - content/issues/2026-11-11.json
+  - content/issues/2026-11-12.json
   - index.qmd
-  - issues/20261111/index.qmd
-  - publish/wechat/2026-11-11.txt
+  - issues/20261112/index.qmd
+  - publish/wechat/2026-11-12.txt
   - repo-plan.yml
+  - scripts/test_wechat_format.py
+  - scripts/wechat_format.py
+  - topics/academic-updates-2.qmd
+  - topics/academic-updates-3.qmd
+  - topics/academic-updates-4.qmd
+  - topics/academic-updates.qmd
   - topics/index.qmd
-  - topics/lianxh-new-2.qmd
-  - topics/lianxh-new-3.qmd
-  - topics/lianxh-new-4.qmd
-  - topics/lianxh-new-5.qmd
-  - topics/lianxh-new-6.qmd
-  - topics/lianxh-new-7.qmd
-  - topics/lianxh-new-8.qmd
-  - topics/lianxh-new-9.qmd
-  - topics/lianxh-new.qmd
   - topics/methods-tools-10.qmd
   - topics/methods-tools-11.qmd
   - topics/methods-tools-12.qmd
@@ -93,5 +90,7 @@ work_scope:
   - topics/research-frontier-8.qmd
   - topics/research-frontier-9.qmd
   - topics/research-frontier.qmd
-private_materials: Excluded; candidates, raw evidence, logs, environments and shared destinations stay local.
-publication_gate: Independent source and local QA, exact-commit Pages success, live current home/body/search and desktop/mobile checks.
+public: true
+license: unchanged
+pages: existing GitHub Actions workflow
+private_evidence: excluded
