@@ -7,44 +7,52 @@
       "kind": "conference",
       "tier": "core",
       "name": "中国经济学年会",
-      "official_entry": "https://cea.pku-nsd.com/events",
+      "official_entry": "https://nsd.pku.edu.cn/xzyj/jzky/zgjjxnk/index.htm",
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:cea-annual",
+      "original_official_entry": "https://cea.pku-nsd.com/events"
     },
     {
       "id": "cec-xiangzhang-annual",
       "kind": "conference",
       "tier": "core",
       "name": "香樟经济学年会",
-      "official_entry": "https://www.sufe.edu.cn/fc/4e/c19548a261198/page.htm",
+      "official_entry": "https://cpi.sufe.edu.cn/xshy_13251/list.htm",
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:cec-xiangzhang-annual",
+      "original_official_entry": "https://www.sufe.edu.cn/fc/4e/c19548a261198/page.htm"
     },
     {
       "id": "yes-annual",
       "kind": "conference",
       "tier": "core",
       "name": "中国青年经济学家联谊会年会",
-      "official_entry": "https://flcds.fudan.edu.cn/info/1007/1094.htm",
+      "official_entry": "https://jjxy.nufe.edu.cn/info/1092/8101.htm",
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:yes-annual",
+      "original_official_entry": "https://flcds.fudan.edu.cn/info/1007/1094.htm"
     },
     {
       "id": "yes-thematic",
       "kind": "conference",
       "tier": "core",
       "name": "YES 专题研讨会 / 工作坊",
-      "official_entry": "https://flcds.fudan.edu.cn/info/1007/1094.htm",
+      "official_entry": "https://lmid.sysu.edu.cn/article/210",
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:yes-thematic",
+      "original_official_entry": "https://flcds.fudan.edu.cn/info/1007/1094.htm"
     },
     {
       "id": "applied-econ-annual",
@@ -55,7 +63,8 @@
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:applied-econ-annual"
     },
     {
       "id": "labor-econ-forum",
@@ -66,7 +75,8 @@
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:labor-econ-forum"
     },
     {
       "id": "public-finance-forum",
@@ -77,7 +87,8 @@
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:public-finance-forum"
     },
     {
       "id": "cfam",
@@ -88,7 +99,8 @@
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:cfam"
     },
     {
       "id": "cfrc",
@@ -99,29 +111,34 @@
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:cfrc"
     },
     {
       "id": "quant-econ-annual",
       "kind": "conference",
       "tier": "core",
       "name": "中国数量经济学会年会",
-      "official_entry": "https://iqte.cssn.cn/xsjl/xsyth/",
+      "official_entry": "http://iqte.cssn.cn/xsjl/zgsljjxh/",
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:quant-econ-annual",
+      "original_official_entry": "https://iqte.cssn.cn/xsjl/xsyth/"
     },
     {
       "id": "world-econ-annual",
       "kind": "conference",
       "tier": "core",
       "name": "中国世界经济学会年会",
-      "official_entry": "https://iwep.cssn.cn/xh/xh_zgsjjjxh_1637/zgsjjjxh_xhhd/202605/t20260526_5993357.shtml",
+      "official_entry": "http://iwep.cssn.cn/xh/xh_zgsjjjxh_1637/zgsjjjxh_xhhd/",
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:world-econ-annual",
+      "original_official_entry": "https://iwep.cssn.cn/xh/xh_zgsjjjxh_1637/zgsjjjxh_xhhd/202605/t20260526_5993357.shtml"
     },
     {
       "id": "management-annual",
@@ -132,7 +149,8 @@
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:management-annual"
     },
     {
       "id": "accounting-association",
@@ -143,18 +161,21 @@
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:accounting-association"
     },
     {
       "id": "industrial-econ-association",
       "kind": "conference",
       "tier": "conditional",
       "name": "中国工业经济学会",
-      "official_entry": "https://www5.zzu.edu.cn/sxy/info/1269/9243.htm",
+      "official_entry": "https://gjxh.dufe.edu.cn/",
       "scan_days": [
         "mon",
         "thu"
-      ]
+      ],
+      "editorial_source_id": "conference:industrial-econ-association",
+      "original_official_entry": "https://www5.zzu.edu.cn/sxy/info/1269/9243.htm"
     }
   ],
   "journal_sources": [
@@ -763,7 +784,13 @@
       "interval_days": 3,
       "entry_type": "discovery",
       "entry_status": "needs-screening",
-      "note": "入口快照不等于筛选；需按主题核验范围和分页，已发重复不能代替其他入口检查"
+      "note": "入口快照不等于筛选；需按主题核验范围和分页，已发重复不能代替其他入口检查",
+      "conference_role": "discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": true
     },
     {
       "id": "conference:cfrn",
@@ -774,7 +801,13 @@
       "entry_type": "discovery",
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
-      "note": "金融、公司治理与风险管理；搜索条件及更多按钮可能隐藏条目，首屏不代表完整覆盖；栏目已核验，会议候选尚未逐条审查；采用前回到主办方核验征稿状态、日期、费用和变更"
+      "note": "金融、公司治理与风险管理；搜索条件及更多按钮可能隐藏条目，首屏不代表完整覆盖；栏目已核验，会议候选尚未逐条审查；采用前回到主办方核验征稿状态、日期、费用和变更",
+      "conference_role": "discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": true
     },
     {
       "id": "conference:efnchina",
@@ -785,7 +818,15 @@
       "entry_type": "discovery",
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
-      "note": "经济学、计量经济学及交叉研究；置顶项不按时间排序，需按覆盖窗口翻页，排除评奖等非会议通知；栏目已核验，会议候选尚未逐条审查；采用前回到主办方核验征稿状态、日期、费用和变更"
+      "note": "经济学、计量经济学及交叉研究；置顶项不按时间排序，需按覆盖窗口翻页，排除评奖等非会议通知；栏目已核验，会议候选尚未逐条审查；采用前回到主办方核验征稿状态、日期、费用和变更",
+      "conference_role": "discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": true,
+      "entry_checked_at": "2026-11-11T15:03:39.579872+08:00",
+      "entry_access_status": "access-failed"
     },
     {
       "id": "conference:sufe-finance",
@@ -796,7 +837,15 @@
       "entry_type": "discovery",
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
-      "note": "金融学会议征文；更新较稀疏，列表含首轮与延期通知，按同一会议合并；栏目已核验，会议候选尚未逐条审查；采用前回到主办方核验征稿状态、日期、费用和变更"
+      "note": "金融学会议征文；更新较稀疏，列表含首轮与延期通知，按同一会议合并；栏目已核验，会议候选尚未逐条审查；采用前回到主办方核验征稿状态、日期、费用和变更",
+      "conference_role": "discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": true,
+      "entry_checked_at": "2026-11-11T15:03:43.644499+08:00",
+      "entry_access_status": "response-received"
     },
     {
       "id": "conference:cepr-calls",
@@ -807,7 +856,15 @@
       "entry_type": "discovery",
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
-      "note": "经济学与金融学专题会议；可读列表含截止日，仍须核对详情及截止时区；本轮仅入口核验，未完成候选审查"
+      "note": "经济学与金融学专题会议；可读列表含截止日，仍须核对详情及截止时区；本轮仅入口核验，未完成候选审查",
+      "conference_role": "international-discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_checked_at": "2026-11-11T15:03:43.857038+08:00",
+      "entry_access_status": "access-failed"
     },
     {
       "id": "conference:fma-own",
@@ -818,7 +875,15 @@
       "entry_type": "discovery",
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
-      "note": "跨年会议目录，需进入当届页面核对是否开放征稿；排除面向本科及 MBA 的职业活动；本轮仅入口核验，未完成候选审查"
+      "note": "跨年会议目录，需进入当届页面核对是否开放征稿；排除面向本科及 MBA 的职业活动；本轮仅入口核验，未完成候选审查",
+      "conference_role": "international-discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_checked_at": "2026-11-11T15:03:43.915450+08:00",
+      "entry_access_status": "response-received"
     },
     {
       "id": "conference:fma-external",
@@ -829,7 +894,15 @@
       "entry_type": "discovery",
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
-      "note": "按会议日和投稿截止日列示；外部投稿列表不等于学会质量背书，排除奖项与非会议项目；本轮仅入口核验，未完成候选审查"
+      "note": "按会议日和投稿截止日列示；外部投稿列表不等于学会质量背书，排除奖项与非会议项目；本轮仅入口核验，未完成候选审查",
+      "conference_role": "international-discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_checked_at": "2026-11-11T15:03:43.922923+08:00",
+      "entry_access_status": "response-received"
     },
     {
       "id": "conference:sfs-series",
@@ -840,7 +913,15 @@
       "entry_type": "discovery",
       "entry_status": "needs-screening",
       "retrieved_date": "2026-09-15",
-      "note": "含当前系列及档案；只沿当前系列核验当届通知，不能把 ongoing 解释为正在征稿；本轮仅入口核验，未完成候选审查"
+      "note": "含当前系列及档案；只沿当前系列核验当届通知，不能把 ongoing 解释为正在征稿；本轮仅入口核验，未完成候选审查",
+      "conference_role": "international-discovery",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_checked_at": "2026-11-11T15:03:46.157348+08:00",
+      "entry_access_status": "response-received"
     },
     {
       "id": "conference:sysu-aif-greatbay-2026",
@@ -851,7 +932,16 @@
       "entry_type": "organizer-notice",
       "entry_status": "partial-access",
       "retrieved_date": "2026-10-01",
-      "note": "主办方原通知可由网页检索读取，直接HTTP403；单届通知用于状态追踪，不代表全站会议目录覆盖。"
+      "note": "主办方原通知可由网页检索读取，直接HTTP403；单届通知用于状态追踪，不代表全站会议目录覆盖。 2026-11-11新检查直接HTTP200且正文可读；旧403记录仍为历史事实。",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_checked_at": "2026-11-11T15:03:50.164347+08:00",
+      "entry_access_status": "response-received",
+      "entry_scope": "主办方2026单届通知，本轮HTTP正文可读，投稿截止11月20日、会期12月18–20日；未作本轮候选筛选或完整目录覆盖。"
     },
     {
       "id": "conference:swufe-longevity-2026",
@@ -862,7 +952,17 @@
       "entry_type": "organizer-notice",
       "entry_status": "verified",
       "retrieved_date": "2026-10-04",
-      "note": "主办方单届通知，仅追踪该届变更，不代表全站目录覆盖。"
+      "note": "主办方单届通知，仅追踪该届变更，不代表全站目录覆盖。",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_checked_at": "2026-11-11T15:03:50.200494+08:00",
+      "entry_access_status": "response-received",
+      "entry_scope": "主办方2026单届通知，会期已于2026-11-08结束；仅追踪该届变更，不代表长期会议发现。",
+      "event_end_date": "2026-11-08"
     },
     {
       "id": "conference:upc-techfinance-2026",
@@ -873,7 +973,304 @@
       "entry_type": "organizer-notice",
       "entry_status": "verified",
       "retrieved_date": "2026-10-04",
-      "note": "主办方单届通知，仅追踪该届变更，不代表全站目录覆盖。"
+      "note": "主办方单届通知，仅追踪该届变更，不代表全站目录覆盖。",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_checked_at": "2026-11-11T15:03:50.516797+08:00",
+      "entry_access_status": "response-received",
+      "entry_scope": "主办方2026单届通知，会期已于2026-11-08结束；仅追踪该届变更，不代表长期会议发现。",
+      "event_end_date": "2026-11-08"
+    },
+    {
+      "id": "conference:cea-annual",
+      "name": "中国经济学年会",
+      "category": "conferences",
+      "url": "https://nsd.pku.edu.cn/xzyj/jzky/zgjjxnk/index.htm",
+      "interval_days": 7,
+      "legacy_source_id": "cea-annual",
+      "conference_role": "brand",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "discovery",
+      "entry_status": "needs-screening",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:05:19.517187+08:00",
+      "entry_scope": "北大国发院中国经济学年会长期栏目；本轮仅首屏，存在5页。原投稿系统是JavaScript空壳，不将HTTP200作为已读列表。",
+      "next_action": "每周一、四沿真实分页与日期边界检查；论坛另从国内发现入口补充。",
+      "original_official_entry": "https://cea.pku-nsd.com/events"
+    },
+    {
+      "id": "conference:cec-xiangzhang-annual",
+      "name": "香樟经济学年会",
+      "category": "conferences",
+      "url": "https://cpi.sufe.edu.cn/xshy_13251/list.htm",
+      "interval_days": 7,
+      "legacy_source_id": "cec-xiangzhang-annual",
+      "conference_role": "brand",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "discovery",
+      "entry_status": "needs-screening",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:05:19.518193+08:00",
+      "entry_scope": "2026承办方上财财税投资学院学术会议长期栏目，含本届后续公告及其他会议；并非香樟所有历届/未来承办方统一站。",
+      "next_action": "周一、四检查本栏目；新届承办方变化时补核并更新入口，不把旧届结束解释为品牌无新活动。",
+      "original_official_entry": "https://www.sufe.edu.cn/fc/4e/c19548a261198/page.htm"
+    },
+    {
+      "id": "conference:yes-annual",
+      "name": "中国青年经济学家联谊会年会",
+      "category": "conferences",
+      "url": "https://jjxy.nufe.edu.cn/info/1092/8101.htm",
+      "interval_days": 7,
+      "legacy_source_id": "yes-annual",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "organizer-notice",
+      "entry_status": "historical-edition-notice",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:05:19.519187+08:00",
+      "entry_scope": "2026年会南京财经大学官方通知，会议8月8–9日、6月20日截稿，均已过。原复旦链接仅2015倡议，不是动态发现入口。",
+      "next_action": "仅追踪2026届正式变更；下一届长期主办入口未核实，由国内发现栏目和有限YES定向查询补查。",
+      "original_official_entry": "https://flcds.fudan.edu.cn/info/1007/1094.htm"
+    },
+    {
+      "id": "conference:yes-thematic",
+      "name": "YES 专题研讨会 / 工作坊",
+      "category": "conferences",
+      "url": "https://lmid.sysu.edu.cn/article/210",
+      "interval_days": 7,
+      "legacy_source_id": "yes-thematic",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "organizer-notice",
+      "entry_status": "historical-edition-notice",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:05:19.519187+08:00",
+      "entry_scope": "2026广州论坛的中山大学官方联合署名通知，10月16日会期、8月31日截稿，均已过；不代表全部YES专题。",
+      "next_action": "仅追踪该届变更；其他YES专题须另核当届主办方，不复用2015倡议作征稿列表。",
+      "original_official_entry": "https://flcds.fudan.edu.cn/info/1007/1094.htm"
+    },
+    {
+      "id": "conference:applied-econ-annual",
+      "name": "中国应用经济学年会",
+      "category": "conferences",
+      "url": "https://news.jxufe.edu.cn/news-show-135547.html",
+      "interval_days": 7,
+      "legacy_source_id": "applied-econ-annual",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "organizer-notice",
+      "entry_status": "historical-edition-notice",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:03:37.861821+08:00",
+      "entry_scope": "第七届2026年会单页，5月9–10日会期、4月20日截稿，均已过。",
+      "next_action": "仅追踪第七届变更；新届主要入口尚待核实，周一、四先从国内发现栏目与当届承办方补查。"
+    },
+    {
+      "id": "conference:labor-econ-forum",
+      "name": "中国劳动经济学者论坛年会",
+      "category": "conferences",
+      "url": "https://econ.dufe.edu.cn/content_97563.html",
+      "interval_days": 7,
+      "legacy_source_id": "labor-econ-forum",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "organizer-notice",
+      "entry_status": "historical-edition-notice",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:03:38.133966+08:00",
+      "entry_scope": "第十届2026年会单页，6月27日会期、6月5日截稿，均已过。",
+      "next_action": "仅追踪第十届变更；新届理事会/承办方入口待核，不能视为全部劳动经济会议覆盖。"
+    },
+    {
+      "id": "conference:public-finance-forum",
+      "name": "中国财政学论坛",
+      "category": "conferences",
+      "url": "https://infr.dufe.edu.cn/content_97282.html",
+      "interval_days": 7,
+      "legacy_source_id": "public-finance-forum",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "organizer-notice",
+      "entry_status": "historical-edition-notice",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:03:38.179751+08:00",
+      "entry_scope": "第十二届2026财政学论坛单页，10月17–18日会期，已过。",
+      "next_action": "仅追踪该届变更；下一届主办或承办方长期入口尚待确认，从国内发现入口有限补查。"
+    },
+    {
+      "id": "conference:cfam",
+      "name": "中国金融学年会",
+      "category": "conferences",
+      "url": "https://finance.nankai.edu.cn/2026/0609/c34541a598014/page.htm",
+      "interval_days": 7,
+      "legacy_source_id": "cfam",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "organizer-notice",
+      "entry_status": "historical-edition-notice",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:03:38.241159+08:00",
+      "entry_scope": "第二十三届2026中国金融学年会单页，10月23–25日会期、7月31日截稿，均已过。",
+      "next_action": "仅追踪第二十三届变更；下一届承办方和长期品牌入口待核，不以旧届单页代表品牌发现。"
+    },
+    {
+      "id": "conference:cfrc",
+      "name": "中国金融学术年会",
+      "category": "conferences",
+      "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026zh/hyzc.htm",
+      "interval_days": 7,
+      "legacy_source_id": "cfrc",
+      "conference_role": "organizer-notice",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "organizer-notice",
+      "entry_status": "historical-edition-notice",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:03:38.321435+08:00",
+      "entry_scope": "2026中国金融学术年会注册单页，6月1–25日注册窗口已过；总站根URL仅返回短占位，不能确认为长期发现页。",
+      "next_action": "仅追踪2026届变更；新届需核官网切换及征文通知，不沿用2026注册链接作为开放投稿。"
+    },
+    {
+      "id": "conference:quant-econ-annual",
+      "name": "中国数量经济学会年会",
+      "category": "conferences",
+      "url": "http://iqte.cssn.cn/xsjl/zgsljjxh/",
+      "interval_days": 7,
+      "legacy_source_id": "quant-econ-annual",
+      "conference_role": "brand",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "discovery",
+      "entry_status": "needs-screening",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:05:19.744114+08:00",
+      "entry_scope": "数技经所中国数量经济学会专栏，跨年条目与2026年会通知/指南可见；原入口为其他学术活动栏目且HTTPS本次TLS失败。替代为同官方域名公开HTTP专栏。",
+      "next_action": "周一、四沿学会专栏和实际分页补查；HTTP页面仅作发现，拟采用时仍核当届官方详情。",
+      "original_official_entry": "https://iqte.cssn.cn/xsjl/xsyth/"
+    },
+    {
+      "id": "conference:world-econ-annual",
+      "name": "中国世界经济学会年会",
+      "category": "conferences",
+      "url": "http://iwep.cssn.cn/xh/xh_zgsjjjxh_1637/zgsjjjxh_xhhd/",
+      "interval_days": 7,
+      "legacy_source_id": "world-econ-annual",
+      "conference_role": "brand",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "discovery",
+      "entry_status": "needs-screening",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:05:19.777194+08:00",
+      "entry_scope": "世经政所中国世界经济学会活动长期栏目，含年会及专题论坛；原2026单页HTTPS本次TLS失败。替代为同官方域名公开HTTP父栏目。",
+      "next_action": "周一、四核栏目与可见日期边界；专题和年会按同届分别登记；拟采用时核官方详情。",
+      "original_official_entry": "https://iwep.cssn.cn/xh/xh_zgsjjjxh_1637/zgsjjjxh_xhhd/202605/t20260526_5993357.shtml"
+    },
+    {
+      "id": "conference:management-annual",
+      "name": "中国管理学年会",
+      "category": "conferences",
+      "url": "https://www.camchina.org.cn/messages/478",
+      "interval_days": 7,
+      "legacy_source_id": "management-annual",
+      "conference_role": "brand",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "unverified-entry",
+      "entry_status": "access-failed",
+      "entry_access_status": "access-failed",
+      "entry_checked_at": "2026-11-11T15:03:38.552688+08:00",
+      "entry_scope": "旧/messages/478入口及官方网站根URL均发生TLS访问失败；本轮未读得正文，不能确定该页届次或完整入口性质。",
+      "next_action": "保留失败；有新线索后有限核研究会正式年会/承办方入口，不反复撞同一失败URL，不改作no-eligible。"
+    },
+    {
+      "id": "conference:accounting-association",
+      "name": "中国会计学会年会及专业委员会",
+      "category": "conferences",
+      "url": "https://www.asc.net.cn/News/Index.aspx?newsCode=MENU_BQ",
+      "interval_days": 7,
+      "legacy_source_id": "accounting-association",
+      "conference_role": "brand",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "discovery",
+      "entry_status": "needs-screening",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:03:38.597433+08:00",
+      "entry_scope": "中国会计学会征文启事长期栏目，首屏显示2026征文；共9页162条，本轮未逐条筛选。",
+      "next_action": "周一、四按实际分页/日期界限补查；区分学术会议、期刊征文、培训等，采用前读当届通知。"
+    },
+    {
+      "id": "conference:industrial-econ-association",
+      "name": "中国工业经济学会",
+      "category": "conferences",
+      "url": "https://gjxh.dufe.edu.cn/",
+      "interval_days": 7,
+      "legacy_source_id": "industrial-econ-association",
+      "conference_role": "brand",
+      "review_weekdays": [
+        "mon",
+        "thu"
+      ],
+      "daily_incremental": false,
+      "entry_type": "discovery",
+      "entry_status": "needs-screening",
+      "entry_access_status": "response-received",
+      "entry_checked_at": "2026-11-11T15:05:19.880775+08:00",
+      "entry_scope": "中国工业经济学会自有长期站，含通知和跨年年会栏目；替换郑大2026年会单页，原11月7日会期已过。",
+      "next_action": "周一、四核年会与专业委员会通知；普通活动仍按相关性/性质筛选，不自动全部采用。",
+      "original_official_entry": "https://www5.zzu.edu.cn/sxy/info/1269/9243.htm"
     }
   ],
   "editorial_registry_note": "连续编辑器使用editorial_sources作为检查身份；原分组保留发现线索与兼容，不作为另一份动态状态。期刊排名不由入口配置修改。"

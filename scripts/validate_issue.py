@@ -214,6 +214,7 @@ def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[
         current_date = date.fromisoformat(issue["date"])
     except (KeyError, ValueError):
         return
+    conference_history = []
     for path in history_dir.glob("*.json"):
         if path.resolve() == source.resolve():
             continue
@@ -227,10 +228,14 @@ def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[
         # 较晚期次的结果修复由其自身验收，不反向使旧期次失效。
         if other_date > current_date:
             continue
+        if other.get('status') == 'published':
+            conference_history.extend(dict(previous, events=[dict(kind='website',date=other['date'],evidence=str(path))])
+                                      for previous in other.get('conference_calls', []))
         if abs((current_date - other_date).days) > 14:
             continue
         from trial_selection import identities
         for category, item in all_items(issue):
+            if category == 'conference_calls':continue  # 同届身份与提醒在完整历史中统一判断。
             for _, previous in all_items(other):
                 if not identities(item) & identities(previous): continue
                 # 会议提醒或重要更正须额外验证官方变更及前次关联。
@@ -243,6 +248,16 @@ def validate_history(issue: dict, source: Path, history_dir: Path, errors: list[
                     errors.extend(f'{path}: ' + e for e in failures)
                 elif not special:
                     errors.append(f"{path}: 14 天内出现相同成果：{item['id']} / {previous['id']}")
+    from conference_policy import conference_publication_errors, conference_publication_kind
+    for item in issue.get('conference_calls', []):
+        # 已冻结的旧公告没有 event_id，不补造同届身份；新稿和任何提醒/变更仍须稳定身份。
+        if (current_date < date(2026,11,12) and issue.get('status')=='published'
+                and source.is_file() and source.resolve().parent==history_dir.resolve()
+                and not issue.get('conference_policy_version')
+                and not item.get('event_id') and conference_publication_kind(item)=='initial'):
+            continue
+        errors.extend(item['id'] + ': ' + e for e in conference_publication_errors(
+            item, conference_history, issue.get('as_of', issue['date'])))
 
 
 def core_urls(issue: dict) -> set[str]:

@@ -5,6 +5,7 @@ from pathlib import Path
 from website_citations import bibliography_metadata, arxiv_pdf
 from trial_selection import identities
 from issue_dates import review_date
+from conference_policy import conference_window, conference_publication_errors
 
 CATEGORIES = ('lianxh_posts', 'papers', 'tools', 'research_resources', 'conference_calls')
 DISCOVERY = ('posts', 'papers', 'software', 'conferences')
@@ -18,23 +19,12 @@ def conference_errors(item, as_of, history=()):
         errors.append('会议须区分投稿和报名截止')
     if item.get('status') not in {'open', 'closed', 'postponed', 'cancelled'}:
         errors.append('会议状态无效')
-    try:
-        deadline = date.fromisoformat(item['deadline'])
-        event = date.fromisoformat(item['event_date'])
-        today = date.fromisoformat(as_of[:10])
-        if deadline > event: errors.append('截止日晚于会议开始日')
-        if item.get('status') == 'open' and (deadline < today or event < today):
-            errors.append('已过期会议不得作为可行动征稿')
-    except (KeyError, ValueError, TypeError): errors.append('会议日期无效')
+    window = conference_window(item, as_of)
+    if item.get('status') == 'open' and window['actionable'] is not True:
+        errors.append('已过期会议不得作为可行动征稿或报名' if window['status']=='expired' else '会议有效参与窗口未确认：' + window['status'])
     if item.get('status') in {'postponed', 'cancelled'} and not item.get('announcement_url'):
         errors.append('延期或取消缺官方公告')
-    if item.get('reminder'):
-        previous = [r for r in history if r.get('event_id') == item.get('event_id')
-                    and any(e.get('kind') in {'website', 'wechat_short'} and e.get('evidence') for e in r.get('events', []))]
-        if not previous or any(r.get('reminder') for r in previous):
-            errors.append('提醒须有首发记录且每届最多一次')
-        if not item.get('previous_id') or item['previous_id'] not in {r.get('id') for r in previous}:
-            errors.append('提醒缺少前次条目关联')
+    errors.extend(conference_publication_errors(item, history, as_of))
     return errors
 
 def discovery_errors(records):
@@ -115,7 +105,7 @@ def check_website(issue, root=None):
             except ValueError as exc: errors.append(item['id'] + ': ' + str(exc))
         if category == 'conference_calls':
             try:
-                evaluated_on = review_date(issue).isoformat()
+                evaluated_on = issue.get('as_of') or review_date(issue).isoformat()
             except (TypeError, ValueError):
                 evaluated_on = issue['date']  # 具体日期冲突由共享编辑闸门报告。
             errors += conference_errors(item, evaluated_on, history)

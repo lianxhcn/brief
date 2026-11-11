@@ -82,13 +82,13 @@ def assess(item, category, history, as_of):
         errors.append('匹配历史缺事件语义，须先核验用途')
     matches = [record for record in related if publication_events(record, category)]
     change = review.get('change_type', 'none')
-    exception = change in IMPORTANT
+    exception = change in IMPORTANT or (category == 'conference_calls' and change in {'venue-change', 'participation-change'})
     previous_ids = {x.get('id') for x in matches}
     if exception:
         if not matches or review.get('previous_id') not in previous_ids or not url(review.get('announcement_url')) or not review.get('impact') or not review.get('change_evidence'):
             errors.append('重要变更缺前次成果关联、原始公告或具体影响')
     reminder = category == 'conference_calls' and item.get('reminder') is True
-    if matches and not exception and not reminder:
+    if matches and not exception and not reminder and category != 'conference_calls':
         if change not in SUBSTANTIVE or not review.get('new_information') or not review.get('change_evidence'):
             errors.append('长期已见成果无可核验实质新增信息')
         for record in matches:

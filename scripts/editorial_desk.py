@@ -6,6 +6,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 from issue_dates import review_date
+from conference_policy import conference_window, conference_publication_kind
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = ('lianxh_posts', 'papers', 'tools', 'research_resources', 'conference_calls')
@@ -103,6 +104,10 @@ class Desk:
                 # 失败、仅快照或分页不完整均不能推进成功覆盖。
                 if e['status'] in ('found','no-eligible') and e.get('complete'):
                     row['last_success']=e
+            elif e['kind']=='observation':
+                # HTTP 成功、部分筛选和未映射线索均可留痕；不冒充完整覆盖。
+                row = state['sources'].setdefault(e['source_id'], {})
+                row['last_observation'] = e
             elif e['kind']=='candidate':
                 old=state['candidates'].get(e['key'],{})
                 incoming=dict(e['candidate'])
@@ -114,6 +119,8 @@ class Desk:
             elif e['kind']=='decision':
                 if e['key'] not in state['candidates']: raise ValueError('候选不存在')
                 state['candidates'][e['key']].update(status=e['status'],decision=e)
+                for field in ('gap','next_action','owner'):
+                    if field in e:state['candidates'][e['key']][field]=e[field]
             elif e['kind']=='publication':
                 state['publications'].append(e)
                 if e['key'] in state['candidates']:
@@ -162,22 +169,106 @@ class Desk:
     def registry(self):
         return read(self.root/'config/source-registry.yml')['editorial_sources']
 
-    def plan(self,day):
+    def plan(self,day,output_path=None):
         today=date.fromisoformat(day);s=self.rebuild();tasks=[]
-        for src in self.registry():
-            last=s['sources'].get(src['id'],{}).get('last_success')
+        registry=self.registry()
+        source_ids={row['id'] for row in registry}
+        legacy=read(self.root/'config/source-registry.yml').get('conference_sources',[])
+        def candidate_sources(candidate):
+            payload=candidate['payload'];review=payload.get('review',{})
+            matched=set()
+            for source_id in (candidate.get('source_id'),payload.get('source_id'),review.get('source_id')):
+                if source_id in source_ids:matched.add(source_id)
+                elif source_id and 'conference:'+source_id in source_ids:matched.add('conference:'+source_id)
+            urls={payload.get(k) for k in ('official_url','source_url')}|{review.get('source_url')}
+            urls.discard(None)
+            matched.update(row['id'] for row in registry if row['category'] in ('conferences','conference_calls') and row['url'] in urls)
+            matched.update(row['editorial_source_id'] for row in legacy if row.get('editorial_source_id') in source_ids
+                           and (row.get('official_entry') in urls or row.get('original_official_entry') in urls))
+            return matched
+        conference_queue=[]
+        active_sources=set()
+        for key,c in s['candidates'].items():
+            if c.get('category')!='conference_calls' or c.get('status') in ('excluded','expired'):continue
+            window=conference_window(c['payload'],day)
+            if (c.get('status')!='published' and window['actionable'] is not False) or window['actionable'] is True or c.get('follow_up_needed') is True:
+                # 已刊仍开放者也须跟踪正式变更；精确已登记 ID/URL/映射，不按标题或域名猜品牌。
+                active_sources.update(candidate_sources(c))
+            if c.get('status')=='published':
+                # 已刊身份不重新成为普通候选；只提示有真实发布事实的提醒比较。
+                facts=[p for p in s['publications'] if p['key']==key]
+                reminded=any(p.get('publication_type')=='deadline-reminder' or p.get('payload_snapshot',{}).get('reminder') is True for p in facts)
+                if not facts or reminded or conference_publication_kind(c['payload'])!='initial' or not (window['actionable'] is True and 0 < window['days_remaining'] <= 5):continue
+                first=min(date.fromisoformat(p.get('issue_date',p['at'][:10])) for p in facts)
+                initial=conference_window(c['payload'],first.isoformat())
+                if initial['days_remaining'] is not None and initial['days_remaining']<=5:continue
+                action='compare-one-reminder'
+            elif window['actionable'] is False:
+                action='resolve-expiry-or-status-change'
+            else:
+                action='review-candidate'
+            conference_queue.append(dict(key=key,id=c['id'],source_id=c.get('source_id'),title=c['payload']['title'],
+                source_ids=sorted(candidate_sources(c)),
+                candidate_status=c.get('status'),action=action,**window,
+                owner=c.get('owner') or c.get('decision',{}).get('reviewed_by'),
+                unresolved=c.get('status') not in ('ready','published'),
+                candidate_next_action=c.get('next_action') or c.get('decision',{}).get('next_action')))
+        for src in registry:
+            source_state=s['sources'].get(src['id'],{})
+            last=source_state.get('last_success')
+            observed=source_state.get('last_observation')
             age=(today-date.fromisoformat(last['window_end'])).days if last else None
             due=age is None or age<0 or age>=src['interval_days']
-            tasks.append(dict(source_id=src['id'],category=src['category'],url=src['url'],due=due,last_success=last['at'] if last else None,action='check' if due else 'reuse',priority=src.get('priority','standard'),entry_status=src.get('entry_status','unverified')))
+            action='check' if due else 'reuse'
+            if src['category'] in ('conferences','conference_calls'):
+                weekdays=src.get('review_weekdays',['mon','thu'])
+                full=today.strftime('%a').lower() in weekdays
+                incremental=bool(src.get('daily_incremental') or src['id'] in active_sources)
+                # 一次实际完整筛选可完成当日轮查；有界观察仍保留待办。
+                checked_today=bool(last and last['at'][:10]==day and last['window_end']==day)
+                due=(full or incremental) and not checked_today
+                action=('full-review' if full else 'incremental-follow-up') if due else ('reuse' if checked_today else 'scheduled-full-review')
+            tasks.append(dict(source_id=src['id'],category=src['category'],url=src['url'],due=due,last_success=last['at'] if last else None,action=action,priority=src.get('priority','standard'),entry_status=src.get('entry_status','unverified'),
+                last_observation=observed['at'] if observed else None,
+                observation_stage=observed.get('stage') if observed else None,
+                next_action=observed.get('next_action') if observed else None))
         pool=[]
         for key,c in s['candidates'].items():
             if c['status'] in ('published','excluded','expired'):continue
             parts=c.get('metadata',{}).get('published-online',{}).get('date-parts',[[]])[0]
             age=(today-date(*parts)).days if len(parts)==3 else None
-            pool.append(dict(key=key,id=c['id'],title=c['payload']['title'],status=c['status'],age_days=age,eligible_window=age is not None and 0<=age<=30))
-        result=dict(date=day,tasks=tasks,candidates=pool,note='候选未核验不等于合格；超过14天须有遗漏理由，超过30天不作为普通新闻')
-        write(self.root/'ops-local/runs'/day/'editorial-plan.json',result)
+            category=c.get('category','papers')
+            window=conference_window(c['payload'],day) if category=='conference_calls' else None
+            pool.append(dict(key=key,id=c['id'],category=category,title=c['payload']['title'],status=c['status'],age_days=age,
+                eligible_window=window['actionable'] if window else age is not None and 0<=age<=30,
+                **({'conference_window':window} if window else {})))
+        priority={'lianxh_posts':0,'conference_calls':1,'papers':2,'tools':2,'research_resources':2}
+        pool.sort(key=lambda row:(priority.get(row['category'],3),row['id']))
+        conference_queue.sort(key=lambda row:(row['days_remaining'] is None,row['days_remaining'] if row['days_remaining'] is not None else 99999,row['id']))
+        ct=[t for t in tasks if t['category'] in ('conferences','conference_calls')]
+        summary=dict(due_sources=sum(t['due'] for t in ct),source_stage_counts={stage:sum((t['observation_stage'] or 'not-observed')==stage for t in ct) for stage in sorted({t['observation_stage'] or 'not-observed' for t in ct})},
+            unresolved_soon_deadline=sum(row['unresolved'] and row['days_remaining'] is not None and 0<=row['days_remaining']<=5 for row in conference_queue),
+            unresolved_unknown=sum(row['unresolved'] and row['actionable'] is None for row in conference_queue))
+        result=dict(date=day,tasks=tasks,candidates=pool,conference_summary=summary,conference_action_queue=conference_queue,
+            note='候选未核验不等于合格；会议按有效投稿/报名窗口比较，不套用公告14/30天窗口；此计划不自动选稿，统一audit/build仍为shadow')
+        write(Path(output_path) if output_path else self.root/'ops-local/runs'/day/'editorial-plan.json',result)
         return result
+
+    def observe(self,e):
+        """Retain real raw/partial observations without fabricated candidates or coverage."""
+        required=('source_id','at','stage','evidence_path','reason','next_action')
+        if any(not e.get(k) for k in required):raise ValueError('观察记录字段不全')
+        if e['source_id'] not in {r['id'] for r in self.registry()}:raise ValueError('来源未登记')
+        if e['stage'] not in ('fetched','awaiting-screen','partial-screen','unmapped-findings','access-failed'):raise ValueError('非法观察阶段')
+        if e.get('complete',False) is not False:raise ValueError('观察不能宣称完整覆盖')
+        if 'candidate_ids' in e or e.get('status') in ('found','no-eligible'):raise ValueError('观察不代填候选或无合格结论')
+        observed=datetime.fromisoformat(e['at'])
+        if observed.tzinfo is None or observed>datetime.now(TZ):raise ValueError('观察时点须有真实时区且不能为未来')
+        path=(self.root/e['evidence_path']).resolve()
+        if not path.is_relative_to(self.root.resolve()) or not path.is_file():raise ValueError('缺少项目内实际观察证据')
+        sha=hashlib.sha256(path.read_bytes()).hexdigest()
+        if e.get('sha256') and e['sha256']!=sha:raise ValueError('观察证据指纹不一致')
+        self.emit(dict(e,kind='observation',complete=False,sha256=sha));return self.rebuild()
 
     def check(self,e):
         required=('source_id','at','status','complete','window_start','window_end','candidate_ids','reason','evidence_path')
@@ -207,6 +298,8 @@ class Desk:
                 if len(raw)>8_000_000:raise ValueError('页面超过8MB，未宣称完整覆盖')
                 p.write_bytes(raw)
             result=dict(source_id=source_id,status='awaiting-screen',evidence_path=str(p.relative_to(self.root)),sha256=hashlib.sha256(raw).hexdigest())
+            self.observe(dict(source_id=source_id,at=datetime.now(TZ).isoformat(),stage='awaiting-screen',
+                evidence_path=result['evidence_path'],sha256=result['sha256'],reason='已抓取原始页面，尚未完成编辑筛选',next_action='读取实际通知并登记线索；按真实边界记录筛选覆盖'))
         except Exception as exc:
             p.write_text(str(exc),encoding='utf-8')
             self.check(dict(source_id=source_id,at=datetime.now(TZ).isoformat(),status='access-failed',complete=False,window_start=day,window_end=day,candidate_ids=[],reason=str(exc),evidence_path=str(p.relative_to(self.root))))
@@ -226,7 +319,16 @@ class Desk:
         if old:return {'key':key,'status':old['status'],'action':'already-known; use decide for reviewed changes'}
         day=record['at'][:10]
         if date.fromisoformat(day)>datetime.now(TZ).date():raise ValueError('发现日期不能为未来')
-        self.emit(dict(kind='candidate',at=record['at'],key=key,candidate=dict(id=payload['id'],category=category,payload=payload,status='needs-review',first_discovered=day,source_id=record['source_id'],provenance=record['evidence_path'])))
+        first=record.get('first_discovered',day)
+        if date.fromisoformat(first)>date.fromisoformat(day):raise ValueError('首次发现不能晚于本次登记')
+        if first!=day:
+            old_path=(self.root/record.get('first_discovered_evidence_path','')).resolve()
+            if not old_path.is_relative_to(self.root.resolve()) or not old_path.is_file() or not record.get('first_discovered_basis'):
+                raise ValueError('保留较早发现日期须有历史证据和日期依据')
+            if hashlib.sha256(old_path.read_bytes()).hexdigest()!=record.get('first_discovered_evidence_sha256'):
+                raise ValueError('首次发现历史证据指纹不一致')
+        retained={k:record[k] for k in ('first_discovered_evidence_path','first_discovered_evidence_sha256','first_discovered_basis','next_action','owner','gap') if k in record}
+        self.emit(dict(kind='candidate',at=record['at'],key=key,candidate=dict(id=payload['id'],category=category,payload=payload,status='needs-review',first_discovered=first,source_id=record['source_id'],provenance=record['evidence_path'],**retained)))
         self.rebuild();return {'key':key,'status':'needs-review'}
 
     def decide(self,record):
@@ -242,7 +344,12 @@ class Desk:
             errors=[];validate_item(payload,s['candidates'][key]['category'],Path('candidate'),errors)
             if errors:raise ValueError('\n'.join(errors))
             self.emit(dict(kind='candidate',at=record['at'],order=0,key=key,candidate={**s['candidates'][key],'payload':payload}))
-        self.emit(dict(record,kind='decision',order=1));return self.rebuild()
+        decision=dict(record,kind='decision',order=1)
+        if record['status']=='ready':
+            decision.setdefault('gap',None)
+            decision.setdefault('next_action','审核合格，待编辑比较与编排')
+            decision.setdefault('owner',record['reviewed_by'])
+        self.emit(decision);return self.rebuild()
 
     def audit(self,day,issue,review):
         plan=self.plan(day);errors=[]
@@ -272,17 +379,17 @@ class Desk:
         return result
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['migrate','plan','record','fetch','decide','ingest','audit','build']);p.add_argument('--date',default=datetime.now(TZ).date().isoformat());p.add_argument('--input',type=Path);p.add_argument('--source');p.add_argument('--review',type=Path)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['migrate','plan','record','observe','fetch','decide','ingest','audit','build']);p.add_argument('--date',default=datetime.now(TZ).date().isoformat());p.add_argument('--input',type=Path);p.add_argument('--source');p.add_argument('--review',type=Path);p.add_argument('--output',type=Path)
     a=p.parse_args();desk=Desk()
     if a.command=='migrate':s=desk.migrate();result={k:len(v) for k,v in s.items()}
-    elif a.command=='plan':result=desk.plan(a.date);result=dict(date=a.date,due=sum(t['due'] for t in result['tasks']),candidates=len(result['candidates']))
+    elif a.command=='plan':result=desk.plan(a.date,a.output);result=dict(date=a.date,due=sum(t['due'] for t in result['tasks']),candidates=len(result['candidates']),conference_summary=result['conference_summary'])
     elif a.command=='fetch':result=desk.fetch(a.source,a.date)
     elif a.command=='ingest':
         if not a.input:p.error('--input required')
         result=desk.ingest(read(a.input))
-    elif a.command in ('record','decide'):
+    elif a.command in ('record','observe','decide'):
         if not a.input:p.error('--input required')
-        result=getattr(desk,'check' if a.command=='record' else 'decide')(read(a.input));result={k:len(v) for k,v in result.items()}
+        result=getattr(desk,'check' if a.command=='record' else a.command)(read(a.input));result={k:len(v) for k,v in result.items()}
     else:
         if not a.input or not a.review:p.error('--input issue.json --review review.json required')
         issue=read(a.input);result=desk.audit(a.date,issue,read(a.review))
