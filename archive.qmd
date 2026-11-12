@@ -12,9 +12,10 @@ toc: false
 
 
 <div class="archive-tree">
-<details class="archive-year" open><summary>2026 年 <span>68 期</span></summary>
-<details class="archive-month"><summary>11 月 <span>12 期</span></summary>
+<details class="archive-year" open><summary>2026 年 <span>69 期</span></summary>
+<details class="archive-month"><summary>11 月 <span>13 期</span></summary>
 <ul class="archive-days">
+<li><a href="issues/20261113/">连享会 · 快讯 | 2026.11.13</a></li>
 <li><a href="issues/20261112/">连享会 · 快讯 | 2026.11.12</a></li>
 <li><a href="issues/20261111/">连享会 · 快讯 | 2026.11.11</a></li>
 <li><a href="issues/20261110/">连享会 · 快讯 | 2026.11.10</a></li>

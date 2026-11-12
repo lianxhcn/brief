@@ -8,9 +8,65 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 57 页 · 共 564 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-57.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>高维组合的夏普边界：正则化会藏起什么？</h3>
+<p class="catalog-citation">Chernov, M. et al. (2026). The hidden Sharpe ratio. NBER Working Paper No. 35988 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>高维协方差估计中的正则化会压低小特征值方向的贡献，使已构造组合的夏普比率不能直接代表资产集合的最优边界。文章不先构造有效组合，而直接估计大横截面中的最大夏普比率，并讨论上下界与渐近区间。它将组合表现与风险收益边界估计区分开来。边界估计和样本外可实现净收益是不同对象，不能把模型估计上限当作无需交易成本、规模或可实施性约束的投资承诺。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96&amp;show-results=1" title="全站搜索：正则化">正则化</a> · <a class="tag-link" href="?q=%E5%A4%8F%E6%99%AE%E6%AF%94%E7%8E%87&amp;show-results=1" title="全站搜索：夏普比率">夏普比率</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#paper-nber-w35988">查看本期</a><a href="https://www.nber.org/papers/w35988" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>高维尾部风险预测：变量没被选中，就意味着回测通过吗？</h3>
+<p class="catalog-citation">Du, Z.; Escanciano, J. C.; Pei, P. (2026). Backtesting high-dimensional expected shortfall. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>高维模型中的估计与正则化，会影响预期损失 ES 的样本外回测。文章构造正交回测矩，消除对高维 VaR、ES 及评价工具估计带来的一阶偏差；在线性 ES 模型中，可通过带尾部样本量调整得分的 Double Lasso 实现。作者讨论时间序列相关以及重叠、扩展训练窗口下的推断，并以 G7 下行增长预测说明预测变量筛选与回测的不同作用。作者的模拟显示尺寸控制改善，但这不构成任意金融模型或小样本中的有效性保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E6%AD%A3%E4%BA%A4%E5%8C%96&amp;show-results=1" title="全站搜索：正交化">正交化</a> · <a class="tag-link" href="?q=%E9%A2%84%E6%B5%8B%E5%9B%9E%E6%B5%8B&amp;show-results=1" title="全站搜索：预测回测">预测回测</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#paper-arxiv-2611-13882">查看本期</a><a href="https://arxiv.org/abs/2611.13882v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>把多个处理选项合成一类，IV 还在识别什么？</h3>
+<p class="catalog-citation">Nibbering, D.; Oosterveen, M.; Silva, P. L. (2026). Instrumental variables with treatment clusters. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-09</p>
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>将多个无序处理选项合并成大类，再把大类当作二元处理进行 IV 估计，可能掩盖细分选择层面的限制。文章在未合并处理的层面提出假设，说明大类 IV 识别何种局部平均处理效应的加权平均；当细分选择可观测时，还给出因果解释所需的可检验必要条件。应用将专业归并为 STEM 与非 STEM 或八个大类。这里的 treatment clusters 指处理选项的归类，并非抽样聚类或聚类标准误；必要条件通过也不等于全部识别假设成立。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%80%BC%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：多值处理">多值处理</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：局部平均处理效应">局部平均处理效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#paper-arxiv-2611-13313">查看本期</a><a href="https://arxiv.org/abs/2611.13313v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>多个货币政策意外，怎样组合成主要冲击？</h3>
+<p class="catalog-citation">Boehm, C.; Kim, H.; Kroner, T. N. (2026). The main monetary policy shock. NBER Working Paper No. 36004 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>不同高频货币政策意外可能反映不同冲击，单一指标未必代表影响宏观波动的主要方向。文章把多个意外指标线性组合，构造对宏观波动解释力较强的主要货币政策冲击，并比较其利率、价格、汇率与金融条件的动态响应。识别对象随指标集合和构造准则而变，应区分统计上的主要方向与教科书式的结构冲击。经济解释依赖识别限制、样本和模型设定，解释力最大化本身不等于已证明完全外生。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：货币政策冲击">货币政策冲击</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：高频识别">高频识别</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：宏观波动">宏观波动</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#paper-nber-w36004">查看本期</a><a href="https://www.nber.org/papers/w36004" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>协变量分布变了，高维非稀疏回归怎样调整预测？</h3>
+<p class="catalog-citation">Lin, Y.; Shi, J.; Wang, P. (2026). High-dimensional nonsparse regression under covariate shift via importance-weighted partial least squares. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>高维预测变量彼此高度相关，而且训练与目标数据的协变量分布不同，原样使用训练域提取的成分可能损害目标域预测。文章提出重要性加权偏最小二乘法，先按目标协变量分布重加权来源观测，再提取与响应相关的成分。由于加权样本协方差通常不再具有标准 Wishart 结构，作者结合加权矩的扰动分析与影响函数分解，讨论单成分和多成分估计的一致性，并建立单成分估计的渐近正态性。模拟和应用中的比较属于作者报告；单成分推断结论不应直接扩展为任意多成分模型的保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%81%8F%E7%A7%BB&amp;show-results=1" title="全站搜索：协变量偏移">协变量偏移</a> · <a class="tag-link" href="?q=%E5%81%8F%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98&amp;show-results=1" title="全站搜索：偏最小二乘">偏最小二乘</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：高维回归">高维回归</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#paper-arxiv-2611-13423">查看本期</a><a href="https://arxiv.org/abs/2611.13423v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>交叉随机效应模型：用多维离散化缓解计算负担</h3>
+<p class="catalog-citation">Takeishi, S.; Sugasawa, S. (2026). Scalable estimation of crossed random effects models via multi-way discretization. JASA.</p><p class="catalog-meta">发表日期：2026-11-04</p>
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>学生、学校和教师等分类维度相互交叉时，随机效应模型的计算可能很吃力，非高斯结果尤其如此。本文用有限个代表值近似各随机效应的分布，将模型转为可迭代估计的多维离散结构，兼容两个以上交叉维度。作者在逻辑、Poisson 和有序 probit 模型中展示应用，并给出相应条件下的一致性与渐近正态性结果。该方法为复杂分组数据提供了另一种计算思路；理论性质仍取决于模型和分类层级条件，不能据此认定任意交叉数据都能得到同样表现。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E9%9A%8F%E6%9C%BA%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：交叉随机效应">交叉随机效应</a> · <a class="tag-link" href="?q=%E7%A6%BB%E6%95%A3%E8%BF%91%E4%BC%BC&amp;show-results=1" title="全站搜索：离散近似">离散近似</a> · <a class="tag-link" href="?q=%E5%B9%BF%E4%B9%89%E7%BA%BF%E6%80%A7%E6%B7%B7%E5%90%88%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：广义线性混合模型">广义线性混合模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#paper-10-1080-01621459-2026-2754930">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2754930" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ACS：边探索边筛选，如何控制错误发现率？</h3>
+<p class="catalog-citation">Gui, Y. et al. (2026). ACS: An interactive framework for conformal selection. JASA.</p><p class="catalog-meta">发表日期：2026-11-04</p>
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>研究者根据数据不断调整筛选模型或加入新信息时，原有错误率保证可能不再适用。自适应保形选择框架 ACS 通过约束决策时可以访问的信息，支持部分数据复用、模型更新和多样化筛选，同时在规定规则下控制错误发现率。作者公开稿还讨论纳入新增标签数据，并以大语言模型部署和药物发现为应用场景。对需要交互筛选的研究，这提供了兼顾灵活性与错误控制的设计方向；保证依赖信息访问规则，不能推广为任意反复查看数据都有效。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：保形选择">保形选择</a> · <a class="tag-link" href="?q=%E9%94%99%E8%AF%AF%E5%8F%91%E7%8E%B0%E7%8E%87&amp;show-results=1" title="全站搜索：错误发现率">错误发现率</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：交互分析">交互分析</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#paper-10-1080-01621459-2026-2757634">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2757634" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>预期损失回归：优化的对象究竟是哪一段尾部？</h3>
 <p class="catalog-citation">Li, Y.; Zhang, S.; He, X. (2026). Expected shortfall regression via optimization. JASA.</p><p class="catalog-meta">发表日期：2026-11-11</p>
@@ -35,64 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a></p>
 <p class="catalog-actions"><a href="../issues/20261112/#paper-arxiv-2611-14385">查看本期</a><a href="https://arxiv.org/abs/2611.14385v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>瞄准贫困家庭之前，需要先明确瞄准什么福利目标</h3>
-<p class="catalog-citation">Hanna, R. et al. (2026). Target what? The foundations of poverty targeting. NBER Working Paper No. 35984 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>把低消费家庭视为最需要转移支付的人群，隐含了福利水平与额外一元转移带来的社会收益排序一致。文章在印度尼西亚村庄比较消费、自评福利、社区对福利水平及转移边际价值的排序，并通过随机试验比较不同瞄准机制。它把如何测量贫困与如何选择福利目标分开，说明瞄准规则本身带有规范判断。社区排序不是无条件的福利真值，情境中的试验比较也不能直接决定其他地区的最优规则。 NBER 的 Issue Date 为 11 月 5 日，引用元数据另记 11 月 9 日。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%AB%E5%9B%B0%E7%9E%84%E5%87%86&amp;show-results=1" title="全站搜索：贫困瞄准">贫困瞄准</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：福利测量">福利测量</a> · <a class="tag-link" href="?q=%E8%A7%84%E8%8C%83%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：规范判断">规范判断</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#paper-nber-w35984">查看本期</a><a href="https://www.nber.org/papers/w35984" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>优惠录取为何可能削弱高中阶段的努力？</h3>
-<p class="catalog-citation">Tincani, M. M.; Kosse, F.; Miglino, E. (2026). Beliefs and the incentive effects of preferential college admissions: Evidence from an experiment and a structural model. JPE.</p><p class="catalog-meta">发表日期：2026-11-11</p>
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>降低大学入学门槛，可能同时改变学生对努力回报的判断。作者录用稿结合智利 PACE 项目的随机试验、行政和调查数据，研究优惠录取对升学与高中阶段努力的影响，再用动态结构模型分析主观信念如何改变政策激励。它将扩大入学机会与维持学习投入分开讨论，提示政策设计还应关注学生对大学持续就读所需努力的认识。经验结论对应当地政策与样本；纠正信念的政策推演依赖结构模型设定，不能直接当作已实施信息干预的效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：教育政策">教育政策</a> · <a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：主观信念">主观信念</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#paper-10-1086-744916">查看本期</a><a href="https://doi.org/10.1086/744916" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AUC 与 Brier 分数为何会给模型排出不同名次？</h3>
-<p class="catalog-citation">Baranovski, Y. (2026). One curve, different weights: AUC, the Brier score, decision-weighted AUC, and the policy Youden index. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>AUC、Brier 分数和按决策行动概率加权的 AUC，可以从同一条 Youden 曲线在不同阈值处的加权平均来理解；它们的差别在于如何给阈值分配权重。文章据此讨论预测分数与实际行动规则的衔接，并提出固定政策下的 policy Youden index。一个值得保留的区分是：按同一政策评价模型的性质属于该分子指标，不能直接推广给归一化后的加权 AUC 比率。研究提示模型排序应说明评估目标，而不能只报告单一分数。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：模型评估">模型评估</a> · <a class="tag-link" href="?q=AUC&amp;show-results=1" title="全站搜索：AUC">AUC</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E8%A7%84%E5%88%99&amp;show-results=1" title="全站搜索：决策规则">决策规则</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#paper-arxiv-2611-14465">查看本期</a><a href="https://arxiv.org/abs/2611.14465v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>生育支持政策应优先生育数量，还是家庭福利？</h3>
-<p class="catalog-citation">Wang, H. (2026). Fertility and family leave policies in Germany: Optimal policy design in a dynamic framework. REStud.</p><p class="catalog-meta">发表日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>同样的财政预算，怎样在育儿假、托育补贴与税收安排之间配置，取决于政策希望改善什么。论文建立并估计生育与女性劳动供给的生命周期离散选择模型，考察德国育儿假和公共托育改革，再求解预算中性的政策组合。它分别以总体福利或生育为目标，同时约束各教育群体的福利与生育不下降，说明政策排序如何随目标改变。最优组合属于估计模型内的反事实，依赖偏好、行为与财政设定；模型推演的改善不能直接当作尚未实施政策的实际效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%B6%E5%BA%AD%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：家庭政策">家庭政策</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-restud-rdag124">查看本期</a><a href="https://doi.org/10.1093/restud/rdag124" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>数据不断增加，错误判断为何仍能长期存在？</h3>
-<p class="catalog-citation">Gagnon-Bartsch, T.; Rabin, M.; Schwartzstein, J. (2026). Channeled attention and stable errors. QJE.</p><p class="catalog-meta">发表日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>反复接触数据并不保证识别出模型错误，因为人们可能只注意自己原有模型认为相关的信息。论文建立注意力框架，刻画哪些误设会使长期观察仍不足以推翻错误判断，并区分错误排除某种联系与错误加入某种联系的稳定性。它为理解粗分类、经验误解以及旁观者更容易发现错误提供统一机制，也提示研究设计应主动考察被既有模型忽略的信息。结论是特定注意力与学习结构下的理论推演，不等于已估计现实人群的偏差大小，也不是对所有错误都永远稳定的判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：行为经济学">行为经济学</a> · <a class="tag-link" href="?q=%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：注意力">注意力</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%AF%AF%E8%AE%BE&amp;show-results=1" title="全站搜索：模型误设">模型误设</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-qje-qjag055">查看本期</a><a href="https://doi.org/10.1093/qje/qjag055" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>存在干扰时，平均因果效应与政策期望效应有何不同？</h3>
-<p class="catalog-citation">Karwa, V.; Airoldi, E. M.; Rubin, D. B. (2026). Average versus expected causal effects under interference: Modeling assumptions and estimation bottlenecks. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-09</p>
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>处理会影响他人时，选择效应目标与选择分配设计需要一起考虑。文章把干扰邻域、暴露映射和结果模型分层，区分固定处理与暴露条件下的平均因果效应，以及给定分配政策下的期望因果效应，并比较设计是否利用网络结构所带来的估计困难。这个框架帮助研究者分开讨论目标、建模简化与可估计性。结论依赖所设邻域、暴露映射和随机分配机制，不能把特定网络或设计下的性质推广为任意干扰情形的保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：实验设计">实验设计</a> · <a class="tag-link" href="?q=%E4%BC%B0%E8%AE%A1%E5%AF%B9%E8%B1%A1&amp;show-results=1" title="全站搜索：估计对象">估计对象</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#paper-arxiv-2611-12690">查看本期</a><a href="https://arxiv.org/abs/2611.12690v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>保险公司脆弱性如何把气候风险传导到按揭市场？</h3>
-<p class="catalog-citation">Sastry, P.; Sen, I.; Tenekedjieva, A. M. (2026). When insurers exit: Climate losses, fragile insurers, and mortgage markets. QJE.</p><p class="catalog-meta">发表日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>房屋有保险，并不意味着贷款人已把灾害风险转移出去。论文结合佛罗里达州的按揭与保险数据，利用多种自然实验，研究资本和业务分散程度不足的保险公司如何影响灾后按揭违约，并比较贷款留在银行与出售给政府支持机构时的筛选激励。研究把保险质量、第三方评级和贷款风险转移连在一起，提示气候金融分析应同时考察资产风险与保障提供者的偿付能力。结论对应当地保险制度与样本环境，因果解释取决于各项自然实验的识别条件，不能直接推广为所有地区的保险退出效应。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：气候风险">气候风险</a> · <a class="tag-link" href="?q=%E4%BD%8F%E6%88%BF%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：住房金融">住房金融</a> · <a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E7%9B%91%E7%AE%A1&amp;show-results=1" title="全站搜索：保险监管">保险监管</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#paper-10-1093-qje-qjag053">查看本期</a><a href="https://doi.org/10.1093/qje/qjag053" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 56 页 · 共 557 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-56.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 57 页 · 共 564 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-57.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

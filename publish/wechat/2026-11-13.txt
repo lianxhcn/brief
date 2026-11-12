@@ -1,0 +1,31 @@
+📙 连享会 · 快讯 | 2026.11.13
+
+📰 01｜论文 · Journal of the American Statistical Association：交叉随机效应模型：用多维离散化缓解计算负担
+用有限个代表值近似随机效应分布，把交叉分组模型转为可迭代估计的多维离散结构。方法兼容非高斯结果和多重交叉维度，理论性质与计算表现仍需结合模型条件判断。
+引文：Takeishi & Sugasawa (2026). Scalable estimation of crossed random effects models via multi-way discretization. Journal of the American Statistical Association, forthcoming.
+主页： https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2754930 
+PDF (v2)： https://arxiv.org/pdf/2507.15593.pdf 
+
+📰 02｜论文 · Journal of the American Statistical Association：ACS：边探索边筛选，如何控制错误发现率？
+ACS 在受控的信息访问规则下，允许边探索数据边调整筛选，并控制错误发现率。可用于模型更新、引入新增标签等场景；保证依赖框架规则，不能任意反复复用数据。
+引文：Gui et al. (2026). ACS: An interactive framework for conformal selection. Journal of the American Statistical Association, forthcoming.
+主页： https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2757634 
+PDF (v1)： https://arxiv.org/pdf/2507.15825.pdf 
+
+📰 03｜论文 · arXiv：把多个处理选项合成一类，IV 还在识别什么？
+文章分析多种处理选项合并后的 IV 估计对象，并提出利用细分选择检验的必要条件。这里的处理归类与抽样聚类不同，合并类别之前应先核对因果解释。
+引文：Nibbering, Oosterveen & Silva (2026). Instrumental variables with treatment clusters. arXiv.
+主页： https://arxiv.org/abs/2611.13313v1 
+
+📦 04｜软件 · R：DAGassist 0.3.1：检查控制变量是否偏离目标效应
+把因果图与回归规格对照，检查控制变量角色和目标效应是否一致。0.3.1 更新加权总效应的默认稳健标准误；软件不能替研究者确认因果图或识别条件，连续处理的效应解释也须单独判断。
+版本：R / DAGassist 0.3.1；发布：2026-11-12
+CRAN： https://cran.r-project.org/package=DAGassist 
+
+📅 05｜会议征稿：全球治理政治经济学论坛：11 月 18 日截稿提醒
+11 月 18 日截稿，11 月 28 日西安开会、27 日报到。围绕全球治理、数字经贸、供应链及 AI 治理等征文，中英文均可；不收会务费，11 月 22 日前通知入选，投稿格式与邮箱见官方通知。
+截止：2026-11-18
+通知： https://ems.nwu.edu.cn/info/1047/11044.htm 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261113/ 

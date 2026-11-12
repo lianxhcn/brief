@@ -8,9 +8,25 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 14 页 · 共 139 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 15 页 · 共 141 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-15.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>DAGassist 0.3.1：检查控制变量是否偏离目标效应</h3>
+
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>DAGassist 把研究者给定的因果图与已有回归放在一起，标记混杂变量、中介和碰撞点等角色，对照图导出的最小与规范调整集，并输出模型比较报告。0.3.1 将加权总效应估计的默认标准误改为稳健形式，修订混杂变量标记，并补充示例数据。它适合在增加控制变量之前先明确估计目标；因果图的正确性、权重模型及识别条件仍由研究者判断，稳健标准误不能修复错误调整。当前 estimand 使用 total/direct，不能把连续处理下的系数自动解释成样本平均效应。Windows 当前二进制仍为 0.3.0，获取 0.3.1 可用 <code>install.packages(&quot;DAGassist&quot;, type = &quot;source&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%9B%BE&amp;show-results=1" title="全站搜索：因果图">因果图</a> · <a class="tag-link" href="?q=%E6%8E%A7%E5%88%B6%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：控制变量">控制变量</a> · <a class="tag-link" href="?q=%E7%9B%AE%E6%A0%87%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：目标效应">目标效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#tool-dagassist-0-3-1">查看本期</a><a href="https://cran.r-project.org/package=DAGassist" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AIGovernance 0.2.0：录用率变了，是人群变了还是决策规则变了？</h3>
+
+<p class="catalog-meta">期次日期：2026-11-13</p>
+<p>AIGovernance 0.2.0 新增决策漂移分析，可将跨期决策率变化分为案例构成与规则变化；提供招聘人员、办公室等决策单元时，还可区分案例分配与单元内部规则变化。它同时报告净漂移和不相互抵消的绝对漂移，并提供多期比较及模拟接口，适合检查总体录用率不变时是否仍有条件决策变化。这些分解依赖已记录特征、决策模型设定和跨期重叠，不能识别 AI 系统的因果效应；未记录特征变化也可能表现为漂移。多重比较调整不代替任意反复查看数据所需的序贯方法，报告也不构成法律合规认证。Windows 当前二进制仍为 0.1.0，获取 0.2.0 可用 <code>install.packages(&quot;AIGovernance&quot;, type = &quot;source&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：决策漂移">决策漂移</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：模型监测">模型监测</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E5%8C%96%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：标准化分解">标准化分解</a></p>
+<p class="catalog-actions"><a href="../issues/20261113/#tool-aigovernance-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=AIGovernance" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>fastglm 0.1.4：计数与有序回归的边界修正</h3>
 
@@ -75,24 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E5%86%B2%E5%87%BB%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：冲击序列">冲击序列</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E7%89%88%E6%9C%AC&amp;show-results=1" title="全站搜索：数据版本">数据版本</a></p>
 <p class="catalog-actions"><a href="../issues/20261107/#tool-mpshock-0-1-2">查看本期</a><a href="https://cran.r-project.org/package=mpshock" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>causalMed：用 g 公式分析纵向中介与总效应</h3>
-
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>causalMed 0.1.3 首次进入 CRAN，用参数 g 公式分析纵向暴露、中介和时变混杂，也可估计静态或动态干预的总效应。中介模块的暴露须为二元。干预型直接与间接效应之和不必等于自然总效应，中介比例的分母须核清。自然效应解释还需额外跨世界假设，不能因软件允许受暴露影响的混杂就认定已识别。时序、一致性、正值性、无未测混杂及模型设定仍需核对。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BA%B5%E5%90%91%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：纵向中介">纵向中介</a> · <a class="tag-link" href="?q=g%20%E5%85%AC%E5%BC%8F&amp;show-results=1" title="全站搜索：g 公式">g 公式</a> · <a class="tag-link" href="?q=%E6%97%B6%E5%8F%98%E6%B7%B7%E6%9D%82&amp;show-results=1" title="全站搜索：时变混杂">时变混杂</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#tool-causalmed-0-1-3">查看本期</a><a href="https://cran.r-project.org/package=causalMed" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>evalHTE：为排序子群体构造统一置信带</h3>
-
-<p class="catalog-meta">期次日期：2026-11-06</p>
-<p>evalHTE 在随机抽样、完全随机分配下，为按得分排序的子群体构造统一置信带。0.3.0 修订 URATE 的方差与高斯校准，统一摘要和绘图界限，并仅在得分完全相同时随机排序。保证只涵盖一条规则与一个结果内的子群体大小选择，不校正多模型选择；得分须预设或由独立训练样本拟合，统一带不支持交叉验证得分。Windows 二进制仍为 0.2.0，源码 0.3.0 需编译；安装后须查版本。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E8%B4%A8%E6%80%A7%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：异质性效应">异质性效应</a> · <a class="tag-link" href="?q=%E7%BB%9F%E4%B8%80%E7%BD%AE%E4%BF%A1%E5%B8%A6&amp;show-results=1" title="全站搜索：统一置信带">统一置信带</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：随机试验">随机试验</a></p>
-<p class="catalog-actions"><a href="../issues/20261106/#tool-evalhte-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=evalHTE" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 14 页 · 共 139 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-14.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 15 页 · 共 141 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-15.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -42,10 +42,14 @@ def fingerprint(item):
 
 def public_summary(item):
     records = json.loads((ROOT / 'config/website-content.json').read_text(encoding='utf-8'))
+    source_sha256 = fingerprint(item)
     record = records.get(item['id'])
-    if not record or record.get('source_sha256') != fingerprint(item):
+    if isinstance(record, dict) and record.get('source_sha256') != source_sha256:
+        versions = record.get('versions')
+        record = versions.get(source_sha256) if isinstance(versions, dict) else None
+    if not isinstance(record, dict) or record.get('source_sha256') != source_sha256:
         raise ValueError(f"{item['id']}: 读者简介缺失或原始数据已变化，请复核")
-    summary = record['summary']
+    summary = record.get('summary')
     if not isinstance(summary, str) or not summary.strip() or reader_text_errors(summary):
         raise ValueError(f"{item['id']}: 读者简介含内部核验文案或为空")
     return summary

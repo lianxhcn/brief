@@ -16,7 +16,7 @@ from validate_issue import validate_history, validate_wechat
 from trial_selection import selection_errors
 from render_issue_pages import render_page, render_section
 from build_catalog_pages import entries, card
-from website_content import fingerprint
+from website_content import fingerprint, public_summary
 
 ROOT=Path(__file__).resolve().parents[1]
 ASOF='2026-11-11T15:20:00+08:00'
@@ -180,6 +180,59 @@ class WebsiteAdditionTests(unittest.TestCase):
             state=desk.migrate()
             self.assertEqual(state['candidates'][key]['status'],'published')
             self.assertTrue(all((desk.events/name).read_bytes()==raw for name,raw in existing.items()))
+
+    def test_same_id_public_summaries_use_only_exact_reviewed_fact_versions(self):
+        _, old = fixture()
+        current = copy.deepcopy(old)
+        current.update(title='隔离测试会议截止提醒', reminder=True,
+                       page_note='现有提醒事实尚未审阅，不能自动用作公开简介。')
+        old_sha, current_sha = fingerprint(old), fingerprint(current)
+        old_summary = '会议首次介绍，保留原有读者简介。'
+        current_summary = '会议投稿即将截止，提醒读者查看官方要求。'
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            config = root/'config/website-content.json'
+            current_record = dict(source_sha256=current_sha, summary=current_summary)
+            def store(record):
+                write(config, {old['id']: record})
+            with patch('website_content.ROOT', root):
+                # Existing two-field records keep their original strict contract.
+                store(dict(source_sha256=old_sha, summary=old_summary))
+                self.assertEqual(public_summary(old), old_summary)
+                with self.assertRaises(ValueError):
+                    public_summary(current)
+                # Stable identity can have separate reviewed historical/current facts.
+                record = dict(current_record, versions={
+                    old_sha: dict(source_sha256=old_sha, summary=old_summary)})
+                store(record)
+                self.assertEqual(public_summary(old), old_summary)
+                self.assertEqual(public_summary(current), current_summary)
+                changed = dict(old, fee_note='未经审阅的费用变化')
+                with self.assertRaises(ValueError):
+                    public_summary(changed)
+                # Map keys alone cannot authorize a mismatched or malformed record.
+                for malformed in (dict(source_sha256=current_sha, summary=old_summary),
+                                  None, 'not-a-reviewed-record'):
+                    with self.subTest(malformed=malformed):
+                        store(dict(current_record, versions={old_sha: malformed}))
+                        with self.assertRaises(ValueError):
+                            public_summary(old)
+                # Both selected version paths retain empty/internal-prose rejection.
+                for bad in ('', '   ', None, 3, '本次仅核验官方信息。'):
+                    with self.subTest(summary=bad):
+                        store(dict(current_record, versions={
+                            old_sha: dict(source_sha256=old_sha, summary=bad)}))
+                        with self.assertRaises(ValueError):
+                            public_summary(old)
+                        store(dict(source_sha256=current_sha, summary=bad, versions={
+                            current_sha: dict(source_sha256=current_sha, summary=current_summary)}))
+                        with self.assertRaises(ValueError):
+                            public_summary(current)
+                for versions in (None, [], 'invalid'):
+                    with self.subTest(versions=versions):
+                        store(dict(current_record, versions=versions))
+                        with self.assertRaises(ValueError):
+                            public_summary(old)
 
     def test_renderer_and_catalog_show_only_true_update_date_original_core_unchanged(self):
         old,item=fixture();issue=copy.deepcopy(old);issue['conference_calls'].append(item)
