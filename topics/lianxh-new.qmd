@@ -8,9 +8,25 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 83 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 85 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>机器学习中的距离：从几何直觉到常见模型</h3>
+
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>文章从同一组二维教学点出发，比较欧氏、曼哈顿与切比雪夫距离，再用范数把距离、残差损失和系数惩罚联系起来。它区分特征缩放与向量归一化，并解释 KNN 的邻居选择、KMeans 的平方距离目标及线性 SVM 的间隔。选择距离要联系变量单位、特征表示和任务；训练数据的缩放参数应在训练折内拟合，不能把几何直觉直接当作模型效果保证。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B7%9D%E7%A6%BB%E4%B8%8E%E8%8C%83%E6%95%B0&amp;show-results=1" title="全站搜索：距离与范数">距离与范数</a> · <a class="tag-link" href="?q=%E7%89%B9%E5%BE%81%E7%BC%A9%E6%94%BE&amp;show-results=1" title="全站搜索：特征缩放">特征缩放</a> · <a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#lianxh-1991">查看本期</a><a href="https://www.lianxh.cn/details/1991.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>文本分类与标注：Laya 与 Jev 两类决策模型怎么选？</h3>
+
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>文章围绕年报与财经新闻的文本分类，比较本地部署的 Laya 与通过 API 使用的 Jev，讨论类别设定、概率校准、长文切分、微调和独立测试。读者可据此安排人工标注、训练与检验的分工，再比较本地算力维护和 API 数据传输的成本。作者的演示结果不能直接迁移为自己中文任务的准确率；标注质量、样本划分与部署条件仍须另行评估。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83&amp;show-results=1" title="全站搜索：模型微调">模型微调</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E6%A0%A1%E5%87%86&amp;show-results=1" title="全站搜索：概率校准">概率校准</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#lianxh-1992">查看本期</a><a href="https://www.lianxh.cn/details/1992.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>用 Astra 建一条产线：一句话要求怎样变成每分钟 12 个红瓶</h3>
 
@@ -75,24 +91,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%8B%E4%BB%B6%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：事件研究">事件研究</a> · <a class="tag-link" href="?q=%E5%A4%9A%E6%9C%9F%20DID&amp;show-results=1" title="全站搜索：多期 DID">多期 DID</a> · <a class="tag-link" href="?q=%E5%8F%82%E7%85%A7%E6%9C%9F&amp;show-results=1" title="全站搜索：参照期">参照期</a></p>
 <p class="catalog-actions"><a href="../issues/20261102/#lianxh-1983">查看本期</a><a href="https://www.lianxh.cn/details/1983.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>给你的 AI-Agent 配上一套 Stata Skills</h3>
-
-<p class="catalog-meta">期次日期：2026-11-02</p>
-<p>文章介绍社区 Stata Skill 在数据管理、回归、绘图和结果输出中的用法，并用工资回归示例说明如何固定样本、保留日志及区分相关与因果。适合把反复使用的检查规则交给 Agent 查阅。Skill 仍依赖可用的 Stata、执行工具、数据与扩展命令；安装技能不等于命令已安装或任务已运行，文中示例也不是技能效果的对照实验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a> · <a class="tag-link" href="?q=Agent%20Skills&amp;show-results=1" title="全站搜索：Agent Skills">Agent Skills</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：研究工作流">研究工作流</a></p>
-<p class="catalog-actions"><a href="../issues/20261102/#lianxh-1982">查看本期</a><a href="https://www.lianxh.cn/details/1982.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>学完 csdid 后如何查找顶刊论文、代码与复现材料</h3>
-
-<p class="catalog-meta">期次日期：2026-10-29</p>
-<p>文章以多期 DID 为例，先用方法论文完整题名生成候选，再阅读全文区分引用与实际使用，随后定位代码、数据和 README，并整理复现证据卡。文中给出全文检索、筛选记录及 Agent 证据提取的操作步骤，适合把学命令延伸为读应用论文。检索站的覆盖范围会变化，检索命中和材料齐全也不等于识别成立或已经成功复现。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%9A%E6%9C%9F%20DID&amp;show-results=1" title="全站搜索：多期 DID">多期 DID</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2&amp;show-results=1" title="全站搜索：文献检索">文献检索</a> · <a class="tag-link" href="?q=%E5%A4%8D%E7%8E%B0%E6%9D%90%E6%96%99&amp;show-results=1" title="全站搜索：复现材料">复现材料</a></p>
-<p class="catalog-actions"><a href="../issues/20261029/#lianxh-1981">查看本期</a><a href="https://www.lianxh.cn/details/1981.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 83 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 85 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

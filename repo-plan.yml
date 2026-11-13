@@ -1,22 +1,25 @@
-task: daily-brief-20261113
-repository_mode: single
-repository: lianxhcn/brief
-local_path: D:/github_lianxh/brief
-branch: main
-expected_base: 44faad05d21475f6d13fb417d1e238c45253389e
-authorization: User-authorized daily0715 controlled commit push and Pages, required exact summary-version correction; no account sending.
-work_scope:
+mode: apply
+commit_message: Publish November 14 daily brief
+files:
   - archive.qmd
   - config/website-content.json
-  - content/issues/2026-11-13.json
+  - content/issues/2026-11-14.json
   - index.qmd
-  - issues/20261113/index.qmd
-  - publish/wechat/2026-11-13.txt
+  - issues/20261114/index.qmd
+  - publish/wechat/2026-11-14.txt
   - repo-plan.yml
-  - scripts/test_website_additions.py
-  - scripts/website_content.py
+  - topics/academic-updates-2.qmd
   - topics/academic-updates.qmd
   - topics/index.qmd
+  - topics/lianxh-new-2.qmd
+  - topics/lianxh-new-3.qmd
+  - topics/lianxh-new-4.qmd
+  - topics/lianxh-new-5.qmd
+  - topics/lianxh-new-6.qmd
+  - topics/lianxh-new-7.qmd
+  - topics/lianxh-new-8.qmd
+  - topics/lianxh-new-9.qmd
+  - topics/lianxh-new.qmd
   - topics/methods-tools-10.qmd
   - topics/methods-tools-11.qmd
   - topics/methods-tools-12.qmd
@@ -84,6 +87,7 @@ work_scope:
   - topics/research-frontier-55.qmd
   - topics/research-frontier-56.qmd
   - topics/research-frontier-57.qmd
+  - topics/research-frontier-58.qmd
   - topics/research-frontier-6.qmd
   - topics/research-frontier-7.qmd
   - topics/research-frontier-8.qmd

@@ -1,0 +1,27 @@
+📙 连享会 · 快讯 | 2026.11.14
+
+✍️ 01｜新推文：机器学习中的距离：从几何直觉到常见模型
+从同一组点理解距离和范数，再看它们如何进入 KNN、KMeans、SVM 及正则化。变量单位和缩放会改变距离，选择度量仍要联系特征与任务。
+阅读全文： https://www.lianxh.cn/details/1991.html 
+
+✍️ 02｜新推文：文本分类与标注：Laya 与 Jev 两类决策模型怎么选？
+比较 Laya 本地模型与 Jev API 的文本分类用法，介绍概率校准、长文处理、微调和独立测试。先确定标签含义与人工标注标准，再用独立样本判断模型是否适合自己的文本。
+阅读全文： https://www.lianxh.cn/details/1992.html 
+
+📰 03｜论文 · Review of Economic Studies：抱负与资源支持如何影响长期决策？来自肯尼亚的交叉随机试验
+文章将抱负与规划工作坊和现金转移交叉随机化，比较心理与资源支持对劳动、投资等结果的影响。以肯尼亚农村实验为依据，机制解释与外推需结合干预设计。
+引文：Orkin et al. (2026). Aspiring to a better future: Can a simple psychological intervention reduce poverty?. Review of Economic Studies.
+主页： https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag100/9045634 
+
+📦 04｜命令 · Stata：XTURCOINT：把面板共同因子、结构突变与协整检验放在同一入口
+把横截面相关、共同因子和结构突变下的面板检验汇总到 Stata。须用平衡面板，并区分协整检验原假设和 GAUSS 默认实现与论文公式；安装命令为 ssc install xturcoint。
+版本：Stata / xturcoint 1.0.0；发布：2026-11-12
+主页： https://ideas.repec.org/c/boc/bocode/s460021.html 
+
+📅 05｜会议征稿：湾区金融高端论坛：11 月 20 日截稿提醒
+11 月 20 日截稿，12 月 18–20 日在广州暨南大学举行。面向金融数智化、风险治理、气候金融及资产定价等，接受原创未发表中英文论文，须交信息表和 PDF 全文；免会务费、提供工作餐，交通住宿自理。
+截止：2026-11-20
+通知： https://aif.sysu.edu.cn/article/221 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261114/ 

@@ -8,9 +8,33 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 15 页 · 共 141 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-15.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 15 页 · 共 144 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-15.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>slidegraph：用透明度生成版面稳定的分步展示图</h3>
+
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>slidegraph 1.3.0 按颜色标识控制图层透明度，在每帧保留全部数据系列，减少逐页删去系列造成的坐标轴和图例位置跳动。可用累积出现或聚焦、淡化、隐藏三状态模式，同时输出论文整图、演示帧和 Beamer 叠放代码；PowerPoint 可使用导出的图，并非已验证的原生动画接口。相同颜色字符串的图层不能独立切换，需用不同标识；RGB 格式、导出结果和实际版面仍须逐帧复核。Stata 15 起可用。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E6%AD%A5%E5%9B%BE%E5%BD%A2&amp;show-results=1" title="全站搜索：分步图形">分步图形</a> · <a class="tag-link" href="?q=%E9%80%8F%E6%98%8E%E5%BA%A6&amp;show-results=1" title="全站搜索：透明度">透明度</a> · <a class="tag-link" href="?q=%E5%AD%A6%E6%9C%AF%E6%BC%94%E7%A4%BA&amp;show-results=1" title="全站搜索：学术演示">学术演示</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#tool-slidegraph-1-3-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460013.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>mmwsmed：用中介概率比权重分解自然效应</h3>
+
+<p class="catalog-meta">期次日期：2026-11-09</p>
+<p>mmwsmed 1.0.0 用中介概率比加权，把处理总效应分解为自然直接与间接效应，可容许处理与中介交互，并提供单中介及平行、序列双中介接口。结果变量无需预设分布，不代表中介或处理权重无需建模，更不等于已解决未测混杂。非参数分层选项仅适用于单个二元或有序分类中介 (<code>logit</code>/<code>probit</code>/<code>ologit</code>)；连续处理另用核平滑 GPS。须核对时序、无未测混杂、重叠和模型设定，极端权重下稳健与 bootstrap 标准误均可能不可靠；分层权重等另外情形手册建议 bootstrap，仍须核对重叠与权重诊断。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：因果中介">因果中介</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E6%AF%94%E5%8A%A0%E6%9D%83&amp;show-results=1" title="全站搜索：概率比加权">概率比加权</a> · <a class="tag-link" href="?q=%E6%9D%83%E9%87%8D%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：权重诊断">权重诊断</a></p>
+<p class="catalog-actions"><a href="../issues/20261109/#tool-mmwsmed-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460014.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>mpshock：可追溯的货币政策相关序列与版本更新</h3>
+
+<p class="catalog-meta">期次日期：2026-11-07</p>
+<p>mpshock 汇集美、英、澳的政策冲击、央行信息冲击和影子利率，提供来源元数据与日期、频率处理函数。0.1.2 将 JK 两序列延至 2026 年 9 月、UKMPD 延至 4 月；因因子重估，JK 历史值也修订，不能只追加新月份。各序列的单位、符号和识别方法不同，信息冲击及影子利率不等于外生政策冲击。应保存数据版本；Windows 现行发行版二进制仍为 0.1.1。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E5%86%B2%E5%87%BB%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：冲击序列">冲击序列</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E7%89%88%E6%9C%AC&amp;show-results=1" title="全站搜索：数据版本">数据版本</a></p>
+<p class="catalog-actions"><a href="../issues/20261107/#tool-mpshock-0-1-2">查看本期</a><a href="https://cran.r-project.org/package=mpshock" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>causalMed：用 g 公式分析纵向中介与总效应</h3>
 
@@ -67,32 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=Stata%20%E5%B7%A5%E5%85%B7&amp;show-results=1" title="全站搜索：Stata 工具">Stata 工具</a> · <a class="tag-link" href="?q=%E5%85%BC%E5%AE%B9%E6%80%A7&amp;show-results=1" title="全站搜索：兼容性">兼容性</a> · <a class="tag-link" href="?q=%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：大数据处理">大数据处理</a></p>
 <p class="catalog-actions"><a href="../issues/20261104/#tool-ctools-1-2-4">查看本期</a><a href="https://github.com/mdroste/stata-ctools/releases/tag/v1.2.4" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>tabtools：统一整理与导出 Stata 结果表</h3>
-
-<p class="catalog-meta">期次日期：2026-11-03</p>
-<p>tabtools 把描述统计、交叉表和回归结果整理为样式一致的表格，可导出 Excel、Markdown 与 CSV，并设置会话内的字体、边框和输出位置，适合减少论文表格的重复排版。需要 Stata 17。须注意 Excel 单元格按文本写入，即使显示为数字也不能直接用于数值计算、排序或作图；应另取数值结果并核对样本与标签。安装为 <code>ssc install tabtools</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E8%BE%93%E5%87%BA&amp;show-results=1" title="全站搜索：结果输出">结果输出</a> · <a class="tag-link" href="?q=%E8%AE%BA%E6%96%87%E8%A1%A8%E6%A0%BC&amp;show-results=1" title="全站搜索：论文表格">论文表格</a></p>
-<p class="catalog-actions"><a href="../issues/20261103/#tool-tabtools-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460003.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>staggeredGMM：用 GMM 联合估计交错处理效应</h3>
-
-<p class="catalog-meta">期次日期：2026-11-03</p>
-<p>staggeredGMM 汇集合格的两组两期比较，估计交错处理的组别—时间平均效应，并提供多种协方差加权。0.2.0 修正未处理组编码与观测期 0 冲突、整组基线协变量缺失的处理。其过度识别检验针对无条件平行趋势与无预期；即使估计时加入协变量，也不检验条件平行趋势，不能据不拒绝就认定识别成立。Windows 二进制仍为 0.1.0，安装后须查版本。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%A4%E9%94%99%20DID&amp;show-results=1" title="全站搜索：交错 DID">交错 DID</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E5%B9%B3%E8%A1%8C%E8%B6%8B%E5%8A%BF%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：平行趋势检验">平行趋势检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261103/#tool-staggeredgmm-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=staggeredGMM" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>rangematch：按时间窗口与区间重叠匹配数据</h3>
-
-<p class="catalog-meta">期次日期：2026-11-02</p>
-<p>rangematch 可把另一数据集的日期匹配到主数据的时间窗口，也支持区间重叠、组内匹配、最近记录与输出规模检查，适合整理事件窗口或暴露记录。一次匹配可能产生多行，须核对端点、保留规则和结果规模；默认缺失边界按开放区间处理，不能误当成缺失即剔除。需要 Stata 16.1，安装为 <code>ssc install rangematch</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D&amp;show-results=1" title="全站搜索：区间匹配">区间匹配</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86&amp;show-results=1" title="全站搜索：数据整理">数据整理</a></p>
-<p class="catalog-actions"><a href="../issues/20261102/#tool-rangematch-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s459962.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 15 页 · 共 141 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-15.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 15 页 · 共 144 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-15.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

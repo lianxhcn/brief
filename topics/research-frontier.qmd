@@ -8,9 +8,65 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 57 页 · 共 564 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-57.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 58 页 · 共 571 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-58.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>空间计量新进展：从空间滞后模型走向权重与网络问题</h3>
+<p class="catalog-citation">Gupta, A. (2026). Recent developments in spatial econometrics. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>空间计量研究已经超出经典空间自回归模型的单一形式。本文以方法进展为主线，梳理空间面板、非线性与非参数模型、设定检验和空间相关稳健推断，并讨论空间权重矩阵的估计与内生性，以及网络形成研究与空间计量的联系。它适合帮助应用研究者定位具体问题及后续阅读方向。文章是非穷尽综述，各类模型的识别和推断条件仍需分别核对，不能据模型名称直接确定适用方案。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%AE%A1%E9%87%8F&amp;show-results=1" title="全站搜索：空间计量">空间计量</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：空间权重">空间权重</a> · <a class="tag-link" href="?q=%E6%96%B9%E6%B3%95%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：方法综述">方法综述</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#paper-arxiv-2611-14673">查看本期</a><a href="https://arxiv.org/abs/2611.14673v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>气候风险披露如何改变风险分担与市场估值？</h3>
+<p class="catalog-citation">Smith, K. (2026). Climate risk disclosure and risk sharing in financial markets. RFS.</p><p class="catalog-meta">发表日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>气候风险披露不仅改变信息量，也可能改变投资者之间如何分担风险。本文建立理论模型，分析披露如何帮助投资者识别对冲气候风险的股票，进而影响均衡持仓、企业自愿披露及强制披露的作用。在作者模型中，更充分的风险分担甚至可能降低低气候暴露企业及整体市场的估值。研究将信息披露与投资者偏好、均衡定价联系起来；这些是模型中的条件性结论，不能直接当作某项披露规定已经产生的市场效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：气候金融">气候金融</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%88%86%E6%8B%85&amp;show-results=1" title="全站搜索：风险分担">风险分担</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#paper-10-1093-rfs-hhag009">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag009" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>抱负与资源支持如何影响长期决策？来自肯尼亚的交叉随机试验</h3>
+<p class="catalog-citation">Orkin, K. et al. (2026). Aspiring to a better future: Can a simple psychological intervention reduce poverty? REStud.</p><p class="catalog-meta">发表日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>改善经济处境，除了资源支持，也可能涉及如何设定目标和制订计划。文章在肯尼亚农村以村为单位，将抱负与规划工作坊和无条件现金转移交叉随机化，并用安慰工作坊作为对照。作者发现，两种干预都能影响抱负、劳动与投资，并讨论抱负变化这一机制。研究将心理干预与资源约束放在同一设计中比较，为理解贫困中的长期决策提供实验依据；结论对应当地样本和具体干预，机制证据也不等于证明所有效应都由抱负变化造成。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%91%E5%B1%95%E7%BB%8F%E6%B5%8E%E5%AD%A6&amp;show-results=1" title="全站搜索：发展经济学">发展经济学</a> · <a class="tag-link" href="?q=%E5%BF%83%E7%90%86%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：心理干预">心理干预</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：随机试验">随机试验</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#paper-10-1093-restud-rdag100">查看本期</a><a href="https://doi.org/10.1093/restud/rdag100" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>把连续协变量分箱后，处理效应识别还成立吗？</h3>
+<p class="catalog-citation">Liu, C. (2026). Lost in the bins: Treatment effects with discretized covariates. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>年龄、收入等协变量被分组后，原本在精细取值下成立的条件均值独立性，未必仍在分组数据下成立。文章区分 ATT 与 ATE 的分组偏差来源，并以 c-均值依赖放松分组层面的精确独立性，推导处理效应的锐界及相应估计和 bootstrap 推断方法。它提示分箱不仅损失精度，也可能改变比较的识别含义。界限仍依赖所采用的敏感性限制，不能据此认定任意分组调整已经消除了混杂。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%88%86%E7%AE%B1&amp;show-results=1" title="全站搜索：协变量分箱">协变量分箱</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：处理效应">处理效应</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#paper-arxiv-2611-14789">查看本期</a><a href="https://arxiv.org/abs/2611.14789v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>变点在哪里？CONCH 用保形置信集表达位置不确定性</h3>
+<p class="catalog-citation">Hore, R.; Ramdas, A. (2026). Conformal changepoint localization. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>变点分析不仅要给出最可能的位置，还需要说明位置的不确定性。CONCH 针对离线单变点问题，在变点两侧观测各自可交换的条件下，利用保形思想构造具有有限样本覆盖保证的位置置信集，不要求指定两侧分布的参数形式。作者还研究评分函数如何改善置信集的紧致程度。它为分布变化定位增加了不确定性报告；任意序列依赖或多个未知变点并不自动满足这里的条件，覆盖保证也不等于每次都会得到很小的集合。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：保形推断">保形推断</a> · <a class="tag-link" href="?q=%E5%8F%98%E7%82%B9%E5%AE%9A%E4%BD%8D&amp;show-results=1" title="全站搜索：变点定位">变点定位</a> · <a class="tag-link" href="?q=%E6%9C%89%E9%99%90%E6%A0%B7%E6%9C%AC%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：有限样本推断">有限样本推断</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#paper-10-1093-biomet-asag074">查看本期</a><a href="https://doi.org/10.1093/biomet/asag074" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>双向聚类数据：怎样在不同依赖情形下统一构造置信区间？</h3>
+<p class="catalog-citation">Hounyo, U. et al. (2026). Uniform inference for two-way clustered data. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-12</p>
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>双向聚类数据的退化与非退化依赖情形可能需要不同的渐近近似。文章通过随机匹配形成子样本均值，再对这些均值取平均，估计同一总体均值，并给出闭式标准误和统一渐近推断。它进一步讨论 GMM 参数光滑函数及不同矩条件的依赖情形。统一有效性伴随退化情形下较慢的收敛速度；该方法改变了估计构造，不能理解为对原有全数组样本均值标准误作任意替换。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E8%81%9A%E7%B1%BB&amp;show-results=1" title="全站搜索：双向聚类">双向聚类</a> · <a class="tag-link" href="?q=%E7%BB%9F%E4%B8%80%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：统一推断">统一推断</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#paper-arxiv-2611-16584">查看本期</a><a href="https://arxiv.org/abs/2611.16584v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>减贫项目怎样做得更好：贝叶斯元分析区分项目效果与成本效益</h3>
+<p class="catalog-citation">Carter, S. et al. (2026). Doing better at doing good: Lessons from a Bayesian meta-analysis after 20 years of poverty graduation programs. NBER Working Paper No. 35991 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-14</p>
+<p>多要素减贫项目往往同时提供消费支持、储蓄便利、技能培训、辅导或一次性转移。文章通过贝叶斯分层元分析整合多项研究，比较项目支出、转移规模和实施时期与经济及心理社会结果的关系，并区分项目效果较大与成本效益较好的判断。作者提出持续的行业学习和实施质量改善可能解释部分跨期变化。该解释是作者提出的机制假说；跨研究的设计和时期比较不能直接视为已经识别了学习机制的因果效应，也不能保证每个地区采用同类项目都会得到同样结果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%85%83%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：贝叶斯元分析">贝叶斯元分析</a> · <a class="tag-link" href="?q=%E5%87%8F%E8%B4%AB%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：减贫政策">减贫政策</a> · <a class="tag-link" href="?q=%E6%88%90%E6%9C%AC%E6%95%88%E7%9B%8A&amp;show-results=1" title="全站搜索：成本效益">成本效益</a></p>
+<p class="catalog-actions"><a href="../issues/20261114/#paper-nber-w35991">查看本期</a><a href="https://www.nber.org/papers/w35991" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>高维组合的夏普边界：正则化会藏起什么？</h3>
 <p class="catalog-citation">Chernov, M. et al. (2026). The hidden Sharpe ratio. NBER Working Paper No. 35988 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
@@ -35,64 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%80%BC%E5%A4%84%E7%90%86&amp;show-results=1" title="全站搜索：多值处理">多值处理</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：局部平均处理效应">局部平均处理效应</a></p>
 <p class="catalog-actions"><a href="../issues/20261113/#paper-arxiv-2611-13313">查看本期</a><a href="https://arxiv.org/abs/2611.13313v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>多个货币政策意外，怎样组合成主要冲击？</h3>
-<p class="catalog-citation">Boehm, C.; Kim, H.; Kroner, T. N. (2026). The main monetary policy shock. NBER Working Paper No. 36004 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-13</p>
-<p>不同高频货币政策意外可能反映不同冲击，单一指标未必代表影响宏观波动的主要方向。文章把多个意外指标线性组合，构造对宏观波动解释力较强的主要货币政策冲击，并比较其利率、价格、汇率与金融条件的动态响应。识别对象随指标集合和构造准则而变，应区分统计上的主要方向与教科书式的结构冲击。经济解释依赖识别限制、样本和模型设定，解释力最大化本身不等于已证明完全外生。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：货币政策冲击">货币政策冲击</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：高频识别">高频识别</a> · <a class="tag-link" href="?q=%E5%AE%8F%E8%A7%82%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：宏观波动">宏观波动</a></p>
-<p class="catalog-actions"><a href="../issues/20261113/#paper-nber-w36004">查看本期</a><a href="https://www.nber.org/papers/w36004" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>协变量分布变了，高维非稀疏回归怎样调整预测？</h3>
-<p class="catalog-citation">Lin, Y.; Shi, J.; Wang, P. (2026). High-dimensional nonsparse regression under covariate shift via importance-weighted partial least squares. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-13</p>
-<p>高维预测变量彼此高度相关，而且训练与目标数据的协变量分布不同，原样使用训练域提取的成分可能损害目标域预测。文章提出重要性加权偏最小二乘法，先按目标协变量分布重加权来源观测，再提取与响应相关的成分。由于加权样本协方差通常不再具有标准 Wishart 结构，作者结合加权矩的扰动分析与影响函数分解，讨论单成分和多成分估计的一致性，并建立单成分估计的渐近正态性。模拟和应用中的比较属于作者报告；单成分推断结论不应直接扩展为任意多成分模型的保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%81%8F%E7%A7%BB&amp;show-results=1" title="全站搜索：协变量偏移">协变量偏移</a> · <a class="tag-link" href="?q=%E5%81%8F%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98&amp;show-results=1" title="全站搜索：偏最小二乘">偏最小二乘</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：高维回归">高维回归</a></p>
-<p class="catalog-actions"><a href="../issues/20261113/#paper-arxiv-2611-13423">查看本期</a><a href="https://arxiv.org/abs/2611.13423v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>交叉随机效应模型：用多维离散化缓解计算负担</h3>
-<p class="catalog-citation">Takeishi, S.; Sugasawa, S. (2026). Scalable estimation of crossed random effects models via multi-way discretization. JASA.</p><p class="catalog-meta">发表日期：2026-11-04</p>
-<p class="catalog-meta">期次日期：2026-11-13</p>
-<p>学生、学校和教师等分类维度相互交叉时，随机效应模型的计算可能很吃力，非高斯结果尤其如此。本文用有限个代表值近似各随机效应的分布，将模型转为可迭代估计的多维离散结构，兼容两个以上交叉维度。作者在逻辑、Poisson 和有序 probit 模型中展示应用，并给出相应条件下的一致性与渐近正态性结果。该方法为复杂分组数据提供了另一种计算思路；理论性质仍取决于模型和分类层级条件，不能据此认定任意交叉数据都能得到同样表现。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%A4%E5%8F%89%E9%9A%8F%E6%9C%BA%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：交叉随机效应">交叉随机效应</a> · <a class="tag-link" href="?q=%E7%A6%BB%E6%95%A3%E8%BF%91%E4%BC%BC&amp;show-results=1" title="全站搜索：离散近似">离散近似</a> · <a class="tag-link" href="?q=%E5%B9%BF%E4%B9%89%E7%BA%BF%E6%80%A7%E6%B7%B7%E5%90%88%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：广义线性混合模型">广义线性混合模型</a></p>
-<p class="catalog-actions"><a href="../issues/20261113/#paper-10-1080-01621459-2026-2754930">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2754930" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>ACS：边探索边筛选，如何控制错误发现率？</h3>
-<p class="catalog-citation">Gui, Y. et al. (2026). ACS: An interactive framework for conformal selection. JASA.</p><p class="catalog-meta">发表日期：2026-11-04</p>
-<p class="catalog-meta">期次日期：2026-11-13</p>
-<p>研究者根据数据不断调整筛选模型或加入新信息时，原有错误率保证可能不再适用。自适应保形选择框架 ACS 通过约束决策时可以访问的信息，支持部分数据复用、模型更新和多样化筛选，同时在规定规则下控制错误发现率。作者公开稿还讨论纳入新增标签数据，并以大语言模型部署和药物发现为应用场景。对需要交互筛选的研究，这提供了兼顾灵活性与错误控制的设计方向；保证依赖信息访问规则，不能推广为任意反复查看数据都有效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E5%BD%A2%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：保形选择">保形选择</a> · <a class="tag-link" href="?q=%E9%94%99%E8%AF%AF%E5%8F%91%E7%8E%B0%E7%8E%87&amp;show-results=1" title="全站搜索：错误发现率">错误发现率</a> · <a class="tag-link" href="?q=%E4%BA%A4%E4%BA%92%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：交互分析">交互分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261113/#paper-10-1080-01621459-2026-2757634">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2757634" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>预期损失回归：优化的对象究竟是哪一段尾部？</h3>
-<p class="catalog-citation">Li, Y.; Zhang, S.; He, X. (2026). Expected shortfall regression via optimization. JASA.</p><p class="catalog-meta">发表日期：2026-11-11</p>
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>预期损失描述分位点之外尾部结果的平均水平，相关回归用于考察协变量与尾部结果的关系。作者 2026 年 2 月公开稿区分运筹学中的 superquantile 回归与统计意义上的预期损失回归，提出线性预期损失回归的优化估计方法，并讨论基于分箱的初始估计和异质性自适应权重。该思路有助于风险研究者先明确估计目标，再选择损失函数。上述方法要点来自作者公开稿；11 月上线期刊版与该公开稿的内容对应程度尚未确认，理论与效率结论均有各自假设和模拟条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A2%84%E6%9C%9F%E6%8D%9F%E5%A4%B1&amp;show-results=1" title="全站搜索：预期损失">预期损失</a> · <a class="tag-link" href="?q=%E5%B0%BE%E9%83%A8%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：尾部风险">尾部风险</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：回归估计">回归估计</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#paper-10-1080-01621459-2026-2750972">查看本期</a><a href="https://doi.org/10.1080/01621459.2026.2750972" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>面板局部投影 IV：如何分开处理暴露与共同冲击路径？</h3>
-<p class="catalog-citation">Wang, E.; Zhang, R. (2026). Hedging out the HEDGE bias: Identifying dynamic partial-equilibrium effects with panel LP-IV. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>用地区或个体对总量政策的不同暴露来估计动态效应时，处理暴露与共同混杂冲击暴露的相关性，以及混杂冲击对处理的反馈，都可能改变估计对象。文章提出 HELP-IV，以暴露加权的冲击代理同时为处理和混杂路径构造工具，比较在混杂路径固定时的部分均衡效应，并讨论多重暴露、前瞻结果和累积乘数。作者以州财政乘数和地区股票财富效应作应用。该框架提示把截面差异搬到宏观模型之前应先明确估计对象，其识别仍依赖相应工具和暴露结构假设。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%8A%A8%E6%80%81%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：动态效应">动态效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#paper-arxiv-2611-14434">查看本期</a><a href="https://arxiv.org/abs/2611.14434v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>面板 DML 如何同时处理高维协变量与潜在交互因子？</h3>
-<p class="catalog-citation">Chen, B.; Ma, Y.; Yu, Q. (2026). Semiparametric inference in panel data with interactive and high-dimensional confounding. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>只灵活控制可观测变量，未必能消除面板中的共同潜在冲击。文章提出因子增广 DML：从处理和结果的第一阶段残差估计两组因子空间，结合双重投影与按个体划分的三折交叉拟合，避免因子估计误差中相同训练个体配对带来的影响。其渐近推断依赖固定因子秩、充分强的因子信号、严格外生性及个体数和时期数共同增长等条件。它为面板 DML 提供了一种区分可观测非线性混杂与潜在交互混杂的思路，不能解释为任意小样本或弱因子环境下的保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：因子模型">因子模型</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#paper-arxiv-2611-14385">查看本期</a><a href="https://arxiv.org/abs/2611.14385v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 57 页 · 共 564 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-57.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 58 页 · 共 571 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-58.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
