@@ -1,0 +1,31 @@
+📙 连享会 · 快讯 | 2026.11.15
+
+📰 01｜论文 · JPE：能源价格冲击：价格补贴与定向转移怎样权衡？
+文章结合英国家庭面板与能源危机中的价格、政策变化，比较价格补贴和转移支付的定向性与效率代价。政策组合取决于家庭需求反应及损失分布，收入相近不代表受到同样冲击。
+引文：Levell, O'Connell & Smith (2026). The welfare effects of price shocks and household relief packages: Evidence from an energy crisis. JPE, forthcoming.
+主页： https://www.journals.uchicago.edu/doi/10.1086/744933 
+PDF (Author manuscript, March 2026)： https://martinoconnell85.github.io/Mywebsite/LevellOConnellSmith2026.pdf 
+
+📰 02｜论文 · Journal of the Royal Statistical Society, Series B：把 SGD 当作非线性时间序列：固定步长的收敛与在线推断
+文章用非线性时间序列工具分析固定步长 SGD 的初始值影响、平均化估计和在线推断，并用多步长外推减偏。保证依赖强凸目标、数据与步长等条件，不能直接推广到任意非凸训练。
+引文：Li et al. (2026). Stochastic gradient descent: A nonlinear time series perspective. Journal of the Royal Statistical Society, Series B.
+主页： https://academic.oup.com/jrsssb/advance-article/doi/10.1093/jrsssb/qkag141/9044695 
+PDF (v1)： https://arxiv.org/pdf/2610.20894.pdf 
+
+📰 03｜论文 · arXiv：断点处密度是否跳跃：用相邻观测间距构造检验
+文章用断点两侧相邻观测间距构造密度跳跃检验，讨论固定和缓慢增加的间距数量。未拒绝密度连续性仍不等于断点设计的全部识别假设成立。
+引文：Firmin (2026). Testing density discontinuity using spacings. arXiv.
+主页： https://arxiv.org/abs/2611.16199v1 
+
+📦 04｜软件 · R：glmdisc 0.8.1：修正分箱搜索与验证集选择
+为逻辑回归学习分箱、类别合并与交互项，当前发行报告修复了搜索及验证/测试划分的重要问题。使用时保留独立测试集；Windows 源码安装需编译环境。
+版本：R / glmdisc 0.8.1；发布：2026-11-14
+CRAN： https://cran.r-project.org/package=glmdisc 
+
+📦 05｜命令 · Stata：INDSAT：用指标饱和筛查异常值与结构变化
+通过候选脉冲、阶跃等指标筛查异常值和结构变化，可比较原回归与筛选后结果。先安排动态项并检查连续样本，关注阈值及选择后偏差；断点不是政策因果效应。
+版本：Stata / indsat 1.0.0；发布：2026-11-12
+主页： https://ideas.repec.org/c/boc/bocode/s460024.html 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261115/ 

@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.11.15"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 能源价格冲击：价格补贴与定向转移怎样权衡？ {#paper-10-1086-744933}
+
+<p class="myapa">Levell, P., O&#x27;Connell, M., &amp; Smith, K. (2026). The welfare effects of price shocks and household relief packages: Evidence from an energy crisis. Journal of Political Economy (forthcoming). <a href="https://doi.org/10.1086/744933" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://martinoconnell85.github.io/Mywebsite/LevellOConnellSmith2026.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=The%20welfare%20effects%20of%20price%20shocks%20and%20household%20relief%20packages%3A%20Evidence%20from%20an%20energy%20crisis" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+价格冲击给收入相近的家庭带来的损失也可能不同。文章以英国在2022–23年欧洲能源危机中的经历为背景，结合家庭能源支出和收入面板及价格、政策变化，建立框架比较价格补贴与转移支付。价格补贴更容易覆盖能源损失大的家庭，却会扭曲消费；转移支付较少扭曲价格，但定向支持并不简单。作者讨论如何利用收入和既往能源使用改善政策组合。最优组合取决于家庭需求反应、损失分布与福利设定，不能直接推广成所有价格冲击下的统一补贴主张。
+
+标签：<a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E4%BB%B7%E6%A0%BC&amp;show-results=1" title="全站搜索：能源价格">能源价格</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a> · <a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E8%A1%A5%E8%B4%B4&amp;show-results=1" title="全站搜索：财政补贴">财政补贴</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 把 SGD 当作非线性时间序列：固定步长的收敛与在线推断 {#paper-10-1093-jrsssb-qkag141}
+
+<p class="myapa">Li, J., Lou, Z., Richter, S., &amp; Wu, W. B. (2026). Stochastic gradient descent: A nonlinear time series perspective. Journal of the Royal Statistical Society, Series B. <a href="https://doi.org/10.1093/jrsssb/qkag141" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2610.20894.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Stochastic%20gradient%20descent%3A%20A%20nonlinear%20time%20series%20perspective" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+固定步长的随机梯度下降会在最优点附近持续波动，迭代值之间也存在依赖。文章把 SGD 写成随机函数迭代，用非线性时间序列中的几何矩收缩分析初始值影响如何消退，并研究平均化 SGD 的极限分布与在线推断。作者还通过多个步长的 Richardson–Romberg 外推减少固定步长偏差。相关结论针对文中的强凸目标、独立同分布数据及步长和矩条件，不能直接套用于任意非凸神经网络训练；渐近区间也不等于有限样本覆盖保证。
+
+标签：<a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D&amp;show-results=1" title="全站搜索：随机梯度下降">随机梯度下降</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=%E5%9C%A8%E7%BA%BF%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：在线推断">在线推断</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 断点处密度是否跳跃：用相邻观测间距构造检验 {#paper-arxiv-2611-16199}
+
+<p class="myapa">Firmin, W. T. (2026). Testing density discontinuity using spacings. arXiv. <a href="https://arxiv.org/abs/2611.16199v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.16199.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Testing%20density%20discontinuity%20using%20spacings" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+断点回归研究常用运行变量密度的连续性检验辅助检查设计可信度。本文使用断点两侧相邻有序观测之间的间距构造连续统计量，分别讨论间距数量固定及随样本量缓慢增加的渐近情形，并分析显著性水平与一致性。它为传统密度诊断提供另一种构造思路。检验仍受其渐近框架和调参条件约束；密度未拒绝连续并不能单独证明不存在操纵，也不能替代断点设计的其他识别假设。
+
+标签：<a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：断点回归">断点回归</a> · <a class="tag-link" href="?q=%E5%AF%86%E5%BA%A6%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：密度检验">密度检验</a> · <a class="tag-link" href="?q=%E7%9B%B8%E9%82%BB%E9%97%B4%E8%B7%9D&amp;show-results=1" title="全站搜索：相邻间距">相邻间距</a>
+
+<small>来源日期：2026-11-12</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### glmdisc 0.8.1：修正分箱搜索与验证集选择 {#tool-glmdisc-0-8-1}
+
+glmdisc 为逻辑回归学习连续变量的分箱、类别合并及成对交互。当前重新收录的版本包含此前未发布的 0.8.0 修订：维护者说明修复了 SEM 链过早停止、验证似然遗漏一类观测和验证/测试职责互换等问题，并调整交互项采样。默认流程用验证集选择迭代、留测试集评估；关闭保留集会改变性能的解释，有监督分箱也不提供因果识别。当前 Windows 尚无二进制包，源码安装需要编译环境，可用 <code>install.packages(&quot;glmdisc&quot;, type = &quot;source&quot;)</code>。
+
+标签：<a class="tag-link" href="?q=%E6%9C%89%E7%9B%91%E7%9D%A3%E5%88%86%E7%AE%B1&amp;show-results=1" title="全站搜索：有监督分箱">有监督分箱</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：模型选择">模型选择</a> · <a class="tag-link" href="?q=%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：逻辑回归">逻辑回归</a>
+
+<small>来源日期：2026-11-14</small>
+
+<a href="https://cran.r-project.org/package=glmdisc" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### INDSAT：用指标饱和筛查异常值与结构变化 {#tool-indsat-ssc-460024}
+
+indsat 在回归中加入候选脉冲、阶跃或趋势指标，通过分块的一般到特殊搜索筛查异常值与结构变化。可接在 regress 或 newey 后比较原模型与保留指标后的结果，并报告断点、诊断图和系数变化。默认搜索移植自 R gets::isat，与 Autometrics 的搜索不能简单等同。使用前要安排动态项并检查连续样本；选择阈值、块大小及选择后偏差都会影响解释，筛出变化也不能自动归因为某项政策。可用 <code>ssc install indsat</code> 安装，官方发行清单要求 Stata 16。
+
+标签：<a class="tag-link" href="?q=%E6%8C%87%E6%A0%87%E9%A5%B1%E5%92%8C&amp;show-results=1" title="全站搜索：指标饱和">指标饱和</a> · <a class="tag-link" href="?q=%E5%BC%82%E5%B8%B8%E5%80%BC&amp;show-results=1" title="全站搜索：异常值">异常值</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：结构变化">结构变化</a>
+
+<small>来源日期：2026-11-12</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s460024.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 德国工资不平等为何转向？劳动力市场紧张与企业间流动 {#paper-10-1093-qje-qjag057}
+
+<p class="myapa">Dustmann, C., Friedrich, M., Gergs, C., &amp; Schönberg, U. (2026). Labor market tightness and the reversal of inequality trends in Germany. Quarterly Journal of Economics (forthcoming). <a href="https://doi.org/10.1093/qje/qjag057" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Labor%20market%20tightness%20and%20the%20reversal%20of%20inequality%20trends%20in%20Germany" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+德国工资分布底部的工资在2010年后开始更快增长，这一转向早于2015年最低工资制度。文章将其与大衰退后更加紧张的劳动力市场联系起来，考察工作之间的流动、从低薪企业转向高薪企业，以及企业工资溢价分布的变化。作者还讨论技能溢价、工人与企业匹配及企业买方力量的变化。研究提供了需求条件和企业间差异如何影响工资不平等的解释视角；宏观趋势与机制证据不能直接替代对最低工资政策的单独因果评价。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E4%B8%8D%E5%B9%B3%E7%AD%89&amp;show-results=1" title="全站搜索：工资不平等">工资不平等</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动市场">劳动市场</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%B7%A5%E8%B5%84%E5%B7%AE%E5%BC%82&amp;show-results=1" title="全站搜索：企业工资差异">企业工资差异</a>
+
+<small>来源日期：2026-11-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 因子模型怎样比较？把牛市与熊市分开看 {#paper-10-1287-mnsc-2025-04942}
+
+<p class="myapa">Ahmed, S., Robotti, C., Tsvetanov, D., &amp; Ye, X. (2026). Comparing factor models under regime switching. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2025.04942" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Comparing%20factor%20models%20under%20regime%20switching" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+一个因子模型在总体样本中领先，并不表示它在每种市场状态下都占优。文章将因子定价模型比较扩展到状态切换情形，指出存在收益状态变化时，无条件平方夏普比率不再是合适的统一比较指标，而应考察给定状态下的条件指标。作者比较多种模型，发现牛市中的领先关系与熊市中的表现并不相同，无条件排序可能掩盖这种差异。结论依赖状态划分和相应统计检验；未检出显著差异不等于证明模型等价，也不构成投资收益承诺。
+
+标签：<a class="tag-link" href="?q=%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：资产定价">资产定价</a> · <a class="tag-link" href="?q=%E7%8A%B6%E6%80%81%E5%88%87%E6%8D%A2&amp;show-results=1" title="全站搜索：状态切换">状态切换</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83&amp;show-results=1" title="全站搜索：模型比较">模型比较</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 企业应对碳税：清洁生产，还是降低产能利用？ {#paper-10-1287-orsc-2024-19313}
+
+<p class="myapa">Adbi, A. &amp; Wu, X. (2026). How firms respond to carbon taxation. Organization Science (forthcoming). <a href="https://doi.org/10.1287/orsc.2024.19313" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=How%20firms%20respond%20to%20carbon%20taxation" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+企业减少碳排放，既可能依靠更清洁的生产，也可能只是降低产能利用。本文结合钢厂卫星排放数据，以加拿大碳税的双重差分和跨国堆叠双重差分设计，比较跨国布局与设备技术如何影响这两类调整。作者的分析强调，跨国布局与具体生产技术需要共同考察，不能只按企业是否跨国经营判断减排路径。对碳政策研究，这提醒我们把排放强度与产能利用分开衡量；因果解释仍依赖差分设计的识别条件和样本，不能由排放下降直接推出技术升级。
+
+标签：<a class="tag-link" href="?q=%E7%A2%B3%E7%A8%8E&amp;show-results=1" title="全站搜索：碳税">碳税</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%87%8F%E6%8E%92&amp;show-results=1" title="全站搜索：企业减排">企业减排</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 模型被数据拒绝后，怎样把多种假设修复纳入推断？ {#paper-arxiv-2611-15552}
+
+<p class="myapa">Hounyo, U. (2026). Inference after model refutation: Uniform post-relaxation inference for partially identified models. arXiv. <a href="https://arxiv.org/abs/2611.15552v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.15552.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Inference%20after%20model%20refutation%3A%20Uniform%20post-relaxation%20inference%20for%20partially%20identified%20models" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+计量模型被数据拒绝后，可能有多组同样合理的假设放松方案。若只选择其中一种修复，得到的区间可能排除其他方案仍支持的参数值。文章提出放松后投影方法，将同一个同时置信事件传递到可能的最小修复集合，并把这些修复下可行的目标集合纳入推断。它适合研究识别假设冲突后的不确定性，而非把修复选择视为已经确定。结论依赖所定义的修复规则和原始界限，不能理解为任意事后修改模型都保持有效。
+
+标签：<a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E6%8B%92%E7%BB%9D&amp;show-results=1" title="全站搜索：模型拒绝">模型拒绝</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：敏感性推断">敏感性推断</a>
+
+<small>来源日期：2026-11-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 非常规货币政策之后，银行为何更难留住存款？ {#paper-nber-w35985}
+
+<p class="myapa">Strahan, P. &amp; Yang, T. (2026). Unconventional monetary policy and deposit retention. NBER Working Paper No. 35985. <a href="https://doi.org/10.3386/w35985" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Unconventional%20monetary%20policy%20and%20deposit%20retention" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+零利率下限与量化宽松如何改变银行的存款客户结构？文章分别讨论利率压缩减少寻找高收益流动性工具的收益，以及央行向非银行部门购买债券吸引大额、利率敏感存款的渠道。作者发现，政策正常化后，存款资金流与存款利率对市场利率的敏感性，随此前对这两类政策的暴露增加，并据此认为留住存款变得更昂贵、风险也更高。它把银行负债端的客户构成与政策退出联系起来；不同银行的敞口和客户结构仍会影响适用判断。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E5%AD%98%E6%AC%BE&amp;show-results=1" title="全站搜索：银行存款">银行存款</a> · <a class="tag-link" href="?q=%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87&amp;show-results=1" title="全站搜索：存款利率">存款利率</a>
+
+<small>来源日期：2026-11-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 用表达艺术干预执法偏见：印度警察的集群随机试验 {#paper-nber-w35986}
+
+<p class="myapa">Amaral, S., Borker, G., Prakash, N., &amp; Sviatschi, M. M. (2026). Debiasing law enforcement officers: Evidence from an expressive arts intervention in India. NBER Working Paper No. 35986. <a href="https://doi.org/10.3386/w35986" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Debiasing%20law%20enforcement%20officers%3A%20Evidence%20from%20an%20expressive%20arts%20intervention%20in%20India" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+一线公共服务人员拥有裁量权，改变既有人员的态度能否改善服务？研究在印度比哈尔邦警察机构开展集群随机试验，评估基于参与式戏剧的短期表达艺术干预。作者结合态度与法律知识调查、标准化受害者审访和行政记录，报告对性别暴力受害者的回应及相关工作环境有所改善。人员调动带来的证据还提示效果可能持续并向同事扩散，但作者将这一部分表述为提示性证据。干预内容、当地警务资源和实施方式都是理解适用范围的重要条件，不能直接外推到所有机构或培训方案。
+
+标签：<a class="tag-link" href="?q=%E9%9B%86%E7%BE%A4%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：集群随机试验">集群随机试验</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E6%9C%8D%E5%8A%A1&amp;show-results=1" title="全站搜索：公共服务">公共服务</a> · <a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E6%9A%B4%E5%8A%9B&amp;show-results=1" title="全站搜索：性别暴力">性别暴力</a>
+
+<small>来源日期：2026-11-05</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### EV 0.2.2：在 Stata 回归式中直接写变换与滞后 {#tool-ev-ssc-460025}
+
+ev 为 Stata 估计命令增加 EViews 风格的表达式前缀，可直接写对数、差分、增长率和滞后区间，再交给 regress、xtreg 等支持的命令。它减少手工生成中间变量的步骤，适合对照两种软件的模型写法；数据仍须声明时间或面板结构，整数时间的年化与同比增长率要给出频率。后续预测需要相关生成变量时应使用 keep；any 只放宽命令名单，不表示未知命令已获支持。可用 <code>ssc install ev</code> 安装，发行清单要求 Stata 14。
+
+标签：<a class="tag-link" href="?q=%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%98%E6%8D%A2&amp;show-results=1" title="全站搜索：表达式变换">表达式变换</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=Stata%E8%AF%AD%E6%B3%95&amp;show-results=1" title="全站搜索：Stata语法">Stata语法</a>
+
+<small>来源日期：2026-11-12</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s460025.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
