@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.11.16
+
+✍️ 01｜新推文：招聘大数据处理实操拆解：任务词表与 AI 暴露度
+用 LLM、文本向量与规则分工处理招聘文本，区分招聘要求和实际任务，再构造任务级 AI 暴露度。可参考文本标准化与批量回填流程；暴露度不等于职业替代概率。
+阅读全文： https://www.lianxh.cn/details/1993.html 
+
+📰 02｜论文 · Biometrika：不等比例随机分组：怎样避免额外协变量的不平衡偏移？
+文章研究不等比例的协变量自适应随机分配，直接设计分配函数，区分用于分配与额外协变量的平衡。额外协变量的偏移可渐近消除，但不意味着有限样本总能完全平衡。
+引文：Fang & Ma (2026). Beyond biased coin minimization: Eliminating shift in covariate-adaptive randomization for unequal allocation. Biometrika, forthcoming.
+主页： https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asag073/9029910 
+
+📰 03｜论文 · Management Science：表格预测面对分布漂移：先弄清改变的是特征，还是条件关系
+文章用表格数据迁移测试框架区分特征漂移与条件关系变化，比较常规与稳健学习。作者发现基础模型和调参也很关键，结论限于其所考察的任务，不能泛化为稳健优化普遍无效。
+引文：Wang et al. (2026). Rethinking distribution shifts: Empirical analysis and modeling for tabular data. Management Science, forthcoming.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08298 
+PDF (v6)： https://arxiv.org/pdf/2307.05284.pdf 
+
+📦 04｜软件 · R：nonprobsampling 0.2.0：修正多调查加权与区间计算
+用多个概率参考调查为非概率样本构造伪权重，当前版修正预校准及标准误问题。先统一变量与类别编码，偏差调整仍取决于参与模型和辅助信息。
+版本：R / nonprobsampling 0.2.0；发布：2026-11-15
+CRAN： https://cran.r-project.org/package=nonprobsampling 
+
+📦 05｜软件 · R：easyViz 2.2.0：为回归预测图选择协方差估计
+回归条件预测图新增通用 vcov 接口，便于选择兼容的稳健或自定义协方差。检查其余变量的固定值与模型支持范围；条件预测不自动具有因果含义。
+版本：R / easyViz 2.2.0；发布：2026-11-15
+CRAN： https://cran.r-project.org/package=easyViz 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261116/ 

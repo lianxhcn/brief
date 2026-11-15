@@ -1,14 +1,28 @@
 mode: apply
-commit_message: Publish November 15 daily brief
+commit_message: Publish November 16 daily brief
 files:
   - archive.qmd
   - config/website-content.json
-  - content/issues/2026-11-15.json
+  - content/issues/2026-11-16.json
   - index.qmd
-  - issues/20261115/index.qmd
-  - publish/wechat/2026-11-15.txt
+  - issues/20261116/index.qmd
+  - publish/wechat/2026-11-16.txt
   - repo-plan.yml
+  - topics/academic-updates-2.qmd
+  - topics/academic-updates-3.qmd
+  - topics/academic-updates-4.qmd
+  - topics/academic-updates-5.qmd
+  - topics/academic-updates.qmd
   - topics/index.qmd
+  - topics/lianxh-new-2.qmd
+  - topics/lianxh-new-3.qmd
+  - topics/lianxh-new-4.qmd
+  - topics/lianxh-new-5.qmd
+  - topics/lianxh-new-6.qmd
+  - topics/lianxh-new-7.qmd
+  - topics/lianxh-new-8.qmd
+  - topics/lianxh-new-9.qmd
+  - topics/lianxh-new.qmd
   - topics/methods-tools-10.qmd
   - topics/methods-tools-11.qmd
   - topics/methods-tools-12.qmd
@@ -77,6 +91,7 @@ files:
   - topics/research-frontier-56.qmd
   - topics/research-frontier-57.qmd
   - topics/research-frontier-58.qmd
+  - topics/research-frontier-59.qmd
   - topics/research-frontier-6.qmd
   - topics/research-frontier-7.qmd
   - topics/research-frontier-8.qmd

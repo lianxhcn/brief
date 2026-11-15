@@ -8,9 +8,17 @@ title: "会议征稿"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 4 页 · 共 40 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 5 页 · 共 41 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-5.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>UC Davis–FMA Napa 金融会议：11 月 20 日截稿</h3>
+
+<p class="catalog-meta">期次日期：2026-11-16</p>
+<p>UC Davis 管理学院与 Financial Management 合办的第 23 届 Napa 金融会议将于 2027 年 3 月 19–20 日在美国加州 Napa Valley 举行，论文会议安排在 3 月 20 日的 Beringer Vineyards。征集金融研究论文，2026 年 11 月 20 日截稿，通过官方 OpenConf 入口投稿，投稿费 125 美元；会议注册费未在通知中列明。少量优质论文可能获邀向 Financial Management 投稿，邀请不保证录用。</p>
+<p class="catalog-tags"><strong>研究领域：</strong><a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E5%AD%A6&amp;show-results=1" title="全站搜索：金融学">金融学</a> · <a class="tag-link" href="?q=FMA&amp;show-results=1" title="全站搜索：FMA">FMA</a></p>
+<p class="catalog-actions"><a href="../issues/20261116/#conf-fma-napa-2027">查看本期</a><a href="https://www.fma.org/2027-uc-davis-fma-napa-finance-conference" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>湾区金融高端论坛：11 月 20 日截稿提醒</h3>
 
@@ -84,16 +92,8 @@ title: "会议征稿"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%8F%B2&amp;show-results=1" title="全站搜索：经济史">经济史</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E6%96%87&amp;show-results=1" title="全站搜索：会议征文">会议征文</a></p>
 <p class="catalog-actions"><a href="../issues/20261023/#conference-cepr-micro-history-3">查看本期</a><a href="https://www.kielinstitut.de/de/veranstaltungen/seminare-vortraege-workshops/3rd-cepr-applied-micro-economic-history-workshop/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>全国师范大学经管论坛：10月31日截稿</h3>
-
-<p class="catalog-meta">期次日期：2026-10-22</p>
-<p>全国师范大学经管学科论坛将于11月20日在上海华东师范大学举行，11月19日报到，征文截止10月31日。青年学者论坛围绕经济高质量发展、组织创新等议题，要求匿名正文和 Word 稿件。官方通知列明教师会务费1000元、学生500元；投稿前请再核对最新会务安排。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E6%96%87&amp;show-results=1" title="全站搜索：会议征文">会议征文</a> · <a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：经济管理">经济管理</a></p>
-<p class="catalog-actions"><a href="../issues/20261022/#conference-normal-economics-2026">查看本期</a><a href="https://sfjg.shnu.edu.cn/dssjlt/list.htm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 4 页 · 共 40 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-4.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 5 页 · 共 41 条</span><a rel="next" href="academic-updates-2.html">下一页</a><a href="academic-updates-5.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
