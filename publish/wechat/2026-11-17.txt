@@ -1,0 +1,29 @@
+📙 连享会 · 快讯 | 2026.11.17
+
+📰 01｜论文 · Review of Economic Studies：经理生女儿后，企业中女性的就业与薪酬怎样变化？
+文章利用丹麦登记数据，比较男性经理新生儿性别不同之后的企业用人变化，报告首次生女儿后女性的相对薪酬和就业有所上升。研究提示个人经历可能与招聘决策相关，不能当作随机改变管理者态度的实验。
+引文：Ronchi & Smith (2026). Daddy’s girl: daughters, managerial decisions, and gender inequality. Review of Economic Studies.
+主页： https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag096/9045802 
+
+📰 02｜论文 · Management Science：银行解除管制后：竞争压力与投资机会应分开衡量
+解除银行管制可能同时带来竞争压力与新的投资机会。文章用网络化指标拆开这两种变化，考察融资成本、息差和风险承担，提醒政策分析先区分渠道，不能把所有管制放松视为同一种冲击。
+引文：Bisetti, Karolyi & Lewellen (2026). Deregulation, market structure, and the evolution of U.S. banking. Management Science, forthcoming.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2025.01128 
+
+📰 03｜论文 · arXiv：矩条件可能错设时，DML 的正交得分该怎样调整？
+文章为可能错设的 GMM 构造调整后的正交得分，将 Jacobian 和权重矩阵估计纳入修正，并结合交叉拟合讨论推断。矩条件错设下的统计推断，不等于原因果参数仍被识别。
+引文：Kang (2026). Orthogonal scores and double/debiased machine learning for possibly misspecified GMM. arXiv.
+主页： https://arxiv.org/abs/2611.17578v1 
+
+📦 04｜软件 · R：metaSEM 2.0：核对变量对应，更新聚类推断与模型接口
+更新元分析与结构方程模型接口，修复变量/矩阵对应，并增加部分模型的聚类推断。升级后核对名称与顺序；独立研究数较少时，稳健标准误和 t 检验仍有适用限制。
+版本：R / metaSEM 2.0；发布：2026-11-16
+CRAN： https://cran.r-project.org/package=metaSEM 
+
+📅 05｜会议报名：清华 AI 与资本市场研究会议：11 月 22 日报名截止提醒
+11 月 22 日前可申请参会，12 月 21 日在北京清华经管建华楼 508 举行，工作语言为英文。关注 AI、会计信息与资本市场；报名须审核，12 月 7 日发送确认邮件，收到才算成功。通知未列费用。
+截止：2026-11-22
+通知： https://www.sem.tsinghua.edu.cn/rengongzhinengyuzibenshichangyanjiuhuiyuanwangbaomingtongzhi.pdf 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261117/ 

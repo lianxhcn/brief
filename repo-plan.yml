@@ -1,34 +1,22 @@
 mode: apply
-commit_message: Publish November 16 daily brief
+commit_message: Publish November 17 daily brief
 files:
   - archive.qmd
   - config/website-content.json
-  - content/issues/2026-11-16.json
+  - content/issues/2026-11-17.json
   - index.qmd
-  - issues/20261116/index.qmd
-  - publish/wechat/2026-11-16.txt
+  - issues/20261117/index.qmd
+  - publish/wechat/2026-11-17.txt
   - repo-plan.yml
-  - topics/academic-updates-2.qmd
-  - topics/academic-updates-3.qmd
-  - topics/academic-updates-4.qmd
-  - topics/academic-updates-5.qmd
   - topics/academic-updates.qmd
   - topics/index.qmd
-  - topics/lianxh-new-2.qmd
-  - topics/lianxh-new-3.qmd
-  - topics/lianxh-new-4.qmd
-  - topics/lianxh-new-5.qmd
-  - topics/lianxh-new-6.qmd
-  - topics/lianxh-new-7.qmd
-  - topics/lianxh-new-8.qmd
-  - topics/lianxh-new-9.qmd
-  - topics/lianxh-new.qmd
   - topics/methods-tools-10.qmd
   - topics/methods-tools-11.qmd
   - topics/methods-tools-12.qmd
   - topics/methods-tools-13.qmd
   - topics/methods-tools-14.qmd
   - topics/methods-tools-15.qmd
+  - topics/methods-tools-16.qmd
   - topics/methods-tools-2.qmd
   - topics/methods-tools-3.qmd
   - topics/methods-tools-4.qmd
@@ -93,6 +81,7 @@ files:
   - topics/research-frontier-58.qmd
   - topics/research-frontier-59.qmd
   - topics/research-frontier-6.qmd
+  - topics/research-frontier-60.qmd
   - topics/research-frontier-7.qmd
   - topics/research-frontier-8.qmd
   - topics/research-frontier-9.qmd
