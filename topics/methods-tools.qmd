@@ -8,9 +8,25 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 16 页 · 共 152 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 16 页 · 共 154 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>gamfluence：分开检查群体影响与平滑参数重估</h3>
+
+<p class="catalog-meta">期次日期：2026-11-18</p>
+<p>gamfluence 为 mgcv 的加性(混合)模型提供群体影响诊断：逐一删去站点或群体，在固定与重新估计平滑参数两种设置下比较其余群体拟合值的变化。诊断沿用完整数据的设计矩阵与惩罚结构，有助于区分直接影响和参数重调带来的变化。它不提供自动剔除异常群体的阈值，重估采用两个起点也不保证全局最优。可用 <code>install.packages(&quot;gamfluence&quot;)</code> 安装，要求 R 4.1 及以上；当前 CRAN 尚未提供 Windows 二进制包。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%BF%E4%B9%89%E5%8A%A0%E6%80%A7%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：广义加性模型">广义加性模型</a> · <a class="tag-link" href="?q=%E5%BD%B1%E5%93%8D%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：影响诊断">影响诊断</a> · <a class="tag-link" href="?q=%E7%BE%A4%E4%BD%93%E7%95%99%E4%B8%80&amp;show-results=1" title="全站搜索：群体留一">群体留一</a></p>
+<p class="catalog-actions"><a href="../issues/20261118/#tool-gamfluence-0-1-1">查看本期</a><a href="https://cran.r-project.org/package=gamfluence" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>causalDisco 1.3.0：把时间层级约束写入因果结构学习</h3>
+
+<p class="catalog-meta">期次日期：2026-11-18</p>
+<p>causalDisco 面向观察数据的因果结构学习，允许将变量时间顺序等背景知识交给不同算法。1.3.0 新增 <code>max_lag()</code>，可禁止跨越指定层数的变量连边；层级差由使用者定义，不自动等于日历时间差。同时修复 TPC 原先未按文档默认保守定向的问题，并调整部分 Tetrad 参数的传递。既有分析升级后宜检查图结构与参数设置。可用 <code>install.packages(&quot;causalDisco&quot;)</code> 安装，要求 R 4.2 及以上；使用 Tetrad 后端另需 Java/rJava。算法输出依赖背景知识和相应假设，不能直接当作因果效应的识别证明。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%8F%91%E7%8E%B0&amp;show-results=1" title="全站搜索：因果发现">因果发现</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E9%A1%BA%E5%BA%8F&amp;show-results=1" title="全站搜索：时间顺序">时间顺序</a> · <a class="tag-link" href="?q=%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86&amp;show-results=1" title="全站搜索：背景知识">背景知识</a></p>
+<p class="catalog-actions"><a href="../issues/20261118/#tool-causaldisco-1-3-0">查看本期</a><a href="https://cran.r-project.org/package=causalDisco" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>tidyllm 0.8.0：在 R 中批量提出固定问题并读取模型概率</h3>
 
@@ -75,24 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%98%E6%8D%A2&amp;show-results=1" title="全站搜索：表达式变换">表达式变换</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=Stata%E8%AF%AD%E6%B3%95&amp;show-results=1" title="全站搜索：Stata语法">Stata语法</a></p>
 <p class="catalog-actions"><a href="../issues/20261115/#tool-ev-ssc-460025">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460025.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>XTURCOINT：把面板共同因子、结构突变与协整检验放在同一入口</h3>
-
-<p class="catalog-meta">期次日期：2026-11-14</p>
-<p>面板数据存在共同冲击或结构突变时，普通单位根检验未必合适。XTURCOINT 将 GAUSS 库中的部分面板检验移植到 Stata，涵盖横截面相关、带共同因子的单位根、断点与协整，并给出已有命令的对应表。工具要求平衡面板；CUSUM 与 ADF 协整检验的原假设方向不同，需先确认研究设定。帮助明确部分默认沿用 GAUSS 实现，与论文公式不同，具体默认及论文公式选项须按子命令说明选择；作者的一致性检验不代替使用者核查。可用 <code>ssc install xturcoint</code> 安装，需 Stata 14。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%8D%95%E4%BD%8D%E6%A0%B9&amp;show-results=1" title="全站搜索：面板单位根">面板单位根</a> · <a class="tag-link" href="?q=%E6%A8%AA%E6%88%AA%E9%9D%A2%E7%9B%B8%E5%85%B3&amp;show-results=1" title="全站搜索：横截面相关">横截面相关</a> · <a class="tag-link" href="?q=%E5%8D%8F%E6%95%B4%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：协整检验">协整检验</a></p>
-<p class="catalog-actions"><a href="../issues/20261114/#tool-xturcoint-1-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460021.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>ModalNet 0.3.1：为正值数据的众数回归补齐空模型比较</h3>
-
-<p class="catalog-meta">期次日期：2026-11-14</p>
-<p>ModalNet 对正值连续结果拟合条件众数回归，并提供 Lasso、弹性网、岭与自适应 Lasso。0.3.1 在自动 lambda 网格的 EBIC 比较中始终纳入仅含截距与离散参数的空模型，修正惩罚权重归一化，并在离散参数反复触边时停止并标记未收敛。它针对 Gamma、Weibull、Lognormal 参数模型，估计目标是条件众数；岭惩罚不产生精确零系数，不能把其活跃变量数当变量选择依据。Windows 当前二进制仍为 0.3.0，本次版本可用 <code>install.packages(&quot;ModalNet&quot;, type = &quot;source&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%97%E6%95%B0%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：众数回归">众数回归</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%80%BC%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：正值数据">正值数据</a> · <a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96&amp;show-results=1" title="全站搜索：正则化">正则化</a></p>
-<p class="catalog-actions"><a href="../issues/20261114/#tool-modalnet-0-3-1">查看本期</a><a href="https://cran.r-project.org/package=ModalNet" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 16 页 · 共 152 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 16 页 · 共 154 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

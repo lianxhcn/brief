@@ -1,0 +1,189 @@
+---
+title: "连享会 · 快讯 | 2026.11.18"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 由现有成员选新成员，为什么未必选中最优秀的人？ {#paper-10-1093-restud-rdag122}
+
+<p class="myapa">Moisson, P.-H. &amp; Tirole, J. (2026). Meritocracy and homophily in collegial organizations. Review of Economic Studies (forthcoming). <a href="https://doi.org/10.1093/restud/rdag122" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Meritocracy%20and%20homophily%20in%20collegial%20organizations" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+组织让现有成员共同挑选新成员，是否就能招到最优秀的人？文章用动态理论模型，分析成员偏好与自己相似的同事时，面向未来的选择如何影响人才选拔和组织构成。作者讨论了优待性政策、基于质量或多样性的资助、推翻多数决定和匿名招聘等干预，以及它们可能带来的意外后果。模型的价值在于说明制度设计中的权衡，不能把理论比较直接理解为某项招聘政策已经得到实证检验。
+
+标签：<a class="tag-link" href="?q=%E4%BA%BA%E6%89%8D%E9%80%89%E6%8B%94&amp;show-results=1" title="全站搜索：人才选拔">人才选拔</a> · <a class="tag-link" href="?q=%E5%90%8C%E8%B4%A8%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：同质偏好">同质偏好</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：组织治理">组织治理</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 只有销售记录时，能学会最优订货量吗？ {#paper-10-1287-mnsc-2024-09021}
+
+<p class="myapa">Hssaine, C. &amp; Sinclair, S. R. (2026). The data-driven censored newsvendor problem. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2024.09021" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20data-driven%20censored%20newsvendor%20problem" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+缺货之后卖不出的数量不会出现在销售记录里，历史销量因而不等于完整需求。文章研究仅有这类截尾销售数据时如何选择订货量，并用分布稳健优化区分两类情形：有些情况下，增加样本可以让决策损失趋近于零；另一些情况下，未被历史订货量覆盖的需求信息造成了无法仅靠增加样本消除的损失。作者据此提出适应截尾程度的算法及性能界限。应用时须先辨明销量的可观测边界，不能把更大的销售数据集直接当作完整需求数据。
+
+标签：<a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E6%88%AA%E5%B0%BE&amp;show-results=1" title="全站搜索：需求截尾">需求截尾</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：稳健优化">稳健优化</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：数据驱动决策">数据驱动决策</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### LATE 推断的新检验：利用工具变量假设的额外约束 {#paper-arxiv-2611-21496}
+
+<p class="myapa">D&#x27;Haultfœuille, X., Hazard, Y., &amp; Ketz, P. (2026). Never too LATE: exploiting restrictions for inference on the local average treatment effect. arXiv. <a href="https://arxiv.org/abs/2611.21496v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.21496.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Never%20too%20LATE%3A%20exploiting%20restrictions%20for%20inference%20on%20the%20local%20average%20treatment%20effect" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+在相应的工具变量模型中，排除限制、独立性与单调性不仅给出 Wald 比率的 LATE 解释，也蕴含可用于推断的额外约束。文章利用这些约束提出条件似然比检验，讨论包括弱工具情形在内的推断，并以模拟比较检验功效。作者说明，检验本身计算时无需模拟，可通过二次规划求解。它提示弱工具问题不能只靠常规标准误处理；方法仍以所维护的识别和正则条件为前提，渐近性质不等于任意小样本都准确，也不为违反排除限制的工具提供修复。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=LATE&amp;show-results=1" title="全站搜索：LATE">LATE</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：弱工具推断">弱工具推断</a>
+
+<small>来源日期：2026-11-16</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### gamfluence：分开检查群体影响与平滑参数重估 {#tool-gamfluence-0-1-1}
+
+gamfluence 为 mgcv 的加性(混合)模型提供群体影响诊断：逐一删去站点或群体，在固定与重新估计平滑参数两种设置下比较其余群体拟合值的变化。诊断沿用完整数据的设计矩阵与惩罚结构，有助于区分直接影响和参数重调带来的变化。它不提供自动剔除异常群体的阈值，重估采用两个起点也不保证全局最优。可用 <code>install.packages(&quot;gamfluence&quot;)</code> 安装，要求 R 4.1 及以上；当前 CRAN 尚未提供 Windows 二进制包。
+
+标签：<a class="tag-link" href="?q=%E5%B9%BF%E4%B9%89%E5%8A%A0%E6%80%A7%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：广义加性模型">广义加性模型</a> · <a class="tag-link" href="?q=%E5%BD%B1%E5%93%8D%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：影响诊断">影响诊断</a> · <a class="tag-link" href="?q=%E7%BE%A4%E4%BD%93%E7%95%99%E4%B8%80&amp;show-results=1" title="全站搜索：群体留一">群体留一</a>
+
+<small>来源日期：2026-11-17</small>
+
+<a href="https://cran.r-project.org/package=gamfluence" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### causalDisco 1.3.0：把时间层级约束写入因果结构学习 {#tool-causaldisco-1-3-0}
+
+causalDisco 面向观察数据的因果结构学习，允许将变量时间顺序等背景知识交给不同算法。1.3.0 新增 <code>max_lag()</code>，可禁止跨越指定层数的变量连边；层级差由使用者定义，不自动等于日历时间差。同时修复 TPC 原先未按文档默认保守定向的问题，并调整部分 Tetrad 参数的传递。既有分析升级后宜检查图结构与参数设置。可用 <code>install.packages(&quot;causalDisco&quot;)</code> 安装，要求 R 4.2 及以上；使用 Tetrad 后端另需 Java/rJava。算法输出依赖背景知识和相应假设，不能直接当作因果效应的识别证明。
+
+标签：<a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%8F%91%E7%8E%B0&amp;show-results=1" title="全站搜索：因果发现">因果发现</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E9%A1%BA%E5%BA%8F&amp;show-results=1" title="全站搜索：时间顺序">时间顺序</a> · <a class="tag-link" href="?q=%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86&amp;show-results=1" title="全站搜索：背景知识">背景知识</a>
+
+<small>来源日期：2026-11-17</small>
+
+<a href="https://cran.r-project.org/package=causalDisco" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 机器学习创业企业：早期技术优势为何可能成为后期约束？ {#paper-10-1287-orsc-2022-17147}
+
+<p class="myapa">Fraser, J. &amp; Ozcan, P. (2026). Growth paths in early machine learning ventures: technical configuration and competitive advantage over time. Organization Science (forthcoming). <a href="https://doi.org/10.1287/orsc.2022.17147" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Growth%20paths%20in%20early%20machine%20learning%20ventures%3A%20technical%20configuration%20and%20competitive%20advantage%20over%20time" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+机器学习能力可以成为创业企业的优势，也可能限制下一阶段的选择。文章跟踪加速器项目中的早期机器学习企业，采用归纳式多案例研究，考察训练数据、学习范式、模型输出和应用场景如何相互依赖，以及这些关系怎样随企业发展而变化。作者发现，早期有利的技术配置可能收窄后续探索与增长路径。研究适合帮助读者识别技术选择的长期约束，其案例证据不能直接推广为所有人工智能企业的因果规律。
+
+标签：<a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a> · <a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：创业企业">创业企业</a> · <a class="tag-link" href="?q=%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96&amp;show-results=1" title="全站搜索：路径依赖">路径依赖</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 董事会越信任 CEO，监督就一定更有效吗？ {#paper-10-2308-tar-2024-0298}
+
+<p class="myapa">Bae, K.-H., El Ghoul, S., Gong, Z., Guedhami, O., &amp; Su, L. (2026). Board–CEO trust and concealing adverse news. The Accounting Review (forthcoming). <a href="https://doi.org/10.2308/tar-2024-0298" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Board%E2%80%93CEO%20trust%20and%20concealing%20adverse%20news" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+信任能够降低合作成本，也可能削弱监督中的警觉。文章根据董事与 CEO 的祖籍背景及国家间信任评分，构造董事会与 CEO 的信任指标，报告较高信任与更高的股价崩盘风险、坏消息隐瞒和重大财务重述相关。内幕交易模式显示，这些企业的董事对不利信息了解得更少，作者据此讨论监督松懈的解释。祖籍指标并非直接测量个人心理信任，观察到的关系也不等于随机提高信任就会导致监督失效。
+
+标签：<a class="tag-link" href="?q=%E8%91%A3%E4%BA%8B%E4%BC%9A%E7%9B%91%E7%9D%A3&amp;show-results=1" title="全站搜索：董事会监督">董事会监督</a> · <a class="tag-link" href="?q=%E4%BF%A1%E4%BB%BB&amp;show-results=1" title="全站搜索：信任">信任</a> · <a class="tag-link" href="?q=%E5%9D%8F%E6%B6%88%E6%81%AF%E9%9A%90%E7%9E%92&amp;show-results=1" title="全站搜索：坏消息隐瞒">坏消息隐瞒</a>
+
+<small>来源日期：2026-11-05</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 做空报告公开预警后，审计师是否有可见回应？ {#paper-10-1007-s11142-026-09996-7}
+
+<p class="myapa">Li, D., Rajgopal, S., Srinivasan, S., &amp; Zhao, W. (2026). Auditors’ (non)responses to public warnings of audit risk: evidence from short-selling campaigns. Review of Accounting Studies. <a href="https://doi.org/10.1007/s11142-026-09996-7" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Auditors%E2%80%99%20%28non%29responses%20to%20public%20warnings%20of%20audit%20risk%3A%20evidence%20from%20short-selling%20campaigns" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+做空报告公开提出可信的审计风险指控之后，审计师会怎样回应？文章以针对上市公司的做空事件为研究场景，观察随后一年是否出现审计费用明显提高、终止业务、持续经营意见或内部控制缺陷报告等变化。作者报告，不少审计师没有出现这些可观察行动，较长的审计师与客户合作年限与未回应更为一致地相关。这提示读者关注风险预警后的外部可见反应，但公开指标无法穷尽内部审计工作，也不能单凭合作年限的相关关系认定独立性受损。
+
+标签：<a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：审计风险">审计风险</a> · <a class="tag-link" href="?q=%E5%81%9A%E7%A9%BA%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：做空报告">做空报告</a> · <a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%8B%AC%E7%AB%8B%E6%80%A7&amp;show-results=1" title="全站搜索：审计独立性">审计独立性</a>
+
+<small>来源日期：2026-11-12</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 面板反事实的共形推断：把可交换性放在单位之间 {#paper-arxiv-2611-19209}
+
+<p class="myapa">Liu, Z. &amp; Xu, Y. (2026). Unit-level conformal inference for panel counterfactuals. arXiv. <a href="https://arxiv.org/abs/2611.19209v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.19209.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Unit-level%20conformal%20inference%20for%20panel%20counterfactuals" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+DID、合成控制等面板反事实估计中的时间向推断，可能受到非平稳性影响。文章转而利用单位之间预测误差的可交换性：逐一遮蔽控制单位的相关结果，用与处理单位相同的规则预测。作者区分利用目标期对照结果的估计与利用完整对照路径的估计，讨论相应的完整共形置信集和 Jackknife+ 推断，并扩展到多个处理单位。这里用跨单位假设替代部分时间向条件；仅仅使用同一预测算法并不能保证可交换，区间覆盖保证也不能代替因果识别。
+
+标签：<a class="tag-link" href="?q=%E5%85%B1%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：共形推断">共形推断</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：面板反事实">面板反事实</a> · <a class="tag-link" href="?q=%E5%8F%AF%E4%BA%A4%E6%8D%A2%E6%80%A7&amp;show-results=1" title="全站搜索：可交换性">可交换性</a>
+
+<small>来源日期：2026-11-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 高价选项如何改变选择？网约车现场实验中的反折中效应 {#paper-nber-w36013}
+
+<p class="myapa">Gennaioli, N., List, J. A., Rodemeier, M., &amp; Sun, G. K. (2026). Irregular demand: the anti-compromise effect in the field. NBER. <a href="https://doi.org/10.3386/w36013" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Irregular%20demand%3A%20the%20anti-compromise%20effect%20in%20the%20field" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+文章在 Lyft 的真实交易场景中开展随机现场实验，改变高端车型是否展示及其价格，观察乘客在既有选项与不购买之间的选择。作者报告，出现高价选项后，最便宜车型及不购买的需求反而上升，变化还与高端价格和重复接触有关，违背了新增选项只会分走既有需求的常规规律。作者提出高价线索及记忆激活引导价格注意的模型解释。它为菜单设计与定价实验提供启发，结论依赖具体平台和实验环境，不能据此保证任何商品加入昂贵选项都会提高销售。
+
+标签：<a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E8%8F%9C%E5%8D%95%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：菜单设计">菜单设计</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：消费者选择">消费者选择</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### AI 算力扩张的信用网络：股本缓冲与风险传导 {#paper-nber-w36032}
+
+<p class="myapa">Van Nieuwerburgh, S. &amp; Su, Z. (2026). Clouds of credit: mapping the financial web behind AI compute. NBER. <a href="https://doi.org/10.3386/w36032" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Clouds%20of%20credit%3A%20mapping%20the%20financial%20web%20behind%20AI%20compute" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AI 算力建设中的企业、债权人与项目融资安排相互关联。文章梳理这张融资网络，在校准模型中分析股权缓冲、债务融资和企业间付款联系如何影响投资与风险分配。模型中，企业未充分计入对竞争者收入的影响，私人均衡投资因而可能超过社会最优；集中敞口与相互索偿仍会把低生产率情景的损失向外传导，非追索借款也使项目贷款人面临风险。它帮助区分技术增长前景与融资结构；扩张与损失属于模型情景结果，不能当作已发生损失或确定的未来预测。
+
+标签：<a class="tag-link" href="?q=AI%E7%AE%97%E5%8A%9B&amp;show-results=1" title="全站搜索：AI算力">AI算力</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：信用网络">信用网络</a> · <a class="tag-link" href="?q=%E6%83%85%E6%99%AF%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：情景分析">情景分析</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

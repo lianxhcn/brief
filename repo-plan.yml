@@ -1,14 +1,13 @@
 mode: apply
-commit_message: Publish November 17 daily brief
+commit_message: Publish November 18 daily brief
 files:
   - archive.qmd
   - config/website-content.json
-  - content/issues/2026-11-17.json
+  - content/issues/2026-11-18.json
   - index.qmd
-  - issues/20261117/index.qmd
-  - publish/wechat/2026-11-17.txt
+  - issues/20261118/index.qmd
+  - publish/wechat/2026-11-18.txt
   - repo-plan.yml
-  - topics/academic-updates.qmd
   - topics/index.qmd
   - topics/methods-tools-10.qmd
   - topics/methods-tools-11.qmd
@@ -82,6 +81,7 @@ files:
   - topics/research-frontier-59.qmd
   - topics/research-frontier-6.qmd
   - topics/research-frontier-60.qmd
+  - topics/research-frontier-61.qmd
   - topics/research-frontier-7.qmd
   - topics/research-frontier-8.qmd
   - topics/research-frontier-9.qmd
