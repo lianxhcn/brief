@@ -8,9 +8,25 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 154 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 155 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>INDSAT：用指标饱和筛查异常值与结构变化</h3>
+
+<p class="catalog-meta">期次日期：2026-11-15</p>
+<p>indsat 在回归中加入候选脉冲、阶跃或趋势指标，通过分块的一般到特殊搜索筛查异常值与结构变化。可接在 regress 或 newey 后比较原模型与保留指标后的结果，并报告断点、诊断图和系数变化。默认搜索移植自 R gets::isat，与 Autometrics 的搜索不能简单等同。使用前要安排动态项并检查连续样本；选择阈值、块大小及选择后偏差都会影响解释，筛出变化也不能自动归因为某项政策。可用 <code>ssc install indsat</code> 安装，官方发行清单要求 Stata 16。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%8C%87%E6%A0%87%E9%A5%B1%E5%92%8C&amp;show-results=1" title="全站搜索：指标饱和">指标饱和</a> · <a class="tag-link" href="?q=%E5%BC%82%E5%B8%B8%E5%80%BC&amp;show-results=1" title="全站搜索：异常值">异常值</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E5%8F%98%E5%8C%96&amp;show-results=1" title="全站搜索：结构变化">结构变化</a></p>
+<p class="catalog-actions"><a href="../issues/20261115/#tool-indsat-ssc-460024">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460024.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>EV 0.2.2：在 Stata 回归式中直接写变换与滞后</h3>
+
+<p class="catalog-meta">期次日期：2026-11-15</p>
+<p>ev 为 Stata 估计命令增加 EViews 风格的表达式前缀，可直接写对数、差分、增长率和滞后区间，再交给 regress、xtreg 等支持的命令。它减少手工生成中间变量的步骤，适合对照两种软件的模型写法；数据仍须声明时间或面板结构，整数时间的年化与同比增长率要给出频率。后续预测需要相关生成变量时应使用 keep；any 只放宽命令名单，不表示未知命令已获支持。可用 <code>ssc install ev</code> 安装，发行清单要求 Stata 14。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%98%E6%8D%A2&amp;show-results=1" title="全站搜索：表达式变换">表达式变换</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97&amp;show-results=1" title="全站搜索：时间序列">时间序列</a> · <a class="tag-link" href="?q=Stata%E8%AF%AD%E6%B3%95&amp;show-results=1" title="全站搜索：Stata语法">Stata语法</a></p>
+<p class="catalog-actions"><a href="../issues/20261115/#tool-ev-ssc-460025">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460025.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>XTURCOINT：把面板共同因子、结构突变与协整检验放在同一入口</h3>
 
@@ -75,24 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%90%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：隐马尔可夫模型">隐马尔可夫模型</a> · <a class="tag-link" href="?q=%E5%B9%B3%E6%BB%91%E5%8F%82%E6%95%B0&amp;show-results=1" title="全站搜索：平滑参数">平滑参数</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：概率预测">概率预测</a></p>
 <p class="catalog-actions"><a href="../issues/20261111/#tool-hmmtmb-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=hmmTMB" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>causaldef 0.3.0：策略后悔界修正与代理诊断的边界</h3>
-
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>causaldef 把重叠、负对照和敏感性诊断连接到决策损失。维护者在 0.3.0 公告中修正策略后悔界的常数及相关有限样本、速率接口，旧版界值需重新检查。关键是区分理论实验缺陷与可计算的 PS-TV 代理：后者主要反映估计倾向得分下的重叠和平衡，不能据低分认定没有未测混杂，代入理论界也只是附加假设下的启发式计算。多方法比较后默认取最小代理值还会乐观，宜预先指定方法。部分 README 示例输出仍沿用旧常数，应以 0.3.0 手册和版本代码为准；部分平台二进制仍为旧版，安装后应核对版本；0.3.0 源码可用 <code>install.packages(&quot;causaldef&quot;, type = &quot;source&quot;)</code> 获取。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：因果诊断">因果诊断</a> · <a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E6%8D%9F%E5%A4%B1&amp;show-results=1" title="全站搜索：决策损失">决策损失</a> · <a class="tag-link" href="?q=%E7%89%88%E6%9C%AC%E4%BF%AE%E6%AD%A3&amp;show-results=1" title="全站搜索：版本修正">版本修正</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#tool-causaldef-0-3-0">查看本期</a><a href="https://cran.r-project.org/package=causaldef" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>Stata fereg 0.5.3：高维固定效应与 PPML 恢复修订</h3>
-
-<p class="catalog-meta">期次日期：2026-11-10</p>
-<p>Johannes Schmieder 的 fereg 为 Stata 提供高维固定效应 OLS/WLS 与配套 feppml，使用同套原生 Rust 插件。0.5.3 调整 PPML 保存分类固定效应时的有界 MAP、CG 恢复流程，保持原数值验收与迭代预算；不意味着所有模型都会加速。使用需 Stata 15 起，宜锁定维护者 v0.5.3 标签并在新会话安装、自检。Windows 并行读数限合格的 Stata/MP 19 GUI 条件，加载期间 Break 可能延迟或不可用；其他 Windows 主机用串行读取。该项目与 Leo Liu 的同名 R/多语言 fereg 并非同一原始引擎，同名 Stata 命令切勿混装；性能应结合具体平台和设计判断。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%AB%98%E7%BB%B4%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：高维固定效应">高维固定效应</a> · <a class="tag-link" href="?q=PPML&amp;show-results=1" title="全站搜索：PPML">PPML</a> · <a class="tag-link" href="?q=%E5%8E%9F%E7%94%9F%E6%8F%92%E4%BB%B6&amp;show-results=1" title="全站搜索：原生插件">原生插件</a></p>
-<p class="catalog-actions"><a href="../issues/20261110/#tool-stata-fereg-0-5-3">查看本期</a><a href="https://github.com/johannes-schmieder/fereg/releases/tag/v0.5.3" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 154 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 155 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -8,9 +8,81 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 61 页 · 共 607 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-61.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 62 页 · 共 616 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-62.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>银行改名能否缓解负面声誉冲击？</h3>
+<p class="catalog-citation">Jaremski, M.; Mitchener, K. J.; Rieder, K. (2026). Banking on a corporate rebrand. Management Science.</p><p class="catalog-meta">发表日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>负面舆论冲击之后，企业改名能否改善处境？文章以美国一战时期德语名称银行为历史场景，比较反德情绪冲击后保留原名与改名银行的资产、存款和市场份额变化。作者报告，改名银行受到的不利变化较小，并讨论新名称的类型与结果之间的关系。研究提供了危机品牌调整的历史证据；是否改名并非简单随机决定，不能把这一制度背景下的比较理解为所有企业换名字都会奏效。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%93%81%E7%89%8C%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：品牌调整">品牌调整</a> · <a class="tag-link" href="?q=%E5%A3%B0%E8%AA%89%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：声誉冲击">声誉冲击</a> · <a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%BB%8F%E8%90%A5&amp;show-results=1" title="全站搜索：银行经营">银行经营</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1287-mnsc-2025-03635">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.03635" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>负面环境与社会事件之后，消费者和企业怎样回应？</h3>
+<p class="catalog-citation">Xiao, Z.; Zheng, X.; Zheng, Y. (2026). From incidents to outcomes: consumer reactions and firm responses to negative environmental and social practices. Review of Accounting Studies.</p><p class="catalog-meta">发表日期：2026-11-14</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>企业环境或社会事件的负面报道，会带来怎样的消费反应？文章把 SafeGraph 高频门店访问数据与 RepRisk 事件记录相连，考察事件之后的到店行为、企业信息披露和广告支出。作者报告，平均到店量有所下降，不同消费群体和市场环境下的反应存在差异，企业短期自愿披露减少，较长期广告增加。门店访问并不等于销售额，地区差异也不能直接解释为个人偏好的因果效果，结论应结合数据覆盖和事件识别口径阅读。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E5%8F%8D%E5%BA%94&amp;show-results=1" title="全站搜索：消费者反应">消费者反应</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：企业披露">企业披露</a> · <a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%A4%BE%E4%BC%9A%E4%BA%8B%E4%BB%B6&amp;show-results=1" title="全站搜索：环境与社会事件">环境与社会事件</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1007-s11142-026-09998-5">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09998-5" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>经验贝叶斯收缩：先分清筛选决策与效果汇总</h3>
+<p class="catalog-citation">Hull, P.; Kolesár, M. (2026). Shrink responsibly: empirical Bayes in economics. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-16</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>教师、学校或医院的单位效果估计常带较大噪声，按原始估计排序可能夸大极端值。文章综述经验贝叶斯收缩如何区分信号与估计噪声，尤其讨论同时选择多个单位等复合决策，并用公立小学和初中的增值评估贯穿说明。作者也讨论并非所有因果汇总量都适合先收缩，以及哪些目标应直接稳健估计。关键是先界定决策目标和误差结构；收缩可以改善某些选择任务，但不能为所有排名、均值或因果解释提供统一保证。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a> · <a class="tag-link" href="?q=%E6%94%B6%E7%BC%A9%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：收缩估计">收缩估计</a> · <a class="tag-link" href="?q=%E5%A2%9E%E5%80%BC%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：增值评估">增值评估</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-arxiv-2611-21230">查看本期</a><a href="https://arxiv.org/abs/2611.21230v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>教育储蓄为何不足？家长成本预期与信息干预</h3>
+<p class="catalog-citation">Agostinelli, F.; Briscese, G.; Topa, G. M. (2026). The role of parental beliefs and public policies in financing higher education: an experimental study. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>家长为子女大学教育储蓄时，需要同时估计未来学费、助学金与借款负担。文章将财务规划工具嵌入调查实验，了解家长的成本和资金来源预期，并考察纠正信息后的储蓄计划。作者报告，信息可以促使家长调整目标，但当成本缺口与较重的预期还款负担同时突出时，也可能出现降低储蓄意愿和教育期待的劝退反应。文章另以校准模型讨论误判的福利成本。调查中的意愿变化、实际储蓄行为与模型情景应区分，不能直接把信息提供等同于长期入学率提高。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：教育融资">教育融资</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：信息干预">信息干预</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-nber-w36023">查看本期</a><a href="https://www.nber.org/papers/w36023" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>大学生如何使用 AI？首轮调查中的收益与担忧</h3>
+<p class="catalog-citation">Sacerdote, B.; Parris-Bacon, M. (2026). Impacts of AI in higher education: a panel survey of undergraduates. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>AI 在大学学习中既可用于即时解释概念、生成练习和辅助研究，也可能被用于替代本应由学生完成的作业。文章报告一项调查的首轮结果，样本分别覆盖 Dartmouth 学生、高中毕业年级学生及更广泛的美国大学生，比较他们对自身与同伴使用、写作学习、作业公平及未来工作的看法。不同学科的感受和使用方式差异明显，作者据此讨论课程与规则应结合情境设计。这些主要是学生的自报行为和判断，不能解释成 AI 对学习成效或就业的因果估计；题名虽称面板调查，摘要在此报告的是首轮结果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：AI辅助学习">AI辅助学习</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：高等教育">高等教育</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：调查数据">调查数据</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-nber-w36021">查看本期</a><a href="https://www.nber.org/papers/w36021" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>医疗创新的长期收益，为什么未必人人相同？</h3>
+<p class="catalog-citation">Bhalotra, S.; Clarke, D.; Venkataramani, A. (2026). The long-run economic effects of medical innovation and the role of opportunities. JPE.</p><p class="catalog-meta">发表日期：2026-11-18</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>医疗创新带来的长期收益，为什么未必人人相同？文章利用早期抗菌疗法引入的历史变化，研究儿童期肺炎风险与成年教育、就业、收入和工作能力之间的关系，并比较不同群体与出生地制度环境。作者基于人口普查资料报告，早期健康改善转化为成年经济收益的程度存在差异，机会与制度约束是重要讨论方向。证据来自特定历史时期，不能把平均改善理解为所有人同等受益，也不能据此承诺当代医疗政策会产生相同效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%97%A9%E6%9C%9F%E5%81%A5%E5%BA%B7&amp;show-results=1" title="全站搜索：早期健康">早期健康</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%94%B6%E7%9B%8A&amp;show-results=1" title="全站搜索：长期收益">长期收益</a> · <a class="tag-link" href="?q=%E6%9C%BA%E4%BC%9A%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：机会约束">机会约束</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1086-743898">查看本期</a><a href="https://doi.org/10.1086/743898" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>保护隐私，就一定能改善推荐结果吗？</h3>
+<p class="catalog-citation">Küçükgül, C.; Özer, Ö.; Wang, S. (2026). Recommender systems under privacy protection. Management Science.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>允许用户退出或伪报个人数据，推荐结果就一定更有利于用户吗？文章研究利润导向平台在不同隐私保护安排下如何设计推荐，并区分推荐只是传递信息，还是同时决定谁能接触商品。作者在模型中发现，某些保护安排可能诱发推荐扭曲，甚至取消个性化；当推荐还分配商品接触机会时，也可能出现对弱势群体不利的差别待遇。这说明隐私、信息与资源分配需要一起分析，结论依赖平台目标和信息结构，不能直接当作现实中普遍成立的政策效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a> · <a class="tag-link" href="?q=%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F&amp;show-results=1" title="全站搜索：推荐系统">推荐系统</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：信息设计">信息设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1287-mnsc-2024-05007">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.05007" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>不能事先承诺时，披露信息能接近信息设计的结果吗？</h3>
+<p class="catalog-citation">Ali, S. N.; Kleiner, A.; Zhang, K. (2026). From design to disclosure. REStud.</p><p class="catalog-meta">发表日期：2026-11-18</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>信息披露往往由掌握信息的一方决定，而交易对手可以据此调整价格、分配和支付。文章研究这种互动下的披露博弈，讨论掌握信息的一方为何未必愿意完全披露自身类型，以及披露能在什么条件下接近信息设计所实现的收益。垄断定价、保险契约和政策谈判是模型讨论的场景。研究帮助区分事先承诺的信息安排与实际披露互动；理论上的可实现性依赖模型条件，不能理解为任何现实市场都能取得相同收益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：信息设计">信息设计</a> · <a class="tag-link" href="?q=%E5%A5%91%E7%BA%A6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：契约设计">契约设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1093-restud-rdag125">查看本期</a><a href="https://doi.org/10.1093/restud/rdag125" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 编码代理之后，显著性检验还可靠吗？</h3>
+<p class="catalog-citation">Gunsilius, F.; Van Dijcke, D.; Wüthrich, K. (2026). Inference after coding agents. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-17</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>AI 编码代理能够反复尝试数据处理、模型与估计方法，这也可能把选择显著结果的过程带入最终检验。文章提出，在代理完成分析后，重置代理并在数据子样本上重放其选择，估计有利结果被选中的相对概率，再据此调整推断。作者在模拟及既有论文应用中展示这一思路。渐近有效性依赖代理选择行为稳定等条件，并以给定选择为条件；这一校正不能替代研究设计、识别假设或数据质量检查，也不能保证任意代理和提示词都适用。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%90%8E%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：选择后推断">选择后推断</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-arxiv-2611-23174">查看本期</a><a href="https://arxiv.org/abs/2611.23174v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>高价选项如何改变选择？网约车现场实验中的反折中效应</h3>
 <p class="catalog-citation">Gennaioli, N. et al. (2026). Irregular demand: the anti-compromise effect in the field. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
@@ -19,80 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E8%8F%9C%E5%8D%95%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：菜单设计">菜单设计</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：消费者选择">消费者选择</a></p>
 <p class="catalog-actions"><a href="../issues/20261118/#paper-nber-w36013">查看本期</a><a href="https://www.nber.org/papers/w36013" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>面板反事实的共形推断：把可交换性放在单位之间</h3>
-<p class="catalog-citation">Liu, Z.; Xu, Y. (2026). Unit-level conformal inference for panel counterfactuals. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-14</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>DID、合成控制等面板反事实估计中的时间向推断，可能受到非平稳性影响。文章转而利用单位之间预测误差的可交换性：逐一遮蔽控制单位的相关结果，用与处理单位相同的规则预测。作者区分利用目标期对照结果的估计与利用完整对照路径的估计，讨论相应的完整共形置信集和 Jackknife+ 推断，并扩展到多个处理单位。这里用跨单位假设替代部分时间向条件；仅仅使用同一预测算法并不能保证可交换，区间覆盖保证也不能代替因果识别。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：共形推断">共形推断</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：面板反事实">面板反事实</a> · <a class="tag-link" href="?q=%E5%8F%AF%E4%BA%A4%E6%8D%A2%E6%80%A7&amp;show-results=1" title="全站搜索：可交换性">可交换性</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-arxiv-2611-19209">查看本期</a><a href="https://arxiv.org/abs/2611.19209v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>董事会越信任 CEO，监督就一定更有效吗？</h3>
-<p class="catalog-citation">Bae, K.-H. et al. (2026). Board–CEO trust and concealing adverse news. TAR.</p><p class="catalog-meta">发表日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>信任能够降低合作成本，也可能削弱监督中的警觉。文章根据董事与 CEO 的祖籍背景及国家间信任评分，构造董事会与 CEO 的信任指标，报告较高信任与更高的股价崩盘风险、坏消息隐瞒和重大财务重述相关。内幕交易模式显示，这些企业的董事对不利信息了解得更少，作者据此讨论监督松懈的解释。祖籍指标并非直接测量个人心理信任，观察到的关系也不等于随机提高信任就会导致监督失效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%91%A3%E4%BA%8B%E4%BC%9A%E7%9B%91%E7%9D%A3&amp;show-results=1" title="全站搜索：董事会监督">董事会监督</a> · <a class="tag-link" href="?q=%E4%BF%A1%E4%BB%BB&amp;show-results=1" title="全站搜索：信任">信任</a> · <a class="tag-link" href="?q=%E5%9D%8F%E6%B6%88%E6%81%AF%E9%9A%90%E7%9E%92&amp;show-results=1" title="全站搜索：坏消息隐瞒">坏消息隐瞒</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-10-2308-tar-2024-0298">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0298" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>由现有成员选新成员，为什么未必选中最优秀的人？</h3>
-<p class="catalog-citation">Moisson, P.-H.; Tirole, J. (2026). Meritocracy and homophily in collegial organizations. REStud.</p><p class="catalog-meta">发表日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>组织让现有成员共同挑选新成员，是否就能招到最优秀的人？文章用动态理论模型，分析成员偏好与自己相似的同事时，面向未来的选择如何影响人才选拔和组织构成。作者讨论了优待性政策、基于质量或多样性的资助、推翻多数决定和匿名招聘等干预，以及它们可能带来的意外后果。模型的价值在于说明制度设计中的权衡，不能把理论比较直接理解为某项招聘政策已经得到实证检验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E6%89%8D%E9%80%89%E6%8B%94&amp;show-results=1" title="全站搜索：人才选拔">人才选拔</a> · <a class="tag-link" href="?q=%E5%90%8C%E8%B4%A8%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：同质偏好">同质偏好</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：组织治理">组织治理</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-10-1093-restud-rdag122">查看本期</a><a href="https://doi.org/10.1093/restud/rdag122" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>机器学习创业企业：早期技术优势为何可能成为后期约束？</h3>
-<p class="catalog-citation">Fraser, J.; Ozcan, P. (2026). Growth paths in early machine learning ventures: technical configuration and competitive advantage over time. Organization Science.</p><p class="catalog-meta">发表日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>机器学习能力可以成为创业企业的优势，也可能限制下一阶段的选择。文章跟踪加速器项目中的早期机器学习企业，采用归纳式多案例研究，考察训练数据、学习范式、模型输出和应用场景如何相互依赖，以及这些关系怎样随企业发展而变化。作者发现，早期有利的技术配置可能收窄后续探索与增长路径。研究适合帮助读者识别技术选择的长期约束，其案例证据不能直接推广为所有人工智能企业的因果规律。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：机器学习">机器学习</a> · <a class="tag-link" href="?q=%E5%88%9B%E4%B8%9A%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：创业企业">创业企业</a> · <a class="tag-link" href="?q=%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96&amp;show-results=1" title="全站搜索：路径依赖">路径依赖</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-10-1287-orsc-2022-17147">查看本期</a><a href="https://doi.org/10.1287/orsc.2022.17147" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>只有销售记录时，能学会最优订货量吗？</h3>
-<p class="catalog-citation">Hssaine, C.; Sinclair, S. R. (2026). The data-driven censored newsvendor problem. Management Science.</p><p class="catalog-meta">发表日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>缺货之后卖不出的数量不会出现在销售记录里，历史销量因而不等于完整需求。文章研究仅有这类截尾销售数据时如何选择订货量，并用分布稳健优化区分两类情形：有些情况下，增加样本可以让决策损失趋近于零；另一些情况下，未被历史订货量覆盖的需求信息造成了无法仅靠增加样本消除的损失。作者据此提出适应截尾程度的算法及性能界限。应用时须先辨明销量的可观测边界，不能把更大的销售数据集直接当作完整需求数据。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E6%88%AA%E5%B0%BE&amp;show-results=1" title="全站搜索：需求截尾">需求截尾</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：稳健优化">稳健优化</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：数据驱动决策">数据驱动决策</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-10-1287-mnsc-2024-09021">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.09021" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>做空报告公开预警后，审计师是否有可见回应？</h3>
-<p class="catalog-citation">Li, D. et al. (2026). Auditors’ (non)responses to public warnings of audit risk: evidence from short-selling campaigns. Review of Accounting Studies.</p><p class="catalog-meta">发表日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>做空报告公开提出可信的审计风险指控之后，审计师会怎样回应？文章以针对上市公司的做空事件为研究场景，观察随后一年是否出现审计费用明显提高、终止业务、持续经营意见或内部控制缺陷报告等变化。作者报告，不少审计师没有出现这些可观察行动，较长的审计师与客户合作年限与未回应更为一致地相关。这提示读者关注风险预警后的外部可见反应，但公开指标无法穷尽内部审计工作，也不能单凭合作年限的相关关系认定独立性受损。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：审计风险">审计风险</a> · <a class="tag-link" href="?q=%E5%81%9A%E7%A9%BA%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：做空报告">做空报告</a> · <a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%8B%AC%E7%AB%8B%E6%80%A7&amp;show-results=1" title="全站搜索：审计独立性">审计独立性</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-10-1007-s11142-026-09996-7">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09996-7" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>LATE 推断的新检验：利用工具变量假设的额外约束</h3>
-<p class="catalog-citation">D&#x27;Haultfœuille, X.; Hazard, Y.; Ketz, P. (2026). Never too LATE: exploiting restrictions for inference on the local average treatment effect. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-16</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>在相应的工具变量模型中，排除限制、独立性与单调性不仅给出 Wald 比率的 LATE 解释，也蕴含可用于推断的额外约束。文章利用这些约束提出条件似然比检验，讨论包括弱工具情形在内的推断，并以模拟比较检验功效。作者说明，检验本身计算时无需模拟，可通过二次规划求解。它提示弱工具问题不能只靠常规标准误处理；方法仍以所维护的识别和正则条件为前提，渐近性质不等于任意小样本都准确，也不为违反排除限制的工具提供修复。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=LATE&amp;show-results=1" title="全站搜索：LATE">LATE</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：弱工具推断">弱工具推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-arxiv-2611-21496">查看本期</a><a href="https://arxiv.org/abs/2611.21496v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 算力扩张的信用网络：股本缓冲与风险传导</h3>
-<p class="catalog-citation">Van Nieuwerburgh, S.; Su, Z. (2026). Clouds of credit: mapping the financial web behind AI compute. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>AI 算力建设中的企业、债权人与项目融资安排相互关联。文章梳理这张融资网络，在校准模型中分析股权缓冲、债务融资和企业间付款联系如何影响投资与风险分配。模型中，企业未充分计入对竞争者收入的影响，私人均衡投资因而可能超过社会最优；集中敞口与相互索偿仍会把低生产率情景的损失向外传导，非追索借款也使项目贷款人面临风险。它帮助区分技术增长前景与融资结构；扩张与损失属于模型情景结果，不能当作已发生损失或确定的未来预测。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E7%AE%97%E5%8A%9B&amp;show-results=1" title="全站搜索：AI算力">AI算力</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：信用网络">信用网络</a> · <a class="tag-link" href="?q=%E6%83%85%E6%99%AF%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：情景分析">情景分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-nber-w36032">查看本期</a><a href="https://www.nber.org/papers/w36032" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>银行解除管制后：竞争压力与投资机会应分开衡量</h3>
-<p class="catalog-citation">Bisetti, E.; Karolyi, S. A.; Lewellen, S. (2026). Deregulation, market structure, and the evolution of U.S. banking. Management Science.</p><p class="catalog-meta">发表日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>银行解除管制既可能引入竞争者，也可能扩大银行向外投资的机会；把两者混在一个指标中，容易得到难以比较的结论。文章构造美国州层面的网络化管制放松指标，分别刻画这两种变化，并考察存款融资成本、净息差、盈利和风险承担。作者报告，竞争压力上升伴随融资成本提高、息差与盈利下降，以及经营模式和风险承担的持续调整。研究价值在于拆开同一政策中的不同渠道；这些关系来自特定制度与度量，不能当作所有放松管制政策的一般结论。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：银行竞争">银行竞争</a> · <a class="tag-link" href="?q=%E7%AE%A1%E5%88%B6%E6%94%BE%E6%9D%BE&amp;show-results=1" title="全站搜索：管制放松">管制放松</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%89%BF%E6%8B%85&amp;show-results=1" title="全站搜索：风险承担">风险承担</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#paper-10-1287-mnsc-2025-01128">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.01128" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 61 页 · 共 607 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-61.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 62 页 · 共 616 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-62.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

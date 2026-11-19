@@ -1,0 +1,257 @@
+---
+title: "连享会 · 快讯 | 2026.11.19"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### 局部投影法入门(1)：加息冲击与脉冲响应 {#lianxh-1994}
+
+一轮意外加息会怎样影响随后几个月的失业率？文章以这个问题解释局部投影(LP)逐期限回归的逻辑，将脉冲响应、控制变量、长差分与 LP-IV 串联，并用 Stata 自带数据演示估计过程。适合从时间序列回归进入动态效应分析；LP 与 VAR 的选择不能替代冲击外生性判断，工具变量也要满足相应识别条件。
+
+标签：<a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E6%8A%95%E5%BD%B1&amp;show-results=1" title="全站搜索：局部投影">局部投影</a> · <a class="tag-link" href="?q=%E8%84%89%E5%86%B2%E5%93%8D%E5%BA%94&amp;show-results=1" title="全站搜索：脉冲响应">脉冲响应</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a>
+
+<small>来源日期：2026-11-18</small>
+
+<a href="https://www.lianxh.cn/details/1994.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 局部投影法入门(2)：交错处理与LP-DID {#lianxh-1995}
+
+政策分批实施、处理效应又随时间变化时，双向固定效应可能包含不合适的组间比较。文章介绍 LP-DiD，说明如何按预测期限筛选新进入处理的个体与清洁对照组，并讨论长差分、加权方式、协变量和非吸收处理。文中用模拟数据对照 lpdid 命令与手写回归，适合已有 DID 基础的读者理解样本筛选；因果解释仍须满足平行趋势、无预期效应等识别条件。
+
+标签：<a class="tag-link" href="?q=%E4%BA%A4%E9%94%99DID&amp;show-results=1" title="全站搜索：交错DID">交错DID</a> · <a class="tag-link" href="?q=%E6%B8%85%E6%B4%81%E5%AF%B9%E7%85%A7%E7%BB%84&amp;show-results=1" title="全站搜索：清洁对照组">清洁对照组</a> · <a class="tag-link" href="?q=LP-DiD&amp;show-results=1" title="全站搜索：LP-DiD">LP-DiD</a>
+
+<small>来源日期：2026-11-18</small>
+
+<a href="https://www.lianxh.cn/details/1995.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 保护隐私，就一定能改善推荐结果吗？ {#paper-10-1287-mnsc-2024-05007}
+
+<p class="myapa">Küçükgül, C., Özer, Ö., &amp; Wang, S. (2026). Recommender systems under privacy protection. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.05007" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Recommender%20systems%20under%20privacy%20protection" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+允许用户退出或伪报个人数据，推荐结果就一定更有利于用户吗？文章研究利润导向平台在不同隐私保护安排下如何设计推荐，并区分推荐只是传递信息，还是同时决定谁能接触商品。作者在模型中发现，某些保护安排可能诱发推荐扭曲，甚至取消个性化；当推荐还分配商品接触机会时，也可能出现对弱势群体不利的差别待遇。这说明隐私、信息与资源分配需要一起分析，结论依赖平台目标和信息结构，不能直接当作现实中普遍成立的政策效果。
+
+标签：<a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a> · <a class="tag-link" href="?q=%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F&amp;show-results=1" title="全站搜索：推荐系统">推荐系统</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：信息设计">信息设计</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 产业政策研讨会：11 月 30 日截稿提醒 {#pku-industrial-policy-2026}
+
+**投稿截止：2026-11-30**
+
+会议：2026-12-26 至 2026-12-27 · 北京大学朗润园，北京，中国大陆
+
+费用：不收会务费；餐饮统一安排，交通住宿自理。
+
+北京大学新结构经济学研究院与复旦大学经济学院将于 2026 年 12 月 26–27 日在北京大学朗润园举办研讨会，讨论产业政策的理论、有效性评估、因果识别、工具设计与企业行为等议题。征集原创未公开发表的中英文论文，11 月 30 日截止，按通知向指定邮箱提交 Word 或 PDF。会议免收会务费，餐饮统一安排，交通与住宿自理；具体日程另行通知。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E4%BA%A7%E4%B8%9A%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：产业政策">产业政策</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：因果识别">因果识别</a>
+
+<a href="https://www.nse.pku.edu.cn/tzgg/76d5dd2782664a948265678d2a295fb2.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+::: {.brief-entry}
+
+#### 首届北大光华青年研究论坛：接受论文与研究计划 {#conf-cfrn-11601}
+
+**投稿截止：2027-03-15**
+
+会议：2027-04-16 至 2027-04-17 · 北京大学科技园，北京，中国大陆
+
+费用：不收报名、评审和会务费；受邀线下参会的非在京高校学生有适当交通补贴，住宿和餐饮自理。
+
+论坛由北京大学光华管理学院组织与战略管理系举办，2027 年 4 月 16–17 日在北京大学科技园交流。面向全国高校在读本科生及即将博士毕业或博士毕业三年以内的研究者，完整论文或研究计划均可投稿，投稿者须为第一作者。报名已于 2026 年 11 月 15 日启动，2027 年 3 月 15 日 24:00（北京时间）截止；须按官方 PDF 提交材料，披露作者分工及 AI 使用。免报名、评审和会务费，受邀非在京学生有适当交通补贴，住宿餐饮自理。
+
+标签：<a class="tag-link" href="?q=%E9%9D%92%E5%B9%B4%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：青年研究">青年研究</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%95%86%E7%AE%A1%E7%90%86&amp;show-results=1" title="全站搜索：工商管理">工商管理</a> · <a class="tag-link" href="?q=%E5%AD%A6%E6%9C%AF%E8%AE%BA%E5%9D%9B&amp;show-results=1" title="全站搜索：学术论坛">学术论坛</a>
+
+<a href="https://www.gsm.pku.edu.cn/graduate/info/1031/6745.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 医疗创新的长期收益，为什么未必人人相同？ {#paper-10-1086-743898}
+
+<p class="myapa">Bhalotra, S., Clarke, D., &amp; Venkataramani, A. (2026). The long-run economic effects of medical innovation and the role of opportunities. Journal of Political Economy (forthcoming). <a href="https://doi.org/10.1086/743898" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20long-run%20economic%20effects%20of%20medical%20innovation%20and%20the%20role%20of%20opportunities" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+医疗创新带来的长期收益，为什么未必人人相同？文章利用早期抗菌疗法引入的历史变化，研究儿童期肺炎风险与成年教育、就业、收入和工作能力之间的关系，并比较不同群体与出生地制度环境。作者基于人口普查资料报告，早期健康改善转化为成年经济收益的程度存在差异，机会与制度约束是重要讨论方向。证据来自特定历史时期，不能把平均改善理解为所有人同等受益，也不能据此承诺当代医疗政策会产生相同效果。
+
+标签：<a class="tag-link" href="?q=%E6%97%A9%E6%9C%9F%E5%81%A5%E5%BA%B7&amp;show-results=1" title="全站搜索：早期健康">早期健康</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%94%B6%E7%9B%8A&amp;show-results=1" title="全站搜索：长期收益">长期收益</a> · <a class="tag-link" href="?q=%E6%9C%BA%E4%BC%9A%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：机会约束">机会约束</a>
+
+<small>来源日期：2026-11-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 不能事先承诺时，披露信息能接近信息设计的结果吗？ {#paper-10-1093-restud-rdag125}
+
+<p class="myapa">Ali, S. N., Kleiner, A., &amp; Zhang, K. (2026). From design to disclosure. Review of Economic Studies (forthcoming). <a href="https://doi.org/10.1093/restud/rdag125" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=From%20design%20to%20disclosure" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+信息披露往往由掌握信息的一方决定，而交易对手可以据此调整价格、分配和支付。文章研究这种互动下的披露博弈，讨论掌握信息的一方为何未必愿意完全披露自身类型，以及披露能在什么条件下接近信息设计所实现的收益。垄断定价、保险契约和政策谈判是模型讨论的场景。研究帮助区分事先承诺的信息安排与实际披露互动；理论上的可实现性依赖模型条件，不能理解为任何现实市场都能取得相同收益。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：信息设计">信息设计</a> · <a class="tag-link" href="?q=%E5%A5%91%E7%BA%A6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：契约设计">契约设计</a>
+
+<small>来源日期：2026-11-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 银行改名能否缓解负面声誉冲击？ {#paper-10-1287-mnsc-2025-03635}
+
+<p class="myapa">Jaremski, M., Mitchener, K. J., &amp; Rieder, K. (2026). Banking on a corporate rebrand. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2025.03635" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Banking%20on%20a%20corporate%20rebrand" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+负面舆论冲击之后，企业改名能否改善处境？文章以美国一战时期德语名称银行为历史场景，比较反德情绪冲击后保留原名与改名银行的资产、存款和市场份额变化。作者报告，改名银行受到的不利变化较小，并讨论新名称的类型与结果之间的关系。研究提供了危机品牌调整的历史证据；是否改名并非简单随机决定，不能把这一制度背景下的比较理解为所有企业换名字都会奏效。
+
+标签：<a class="tag-link" href="?q=%E5%93%81%E7%89%8C%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：品牌调整">品牌调整</a> · <a class="tag-link" href="?q=%E5%A3%B0%E8%AA%89%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：声誉冲击">声誉冲击</a> · <a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%BB%8F%E8%90%A5&amp;show-results=1" title="全站搜索：银行经营">银行经营</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 负面环境与社会事件之后，消费者和企业怎样回应？ {#paper-10-1007-s11142-026-09998-5}
+
+<p class="myapa">Xiao, Z., Zheng, X., &amp; Zheng, Y. (2026). From incidents to outcomes: consumer reactions and firm responses to negative environmental and social practices. Review of Accounting Studies. <a href="https://doi.org/10.1007/s11142-026-09998-5" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=From%20incidents%20to%20outcomes%3A%20consumer%20reactions%20and%20firm%20responses%20to%20negative%20environmental%20and%20social%20practices" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+企业环境或社会事件的负面报道，会带来怎样的消费反应？文章把 SafeGraph 高频门店访问数据与 RepRisk 事件记录相连，考察事件之后的到店行为、企业信息披露和广告支出。作者报告，平均到店量有所下降，不同消费群体和市场环境下的反应存在差异，企业短期自愿披露减少，较长期广告增加。门店访问并不等于销售额，地区差异也不能直接解释为个人偏好的因果效果，结论应结合数据覆盖和事件识别口径阅读。
+
+标签：<a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E5%8F%8D%E5%BA%94&amp;show-results=1" title="全站搜索：消费者反应">消费者反应</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：企业披露">企业披露</a> · <a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%A4%BE%E4%BC%9A%E4%BA%8B%E4%BB%B6&amp;show-results=1" title="全站搜索：环境与社会事件">环境与社会事件</a>
+
+<small>来源日期：2026-11-14</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### AI 编码代理之后，显著性检验还可靠吗？ {#paper-arxiv-2611-23174}
+
+<p class="myapa">Gunsilius, F., Van Dijcke, D., &amp; Wüthrich, K. (2026). Inference after coding agents. arXiv. <a href="https://arxiv.org/abs/2611.23174v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.23174.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Inference%20after%20coding%20agents" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AI 编码代理能够反复尝试数据处理、模型与估计方法，这也可能把选择显著结果的过程带入最终检验。文章提出，在代理完成分析后，重置代理并在数据子样本上重放其选择，估计有利结果被选中的相对概率，再据此调整推断。作者在模拟及既有论文应用中展示这一思路。渐近有效性依赖代理选择行为稳定等条件，并以给定选择为条件；这一校正不能替代研究设计、识别假设或数据质量检查，也不能保证任意代理和提示词都适用。
+
+标签：<a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%90%8E%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：选择后推断">选择后推断</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 经验贝叶斯收缩：先分清筛选决策与效果汇总 {#paper-arxiv-2611-21230}
+
+<p class="myapa">Hull, P. &amp; Kolesár, M. (2026). Shrink responsibly: empirical Bayes in economics. arXiv. <a href="https://arxiv.org/abs/2611.21230v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.21230.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Shrink%20responsibly%3A%20empirical%20Bayes%20in%20economics" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+教师、学校或医院的单位效果估计常带较大噪声，按原始估计排序可能夸大极端值。文章综述经验贝叶斯收缩如何区分信号与估计噪声，尤其讨论同时选择多个单位等复合决策，并用公立小学和初中的增值评估贯穿说明。作者也讨论并非所有因果汇总量都适合先收缩，以及哪些目标应直接稳健估计。关键是先界定决策目标和误差结构；收缩可以改善某些选择任务，但不能为所有排名、均值或因果解释提供统一保证。
+
+标签：<a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E8%B4%9D%E5%8F%B6%E6%96%AF&amp;show-results=1" title="全站搜索：经验贝叶斯">经验贝叶斯</a> · <a class="tag-link" href="?q=%E6%94%B6%E7%BC%A9%E4%BC%B0%E8%AE%A1&amp;show-results=1" title="全站搜索：收缩估计">收缩估计</a> · <a class="tag-link" href="?q=%E5%A2%9E%E5%80%BC%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：增值评估">增值评估</a>
+
+<small>来源日期：2026-11-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 大学生如何使用 AI？首轮调查中的收益与担忧 {#paper-nber-w36021}
+
+<p class="myapa">Sacerdote, B. &amp; Parris-Bacon, M. (2026). Impacts of AI in higher education: a panel survey of undergraduates. NBER. <a href="https://doi.org/10.3386/w36021" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Impacts%20of%20AI%20in%20higher%20education%3A%20a%20panel%20survey%20of%20undergraduates" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+AI 在大学学习中既可用于即时解释概念、生成练习和辅助研究，也可能被用于替代本应由学生完成的作业。文章报告一项调查的首轮结果，样本分别覆盖 Dartmouth 学生、高中毕业年级学生及更广泛的美国大学生，比较他们对自身与同伴使用、写作学习、作业公平及未来工作的看法。不同学科的感受和使用方式差异明显，作者据此讨论课程与规则应结合情境设计。这些主要是学生的自报行为和判断，不能解释成 AI 对学习成效或就业的因果估计；题名虽称面板调查，摘要在此报告的是首轮结果。
+
+标签：<a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：AI辅助学习">AI辅助学习</a> · <a class="tag-link" href="?q=%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2&amp;show-results=1" title="全站搜索：高等教育">高等教育</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：调查数据">调查数据</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 教育储蓄为何不足？家长成本预期与信息干预 {#paper-nber-w36023}
+
+<p class="myapa">Agostinelli, F., Briscese, G., &amp; Topa, G. M. (2026). The role of parental beliefs and public policies in financing higher education: an experimental study. NBER. <a href="https://doi.org/10.3386/w36023" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20role%20of%20parental%20beliefs%20and%20public%20policies%20in%20financing%20higher%20education%3A%20an%20experimental%20study" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+家长为子女大学教育储蓄时，需要同时估计未来学费、助学金与借款负担。文章将财务规划工具嵌入调查实验，了解家长的成本和资金来源预期，并考察纠正信息后的储蓄计划。作者报告，信息可以促使家长调整目标，但当成本缺口与较重的预期还款负担同时突出时，也可能出现降低储蓄意愿和教育期待的劝退反应。文章另以校准模型讨论误判的福利成本。调查中的意愿变化、实际储蓄行为与模型情景应区分，不能直接把信息提供等同于长期入学率提高。
+
+标签：<a class="tag-link" href="?q=%E6%95%99%E8%82%B2%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：教育融资">教育融资</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：信息干预">信息干预</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### coresynth 1.2.0：多种合成控制估计与推断的重要修正 {#tool-coresynth-1-2-0}
+
+coresynth 用统一公式接口连接多种合成控制及相关面板估计方法。维护者说明，1.2.0 修正了矩阵补全的惩罚网格、GSC 协变量迭代、SDID/GSC/SI 的重抽样推断及共形区间边界搜索，部分设定的点估计、p 值或置信区间会随之改变。使用旧版的研究者宜保留旧结果，并按 NEWS 核对受影响的设定。统一接口不意味着各方法的识别条件相同，也不保证小样本推断自动有效。可用 <code>install.packages(&quot;coresynth&quot;)</code> 更新，要求 R 4.1 及以上，源代码安装包含 C++ 编译。
+
+标签：<a class="tag-link" href="?q=%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6&amp;show-results=1" title="全站搜索：合成控制">合成控制</a> · <a class="tag-link" href="?q=%E6%8E%A8%E6%96%AD%E4%BF%AE%E6%AD%A3&amp;show-results=1" title="全站搜索：推断修正">推断修正</a> · <a class="tag-link" href="?q=%E7%9F%A9%E9%98%B5%E8%A1%A5%E5%85%A8&amp;show-results=1" title="全站搜索：矩阵补全">矩阵补全</a>
+
+<small>来源日期：2026-11-18</small>
+
+<a href="https://cran.r-project.org/package=coresynth" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### cdid：用链式 DID 处理结果间歇缺失的面板 {#tool-cdid-1-0-0-0}
+
+Stata 命令 cdid 将同一个体在可观测日期之间的结果变化串联，通过 GMM 估计分批处理的组别—时期平均处理效应，可用于结果变量间歇缺失的面板。它把处理调整与缺失结果调整分开，不能自动解决任意缺失机制或平行趋势问题。默认排除缺少参考期协变量的个体时，相关组别的目标人群也会变化；现有比较不能识别的效应报告为不可得，而不是零。可用 <code>ssc install cdid</code> 安装，当前代码要求 Stata 19.5；选择缺失机制、对照组和推断方法仍需研究设计依据。
+
+标签：<a class="tag-link" href="?q=%E9%93%BE%E5%BC%8FDID&amp;show-results=1" title="全站搜索：链式DID">链式DID</a> · <a class="tag-link" href="?q=%E4%B8%8D%E5%AE%8C%E6%95%B4%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：不完整面板">不完整面板</a> · <a class="tag-link" href="?q=%E7%BC%BA%E5%A4%B1%E6%9C%BA%E5%88%B6&amp;show-results=1" title="全站搜索：缺失机制">缺失机制</a>
+
+<small>来源日期：2026-11-16</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s460035.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

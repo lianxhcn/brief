@@ -8,9 +8,81 @@ title: "新论文 · 第 3 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 61 页 · 共 607 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-61.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 62 页 · 共 616 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-62.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>跨产品 A/B 实验怎样比较？从样本提升转向全站影响</h3>
+<p class="catalog-citation">Zhang, X. et al. (2026). Making experiment results comparable through sitewide impact estimation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-17</p>
+<p>不同产品模块的实验提升率不宜直接排序：模块触达多少用户，以及这些用户原本贡献多少全站指标，都会影响推广后的实际规模。本文以 Roblox 的多类产品为背景，将目标量定义为测量期内把处理推广至整个目标人群后，全站聚合指标可能发生的变化；目标人群可以只是全站用户的一部分。作者分别讨论均值差指标和总体聚合量之比的估计，并用覆盖因素连接样本提升与全站影响。该框架帮助明确实验排序的目标，但外推仍依赖目标人群、推广情景及测量期的设定，不能把短期全站影响直接当作长期收益或福利。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=A%2FB%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：A/B测试">A/B测试</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E6%8C%87%E6%A0%87&amp;show-results=1" title="全站搜索：实验指标">实验指标</a> · <a class="tag-link" href="?q=%E5%85%A8%E7%AB%99%E5%BD%B1%E5%93%8D&amp;show-results=1" title="全站搜索：全站影响">全站影响</a></p>
+<p class="catalog-actions"><a href="../issues/20261117/#paper-arxiv-2611-18411">查看本期</a><a href="https://arxiv.org/abs/2611.18411v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>经理生女儿后，企业中女性的就业与薪酬怎样变化？</h3>
+<p class="catalog-citation">Ronchi, M.; Smith, N. (2026). Daddy’s girl: daughters, managerial decisions, and gender inequality. REStud.</p><p class="catalog-meta">发表日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-17</p>
+<p>经理的个人经历与企业用人决策有什么联系？文章利用丹麦登记数据，比较男性经理新生儿为女儿或儿子之后，同一企业中女性的相对薪酬与就业变化。作者报告，首次生女儿之后，这两项女性劳动结果有所上升，招聘也更倾向于用条件相近的女性替代男性，而未检测到显著的企业业绩变化。子女性别是研究经理性别观念的间接切入点，不能把登记资料中的比较当作随机改变经理态度的实验，也不能推断所有企业都会出现同样变化。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E5%B7%AE%E5%BC%82&amp;show-results=1" title="全站搜索：性别差异">性别差异</a> · <a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：招聘决策">招聘决策</a> · <a class="tag-link" href="?q=%E7%99%BB%E8%AE%B0%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：登记数据">登记数据</a></p>
+<p class="catalog-actions"><a href="../issues/20261117/#paper-10-1093-restud-rdag096">查看本期</a><a href="https://doi.org/10.1093/restud/rdag096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>矩条件可能错设时，DML 的正交得分该怎样调整？</h3>
+<p class="catalog-citation">Kang, B. (2026). Orthogonal scores and double/debiased machine learning for possibly misspecified GMM. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-12</p>
+<p class="catalog-meta">期次日期：2026-11-17</p>
+<p>过度识别 GMM 的矩条件未必在总体中严格成立，常见正交得分的构造也可能需要调整。本文把矩条件均值、Jacobian 与权重矩阵估计带来的影响纳入得分修正；在正确设定时，新增调整项消失。研究结合交叉拟合讨论低维 GMM 目标量的推断，并以部分线性工具变量模型和多工具变量的 LATE 模型说明应用。这里针对的是给定估计准则下目标量的统计推断；允许矩条件错设，不等于失效工具变量仍能识别原来的因果参数，实际使用仍须检查其正则条件。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E9%94%99%E8%AE%BE&amp;show-results=1" title="全站搜索：模型错设">模型错设</a></p>
+<p class="catalog-actions"><a href="../issues/20261117/#paper-arxiv-2611-17578">查看本期</a><a href="https://arxiv.org/abs/2611.17578v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>生产网络中的加成竞争：需求弹性为何取决于上下游？</h3>
+<p class="catalog-citation">Wu, L. (2026). Competition in markups: a theory of the Lerner index in networks and general equilibrium. REStud.</p><p class="catalog-meta">发表日期：2026-11-11</p>
+<p class="catalog-meta">期次日期：2026-11-17</p>
+<p>企业的加成定价会影响交易伙伴，需求弹性也可能由整张生产网络共同决定。文章提出一种企业把其他企业加成视为给定的均衡概念，在垂直结构中连接上游需求弹性与下游特征，并将一般产业网络中的定价与行业内份额、生产和消费替代关系等网络特征联系起来。作者还用企业资料考察模型预示的弹性与加成变化。它为研究市场势力和宏观冲击提供统一的理论视角；模型均衡和反事实依赖其设定，不能把经验吻合当作所有网络中的普遍定律。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8A%A0%E6%88%90%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：加成定价">加成定价</a> · <a class="tag-link" href="?q=%E7%94%9F%E4%BA%A7%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：生产网络">生产网络</a> · <a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a></p>
+<p class="catalog-actions"><a href="../issues/20261117/#paper-10-1093-restud-rdag123">查看本期</a><a href="https://doi.org/10.1093/restud/rdag123" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>客户要求气候信息，供应商会披露更多吗？</h3>
+<p class="catalog-citation">Bonetti, P. et al. (2026). The role of supply chains in climate disclosure. JAR.</p><p class="catalog-meta">发表日期：2026-11-11</p>
+<p class="catalog-meta">期次日期：2026-11-17</p>
+<p>企业的气候披露不只受监管和投资者影响，也可能受到供应链客户的信息需求影响。文章利用 CDP 允许客户向供应商索取气候信息的制度场景，在国际客户—供应商配对样本中，发现客户的信息需求与供应商公开披露呈正相关。关联的强弱随双方披露激励及相对议价能力而异；另有描述性证据表明，供应网络关系会向更绿色、更透明的供应商调整。这是关于信息需求、披露与网络选择的证据，不能把相关性写成客户要求已被随机证明会改善披露或实际减排。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B0%94%E5%80%99%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：气候披露">气候披露</a> · <a class="tag-link" href="?q=%E4%BE%9B%E5%BA%94%E9%93%BE&amp;show-results=1" title="全站搜索：供应链">供应链</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E9%9C%80%E6%B1%82&amp;show-results=1" title="全站搜索：信息需求">信息需求</a></p>
+<p class="catalog-actions"><a href="../issues/20261117/#paper-10-1111-1475-679x-70096">查看本期</a><a href="https://doi.org/10.1111/1475-679x.70096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>国际贸易中的双边搜寻：更多供应商不一定更容易匹配</h3>
+<p class="catalog-citation">Eaton, J. et al. (2026). Two-sided search in international markets. JPE.</p><p class="catalog-meta">发表日期：2026-11-11</p>
+<p class="catalog-meta">期次日期：2026-11-17</p>
+<p>国际企业之间找到交易伙伴并非没有成本。作者公开稿建立包含双边内生搜寻、议价和多对多匹配的动态模型，用美国服装进口海关记录拟合，讨论买卖双方的利润分配及企业关系的生命周期。模型中的匹配拥挤，使增加海外供应商与降低搜寻成本成为不同的政策变化：选择更多，并不保证消费者收益一定同步增加。这里的福利讨论是模型反事实，不是直接观测到的普遍政策效果；作者页注明 JPE 录用后的最终复现检查仍待完成。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E8%BE%B9%E6%90%9C%E5%AF%BB&amp;show-results=1" title="全站搜索：双边搜寻">双边搜寻</a> · <a class="tag-link" href="?q=%E8%B4%B8%E6%98%93%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：贸易网络">贸易网络</a> · <a class="tag-link" href="?q=%E5%8C%B9%E9%85%8D%E6%8B%A5%E6%8C%A4&amp;show-results=1" title="全站搜索：匹配拥挤">匹配拥挤</a></p>
+<p class="catalog-actions"><a href="../issues/20261117/#paper-10-1086-744914">查看本期</a><a href="https://doi.org/10.1086/744914" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>TWFE 权重全为正，推断就可靠吗？一项异质性设计诊断</h3>
+<p class="catalog-citation">Halkiewicz, S. M. S. (2026). Positive weights do not certify TWFE inference: A design diagnostic under treatment-effect heterogeneity. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-17</p>
+<p>双向固定效应回归的处理权重即使全部为正，也不代表针对等权处理组—时间单元效应的常规推断已经足够稳健。本文从实际回归权重与等权目标的偏离出发，在局部处理效应漂移与多簇渐近框架下，提出评估推断风险的设计诊断，并区分发现不安全情形、取得充分认证和证据不足。它提醒使用者把点估计修正、异质性暴露与统计推断分别检查。诊断依赖所维护的异质性范围及近似条件，给出的风险包络并不是实际拒绝率的预测。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E5%90%91%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：双向固定效应">双向固定效应</a> · <a class="tag-link" href="?q=%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94%E5%BC%82%E8%B4%A8%E6%80%A7&amp;show-results=1" title="全站搜索：处理效应异质性">处理效应异质性</a> · <a class="tag-link" href="?q=%E6%8E%A8%E6%96%AD%E8%AF%8A%E6%96%AD&amp;show-results=1" title="全站搜索：推断诊断">推断诊断</a></p>
+<p class="catalog-actions"><a href="../issues/20261117/#paper-arxiv-2611-18116">查看本期</a><a href="https://arxiv.org/abs/2611.18116v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>表格预测面对分布漂移：先弄清改变的是特征，还是条件关系</h3>
+<p class="catalog-citation">Wang, T. et al. (2026). Rethinking distribution shifts: Empirical analysis and modeling for tabular data. Management Science.</p><p class="catalog-meta">发表日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-16</p>
+<p>模型跨地区或时期使用时，特征分布变化与给定特征后的结果关系变化，需要不同的应对方式。文章以真实表格数据的分布迁移建立测试框架，比较经验风险最小化与分布稳健优化方法。在作者考察的设置中，条件关系变化较为常见，所谓稳健方法未必优于常规方法，基础模型类别和超参数选择也会显著影响比较。研究强调先诊断具体漂移，再选择方法；这些发现来自特定测试框架，不能推出分布稳健优化在所有任务中无效。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E5%B8%83%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：分布漂移">分布漂移</a> · <a class="tag-link" href="?q=%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：表格数据">表格数据</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：稳健学习">稳健学习</a></p>
+<p class="catalog-actions"><a href="../issues/20261116/#paper-10-1287-mnsc-2024-08298">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08298" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>给地方政府和媒体定制能源信息，能促进住宅节能改造吗？</h3>
+<p class="catalog-citation">Bishop, M. et al. (2026). Weathering the energy crisis: Can tailored information to local governments and media spur climate action? CEPR (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-16</p>
+<p>2022 年能源危机期间，作者在英格兰和威尔士随机向部分地方行政区开展信息干预，把当地家庭能源涨价风险和住宅改造的潜在节省额，分别提供给议员、政府工作人员和地方媒体。作者报告，干预使改造安装量增加，主要来自太阳能光伏，但未检测到能源消耗的变化；安装更集中在议员住所附近。结果提示，面向地方公共行动者的信息可能促进投资落地，附近集中的现象只与信息扩散解释相容，不能单凭这一分布认定具体传播机制已获因果识别。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E5%B9%B2%E9%A2%84&amp;show-results=1" title="全站搜索：信息干预">信息干预</a> · <a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E8%BD%AC%E5%9E%8B&amp;show-results=1" title="全站搜索：能源转型">能源转型</a></p>
+<p class="catalog-actions"><a href="../issues/20261116/#paper-cepr-dp22180">查看本期</a><a href="https://cepr.org/publications/dp22180" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>投资者看多远，企业就投多远？信息期限与长期项目投资</h3>
 <p class="catalog-citation">Dessaint, O.; Foucault, T.; Frésard, L. (2026). The horizon of investors’ information and corporate investment. RFS.</p><p class="catalog-meta">发表日期：2026-11-12</p>
@@ -19,80 +91,8 @@ title: "新论文 · 第 3 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8A%95%E8%B5%84%E8%80%85%E4%BF%A1%E6%81%AF&amp;show-results=1" title="全站搜索：投资者信息">投资者信息</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：长期投资">长期投资</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：企业决策">企业决策</a></p>
 <p class="catalog-actions"><a href="../issues/20261116/#paper-10-1093-rfs-hhag097">查看本期</a><a href="https://doi.org/10.1093/rfs/hhag097" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>平台 A/B 实验应随机哪一侧？短侧未必输在样本量</h3>
-<p class="catalog-citation">Johari, R.; Murthy, A. (2026). One-sided randomization in two-sided platform experiments: Which side should be randomized? arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>双边平台做 A/B 实验时，可以随机顾客，也可以随机商品或房源。本文在先到先得匹配、偏好与处理效应可异质的模型中，比较两种设计对全局平均处理效应的估计。市场两侧规模愈发不平衡时，在给定条件下，随机较小的短侧可消除一阶干扰偏差，方差的渐近阶也不大于随机长侧。关键是实际匹配数受短侧规模约束，长侧名义样本多并不自动带来同等精度收益。结论依赖匹配机制、选择模型及渐近条件，不能直接推广为所有平台都应随机短侧。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：平台实验">平台实验</a> · <a class="tag-link" href="?q=%E5%B9%B2%E6%89%B0%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：干扰效应">干扰效应</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%8C%96%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：随机化设计">随机化设计</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#paper-arxiv-2611-16406">查看本期</a><a href="https://arxiv.org/abs/2611.16406v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>实验结果能推广到别处吗？把外推假设转成效应区间</h3>
-<p class="catalog-citation">Boyarsky, A.; Egami, N.; Namkoong, H. (2026). A sensitivity framework for assessing external validity. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>一个地区的随机实验识别出因果效应，并不保证结果能推广到其他地区。本文针对试验地点少、地点特征多的情形，构造允许仿射参数限制的部分识别框架，将不同外推假设转成目标地点效应的上下界；例如，可以限制交互效应相对于主效应的大小。作者为约束优化得到的界提出去偏估计，并用多国小额信贷实验逐一留出国家展示敏感性分析。区间随所施加的外推限制而变，不能把有条件的界理解成任意新地区均适用的效果保证。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%A4%96%E9%83%A8%E6%9C%89%E6%95%88%E6%80%A7&amp;show-results=1" title="全站搜索：外部有效性">外部有效性</a> · <a class="tag-link" href="?q=%E9%83%A8%E5%88%86%E8%AF%86%E5%88%AB&amp;show-results=1" title="全站搜索：部分识别">部分识别</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#paper-arxiv-2611-16242">查看本期</a><a href="https://arxiv.org/abs/2611.16242v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>商业地产管制如何影响产出？空间均衡模型中的配置与拥堵</h3>
-<p class="catalog-citation">Babalievsky, F. et al. (2026). The impact of commercial real estate regulations on U.S. output. REStud.</p><p class="catalog-meta">发表日期：2026-11-11</p>
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>商业地产管制可能影响企业选址与资源配置，同时也回应拥堵等外部性。文章建立包含商业地产管制和拥堵效应的美国空间一般均衡模型，并利用税务评估记录中的土地与建筑物价值信息构造都市区管制指标。作者在模型中比较放松管制及调整高度限制的反事实，讨论产出和福利的变化。这里的收益来自结构模型与政策情景，依赖指标构造、参数和拥堵设定，不能直接当作一项已实施政策的实验效果，也不意味着所有地区都应采用同样的放松幅度。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%95%86%E4%B8%9A%E5%9C%B0%E4%BA%A7&amp;show-results=1" title="全站搜索：商业地产">商业地产</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：空间均衡">空间均衡</a> · <a class="tag-link" href="?q=%E5%9C%9F%E5%9C%B0%E7%AE%A1%E5%88%B6&amp;show-results=1" title="全站搜索：土地管制">土地管制</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#paper-10-1093-restud-rdag121">查看本期</a><a href="https://doi.org/10.1093/restud/rdag121" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>全球价值链如何传递信息噪声？生产网络中的预期与波动</h3>
-<p class="catalog-citation">Bui, H. et al. (2026). Noisy global value chains. JPE.</p><p class="catalog-meta">发表日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>跨国生产网络不仅传递真实生产率冲击，也可能传递关于基本面的公共信号误差。文章建立带信息摩擦的全球生产网络模型，并利用国家、行业经济新闻覆盖与预测表现的关系约束信息摩擦参数。在作者模型中，噪声冲击对网络中较远部门的相对传递更强，而生产率冲击的传递模式不同。研究为理解国际波动增加了预期与信息结构的渠道；新闻覆盖与预测误差的相关关系并不直接证明新闻报道具有某种因果效果，模型量化也依赖信息结构和参数设定。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%A8%E7%90%83%E4%BB%B7%E5%80%BC%E9%93%BE&amp;show-results=1" title="全站搜索：全球价值链">全球价值链</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%91%A9%E6%93%A6&amp;show-results=1" title="全站搜索：信息摩擦">信息摩擦</a> · <a class="tag-link" href="?q=%E5%9B%BD%E9%99%85%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：国际波动">国际波动</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#paper-10-1086-744936">查看本期</a><a href="https://doi.org/10.1086/744936" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>企业自愿披露能改善当地治理吗？来自非洲油气田周边社区的证据</h3>
-<p class="catalog-citation">Tang, S.; Elfenbein, D. W.; Pasipanodya, T. M. (2026). Can voluntary corporate transparency curb corruption? Community-level evidence from oil and gas fields in Africa. Organization Science.</p><p class="catalog-meta">发表日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>自愿披露只有被社会组织、媒体和居民实际使用，才可能转化为问责。文章将非洲油气田及运营企业的数据与居民调查、卫星夜间灯光相连，利用双重差分比较企业支持采掘业透明度倡议前后的当地变化。作者发现，支持该倡议与较低的感知腐败、较少的行贿报告及更多公民参与等相关，关联在邻近社会组织或援助项目的地区更明显。研究强调信息与使用信息的社会条件共同发挥作用；这些关联仍受识别条件约束，夜间灯光是经济活动代理，也不能直接等同居民福利。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：企业披露">企业披露</a> · <a class="tag-link" href="?q=%E5%9C%B0%E6%96%B9%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：地方治理">地方治理</a> · <a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86&amp;show-results=1" title="全站搜索：双重差分">双重差分</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#paper-10-1287-orsc-2025-20487">查看本期</a><a href="https://doi.org/10.1287/orsc.2025.20487" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>不等比例随机分组：怎样避免额外协变量的不平衡偏移？</h3>
-<p class="catalog-citation">Fang, H.; Ma, W. (2026). Beyond biased coin minimization: Eliminating shift in covariate-adaptive randomization for unequal allocation. Biometrika.</p><p class="catalog-meta">发表日期：2026-11-10</p>
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>协变量自适应随机化常用有偏硬币，让下一次分配倾向于改善组间平衡。文章指出，将这类最小化方法直接扩展到不等比例分配时，额外协变量的不平衡可能不再以零为中心。作者直接设计分配函数，对用于分配的协变量取得较强的边际平衡，并渐近消除额外协变量的偏移。它提醒试验设计者区分分配比例与不同协变量的平衡性质；渐近消除偏移不等于每次有限样本都完全平衡，也不能替代后续估计与推断条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：随机试验">随机试验</a> · <a class="tag-link" href="?q=%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1&amp;show-results=1" title="全站搜索：协变量平衡">协变量平衡</a> · <a class="tag-link" href="?q=%E4%B8%8D%E7%AD%89%E6%AF%94%E4%BE%8B%E5%88%86%E9%85%8D&amp;show-results=1" title="全站搜索：不等比例分配">不等比例分配</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#paper-10-1093-biomet-asag073">查看本期</a><a href="https://doi.org/10.1093/biomet/asag073" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>非常规货币政策之后，银行为何更难留住存款？</h3>
-<p class="catalog-citation">Strahan, P.; Yang, T. (2026). Unconventional monetary policy and deposit retention. NBER Working Paper No. 35985 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-15</p>
-<p>零利率下限与量化宽松如何改变银行的存款客户结构？文章分别讨论利率压缩减少寻找高收益流动性工具的收益，以及央行向非银行部门购买债券吸引大额、利率敏感存款的渠道。作者发现，政策正常化后，存款资金流与存款利率对市场利率的敏感性，随此前对这两类政策的暴露增加，并据此认为留住存款变得更昂贵、风险也更高。它把银行负债端的客户构成与政策退出联系起来；不同银行的敞口和客户结构仍会影响适用判断。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96&amp;show-results=1" title="全站搜索：货币政策">货币政策</a> · <a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E5%AD%98%E6%AC%BE&amp;show-results=1" title="全站搜索：银行存款">银行存款</a> · <a class="tag-link" href="?q=%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87&amp;show-results=1" title="全站搜索：存款利率">存款利率</a></p>
-<p class="catalog-actions"><a href="../issues/20261115/#paper-nber-w35985">查看本期</a><a href="https://www.nber.org/papers/w35985" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>能源价格冲击：价格补贴与定向转移怎样权衡？</h3>
-<p class="catalog-citation">Levell, P.; O&#x27;Connell, M.; Smith, K. (2026). The welfare effects of price shocks and household relief packages: Evidence from an energy crisis. JPE.</p><p class="catalog-meta">发表日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-15</p>
-<p>价格冲击给收入相近的家庭带来的损失也可能不同。文章以英国在2022–23年欧洲能源危机中的经历为背景，结合家庭能源支出和收入面板及价格、政策变化，建立框架比较价格补贴与转移支付。价格补贴更容易覆盖能源损失大的家庭，却会扭曲消费；转移支付较少扭曲价格，但定向支持并不简单。作者讨论如何利用收入和既往能源使用改善政策组合。最优组合取决于家庭需求反应、损失分布与福利设定，不能直接推广成所有价格冲击下的统一补贴主张。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%83%BD%E6%BA%90%E4%BB%B7%E6%A0%BC&amp;show-results=1" title="全站搜索：能源价格">能源价格</a> · <a class="tag-link" href="?q=%E7%A6%8F%E5%88%A9%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：福利分析">福利分析</a> · <a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E8%A1%A5%E8%B4%B4&amp;show-results=1" title="全站搜索：财政补贴">财政补贴</a></p>
-<p class="catalog-actions"><a href="../issues/20261115/#paper-10-1086-744933">查看本期</a><a href="https://doi.org/10.1086/744933" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>用表达艺术干预执法偏见：印度警察的集群随机试验</h3>
-<p class="catalog-citation">Amaral, S. et al. (2026). Debiasing law enforcement officers: Evidence from an expressive arts intervention in India. NBER Working Paper No. 35986 (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-05</p>
-<p class="catalog-meta">期次日期：2026-11-15</p>
-<p>一线公共服务人员拥有裁量权，改变既有人员的态度能否改善服务？研究在印度比哈尔邦警察机构开展集群随机试验，评估基于参与式戏剧的短期表达艺术干预。作者结合态度与法律知识调查、标准化受害者审访和行政记录，报告对性别暴力受害者的回应及相关工作环境有所改善。人员调动带来的证据还提示效果可能持续并向同事扩散，但作者将这一部分表述为提示性证据。干预内容、当地警务资源和实施方式都是理解适用范围的重要条件，不能直接外推到所有机构或培训方案。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9B%86%E7%BE%A4%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C&amp;show-results=1" title="全站搜索：集群随机试验">集群随机试验</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E6%9C%8D%E5%8A%A1&amp;show-results=1" title="全站搜索：公共服务">公共服务</a> · <a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E6%9A%B4%E5%8A%9B&amp;show-results=1" title="全站搜索：性别暴力">性别暴力</a></p>
-<p class="catalog-actions"><a href="../issues/20261115/#paper-nber-w35986">查看本期</a><a href="https://www.nber.org/papers/w35986" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 61 页 · 共 607 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-61.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-2.html">上一页</a><span aria-current="page">第 3 / 62 页 · 共 616 条</span><a rel="next" href="research-frontier-4.html">下一页</a><a href="research-frontier-62.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
