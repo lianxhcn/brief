@@ -8,9 +8,33 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 16 页 · 共 158 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 17 页 · 共 161 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-17.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>weird 3.2.0：异常分数为何会随近邻定义改变？</h3>
+
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>异常检测结果依赖邻域和概率模型的具体定义。weird 3.2.0 将 <code>glosh_scores()</code> 和 <code>lof_scores()</code> 的近邻改为不包含观测自身，因此分数会与旧版不同；<code>lof_scores()</code> 也不再把无穷值改成 1。新版本加入类别数据的惊异度计算，并改进混合分布及尾部概率的数值处理。它是 Rob Hyndman 异常检测教材的配套工具，可用 <code>install.packages(&quot;weird&quot;)</code> 安装，要求 R 4.1 及以上。高异常分数只是排查线索，仍须结合数据生成过程判断，不能直接认定记录错误。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B&amp;show-results=1" title="全站搜索：异常检测">异常检测</a> · <a class="tag-link" href="?q=%E8%BF%91%E9%82%BB%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：近邻方法">近邻方法</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：数据质量">数据质量</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#tool-weird-3-2-0">查看本期</a><a href="https://cran.r-project.org/package=weird" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>ale 0.6.0：为已有模型解释补充统计量与检验</h3>
+
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>累积局部效应(ALE)用于解释模型预测随特征变化的规律。ale 0.6.0 新增 <code>append_stats()</code> 和 <code>append_p()</code>，可在已有 ALE 结果上补算统计量或附加由显式参考分布计算的 p 值，不必重新计算 ALE。若要补算 Bootstrap 统计量，原对象须保留逐次重抽样数据；平均曲线和逐点置信区间不能替代这些记录。参考分布须单独生成并满足相应模型与尺度条件，不能把显著的预测关联直接解释为因果效应。可用 <code>install.packages(&quot;ale&quot;)</code> 安装，要求 R 4.2 及以上。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%A7%A3%E9%87%8A&amp;show-results=1" title="全站搜索：模型解释">模型解释</a> · <a class="tag-link" href="?q=ALE&amp;show-results=1" title="全站搜索：ALE">ALE</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#tool-ale-0-6-0">查看本期</a><a href="https://cran.r-project.org/package=ale" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>APRScenario 0.0.5.0：情景约束怎样更新 SVAR 参数后验？</h3>
+
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>给定未来通胀或产出的路径，不仅会改变预测分布，也可能改变对模型参数的判断。APRScenario 0.0.5.0 新增 <code>wz_posterior()</code>，从已有贝叶斯 SVAR 后验抽样计算受情景条件更新的参数后验，支持硬条件、带噪声条件及 APR 算法，并报告权重有效样本量和 KL 散度。输入须是符合要求的等权后验抽样，情景与结构识别假设仍需论证；硬条件下某些路径散度可为无穷，不能机械比较数值。可用 <code>install.packages(&quot;APRScenario&quot;)</code> 安装，要求 R 4.1 及以上及 LAPACK。维护方另指出早期版本的多期响应递推有误，旧情景结果应按发行说明检查。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=SVAR&amp;show-results=1" title="全站搜索：SVAR">SVAR</a> · <a class="tag-link" href="?q=%E6%83%85%E6%99%AF%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：情景分析">情景分析</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E8%AE%A1%E7%AE%97&amp;show-results=1" title="全站搜索：贝叶斯计算">贝叶斯计算</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#tool-aprscenario-0-0-5-0">查看本期</a><a href="https://cran.r-project.org/package=APRScenario" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>gptr 1.1.0：在当前 R 会话中记录与回放 Agent 操作</h3>
 
@@ -67,32 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%8F%91%E7%8E%B0&amp;show-results=1" title="全站搜索：因果发现">因果发现</a> · <a class="tag-link" href="?q=%E6%97%B6%E9%97%B4%E9%A1%BA%E5%BA%8F&amp;show-results=1" title="全站搜索：时间顺序">时间顺序</a> · <a class="tag-link" href="?q=%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86&amp;show-results=1" title="全站搜索：背景知识">背景知识</a></p>
 <p class="catalog-actions"><a href="../issues/20261118/#tool-causaldisco-1-3-0">查看本期</a><a href="https://cran.r-project.org/package=causalDisco" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>tidyllm 0.8.0：在 R 中批量提出固定问题并读取模型概率</h3>
-
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>tidyllm 将不同大模型接口接入 R 工作流。0.8.0 新增 <code>decide()</code>，用预先定义的是非题、类别题或有序等级题批量分类文本，返回模型答案及相应概率，也可按接口能力处理媒体并保留失败条目。适合组织重复标注或筛选任务，问题定义和独立标注验证仍是关键，模型输出概率不自动成为已校准的可靠性证明。不同接口支持的输入与置信字段含义有所区别，调用外部服务前应确认数据可上传。可用 <code>install.packages(&quot;tidyllm&quot;)</code> 安装。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E9%97%AE%E9%A2%98&amp;show-results=1" title="全站搜索：固定问题">固定问题</a> · <a class="tag-link" href="?q=LLM%E6%8E%A5%E5%8F%A3&amp;show-results=1" title="全站搜索：LLM接口">LLM接口</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#tool-tidyllm-0-8-0">查看本期</a><a href="https://cran.r-project.org/package=tidyllm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>metaSEM 2.0：核对变量对应，更新聚类推断与模型接口</h3>
-
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>metaSEM 以结构方程模型完成元分析，也可汇总研究的相关或协方差矩阵进行元分析 SEM。2.0 扩展多组与两层模型的组合，为部分 SEM 模型增加聚类稳健推断和可指定自由度的 t 检验，并修复变量名或矩阵顺序不一致时可能误配路径、改变估计的问题。适合合并相关结构或处理研究内多效应量；升级时核对变量命名、数据与模型的对应及旧脚本传参。聚类推断须关注独立研究数，小样本不能仅加稳健标准误便认为有效。可用 <code>install.packages(&quot;metaSEM&quot;)</code> 安装，要求 R 4.2 或以上。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%85%83%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：元分析">元分析</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%96%B9%E7%A8%8B&amp;show-results=1" title="全站搜索：结构方程">结构方程</a> · <a class="tag-link" href="?q=%E8%81%9A%E7%B1%BB%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：聚类推断">聚类推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#tool-metasem-2-0">查看本期</a><a href="https://cran.r-project.org/package=metaSEM" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>nonprobsampling 0.2.0：修正多调查加权与区间计算</h3>
-
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>nonprobsampling 利用一个或多个概率参考调查，为非概率样本估计伪权重，再推断总体均值或类别比例。0.2.0 修正参考数据列名冲突导致的标准误问题及仅部分调查共享变量时的预校准，并补充系数、区间提取和求解诊断。适合整合辅助变量分散在不同调查中的数据；参与模型和辅助信息决定偏差调整效果，变量名称、类别与编码须事先统一，不能把加权等同于自动消除选择偏差。可用 <code>install.packages(&quot;nonprobsampling&quot;)</code> 安装。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E6%A6%82%E7%8E%87%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：非概率样本">非概率样本</a> · <a class="tag-link" href="?q=%E5%A4%9A%E8%B0%83%E6%9F%A5%E6%95%B4%E5%90%88&amp;show-results=1" title="全站搜索：多调查整合">多调查整合</a> · <a class="tag-link" href="?q=%E4%BC%AA%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：伪权重">伪权重</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#tool-nonprobsampling-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=nonprobsampling" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 16 页 · 共 158 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 17 页 · 共 161 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-17.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

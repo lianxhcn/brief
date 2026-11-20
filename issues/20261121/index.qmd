@@ -1,0 +1,205 @@
+---
+title: "连享会 · 快讯 | 2026.11.21"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 并购申报豁免，会遗漏哪些医疗市场变化？ {#paper-10-1086-743329}
+
+<p class="myapa">Wollmann, T. G. (2026). How to Get Away with Merger: Stealth Consolidation and Its Effects on US Dialysis. Journal of Political Economy. <a href="https://doi.org/10.1086/743329" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=How%20to%20Get%20Away%20with%20Merger%3A%20Stealth%20Consolidation%20and%20Its%20Effects%20on%20US%20Dialysis" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+并购交易低于申报门槛，是否意味着它对市场的影响也很小？文章研究美国透析行业，比较需要申报与获得豁免的并购在执法、市场集中度以及患者住院和生存指标方面的差别，并用结构模型模拟取消申报豁免的影响。作者认为，申报制度之外的交易也可能改变竞争与医疗质量。结论须结合该行业的实证设计及模型假设理解；期刊说明，公开复现资料部分使用合成数据执行代码，不能据此重现同一实证结果。
+
+标签：<a class="tag-link" href="?q=%E5%B9%B6%E8%B4%AD%E5%AE%A1%E6%9F%A5&amp;show-results=1" title="全站搜索：并购审查">并购审查</a> · <a class="tag-link" href="?q=%E5%8C%BB%E7%96%97%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：医疗质量">医疗质量</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a>
+
+<small>来源日期：2026-11-19</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 样本看得更多，为何反而觉得风险更大？ {#paper-10-1287-mnsc-2024-05050}
+
+<p class="myapa">Liu, T. &amp; Scheibehenne, B. (2026). Sample Range as Subjective Variability and Implications for Experience-Based Decision Making. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2024.05050" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Sample%20Range%20as%20Subjective%20Variability%20and%20Implications%20for%20Experience-Based%20Decision%20Making" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+描述一组数的波动时，人们主要依赖方差，还是最小值与最大值之间的距离？文章通过四项行为实验，考察样本极差如何影响主观波动判断。总体分布相同、观察更多样本时，极差通常会增大，方差并没有同样的机械关系；参与者仍可能把更大的极差理解为更高风险，进而改变对不确定收益的评价。研究为经验学习、过度自信和风险沟通提供解释，但实验中的心理机制不能直接套用于所有金融或管理决策。
+
+标签：<a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%9E%81%E5%B7%AE&amp;show-results=1" title="全站搜索：样本极差">样本极差</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%84%9F%E7%9F%A5&amp;show-results=1" title="全站搜索：风险感知">风险感知</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：经验决策">经验决策</a>
+
+<small>来源日期：2026-11-19</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### APRScenario 0.0.5.0：情景约束怎样更新 SVAR 参数后验？ {#tool-aprscenario-0-0-5-0}
+
+给定未来通胀或产出的路径，不仅会改变预测分布，也可能改变对模型参数的判断。APRScenario 0.0.5.0 新增 <code>wz_posterior()</code>，从已有贝叶斯 SVAR 后验抽样计算受情景条件更新的参数后验，支持硬条件、带噪声条件及 APR 算法，并报告权重有效样本量和 KL 散度。输入须是符合要求的等权后验抽样，情景与结构识别假设仍需论证；硬条件下某些路径散度可为无穷，不能机械比较数值。可用 <code>install.packages(&quot;APRScenario&quot;)</code> 安装，要求 R 4.1 及以上及 LAPACK。维护方另指出早期版本的多期响应递推有误，旧情景结果应按发行说明检查。
+
+标签：<a class="tag-link" href="?q=SVAR&amp;show-results=1" title="全站搜索：SVAR">SVAR</a> · <a class="tag-link" href="?q=%E6%83%85%E6%99%AF%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：情景分析">情景分析</a> · <a class="tag-link" href="?q=%E8%B4%9D%E5%8F%B6%E6%96%AF%E8%AE%A1%E7%AE%97&amp;show-results=1" title="全站搜索：贝叶斯计算">贝叶斯计算</a>
+
+<small>来源日期：2026-11-20</small>
+
+<a href="https://cran.r-project.org/package=APRScenario" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### weird 3.2.0：异常分数为何会随近邻定义改变？ {#tool-weird-3-2-0}
+
+异常检测结果依赖邻域和概率模型的具体定义。weird 3.2.0 将 <code>glosh_scores()</code> 和 <code>lof_scores()</code> 的近邻改为不包含观测自身，因此分数会与旧版不同；<code>lof_scores()</code> 也不再把无穷值改成 1。新版本加入类别数据的惊异度计算，并改进混合分布及尾部概率的数值处理。它是 Rob Hyndman 异常检测教材的配套工具，可用 <code>install.packages(&quot;weird&quot;)</code> 安装，要求 R 4.1 及以上。高异常分数只是排查线索，仍须结合数据生成过程判断，不能直接认定记录错误。
+
+标签：<a class="tag-link" href="?q=%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B&amp;show-results=1" title="全站搜索：异常检测">异常检测</a> · <a class="tag-link" href="?q=%E8%BF%91%E9%82%BB%E6%96%B9%E6%B3%95&amp;show-results=1" title="全站搜索：近邻方法">近邻方法</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：数据质量">数据质量</a>
+
+<small>来源日期：2026-11-20</small>
+
+<a href="https://cran.r-project.org/package=weird" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 责任投资承诺，能否改善市场上的信息？ {#paper-10-1287-mnsc-2024-08443}
+
+<p class="myapa">Agarwal, S., Sulaeman, J., Zhang, Y., &amp; Zong, Z. (2026). Do Fund Managers’ Commitments to Responsible Investing Affect Private Information Acquisition, Information Environment, and Corporate Sustainability? Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2024.08443" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Do%20Fund%20Managers%E2%80%99%20Commitments%20to%20Responsible%20Investing%20Affect%20Private%20Information%20Acquisition%2C%20Information%20Environment%2C%20and%20Corporate%20Sustainability%3F" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+基金承诺责任投资之后，除了调整持仓，还会怎样收集信息？文章考察基金经理的企业实地访问，发现作出联合国责任投资原则承诺之后，环境与社会议题相关调研增加，随后股票层面的分析师一致预测误差下降，受访企业的可持续实践也有改善。作者同时指出，这些访问给基金自身带来的投资价值有限。研究有助于区分私人收益与信息外部性；结论须结合承诺与访问的选择机制理解，不能直接外推为普遍政策效果。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A3%E4%BB%BB%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：责任投资">责任投资</a> · <a class="tag-link" href="?q=%E5%AE%9E%E5%9C%B0%E8%B0%83%E7%A0%94&amp;show-results=1" title="全站搜索：实地调研">实地调研</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：信息环境">信息环境</a>
+
+<small>来源日期：2026-11-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 人觉得难的选择题，和算法判断的一样吗？ {#paper-10-1287-mnsc-2023-00747}
+
+<p class="myapa">Agarwal, S., Goh, J., Qian, W., &amp; Zou, X. (2026). Human Performance at Solving 0-1 Knapsack Problems: Results from a Large-Scale Field Experiment. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2023.00747" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Human%20Performance%20at%20Solving%200-1%20Knapsack%20Problems%3A%20Results%20from%20a%20Large-Scale%20Field%20Experiment" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+在容量有限时选择价值最高的物品，是经典的 0-1 背包问题。文章与移动游戏平台合作，把预先设计的题目随机分配到玩家的作答机会，比较人的表现与不同题目难度指标。作者发现，一些传统指标判定较难的题目，玩家反而表现更好；启发式算法与最优解之间的差距可能更贴近人的困难程度。研究还讨论重复练习与后续表现的关系。证据来自特定游戏任务，不能直接推广为所有人的决策能力或一般算法性能排序。
+
+标签：<a class="tag-link" href="?q=%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98&amp;show-results=1" title="全站搜索：背包问题">背包问题</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E9%97%AE%E9%A2%98%E9%9A%BE%E5%BA%A6&amp;show-results=1" title="全站搜索：问题难度">问题难度</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 信息网络中的中心人，一定会主动搜集信息吗？ {#paper-10-1287-mnsc-2024-07308}
+
+<p class="myapa">Moisan, F., Choi, S., &amp; Goyal, S. (2026). Connectors and Influencers. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2024.07308" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Connectors%20and%20Influencers" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+如果自己搜集信息需要成本，维持分享信息的关系也需要成本，群体会形成怎样的网络？文章结合理论与不同规模的群体实验，发现星状网络较常见，但处于中心位置的人未必始终积极搜集信息。群体规模以及参与者能看到的收益信息，会影响中心人的活跃程度，进而关联群体表现与收益分配。它提醒研究者区分网络位置和实际信息生产；受控任务中的机制不等于任何组织都应设置单一中心。
+
+标签：<a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：信息网络">信息网络</a> · <a class="tag-link" href="?q=%E4%B8%AD%E5%BF%83%E8%8A%82%E7%82%B9&amp;show-results=1" title="全站搜索：中心节点">中心节点</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：实验研究">实验研究</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 新闻网站的竞争，为何可能伴随更多观点化报道？ {#paper-10-1287-mnsc-2025-01487}
+
+<p class="myapa">Chatterji, A., Hasan, S., Miles, W. D., &amp; Shvadron, D. (2026). Opinion Trumps Fact: Entry and Competition in Online Political News. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2025.01487" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Opinion%20Trumps%20Fact%3A%20Entry%20and%20Competition%20in%20Online%20Political%20News" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+报道同一事件，不同新闻网站为何会采用不同程度的评论性与说服性语言？文章以2014—2021年美国在线政治新闻为对象，构造文章观点化指标，报告新进入者的报道更偏观点表达。此类内容与更多社交互动和网页访问相联系，作者据此讨论广告和竞争激励，也观察到它与愤怒及仇恨表达的关联。研究提供文本测量与媒体商业模式的分析思路；这些相关证据不能直接证明竞争导致内容失真，也不能把观点程度等同于事实错误。
+
+标签：<a class="tag-link" href="?q=%E6%96%B0%E9%97%BB%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：新闻竞争">新闻竞争</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：平台激励">平台激励</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 二阶正交的统计成本：去偏估计要付出多少方差？ {#paper-arxiv-2611-25702}
+
+<p class="myapa">Escanciano, J. C. &amp; Terschuur, J. R. (2026). The statistical cost of second-order orthogonality. arXiv. <a href="https://arxiv.org/abs/2611.25702v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.25702.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=The%20statistical%20cost%20of%20second-order%20orthogonality" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+去偏机器学习消除了干扰函数估计的一阶影响，剩余二次偏差仍可能妨碍推断。文章以抵消二次敏感性所需修正的最小方差衡量二阶正交的统计成本，并联合选择矩条件与修正；一阶有效的矩未必使总方差最小。作者还研究精确修正成本无限时的部分消偏，在方差膨胀约束下选择修正程度。相关推断依赖文中的模型、正则及自适应选择条件，不能据此认定二阶方法普遍优于一阶方法。
+
+标签：<a class="tag-link" href="?q=%E5%8E%BB%E5%81%8F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：去偏机器学习">去偏机器学习</a> · <a class="tag-link" href="?q=%E4%BA%8C%E9%98%B6%E6%AD%A3%E4%BA%A4&amp;show-results=1" title="全站搜索：二阶正交">二阶正交</a> · <a class="tag-link" href="?q=%E5%81%8F%E5%B7%AE%E6%96%B9%E5%B7%AE%E6%9D%83%E8%A1%A1&amp;show-results=1" title="全站搜索：偏差方差权衡">偏差方差权衡</a>
+
+<small>来源日期：2026-11-19</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 比较不同人群的 LATE，是否混入了服从者构成变化？ {#paper-arxiv-2611-25253}
+
+<p class="myapa">Huber, M. &amp; Lee, Y.-Y. (2026). Informative local average treatment effects using propensity scores. arXiv. <a href="https://arxiv.org/abs/2611.25253v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.25253.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Informative%20local%20average%20treatment%20effects%20using%20propensity%20scores" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+不同协变量人群的局部平均处理效应出现差异，既可能来自效应异质性，也可能来自服从者构成变化。文章对感兴趣的协变量及二元工具变量两种取值下的处理倾向得分作条件化，固定驱动处理选择与服从的未观测区间；未被条件化的协变量构成仍可变化。估计结合交叉拟合、双重稳健得分与局部线性回归，并以 Job Corps 培训作说明。识别和点态推断仍需要条件 IV、支持域、欠平滑及正则条件，不能把它理解为对任意人群都可外推的平均效应。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：局部处理效应">局部处理效应</a> · <a class="tag-link" href="?q=%E5%80%BE%E5%90%91%E5%BE%97%E5%88%86&amp;show-results=1" title="全站搜索：倾向得分">倾向得分</a>
+
+<small>来源日期：2026-11-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 医疗与教育支出的短期财政乘数：利用选举预算周期识别 {#paper-wb-wps11499}
+
+<p class="myapa">Francois, J. N. D., Kouame, W. A., &amp; Ruch, F. U. (2026). Fiscal multipliers of government health and education expenditures: Evidence from electoral budget cycles. World Bank. <a href="https://doi.org/10.1596/1813-9450-11499" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Fiscal%20multipliers%20of%20government%20health%20and%20education%20expenditures%3A%20Evidence%20from%20electoral%20budget%20cycles" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+政府医疗和教育支出除了长期的人力资本收益，能否在短期带动产出？文章利用发展中国家的预算与选举安排，把事先通过的预算额度同预定选举时间相互作用，构造相关支出变化的工具变量，并考察不同经济状态与制度环境下的乘数差异。识别仍依赖工具变量的有效性；如果选举周期通过其他路径直接影响产出，排除限制就需要进一步论证。研究针对特定支出类别和样本，不能把其估计直接套用于所有财政项目。
+
+标签：<a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E4%B9%98%E6%95%B0&amp;show-results=1" title="全站搜索：财政乘数">财政乘数</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E9%80%89%E4%B8%BE%E5%91%A8%E6%9C%9F&amp;show-results=1" title="全站搜索：选举周期">选举周期</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### ale 0.6.0：为已有模型解释补充统计量与检验 {#tool-ale-0-6-0}
+
+累积局部效应(ALE)用于解释模型预测随特征变化的规律。ale 0.6.0 新增 <code>append_stats()</code> 和 <code>append_p()</code>，可在已有 ALE 结果上补算统计量或附加由显式参考分布计算的 p 值，不必重新计算 ALE。若要补算 Bootstrap 统计量，原对象须保留逐次重抽样数据；平均曲线和逐点置信区间不能替代这些记录。参考分布须单独生成并满足相应模型与尺度条件，不能把显著的预测关联直接解释为因果效应。可用 <code>install.packages(&quot;ale&quot;)</code> 安装，要求 R 4.2 及以上。
+
+标签：<a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E8%A7%A3%E9%87%8A&amp;show-results=1" title="全站搜索：模型解释">模型解释</a> · <a class="tag-link" href="?q=ALE&amp;show-results=1" title="全站搜索：ALE">ALE</a> · <a class="tag-link" href="?q=Bootstrap&amp;show-results=1" title="全站搜索：Bootstrap">Bootstrap</a>
+
+<small>来源日期：2026-11-21</small>
+
+<a href="https://cran.r-project.org/package=ale" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

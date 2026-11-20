@@ -8,9 +8,81 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 63 页 · 共 624 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-63.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 64 页 · 共 633 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-64.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>责任投资承诺，能否改善市场上的信息？</h3>
+<p class="catalog-citation">Agarwal, S. et al. (2026). Do Fund Managers’ Commitments to Responsible Investing Affect Private Information Acquisition, Information Environment, and Corporate Sustainability? Management Science.</p><p class="catalog-meta">发表日期：2026-11-16</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>基金承诺责任投资之后，除了调整持仓，还会怎样收集信息？文章考察基金经理的企业实地访问，发现作出联合国责任投资原则承诺之后，环境与社会议题相关调研增加，随后股票层面的分析师一致预测误差下降，受访企业的可持续实践也有改善。作者同时指出，这些访问给基金自身带来的投资价值有限。研究有助于区分私人收益与信息外部性；结论须结合承诺与访问的选择机制理解，不能直接外推为普遍政策效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A3%E4%BB%BB%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：责任投资">责任投资</a> · <a class="tag-link" href="?q=%E5%AE%9E%E5%9C%B0%E8%B0%83%E7%A0%94&amp;show-results=1" title="全站搜索：实地调研">实地调研</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%8E%AF%E5%A2%83&amp;show-results=1" title="全站搜索：信息环境">信息环境</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2024-08443">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.08443" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>比较不同人群的 LATE，是否混入了服从者构成变化？</h3>
+<p class="catalog-citation">Huber, M.; Lee, Y.-Y. (2026). Informative local average treatment effects using propensity scores. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-18</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>不同协变量人群的局部平均处理效应出现差异，既可能来自效应异质性，也可能来自服从者构成变化。文章对感兴趣的协变量及二元工具变量两种取值下的处理倾向得分作条件化，固定驱动处理选择与服从的未观测区间；未被条件化的协变量构成仍可变化。估计结合交叉拟合、双重稳健得分与局部线性回归，并以 Job Corps 培训作说明。识别和点态推断仍需要条件 IV、支持域、欠平滑及正则条件，不能把它理解为对任意人群都可外推的平均效应。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：局部处理效应">局部处理效应</a> · <a class="tag-link" href="?q=%E5%80%BE%E5%90%91%E5%BE%97%E5%88%86&amp;show-results=1" title="全站搜索：倾向得分">倾向得分</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-arxiv-2611-25253">查看本期</a><a href="https://arxiv.org/abs/2611.25253v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>样本看得更多，为何反而觉得风险更大？</h3>
+<p class="catalog-citation">Liu, T.; Scheibehenne, B. (2026). Sample Range as Subjective Variability and Implications for Experience-Based Decision Making. Management Science.</p><p class="catalog-meta">发表日期：2026-11-19</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>描述一组数的波动时，人们主要依赖方差，还是最小值与最大值之间的距离？文章通过四项行为实验，考察样本极差如何影响主观波动判断。总体分布相同、观察更多样本时，极差通常会增大，方差并没有同样的机械关系；参与者仍可能把更大的极差理解为更高风险，进而改变对不确定收益的评价。研究为经验学习、过度自信和风险沟通提供解释，但实验中的心理机制不能直接套用于所有金融或管理决策。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%9E%81%E5%B7%AE&amp;show-results=1" title="全站搜索：样本极差">样本极差</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%84%9F%E7%9F%A5&amp;show-results=1" title="全站搜索：风险感知">风险感知</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：经验决策">经验决策</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2024-05050">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.05050" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>新闻网站的竞争，为何可能伴随更多观点化报道？</h3>
+<p class="catalog-citation">Chatterji, A. et al. (2026). Opinion Trumps Fact: Entry and Competition in Online Political News. Management Science.</p><p class="catalog-meta">发表日期：2026-11-17</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>报道同一事件，不同新闻网站为何会采用不同程度的评论性与说服性语言？文章以2014—2021年美国在线政治新闻为对象，构造文章观点化指标，报告新进入者的报道更偏观点表达。此类内容与更多社交互动和网页访问相联系，作者据此讨论广告和竞争激励，也观察到它与愤怒及仇恨表达的关联。研究提供文本测量与媒体商业模式的分析思路；这些相关证据不能直接证明竞争导致内容失真，也不能把观点程度等同于事实错误。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%B0%E9%97%BB%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：新闻竞争">新闻竞争</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：平台激励">平台激励</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2025-01487">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.01487" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>并购申报豁免，会遗漏哪些医疗市场变化？</h3>
+<p class="catalog-citation">Wollmann, T. G. (2026). How to Get Away with Merger: Stealth Consolidation and Its Effects on US Dialysis. JPE.</p><p class="catalog-meta">发表日期：2026-11-19</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>并购交易低于申报门槛，是否意味着它对市场的影响也很小？文章研究美国透析行业，比较需要申报与获得豁免的并购在执法、市场集中度以及患者住院和生存指标方面的差别，并用结构模型模拟取消申报豁免的影响。作者认为，申报制度之外的交易也可能改变竞争与医疗质量。结论须结合该行业的实证设计及模型假设理解；期刊说明，公开复现资料部分使用合成数据执行代码，不能据此重现同一实证结果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B6%E8%B4%AD%E5%AE%A1%E6%9F%A5&amp;show-results=1" title="全站搜索：并购审查">并购审查</a> · <a class="tag-link" href="?q=%E5%8C%BB%E7%96%97%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：医疗质量">医疗质量</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1086-743329">查看本期</a><a href="https://doi.org/10.1086/743329" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>医疗与教育支出的短期财政乘数：利用选举预算周期识别</h3>
+<p class="catalog-citation">Francois, J. N. D.; Kouame, W. A.; Ruch, F. U. (2026). Fiscal multipliers of government health and education expenditures: Evidence from electoral budget cycles. World Bank (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>政府医疗和教育支出除了长期的人力资本收益，能否在短期带动产出？文章利用发展中国家的预算与选举安排，把事先通过的预算额度同预定选举时间相互作用，构造相关支出变化的工具变量，并考察不同经济状态与制度环境下的乘数差异。识别仍依赖工具变量的有效性；如果选举周期通过其他路径直接影响产出，排除限制就需要进一步论证。研究针对特定支出类别和样本，不能把其估计直接套用于所有财政项目。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E4%B9%98%E6%95%B0&amp;show-results=1" title="全站搜索：财政乘数">财政乘数</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E9%80%89%E4%B8%BE%E5%91%A8%E6%9C%9F&amp;show-results=1" title="全站搜索：选举周期">选举周期</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-wb-wps11499">查看本期</a><a href="http://documents.worldbank.org/curated/en/099047311132640193" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>信息网络中的中心人，一定会主动搜集信息吗？</h3>
+<p class="catalog-citation">Moisan, F.; Choi, S.; Goyal, S. (2026). Connectors and Influencers. Management Science.</p><p class="catalog-meta">发表日期：2026-11-17</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>如果自己搜集信息需要成本，维持分享信息的关系也需要成本，群体会形成怎样的网络？文章结合理论与不同规模的群体实验，发现星状网络较常见，但处于中心位置的人未必始终积极搜集信息。群体规模以及参与者能看到的收益信息，会影响中心人的活跃程度，进而关联群体表现与收益分配。它提醒研究者区分网络位置和实际信息生产；受控任务中的机制不等于任何组织都应设置单一中心。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：信息网络">信息网络</a> · <a class="tag-link" href="?q=%E4%B8%AD%E5%BF%83%E8%8A%82%E7%82%B9&amp;show-results=1" title="全站搜索：中心节点">中心节点</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：实验研究">实验研究</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2024-07308">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07308" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>人觉得难的选择题，和算法判断的一样吗？</h3>
+<p class="catalog-citation">Agarwal, S. et al. (2026). Human Performance at Solving 0-1 Knapsack Problems: Results from a Large-Scale Field Experiment. Management Science.</p><p class="catalog-meta">发表日期：2026-11-17</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>在容量有限时选择价值最高的物品，是经典的 0-1 背包问题。文章与移动游戏平台合作，把预先设计的题目随机分配到玩家的作答机会，比较人的表现与不同题目难度指标。作者发现，一些传统指标判定较难的题目，玩家反而表现更好；启发式算法与最优解之间的差距可能更贴近人的困难程度。研究还讨论重复练习与后续表现的关系。证据来自特定游戏任务，不能直接推广为所有人的决策能力或一般算法性能排序。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98&amp;show-results=1" title="全站搜索：背包问题">背包问题</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E9%97%AE%E9%A2%98%E9%9A%BE%E5%BA%A6&amp;show-results=1" title="全站搜索：问题难度">问题难度</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2023-00747">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.00747" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>二阶正交的统计成本：去偏估计要付出多少方差？</h3>
+<p class="catalog-citation">Escanciano, J. C.; Terschuur, J. R. (2026). The statistical cost of second-order orthogonality. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-19</p>
+<p class="catalog-meta">期次日期：2026-11-21</p>
+<p>去偏机器学习消除了干扰函数估计的一阶影响，剩余二次偏差仍可能妨碍推断。文章以抵消二次敏感性所需修正的最小方差衡量二阶正交的统计成本，并联合选择矩条件与修正；一阶有效的矩未必使总方差最小。作者还研究精确修正成本无限时的部分消偏，在方差膨胀约束下选择修正程度。相关推断依赖文中的模型、正则及自适应选择条件，不能据此认定二阶方法普遍优于一阶方法。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8E%BB%E5%81%8F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：去偏机器学习">去偏机器学习</a> · <a class="tag-link" href="?q=%E4%BA%8C%E9%98%B6%E6%AD%A3%E4%BA%A4&amp;show-results=1" title="全站搜索：二阶正交">二阶正交</a> · <a class="tag-link" href="?q=%E5%81%8F%E5%B7%AE%E6%96%B9%E5%B7%AE%E6%9D%83%E8%A1%A1&amp;show-results=1" title="全站搜索：偏差方差权衡">偏差方差权衡</a></p>
+<p class="catalog-actions"><a href="../issues/20261121/#paper-arxiv-2611-25702">查看本期</a><a href="https://arxiv.org/abs/2611.25702v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>风险投资机构如何帮助创业者流向下一家企业？</h3>
 <p class="catalog-citation">Hu, Z. (2026). Redeploying the Jockeys: The Intermediary Role of Venture Capital in Entrepreneurial Labor Markets. Management Science.</p><p class="catalog-meta">发表日期：2026-11-12</p>
@@ -19,80 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：风险投资">风险投资</a> · <a class="tag-link" href="?q=%E4%BA%BA%E6%89%8D%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：人才流动">人才流动</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：信息中介">信息中介</a></p>
 <p class="catalog-actions"><a href="../issues/20261120/#paper-10-1287-mnsc-2023-01626">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.01626" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>随机实验中的回归调整，如何减少样本重复使用偏差？</h3>
-<p class="catalog-citation">Su, F. et al. (2026). A decorrelation method for general regression adjustment in randomized experiments. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>随机实验中用回归调整提高估计精度时，同一批样本参与拟合和效应估计，会带来怎样的偏差？文章在基于实验设计的平均处理效应框架下，提出适用于一般回归函数类的去相关方法，讨论样本重复使用、估计误差与区间推断之间的关系，并以高维和非参数问题说明其用途。方法的推断结论有对应的随机化与函数类条件，不能据此认定任意机器学习拟合都能自动给出有效置信区间。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：回归调整">回归调整</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：平均处理效应">平均处理效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-10-1093-jrsssb-qkag145">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag145" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>结果是一条曲线或一张网络，断点设计怎样定义效应？</h3>
-<p class="catalog-citation">Kurisu, D. et al. (2026). Regression discontinuity designs for functional data and random objects in geodesic spaces. Journal of the Royal Statistical Society Series B: Statistical Methodology.</p><p class="catalog-meta">发表日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>当政策结果是一条污染浓度曲线、一组份额或一张网络时，传统断点设计中相减求效应的做法未必能直接套用。文章把断点设计扩展到测地度量空间中的随机对象，以处理组和对照组局部 Fréchet 均值之间的测地线表示截点效应，并讨论局部回归、空间嵌入和 Bootstrap 推断。应用涉及投票构成和污染曲线，也讨论不完全服从的情形。几何扩展服务于复杂结果的比较，因果解释仍须满足相应断点设计条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：断点设计">断点设计</a> · <a class="tag-link" href="?q=%E5%87%BD%E6%95%B0%E5%9E%8B%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：函数型数据">函数型数据</a> · <a class="tag-link" href="?q=%E9%9D%9E%E6%AC%A7%E5%BC%8F%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：非欧式结果">非欧式结果</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-10-1093-jrsssb-qkag143">查看本期</a><a href="https://doi.org/10.1093/jrsssb/qkag143" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>生物多样性风险是否进入了公司债价格？</h3>
-<p class="catalog-citation">Soylemezgil, S.; Uzmanoglu, C. (2026). Biodiversity Risk in the Corporate Bond Market. Management Science.</p><p class="catalog-meta">发表日期：2026-11-16</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>企业对自然生态的影响与依赖，是否已反映在融资成本中？文章以联合国生物多样性大会前后为背景，研究美国公司债的定价与发行。作者发现，大会之后，较高的企业生物多样性足迹与较高的信用利差相连，这种联系在部分期限债券中更明显，并讨论其与气候风险的区别。研究把自然风险带入债券分析，但大会前后的观察比较不能简单理解为随机实验，也不能直接用于所有市场的债券估值。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7&amp;show-results=1" title="全站搜索：生物多样性">生物多样性</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA&amp;show-results=1" title="全站搜索：公司债">公司债</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E5%88%A9%E5%B7%AE&amp;show-results=1" title="全站搜索：信用利差">信用利差</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-10-1287-mnsc-2024-07660">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07660" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>模糊 DID 的 Wald 比值何时具有因果含义？</h3>
-<p class="catalog-citation">Picchetti, P. (2026). Design-based inference for fuzzy difference-in-differences. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-18</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>模糊 DID 中，政策分配与实际接受处理并不完全一致，Wald 比值也未必直接等于服从者效应。文章从设计型视角出发，把潜在结果和处理决定固定、政策分配看作随机，分解这一目标量可能包含的服从者效应及其他成分，并给出具有因果解释的条件。作者提出 Anderson–Rubin 型检验、保守方差与敏感性分析，以处理弱一阶段问题。检验的有效性仍以相应的分配机制和方差条件为前提，不能把弱一阶段稳健理解为免除设计假设。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%A8%A1%E7%B3%8ADID&amp;show-results=1" title="全站搜索：模糊DID">模糊DID</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：弱工具变量">弱工具变量</a> · <a class="tag-link" href="?q=%E8%AE%BE%E8%AE%A1%E5%9E%8B%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：设计型推断">设计型推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-arxiv-2611-24402">查看本期</a><a href="https://arxiv.org/abs/2611.24402v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>援助交付的最后一公里：组织能力与一线人员</h3>
-<p class="catalog-citation">Deserranno, E.; Guariso, A.; Qian, N. (2026). Last-mile delivery and the future of aid. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>援助项目的资金安排之外，还要问医疗、教育等服务能否抵达目标人群。这篇综述围绕两类问题组织既有证据：非政府组织等非国家提供者扩张后，政府的服务能力与跨机构协调如何变化；直接服务受益者的一线人员，应如何选拔、激励与管理。它为项目评估提供组织能力和执行环节的检查框架。不同地区和服务类别的证据不能直接合并为统一援助效果，也不宜将综述当成一项新的随机实验。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%8F%B4%E5%8A%A9%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：援助评估">援助评估</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E6%9C%8D%E5%8A%A1&amp;show-results=1" title="全站搜索：公共服务">公共服务</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-nber-w36012">查看本期</a><a href="https://www.nber.org/papers/w36012" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>年度收入平稳，为什么月月工资仍会波动？</h3>
-<p class="catalog-citation">Ganong, P. et al. (2026). Earnings Instability. QJE.</p><p class="catalog-meta">发表日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>年度收入看起来平稳，是否就意味着家庭每个月都能拿到稳定工资？文章利用美国高频行政数据，考察持续雇佣关系中的月度工资变化。作者发现，年度统计会掩盖月度收入的不稳定，低收入、按小时计酬的劳动者面临更大波动，企业安排的工时变化占有重要位置。文章还讨论收入不稳定与消费波动、离职之间的联系。研究提示，理解家庭财务压力需要观察工资到账的时间结构，不能只看全年收入总额；这些联系也不应直接解释为某项政策的因果效果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：工资波动">工资波动</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E6%94%B6%E5%85%A5&amp;show-results=1" title="全站搜索：劳动收入">劳动收入</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：高频数据">高频数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-10-1093-qje-qjag059">查看本期</a><a href="https://doi.org/10.1093/qje/qjag059" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>Probit 工具变量不完全外生时，怎样做敏感性分析？</h3>
-<p class="catalog-citation">Taylor, L.; Wulff, J. N. (2026). Plausibly exogenous instruments in probit models: Sensitivity bounds for average partial and interaction effects. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>工具变量可能并非完全外生时，线性模型中的敏感性区间未必适合二元结果的概率效应。文章将可信外生框架扩展到控制函数 Probit，考察平均偏效应与交互效应，并给出相关区间及覆盖条件。作者强调，外生性偏离须放在正确的潜在尺度上设定，否则可能误校准区间；研究附有 Stata 与 R 实现。方法仍依赖控制函数模型、偏离范围和校准条件，不能仅凭有配套程序就认定工具变量有效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=Probit&amp;show-results=1" title="全站搜索：Probit">Probit</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-arxiv-2611-23438">查看本期</a><a href="https://arxiv.org/abs/2611.23438v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>银行改名能否缓解负面声誉冲击？</h3>
-<p class="catalog-citation">Jaremski, M.; Mitchener, K. J.; Rieder, K. (2026). Banking on a corporate rebrand. Management Science.</p><p class="catalog-meta">发表日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-19</p>
-<p>负面舆论冲击之后，企业改名能否改善处境？文章以美国一战时期德语名称银行为历史场景，比较反德情绪冲击后保留原名与改名银行的资产、存款和市场份额变化。作者报告，改名银行受到的不利变化较小，并讨论新名称的类型与结果之间的关系。研究提供了危机品牌调整的历史证据；是否改名并非简单随机决定，不能把这一制度背景下的比较理解为所有企业换名字都会奏效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%93%81%E7%89%8C%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：品牌调整">品牌调整</a> · <a class="tag-link" href="?q=%E5%A3%B0%E8%AA%89%E5%86%B2%E5%87%BB&amp;show-results=1" title="全站搜索：声誉冲击">声誉冲击</a> · <a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%BB%8F%E8%90%A5&amp;show-results=1" title="全站搜索：银行经营">银行经营</a></p>
-<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1287-mnsc-2025-03635">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.03635" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>负面环境与社会事件之后，消费者和企业怎样回应？</h3>
-<p class="catalog-citation">Xiao, Z.; Zheng, X.; Zheng, Y. (2026). From incidents to outcomes: consumer reactions and firm responses to negative environmental and social practices. Review of Accounting Studies.</p><p class="catalog-meta">发表日期：2026-11-14</p>
-<p class="catalog-meta">期次日期：2026-11-19</p>
-<p>企业环境或社会事件的负面报道，会带来怎样的消费反应？文章把 SafeGraph 高频门店访问数据与 RepRisk 事件记录相连，考察事件之后的到店行为、企业信息披露和广告支出。作者报告，平均到店量有所下降，不同消费群体和市场环境下的反应存在差异，企业短期自愿披露减少，较长期广告增加。门店访问并不等于销售额，地区差异也不能直接解释为个人偏好的因果效果，结论应结合数据覆盖和事件识别口径阅读。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E5%8F%8D%E5%BA%94&amp;show-results=1" title="全站搜索：消费者反应">消费者反应</a> · <a class="tag-link" href="?q=%E4%BC%81%E4%B8%9A%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：企业披露">企业披露</a> · <a class="tag-link" href="?q=%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%A4%BE%E4%BC%9A%E4%BA%8B%E4%BB%B6&amp;show-results=1" title="全站搜索：环境与社会事件">环境与社会事件</a></p>
-<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1007-s11142-026-09998-5">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09998-5" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 63 页 · 共 624 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-63.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 64 页 · 共 633 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-64.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.11.21
+
+📰 01｜论文 · JPE：并购申报豁免，会遗漏哪些医疗市场变化？
+小额并购可能不必事前申报，却仍会改变医疗市场。文章以美国透析行业比较申报豁免、执法和医疗质量，并用结构模型模拟制度变化；结论依赖行业证据与模型条件。
+引文：Wollmann (2026). How to Get Away with Merger: Stealth Consolidation and Its Effects on US Dialysis. JPE.
+主页： https://www.journals.uchicago.edu/doi/10.1086/743329 
+
+📰 02｜论文 · Management Science：样本看得更多，为何反而觉得风险更大？
+同一分布抽到更多样本，人为何可能觉得更不稳定？四项行为实验考察极差与方差冲突时的判断，提示样本范围会影响风险感知和经验决策，适用边界仍须结合实验任务。
+引文：Liu & Scheibehenne (2026). Sample Range as Subjective Variability and Implications for Experience-Based Decision Making. Management Science, forthcoming.
+主页： https://pubsonline.informs.org/doi/10.1287/mnsc.2024.05050 
+
+📦 03｜软件 · R：APRScenario 0.0.5.0：情景约束怎样更新 SVAR 参数后验？
+新增函数让情景约束同时更新 SVAR 参数后验，支持三类条件处理，并提供权重有效样本量与 KL 诊断。它复用已有抽样，仍依赖模型、结构识别和条件设定；旧版本多期结果需按维护方说明检查。
+版本：R / APRScenario 0.0.5.0；发布：2026-11-20
+CRAN： https://cran.r-project.org/package=APRScenario 
+
+📦 04｜软件 · R：weird 3.2.0：异常分数为何会随近邻定义改变？
+近邻不再包含自身，LOF 的无穷值也不再被替换为 1，因此升级会改变部分异常分数。新版本还支持类别惊异度并修复数值问题；异常分数用于排查，不直接证明数据有错。
+版本：R / weird 3.2.0；发布：2026-11-20
+CRAN： https://cran.r-project.org/package=weird 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261121/ 
