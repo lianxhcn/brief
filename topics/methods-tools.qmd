@@ -8,9 +8,33 @@ title: "新方法"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 16 页 · 共 155 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 16 页 · 共 158 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>gptr 1.1.0：在当前 R 会话中记录与回放 Agent 操作</h3>
+
+<p class="catalog-meta">期次日期：2026-11-20</p>
+<p>gptr 让语言模型在当前 R 会话中读取对象、执行代码并保存分析过程，可将已执行代码记录到脚本或研究文档后回放。1.1.0 调整工具调用与检查点开销，并修正撤销时的对象冲突检测等问题；维护者的速度比较不等于跨环境保证。要求 R 4.2 及以上，可用 <code>install.packages(&quot;gptr&quot;)</code> 安装，并另行配置模型接口、CLI 或本地 Ollama。权限检查是提示性保护，不提供隔离环境；远程模型可能接收数据预览，回放代码也会重现其副作用。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=R%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：R 工作流">R 工作流</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%94%BE&amp;show-results=1" title="全站搜索：代码回放">代码回放</a></p>
+<p class="catalog-actions"><a href="../issues/20261120/#tool-gptr-1-1-0">查看本期</a><a href="https://cran.r-project.org/package=gptr" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>fbrglm 0.2.0：正则化回归的秩亏与因子水平处理</h3>
+
+<p class="catalog-meta">期次日期：2026-11-20</p>
+<p>fbrglm 在 glmnet 外提供公式接口，保存训练时的因子水平与对比编码，便于在预测时重建一致的设计矩阵。0.2.0 新增 <code>rank_policy</code>：默认先删除线性相关列，而 <code>keep</code> 将完整设计交给惩罚估计；高维情形尤其需要留意这种差别。当前仅实现 <code>infer=&quot;none&quot;</code>，不提供选择后推断；Cox、多项及多响应路径仍属实验支持。可用 <code>install.packages(&quot;fbrglm&quot;)</code> 安装，另依赖 glmnet 等包。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：正则化回归">正则化回归</a> · <a class="tag-link" href="?q=%E8%AE%BE%E8%AE%A1%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：设计矩阵">设计矩阵</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E7%BC%96%E7%A0%81&amp;show-results=1" title="全站搜索：因子编码">因子编码</a></p>
+<p class="catalog-actions"><a href="../issues/20261120/#tool-fbrglm-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=fbrglm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>CGEMOD 2.0.0：从社会核算矩阵比较政策情景</h3>
+
+<p class="catalog-meta">期次日期：2026-11-20</p>
+<p>CGEMOD 以社会核算矩阵(SAM)校准单国开放经济的一般均衡模型，可比较取消关税、世界价格变化及不同汇率闭合方式下的情景，并导出宏观和住户结果。文档区分弹性估计的回归诊断与校准模型的均衡、敏感性检查，适合已有 SAM 与 CGE 基础的读者。情景结论依赖账户结构、替代弹性及宏观闭合假设，不等同于从观察数据识别的政策因果效应。当前帮助文件标为 2.0.0(11 月 15 日)，可用 <code>ssc install cgemod</code> 安装；ado 要求 Stata 15 及以上。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E6%A0%B8%E7%AE%97%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：社会核算矩阵">社会核算矩阵</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E6%83%85%E6%99%AF&amp;show-results=1" title="全站搜索：政策情景">政策情景</a></p>
+<p class="catalog-actions"><a href="../issues/20261120/#tool-cgemod-2-0-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460034.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>coresynth 1.2.0：多种合成控制估计与推断的重要修正</h3>
 
@@ -67,32 +91,8 @@ title: "新方法"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9D%9E%E6%A6%82%E7%8E%87%E6%A0%B7%E6%9C%AC&amp;show-results=1" title="全站搜索：非概率样本">非概率样本</a> · <a class="tag-link" href="?q=%E5%A4%9A%E8%B0%83%E6%9F%A5%E6%95%B4%E5%90%88&amp;show-results=1" title="全站搜索：多调查整合">多调查整合</a> · <a class="tag-link" href="?q=%E4%BC%AA%E6%9D%83%E9%87%8D&amp;show-results=1" title="全站搜索：伪权重">伪权重</a></p>
 <p class="catalog-actions"><a href="../issues/20261116/#tool-nonprobsampling-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=nonprobsampling" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>easyViz 2.2.0：为回归预测图选择协方差估计</h3>
-
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>easyViz 为回归模型绘制条件预测与区间。2.2.0 将原先针对稳健回归的协方差接口推广为 vcov，可接收兼容的 sandwich 名称、自定义矩阵或函数，并统一部分模型的 Delta 法标准误计算。适合比较不同协方差设定下的预测图；其余协变量通常固定在指定或默认值，图中关系不等于因果效应，也不是对样本分布求平均。协方差与模型须兼容，不支持的组合会警告并退回默认；混合模型排除随机效应不等于对其分布积分。可用 <code>install.packages(&quot;easyViz&quot;)</code> 安装。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：条件预测">条件预测</a> · <a class="tag-link" href="?q=%E5%8D%8F%E6%96%B9%E5%B7%AE%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：协方差选择">协方差选择</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：回归可视化">回归可视化</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#tool-easyviz-2-2-0">查看本期</a><a href="https://cran.r-project.org/package=easyViz" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>XTGAMFE：正值面板结果的 Gamma 固定效应模型</h3>
-
-<p class="catalog-meta">期次日期：2026-11-16</p>
-<p>xtgamfe 对严格为正的面板结果拟合带个体固定效应的 Gamma 对数链接模型，以剖面化消去固定效应，并提供聚类标准误、预测和平均偏效应接口。适合费用等正值、偏态结果，可与对结果本身做固定效应 Poisson 在同样本比较。短面板除严格外生性外，还依赖面板内误差的额外条件，可交换性是一种充分条件，一般序列相关可能破坏它。稳健标准误不能消除相应偏差，删去零值也会改变估计对象。可用 <code>ssc install xtgamfe</code> 安装，要求 Stata 15。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%AD%A3%E5%80%BC%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：正值面板">正值面板</a> · <a class="tag-link" href="?q=Gamma%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：Gamma回归">Gamma回归</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a></p>
-<p class="catalog-actions"><a href="../issues/20261116/#tool-xtgamfe-1-1-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460029.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>glmdisc 0.8.1：修正分箱搜索与验证集选择</h3>
-
-<p class="catalog-meta">期次日期：2026-11-15</p>
-<p>glmdisc 为逻辑回归学习连续变量的分箱、类别合并及成对交互。当前重新收录的版本包含此前未发布的 0.8.0 修订：维护者说明修复了 SEM 链过早停止、验证似然遗漏一类观测和验证/测试职责互换等问题，并调整交互项采样。默认流程用验证集选择迭代、留测试集评估；关闭保留集会改变性能的解释，有监督分箱也不提供因果识别。当前 Windows 尚无二进制包，源码安装需要编译环境，可用 <code>install.packages(&quot;glmdisc&quot;, type = &quot;source&quot;)</code>。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%89%E7%9B%91%E7%9D%A3%E5%88%86%E7%AE%B1&amp;show-results=1" title="全站搜索：有监督分箱">有监督分箱</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：模型选择">模型选择</a> · <a class="tag-link" href="?q=%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：逻辑回归">逻辑回归</a></p>
-<p class="catalog-actions"><a href="../issues/20261115/#tool-glmdisc-0-8-1">查看本期</a><a href="https://cran.r-project.org/package=glmdisc" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 16 页 · 共 155 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 16 页 · 共 158 条</span><a rel="next" href="methods-tools-2.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

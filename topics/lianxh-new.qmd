@@ -8,9 +8,25 @@ title: "新推文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 88 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 9 页 · 共 90 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>LLM 生成的标签，能直接放进回归吗？</h3>
+
+<p class="catalog-meta">期次日期：2026-11-20</p>
+<p>LLM 标签的分类准确率较高，能否保证进入回归后的结论可靠？文章围绕同一批文本、同一模型和多组合理提示词，连接人工验证、误报与漏报检查和回归系数敏感性分析，并提供保留中文文本的 Python 配套工作流。mock 教学例子用于检查数据与作图管线，不代表真实模型效果；变量测量和因果识别仍须分别判断。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a> · <a class="tag-link" href="?q=%E6%8F%90%E7%A4%BA%E8%AF%8D%E7%A8%B3%E5%81%A5%E6%80%A7&amp;show-results=1" title="全站搜索：提示词稳健性">提示词稳健性</a></p>
+<p class="catalog-actions"><a href="../issues/20261120/#lianxh-1996">查看本期</a><a href="https://www.lianxh.cn/details/1996.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>LLM 文本标注：从提示词到稳健性检验的五步流程</h3>
+
+<p class="catalog-meta">期次日期：2026-11-20</p>
+<p>文章梳理 LLM 文本标注的五个环节：方法选择、模型配置、提示词设计、成本与规模、验证及稳健性，并用 Kickstarter 案例解释为什么分类准确率与下游回归稳定性需要分别评估。适合规划人工验证集、记录模型与提示词配置，并比较多组合理设定；案例中的相关关系和模型表现不能直接外推到其他文本或解释为因果效应。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：人工验证">人工验证</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E7%A8%B3%E5%81%A5%E6%80%A7&amp;show-results=1" title="全站搜索：回归稳健性">回归稳健性</a></p>
+<p class="catalog-actions"><a href="../issues/20261120/#lianxh-1997">查看本期</a><a href="https://www.lianxh.cn/details/1997.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>局部投影法入门(2)：交错处理与LP-DID</h3>
 
@@ -75,24 +91,8 @@ title: "新推文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%81%8C%E4%B8%9A&amp;show-results=1" title="全站搜索：经济学职业">经济学职业</a> · <a class="tag-link" href="?q=%E5%9B%A0%E6%9E%9C%E5%88%A4%E6%96%AD&amp;show-results=1" title="全站搜索：因果判断">因果判断</a> · <a class="tag-link" href="?q=AI%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI 工作流">AI 工作流</a></p>
 <p class="catalog-actions"><a href="../issues/20261108/#lianxh-1988">查看本期</a><a href="https://www.lianxh.cn/details/1988.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>Transformer 算法原理：手绘图详解</h3>
-
-<p class="catalog-meta">期次日期：2026-11-08</p>
-<p>文章按经典 Transformer 编码器—解码器的计算顺序，用手绘图和小维度示例串起词嵌入、位置编码、Q/K/V、多头注意力、两类掩码、残差与归一化，最后区分训练并行和推理逐词生成。适合想把模块名称对到矩阵形状的读者。文中也说明 GPT 类模型去掉交叉注意力，不能把完整译码结构当作所有大模型的固定架构。位置外推和长序列开销仍需分别考虑。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=Transformer&amp;show-results=1" title="全站搜索：Transformer">Transformer</a> · <a class="tag-link" href="?q=%E8%87%AA%E6%B3%A8%E6%84%8F%E5%8A%9B&amp;show-results=1" title="全站搜索：自注意力">自注意力</a> · <a class="tag-link" href="?q=%E6%9E%B6%E6%9E%84%E8%BE%B9%E7%95%8C&amp;show-results=1" title="全站搜索：架构边界">架构边界</a></p>
-<p class="catalog-actions"><a href="../issues/20261108/#lianxh-1987">查看本期</a><a href="https://www.lianxh.cn/details/1987.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 辅助调取微观数据库：以 IPUMS 为例</h3>
-
-<p class="catalog-meta">期次日期：2026-11-07</p>
-<p>文章以 IPUMS MEPS 为例，将变量选择、提取 JSON、任务轮询、下载、Stata 读入和样本核查串成可留档流程，并给出让 AI 分步起草的提示词。账号认证、合集注册与 API key 是不同环节，不能把有密钥理解为获得所有数据权限。变量的适用人群、年份覆盖、特殊码及权重仍须查官方说明，负收入也不能一律当缺失。个体数据与密钥须按许可保密。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=IPUMS&amp;show-results=1" title="全站搜索：IPUMS">IPUMS</a> · <a class="tag-link" href="?q=AI%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：AI 工作流">AI 工作流</a> · <a class="tag-link" href="?q=%E5%BE%AE%E8%A7%82%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：微观数据">微观数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261107/#lianxh-1985">查看本期</a><a href="https://www.lianxh.cn/details/1985.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 88 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 9 页 · 共 90 条</span><a rel="next" href="lianxh-new-2.html">下一页</a><a href="lianxh-new-9.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

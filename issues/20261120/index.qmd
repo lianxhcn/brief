@@ -1,0 +1,259 @@
+---
+title: "连享会 · 快讯 | 2026.11.20"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新推文
+
+::: {.brief-entry}
+
+#### LLM 生成的标签，能直接放进回归吗？ {#lianxh-1996}
+
+LLM 标签的分类准确率较高，能否保证进入回归后的结论可靠？文章围绕同一批文本、同一模型和多组合理提示词，连接人工验证、误报与漏报检查和回归系数敏感性分析，并提供保留中文文本的 Python 配套工作流。mock 教学例子用于检查数据与作图管线，不代表真实模型效果；变量测量和因果识别仍须分别判断。
+
+标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%B5%8B%E9%87%8F%E8%AF%AF%E5%B7%AE&amp;show-results=1" title="全站搜索：测量误差">测量误差</a> · <a class="tag-link" href="?q=%E6%8F%90%E7%A4%BA%E8%AF%8D%E7%A8%B3%E5%81%A5%E6%80%A7&amp;show-results=1" title="全站搜索：提示词稳健性">提示词稳健性</a>
+
+<small>来源日期：2026-11-19</small>
+
+<a href="https://www.lianxh.cn/details/1996.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+::: {.brief-entry}
+
+#### LLM 文本标注：从提示词到稳健性检验的五步流程 {#lianxh-1997}
+
+文章梳理 LLM 文本标注的五个环节：方法选择、模型配置、提示词设计、成本与规模、验证及稳健性，并用 Kickstarter 案例解释为什么分类准确率与下游回归稳定性需要分别评估。适合规划人工验证集、记录模型与提示词配置，并比较多组合理设定；案例中的相关关系和模型表现不能直接外推到其他文本或解释为因果效应。
+
+标签：<a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E4%BA%BA%E5%B7%A5%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：人工验证">人工验证</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E7%A8%B3%E5%81%A5%E6%80%A7&amp;show-results=1" title="全站搜索：回归稳健性">回归稳健性</a>
+
+<small>来源日期：2026-11-19</small>
+
+<a href="https://www.lianxh.cn/details/1997.html" target="_blank" rel="noopener noreferrer">阅读全文</a>
+
+:::
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 年度收入平稳，为什么月月工资仍会波动？ {#paper-10-1093-qje-qjag059}
+
+<p class="myapa">Ganong, P., Noel, P., Patterson, C., Vavra, J., &amp; Weinberg, A. (2026). Earnings Instability. The Quarterly Journal of Economics (forthcoming). <a href="https://doi.org/10.1093/qje/qjag059" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Earnings%20Instability" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+年度收入看起来平稳，是否就意味着家庭每个月都能拿到稳定工资？文章利用美国高频行政数据，考察持续雇佣关系中的月度工资变化。作者发现，年度统计会掩盖月度收入的不稳定，低收入、按小时计酬的劳动者面临更大波动，企业安排的工时变化占有重要位置。文章还讨论收入不稳定与消费波动、离职之间的联系。研究提示，理解家庭财务压力需要观察工资到账的时间结构，不能只看全年收入总额；这些联系也不应直接解释为某项政策的因果效果。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E8%B5%84%E6%B3%A2%E5%8A%A8&amp;show-results=1" title="全站搜索：工资波动">工资波动</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E6%94%B6%E5%85%A5&amp;show-results=1" title="全站搜索：劳动收入">劳动收入</a> · <a class="tag-link" href="?q=%E9%AB%98%E9%A2%91%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：高频数据">高频数据</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 四川数量经济学博士论坛：11 月 25 日截稿提醒 {#conf-sichuan-quant-doctoral-12-2026}
+
+**投稿截止：2026-11-25**
+
+会议：2026-12-19 至 2026-12-19 · 中国大陆·成都，四川大学商学院
+
+费用：研讨会不收取费用，受邀参会人员交通住宿自理。
+
+四川省数量经济学会与四川大学商学院将于 12 月 19 日在成都举办学术交流会暨第十二届博士论坛，主题为数智时代数量经济学的高质量发展。面向四川省中青年学者及各高校经济管理类博士生、硕士生征稿，11 月 25 日截止，接受未公开发表的 Word 或 PDF 稿件，一般不超过 2 万字。议题涵盖数量经济理论、宏观政策、金融风险、绿色发展与决策优化等，设研究生优秀论文评选。研讨会不收费用，受邀参会人员交通住宿自理。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E6%95%B0%E9%87%8F%E7%BB%8F%E6%B5%8E&amp;show-results=1" title="全站搜索：数量经济">数量经济</a> · <a class="tag-link" href="?q=%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AE%BA%E5%9D%9B&amp;show-results=1" title="全站搜索：研究生论坛">研究生论坛</a>
+
+<small>来源日期：2026-10-30</small>
+
+<a href="https://stat.swufe.edu.cn/info/2291/33001.htm" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+::: {.brief-entry}
+
+#### JCF 中国会议：11 月 25 日报名截止 {#conf-ruc-jcf-china-2026}
+
+**报名截止：2026-11-25**
+
+会议：2026-12-11 至 2026-12-12 · 中国人民大学中关村校区逸夫会议中心，北京，中国大陆
+
+费用：注册费666元/人，含两天午餐、茶歇及12月11日晚宴，住宿另付；在读博士生可申请注册费减免，须提供在读证明并经审核，非自动免费。
+
+中国人民大学财政金融学院与 Journal of Corporate Finance 联合举办的中国会议，将于 12 月 11–12 日在北京人大中关村校区逸夫会议中心举行，讨论金融与 AI、金融与政治、金融与气候变化，安排主旨演讲和专题分会场。欢迎学者、青年研究人员和在读博士生报名参会，11 月 25 日 23:59（北京时间）截止。注册费 666 元，含两天午餐、茶歇和 12 月 11 日晚宴，住宿另付；在读博士生可提交在读证明申请减免，须经审核。报名、减免结果与缴费安排以官方通知为准。
+
+标签：<a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E6%8A%A5%E5%90%8D&amp;show-results=1" title="全站搜索：会议报名">会议报名</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E9%87%91%E8%9E%8D&amp;show-results=1" title="全站搜索：公司金融">公司金融</a> · <a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E4%B8%8EAI&amp;show-results=1" title="全站搜索：金融与AI">金融与AI</a>
+
+<small>来源日期：2026-11-11</small>
+
+<a href="https://mp.weixin.qq.com/s/IoH4q-S5SdzxTJNP5tW-Mw" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 随机实验中的回归调整，如何减少样本重复使用偏差？ {#paper-10-1093-jrsssb-qkag145}
+
+<p class="myapa">Su, F., Mou, W., Ding, P., &amp; Wainwright, M. J. (2026). A decorrelation method for general regression adjustment in randomized experiments. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag145" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=A%20decorrelation%20method%20for%20general%20regression%20adjustment%20in%20randomized%20experiments" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+随机实验中用回归调整提高估计精度时，同一批样本参与拟合和效应估计，会带来怎样的偏差？文章在基于实验设计的平均处理效应框架下，提出适用于一般回归函数类的去相关方法，讨论样本重复使用、估计误差与区间推断之间的关系，并以高维和非参数问题说明其用途。方法的推断结论有对应的随机化与函数类条件，不能据此认定任意机器学习拟合都能自动给出有效置信区间。
+
+标签：<a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E8%B0%83%E6%95%B4&amp;show-results=1" title="全站搜索：回归调整">回归调整</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：平均处理效应">平均处理效应</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 结果是一条曲线或一张网络，断点设计怎样定义效应？ {#paper-10-1093-jrsssb-qkag143}
+
+<p class="myapa">Kurisu, D., Zhou, Y., Otsu, T., &amp; Müller, H.-G. (2026). Regression discontinuity designs for functional data and random objects in geodesic spaces. Journal of the Royal Statistical Society Series B: Statistical Methodology. <a href="https://doi.org/10.1093/jrsssb/qkag143" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Regression%20discontinuity%20designs%20for%20functional%20data%20and%20random%20objects%20in%20geodesic%20spaces" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+当政策结果是一条污染浓度曲线、一组份额或一张网络时，传统断点设计中相减求效应的做法未必能直接套用。文章把断点设计扩展到测地度量空间中的随机对象，以处理组和对照组局部 Fréchet 均值之间的测地线表示截点效应，并讨论局部回归、空间嵌入和 Bootstrap 推断。应用涉及投票构成和污染曲线，也讨论不完全服从的情形。几何扩展服务于复杂结果的比较，因果解释仍须满足相应断点设计条件。
+
+标签：<a class="tag-link" href="?q=%E6%96%AD%E7%82%B9%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：断点设计">断点设计</a> · <a class="tag-link" href="?q=%E5%87%BD%E6%95%B0%E5%9E%8B%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：函数型数据">函数型数据</a> · <a class="tag-link" href="?q=%E9%9D%9E%E6%AC%A7%E5%BC%8F%E7%BB%93%E6%9E%9C&amp;show-results=1" title="全站搜索：非欧式结果">非欧式结果</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 生物多样性风险是否进入了公司债价格？ {#paper-10-1287-mnsc-2024-07660}
+
+<p class="myapa">Soylemezgil, S. &amp; Uzmanoglu, C. (2026). Biodiversity Risk in the Corporate Bond Market. Management Science. <a href="https://doi.org/10.1287/mnsc.2024.07660" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Biodiversity%20Risk%20in%20the%20Corporate%20Bond%20Market" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+企业对自然生态的影响与依赖，是否已反映在融资成本中？文章以联合国生物多样性大会前后为背景，研究美国公司债的定价与发行。作者发现，大会之后，较高的企业生物多样性足迹与较高的信用利差相连，这种联系在部分期限债券中更明显，并讨论其与气候风险的区别。研究把自然风险带入债券分析，但大会前后的观察比较不能简单理解为随机实验，也不能直接用于所有市场的债券估值。
+
+标签：<a class="tag-link" href="?q=%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7&amp;show-results=1" title="全站搜索：生物多样性">生物多样性</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%8F%B8%E5%80%BA&amp;show-results=1" title="全站搜索：公司债">公司债</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E5%88%A9%E5%B7%AE&amp;show-results=1" title="全站搜索：信用利差">信用利差</a>
+
+<small>来源日期：2026-11-16</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 风险投资机构如何帮助创业者流向下一家企业？ {#paper-10-1287-mnsc-2023-01626}
+
+<p class="myapa">Hu, Z. (2026). Redeploying the Jockeys: The Intermediary Role of Venture Capital in Entrepreneurial Labor Markets. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2023.01626" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Redeploying%20the%20Jockeys%3A%20The%20Intermediary%20Role%20of%20Venture%20Capital%20in%20Entrepreneurial%20Labor%20Markets" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+风险投资机构除了提供资本，还会怎样帮助创业者找到下一份工作？文章考察创业者在同一风险投资机构投资组合企业之间的流动，并用调查材料讨论投资者如何运用对创始人能力的私人信息匹配人才。作者报告，组合内的人才流动与基金回报等指标相关，前合伙人与后续流动之间也保留联系，并讨论不对称学习的解释。研究提供了把金融中介视为人才中介的角度；调查与观察联系不能证明所有风险投资关系都会提升创业者或企业绩效。
+
+标签：<a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：风险投资">风险投资</a> · <a class="tag-link" href="?q=%E4%BA%BA%E6%89%8D%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：人才流动">人才流动</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：信息中介">信息中介</a>
+
+<small>来源日期：2026-11-12</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 模糊 DID 的 Wald 比值何时具有因果含义？ {#paper-arxiv-2611-24402}
+
+<p class="myapa">Picchetti, P. (2026). Design-based inference for fuzzy difference-in-differences. arXiv. <a href="https://arxiv.org/abs/2611.24402v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.24402.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Design-based%20inference%20for%20fuzzy%20difference-in-differences" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+模糊 DID 中，政策分配与实际接受处理并不完全一致，Wald 比值也未必直接等于服从者效应。文章从设计型视角出发，把潜在结果和处理决定固定、政策分配看作随机，分解这一目标量可能包含的服从者效应及其他成分，并给出具有因果解释的条件。作者提出 Anderson–Rubin 型检验、保守方差与敏感性分析，以处理弱一阶段问题。检验的有效性仍以相应的分配机制和方差条件为前提，不能把弱一阶段稳健理解为免除设计假设。
+
+标签：<a class="tag-link" href="?q=%E6%A8%A1%E7%B3%8ADID&amp;show-results=1" title="全站搜索：模糊DID">模糊DID</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：弱工具变量">弱工具变量</a> · <a class="tag-link" href="?q=%E8%AE%BE%E8%AE%A1%E5%9E%8B%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：设计型推断">设计型推断</a>
+
+<small>来源日期：2026-11-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### Probit 工具变量不完全外生时，怎样做敏感性分析？ {#paper-arxiv-2611-23438}
+
+<p class="myapa">Taylor, L. &amp; Wulff, J. N. (2026). Plausibly exogenous instruments in probit models: Sensitivity bounds for average partial and interaction effects. arXiv. <a href="https://arxiv.org/abs/2611.23438v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.23438.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Plausibly%20exogenous%20instruments%20in%20probit%20models%3A%20Sensitivity%20bounds%20for%20average%20partial%20and%20interaction%20effects" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+工具变量可能并非完全外生时，线性模型中的敏感性区间未必适合二元结果的概率效应。文章将可信外生框架扩展到控制函数 Probit，考察平均偏效应与交互效应，并给出相关区间及覆盖条件。作者强调，外生性偏离须放在正确的潜在尺度上设定，否则可能误校准区间；研究附有 Stata 与 R 实现。方法仍依赖控制函数模型、偏离范围和校准条件，不能仅凭有配套程序就认定工具变量有效。
+
+标签：<a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=Probit&amp;show-results=1" title="全站搜索：Probit">Probit</a> · <a class="tag-link" href="?q=%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：敏感性分析">敏感性分析</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 援助交付的最后一公里：组织能力与一线人员 {#paper-nber-w36012}
+
+<p class="myapa">Deserranno, E., Guariso, A., &amp; Qian, N. (2026). Last-mile delivery and the future of aid. NBER. <a href="https://doi.org/10.3386/w36012" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Last-mile%20delivery%20and%20the%20future%20of%20aid" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+援助项目的资金安排之外，还要问医疗、教育等服务能否抵达目标人群。这篇综述围绕两类问题组织既有证据：非政府组织等非国家提供者扩张后，政府的服务能力与跨机构协调如何变化；直接服务受益者的一线人员，应如何选拔、激励与管理。它为项目评估提供组织能力和执行环节的检查框架。不同地区和服务类别的证据不能直接合并为统一援助效果，也不宜将综述当成一项新的随机实验。
+
+标签：<a class="tag-link" href="?q=%E6%8F%B4%E5%8A%A9%E8%AF%84%E4%BC%B0&amp;show-results=1" title="全站搜索：援助评估">援助评估</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%85%B1%E6%9C%8D%E5%8A%A1&amp;show-results=1" title="全站搜索：公共服务">公共服务</a> · <a class="tag-link" href="?q=%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0&amp;show-results=1" title="全站搜索：文献综述">文献综述</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### fbrglm 0.2.0：正则化回归的秩亏与因子水平处理 {#tool-fbrglm-0-2-0}
+
+fbrglm 在 glmnet 外提供公式接口，保存训练时的因子水平与对比编码，便于在预测时重建一致的设计矩阵。0.2.0 新增 <code>rank_policy</code>：默认先删除线性相关列，而 <code>keep</code> 将完整设计交给惩罚估计；高维情形尤其需要留意这种差别。当前仅实现 <code>infer=&quot;none&quot;</code>，不提供选择后推断；Cox、多项及多响应路径仍属实验支持。可用 <code>install.packages(&quot;fbrglm&quot;)</code> 安装，另依赖 glmnet 等包。
+
+标签：<a class="tag-link" href="?q=%E6%AD%A3%E5%88%99%E5%8C%96%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：正则化回归">正则化回归</a> · <a class="tag-link" href="?q=%E8%AE%BE%E8%AE%A1%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：设计矩阵">设计矩阵</a> · <a class="tag-link" href="?q=%E5%9B%A0%E5%AD%90%E7%BC%96%E7%A0%81&amp;show-results=1" title="全站搜索：因子编码">因子编码</a>
+
+<small>来源日期：2026-11-19</small>
+
+<a href="https://cran.r-project.org/package=fbrglm" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### gptr 1.1.0：在当前 R 会话中记录与回放 Agent 操作 {#tool-gptr-1-1-0}
+
+gptr 让语言模型在当前 R 会话中读取对象、执行代码并保存分析过程，可将已执行代码记录到脚本或研究文档后回放。1.1.0 调整工具调用与检查点开销，并修正撤销时的对象冲突检测等问题；维护者的速度比较不等于跨环境保证。要求 R 4.2 及以上，可用 <code>install.packages(&quot;gptr&quot;)</code> 安装，并另行配置模型接口、CLI 或本地 Ollama。权限检查是提示性保护，不提供隔离环境；远程模型可能接收数据预览，回放代码也会重现其副作用。
+
+标签：<a class="tag-link" href="?q=R%20%E5%B7%A5%E4%BD%9C%E6%B5%81&amp;show-results=1" title="全站搜索：R 工作流">R 工作流</a> · <a class="tag-link" href="?q=Agent&amp;show-results=1" title="全站搜索：Agent">Agent</a> · <a class="tag-link" href="?q=%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%94%BE&amp;show-results=1" title="全站搜索：代码回放">代码回放</a>
+
+<small>来源日期：2026-11-19</small>
+
+<a href="https://cran.r-project.org/package=gptr" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### CGEMOD 2.0.0：从社会核算矩阵比较政策情景 {#tool-cgemod-2-0-0}
+
+CGEMOD 以社会核算矩阵(SAM)校准单国开放经济的一般均衡模型，可比较取消关税、世界价格变化及不同汇率闭合方式下的情景，并导出宏观和住户结果。文档区分弹性估计的回归诊断与校准模型的均衡、敏感性检查，适合已有 SAM 与 CGE 基础的读者。情景结论依赖账户结构、替代弹性及宏观闭合假设，不等同于从观察数据识别的政策因果效应。当前帮助文件标为 2.0.0(11 月 15 日)，可用 <code>ssc install cgemod</code> 安装；ado 要求 Stata 15 及以上。
+
+标签：<a class="tag-link" href="?q=%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1&amp;show-results=1" title="全站搜索：一般均衡">一般均衡</a> · <a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E6%A0%B8%E7%AE%97%E7%9F%A9%E9%98%B5&amp;show-results=1" title="全站搜索：社会核算矩阵">社会核算矩阵</a> · <a class="tag-link" href="?q=%E6%94%BF%E7%AD%96%E6%83%85%E6%99%AF&amp;show-results=1" title="全站搜索：政策情景">政策情景</a>
+
+<small>来源日期：2026-11-15</small>
+
+<a href="https://ideas.repec.org/c/boc/bocode/s460034.html" target="_blank" rel="noopener noreferrer">官方文档</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

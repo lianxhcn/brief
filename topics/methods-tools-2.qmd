@@ -8,9 +8,33 @@ title: "新方法 · 第 2 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 155 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 158 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>easyViz 2.2.0：为回归预测图选择协方差估计</h3>
+
+<p class="catalog-meta">期次日期：2026-11-16</p>
+<p>easyViz 为回归模型绘制条件预测与区间。2.2.0 将原先针对稳健回归的协方差接口推广为 vcov，可接收兼容的 sandwich 名称、自定义矩阵或函数，并统一部分模型的 Delta 法标准误计算。适合比较不同协方差设定下的预测图；其余协变量通常固定在指定或默认值，图中关系不等于因果效应，也不是对样本分布求平均。协方差与模型须兼容，不支持的组合会警告并退回默认；混合模型排除随机效应不等于对其分布积分。可用 <code>install.packages(&quot;easyViz&quot;)</code> 安装。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9D%A1%E4%BB%B6%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：条件预测">条件预测</a> · <a class="tag-link" href="?q=%E5%8D%8F%E6%96%B9%E5%B7%AE%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：协方差选择">协方差选择</a> · <a class="tag-link" href="?q=%E5%9B%9E%E5%BD%92%E5%8F%AF%E8%A7%86%E5%8C%96&amp;show-results=1" title="全站搜索：回归可视化">回归可视化</a></p>
+<p class="catalog-actions"><a href="../issues/20261116/#tool-easyviz-2-2-0">查看本期</a><a href="https://cran.r-project.org/package=easyViz" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>XTGAMFE：正值面板结果的 Gamma 固定效应模型</h3>
+
+<p class="catalog-meta">期次日期：2026-11-16</p>
+<p>xtgamfe 对严格为正的面板结果拟合带个体固定效应的 Gamma 对数链接模型，以剖面化消去固定效应，并提供聚类标准误、预测和平均偏效应接口。适合费用等正值、偏态结果，可与对结果本身做固定效应 Poisson 在同样本比较。短面板除严格外生性外，还依赖面板内误差的额外条件，可交换性是一种充分条件，一般序列相关可能破坏它。稳健标准误不能消除相应偏差，删去零值也会改变估计对象。可用 <code>ssc install xtgamfe</code> 安装，要求 Stata 15。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Stata&amp;show-results=1" title="全站搜索：Stata">Stata</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%AD%A3%E5%80%BC%E9%9D%A2%E6%9D%BF&amp;show-results=1" title="全站搜索：正值面板">正值面板</a> · <a class="tag-link" href="?q=Gamma%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：Gamma回归">Gamma回归</a> · <a class="tag-link" href="?q=%E5%9B%BA%E5%AE%9A%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：固定效应">固定效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261116/#tool-xtgamfe-1-1-0">查看本期</a><a href="https://ideas.repec.org/c/boc/bocode/s460029.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>glmdisc 0.8.1：修正分箱搜索与验证集选择</h3>
+
+<p class="catalog-meta">期次日期：2026-11-15</p>
+<p>glmdisc 为逻辑回归学习连续变量的分箱、类别合并及成对交互。当前重新收录的版本包含此前未发布的 0.8.0 修订：维护者说明修复了 SEM 链过早停止、验证似然遗漏一类观测和验证/测试职责互换等问题，并调整交互项采样。默认流程用验证集选择迭代、留测试集评估；关闭保留集会改变性能的解释，有监督分箱也不提供因果识别。当前 Windows 尚无二进制包，源码安装需要编译环境，可用 <code>install.packages(&quot;glmdisc&quot;, type = &quot;source&quot;)</code>。</p>
+<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%89%E7%9B%91%E7%9D%A3%E5%88%86%E7%AE%B1&amp;show-results=1" title="全站搜索：有监督分箱">有监督分箱</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：模型选择">模型选择</a> · <a class="tag-link" href="?q=%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：逻辑回归">逻辑回归</a></p>
+<p class="catalog-actions"><a href="../issues/20261115/#tool-glmdisc-0-8-1">查看本期</a><a href="https://cran.r-project.org/package=glmdisc" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>INDSAT：用指标饱和筛查异常值与结构变化</h3>
 
@@ -67,32 +91,8 @@ title: "新方法 · 第 2 页"
 <p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%86%B3%E7%AD%96%E6%BC%82%E7%A7%BB&amp;show-results=1" title="全站搜索：决策漂移">决策漂移</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E7%9B%91%E6%B5%8B&amp;show-results=1" title="全站搜索：模型监测">模型监测</a> · <a class="tag-link" href="?q=%E6%A0%87%E5%87%86%E5%8C%96%E5%88%86%E8%A7%A3&amp;show-results=1" title="全站搜索：标准化分解">标准化分解</a></p>
 <p class="catalog-actions"><a href="../issues/20261113/#tool-aigovernance-0-2-0">查看本期</a><a href="https://cran.r-project.org/package=AIGovernance" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>fastglm 0.1.4：计数与有序回归的边界修正</h3>
-
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>fastglm 提供广义线性模型、负二项、零截断、hurdle、零膨胀及有序结果的拟合接口，并为相应模型提供偏差缩减、推断或分块读取支持。0.1.4 的维护者说明修复了无预测列的受约束累积链接拟合，以及数据块没有正权重观测时计数模型的底层内存处理，并调整稀疏矩阵映射以兼容新旧 RcppEigen。上述模型功能并非全部在本小版本新增；采用模型仍需检查收敛、秩和适用假设，不能把加速拟合当作识别条件。CRAN 当前 Windows release 二进制仍为 0.1.3，获取 0.1.4 源码可用 <code>install.packages(&quot;fastglm&quot;, type = &quot;source&quot;)</code>，需相应编译工具。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%BF%E4%B9%89%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：广义线性模型">广义线性模型</a> · <a class="tag-link" href="?q=%E8%AE%A1%E6%95%B0%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：计数数据">计数数据</a> · <a class="tag-link" href="?q=%E6%9C%89%E5%BA%8F%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：有序回归">有序回归</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#tool-fastglm-0-1-4">查看本期</a><a href="https://cran.r-project.org/package=fastglm" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>Pandera 0.36.0：把文本解析和数据列验证写进同一份规则</h3>
-
-<p class="catalog-meta">期次日期：2026-11-12</p>
-<p>Pandera 0.36.0 增加 ParsedField 与 ParsedColumn，可在数据模式中同时声明原始字段、派生字段及其检验；decisions 接口把自由文本转换为类别、分值或是非值，适合组织工单分类、文本标注和后续质量检查。官方教程可用 MockProvider 离线演示，并用 plan 与 stats 查看请求和成本；模拟提供者只返回符合类型的任意结果，不代表语义正确。真实模型的标签仍需人工样本、误差分析和分布检查，类型通过也不等于测量有效。可用 <code>pip install &quot;pandera[pandas,decisions]==0.36.0&quot;</code> 安装相关扩展。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=Python&amp;show-results=1" title="全站搜索：Python">Python</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E9%AA%8C%E8%AF%81&amp;show-results=1" title="全站搜索：数据验证">数据验证</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8&amp;show-results=1" title="全站搜索：文本标注">文本标注</a> · <a class="tag-link" href="?q=%E6%B4%BE%E7%94%9F%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：派生变量">派生变量</a></p>
-<p class="catalog-actions"><a href="../issues/20261112/#tool-pandera-0-36-0">查看本期</a><a href="https://pypi.org/project/pandera/0.36.0/" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>hmmTMB 2.0.0：平滑参数修正与隐状态预测</h3>
-
-<p class="catalog-meta">期次日期：2026-11-11</p>
-<p>hmmTMB 用隐马尔可夫模型描述时间序列的潜在状态，允许协变量、随机效应与平滑项。维护者在 2.0.0 中修正同一线性预测子含多个平滑项时惩罚行列式的处理，并指出旧实现会使平滑参数有偏；新增 Forecast 类可递推未来状态概率与观测分布。含高斯场的模型默认采用带宽 15 的带状前向近似，其他模型默认精确算法；应检查带宽并扩大带宽重拟合核对稳定性。当前 CRAN Windows 二进制仍为 1.1.2，获取 2.0.0 可用 <code>install.packages(&quot;hmmTMB&quot;, type = &quot;source&quot;)</code>，并准备相应编译工具链。状态解释和预测质量仍依赖分布、状态数及协变量设定。</p>
-<p class="catalog-tags"><strong>软件：</strong><a class="tag-link" href="?q=R&amp;show-results=1" title="全站搜索：R">R</a>；<strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%90%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：隐马尔可夫模型">隐马尔可夫模型</a> · <a class="tag-link" href="?q=%E5%B9%B3%E6%BB%91%E5%8F%82%E6%95%B0&amp;show-results=1" title="全站搜索：平滑参数">平滑参数</a> · <a class="tag-link" href="?q=%E6%A6%82%E7%8E%87%E9%A2%84%E6%B5%8B&amp;show-results=1" title="全站搜索：概率预测">概率预测</a></p>
-<p class="catalog-actions"><a href="../issues/20261111/#tool-hmmtmb-2-0-0">查看本期</a><a href="https://cran.r-project.org/package=hmmTMB" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 155 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="methods-tools.html">首页</a><a rel="prev" href="methods-tools.html">上一页</a><span aria-current="page">第 2 / 16 页 · 共 158 条</span><a rel="next" href="methods-tools-3.html">下一页</a><a href="methods-tools-16.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
