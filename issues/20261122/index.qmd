@@ -1,0 +1,209 @@
+---
+title: "连享会 · 快讯 | 2026.11.22"
+body-classes: issue-page
+toc-depth: 3
+---
+
+## 本期重点
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 企业共用高管，会增加劳动力市场串谋吗？ {#paper-10-1086-743900}
+
+<p class="myapa">Herrera-Caicedo, A., Jeffers, J., &amp; Prager, E. (2026). Collusion through Common Leadership. Journal of Political Economy. <a href="https://doi.org/10.1086/743900" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Collusion%20through%20Common%20Leadership" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+两家企业共享董事或高管，除了影响治理，还可能怎样改变企业之间的竞争？文章把这种共同领导关系与解封的法院证据结合，观察劳动力市场中的串谋。作者报告，共同领导关系出现后，两家企业发生串谋的可能性上升，这一关系不能简单归结为产品市场或劳动力市场竞争距离更近。研究提示，共享领导人员也可能成为竞争政策需要关注的联系；证据来自特定法院材料和经验设计，不能据此认定所有交叉任职都会引发串谋。
+
+标签：<a class="tag-link" href="?q=%E5%85%B1%E5%90%8C%E9%AB%98%E7%AE%A1&amp;show-results=1" title="全站搜索：共同高管">共同高管</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动力市场">劳动力市场</a> · <a class="tag-link" href="?q=%E5%8F%8D%E5%9E%84%E6%96%AD&amp;show-results=1" title="全站搜索：反垄断">反垄断</a>
+
+<small>来源日期：2026-11-11</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 税务机关查看企业年报，会怎样关联跨国利润转移？ {#paper-10-1111-1911-3846-70101}
+
+<p class="myapa">Chi, S., Persson, A. V., Shevlin, T., &amp; Urcan, O. (2026). The Effect of Non‐US Tax Authority Monitoring on Income Shifting by Affiliates of US Multinationals: Evidence From EDGAR Search Activity. Contemporary Accounting Research. <a href="https://doi.org/10.1111/1911-3846.70101" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=The%20Effect%20of%20Non%E2%80%90US%20Tax%20Authority%20Monitoring%20on%20Income%20Shifting%20by%20Affiliates%20of%20US%20Multinationals%3A%20Evidence%20From%20EDGAR%20Search%20Activity" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+公开年报的访问记录，能否帮助研究跨国税务监管？文章利用外国税务机关下载美国跨国企业 SEC 年报的记录作为监控代理指标，区分子公司属地监控与整个企业集团面对的跨国监控。作者发现，单一属地监控与利润转移的关系并不稳定，而集团层面的合计监控与其他子公司的行为也有关联；这种关联随信息交换安排、披露细节与执法能力而不同。研究提供了利用公开信息访问痕迹研究监管的思路，但下载记录不等同于完整审计强度，相关关系也不能直接解释为普遍因果效果。
+
+标签：<a class="tag-link" href="?q=%E5%88%A9%E6%B6%A6%E8%BD%AC%E7%A7%BB&amp;show-results=1" title="全站搜索：利润转移">利润转移</a> · <a class="tag-link" href="?q=%E7%A8%8E%E5%8A%A1%E7%9B%91%E6%8E%A7&amp;show-results=1" title="全站搜索：税务监控">税务监控</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%BC%80%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：公开披露">公开披露</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### BMisc 1.4.11：首次处理期与加权分位数的修复值得检查 {#tool-bmisc-1-4-11}
+
+处理组别和加权分位数往往是后续实证分析的基础输入。BMisc 1.4.11 的发行说明指出，<code>get_group()</code> 原先可能把未按时间排序数据中的首个处理行误作首次处理期；新版改为先排序，并修正加权及混合经验分布的分位数计算。乘数 Bootstrap 的抽样实现也有调整，固定随机种子下的标准误与临界值可能和旧版略有不同。可用 <code>install.packages(&quot;BMisc&quot;)</code> 安装，要求 R 4.1 及以上；部分平台二进制尚未更新，安装后应核对版本，从源码安装需编译工具。修复不替代对处理定义和研究识别条件的检查。
+
+标签：<a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：面板数据">面板数据</a> · <a class="tag-link" href="?q=%E5%8A%A0%E6%9D%83%E5%88%86%E4%BD%8D%E6%95%B0&amp;show-results=1" title="全站搜索：加权分位数">加权分位数</a> · <a class="tag-link" href="?q=%E5%AE%9E%E8%AF%81%E5%A4%8D%E6%A0%B8&amp;show-results=1" title="全站搜索：实证复核">实证复核</a>
+
+<small>来源日期：2026-11-21</small>
+
+<a href="https://cran.r-project.org/package=BMisc" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+::: {.brief-entry}
+
+#### nethist 1.2.0：从多层关系网络提取区块结构 {#tool-nethist-1-2-0}
+
+多种关系网络使用同一组节点时，怎样比较它们的连接模式？nethist 用网络直方图近似单层或多层网络的连接结构，1.2.0 新增 <code>block_id()</code>、<code>coef()</code> 等访问器。提取原始区块概率须选 <code>type = &quot;prob&quot;</code>，默认结果经过边密度标准化，两者不能混用。数据须符合无向简单图等要求，多层节点需正确对齐；最小二乘方法仅适用于单层，随机搜索也可能得到不同局部解。可用 <code>install.packages(&quot;nethist&quot;)</code> 安装，要求 R 3.5 及以上；当前 Windows 二进制仍为 1.1.1，取得源码版 1.2.0 还需相应编译工具。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：网络分析">网络分析</a> · <a class="tag-link" href="?q=%E5%A4%9A%E5%B1%82%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：多层网络">多层网络</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%9C%E6%8F%90%E5%8F%96&amp;show-results=1" title="全站搜索：结果提取">结果提取</a>
+
+<small>来源日期：2026-11-21</small>
+
+<a href="https://cran.r-project.org/package=nethist" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+## 延伸阅读
+
+### 新论文
+
+::: {.brief-entry}
+
+#### 共同缩放概率，会怎样改变人们的风险选择？ {#paper-10-1086-743896}
+
+<p class="myapa">McGranaghan, C., Nielsen, K., O’Donoghue, T., Somerville, J., &amp; Sprenger, C. D. (2026). Connecting Common Ratio and Common Consequence Preferences. Journal of Political Economy. <a href="https://doi.org/10.1086/743896" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Connecting%20Common%20Ratio%20and%20Common%20Consequence%20Preferences" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+把两种彩票的获奖概率按同一比例缩小，或者给它们加入相同结果，人们是否还会保持原来的选择？共同比率效应与共同结果效应是偏离期望效用的两类经典现象。文章不把二者分开处理，而是在不同参数组合下考察它们如何共同出现，发现若干现有非期望效用模型难以解释的规律，并据此提出强调上行潜力的模型。它为比较风险选择模型提供了新的实验角度，但这些参数范围内的选择规律不等于对所有情境的统一解释。
+
+标签：<a class="tag-link" href="?q=%E6%9C%9F%E6%9C%9B%E6%95%88%E7%94%A8&amp;show-results=1" title="全站搜索：期望效用">期望效用</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：风险偏好">风险偏好</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 风险偏好与主观信念，如何一起影响选择？ {#paper-10-1287-mnsc-2024-06232}
+
+<p class="myapa">Delavande, A., Ganguli, J., &amp; Mengel, F. (2026). Uncertainty Attitudes, Subjective Beliefs, and Decisions Under Uncertainty. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2024.06232" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Uncertainty%20Attitudes%2C%20Subjective%20Beliefs%2C%20and%20Decisions%20Under%20Uncertainty" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+同样面对不确定性，不同选择究竟来自偏好差异，还是对事件概率的判断不同？文章在面向一般人群的健康与金融决策调查实验中，同时收集风险与模糊态度、概率加权、损失厌恶及主观概率信念，用这些信息比较不确定性决策的结构模型。作者发现偏好与信念均有明显异质性；在部分情境中，结合来源相关概率加权的前景理论比主观期望效用更贴合数据。这里的比较依赖具体决策、信念分布与拟合标准，不能据此把某一模型视为普遍优胜者。
+
+标签：<a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：主观信念">主观信念</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：风险偏好">风险偏好</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a>
+
+<small>来源日期：2026-11-10</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 资产流动性溢价，会怎样传导到保险价格？ {#paper-10-1287-mnsc-2024-09038}
+
+<p class="myapa">Knox, B. &amp; Sørensen, J. A. (2026). Insurers’ Investments and Insurance Prices. Management Science (forthcoming). <a href="https://doi.org/10.1287/mnsc.2024.09038" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=Insurers%E2%80%99%20Investments%20and%20Insurance%20Prices" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+保险公司的投资收益，为什么可能影响投保人支付的价格？文章提出一个机制：承保业务提供较稳定的资金，使保险公司能够持有非流动资产并获得流动性溢价，再通过较低保险价格把部分收益传给投保人。作者结合寿险与财产意外险的经验数据，考察资金稳定性、预期投资回报和价格之间的关系，并区分由稳定资金驱动的回报部分。研究把负债端融资与保险定价联系起来，但不能由此推断追逐任何高回报资产都会给投保人带来更低保费。
+
+标签：<a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：保险定价">保险定价</a> · <a class="tag-link" href="?q=%E6%B5%81%E5%8A%A8%E6%80%A7%E6%BA%A2%E4%BB%B7&amp;show-results=1" title="全站搜索：流动性溢价">流动性溢价</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：稳定融资">稳定融资</a>
+
+<small>来源日期：2026-11-13</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 网络未知且存在干扰，工具变量如何调整？ {#paper-arxiv-2611-25222}
+
+<p class="myapa">Niu, Y. &amp; Xu, Z. (2026). Network-adaptive instrumental variables. arXiv. <a href="https://arxiv.org/abs/2611.25222v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.25222.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Network-adaptive%20instrumental%20variables" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+存在网络干扰、内生协变量且网络权重未知时，怎样构造有效工具变量？文章针对空间自回归模型提出网络自适应工具变量，在网络条件排除限制和信息等价等假设下建立有效矩，并讨论结构均值系数与网络参数的联合识别。扰动溢出参数和创新方差的识别还需要附加协方差限制。作者给出 GMM 估计、渐近推断及均值网络溢出检验；方法并不免除排除限制，也不意味着任意未知网络都可直接套用。
+
+标签：<a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%87%AA%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：空间自回归">空间自回归</a>
+
+<small>来源日期：2026-11-18</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 长期分位处理效应：结合短期实验与长期观察数据 {#paper-arxiv-2611-22984}
+
+<p class="myapa">Liu, N., Liu, Y., Sasaki, Y., &amp; Zhang, Y. (2026). Long-term quantile treatment effects with combined experimental and observational data. arXiv. <a href="https://arxiv.org/abs/2611.22984v1" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://arxiv.org/pdf/2611.22984.pdf" target="_blank" rel="noopener noreferrer">PDF</a>, <a href="https://scholar.google.com/scholar?q=Long-term%20quantile%20treatment%20effects%20with%20combined%20experimental%20and%20observational%20data" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+短期实验可以提供较可信的近期比较，却未必观察到政策的长期分配影响。文章研究如何结合短期实验与长期观察数据，识别、估计并推断长期分位处理效应曲线。作者在潜在无混淆框架下推导有效影响函数，提出相应的半参数估计与乘数 bootstrap，用于整条分位曲线的同时置信带。长期识别仍依赖数据结合所需的假设；有一份实验数据并不自动使长期观察数据也具有随机分配性质。
+
+标签：<a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：分位处理效应">分位处理效应</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：长期效应">长期效应</a>
+
+<small>来源日期：2026-11-17</small>
+
+
+
+:::
+
+::: {.brief-entry}
+
+#### 相同企业放在不同国家，投资者为何给出不同评价？ {#paper-nber-w36036}
+
+<p class="myapa">Colonnelli, E., Cruz, M., Lerner, J., Pereira-Lopez, M., &amp; Wei, Y. (2026). How does capital flow to poor countries? Evidence from venture capital and private equity. NBER. <a href="https://doi.org/10.3386/w36036" target="_blank" rel="noopener noreferrer">Link</a>, <a href="https://scholar.google.com/scholar?q=How%20does%20capital%20flow%20to%20poor%20countries%3F%20Evidence%20from%20venture%20capital%20and%20private%20equity" target="_blank" rel="noopener noreferrer">Google</a></p>
+
+文章用带有激励的调查实验，随机改变假设企业的特征、所在国与投资条款，研究风险投资和私募股权投资者如何评价贫穷国家的企业。作者报告，其他条件相近时，贫穷国家的机会得到的兴趣较少，而专注新兴市场的投资者这一差距较小；问卷还考察信息获取、国家风险管理和退出方式。实验对象是假设投资机会的评价，不能把问卷中的差异直接当作实际资本流量的变化或国家风险管理的因果效果。
+
+标签：<a class="tag-link" href="?q=%E8%B7%A8%E5%9B%BD%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：跨国投资">跨国投资</a> · <a class="tag-link" href="?q=%E5%9B%BD%E5%AE%B6%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：国家风险">国家风险</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a>
+
+<small>来源日期：2026-11-16</small>
+
+
+
+:::
+
+### 新方法
+
+::: {.brief-entry}
+
+#### dsFedAteClient：不汇总个体记录，怎样跨试验估计 ATE？ {#tool-dsfedateclient-0-1-1}
+
+多个随机试验的数据分别留在不同服务器时，dsFedAteClient 可以协调估计平均处理效应，而不必先汇总个体记录。它按处理组分别拟合线性模型，汇总各站统计量，并可调整站点间截距差异。各试验内部随机并不意味着合并后就是单一随机试验，模型和跨站点条件仍须核对；默认计算方差还会额外交换统计量，不等于自动获得隐私保证。可用 <code>install.packages(&quot;dsFedAteClient&quot;)</code> 安装，服务器另需配套 dsFedAte。该客户端于 11 月 14 日首次进入 CRAN，当前 0.1.1 调整示例运行时间，估计方法沿用 0.1.0。
+
+标签：<a class="tag-link" href="?q=%E8%81%94%E9%82%A6%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：联邦分析">联邦分析</a> · <a class="tag-link" href="?q=%E5%A4%9A%E8%AF%95%E9%AA%8C%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：多试验数据">多试验数据</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：平均处理效应">平均处理效应</a>
+
+<small>来源日期：2026-11-21</small>
+
+<a href="https://cran.r-project.org/package=dsFedAteClient" target="_blank" rel="noopener noreferrer">CRAN</a>
+
+:::
+
+### 会议征稿
+
+::: {.brief-entry}
+
+#### 第十届印度尼西亚金融管理协会会议 {#conf-ifma-10-2027}
+
+**投稿截止：2027-02-28**
+
+会议：2027-08-07 至 2027-08-08 · 印度尼西亚巴厘岛；具体会址待定
+
+费用：官网2027费表：学者早鸟600/常规650美元、学生550/600美元、业界700/750美元；费用包含会议参与、茶歇及午晚餐，付款不退款。
+
+第十届印度尼西亚金融管理协会 (IFMA) 会议将于 2027 年 8 月 7–8 日在巴厘岛举行，接受金融学各领域论文，2027 年 2 月 28 日投稿截止。主旨演讲人为杜克大学 Manju Puri，鼓励青年研究者和博士生提交已完成的早期研究；不接收已获期刊录用或接近录用的论文，入选结果拟于 3 月通知。学者注册费早鸟 600/常规 650 美元，学生 550/600 美元，业界 700/750 美元；早鸟至 4 月 30 日，常规费表列 5 月 1–31 日。费用含参会、茶歇及午晚餐，不退款。具体会址尚待公布，投稿方式及费用安排以当届官网为准。
+
+标签：<a class="tag-link" href="?q=%E9%87%91%E8%9E%8D%E4%BC%9A%E8%AE%AE&amp;show-results=1" title="全站搜索：金融会议">金融会议</a> · <a class="tag-link" href="?q=%E4%BC%9A%E8%AE%AE%E5%BE%81%E7%A8%BF&amp;show-results=1" title="全站搜索：会议征稿">会议征稿</a> · <a class="tag-link" href="?q=%E5%8D%9A%E5%A3%AB%E7%94%9F&amp;show-results=1" title="全站搜索：博士生">博士生</a>
+
+<a href="https://www.ifma-online.org/2027-conference/call-for-papers/" target="_blank" rel="noopener noreferrer">官方通知</a>
+
+:::
+
+<div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

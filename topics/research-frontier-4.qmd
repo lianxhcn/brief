@@ -8,9 +8,73 @@ title: "新论文 · 第 4 页"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 64 页 · 共 633 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-64.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 65 页 · 共 641 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-65.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>医疗创新的长期收益，为什么未必人人相同？</h3>
+<p class="catalog-citation">Bhalotra, S.; Clarke, D.; Venkataramani, A. (2026). The long-run economic effects of medical innovation and the role of opportunities. JPE.</p><p class="catalog-meta">发表日期：2026-11-18</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>医疗创新带来的长期收益，为什么未必人人相同？文章利用早期抗菌疗法引入的历史变化，研究儿童期肺炎风险与成年教育、就业、收入和工作能力之间的关系，并比较不同群体与出生地制度环境。作者基于人口普查资料报告，早期健康改善转化为成年经济收益的程度存在差异，机会与制度约束是重要讨论方向。证据来自特定历史时期，不能把平均改善理解为所有人同等受益，也不能据此承诺当代医疗政策会产生相同效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%97%A9%E6%9C%9F%E5%81%A5%E5%BA%B7&amp;show-results=1" title="全站搜索：早期健康">早期健康</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%94%B6%E7%9B%8A&amp;show-results=1" title="全站搜索：长期收益">长期收益</a> · <a class="tag-link" href="?q=%E6%9C%BA%E4%BC%9A%E7%BA%A6%E6%9D%9F&amp;show-results=1" title="全站搜索：机会约束">机会约束</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1086-743898">查看本期</a><a href="https://doi.org/10.1086/743898" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>保护隐私，就一定能改善推荐结果吗？</h3>
+<p class="catalog-citation">Küçükgül, C.; Özer, Ö.; Wang, S. (2026). Recommender systems under privacy protection. Management Science.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>允许用户退出或伪报个人数据，推荐结果就一定更有利于用户吗？文章研究利润导向平台在不同隐私保护安排下如何设计推荐，并区分推荐只是传递信息，还是同时决定谁能接触商品。作者在模型中发现，某些保护安排可能诱发推荐扭曲，甚至取消个性化；当推荐还分配商品接触机会时，也可能出现对弱势群体不利的差别待遇。这说明隐私、信息与资源分配需要一起分析，结论依赖平台目标和信息结构，不能直接当作现实中普遍成立的政策效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4&amp;show-results=1" title="全站搜索：隐私保护">隐私保护</a> · <a class="tag-link" href="?q=%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F&amp;show-results=1" title="全站搜索：推荐系统">推荐系统</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：信息设计">信息设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1287-mnsc-2024-05007">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.05007" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>不能事先承诺时，披露信息能接近信息设计的结果吗？</h3>
+<p class="catalog-citation">Ali, S. N.; Kleiner, A.; Zhang, K. (2026). From design to disclosure. REStud.</p><p class="catalog-meta">发表日期：2026-11-18</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>信息披露往往由掌握信息的一方决定，而交易对手可以据此调整价格、分配和支付。文章研究这种互动下的披露博弈，讨论掌握信息的一方为何未必愿意完全披露自身类型，以及披露能在什么条件下接近信息设计所实现的收益。垄断定价、保险契约和政策谈判是模型讨论的场景。研究帮助区分事先承诺的信息安排与实际披露互动；理论上的可实现性依赖模型条件，不能理解为任何现实市场都能取得相同收益。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：信息披露">信息披露</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：信息设计">信息设计</a> · <a class="tag-link" href="?q=%E5%A5%91%E7%BA%A6%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：契约设计">契约设计</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-10-1093-restud-rdag125">查看本期</a><a href="https://doi.org/10.1093/restud/rdag125" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>AI 编码代理之后，显著性检验还可靠吗？</h3>
+<p class="catalog-citation">Gunsilius, F.; Van Dijcke, D.; Wüthrich, K. (2026). Inference after coding agents. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-17</p>
+<p class="catalog-meta">期次日期：2026-11-19</p>
+<p>AI 编码代理能够反复尝试数据处理、模型与估计方法，这也可能把选择显著结果的过程带入最终检验。文章提出，在代理完成分析后，重置代理并在数据子样本上重放其选择，估计有利结果被选中的相对概率，再据此调整推断。作者在模拟及既有论文应用中展示这一思路。渐近有效性依赖代理选择行为稳定等条件，并以给定选择为条件；这一校正不能替代研究设计、识别假设或数据质量检查，也不能保证任意代理和提示词都适用。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E8%BE%85%E5%8A%A9%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：AI辅助研究">AI辅助研究</a> · <a class="tag-link" href="?q=%E9%80%89%E6%8B%A9%E5%90%8E%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：选择后推断">选择后推断</a> · <a class="tag-link" href="?q=%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C&amp;show-results=1" title="全站搜索：假设检验">假设检验</a></p>
+<p class="catalog-actions"><a href="../issues/20261119/#paper-arxiv-2611-23174">查看本期</a><a href="https://arxiv.org/abs/2611.23174v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>高价选项如何改变选择？网约车现场实验中的反折中效应</h3>
+<p class="catalog-citation">Gennaioli, N. et al. (2026). Irregular demand: the anti-compromise effect in the field. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-18</p>
+<p>文章在 Lyft 的真实交易场景中开展随机现场实验，改变高端车型是否展示及其价格，观察乘客在既有选项与不购买之间的选择。作者报告，出现高价选项后，最便宜车型及不购买的需求反而上升，变化还与高端价格和重复接触有关，违背了新增选项只会分走既有需求的常规规律。作者提出高价线索及记忆激活引导价格注意的模型解释。它为菜单设计与定价实验提供启发，结论依赖具体平台和实验环境，不能据此保证任何商品加入昂贵选项都会提高销售。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E8%8F%9C%E5%8D%95%E8%AE%BE%E8%AE%A1&amp;show-results=1" title="全站搜索：菜单设计">菜单设计</a> · <a class="tag-link" href="?q=%E6%B6%88%E8%B4%B9%E8%80%85%E9%80%89%E6%8B%A9&amp;show-results=1" title="全站搜索：消费者选择">消费者选择</a></p>
+<p class="catalog-actions"><a href="../issues/20261118/#paper-nber-w36013">查看本期</a><a href="https://www.nber.org/papers/w36013" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>面板反事实的共形推断：把可交换性放在单位之间</h3>
+<p class="catalog-citation">Liu, Z.; Xu, Y. (2026). Unit-level conformal inference for panel counterfactuals. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-14</p>
+<p class="catalog-meta">期次日期：2026-11-18</p>
+<p>DID、合成控制等面板反事实估计中的时间向推断，可能受到非平稳性影响。文章转而利用单位之间预测误差的可交换性：逐一遮蔽控制单位的相关结果，用与处理单位相同的规则预测。作者区分利用目标期对照结果的估计与利用完整对照路径的估计，讨论相应的完整共形置信集和 Jackknife+ 推断，并扩展到多个处理单位。这里用跨单位假设替代部分时间向条件；仅仅使用同一预测算法并不能保证可交换，区间覆盖保证也不能代替因果识别。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%BD%A2%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：共形推断">共形推断</a> · <a class="tag-link" href="?q=%E9%9D%A2%E6%9D%BF%E5%8F%8D%E4%BA%8B%E5%AE%9E&amp;show-results=1" title="全站搜索：面板反事实">面板反事实</a> · <a class="tag-link" href="?q=%E5%8F%AF%E4%BA%A4%E6%8D%A2%E6%80%A7&amp;show-results=1" title="全站搜索：可交换性">可交换性</a></p>
+<p class="catalog-actions"><a href="../issues/20261118/#paper-arxiv-2611-19209">查看本期</a><a href="https://arxiv.org/abs/2611.19209v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>董事会越信任 CEO，监督就一定更有效吗？</h3>
+<p class="catalog-citation">Bae, K.-H. et al. (2026). Board–CEO trust and concealing adverse news. TAR.</p><p class="catalog-meta">发表日期：2026-11-05</p>
+<p class="catalog-meta">期次日期：2026-11-18</p>
+<p>信任能够降低合作成本，也可能削弱监督中的警觉。文章根据董事与 CEO 的祖籍背景及国家间信任评分，构造董事会与 CEO 的信任指标，报告较高信任与更高的股价崩盘风险、坏消息隐瞒和重大财务重述相关。内幕交易模式显示，这些企业的董事对不利信息了解得更少，作者据此讨论监督松懈的解释。祖籍指标并非直接测量个人心理信任，观察到的关系也不等于随机提高信任就会导致监督失效。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%91%A3%E4%BA%8B%E4%BC%9A%E7%9B%91%E7%9D%A3&amp;show-results=1" title="全站搜索：董事会监督">董事会监督</a> · <a class="tag-link" href="?q=%E4%BF%A1%E4%BB%BB&amp;show-results=1" title="全站搜索：信任">信任</a> · <a class="tag-link" href="?q=%E5%9D%8F%E6%B6%88%E6%81%AF%E9%9A%90%E7%9E%92&amp;show-results=1" title="全站搜索：坏消息隐瞒">坏消息隐瞒</a></p>
+<p class="catalog-actions"><a href="../issues/20261118/#paper-10-2308-tar-2024-0298">查看本期</a><a href="https://doi.org/10.2308/tar-2024-0298" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>由现有成员选新成员，为什么未必选中最优秀的人？</h3>
+<p class="catalog-citation">Moisson, P.-H.; Tirole, J. (2026). Meritocracy and homophily in collegial organizations. REStud.</p><p class="catalog-meta">发表日期：2026-11-17</p>
+<p class="catalog-meta">期次日期：2026-11-18</p>
+<p>组织让现有成员共同挑选新成员，是否就能招到最优秀的人？文章用动态理论模型，分析成员偏好与自己相似的同事时，面向未来的选择如何影响人才选拔和组织构成。作者讨论了优待性政策、基于质量或多样性的资助、推翻多数决定和匿名招聘等干预，以及它们可能带来的意外后果。模型的价值在于说明制度设计中的权衡，不能把理论比较直接理解为某项招聘政策已经得到实证检验。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BA%BA%E6%89%8D%E9%80%89%E6%8B%94&amp;show-results=1" title="全站搜索：人才选拔">人才选拔</a> · <a class="tag-link" href="?q=%E5%90%8C%E8%B4%A8%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：同质偏好">同质偏好</a> · <a class="tag-link" href="?q=%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86&amp;show-results=1" title="全站搜索：组织治理">组织治理</a></p>
+<p class="catalog-actions"><a href="../issues/20261118/#paper-10-1093-restud-rdag122">查看本期</a><a href="https://doi.org/10.1093/restud/rdag122" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>机器学习创业企业：早期技术优势为何可能成为后期约束？</h3>
 <p class="catalog-citation">Fraser, J.; Ozcan, P. (2026). Growth paths in early machine learning ventures: technical configuration and competitive advantage over time. Organization Science.</p><p class="catalog-meta">发表日期：2026-11-10</p>
@@ -27,72 +91,8 @@ title: "新论文 · 第 4 页"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%9C%80%E6%B1%82%E6%88%AA%E5%B0%BE&amp;show-results=1" title="全站搜索：需求截尾">需求截尾</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%81%A5%E4%BC%98%E5%8C%96&amp;show-results=1" title="全站搜索：稳健优化">稳健优化</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：数据驱动决策">数据驱动决策</a></p>
 <p class="catalog-actions"><a href="../issues/20261118/#paper-10-1287-mnsc-2024-09021">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.09021" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>做空报告公开预警后，审计师是否有可见回应？</h3>
-<p class="catalog-citation">Li, D. et al. (2026). Auditors’ (non)responses to public warnings of audit risk: evidence from short-selling campaigns. Review of Accounting Studies.</p><p class="catalog-meta">发表日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>做空报告公开提出可信的审计风险指控之后，审计师会怎样回应？文章以针对上市公司的做空事件为研究场景，观察随后一年是否出现审计费用明显提高、终止业务、持续经营意见或内部控制缺陷报告等变化。作者报告，不少审计师没有出现这些可观察行动，较长的审计师与客户合作年限与未回应更为一致地相关。这提示读者关注风险预警后的外部可见反应，但公开指标无法穷尽内部审计工作，也不能单凭合作年限的相关关系认定独立性受损。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：审计风险">审计风险</a> · <a class="tag-link" href="?q=%E5%81%9A%E7%A9%BA%E6%8A%A5%E5%91%8A&amp;show-results=1" title="全站搜索：做空报告">做空报告</a> · <a class="tag-link" href="?q=%E5%AE%A1%E8%AE%A1%E7%8B%AC%E7%AB%8B%E6%80%A7&amp;show-results=1" title="全站搜索：审计独立性">审计独立性</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-10-1007-s11142-026-09996-7">查看本期</a><a href="https://doi.org/10.1007/s11142-026-09996-7" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>LATE 推断的新检验：利用工具变量假设的额外约束</h3>
-<p class="catalog-citation">D&#x27;Haultfœuille, X.; Hazard, Y.; Ketz, P. (2026). Never too LATE: exploiting restrictions for inference on the local average treatment effect. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-16</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>在相应的工具变量模型中，排除限制、独立性与单调性不仅给出 Wald 比率的 LATE 解释，也蕴含可用于推断的额外约束。文章利用这些约束提出条件似然比检验，讨论包括弱工具情形在内的推断，并以模拟比较检验功效。作者说明，检验本身计算时无需模拟，可通过二次规划求解。它提示弱工具问题不能只靠常规标准误处理；方法仍以所维护的识别和正则条件为前提，渐近性质不等于任意小样本都准确，也不为违反排除限制的工具提供修复。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=LATE&amp;show-results=1" title="全站搜索：LATE">LATE</a> · <a class="tag-link" href="?q=%E5%BC%B1%E5%B7%A5%E5%85%B7%E6%8E%A8%E6%96%AD&amp;show-results=1" title="全站搜索：弱工具推断">弱工具推断</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-arxiv-2611-21496">查看本期</a><a href="https://arxiv.org/abs/2611.21496v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>AI 算力扩张的信用网络：股本缓冲与风险传导</h3>
-<p class="catalog-citation">Van Nieuwerburgh, S.; Su, Z. (2026). Clouds of credit: mapping the financial web behind AI compute. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-18</p>
-<p>AI 算力建设中的企业、债权人与项目融资安排相互关联。文章梳理这张融资网络，在校准模型中分析股权缓冲、债务融资和企业间付款联系如何影响投资与风险分配。模型中，企业未充分计入对竞争者收入的影响，私人均衡投资因而可能超过社会最优；集中敞口与相互索偿仍会把低生产率情景的损失向外传导，非追索借款也使项目贷款人面临风险。它帮助区分技术增长前景与融资结构；扩张与损失属于模型情景结果，不能当作已发生损失或确定的未来预测。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=AI%E7%AE%97%E5%8A%9B&amp;show-results=1" title="全站搜索：AI算力">AI算力</a> · <a class="tag-link" href="?q=%E4%BF%A1%E7%94%A8%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：信用网络">信用网络</a> · <a class="tag-link" href="?q=%E6%83%85%E6%99%AF%E5%88%86%E6%9E%90&amp;show-results=1" title="全站搜索：情景分析">情景分析</a></p>
-<p class="catalog-actions"><a href="../issues/20261118/#paper-nber-w36032">查看本期</a><a href="https://www.nber.org/papers/w36032" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>银行解除管制后：竞争压力与投资机会应分开衡量</h3>
-<p class="catalog-citation">Bisetti, E.; Karolyi, S. A.; Lewellen, S. (2026). Deregulation, market structure, and the evolution of U.S. banking. Management Science.</p><p class="catalog-meta">发表日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>银行解除管制既可能引入竞争者，也可能扩大银行向外投资的机会；把两者混在一个指标中，容易得到难以比较的结论。文章构造美国州层面的网络化管制放松指标，分别刻画这两种变化，并考察存款融资成本、净息差、盈利和风险承担。作者报告，竞争压力上升伴随融资成本提高、息差与盈利下降，以及经营模式和风险承担的持续调整。研究价值在于拆开同一政策中的不同渠道；这些关系来自特定制度与度量，不能当作所有放松管制政策的一般结论。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%93%B6%E8%A1%8C%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：银行竞争">银行竞争</a> · <a class="tag-link" href="?q=%E7%AE%A1%E5%88%B6%E6%94%BE%E6%9D%BE&amp;show-results=1" title="全站搜索：管制放松">管制放松</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%89%BF%E6%8B%85&amp;show-results=1" title="全站搜索：风险承担">风险承担</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#paper-10-1287-mnsc-2025-01128">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.01128" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>量化社会影响能帮助企业吗？来自社会企业的随机实验</h3>
-<p class="catalog-citation">Colonnelli, E. et al. (2026). Measuring the impact of impact measurement. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>影响力投资常要求企业报告社会影响，但测量本身对企业有何作用，仍需检验。本文在印度高增长社会企业中开展影响测量干预的随机实验，另以早期投资者为对象，比较量化指标与一般定性影响表述。作者据实验报告，参与干预的企业在增长和融资上表现更好，投资者也更重视量化信息。研究把测量活动、信息披露与企业融资连接起来；这一情境中的结果不意味着任何指标披露都有效，也不能由融资表现直接推断真实社会福利已经改善。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%A4%BE%E4%BC%9A%E4%BC%81%E4%B8%9A&amp;show-results=1" title="全站搜索：社会企业">社会企业</a> · <a class="tag-link" href="?q=%E5%BD%B1%E5%93%8D%E5%8A%9B%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：影响力投资">影响力投资</a> · <a class="tag-link" href="?q=%E9%9A%8F%E6%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：随机实验">随机实验</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#paper-nber-w36009">查看本期</a><a href="https://www.nber.org/papers/w36009" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>跨产品 A/B 实验怎样比较？从样本提升转向全站影响</h3>
-<p class="catalog-citation">Zhang, X. et al. (2026). Making experiment results comparable through sitewide impact estimation. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>不同产品模块的实验提升率不宜直接排序：模块触达多少用户，以及这些用户原本贡献多少全站指标，都会影响推广后的实际规模。本文以 Roblox 的多类产品为背景，将目标量定义为测量期内把处理推广至整个目标人群后，全站聚合指标可能发生的变化；目标人群可以只是全站用户的一部分。作者分别讨论均值差指标和总体聚合量之比的估计，并用覆盖因素连接样本提升与全站影响。该框架帮助明确实验排序的目标，但外推仍依赖目标人群、推广情景及测量期的设定，不能把短期全站影响直接当作长期收益或福利。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=A%2FB%E6%B5%8B%E8%AF%95&amp;show-results=1" title="全站搜索：A/B测试">A/B测试</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E6%8C%87%E6%A0%87&amp;show-results=1" title="全站搜索：实验指标">实验指标</a> · <a class="tag-link" href="?q=%E5%85%A8%E7%AB%99%E5%BD%B1%E5%93%8D&amp;show-results=1" title="全站搜索：全站影响">全站影响</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#paper-arxiv-2611-18411">查看本期</a><a href="https://arxiv.org/abs/2611.18411v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>经理生女儿后，企业中女性的就业与薪酬怎样变化？</h3>
-<p class="catalog-citation">Ronchi, M.; Smith, N. (2026). Daddy’s girl: daughters, managerial decisions, and gender inequality. REStud.</p><p class="catalog-meta">发表日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>经理的个人经历与企业用人决策有什么联系？文章利用丹麦登记数据，比较男性经理新生儿为女儿或儿子之后，同一企业中女性的相对薪酬与就业变化。作者报告，首次生女儿之后，这两项女性劳动结果有所上升，招聘也更倾向于用条件相近的女性替代男性，而未检测到显著的企业业绩变化。子女性别是研究经理性别观念的间接切入点，不能把登记资料中的比较当作随机改变经理态度的实验，也不能推断所有企业都会出现同样变化。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%80%A7%E5%88%AB%E5%B7%AE%E5%BC%82&amp;show-results=1" title="全站搜索：性别差异">性别差异</a> · <a class="tag-link" href="?q=%E6%8B%9B%E8%81%98%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：招聘决策">招聘决策</a> · <a class="tag-link" href="?q=%E7%99%BB%E8%AE%B0%E6%95%B0%E6%8D%AE&amp;show-results=1" title="全站搜索：登记数据">登记数据</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#paper-10-1093-restud-rdag096">查看本期</a><a href="https://doi.org/10.1093/restud/rdag096" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>矩条件可能错设时，DML 的正交得分该怎样调整？</h3>
-<p class="catalog-citation">Kang, B. (2026). Orthogonal scores and double/debiased machine learning for possibly misspecified GMM. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-17</p>
-<p>过度识别 GMM 的矩条件未必在总体中严格成立，常见正交得分的构造也可能需要调整。本文把矩条件均值、Jacobian 与权重矩阵估计带来的影响纳入得分修正；在正确设定时，新增调整项消失。研究结合交叉拟合讨论低维 GMM 目标量的推断，并以部分线性工具变量模型和多工具变量的 LATE 模型说明应用。这里针对的是给定估计准则下目标量的统计推断；允许矩条件错设，不等于失效工具变量仍能识别原来的因果参数，实际使用仍须检查其正则条件。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：双重机器学习">双重机器学习</a> · <a class="tag-link" href="?q=GMM&amp;show-results=1" title="全站搜索：GMM">GMM</a> · <a class="tag-link" href="?q=%E6%A8%A1%E5%9E%8B%E9%94%99%E8%AE%BE&amp;show-results=1" title="全站搜索：模型错设">模型错设</a></p>
-<p class="catalog-actions"><a href="../issues/20261117/#paper-arxiv-2611-17578">查看本期</a><a href="https://arxiv.org/abs/2611.17578v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 64 页 · 共 633 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-64.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><a href="research-frontier.html">首页</a><a rel="prev" href="research-frontier-3.html">上一页</a><span aria-current="page">第 4 / 65 页 · 共 641 条</span><a rel="next" href="research-frontier-5.html">下一页</a><a href="research-frontier-65.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>

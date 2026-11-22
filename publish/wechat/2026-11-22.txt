@@ -1,0 +1,24 @@
+📙 连享会 · 快讯 | 2026.11.22
+
+📰 01｜论文 · JPE：企业共用高管，会增加劳动力市场串谋吗？
+企业之间共享董事或高管，可能带来怎样的竞争风险？文章结合共同领导关系与法院中的劳动市场串谋证据，考察治理联系和企业竞争之间的关联，适用范围需结合具体样本与识别设计。
+引文：Herrera-Caicedo, Jeffers & Prager (2026). Collusion through Common Leadership. JPE.
+主页： https://www.journals.uchicago.edu/doi/10.1086/743900 
+
+📰 02｜论文 · Contemporary Accounting Research：税务机关查看企业年报，会怎样关联跨国利润转移？
+税务机关下载企业年报的痕迹，可以用来研究什么？文章区分属地与集团层面的跨国监控，考察其与利润转移的联系；公开信息查阅只是监控代理指标，不能直接当作审计强度或因果效应。
+引文：Chi et al. (2026). The Effect of Non‐US Tax Authority Monitoring on Income Shifting by Affiliates of US Multinationals: Evidence From EDGAR Search Activity. Contemporary Accounting Research.
+主页： https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.70101 
+
+📦 03｜软件 · R：BMisc 1.4.11：首次处理期与加权分位数的修复值得检查
+维护者修复了未排序面板的首次处理组别识别及加权分位数计算。Bootstrap 的实现调整也可能改变固定种子下的结果，已有分析应核对所用版本和处理定义。
+版本：R / BMisc 1.4.11；发布：2026-11-21
+CRAN： https://cran.r-project.org/package=BMisc 
+
+📦 04｜软件 · R：nethist 1.2.0：从多层关系网络提取区块结构
+新版访问器便于提取网络区块标签和连接结构。区块原概率与密度标准化结果须区分，多层节点必须正确对应；它不能直接用于任意有向网络。
+版本：R / nethist 1.2.0；发布：2026-11-21
+CRAN： https://cran.r-project.org/package=nethist 
+
+——
+🌐 更多内容： https://lianxhcn.github.io/brief/issues/20261122/ 

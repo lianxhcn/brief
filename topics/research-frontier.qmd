@@ -8,9 +8,73 @@ title: "新论文"
 
 <p class="catalog-meta">每页最多 10 条 · 按关键词查找请使用顶部搜索</p>
 
-<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 64 页 · 共 633 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-64.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="上方分页"><span aria-current="page">第 1 / 65 页 · 共 641 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-65.html">末页</a></nav>
 
 <div class="catalog-grid">
+<article class="catalog-card">
+<h3>风险偏好与主观信念，如何一起影响选择？</h3>
+<p class="catalog-citation">Delavande, A.; Ganguli, J.; Mengel, F. (2026). Uncertainty Attitudes, Subjective Beliefs, and Decisions Under Uncertainty. Management Science.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>同样面对不确定性，不同选择究竟来自偏好差异，还是对事件概率的判断不同？文章在面向一般人群的健康与金融决策调查实验中，同时收集风险与模糊态度、概率加权、损失厌恶及主观概率信念，用这些信息比较不确定性决策的结构模型。作者发现偏好与信念均有明显异质性；在部分情境中，结合来源相关概率加权的前景理论比主观期望效用更贴合数据。这里的比较依赖具体决策、信念分布与拟合标准，不能据此把某一模型视为普遍优胜者。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%B8%BB%E8%A7%82%E4%BF%A1%E5%BF%B5&amp;show-results=1" title="全站搜索：主观信念">主观信念</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：风险偏好">风险偏好</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-10-1287-mnsc-2024-06232">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.06232" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>长期分位处理效应：结合短期实验与长期观察数据</h3>
+<p class="catalog-citation">Liu, N. et al. (2026). Long-term quantile treatment effects with combined experimental and observational data. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-17</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>短期实验可以提供较可信的近期比较，却未必观察到政策的长期分配影响。文章研究如何结合短期实验与长期观察数据，识别、估计并推断长期分位处理效应曲线。作者在潜在无混淆框架下推导有效影响函数，提出相应的半参数估计与乘数 bootstrap，用于整条分位曲线的同时置信带。长期识别仍依赖数据结合所需的假设；有一份实验数据并不自动使长期观察数据也具有随机分配性质。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%86%E4%BD%8D%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：分位处理效应">分位处理效应</a> · <a class="tag-link" href="?q=%E6%95%B0%E6%8D%AE%E8%9E%8D%E5%90%88&amp;show-results=1" title="全站搜索：数据融合">数据融合</a> · <a class="tag-link" href="?q=%E9%95%BF%E6%9C%9F%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：长期效应">长期效应</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-arxiv-2611-22984">查看本期</a><a href="https://arxiv.org/abs/2611.22984v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>资产流动性溢价，会怎样传导到保险价格？</h3>
+<p class="catalog-citation">Knox, B.; Sørensen, J. A. (2026). Insurers’ Investments and Insurance Prices. Management Science.</p><p class="catalog-meta">发表日期：2026-11-13</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>保险公司的投资收益，为什么可能影响投保人支付的价格？文章提出一个机制：承保业务提供较稳定的资金，使保险公司能够持有非流动资产并获得流动性溢价，再通过较低保险价格把部分收益传给投保人。作者结合寿险与财产意外险的经验数据，考察资金稳定性、预期投资回报和价格之间的关系，并区分由稳定资金驱动的回报部分。研究把负债端融资与保险定价联系起来，但不能由此推断追逐任何高回报资产都会给投保人带来更低保费。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%9D%E9%99%A9%E5%AE%9A%E4%BB%B7&amp;show-results=1" title="全站搜索：保险定价">保险定价</a> · <a class="tag-link" href="?q=%E6%B5%81%E5%8A%A8%E6%80%A7%E6%BA%A2%E4%BB%B7&amp;show-results=1" title="全站搜索：流动性溢价">流动性溢价</a> · <a class="tag-link" href="?q=%E7%A8%B3%E5%AE%9A%E8%9E%8D%E8%B5%84&amp;show-results=1" title="全站搜索：稳定融资">稳定融资</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-10-1287-mnsc-2024-09038">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.09038" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>网络未知且存在干扰，工具变量如何调整？</h3>
+<p class="catalog-citation">Niu, Y.; Xu, Z. (2026). Network-adaptive instrumental variables. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-18</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>存在网络干扰、内生协变量且网络权重未知时，怎样构造有效工具变量？文章针对空间自回归模型提出网络自适应工具变量，在网络条件排除限制和信息等价等假设下建立有效矩，并讨论结构均值系数与网络参数的联合识别。扰动溢出参数和创新方差的识别还需要附加协方差限制。作者给出 GMM 估计、渐近推断及均值网络溢出检验；方法并不免除排除限制，也不意味着任意未知网络都可直接套用。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E7%BD%91%E7%BB%9C%E5%B9%B2%E6%89%B0&amp;show-results=1" title="全站搜索：网络干扰">网络干扰</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E7%A9%BA%E9%97%B4%E8%87%AA%E5%9B%9E%E5%BD%92&amp;show-results=1" title="全站搜索：空间自回归">空间自回归</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-arxiv-2611-25222">查看本期</a><a href="https://arxiv.org/abs/2611.25222v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>税务机关查看企业年报，会怎样关联跨国利润转移？</h3>
+<p class="catalog-citation">Chi, S. et al. (2026). The Effect of Non‐US Tax Authority Monitoring on Income Shifting by Affiliates of US Multinationals: Evidence From EDGAR Search Activity. CAR.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>公开年报的访问记录，能否帮助研究跨国税务监管？文章利用外国税务机关下载美国跨国企业 SEC 年报的记录作为监控代理指标，区分子公司属地监控与整个企业集团面对的跨国监控。作者发现，单一属地监控与利润转移的关系并不稳定，而集团层面的合计监控与其他子公司的行为也有关联；这种关联随信息交换安排、披露细节与执法能力而不同。研究提供了利用公开信息访问痕迹研究监管的思路，但下载记录不等同于完整审计强度，相关关系也不能直接解释为普遍因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%88%A9%E6%B6%A6%E8%BD%AC%E7%A7%BB&amp;show-results=1" title="全站搜索：利润转移">利润转移</a> · <a class="tag-link" href="?q=%E7%A8%8E%E5%8A%A1%E7%9B%91%E6%8E%A7&amp;show-results=1" title="全站搜索：税务监控">税务监控</a> · <a class="tag-link" href="?q=%E5%85%AC%E5%BC%80%E6%8A%AB%E9%9C%B2&amp;show-results=1" title="全站搜索：公开披露">公开披露</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-10-1111-1911-3846-70101">查看本期</a><a href="https://doi.org/10.1111/1911-3846.70101" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>相同企业放在不同国家，投资者为何给出不同评价？</h3>
+<p class="catalog-citation">Colonnelli, E. et al. (2026). How does capital flow to poor countries? Evidence from venture capital and private equity. NBER (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-16</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>文章用带有激励的调查实验，随机改变假设企业的特征、所在国与投资条款，研究风险投资和私募股权投资者如何评价贫穷国家的企业。作者报告，其他条件相近时，贫穷国家的机会得到的兴趣较少，而专注新兴市场的投资者这一差距较小；问卷还考察信息获取、国家风险管理和退出方式。实验对象是假设投资机会的评价，不能把问卷中的差异直接当作实际资本流量的变化或国家风险管理的因果效果。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B7%A8%E5%9B%BD%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：跨国投资">跨国投资</a> · <a class="tag-link" href="?q=%E5%9B%BD%E5%AE%B6%E9%A3%8E%E9%99%A9&amp;show-results=1" title="全站搜索：国家风险">国家风险</a> · <a class="tag-link" href="?q=%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：调查实验">调查实验</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-nber-w36036">查看本期</a><a href="https://www.nber.org/papers/w36036" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>共同缩放概率，会怎样改变人们的风险选择？</h3>
+<p class="catalog-citation">McGranaghan, C. et al. (2026). Connecting Common Ratio and Common Consequence Preferences. JPE.</p><p class="catalog-meta">发表日期：2026-11-10</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>把两种彩票的获奖概率按同一比例缩小，或者给它们加入相同结果，人们是否还会保持原来的选择？共同比率效应与共同结果效应是偏离期望效用的两类经典现象。文章不把二者分开处理，而是在不同参数组合下考察它们如何共同出现，发现若干现有非期望效用模型难以解释的规律，并据此提出强调上行潜力的模型。它为比较风险选择模型提供了新的实验角度，但这些参数范围内的选择规律不等于对所有情境的统一解释。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%9C%9F%E6%9C%9B%E6%95%88%E7%94%A8&amp;show-results=1" title="全站搜索：期望效用">期望效用</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E5%81%8F%E5%A5%BD&amp;show-results=1" title="全站搜索：风险偏好">风险偏好</a> · <a class="tag-link" href="?q=%E8%A1%8C%E4%B8%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：行为实验">行为实验</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-10-1086-743896">查看本期</a><a href="https://doi.org/10.1086/743896" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
+<article class="catalog-card">
+<h3>企业共用高管，会增加劳动力市场串谋吗？</h3>
+<p class="catalog-citation">Herrera-Caicedo, A.; Jeffers, J.; Prager, E. (2026). Collusion through Common Leadership. JPE.</p><p class="catalog-meta">发表日期：2026-11-11</p>
+<p class="catalog-meta">期次日期：2026-11-22</p>
+<p>两家企业共享董事或高管，除了影响治理，还可能怎样改变企业之间的竞争？文章把这种共同领导关系与解封的法院证据结合，观察劳动力市场中的串谋。作者报告，共同领导关系出现后，两家企业发生串谋的可能性上升，这一关系不能简单归结为产品市场或劳动力市场竞争距离更近。研究提示，共享领导人员也可能成为竞争政策需要关注的联系；证据来自特定法院材料和经验设计，不能据此认定所有交叉任职都会引发串谋。</p>
+<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%85%B1%E5%90%8C%E9%AB%98%E7%AE%A1&amp;show-results=1" title="全站搜索：共同高管">共同高管</a> · <a class="tag-link" href="?q=%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%B8%82%E5%9C%BA&amp;show-results=1" title="全站搜索：劳动力市场">劳动力市场</a> · <a class="tag-link" href="?q=%E5%8F%8D%E5%9E%84%E6%96%AD&amp;show-results=1" title="全站搜索：反垄断">反垄断</a></p>
+<p class="catalog-actions"><a href="../issues/20261122/#paper-10-1086-743900">查看本期</a><a href="https://doi.org/10.1086/743900" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+</article>
 <article class="catalog-card">
 <h3>责任投资承诺，能否改善市场上的信息？</h3>
 <p class="catalog-citation">Agarwal, S. et al. (2026). Do Fund Managers’ Commitments to Responsible Investing Affect Private Information Acquisition, Information Environment, and Corporate Sustainability? Management Science.</p><p class="catalog-meta">发表日期：2026-11-16</p>
@@ -27,72 +91,8 @@ title: "新论文"
 <p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E5%B1%80%E9%83%A8%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94&amp;show-results=1" title="全站搜索：局部处理效应">局部处理效应</a> · <a class="tag-link" href="?q=%E5%80%BE%E5%90%91%E5%BE%97%E5%88%86&amp;show-results=1" title="全站搜索：倾向得分">倾向得分</a></p>
 <p class="catalog-actions"><a href="../issues/20261121/#paper-arxiv-2611-25253">查看本期</a><a href="https://arxiv.org/abs/2611.25253v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
 </article>
-<article class="catalog-card">
-<h3>样本看得更多，为何反而觉得风险更大？</h3>
-<p class="catalog-citation">Liu, T.; Scheibehenne, B. (2026). Sample Range as Subjective Variability and Implications for Experience-Based Decision Making. Management Science.</p><p class="catalog-meta">发表日期：2026-11-19</p>
-<p class="catalog-meta">期次日期：2026-11-21</p>
-<p>描述一组数的波动时，人们主要依赖方差，还是最小值与最大值之间的距离？文章通过四项行为实验，考察样本极差如何影响主观波动判断。总体分布相同、观察更多样本时，极差通常会增大，方差并没有同样的机械关系；参与者仍可能把更大的极差理解为更高风险，进而改变对不确定收益的评价。研究为经验学习、过度自信和风险沟通提供解释，但实验中的心理机制不能直接套用于所有金融或管理决策。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%A0%B7%E6%9C%AC%E6%9E%81%E5%B7%AE&amp;show-results=1" title="全站搜索：样本极差">样本极差</a> · <a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%84%9F%E7%9F%A5&amp;show-results=1" title="全站搜索：风险感知">风险感知</a> · <a class="tag-link" href="?q=%E7%BB%8F%E9%AA%8C%E5%86%B3%E7%AD%96&amp;show-results=1" title="全站搜索：经验决策">经验决策</a></p>
-<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2024-05050">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.05050" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>新闻网站的竞争，为何可能伴随更多观点化报道？</h3>
-<p class="catalog-citation">Chatterji, A. et al. (2026). Opinion Trumps Fact: Entry and Competition in Online Political News. Management Science.</p><p class="catalog-meta">发表日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-21</p>
-<p>报道同一事件，不同新闻网站为何会采用不同程度的评论性与说服性语言？文章以2014—2021年美国在线政治新闻为对象，构造文章观点化指标，报告新进入者的报道更偏观点表达。此类内容与更多社交互动和网页访问相联系，作者据此讨论广告和竞争激励，也观察到它与愤怒及仇恨表达的关联。研究提供文本测量与媒体商业模式的分析思路；这些相关证据不能直接证明竞争导致内容失真，也不能把观点程度等同于事实错误。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E6%96%B0%E9%97%BB%E7%AB%9E%E4%BA%89&amp;show-results=1" title="全站搜索：新闻竞争">新闻竞争</a> · <a class="tag-link" href="?q=%E6%96%87%E6%9C%AC%E6%B5%8B%E9%87%8F&amp;show-results=1" title="全站搜索：文本测量">文本测量</a> · <a class="tag-link" href="?q=%E5%B9%B3%E5%8F%B0%E6%BF%80%E5%8A%B1&amp;show-results=1" title="全站搜索：平台激励">平台激励</a></p>
-<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2025-01487">查看本期</a><a href="https://doi.org/10.1287/mnsc.2025.01487" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>并购申报豁免，会遗漏哪些医疗市场变化？</h3>
-<p class="catalog-citation">Wollmann, T. G. (2026). How to Get Away with Merger: Stealth Consolidation and Its Effects on US Dialysis. JPE.</p><p class="catalog-meta">发表日期：2026-11-19</p>
-<p class="catalog-meta">期次日期：2026-11-21</p>
-<p>并购交易低于申报门槛，是否意味着它对市场的影响也很小？文章研究美国透析行业，比较需要申报与获得豁免的并购在执法、市场集中度以及患者住院和生存指标方面的差别，并用结构模型模拟取消申报豁免的影响。作者认为，申报制度之外的交易也可能改变竞争与医疗质量。结论须结合该行业的实证设计及模型假设理解；期刊说明，公开复现资料部分使用合成数据执行代码，不能据此重现同一实证结果。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%B9%B6%E8%B4%AD%E5%AE%A1%E6%9F%A5&amp;show-results=1" title="全站搜索：并购审查">并购审查</a> · <a class="tag-link" href="?q=%E5%8C%BB%E7%96%97%E8%B4%A8%E9%87%8F&amp;show-results=1" title="全站搜索：医疗质量">医疗质量</a> · <a class="tag-link" href="?q=%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B&amp;show-results=1" title="全站搜索：结构模型">结构模型</a></p>
-<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1086-743329">查看本期</a><a href="https://doi.org/10.1086/743329" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>医疗与教育支出的短期财政乘数：利用选举预算周期识别</h3>
-<p class="catalog-citation">Francois, J. N. D.; Kouame, W. A.; Ruch, F. U. (2026). Fiscal multipliers of government health and education expenditures: Evidence from electoral budget cycles. World Bank (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-13</p>
-<p class="catalog-meta">期次日期：2026-11-21</p>
-<p>政府医疗和教育支出除了长期的人力资本收益，能否在短期带动产出？文章利用发展中国家的预算与选举安排，把事先通过的预算额度同预定选举时间相互作用，构造相关支出变化的工具变量，并考察不同经济状态与制度环境下的乘数差异。识别仍依赖工具变量的有效性；如果选举周期通过其他路径直接影响产出，排除限制就需要进一步论证。研究针对特定支出类别和样本，不能把其估计直接套用于所有财政项目。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%B4%A2%E6%94%BF%E4%B9%98%E6%95%B0&amp;show-results=1" title="全站搜索：财政乘数">财政乘数</a> · <a class="tag-link" href="?q=%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F&amp;show-results=1" title="全站搜索：工具变量">工具变量</a> · <a class="tag-link" href="?q=%E9%80%89%E4%B8%BE%E5%91%A8%E6%9C%9F&amp;show-results=1" title="全站搜索：选举周期">选举周期</a></p>
-<p class="catalog-actions"><a href="../issues/20261121/#paper-wb-wps11499">查看本期</a><a href="http://documents.worldbank.org/curated/en/099047311132640193" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>信息网络中的中心人，一定会主动搜集信息吗？</h3>
-<p class="catalog-citation">Moisan, F.; Choi, S.; Goyal, S. (2026). Connectors and Influencers. Management Science.</p><p class="catalog-meta">发表日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-21</p>
-<p>如果自己搜集信息需要成本，维持分享信息的关系也需要成本，群体会形成怎样的网络？文章结合理论与不同规模的群体实验，发现星状网络较常见，但处于中心位置的人未必始终积极搜集信息。群体规模以及参与者能看到的收益信息，会影响中心人的活跃程度，进而关联群体表现与收益分配。它提醒研究者区分网络位置和实际信息生产；受控任务中的机制不等于任何组织都应设置单一中心。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C&amp;show-results=1" title="全站搜索：信息网络">信息网络</a> · <a class="tag-link" href="?q=%E4%B8%AD%E5%BF%83%E8%8A%82%E7%82%B9&amp;show-results=1" title="全站搜索：中心节点">中心节点</a> · <a class="tag-link" href="?q=%E5%AE%9E%E9%AA%8C%E7%A0%94%E7%A9%B6&amp;show-results=1" title="全站搜索：实验研究">实验研究</a></p>
-<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2024-07308">查看本期</a><a href="https://doi.org/10.1287/mnsc.2024.07308" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>人觉得难的选择题，和算法判断的一样吗？</h3>
-<p class="catalog-citation">Agarwal, S. et al. (2026). Human Performance at Solving 0-1 Knapsack Problems: Results from a Large-Scale Field Experiment. Management Science.</p><p class="catalog-meta">发表日期：2026-11-17</p>
-<p class="catalog-meta">期次日期：2026-11-21</p>
-<p>在容量有限时选择价值最高的物品，是经典的 0-1 背包问题。文章与移动游戏平台合作，把预先设计的题目随机分配到玩家的作答机会，比较人的表现与不同题目难度指标。作者发现，一些传统指标判定较难的题目，玩家反而表现更好；启发式算法与最优解之间的差距可能更贴近人的困难程度。研究还讨论重复练习与后续表现的关系。证据来自特定游戏任务，不能直接推广为所有人的决策能力或一般算法性能排序。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98&amp;show-results=1" title="全站搜索：背包问题">背包问题</a> · <a class="tag-link" href="?q=%E7%8E%B0%E5%9C%BA%E5%AE%9E%E9%AA%8C&amp;show-results=1" title="全站搜索：现场实验">现场实验</a> · <a class="tag-link" href="?q=%E9%97%AE%E9%A2%98%E9%9A%BE%E5%BA%A6&amp;show-results=1" title="全站搜索：问题难度">问题难度</a></p>
-<p class="catalog-actions"><a href="../issues/20261121/#paper-10-1287-mnsc-2023-00747">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.00747" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>二阶正交的统计成本：去偏估计要付出多少方差？</h3>
-<p class="catalog-citation">Escanciano, J. C.; Terschuur, J. R. (2026). The statistical cost of second-order orthogonality. arXiv (Working paper).</p><p class="catalog-meta">提交/版本日期：2026-11-19</p>
-<p class="catalog-meta">期次日期：2026-11-21</p>
-<p>去偏机器学习消除了干扰函数估计的一阶影响，剩余二次偏差仍可能妨碍推断。文章以抵消二次敏感性所需修正的最小方差衡量二阶正交的统计成本，并联合选择矩条件与修正；一阶有效的矩未必使总方差最小。作者还研究精确修正成本无限时的部分消偏，在方差膨胀约束下选择修正程度。相关推断依赖文中的模型、正则及自适应选择条件，不能据此认定二阶方法普遍优于一阶方法。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E5%8E%BB%E5%81%8F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&amp;show-results=1" title="全站搜索：去偏机器学习">去偏机器学习</a> · <a class="tag-link" href="?q=%E4%BA%8C%E9%98%B6%E6%AD%A3%E4%BA%A4&amp;show-results=1" title="全站搜索：二阶正交">二阶正交</a> · <a class="tag-link" href="?q=%E5%81%8F%E5%B7%AE%E6%96%B9%E5%B7%AE%E6%9D%83%E8%A1%A1&amp;show-results=1" title="全站搜索：偏差方差权衡">偏差方差权衡</a></p>
-<p class="catalog-actions"><a href="../issues/20261121/#paper-arxiv-2611-25702">查看本期</a><a href="https://arxiv.org/abs/2611.25702v1" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
-<article class="catalog-card">
-<h3>风险投资机构如何帮助创业者流向下一家企业？</h3>
-<p class="catalog-citation">Hu, Z. (2026). Redeploying the Jockeys: The Intermediary Role of Venture Capital in Entrepreneurial Labor Markets. Management Science.</p><p class="catalog-meta">发表日期：2026-11-12</p>
-<p class="catalog-meta">期次日期：2026-11-20</p>
-<p>风险投资机构除了提供资本，还会怎样帮助创业者找到下一份工作？文章考察创业者在同一风险投资机构投资组合企业之间的流动，并用调查材料讨论投资者如何运用对创始人能力的私人信息匹配人才。作者报告，组合内的人才流动与基金回报等指标相关，前合伙人与后续流动之间也保留联系，并讨论不对称学习的解释。研究提供了把金融中介视为人才中介的角度；调查与观察联系不能证明所有风险投资关系都会提升创业者或企业绩效。</p>
-<p class="catalog-tags"><strong>标签：</strong><a class="tag-link" href="?q=%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84&amp;show-results=1" title="全站搜索：风险投资">风险投资</a> · <a class="tag-link" href="?q=%E4%BA%BA%E6%89%8D%E6%B5%81%E5%8A%A8&amp;show-results=1" title="全站搜索：人才流动">人才流动</a> · <a class="tag-link" href="?q=%E4%BF%A1%E6%81%AF%E4%B8%AD%E4%BB%8B&amp;show-results=1" title="全站搜索：信息中介">信息中介</a></p>
-<p class="catalog-actions"><a href="../issues/20261120/#paper-10-1287-mnsc-2023-01626">查看本期</a><a href="https://doi.org/10.1287/mnsc.2023.01626" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
-</article>
 </div>
 
-<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 64 页 · 共 633 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-64.html">末页</a></nav>
+<nav class="catalog-pagination" aria-label="下方分页"><span aria-current="page">第 1 / 65 页 · 共 641 条</span><a rel="next" href="research-frontier-2.html">下一页</a><a href="research-frontier-65.html">末页</a></nav>
 
 <div class="promotion-slot"><div class="course-hub-callout" role="complementary" aria-label="最新课程"><p class="course-hub-callout__title">最新课程</p><ul><li data-course-id="llm-agent-2026" data-course-start="2026-11-28" data-course-end="2026-11-29" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1940.html" target="_blank" rel="noopener noreferrer">LLM × Agent：超级研究者专题</a><span class="course-dates">11/28、11/29</span></li><li data-course-id="qsm-2026" data-course-start="2026-12-19" data-course-end="2026-12-20" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1962.html" target="_blank" rel="noopener noreferrer">定量空间模型 (QSM) 专题</a><span class="course-dates">12/19、12/20</span></li><li data-course-id="aie-2027" data-course-start="2027-01-02" data-course-end="2027-01-03" data-course-status="confirmed"><a href="https://www.lianxh.cn/details/1977.html" target="_blank" rel="noopener noreferrer">多 Agents 科研系统专题</a><span class="course-dates">01/02、01/03</span></li></ul></div></div>
